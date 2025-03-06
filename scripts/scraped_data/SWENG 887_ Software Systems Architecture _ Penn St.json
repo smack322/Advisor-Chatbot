@@ -1,0 +1,527 @@
+{
+    "metadata": {
+        "title": "SWENG 887: Software Systems Architecture – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1794"
+    },
+    "headings": {
+        "h2": "Course Topics",
+        "h4": "Unlocking Your Potential"
+    },
+    "paragraphs": [
+        "SWENG 887: Software Systems Architecture is a three (3) credit course discusses software systems architecture, architectural design principles and patterns, documentation and evaluation of software architectures, and reuse of architectural assets through frameworks and software product lines.",
+        "Designing architectures of software-intensive systems can be challenging. The requirements that drive a system’s architecture are often quite different from the requirements that define the functionality of a system. They have a longer-term impact on the system than most functional requirements, some are highly subjective or difficult to articulate, they have non-obvious interactions with each other, and many stakeholders don’t understand the architectural implications of what they need, so they are likely to overlook some of their architecturally significant requirements. The architecture must anticipate change in the functional requirements, in business conditions, in available technologies, in the development organization itself, and so forth. The architecture must also be stabilized while many functional and business requirements are still unstable. Architecturally significant requirements can be difficult to test before the system is operational. They often have cross-cutting impact, making shortcomings difficult to correct after development has progressed, and thus making them high risk. So, another objective of this course is to introduce you to fundamental concepts, techniques and methods used for creating and managing architectures of software intensive systems.",
+        "(3 credits) A software architecture is an abstract view of a software system distinct from the details of how such a system is implemented. It plays a significant role in developing software systems that meet quality expectations (such as performance, scalability, availability, maintainability, etc.) of their stakeholders.",
+        "This 3-credit course introduces students to the fundamental concepts of software architecture and architectural design principles. They learn about the forces that shape an architecture of a system, how an architecture is created and documented, and how an architecture is evaluated for its fitness to a desired purpose, and how architecture development managed against competing interests of customer value, delivery and cost.",
+        "Specific coverage will include:",
+        "Len Bass, Paul Clements, and Rick Kazman. 2022. Software Architecture in Practice (4th. ed.). Addison-Wesley.",
+        "Freely accessible through Penn State Libraries using the Safari Learning Platform: Academic Edition database: https://learning.oreilly.com/library/view/software-architecture-in/9780136885979/",
+        "Proctored Exams- A final exam will be proctored via Honorlock (online proctoring software)",
+        "Grades will be based on the following scale:",
+        "A = 95 – 100, A- = 90 – 94, B+ = 87 – 89, B = 84 – 86, B- = 80 – 83, C+ = 77 – 79, C = 70 – 76, D = 60 – 69, and F = 60 and below.",
+        "This course will require each student to be an active part of a group.  The first assignment will require you to identify your group members through a discussion by answering questions and identifying your group members.  It is crucial you participate in all the group assignments since there will be two peer reviews to account for your participation. Please be kind and responsible to your team members by doing your part in a timely manner.",
+        "Peer assessment is a valuable tool for me to evaluate the individual contributions of team members. While I will be able to evaluate your individual contributions primarily from observations of your postings and chats, the assessment provides additional information on what might take place outside those meetings. It is important and I urge you to take it seriously. It’s not a popularity contest. It’s a frank, honest assessment. I’m also requiring that you provide an assessment of your own contribution. Again, be honest. I’m not looking for modesty. If you feel you made the most valuable contributions to the group go ahead and evaluate it that way.",
+        "Guidelines:",
+        "There will be one final exam that will use Honorlock Proctoring.",
+        "* subject to change",
+        "This course will provide you with a thorough introduction to:",
+        "During this course you will expand your knowledge of the lesson topics each week.",
+        "In this lesson, you will embark on an exhilarating journey into the heart of digital creation with our cutting-edge unit, where the mysteries of Software Architecture will unfold before your eyes! This adventure is not just about learning; it’s about discovering the blueprint that shapes the digital world around us.",
+        "Unit/Lesson Objectives:",
+        "Reading Materials to Fuel Your Journey:",
+        "Content and Chapter Highlights: Prepare to be engaged with content that’s designed not just to inform, but to inspire. Each chapter is crafted to highlight the critical elements of software architecture, setting the stage for your journey ahead.",
+        "In this lesson, we will step into the arena of innovation and strategic thinking with our dynamic unit, crafted to transform you into a master of software architecture and its critical role in business success. This unit is a thrilling exploration of the symbiotic relationship between business goals, quality attributes, and the architectural design of software systems. Prepare to be challenged and inspired!",
+        "Unit/Lesson Objectives:",
+        "Engaging Readings to Propel Your Understanding:",
+        "Lesson 2 Content and Chapter Highlights: This lesson is your gateway to not just learning, but experiencing the transformative power of software architecture. Each chapter is meticulously curated to bring you closer to mastering the art and science of designing software systems that stand the test of time and technology.",
+        "In this lesson, we will prepare for a journey that will catapult you into the heart of software engineering’s most exhilarating challenge: Designing an Architecture. This lesson is an adventure into the core of what makes software systems robust, reliable, and ready to face the future.",
+        "Unit/Lesson Objectives:",
+        "Empowering Readings:",
+        "Lesson 3 Content and Chapter Highlights: This lesson is designed not just to inform but to transform. You’ll not only read about architectural design; you’ll be immersed in the cutting-edge practices that define the field today. From theoretical foundations to practical applications, each chapter is a piece of the puzzle, bringing you closer to the mastery of designing an effective architecture.",
+        "We will start the lesson by diving into the thrilling world of software architecture with Lesson 4, where principles and precision collide in the quest for design excellence. This unit isn’t just a learning experience; it’s a pivotal journey into the heart of architectural innovation, where every principle and design element is a step towards mastery. Get ready to explore the intricate dance between necessity and creativity, where disciplined methods meet the boundless possibilities of design.",
+        "Unit/Lesson Objectives:",
+        "Engaging Readings to Propel Your Journey:",
+        "Lesson 4 Content and Chapter Highlights: Prepare to be captivated by content that doesn’t just educate but inspires. This lesson is an expedition into the essence of architectural design, with each highlight offering insights into the principles that guide the creation of software systems that stand the test of time and technology.",
+        "In this lesson, you will explore the electrifying realm of architectural evaluation where the spotlight shines on the critical task of assessing software architecture’s fitness for purpose. This isn’t just another unit; it’s a pivotal expedition into the methodologies and techniques that ensure the architectures we design can stand the test of real-world demands and challenges. Prepare to unravel the methodologies that safeguard our digital creations against the unforeseeable future.",
+        "Unit/Lesson Objectives:",
+        "Engaging Readings to Propel Your Journey:",
+        "Lesson 5 Content and Chapter Highlights: This lesson is designed to transform you from a participant in architectural design to a critical evaluator, capable of discerning the subtle interplays that define successful software architectures. Each section of the content is a stepping stone towards achieving mastery in the art of architectural evaluation.",
+        "In this lesson we will embark on an intriguing exploration of the architectural vistas that shape the way we understand, document, and communicate the essence of software systems. This unit isn’t just another chapter in your learning journey—it’s a deep dive into the art and science of capturing the multifaceted nature of software architecture through the lens of views. As you venture through this lesson, you’ll unlock the secrets to effectively conveying complex architectural designs, making them accessible and comprehensible to all stakeholders involved.",
+        "Unit/Lesson Objectives:",
+        "Empowering Readings:",
+        "Lesson 6 Content and Chapter Highlights: Prepare to be captivated by content meticulously designed to not only educate but also inspire. This lesson offers a profound insight into how documenting architecture through views can bridge the gap between complexity and comprehension, facilitating better decision-making and collaboration across the project lifecycle.",
+        "In this lesson we will explore the realms of software architecture — a unit designed not just to challenge but to transform. This is where all the threads of knowledge we’ve woven together culminate in a powerful synthesis of learning and application. Dive into the riveting world of managing architectural debt, drawing upon the agile and efficient principles of lean software development. As we navigate through this final unit, prepare to tackle the silent yet formidable challenge that architecture debt poses to the health and agility of software systems.",
+        "Unit/Lesson Objectives:",
+        "Empowering Readings:",
+        "Mastering software engineering architecture offers multifaceted benefits that extend beyond the mere construction of software systems. At its core, a robust understanding of architectural principles enhances the design and integration of scalable, resilient, and adaptable systems. Such systems cater to current requirements while being flexible to evolving business and technological landscapes. From an academic perspective, proficiency in software architecture instills a holistic view of systems, fostering a deep comprehension of the trade-offs associated with design decisions. This capability is essential for the critical evaluation of contemporary architectures and the innovative creation of novel structures. Additionally, mastery in this domain promotes interdisciplinary collaboration, as architectural considerations often intersect with fields such as human-computer interaction, cybersecurity, and data science. Consequently, an adeptness in software engineering architecture not only augments the quality and longevity of software solutions but also cultivates a comprehensive and interdisciplinary approach to problem-solving.",
+        "Software engineering architecture is a crucial skill, particularly evident when examining the evolution of modern digital platforms like streaming services. Consider Netflix, which began as a DVD rental service but pivoted to a global streaming behemoth. The architectural decisions behind this platform have played an instrumental role in its success. As Netflix expanded its user base and diversified its content offerings, its initial monolithic architecture was not scalable enough to accommodate the exponential growth in traffic and the diverse range of devices accessing the service. Leveraging the principles of software engineering architecture, Netflix transitioned to a microservices-based architecture. This allowed different components of the platform, such as recommendation engines, user profiles, and content delivery systems, to evolve, scale, and fail independently without affecting the entire ecosystem. Such an architectural overhaul ensured that millions of users could simultaneously stream content without latency, glitches, or outages.",
+        "Another real-world example is the development and operation of smart cities. As urban areas worldwide integrate technology to improve infrastructure, transportation, energy management, and public services, software engineering architecture becomes pivotal. The complex interplay of sensors, databases, user interfaces, and control systems demands an architectural framework that is both robust and flexible. For instance, in a smart traffic management system, real-time data from traffic lights, cameras, and vehicle sensors must be processed efficiently to control traffic flow, predict congestions, and manage emergencies. Mastery in software engineering architecture ensures that such systems can not only handle massive concurrent data streams but also integrate with other systems like public transportation or emergency services. The coherence and efficiency of these integrated systems are a direct reflection of the architectural expertise underpinning their design and operation.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Fundamental concepts underlying software architecture",
+            "Forces that shape the architecture",
+            "The role of architectural design concepts in addressing these forces",
+            "Techniques and methods for creating, documenting, evaluating, and managing an architecture",
+            "Case studies and examples of architectures of software intensive systems"
+        ],
+        [
+            "Define software architecture and explain its role in software-intensive systems.",
+            "Justify the importance of software architecture in achieving quality attributes such as performance, scalability, and maintainability.",
+            "Identify architecturally significant requirements and architecture drivers that influence system design.",
+            "Determine how software architecture addresses specified requirements and constraints.",
+            "Apply architectural design concepts to effectively organize a software system’s high-level structure.",
+            "Create durable artifacts for documenting and communicating software architecture to both humans and machines.",
+            "Evaluate the architecture’s ability to address quality attributes of the final software product based on architectural decisions."
+        ],
+        [
+            "Articles and readings will be available through the course links."
+        ],
+        [
+            "Disregard your general impressions and concentrate on one factor at a time.",
+            "Study carefully the definition given for each factor and the specifications for each category.",
+            "Call to mind instances that are typical of the student’s work and behavior. Do not be influenced by unusual cases that are not typical.",
+            "Determine the category that best describes the student’s accomplishments in that area and enter the number for the performance rating.",
+            "If a factor has not been observed during the rating period, enter NA for not applicable. In the comments section, explain why this factor has not been observed.",
+            "Make sure to include yourself when filling out the evaluation form."
+        ],
+        [
+            "Envisioning Software Architecture",
+            "Forces that Shape an Architecture",
+            "Designing an Architecture",
+            "Architecture Design Process",
+            "Architecture Evaluation",
+            "Architecture Documentation",
+            "Improving Flow Management and Managing Architecture Debt"
+        ],
+        [
+            "Drag and Drop",
+            "Video Lesson",
+            "Software Engineering"
+        ],
+        [
+            "Envisioning Software Architecture",
+            "Forces that Shape an Architecture",
+            "Designing an Architecture",
+            "Architecture Design Process",
+            "Architecture Evaluation",
+            "Architecture Documentation",
+            "Improving Flow Management and Managing Architecture Debt"
+        ],
+        [
+            "L1",
+            "L2",
+            "L3",
+            "L4",
+            "L5",
+            "L6",
+            "L7"
+        ],
+        [
+            "Unlock the Secrets of Software Architecture: Dive deep into the essence of software systems and elements, and emerge with the knowledge that powers our digital universe.",
+            "Explore the Core of Digital Constructs: Engage with the fundamental concepts that are the backbone of software architecture, and understand how they breathe life into technology.",
+            "Master the Impact of Architecture: Learn how software architecture is the silent guardian of performance, security, availability, and more, ensuring our digital experiences are seamless and secure."
+        ],
+        [
+            "Foundational Texts: Begin with the foundational chapters 1 & 2, where the seeds of understanding software architecture are planted.",
+            "Exclusive Article: Be captivated by Charrette’s (2021) exploration in “How software is eating the car,” published in IEEE Software. This piece will take you on a fascinating ride through the integration of software in automobiles, available at https://spectrum.ieee.org/software-eating-ca."
+        ],
+        [
+            "Decipher the DNA of Software Systems: Uncover how business objectives and the intrinsic qualities of software architecture interplay to sculpt the backbone of any successful digital solution.",
+            "Master the Magnificent Seven: Dive deep into the core of software architecture with an in-depth exploration of the seven predominant quality attributes – availability, interoperability, modifiability, performance, security, testability, and usability.",
+            "Architectures’ Pivotal Role Unveiled: Grasp the profound impact of strategic software architecture on enhancing performance, ensuring security, and guaranteeing availability among other critical factors."
+        ],
+        [
+            "Insightful Technical Report: Engage with Barbacci et al. (2003) in their seminal work on Quality Attribute Workshops (QAWs), a cornerstone publication by the Software Engineering Institute, which lays the groundwork for our exploration.",
+            "Comprehensive Text Exploration: Embark on a journey through critical sections across chapters 3 to 14, each segment designed to deepen your understanding and appreciation of the nuanced world of software architecture."
+        ],
+        [
+            "Unveil the Architectural Drivers: Embark on a quest to uncover the fundamental forces that shape the very architecture of a system. Discover how requirements, constraints, and preferences converge to form the foundation of any software project.",
+            "Decipher the Building Blocks: Peel back the layers of architectural design to reveal the essential components that make up the building blocks of any software system. This is your chance to understand the anatomy of software architecture from the ground up."
+        ],
+        [
+            "Deep Dive into Advanced Concepts: Your journey continues with an in-depth exploration starting from Chapter 3 (Section 3.4 onwards) through to the visionary perspectives of Chapter 19. Each section is a new horizon, expanding your understanding and appreciation of architectural design.",
+            "Comprehensive Coverage: With readings spanning from Chapters 4 to 13, each step forward is an opportunity to deepen your knowledge on how to construct resilient, adaptable, and efficient software architectures."
+        ],
+        [
+            "Unlock the Secrets of Principled Design: Embark on a quest to understand why a methodical approach to design isn’t just beneficial—it’s essential. Discover the transformative power of principles in guiding the architectural process.",
+            "Master Attribute-Driven Design: Delve into the core elements of attribute-driven design, where each decision is shaped by the critical attributes that define successful software architectures. This is where theory meets practice in the art of creating robust, adaptable, and efficient systems."
+        ],
+        [
+            "A Deep Dive into Design Excellence: Chapter 20 is your map to the treasure trove of design wisdom. It’s not just a reading; it’s a revelation, unveiling the secrets of attribute-driven design and its pivotal role in crafting successful architectures."
+        ],
+        [
+            "Decipher the Criticality of Evaluation: Embark on an enlightening journey to understand why evaluating an architecture is not just important but essential. Discover the unseen risks and opportunities that lie within the structural decisions of software systems.",
+            "Master the Art of ATAM: Dive into the depths of the Architecture Tradeoff Analysis Method (ATAM), a powerful tool designed to dissect and analyze the nuances of an architecture’s suitability for its intended purpose. This is where the theoretical meets the practical in a dance of analytical rigor.",
+            "Explore Lightweight Evaluation Techniques: Not every evaluation requires a deep dive. Learn about the swift, agile techniques that provide insight without the weight of full-scale analysis, perfect for fast-paced development environments."
+        ],
+        [
+            "A Deep Dive into Architectural Evaluation: Chapter 21 is your guide through the intricate landscape of architectural evaluation. It’s not just a chapter; it’s a comprehensive toolkit, arming you with the knowledge to navigate the complexities of assessing architectural decisions."
+        ],
+        [
+            "Unlocking the World of Architectural Views: Discover the pivotal role of views in the realm of software architecture documentation. Learn why capturing different perspectives is crucial in comprehensively understanding and communicating the structure and behavior of software systems.",
+            "Mastering the View-Based Documentation Approach: Delve into the strategic approach of documenting architecture through views. This methodology isn’t just about record-keeping; it’s about crafting a clear, coherent narrative of the architecture that speaks to developers, stakeholders, and future maintainers alike."
+        ],
+        [
+            "Guided Exploration Through Chapter 22: Your primary compass through this journey is Chapter 22, a treasure trove that offers a comprehensive guide to understanding and applying view-based approaches in architectural documentation. This chapter doesn’t just inform; it transforms your approach to architectural communication."
+        ],
+        [
+            "Conquering Architecture Debt: Uncover the strategies to identify, assess, and manage architecture debt. Just like financial debt, architecture debt can accrue interest, compounding problems if left unaddressed. Learn how to wield the principles of lean software development to keep your projects lean, mean, and clean.",
+            "Architectural Revitalization: Delve into the methods for discovering hidden architectural debts and implementing strategies to mitigate them. This is about more than just fixing problems—it’s about ensuring the sustainability and resilience of your software architecture over time."
+        ],
+        [
+            "Deep Dive into Chapter 23: Your guidebook for this journey, Chapter 23, lays the foundation for understanding and addressing architecture debt. This isn’t just another chapter; it’s your roadmap to mastering the nuances of maintaining architectural integrity in the face of evolving project demands and constraints."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Safari Learning Platform: Academic Edition",
+            "url": "https://libraries.psu.edu/eresources/psu02110"
+        },
+        {
+            "text": "https://learning.oreilly.com/library/view/software-architecture-in/9780136885979/",
+            "url": "https://learning.oreilly.com/library/view/software-architecture-in/9780136885979/"
+        },
+        {
+            "text": "https://spectrum.ieee.org/software-eating-ca",
+            "url": "https://spectrum.ieee.org/software-eating-ca"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/03/sweng887_book.png"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Assignment",
+                "Points Each",
+                "Quantity",
+                "Percentage of Final Grade"
+            ],
+            [
+                "Project Check Points",
+                "10",
+                "4",
+                "40%"
+            ],
+            [
+                "Software Architecture Design Document",
+                "20",
+                "1",
+                "20%"
+            ],
+            [
+                "Team Building Discussion",
+                "20",
+                "1",
+                "8%"
+            ],
+            [
+                "Peer Reviews",
+                "6",
+                "2",
+                "12%"
+            ],
+            [
+                "Final Exam",
+                "20",
+                "1",
+                "20%"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"1794\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

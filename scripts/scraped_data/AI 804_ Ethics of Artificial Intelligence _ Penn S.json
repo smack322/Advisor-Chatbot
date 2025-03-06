@@ -1,0 +1,706 @@
+{
+    "metadata": {
+        "title": "AI 804: Ethics of Artificial Intelligence – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4939"
+    },
+    "headings": {
+        "h2": "Lesson 14: Singularity, Superintelligence, and Transhumanism",
+        "h4": "Unlocking Your Potential",
+        "h3": "The Moral Relevance of Privacy"
+    },
+    "paragraphs": [
+        "AI 804: The Ethics of Artificial Intelligence is a three-credit course that offers an engaging exploration into the ethical dimensions of AI technologies. This course investigates the profound and diverse ethical challenges arising from the rapid integration of AI into various aspects of human life",
+        "Through curated readings and dynamic discussions, the course examines how AI systems challenge existing moral frameworks and highlights the need to redefine or establish new paradigms to address these concerns. Students will grapple with critical issues such as threats to privacy, freedom, and economic justice, as well as broader implications regarding race and gender equality. As AI systems evolve and exhibit higher levels of intelligence, the course delves into pressing questions about their moral agency, responsibilities, and potential rights.",
+        "Using a combination of theoretical and practical approaches, this course equips students with the philosophical tools necessary to critically analyze the ethical implications of AI systems. Discussions are grounded in key concepts from ethics and philosophy of mind, supported by a growing body of literature in the field.",
+        "Upon completing the course, students will be well-prepared to engage in informed debates, apply ethical reasoning to real-world AI challenges, and contribute meaningfully to the responsible development and deployment of AI technologies.",
+        "AI is the use of machines to do tasks that seem to require human intelligence and cognitive skills (thinking, natural language, inference, decision making etc.) The Ethics of AI is the young branch of applied ethics that seeks to study the far-reaching and diverse ethical issues that arise with the widespread and rapid integration of AI technologies into various aspects of our lives. The challenge is that we are in an uncharted ethical territory with regard to AI: we need to radically adjust our existing ethical paradigms or introduce new ones as we experience and acquire a better grasp of the problems involved in AI-human interaction. A large portion of these issues reflect our concerns about the harm that the use and misuse of AI might cause for humanity. Such issues range from threats to individual privacy and freedom to wider social implications regarding economic justice and race and gender equality. However, as AI systems develop and attain higher levels of intelligence, questions about their moral status become more pressing. If these systems are capable of moral agency, then not only do they have responsibilities towards other moral agents like us, but they also have rights that we should respect in our conduct towards them. This course aims to provide an overview of the nature and extent of the ethical issues arising from AI-human interaction as well as the necessary philosophical background (particularly, in ethics and philosophy of mind) to develop an informed methodology in approaching these issues, with the help of the flourishing literature on the subject.",
+        "At the end of this course, you will be able to:",
+        "There are no required textbooks for this course.",
+        "There are electronic resources on reserve for this course that can be accessed through the Penn State Libraries. To access your Course Reserves, please use the Library Resources tab in the course navigation menu. For any questions you may have about viewing or printing your Course Reserves, refer to the View and Print Electronic Course Reserves.",
+        "There are twenty question prompts throughout the course. Six are presented as discussion activities, and 14 are presented as quiz questions. Responses to each of these question prompts require a minimum of 300 words (~1 page double-spaced).",
+        "Final letter grades will be assigned based on the scale below.",
+        "Basic information about each assignment group is provided below. For detailed directions about an individual assignment, see the assignment information under the Modules tab.",
+        "Discussions are provided as an opportunity to connect with your peers about the lesson content, to share ideas, questions, and resources. You will be evaluated on the quality of your initial post as well as your replies and responses to the posts of your peers.",
+        "The Literature Review is a key component of the course, designed to deepen students’ understanding of ethical issues related to Artificial Intelligence. You will be assigned a scientific paper on a topic relevant to AI ethics. The goal is to analyze and critique the paper, summarizing its main arguments and discussing its implications in your own words. This assignment emphasizes independent work, critical thinking, and the ability to engage with academic literature.",
+        "Details",
+        "The Group Project serves as the capstone assignment for this course and constitutes 50% of the total grade. Students will work in teams to select, research, and propose solutions to a challenging and original ethical problem related to AI. This collaborative assignment is designed to encourage team-based problem-solving, practical application of normative reasoning, and creative thinking.",
+        "Components",
+        "Details",
+        "At the end of this course, you will be able to:",
+        "*subject to change",
+        "Ethics of AI is a young subfield of applied ethics, which is the branch of ethics focusing on the study of ethical issues that arise in various venues of life, such as medicine, business, environment, technology, etc.",
+        "There are three philosophical branches of ethics as shown in the image below.",
+        "Applied ethics involves the application of ethical theories and principles to real-life cases, and thus, requires a theoretical background.",
+        "The major portion of philosophical ethics that deals with such theories is called normative ethics. Normative ethics offers different theories aiming to answer substantive questions such as “what is good?”, “what is the right thing to do?”, and “what is a good person?”",
+        "Metaethics, yet another field of philosophical ethics, inquires into the very nature of statements that employ predicates such as “good”, “right”, and “bad”.",
+        "The primary objective of the first two lessons is to provide you with the necessary theoretical background for a philosophical and systematic approach to the ethical issues specific to the use of AI in our lives.",
+        "We will survey the prevalent metaethical positions on the nature of moral qualities and judgments as well as major normative theories of the good. In this first lesson, we will focus on metaethics and two such normative theories: consequentialism and deontology.",
+        "Systematic discriminatory practices are generally rooted in biases, which consists of prejudices, stereotypes, and preconceptions about members of a group.",
+        "While biases as mental states or beliefs are of interest to various fields of study, including psychology, cognitive science, and epistemology, they are particularly relevant to applied ethics when they inform or influence impactful decisions about individuals. A decision or judgment about a person is biased and thus unfair, if the decision maker was influenced, negatively or positively, by a characteristic of that person (such as race, gender, or sexual orientation) that is irrelevant to the issue in question (for instance, how the person would perform at a job, whether they could pay their loan back, or stay reasonably healthy for the next five years), regardless of whether the decision itself turns out to be accurate or not.",
+        "Of course, bias is fundamentally a human phenomenon. The somewhat intuitive expectation would be that delegating important decisions to machines and algorithms that operate on numbers, formalisms, symbols, and lack intentionality (as John Searle insisted, for instance, as we saw in lesson 4) and good or bad values would remove human biases. For such systems would just be neutral about the skin color or gender of the data subjects, which, in turn, would translate into objective and fair outputs.",
+        "It is, however, quite naïve to think that technology can remain immune to human injustices. Not only are new algorithms introduced into a society with “old systems of power and privilege”, and historically established race, gender, and class inequalities, but they are also produced within such a social-political context and with the data resulting from or reflecting the existing inequalities.[1]",
+        "There are substantial reports and studies revealing that AI-powered machines or algorithms can perpetuate and even deepen biases toward historically marginalized groups.",
+        "Take, for instance, gender bias in hiring, which has been a known social phenomenon in job markets. But moving the decision power from humans, who might be gender biased even if implicitly, to AI does not necessarily address the problem. Amazon scrapped an AI recruiting tool that it had been developing once it was realized that the tool was biased against women.[2] Another avenue where AI algorithms are widely used is loan applications. It has been reported that algorithms determining the credit score or creditworthiness of individual applicants are biased against people of color.[3] Propublica revealed that COMPAS (The Correctional Offender Management Profiling for Alternative Sanctions), the algorithm assessing the risk of prisoners committing future crimes or reoffending (“predictive recidivism”) and thus informing their parole decisions is biased against African-Americans.[4] Similarly, “predictive policing” algorithms used to decide how much police force to allocate to urban areas are reported to be biased against neighborhoods of color.[5] It has also been shown that facial recognition systems tend to work more accurately for subjects that are male and with lighter skin.[6]",
+        "Bias is a preference one has for or against a person or a group, or an idea, a thing, a belief, generally considered to be prejudicial and unfair.",
+        "There are different kinds of biases we will examine, including:",
+        "[1] Eubanks, Virginia 2017, Automating Inequality. How High-Tech Tools Profile, Police, and Punish the Poor, New York: St Martin’s Press, p. 177; Laura Herzog, 2021, “Algorithmic Bias and Access to Opportunities” in Ed. Carissa Véliz, The Oxford Handbook of Digital Ethics, p. 2.",
+        "[2] https://www.reuters.com/article/us-amazon-com-jobs-automation-insight/amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK08GLinks to an external site.",
+        "[3] https://www.theguardian.com/commentisfree/2015/oct/13/your-credit-score-is-racist-heres-whyLinks to an external site.",
+        "[4] https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencingLinks to an external site. ; See also Dressel, Julia and Hany Farid, 2018, “The Accuracy, Fairness, and Limits of Predicting Recidivism”, Science Advances, 4(1).",
+        "[5] https://www.technologyreview.com/2020/07/17/1005396/predictive-policing-algorithms-racist-dismantled-machine-learning-bias-criminal-justice/Links to an external site.; see also O’Neil, Cathy, 2016, Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy, Largo, ML: Crown.",
+        "[6] Buolamwini, Joy and Gebru, Timnit 2018, “Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification”, Proceedings of Machine Learning Research 81, 1-15.",
+        "The deontological approaches to privacy regard it as a right. As we saw in lesson 1, deontology or duty ethics construe the rights of individuals as generating duties for others to respect and not violate those rights. For instance, my right to a certain property or land generates the duty for other people not to trespass, unless I permit them to do so. One philosophical challenge with regard to rights is to justify them by offering explanatory answers to questions such as “why is X a right?” or “what makes X a right?”",
+        "This challenge applies to the claim that privacy is a right as well. We have a strong moral intuition that privacy matters and that it should be respected by others, but it is not all obvious why that is the case. One might argue that it is a social convention, which can change or lose importance depending on contingent and empirical facts about the era we live in. One might also argue that privacy is just an obsession that we are all psychologically conditioned to have.",
+        "This course will provide you with a thorough introduction to:",
+        "During this course you will expand your knowledge of the lesson topics each week.",
+        "This lesson introduces the foundational ethical frameworks necessary for analyzing challenges in the development and application of AI technologies. It emphasizes the importance of understanding moral reasoning and the theoretical basis for determining what makes actions ethically ‘good.’",
+        "By completing this lesson, you will develop a strong theoretical foundation for assessing the ethical implications of AI technologies, equipping you to analyze complex moral issues with precision and confidence.",
+        "This lesson continues building your ethical reasoning toolkit by introducing two distinct normative theories. These frameworks move beyond action-oriented approaches, focusing instead on the moral character and relational values of ethical decision-making.",
+        "By completing this lesson, you will gain a deeper understanding of how character and relationships influence ethical decision-making, empowering you to apply these theories in complex, real-world scenarios.",
+        "This lesson begins exploring the question of what constitutes intelligence and the ability to think. By examining philosophical theories of the mind and its relationship to the body, you’ll build a foundation for understanding whether machines or non-human entities can possess true intelligence.",
+        "By the end of this lesson, you will have a nuanced understanding of intelligence and the philosophical underpinnings of AI, equipping you to analyze and discuss the nature of thought in human and non-human systems.",
+        "Building on prior discussions about intelligence and mental states, this lesson delves into Artificial Intelligence (AI), exploring its definition, feasibility, and progress. You’ll evaluate predictions from AI pioneers and critics, gaining a nuanced perspective on the current state of AI technologies.",
+        "These activities and discussions will help you critically evaluate the evolving field of AI, preparing you to assess its philosophical and practical implications in depth.",
+        "This lesson introduces you to the major ethical challenges posed by AI systems and offers a foundational framework for understanding and categorizing these issues. You will examine ethical problems arising from AI technologies and learn to analyze them through established philosophical frameworks.",
+        "By completing this lesson, you will develop a nuanced understanding of ethical problems in AI and enhance your ability to apply theoretical frameworks to complex, real-world issues.",
+        "This lesson introduces you to the major ethical challenges posed by AI systems and offers a foundational framework for understanding and categorizing these issues. You will examine ethical problems arising from AI technologies and learn to analyze them through established philosophical frameworks.",
+        "By the end of this lesson, you will be equipped to analyze the ethical implications of opacity in AI systems and evaluate the potential of proposed solutions to promote transparency and accountability.",
+        "This lesson examines the issue of machine bias, where AI systems reinforce or exacerbate existing social inequalities by discriminating against historically marginalized groups. You will explore how these biases manifest and their profound ethical implications.",
+        "By completing this lesson, you will gain critical insights into the ethical challenges posed by algorithmic bias and develop the ability to evaluate interdisciplinary approaches for addressing these pressing issues.",
+        "This lesson explores the ethical dimensions of privacy in the context of AI-supported surveillance and big data collection. You will analyze why privacy is a morally significant principle and consider how it is challenged in an increasingly connected world.",
+        "By completing this lesson, you will gain a deeper understanding of privacy’s ethical importance and be equipped to critically evaluate solutions to privacy concerns in the age of AI and big data.",
+        "This lesson examines how AI-enabled technologies and big data are used to manipulate human behavior, from commercial advertising to political campaigns. You will explore how methods like deception, disinformation, and emotional exploitation impact individual autonomy and collective decision-making.",
+        "By completing this lesson, you will gain a comprehensive understanding of how AI technologies can be used to manipulate human behavior and develop tools to counter these ethical challenges while protecting autonomy and democracy.",
+        "This lesson explores the complex ethical challenges surrounding human interactions with AI-powered entities, including chatbots and robots. You will examine how these interactions blur the lines between human and machine relationships, raising questions about intimacy, care, and relationally.",
+        "By completing this lesson, you will develop a nuanced understanding of the ethical dimensions of human-AI relationships and be equipped to critically evaluate the challenges and opportunities presented by these emerging interactions.",
+        "This lesson examines the ethical implications of AI-powered autonomous systems tasked with critical life-and-death decisions. You will analyze the philosophical and practical challenges of using such systems in real-world applications.",
+        "By completing this lesson, you will develop the skills to critically evaluate the use of AI in life-and-death decisions and assess the ethical principles that should guide the design and deployment of autonomous systems.",
+        "This lesson introduces the principles and challenges of machine ethics, focusing on how machines can be designed to behave ethically toward humans. You will explore the concept of artificial moral agents (AMAs) capable of making ethical judgments based on established ethical principles.",
+        "By completing this lesson, you will gain a deeper understanding of the ethical challenges and possibilities of creating machines capable of moral reasoning, equipping you to critically evaluate the future of AI and its ethical implications.",
+        "This lesson explores the ethical debate surrounding the moral consideration of AI-powered machines and robots. You will engage with questions about whether machines can or should have rights or intrinsic moral value, and on what philosophical grounds such considerations might be based.",
+        "By completing this lesson, you will develop a deeper understanding of the ethical questions surrounding the moral consideration of AI and robots, equipping you to critically evaluate their place in our expanding ethical frameworks.",
+        "This lesson investigates the potential emergence of superintelligence, a form of intelligence surpassing human capabilities across all cognitive tasks. You will learn about the phenomenon of singularity, where artificial general intelligence (AGI) recursively improves itself, and explore the implications of such advancements.",
+        "By completing this lesson, you will gain a comprehensive understanding of the ethical challenges surrounding superintelligence and transhumanism, and reflect on the significance of humanity’s evolving relationship with technology.",
+        "The A-I 804 Ethics of Artificial Intelligence course equips students with the critical thinking skills and ethical frameworks necessary to navigate the complex moral issues surrounding AI technologies. As industries increasingly adopt AI systems for decision-making, automation, and data analysis, professionals with expertise in AI ethics are essential to ensure responsible and equitable development. This course prepares students to address pressing challenges such as bias in machine learning, privacy concerns, and the ethical implications of autonomous systems, making them valuable contributors to technology-driven organizations.",
+        "Graduates of this course often find career opportunities in roles such as AI Ethics Specialist, Data Privacy Consultant, Technology Policy Analyst, and Responsible AI Officer. These positions are available across sectors, including tech companies, government agencies, healthcare, and non-profits. By combining technical knowledge with a deep understanding of ethical principles, this course positions students at the forefront of ensuring AI technologies are designed and deployed responsibly.",
+        "One real-world example of an ethical issue in AI can be seen in the hiring process. A multinational corporation implemented an AI-powered recruitment tool designed to screen job applications and identify top candidates. The tool used historical hiring data to learn patterns and preferences. However, the historical data contained biases, as previous hiring practices disproportionately favored certain demographic groups. As a result, the AI system began systematically disadvantaging candidates from underrepresented groups, perpetuating existing inequalities and leading to accusations of discrimination.",
+        "To address this issue, an AI ethics specialist was brought in to evaluate the system. They identified the biases in the training data and highlighted the ethical implications of using such a system without proper oversight. Working closely with data scientists and HR professionals, they re-engineered the AI tool to remove biased data and incorporate fairness metrics. Additionally, the company implemented transparency measures, such as explainable AI features, to ensure stakeholders could understand and trust the system’s decisions.",
+        "The revised recruitment tool not only improved diversity in hiring but also enhanced the company’s reputation for ethical practices. This example demonstrates the critical importance of addressing ethical considerations in AI, ensuring these technologies are fair, transparent, and aligned with societal values.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Value: Included in the Writing Assignments category (30% of total grade).",
+            "Length: Minimum 1500 words (~5–6 pages, double-spaced).",
+            "Submission: Papers must be submitted via Turnitin, ensuring originality and proper citation.",
+            "Objective: To assess your ability to interpret scientific writing, synthesize information, and evaluate ethical arguments related to AI technologies."
+        ],
+        [
+            "Project Proposal: Worth 10%. A detailed outline of the selected topic, objectives, and methodology.",
+            "Deliverables: Worth 30%. A comprehensive final report (minimum 10 pages, excluding title page) addressing the selected problem, using ethical theories and case studies.",
+            "Presentation: Worth 10%. A 5–8 minute presentation summarizing the project’s key findings, which may be a video or audio recording with optional visuals."
+        ],
+        [
+            "Team Size: Minimum of two members per team.",
+            "Resources: A list of suggested data sources will be provided, but teams may also use their own datasets.",
+            "Collaboration Tools: Teams may choose their preferred method of collaboration (e.g., Google Docs, Microsoft Teams, Zoom).",
+            "Submission: The final report and presentation are due by the end of the semester.",
+            "Evaluation Criteria: Quality of research, depth of analysis, originality, and effective collaboration."
+        ],
+        [
+            "Ethics of AI",
+            "Machine Bias",
+            "Privacy & AI"
+        ],
+        [
+            "Learned bias",
+            "Cognitive bias",
+            "Statistical bias"
+        ],
+        [
+            "AI Ethics Principles: Understand ethical principles like autonomy, fairness, and accountability.",
+            "AI and Society: Evaluate the societal impact of AI on privacy, equity, and human autonomy.",
+            "Machine Ethics: Explore challenges in creating machines capable of ethical reasoning.",
+            "Bias and Transparency: Identify and address bias while ensuring transparency in AI systems.",
+            "Autonomous Decision-Making: Examine ethical issues in AI systems making life-and-death decisions.",
+            "Human-AI Interaction: Reflect on ethical concerns in healthcare, companionship, and intimacy.",
+            "Super Intelligence: Analyze ethical challenges of super intelligent AI and human enhancement.",
+            "Policy and Regulation: Understand ethical guidelines and regulations for AI governance.",
+            "Critical Analysis: Develop skills to evaluate and resolve ethical dilemmas in AI."
+        ],
+        [
+            "L1-L2",
+            "L3-L4",
+            "L5-L6",
+            "L7-L8",
+            "L9-L10",
+            "L11-L12",
+            "L13-L14"
+        ],
+        [
+            "Deontology: Explore the concept of moral duty and how intentions define ethical actions.",
+            "Comparison of Ethical Theories: Analyze how different ethical frameworks lead to varied conclusions in real-world scenarios."
+        ],
+        [
+            "Practical Application: Compare ethical frameworks using real-world examples to strengthen reasoning skills.",
+            "Discussion Engagement: Participate in forums to clarify concepts, ask questions, and engage with peers."
+        ],
+        [
+            "Virtue Ethics: Focus on the moral development of character and the pursuit of the good life as a central ethical goal.",
+            "Care Ethics: Emphasize the importance of personal relationships and relational values in moral deliberation."
+        ],
+        [
+            "Reflective Analysis: Compare virtue and care ethics to other normative theories and explore their implications for real-world AI-related issues.",
+            "Discussion Engagement: Participate in the Normative Ethical Theories Discussion to analyze and debate the application of virtue and care ethics in ethical dilemmas."
+        ],
+        [
+            "Philosophical Theories: Explore dualism, behaviorism, physicalism, and functionalism to understand different views on the nature of mind and intelligence.",
+            "AI and Thought: Apply philosophical concepts to assess whether machines or non-human entities can truly think."
+        ],
+        [
+            "Reading Assignment: Dive into Alan Turing’s “Computing Machinery and Intelligence” for foundational perspectives on AI and intelligence.",
+            "Discussion Engagement: Debate the ethical and philosophical treatment of robot dogs and similar AI entities in a dynamic discussion forum."
+        ],
+        [
+            "Nature of AI: Define what AI is and explore the philosophical debates surrounding its potential and limitations.",
+            "Predictions and Reality: Compare the optimistic predictions of early AI pioneers with the skeptical views of philosophers."
+        ],
+        [
+            "Reading Assignment: Analyze John Searle’s “Minds, Brains, and Programs” for insights into the philosophical challenges of AI.",
+            "Writing Assignment: Articulate your perspective on the feasibility and nature of AI in the “Is AI Possible?” reflective essay."
+        ],
+        [
+            "Understanding Ethical Problems: Learn to identify the ethical challenges associated with the widespread use of AI technologies.",
+            "Moral Roles of AI: Differentiate between ethical issues related to AI as a tool (moral object) and AI as an independent actor (moral subject)."
+        ],
+        [
+            "Discussion Assignment: Reflect on which ethical problem has the most tangible impact on your life. Participate in an online discussion to share and respond to peer insights.",
+            "Presentation Idea Submission: Propose a presentation topic for future lessons, focusing on an ethical challenge that interests you."
+        ],
+        [
+            "Understanding Opacity: Learn why a lack of transparency in AI systems poses ethical challenges, particularly in machine learning and automated decision-making.",
+            "Accountability and Responsibility: Recognize the difficulties in attributing responsibility for harm caused by opaque AI systems."
+        ],
+        [
+            "Content Exploration: Study the L06 Content to understand the ethical concerns associated with opacity in AI systems.",
+            "Quiz Assignment: Complete the L06 Quiz to test your understanding of opacity and transparency in AI."
+        ],
+        [
+            "Understanding Machine Bias: Examine how AI systems contribute to social discrimination through algorithmic biases.",
+            "Systemic Inequality: Understand how these biases perpetuate and worsen existing social and political injustices."
+        ],
+        [
+            "Content Exploration: Review the L07 Content to gain foundational knowledge about machine bias and its ethical implications.",
+            "Documentary Viewing: Watch Coded Bias (2020), directed by Shalini Kantayya, to explore real-world examples of algorithmic bias."
+        ],
+        [
+            "Solutions for Privacy: Evaluate technological measures and regulatory policies designed to safeguard privacy and personal information.",
+            "Big Data and Surveillance: Understand how big data collection and AI-supported surveillance systems impact individual privacy."
+        ],
+        [
+            "Discussion Activity: Participate in the discussion Online Photographs and Privacy by reflecting on privacy concerns related to sharing images online and engaging with peers.",
+            "Discussion Activity: Participate in the discussion Online Photographs and Privacy by reflecting on privacy concerns related to sharing images online and engaging with peers."
+        ],
+        [
+            "Methods of Online Manipulation: Learn about tactics like deception, nudging, and disinformation used to influence behavior.",
+            "Impact on Autonomy: Understand how manipulation threatens individual agency and collective democratic processes."
+        ],
+        [
+            "Optional Documentary: Watch The Social Dilemma (2020) on Netflix for real-world examples of AI-enabled manipulation and its societal effects.",
+            "Writing Assignment: Complete the L09 Writing Assignment to analyze a specific problem, its impact, and propose solutions for ethical data practices."
+        ],
+        [
+            "Human-AI Relationships: Understand the ethical challenges of interacting with AI-powered entities designed to emulate human-like sentience.",
+            "Contexts of Interaction: Analyze case studies in medical care, companionship, and intimate relationships involving AI."
+        ],
+        [
+            "Core Readings: Judith Donath, “Ethical Issues in Our Relationship with Artificial Entities”, from The Oxford Handbook of Ethics of AI.",
+            "Discussion Activity: Participate in the discussion Ethics of Using an AI-Powered Chatbot to Impersonate a Lost Loved One, reflecting on the implications of such technologies and engaging with peers."
+        ],
+        [
+            "Philosophical Autonomy: Analyze the concept of autonomy and its relevance to AI decision-making in critical contexts.",
+            "Accountability and Responsibility: Evaluate who is accountable for the actions and decisions of AI-powered systems in high-stakes situations."
+        ],
+        [
+            "Documentary Viewing: Watch Immoral Code (2022), A Film By Stop Killer Robots, to explore the ethical dilemmas posed by lethal autonomous weapons.",
+            "Quiz Assignment: Complete the L11 Quiz to test your understanding of ethical principles and AI decision-making."
+        ],
+        [
+            "Agency and Ethics: Explore the conditions required for machines to act as moral agents and understand the foundational aspects of moral agency.",
+            "Artificial Moral Agents (AMAs): Analyze the concept of AMAs and their role in making ethical judgments and referencing ethical principles."
+        ],
+        [
+            "Content Exploration: Review the L12 Content to understand the foundations of machine ethics and the concept of artificial moral agents.",
+            "Core Readings: James H. Moor, “The Nature, Importance, and Difficulty of Machine Ethics”, IEEE Intelligent Systems, 21(4), 18-21."
+        ],
+        [
+            "Moral Consideration: Explore whether machines and robots should be granted moral status, rights, or intrinsic value.",
+            "Conditions of Agency: Reflect on the necessary conditions for moral agency and how they apply to AI and robots."
+        ],
+        [
+            "Discussion Activity: Participate in the discussion Moral Problems and Robo-Jeeves, reflecting on ethical dilemmas involving AI and engaging with peer perspectives.",
+            "Content Exploration: Review the L13 Content to understand the ethical arguments and philosophical perspectives on AI’s moral status."
+        ],
+        [
+            "Singularity and AGI: Understand the concept of singularity and the recursive development of super intelligence.",
+            "Human Enhancement: Explore the ethical concerns and transformative potential of cognitive and physical enhancement leading to transhumanism."
+        ],
+        [
+            "Writing Assignment: Complete the L14 Writing Assignment to evaluate the ethical challenges of super intelligence and transhumanism, and propose solutions or perspectives for addressing these concerns.",
+            "Optional Reading: Karina Vold and Daniel R. Harris, “How Does Artificial Intelligence Pose an Existential Risk?”, from The Oxford Handbook of Digital Ethics."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "View and Print Electronic Course Reserves",
+            "url": "https://libraries.psu.edu/services/course-reserves/using-electronic-reserves/view-and-print-electronic-course-reserves"
+        },
+        {
+            "text": "[1]",
+            "url": "https://psu.instructure.com/courses/2313088/pages/l07-bias-and-discriminatory-practices-in-machines?module_item_id=39867627#_ftnref1"
+        },
+        {
+            "text": "[2]",
+            "url": "https://psu.instructure.com/courses/2313088/pages/l07-bias-and-discriminatory-practices-in-machines?module_item_id=39867627#_ftnref2"
+        },
+        {
+            "text": "https://www.reuters.com/article/us-amazon-com-jobs-automation-insight/amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK08GLinks to an external site.",
+            "url": "https://www.reuters.com/article/us-amazon-com-jobs-automation-insight/amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK08G"
+        },
+        {
+            "text": "[3]",
+            "url": "https://psu.instructure.com/courses/2313088/pages/l07-bias-and-discriminatory-practices-in-machines?module_item_id=39867627#_ftnref3"
+        },
+        {
+            "text": "https://www.theguardian.com/commentisfree/2015/oct/13/your-credit-score-is-racist-heres-whyLinks to an external site.",
+            "url": "https://www.theguardian.com/commentisfree/2015/oct/13/your-credit-score-is-racist-heres-why"
+        },
+        {
+            "text": "[4]",
+            "url": "https://psu.instructure.com/courses/2313088/pages/l07-bias-and-discriminatory-practices-in-machines?module_item_id=39867627#_ftnref4"
+        },
+        {
+            "text": "https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencingLinks to an external site.",
+            "url": "https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing"
+        },
+        {
+            "text": "[5]",
+            "url": "https://psu.instructure.com/courses/2313088/pages/l07-bias-and-discriminatory-practices-in-machines?module_item_id=39867627#_ftnref5"
+        },
+        {
+            "text": "https://www.technologyreview.com/2020/07/17/1005396/predictive-policing-algorithms-racist-dismantled-machine-learning-bias-criminal-justice/Links to an external site.",
+            "url": "https://www.technologyreview.com/2020/07/17/1005396/predictive-policing-algorithms-racist-dismantled-machine-learning-bias-criminal-justice/"
+        },
+        {
+            "text": "[6]",
+            "url": "https://psu.instructure.com/courses/2313088/pages/l07-bias-and-discriminatory-practices-in-machines?module_item_id=39867627#_ftnref6"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "\"Flowchart illustrating the branches of Ethics. At the top, the main category is labeled 'ETHICS,' branching into three subcategories: Metaethics, Normative Ethics, and Applied Ethics. Under Metaethics, there are two branches labeled 'Cognitivism' and 'Non-cognitivism.' Cognitivism further branches into 'Error Theories.' Normative Ethics has branches labeled 'Consequentialism,' 'Deontology,' 'Virtue Ethics,' and 'Care Ethics.' Applied Ethics lists categories such as 'Bioethics,' 'Business Ethics,' 'Environmental Ethics,' and 'Ethics of AI.' The design features a blue gradient background with a white font.\"",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/ai_ethics-1024x570.png"
+        },
+        {
+            "alt": "\"Image of two green street signs mounted on a pole. The top sign points left and reads 'PRIVATE,' while the bottom sign points right and reads 'PUBLIC.' The background features a bright blue sky with scattered white clouds, symbolizing a decision or contrast between private and public matters.\"",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/privacy.png"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "CATEGORY",
+                "INFORMATION"
+            ],
+            [
+                "Credits",
+                "3"
+            ],
+            [
+                "Prerequisites",
+                "None"
+            ],
+            [
+                "Delivery",
+                "Web (Canvas, https://psu.instructure.com)"
+            ],
+            [
+                "Dates",
+                "See the Calendar."
+            ],
+            [
+                "Instructor",
+                "See the Orientation module under the Modules tab."
+            ]
+        ],
+        [
+            [
+                "LETTERGRADE",
+                "MINIMUMPERCENT",
+                "MINIMUMPOINTS"
+            ],
+            [
+                "A",
+                "93",
+                "930"
+            ],
+            [
+                "A-",
+                "90",
+                "900"
+            ],
+            [
+                "B+",
+                "87",
+                "870"
+            ],
+            [
+                "B",
+                "83",
+                "830"
+            ],
+            [
+                "B-",
+                "80",
+                "800"
+            ],
+            [
+                "C+",
+                "77",
+                "770"
+            ],
+            [
+                "C",
+                "70",
+                "700"
+            ],
+            [
+                "D",
+                "60",
+                "600"
+            ],
+            [
+                "F",
+                "0",
+                "0"
+            ]
+        ],
+        [
+            [
+                "ASSIGNMENTGROUP",
+                "POINTS"
+            ],
+            [
+                "Writing Assignments",
+                "30%"
+            ],
+            [
+                "Final Writing Assignment",
+                "20%"
+            ],
+            [
+                "Presentation",
+                "10%"
+            ],
+            [
+                "Quizzes and Discussions",
+                "40%"
+            ],
+            [
+                "Total",
+                "100%"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"4939\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

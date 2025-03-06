@@ -1,0 +1,692 @@
+{
+    "metadata": {
+        "title": "Accounting 545: Strategic Cost Management – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=3667"
+    },
+    "headings": {
+        "h2": "Lesson 14: Enhance Decision-Making with Overhead and Marketing Variance Analysis",
+        "h4": "Unlocking Your Potential",
+        "h3": "Attendance"
+    },
+    "paragraphs": [
+        "ACCT 545 is a dynamic 3-credit course designed to empower students with advanced managerial accounting knowledge and skills essential for effective leadership in today’s competitive business environment. Through an in-depth exploration of key topics such as activity-based costing, the theory of constraints, and performance measurement, this course equips you with the tools to analyze and optimize organizational efficiency. You’ll gain a deeper understanding of how to align cost management strategies with overarching business objectives, fostering a proactive approach to decision-making.",
+        "This course emphasizes a strategic perspective, teaching you how to identify, measure, and interpret critical financial and operational data. By learning to communicate these insights effectively, you’ll enhance your ability to manage resources, drive performance, and support organizational goals. Whether you aspire to become a financial leader or want to strengthen your managerial acumen, ACCT 545 provides the foundational expertise to excel in your career and contribute meaningfully to your organization’s success.",
+        "This is a graduate-level course in cost management with a strategic cost emphasis. The course presents an in-depth study of contemporary management techniques used by managers in a contemporary business environment. The balanced scorecard, critical success factors, and strategic analysis are emphasized and integrated with other decision-making techniques.",
+        "This course builds on the foundation laid in your undergraduate cost accounting and other accounting courses. Managerial and organizational economics provides the underlying framework for understanding internal accounting systems. This course is oriented towards utilizing an internal accounting system to analyze business problems and to make decisions.",
+        "Recommended Daily Reading – Make it a habit.  Here are some options to consider: WALL STREET JOURNAL (WSJ.com/fallclasses), FORTUNE, FORBES, PERIODICALS BUSINESS WEEK, JOURNAL OF ACCOUNTANCY",
+        "This course is designed to equip students with the skills and knowledge needed to effectively utilize accounting information for strategic decision-making, operational control, and problem-solving in real-world business contexts. Upon completion, students will:",
+        "The most important ingredients for success in this course are:",
+        "The requirement weightings and the final grade determination, using the scale below, is based on your results on the the weekly mini-case analyses and write-ups, weekly module quizzes, and the semester project. Professionalism IS EXPECTED.",
+        "Note: A grade of “C” or higher is required to pass the course.",
+        "Assignment Descriptions",
+        "1) Weekly “Mini-Case” Write-Ups (40% of grade):",
+        "These “mini-case” assignments will be assigned on a weekly basis and must be completed using EXCEL. You need to study the case and create thoughtful solutions to the questions posed, with proper analysis developed on an Excel Spreadsheet. Each weekly “mini-case” assignment is scored out of 100 pts, with point distribution spread amongst the 1-3 cases required each week.  I do not expect you to get all of these problems 100% “correct” each week.  However, I do expect you to make an intelligent, determined, and thoughtful effort to address the issues introduced in each problem.  All write-ups will be done on an individual basis. Obvious noting of collaboration will be dealt with amongst the instructor and students, with an academic integrity violation possibility.",
+        "All weekly assignments are due by 11:59 PM on Sunday evenings. No late assignments will be accepted for ANY reason. Thus, DO NOT WAIT UNTIL THE LAST MINUTE as technology sometimes has issues. We will submit all assignments via Canvas. YOU MUST use your PSU login ID/email to appropriately utilize PSU Canvas. If there are assignment submission issues with Canvas on a given day, then other submission arrangements may be made, but only after consulting with the instructor BEFORE 11:59 PM on Sunday. Again, be sure to also include your name and date of assignment on the inside of your Excel file.",
+        "Expectations for Write-Up Work for “Problems/Mini-Case Analyses”",
+        "It is imperative that your work represents high quality and professionalism. Sloppy and unprofessional work will be scored as a zero regardless of content. This includes proper grammar and spelling. Please proofread your work. I will deduct points for a poorly written analysis. Besides, a poorly formatted spreadsheet will be scored a zero. Proper formatting includes a readable font, headings, labels, your name, etc. Pay attention to how your spreadsheets are created and organized. Again, I do not expect you to get all of these problems 100% “correct” each week. However, I do expect you to make a reasonable effort to address the issues introduced in each problem. The grade for the Write-Up Work will be determined by the quality and completeness of your answers as below.",
+        "*Assignments Rubric",
+        "I use the above as a guide for grading each case and then quantify up to 100 points based on your results.Solutions: Solutions to the Recommend Problems/Mini-Case write-ups will be provided on Canvas after the assignments have been submitted.",
+        "2) Weekly Lesson-Based Quizzes (and orientation assignments) – (10% of grade):",
+        "These quizzes are based on the material covered in each associated lesson. Students will be given 2 attempts to take the quiz and must complete it in one sitting. There is a  lesson-based quiz for each Module. Each quiz is equally weighted.  In addition to the weekly Module Quizzes, your Orientation Syllabus Quiz and Welcome Discussion will be scored in this course requirement. Each module quiz is timed and you are given 30 minutes. There is no save button, but assessment navigation is enabled so that you should be able to select a question and return to it if need be. A quiz will auto-submit after 30 minutes of time. The highest score of the two attempts will be used to determine your final grade.",
+        "3) Semester Project – (50% of grade):",
+        "A major requirement for this course is the completion of the semester project. The project requires each student to create of a detailed budgeting financial model and then make  subsequent decision-making analysis based on the model. It requires each student to prepare a master budget plan and to perform budget analysis and research. Details and instructions for completion is located in the Semester Project Module.  You have approximately 16 weeks to complete the project (which includes our Thanksgiving Break) so it is critical that you start early and ask the instructor question as you move forward.",
+        "You each bring your unique educational experiences to the table, as well as any work experience from summer work, internships, etc. So you have much to contribute to the course. Also, the emphasis on class participation serves to develop your skills to think, present, and respond to others. This is what is expected of you as you move into your careers as corporate decision-makers. The ultimate analysis/conclusions will formulate out of your analysis and discussion.",
+        "Penn State puts a very high value on academic integrity, and violations are not tolerated. Academic integrity is one of Penn State’s four principles to which all students must abide.",
+        "Any violation of academic integrity will receive academic and possibly disciplinary sanctions, including the possible awarding of an XF grade which is recorded on the transcript and states that failure of the course was due to an act of academic dishonesty. All acts of academic dishonesty are recorded so repeat offenders can be sanctioned accordingly.",
+        "All course materials students receive or to which students have online access are protected by copyright laws. Students may use course materials and make copies for their own use as needed, but unauthorized distribution and/or uploading of materials without the instructor’s express permission is strictly prohibited. University Policy AD 40, Recording of Classroom Activities and Note Taking Services, addresses this issue. For example, uploading completed labs, homework, or other assignments to any study site constitutes a violation of this policy. Students who engage in the unauthorized distribution of copyrighted materials may be held in violation of the University’s Code of Conduct, and/or liable under Federal and State laws.",
+        "This course will be conducted entirely online. There will be no set class meeting times, but you will be required to complete weekly assignments with specific due dates. Many of the assignments are open for multiple days, so it is your responsibility to complete the work early if you plan to travel or participate in national holidays, religious observances or University approved activities.",
+        "*subject to change",
+        "There are MANY USERS of the accounting system:",
+        "The wheel of decision-making is where we operate within our organization and where we are eventually going to end up in this class. After building our foundational toolbox in the early modules of the course, we use those tools to learn how to complete analysis to make better, data-driven decisions, and also learn how to control our operations.",
+        "Let’s now move on to summarize the “incentives” of cost allocation.",
+        "What are Activities? Activities are events or tasks performed by each specialized group or activity center within the operation that causes the consumption of overhead resources (e.g., taking a customer’s order). Each activity is a cost center. For example, imagine the costs generated just by taking a customer’s order. This activity creates cost for the organization in a number of ways including employees, computers, internet access, phone lines, telephones, data usage, electricity, offices, desks, chairs, paper for creating purchase orders or special multi-copy purchase orders, printers, ink, envelopes, stamps, etc. (We’re sure you can think of more!) So we identify the activities, then costs are first assigned to activities. Then, these activity center costs are then directly traced to products or allocated to products using a cost driver rate.",
+        "Simple!  Hmm…. Does this sound familiar?  It should. This is just like computing a predetermined overhead rate under absorption costing.",
+        "First, we determine the type of transactions that generate the costs in each factory and/or support (administrative) department. We ask, “What drives the cost in each department or activity center?” Second, we then determine the type of cost driver. The driver will fit into one these five general activity level categories below.",
+        "The steps:",
+        "This course is designed to equip students with the skills and knowledge needed to effectively utilize accounting information for strategic decision-making, operational control, and problem-solving in real-world business contexts. Upon completion, students will:",
+        "During this course  you will expand your knowledge of the lesson topics each week.",
+        "This lesson introduces the essential principles of managerial accounting, emphasizing its critical role in decision-making and organizational success. You will explore the multiple functions of accounting systems, the relationship between cost systems and business decisions, and how accounting integrates into an organization’s architecture. Through practical examples, such as the Vortec Medical case, this lesson connects theoretical concepts with real-world applications, preparing you for more advanced topics.",
+        "By the end of this lesson, you will have a foundational understanding of managerial accounting, its role in organizational architecture, and its importance in supporting strategic business decisions. This knowledge will set the stage for deeper exploration of cost systems and advanced managerial techniques.",
+        "In this lesson, you will explore the foundations of budgeting and its role in financial modeling for strategic decision-making. You will learn the differences between decision management and decision control, understand the trade-offs involved, and discover techniques for resolving organizational disagreements. Key budgeting methods such as incremental and zero-based budgets, as well as flexible budgets, will be introduced, preparing you to develop and analyze financial models that drive business success.",
+        "By the end of this lesson, you will be able to differentiate between decision management and control, effectively resolve organizational disagreements, and confidently apply incremental, zero-based, and flexible budgeting methods to real-world financial models. These skills will prepare you for advanced financial decision-making in dynamic business environments.",
+        "This lesson delves into the nature of costs and introduces Cost-Volume-Profit (CVP) analysis as a critical tool for business decision-making. You will explore fundamental cost concepts, the differences between opportunity costs and accounting costs, and how costs vary under different conditions. Through CVP analysis, you will learn to assess financial performance by constructing contribution format income statements, conducting break-even and target profit analyses, and evaluating operating leverage and the margin of safety.",
+        "By the end of this lesson, you will have a solid understanding of cost concepts and behavior and the ability to apply CVP analysis to real-world scenarios. These skills will enable you to make informed financial decisions, assess risk, and evaluate business performance with confidence.",
+        "This lesson delves deeper into the nature of costs by examining methods for estimating mixed costs and addressing constraints. You’ll learn to identify the components of mixed costs and explore various estimation techniques, such as the high/low method, scatter graphs, and regression analysis. These methods provide valuable insights into how costs behave, enabling more accurate predictions and strategic decision-making.",
+        "By completing this lesson, you will master cost estimation techniques and learn to address operational constraints effectively, preparing you to make strategic decisions in dynamic business environments.",
+        "This lesson focuses on responsibility accounting, a framework that links financial performance to specific organizational units and managers. You will explore how responsibility accounting enables organizations to track and evaluate financial outcomes through measures like Return on Investment (ROI) and Residual Income. By understanding these key metrics, you will learn how managers are held accountable for their decisions, driving efficiency and alignment with organizational goals.",
+        "By the end of this lesson, you will have a strong grasp of responsibility accounting, including the use of ROI and Residual Income as performance measures. These skills will enable you to evaluate managerial accountability, enhance decision-making, and contribute to the financial success of an organization.",
+        "In this lesson, you will be introduced to the world of big data and its significance in today’s data-driven landscape. You will also explore the ethical considerations involved in data collection, ensuring that you understand the importance of responsible and transparent practices in handling data.",
+        "By completing this lesson, you will gain the skills to evaluate and implement transfer pricing strategies confidently, preparing you to tackle challenges in global financial management.",
+        "This lesson introduces you to the principles of cost allocation, emphasizing its importance in distributing expenses transparently and aligning financial decisions with organizational goals.",
+        "By completing this lesson, you will acquire a solid understanding of cost allocation theory, enabling you to apply these concepts to improve organizational efficiency and accountability in real-world scenarios.",
+        "This lesson introduces you to advanced cost allocation practices, focusing on methods and challenges in allocating costs across different departments and operations. You’ll gain the skills to analyze and apply these practices effectively in real-world scenarios.",
+        "By completing this lesson, you will acquire a deeper understanding of advanced cost allocation practices, equipping you with the analytical skills needed to tackle complex financial management challenges confidently.",
+        "This lesson invites you to pause from regular coursework and focus on your Financial Modeling and Decision Analysis project, a practical and summative assessment that sharpens your cost management and decision-making skills. Learn how to build robust financial models and craft insightful recommendations that support strategic business goals.",
+        "This lesson showcases how financial modeling and decision analysis can bridge theory and practice, preparing you to tackle complex strategic challenges with confidence. By completing this project, you’ll develop valuable skills that are highly sought after in today’s competitive business environment.",
+        "This lesson dives into absorption cost systems, with a focus on job costing and overhead allocation. You’ll explore how these systems work, their role in determining costs, and their impact on organizational decision-making.",
+        "This lesson introduces you to the complexities of job costing and overhead allocation, essential components of absorption cost systems. Mastering these concepts will equip you with the tools to analyze and manage costs effectively, preparing you for success in financial decision-making and operational planning.",
+        "This lesson examines the criticisms of absorption costing, including its tendency to incentivize overproduction, and introduces variable costing as an alternative. You’ll compare the two methods to understand their impacts on decision-making and organizational performance.",
+        "This lesson equips you with a critical understanding of absorption costing’s limitations and the strategic benefits of variable costing. By exploring both methods, you’ll be better prepared to make informed decisions in cost management and improve operational outcomes.",
+        "This lesson focuses on the limitations of traditional absorption costing in accurately assigning costs and introduces Activity-Based Costing (ABC) as a more precise and insightful alternative. You’ll explore how ABC enhances cost allocation and supports better decision-making in complex environments.",
+        "This lesson highlights how Activity-Based Costing addresses the inaccuracies of traditional costing systems, providing a deeper understanding of cost behavior and its drivers. By mastering ABC, you’ll gain the skills to allocate costs more effectively and improve strategic decision-making in today’s dynamic business landscape.",
+        "This lesson introduces Standard Costs as a tool for setting benchmarks and measuring performance. You’ll learn the fundamentals of variance analysis to understand deviations from expectations and uncover their implications for improving cost control and operational efficiency.",
+        "This lesson equips you with the skills to leverage variance analysis as a powerful tool for cost control and performance evaluation. By mastering standard costs, you’ll gain the insights needed to identify inefficiencies, make data-driven decisions, and enhance organizational success.",
+        "This lesson explores the intricacies of overhead and marketing variances, focusing on how variance analysis helps organizations measure performance, identify inefficiencies, and improve budgeting accuracy. You’ll gain valuable insights into managing both operational and marketing costs effectively.",
+        "This lesson empowers you to use variance analysis as a strategic tool for managing overhead and marketing costs. By mastering these concepts, you’ll be prepared to support informed decision-making and drive financial success in any organizational context.",
+        "Career Impact of Strategic Cost Management for MBA Students",
+        "Taking Strategic Cost Management as part of your MBA program equips you with essential skills that are highly valued across industries. This course provides a deep understanding of cost systems, variance analysis, and strategic decision-making, enabling you to assess financial data with precision and make impactful recommendations. Whether you’re managing budgets, streamlining operations, or leading cross-functional teams, the concepts learned in this course prepare you to drive organizational efficiency and profitability.",
+        "Employers in fields like consulting, finance, operations, and marketing seek professionals who can analyze cost behaviors and align them with business strategies. By mastering tools like activity-based costing, variance analysis, and financial modeling, you’ll position yourself as a strategic thinker who can bridge financial insights with actionable business decisions. Strategic Cost Management not only enhances your technical expertise but also boosts your confidence to excel in roles that demand analytical rigor and leadership.",
+        "Profitability Analysis for Product LinesAn MBA graduate specializing in Strategic Cost Management might work on identifying underperforming product lines by analyzing profitability using activity-based costing (ABC). For example, a consumer goods company may need to evaluate which of its products generates the highest margin after factoring in true overhead costs. The graduate could recommend strategies such as product discontinuation, pricing adjustments, or operational improvements to boost profitability.",
+        "Marketing Budget ROI AnalysisA company launching a new product may require a detailed analysis of its marketing budget’s return on investment (ROI). Using skills from this course, you might assess marketing variances, identify which campaigns were most effective, and advise on reallocating resources for future campaigns to maximize impact.",
+        "Manufacturing Cost Efficiency ProjectWorking for a manufacturing company, you might analyze overhead allocation systems to determine whether plant-wide or multiple overhead rates are more effective. By implementing the right system, you can help the organization achieve more accurate cost allocation and drive better decision-making regarding production and pricing strategies.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Use accounting information for strategic decision-making by understanding the nature of costs, cost management techniques, and product costing systems.",
+            "Apply opportunity cost and organizational theory concepts to analyze trade-offs in decision-making and operational control.",
+            "Integrate cost accounting principles with organizational strategies to plan and control operations effectively.",
+            "Evaluate the dual role of accounting systems in supporting both decision-making and operational control, considering the trade-offs between these functions.",
+            "Solve real-world business problems by building upon prior knowledge from undergraduate and graduate coursework, fostering a deeper understanding of strategic cost management.",
+            "Analyze and interpret cost information to develop a personal philosophy for managing and controlling organizational resources strategically."
+        ],
+        [
+            "Calculator: Texas Instruments BA II Plus",
+            "Computer with internet access and basic audio and video equipment",
+            "Jerold Zimmerman, Accounting for Decision Making and Control, 9th edition, McGraw-Hill, 2017.",
+            "Digital: ISBN#: 9781259731327, or you can get the cheaper one through google."
+        ],
+        [
+            "Cost Systems and Decision-Making",
+            "Cost Allocations",
+            "Activity-Based Costing:"
+        ],
+        [
+            "Manager’s decision problem:",
+            "Minimize cost to produce sales level Q by choosing levels for two inputs: advertising (A) and salespersons (S).",
+            "With no cost allocation: Costs = PaA + PsS",
+            "With cost allocation, overhead rate R is added to salesperson costs:",
+            "Costs = PaA + (Ps+R)S",
+            "Since R makes sales persons more expensive, the optimum level of salespersons decreases from SY to SZ.",
+            "Some advertising is substituted for salespersons, and the optimum level of advertising increases from AY to AZ."
+        ],
+        [
+            "Use accounting information for strategic decision-making by understanding the nature of costs, cost management techniques, and product costing systems.",
+            "Apply opportunity cost and organizational theory concepts to analyze trade-offs in decision-making and operational control.",
+            "Integrate cost accounting principles with organizational strategies to plan and control operations effectively.",
+            "Evaluate the dual role of accounting systems in supporting both decision-making and operational control, considering the trade-offs between these functions.",
+            "Solve real-world business problems by building upon prior knowledge from undergraduate and graduate coursework, fostering a deeper understanding of strategic cost management.",
+            "Analyze and interpret cost information to develop a personal philosophy for managing and controlling organizational resources strategically."
+        ],
+        [
+            "L1-L2",
+            "L3-L4",
+            "L5-L6",
+            "L7-L8",
+            "L9-L10",
+            "L11-L12",
+            "L13-L14"
+        ],
+        [
+            "Understand the Role of Managerial Accounting: Learn how managerial accounting supports decision-making, planning, and control within organizations.",
+            "Explore the Multifaceted Nature of Accounting Systems: Discover how accounting systems serve as tools for recording, evaluating, and communicating financial information to drive business strategies.",
+            "Connect Managerial Accounting to Organizational Goals: Examine how managerial accounting goes beyond numbers to shape the structure and efficiency of organizations."
+        ],
+        [
+            "Interactive Lessons: Gain insights into the significance of managerial accounting in business success and its direct impact on your career growth.",
+            "Case Study Analysis: Analyze the Vortec Medical example to understand key concepts and their application in real-world scenarios.",
+            "Self-Study Review: Reinforce learning with solutions to selected problems, allowing you to test your understanding and build confidence in the material."
+        ],
+        [
+            "Differentiate Between Decision Management and Control: Understand the trade-offs between managing decisions and controlling outcomes in an organizational context.",
+            "Master Budgeting Approaches: Explore incremental and zero-based budgeting techniques and their applications in business scenarios.",
+            "Analyze Flexible Budgets: Learn how flexible budgets adapt to changing business conditions and support effective financial decision-making."
+        ],
+        [
+            "Interactive Lessons: Dive into the principles of decision management versus decision control and explore practical budgeting techniques.",
+            "Case Studies: Analyze examples of flexible budgets and their application in real-world scenarios.",
+            "Self-Study Review: Test your knowledge with solutions to selected problems, ensuring you understand key concepts and their applications."
+        ],
+        [
+            "Understand Cost Concepts and Behavior: Explore the differences between opportunity costs and accounting costs, and analyze how costs vary under changing conditions.",
+            "Master the Principles of CVP Analysis: Learn to construct contribution format income statements and perform break-even, margin of safety, and target profit analyses.",
+            "Evaluate Business Performance Metrics: Understand the implications of operating leverage and how CVP analysis supports strategic financial decision-making."
+        ],
+        [
+            "Interactive Problem-Solving: Engage with examples that introduce opportunity costs, cost variation, and real-world CVP analysis scenarios.",
+            "Step-by-Step Analysis: Practice creating contribution format income statements and conducting break-even, margin of safety, and target profit analyses.",
+            "Case Study Application: Apply your knowledge to real-world business scenarios through a guided case-study assignment."
+        ],
+        [
+            "Master Cost Estimation TechniquesLearn and apply advanced methods such as the high/low method, scatter graphs, and regression analysis (simple and multiple) to estimate mixed costs accurately and enhance decision-making.",
+            "Analyze Mixed Costs and LinearityDevelop a clear understanding of mixed costs, their behavior, and the assumptions of linearity through visual explanations and analytical approaches.",
+            "Address Constrained ResourcesExplore strategies for managing limited resources effectively by working through practical examples and case studies, preparing you for real-world challenges."
+        ],
+        [
+            "Apply Cost Estimation Techniques: Practice using the high/low method, scatter graphs, and both simple and multiple regression techniques to analyze and estimate costs effectively.",
+            "Optimize Under Constraints: Work through real-world examples to understand how to manage constrained resources and maximize operational efficiency.",
+            "Collaborate and Reflect: Participate in discussions and complete the case study assignment to apply concepts to practical business scenarios."
+        ],
+        [
+            "Understand Responsibility Accounting Principles: Learn how financial performance is tied to individual organizational units and their managers.",
+            "Analyze Key Metrics for Investment Centers: Master the calculation and interpretation of ROI and Residual Income to evaluate the performance of investment centers.",
+            "Apply Responsibility Accounting in Practice: Explore real-world applications of responsibility accounting through examples and case studies."
+        ],
+        [
+            "Explore Responsibility Accounting Concepts: Understand the fundamentals of linking financial performance to organizational units and responsibilities.",
+            "Analyze Performance Metrics: Practice calculating ROI and Residual Income, and interpret their impact on decision-making.",
+            "Work Through Real-World Examples: Engage with case studies that demonstrate responsibility accounting in action."
+        ],
+        [
+            "The Role of Transfer Pricing in Global Business: Understand how transfer pricing facilitates effective financial and operational strategies for multinational organizations while ensuring compliance with global tax regulations.",
+            "Methods for Setting Transfer Prices: Learn about key approaches such as Comparable Uncontrolled Price (CUP), Resale Price, and Cost Plus methods, and discover how to apply them in various business scenarios.",
+            "Practical Implementation and Compliance: Explore the process of determining transfer pricing ranges, managing implementation challenges, and aligning strategies with international tax guidelines."
+        ],
+        [
+            "Real-World Scenarios: Analyze examples of transfer pricing in action to see how multinational corporations manage operational and tax considerations.",
+            "Hands-On Problem Solving: Apply your knowledge through interactive activities and exercises designed to strengthen your analytical and strategic skills.",
+            "Self-Study Reflection: Reinforce key concepts with guided review sessions that connect theory to practice."
+        ],
+        [
+            "Definition and Purpose of Cost Allocation: Understand what cost allocation is and why organizations allocate costs to enhance transparency, operational efficiency, and informed decision-making.",
+            "Steps in the Cost Allocation Process: Learn the systematic steps involved in distributing costs, including identifying cost pools, selecting allocation bases, and applying allocation methods.",
+            "Incentives and Organizational Impacts: Explore how cost allocation influences organizational behavior, accountability, and decision-making, with a focus on insulating versus noninsulating approaches and their practical implications."
+        ],
+        [
+            "Real-World Contexts: Explore case studies that demonstrate the application of cost allocation in business settings.",
+            "Analytical Exercises: Participate in thought-provoking scenarios to deepen your understanding of cost allocation strategies.",
+            "Collaborative Discussions: Reflect on how cost allocation can be tailored to meet the strategic needs of diverse organizations."
+        ],
+        [
+            "Challenges in Cost Allocation: Understand complex issues such as the Death Spiral, capacity cost allocation (e.g., depreciation), and joint cost allocation. Learn why these challenges arise and how to mitigate their impact on financial decisions.",
+            "Advanced Allocation Methods: Explore and apply advanced methods for service department cost allocation, including the Direct Method, Step-Down Method, and Reciprocal Method, using both manual and Excel-based approaches.",
+            "Application to Multidepartment Operations: Gain insight into joint cost allocation and segmented reporting to evaluate and optimize financial performance across various business segments."
+        ],
+        [
+            "Problem-Solving Practice: Explore real-world scenarios and apply advanced cost allocation methods to realistic business situations.",
+            "Collaborative Exercises: Work through allocation challenges with peers to understand diverse perspectives and approaches.",
+            "Guided Reflections: Assess your understanding through self-study reviews and reflections on key lesson concepts."
+        ],
+        [
+            "Building a Strong Financial Model: Develop the foundation of your financial model by applying cost management techniques. Ensure accuracy and reliability through iterative checks and refinements.",
+            "Analyzing Data for Strategic Recommendations: Learn how to interpret your financial model’s outcomes and use the insights to craft data-driven recommendations for effective decision-making.",
+            "Progress Through Collaborative Feedback: Engage with your instructor and peers to identify potential problems early, refine your project, and enhance its quality through collaborative learning and feedback."
+        ],
+        [
+            "Model Refinement: Conduct accuracy checks on your financial model to ensure all calculations and assumptions are aligned with project goals.",
+            "Progress Memo Submission: Clearly outline your progress on Part 1 of the project, showcasing your completed work and any challenges faced.",
+            "Interactive Class Discussion: Participate in a guided discussion to share experiences, gain insights, and troubleshoot common issues in financial modeling."
+        ],
+        [
+            "Understanding Job Costing: Learn the essentials of job order costing, including the detailed steps involved in costing a job using absorption costing methods.",
+            "Overhead Allocation Methods: Discover how to allocate manufacturing overhead (MOH) using plant-wide and multiple overhead rates, and understand the implications of each approach.",
+            "Comparing Normal and Expected Volumes: Explore the differences between normal and expected volumes and how these concepts apply to both job costing and process costing systems."
+        ],
+        [
+            "Apply Job Costing Principles: Explore how to calculate job costs step-by-step using absorption costing methods.",
+            "Analyze Overhead Allocation: Compare examples of plant-wide versus multiple overhead rates and their impact on cost accuracy.",
+            "Explore Practical Scenarios: Work through real-world case studies to understand how companies manage job costing and overhead allocation."
+        ],
+        [
+            "Incentive to Overproduce in Absorption Costing: Understand how absorption costing can encourage overproduction and the potential negative impacts on profitability and operational efficiency.",
+            "Variable Costing Advantages: Learn the fundamentals of variable costing, its advantages over absorption costing, and how it improves transparency in financial reporting and decision-making.",
+            "Comparative Analysis of Costing Methods: Explore the differences between variable and absorption costing through practical examples, identifying their effects on financial outcomes and organizational strategies."
+        ],
+        [
+            "Discover Key Differences: Work through examples, such as the Zipp Cards case, to analyze how variable and absorption costing methods impact financial results.",
+            "Engage in Comparative Analysis: Examine scenarios that highlight the advantages and challenges of variable costing versus absorption costing.",
+            "Reinforce Understanding: Apply concepts through case studies and interactive quizzes to deepen your grasp of the topic."
+        ],
+        [
+            "Limitations of Traditional Costing: Understand how traditional costing methods can lead to inaccurate product costs by oversimplifying cost allocation, particularly in diverse and complex operations.",
+            "Benefits of Activity-Based Costing (ABC): Learn how ABC assigns costs more accurately by identifying activities that drive costs and linking them to specific products or services, improving transparency and precision.",
+            "Comparative Analysis: ABC vs. Traditional Costing: Explore the differences between ABC and traditional costing, using real-world examples to highlight their impacts on organizational strategies and decision-making."
+        ],
+        [
+            "Case Study Examples: Analyze scenarios that compare ABC to traditional costing, demonstrating the advantages of precise cost allocation.",
+            "Interactive Discussions: Reflect on the practical implications of adopting ABC in diverse industries and its acceptance over time.",
+            "Knowledge Application: Reinforce learning through problem-solving exercises and a self-study review to connect concepts with real-world practice."
+        ],
+        [
+            "Setting and Using Standard Costs: Understand how standard costs are defined, established, and used to measure efficiency in direct materials, direct labor, and overhead.",
+            "Variance Analysis: A Critical Evaluation Tool: Learn how to identify and analyze variances in direct materials and direct labor, exploring how these deviations reveal inefficiencies and areas for improvement.",
+            "Balancing Benefits and Challenges of Standard Costing: Explore the advantages of variance analysis while considering the costs and incentive effects of maintaining a standard cost system."
+        ],
+        [
+            "Explore Real-World Examples: Work through examples of direct materials and direct labor variances to see how standard costs function in practice.",
+            "Analyze Variances: Delve into case studies that demonstrate the impact of variances on cost control and decision-making.",
+            "Engage in Reflective Practice: Evaluate the benefits and challenges of standard costing systems and their role in driving organizational performance."
+        ],
+        [
+            "Understanding Overhead Variances: Learn the difference between budgeted, standard, and actual volumes and how these measures impact variable and fixed overhead variances.",
+            "Analyzing Marketing Variances: Explore how marketing variances provide critical insights into the effectiveness of sales strategies, advertising budgets, and customer outreach efforts.",
+            "Improving Cost Management through Variance Analysis: Discover how variance analysis enhances decision-making by pinpointing inefficiencies and aligning costs with organizational goals."
+        ],
+        [
+            "Analyze Real-World Scenarios: Engage with examples and case studies that demonstrate the practical application of variance analysis.",
+            "Think Strategically: Reflect on the implications of variances for cost management and how they can inform decision-making across departments.",
+            "Build Confidence Through Practice: Use interactive exercises to solidify your understanding and connect the theory to real-world applications."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "Figure: The Wheel of Decision-Making",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/ACCT-545.png"
+        },
+        {
+            "alt": "",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/image-8.png"
+        },
+        {
+            "alt": "A visual representation of activity levels in a business context, divided into five categories",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/image-9.png"
+        },
+        {
+            "alt": "graphic organizer on implementation of ABCs",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/image-10-1024x510.png"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Assignment Breakdown",
+                "Percentof Course"
+            ],
+            [
+                "Weekly Case Write-Ups and Submissions",
+                "40%"
+            ],
+            [
+                "Weekly Module Quizzes and Orientation Requirements",
+                "10%"
+            ],
+            [
+                "Semester Project",
+                "50%"
+            ],
+            [
+                "",
+                ""
+            ],
+            [
+                "Total",
+                "100%"
+            ]
+        ],
+        [
+            [
+                "Grade",
+                "Percent Range"
+            ],
+            [
+                "A",
+                "93 – 100%"
+            ],
+            [
+                "A–",
+                "90 – 92.9%"
+            ],
+            [
+                "B+",
+                "87 – 89.9%"
+            ],
+            [
+                "B",
+                "83 – 86.9%"
+            ],
+            [
+                "B–",
+                "80 – 82.9%"
+            ],
+            [
+                "C+",
+                "77 – 79.9%"
+            ],
+            [
+                "C",
+                "70 – 76.9%"
+            ],
+            [
+                "D",
+                "60 – 69.9%"
+            ],
+            [
+                "F",
+                "Below 60%"
+            ]
+        ],
+        [
+            [
+                "Criteria",
+                "Ratings",
+                "Pts"
+            ],
+            [
+                "Analysis",
+                "A detailed description of the process and evidence of deep thought (5 pts)",
+                "Semi-detailed description with evidence of some(but not significant) deep thought (4 pts)",
+                "Generic descriptions and surface-level discussion (3 pts)",
+                "Limited descriptions (2 pts)",
+                "5 pts"
+            ],
+            [
+                "Calculation Process / Thought",
+                "Calculation 100% correct, with minor rounding issue permitted  (5 pts)",
+                "The calculation involved minor issues, resulting in a wrong answer  (4 pts)",
+                "The calculation involved serval minor issues, resulting in a wrong answer (3 pts)",
+                "Metric not done or significant issues with computation (1pts)",
+                "5 pts"
+            ]
+        ],
+        [
+            [
+                "Type",
+                "External",
+                "Internal"
+            ],
+            [
+                "Users of Reports",
+                "Shareholders, bondholders, banks, and analysts (SEC, FASB)Taxing authorities (IRS, states, etc.)Regulatory authorities (GASB, etc.)Board of directors",
+                "Managers at all levels"
+            ],
+            [
+                "Objectives of Reporting",
+                "Comparability between firmsHistorical accountingAuditors can verify reports",
+                "Useful for decision-making about future activitiesMeasure performance that is relevant to the firmFocus on projects or processes within a firm"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"3667\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

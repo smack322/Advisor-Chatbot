@@ -1,0 +1,622 @@
+{
+    "metadata": {
+        "title": "INSC 526: Business Process Management and Integration – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=3804"
+    },
+    "headings": {
+        "h2": "Lesson 14: Business Process Modeling Strategies",
+        "h4": "Unlocking Your Potential",
+        "h5": "MS Office 365"
+    },
+    "paragraphs": [
+        "INSC 526: Business Process Management and Integration is a three-credit course that empowers students to design and implement business processes that align organizational goals with cutting-edge Information Technology (IT) systems. Students will explore BPM-based integration solutions, mastering methodologies, process modeling languages, flow controls, service computing, and process orchestration. With a focus on real-world applications, the course introduces tools such as process engines, simulation software, and web services, ensuring graduates are equipped to tackle complex integration challenges.",
+        "Additionally, students will examine the role of Big Data in Business Process Management, gaining insights into its transformative potential. By combining technical expertise with strategic thinking, this course prepares students for leadership roles in IT and process optimization, equipping them to drive innovation and efficiency across industries.",
+        "The goal of this course is to explore and discuss BPM-based integration solutions, including the main specifications in BPM, the key methodologies and mainstream techniques for implementing BPM-based integration solutions, and the various technologies that support BPM, such as business process modeling languages, flow controls, human interactions, process orchestration and choreography, and service computing. Students will learn numerous industrial solutions, including process modeling tools, web services and application servers, process engines, and simulation tools. In addition, we will also spend some time discussing Big Data and its relevance to BPM.",
+        "Students will:",
+        "In this course, you will be creating business process diagrams using a program called Visual Paradigm.",
+        "*Note: If you are unable to use Visual Paradigm due to an accessibility issue, you will be provided with other options for creating diagrams. Please contact your instructor if you need an alternative tool.",
+        "You may be required to use Microsoft Word, Excel, and/or PowerPoint to complete assignments.  MS Office 365 and Adobe Creative Cloud are free for Penn State students.  If you need any assistance using the software, you can access tutorials via LinkedIn Learning at no cost to Penn State students or contact Information Technology Support for assistance.",
+        "There are no proctored exams for this course.",
+        "A grade is given based on the instructor’s judgment as to the student’s scholarly attainment (see the Penn State Graduate Degree Programs Bulletin, p. 41). The following grading system applies to graduate students:",
+        "Grades will be based on the following scale:",
+        "A = 95-100, A- = 90-94, B+ = 87-89, B = 84-86, B- = 80-83, C+ = 77-79, C = 70-76, D = 60-69, F = Below 60",
+        "You will participate in both Group Discussion forums and Individual Discussion forums. The Group Discussion Forums will give you an opportunity to work closely with a few of your classmates to discuss concepts and collaboratively submit reports or summaries.",
+        "The Individual forums will provide an opportunity for each student to individually respond to prompts related to lesson concepts and read the replies of all your classmates, building knowledge by learning from one another. Please view the rubric for each discussion forum so that you know what is expected in terms of assessing your understanding of the concepts presented.  Your instructor will monitor activity in the Discussion Forums and may post or reply as needed.",
+        "To assess your learning of the basic concepts presented throughout the course there will be seven (7) quizzes. The final quiz will be comprehensive and will cover all 14 lessons. Although each quiz is only worth 5 points, the overall percentage of quizzes for your final grade is 50%, so please prepare for each quiz by reading the assigned material and participating in individual and group discussions.",
+        "This course has a team project that has seven (7) milestones. Each deliverable is outlined in the Team Project Description found in the course modules. Your team will select an organization to investigate/study the business processes. You will have an opportunity to identify the business functions, processes, and activities, and learn how to model business processes using the BPMN standards. You will apply process improvements, and service interaction patterns, and create diagrams to describe the interactions between the business processes. Finally, you will apply Petri Nets for modeling business processes and submit a final report accompanied by a PowerPoint presentation and an experience statement to summarize your learning experience and teamwork. A report template will be provided for your convenience.",
+        "After submitting each deliverable, your instructor will review your work and provide you with feedback before the next deliverable is due. Please incorporate any feedback into your project when you submit the following deliverable. When collaborating with your group, you may choose any method of communication that is most effective (Google Docs, Microsoft Office Teams, Zoom, etc.) If you need any assistance using the collaboration tools, please contact Penn State IT for assistance.",
+        "*subject to change",
+        "The BPM methodology captures all the phases that are required to develop business process applications. The BPM methodology demonstrated in Figure 2.1 takes a project-oriented view for developing business process applications.",
+        "The different phases in the BPM methodology include:",
+        "Select the information buttons  in the image below for a description of these phases.",
+        "Try to define these terms in your own words before turning the card to see the correct answer.",
+        "In the BPMN, control flow is also called as sequence flow which is represented as an arrow between the flow objects such as the events, activities and the gateways. There are different types of sequence flows, namely normal flow, exception flow, sequence flow induced by link events, and adhoc flow.",
+        "A normal flow of a business process represents an expected and desired behavior of the process. It starts in the start event and continues through a set of flow objects until it reaches the end event. Exceptional situations are reached by exception flow. With respect to the process enactment, the exception flow does not define the desired flow of the process, but exceptional situations. Exception flow is created by intermediate events attached to the boundary of an activity. Each intermediate event of this kind is associated with an event context, used to determine whether the event will occur. The intermediate event will spawn only the exception flow if the activity that the intermediate event is attached to is still active when the event occurs.",
+        "In figure 8.7, a business process involving a brainstorming session is shown. Once the room for the brainstorming session is reserved, the brainstorming session starts. This activity provides the event context for the intermediate timer event that is attached to its boundary. This session is limited to three hours. When the brainstorming session activity starts, the timer is started. When three hours has elapsed, an intermediate event is generated. If at this point in time the brainstorming activity is still active, an exception is raised, the brainstorming activity is completed, and the process continues with the consolidation of results activity. If the brainstorming sessions last less than three hours, the result consolidation activity is conducted as part of the normal sequence flow. In this case, the event context is no longer present when the intermediate timer event occurs (see figure 7).",
+        "During this course students will:",
+        "During this course you will expand your knowledge of the lesson topics each week.",
+        "In this lesson, students are introduced to the foundational concepts of Business Process Management (BPM), exploring how it drives organizational efficiency and innovation. Key topics include understanding business processes, the BPM lifecycle, and the strategic role BPM plays in aligning operations with business goals. This lesson sets the stage for deeper exploration of BPM tools and methodologies throughout the course.",
+        "By the end of this lesson, you will have a clear understanding of the fundamentals of Business Process Management and its importance in driving organizational success. Equipped with a solid foundation in BPM and its lifecycle, you will be ready to explore advanced tools and techniques in future lessons. This lesson ensures you are prepared to approach BPM with confidence and strategic insight.",
+        "In this lesson, students will explore the methodologies that guide effective Business Process Management (BPM). The focus will be on understanding how BPM methodologies structure business operations, the relationships between BPM and other enterprise applications, and the significance of value chains and value systems. Through practical use cases, students will learn how to apply BPM methodologies to improve organizational efficiency and strategic alignment.",
+        "By the end of this lesson, you will understand the methodologies that underpin effective BPM practices and their role in enhancing organizational strategy. You will gain the ability to analyze business functions, apply value chains to optimize operations, and approach BPM from a systems-oriented perspective.",
+        "This lesson introduces students to the foundational concepts of Enterprise Architecture (EA), focusing on its role in integrating Information Technology (IT) systems with enterprise applications to meet organizational goals. Students will explore enterprise application integration, hub-and-spoke middleware, and the strategies that enable seamless connectivity and interoperability between systems. This lesson lays the groundwork for understanding complex IT ecosystems in business environments.",
+        "By the end of this lesson, you will have a solid understanding of the foundational elements of enterprise architecture, including the role of IT systems and middleware in connecting enterprise applications. This knowledge prepares you to tackle real-world challenges in integrating complex IT ecosystems and sets the stage for deeper exploration of enterprise architecture in future lessons.",
+        "Building on the foundations of enterprise architecture, this lesson delves into workflow management, system workflows, and the principles of Service-Oriented Architecture (SOA). Students will explore how enterprise services streamline operations and enhance scalability, focusing on their role in designing flexible and efficient IT systems. Through practical activities, students will deepen their understanding of how architecture supports modern business processes.",
+        "By the end of this lesson, you will have a deeper understanding of how enterprise architecture leverages workflows and Service-Oriented Architecture to create adaptive, efficient, and scalable IT systems. These skills prepare you to analyze, design, and implement architectural solutions that meet dynamic business needs while optimizing processes and resources.",
+        "This lesson introduces the foundational elements of Business Process Management (BPM) by focusing on conceptual models, abstraction concepts, and activity modeling. Students will explore state transitions and event diagrams, gaining insight into how BPM frameworks represent and manage complex business processes. This foundational knowledge serves as the basis for analyzing and designing effective process models.",
+        "By the end of this lesson, you will have a solid grasp of the foundational principles of BPM, including conceptual models, activity modeling, and state transitions. These skills will enable you to analyze and design structured workflows, providing a critical stepping stone for tackling more advanced BPM methodologies in future lessons.",
+        "Building on the concepts introduced in Part I, this lesson explores the process of service enabling and introduces tools like Visual Paradigm for modeling and analyzing business processes. Students will learn how to use service-enabling techniques to enhance BPM implementations, leveraging technology to design more efficient, scalable, and adaptable workflows.",
+        "By the end of this lesson, you will understand how service enabling bridges BPM processes with technology, creating systems that are both efficient and adaptable. With practical experience in tools like Visual Paradigm, you’ll be equipped to model and analyze workflows effectively, laying the groundwork for advanced BPM design and implementation in future lessons.",
+        "This lesson introduces students to Business Process Orchestration, focusing on how processes are coordinated and executed within a BPM system architecture. Students will explore the BPM system architecture model and gain insight into the role of orchestration in managing workflows across interconnected systems. By understanding orchestration, students will be prepared to design and implement processes that are both efficient and scalable.",
+        "By the end of this lesson, you will have a solid understanding of process orchestration and its role within BPM system architectures. You’ll be equipped to analyze and design workflows that seamlessly integrate tasks, systems, and human interactions, preparing you for more advanced topics in business process execution and management.",
+        "Take your understanding of process orchestration to the next level by exploring advanced workflow patterns that are essential for managing dynamic and scalable business processes. This lesson introduces key concepts like N-out-of-M joins, deferred choice, and multiple instances, showing you how to design flexible workflows that adapt to real-world challenges. Gain valuable, hands-on experience in creating workflows that ensure efficiency and precision.",
+        "This lesson equips you with the knowledge and skills to tackle complex workflow challenges using advanced orchestration techniques. By mastering these tools, you’ll gain a competitive edge in designing scalable, adaptable, and efficient business processes—critical skills for succeeding in today’s dynamic organizational landscape.",
+        "Unlock the power of Business Process Model and Notation (BPMN), a global standard for visualizing and designing business processes. In this lesson, you will explore key components such as business process diagrams, events, activities, sequence flows, and gateways. Gain practical skills in using BPMN to create clear and effective process models that enable seamless collaboration and understanding across teams and stakeholders.",
+        "By mastering BPMN, you will gain a versatile skill set for visually representing and analyzing business processes. These capabilities will prepare you to design workflows that enhance collaboration, improve efficiency, and support organizational goals. BPMN is an essential tool for professionals in process management, and this lesson sets you on the path to becoming a confident and capable process modeler.",
+        "This lesson introduces the concept of Business Process Choreography, focusing on how independent processes coordinate with each other to achieve a shared goal. Students will explore the differences between orchestration and choreography, the motivation behind using choreography, and the phases of its development. Practical tools like collaboration diagrams and service interaction patterns will be introduced to help students visualize and design choreographed processes effectively.",
+        "By the end of this lesson, you will have a strong foundation in business process choreography, including its motivations, development phases, and practical tools. These skills will prepare you to design processes that emphasize collaboration, scalability, and decentralized coordination—key attributes for thriving in dynamic and interconnected business environments.",
+        "In this lesson, you will be introduced to the world of big data and its significance in today’s data-driven landscape. You will also explore the ethical considerations involved in data collection, ensuring that you understand the importance of responsible and transparent practices in handling data.",
+        "By mastering advanced choreography design and BPMN conversation diagrams, you will be equipped to visualize and manage complex, multi-party workflows effectively. These skills are essential for creating seamless collaboration in modern organizations, giving you the expertise to handle intricate business challenges with confidence.",
+        "Discover how Petri Nets, a cutting-edge modeling tool, can revolutionize the way businesses analyze and manage workflows. This lesson introduces the foundational concepts of Petri Nets and demonstrates their unique ability to model and optimize complex business processes. By learning to visualize process flows and analyze performance, you’ll gain skills that set you apart in managing dynamic and efficient workflows.",
+        "This lesson empowers you to use Petri Nets to tackle complex business challenges with confidence. By mastering this advanced modeling technique, you’ll enhance your ability to optimize processes, solve workflow issues, and make impactful decisions—equipping you with a competitive edge in today’s fast-paced business world.",
+        "In the final part of the choreography series, this lesson focuses on ensuring compatibility and mastering choreography modeling techniques. You’ll learn how to design choreography models that seamlessly align with organizational goals and technical requirements. Through interactive discussions and modeling exercises, you’ll enhance your ability to create harmonious, collaborative workflows across diverse systems and stakeholders.",
+        "By completing this lesson, you will master the art of choreography modeling and compatibility analysis, equipping you with the skills to design multi-party workflows that foster collaboration and efficiency. These advanced techniques will position you as a leader in process management, ready to tackle complex challenges and drive organizational success.",
+        "In this final lesson, you’ll explore advanced strategies for Business Process Modeling, focusing on data modeling, organizational modeling, and achieving process flexibility. These strategies are essential for designing adaptable processes that align with data flows and organizational structures. Through comprehensive assignments and a collaborative final project, this lesson ties together everything you’ve learned, preparing you to implement innovative solutions in real-world business environments.",
+        "This capstone lesson combines all the skills and concepts learned throughout the course, enabling you to apply advanced business process modeling strategies to real-world challenges. By mastering data and organizational modeling, along with process flexibility, you’ll be equipped to design innovative solutions that drive efficiency and adaptability—skills that are essential for leadership roles in dynamic, modern organizations.",
+        "Earning a master’s degree in Information Science with coursework in Process Management and Integration positions you as a strategic leader in today’s technology-driven business environment. This specialized knowledge equips you to streamline operations, align IT systems with business goals, and drive efficiency through the integration of cutting-edge technologies like workflow automation, service-oriented architecture, and business process modeling. Employers value professionals who can design and manage processes that enhance scalability, improve collaboration, and optimize organizational performance.",
+        "Graduates with this expertise are well-prepared for roles in IT management, business analysis, enterprise architecture, and operations consulting. Whether you’re automating workflows, improving cross-departmental communication, or implementing complex integration strategies, the skills you gain from this coursework will empower you to lead innovation and deliver measurable business outcomes in industries ranging from healthcare and finance to technology and manufacturing.",
+        "Workflow Automation in Healthcare: A regional hospital seeks to reduce patient admission and discharge delays. As a project, a student could analyze current workflows across departments to identify bottlenecks in information handoff and approvals. They would design and implement an automated workflow system using a Business Process Management (BPM) platform, integrating it with the hospital’s existing Electronic Health Record (EHR) system for real-time updates. This project could result in improved patient throughput and reduced administrative costs.",
+        "Scalability Assessment for a Technology Start-Up: A SaaS company plans rapid growth but lacks scalable IT and operational processes. A student working on this project could assess the current IT infrastructure and operational workflows, develop a roadmap for integrating scalable cloud solutions, and implement process monitoring tools to track performance. This work would prepare the company for growth, reduce downtime, and improve resource utilization.",
+        "Cross-Departmental Integration in Manufacturing: manufacturing firm experiences siloed operations between production, procurement, and sales. As a project, a student could map workflows across departments to understand dependencies and design an integrated ERP (Enterprise Resource Planning) system. Automating reporting for inventory levels and production schedules would improve decision-making, resulting in better production planning and reduced supply chain costs.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Learn the main specifications in BPM",
+            "Understand the key methodologies and techniques for implementing BPM-based solutions.",
+            "Identify the various technologies that support BPM",
+            "Learn industrial solutions"
+        ],
+        [
+            "Mathias Weske, Mathias (2019). Business Process Management: Concepts, Languages, Architecture. 3rd Edition. Publisher: Springer.\n\nA digital version of the textbook is available for you at no charge.  A link to the textbook is provided below and is also available in the Course Modules.*If you have any issues accessing the material, please contact the PSU Library.",
+            "A digital version of the textbook is available for you at no charge.  A link to the textbook is provided below and is also available in the Course Modules.*If you have any issues accessing the material, please contact the PSU Library."
+        ],
+        [
+            "A digital version of the textbook is available for you at no charge.  A link to the textbook is provided below and is also available in the Course Modules.*If you have any issues accessing the material, please contact the PSU Library."
+        ],
+        [
+            "Visual Paradigm is available for download with a free 30-day trial. If students need to use the software beyond 30 days, a subscription is available for $6/month.  Additional details and instructions will be provided in Lesson 6.\n\nDownload Visual Paradigm. Try it FREE",
+            "Download Visual Paradigm. Try it FREE"
+        ],
+        [
+            "Download Visual Paradigm. Try it FREE"
+        ],
+        [
+            "“A” (Excellent) indicates exceptional achievement.",
+            "“B” (Good) indicates substantial achievement.",
+            "“C” (Satisfactory) indicates acceptable but substandard achievement.",
+            "“D” (Poor) indicates inadequate achievement and is a failing grade for a graduate student."
+        ],
+        [
+            "Business Process Management",
+            "BPM Methodology",
+            "Enterprise Architecture",
+            "Business Process Modelling Foundations",
+            "Business Process Orchestration",
+            "BPM Notation (BPMN)",
+            "Business Process Choreography",
+            "Petri Nets",
+            "Business Process Modelling Strategies"
+        ],
+        [
+            "BPM Methodology",
+            "Workflow Management",
+            "Sequence Flows"
+        ],
+        [
+            "Strategy and organization",
+            "Process Landscape design",
+            "Process design",
+            "Process implementation",
+            "Operations and controlling"
+        ],
+        [
+            "Learn the main specifications in BPM",
+            "Understand the key methodologies and techniques for implementing BPM-based solutions.",
+            "Identify the various technologies that support BPM",
+            "Learn industrial solutions"
+        ],
+        [
+            "L1-L2",
+            "L3-L4",
+            "L5-L6",
+            "L7-L8",
+            "L9-L10",
+            "L11-L12",
+            "L13-L14"
+        ],
+        [
+            "What is Business Process Management: Learn the definition and importance of BPM as a strategic approach to managing and improving business operations.",
+            "The BPM Lifecycle: Understand the five key phases of the BPM lifecycle: design, modeling, execution, monitoring, and optimization.",
+            "Business Processes and Their Value: Discover how identifying, analyzing, and refining processes can create value and improve efficiency within organizations."
+        ],
+        [
+            "Collaborative Introduction: Participate in an engaging activity to build a learning community and share perspectives on the value of BPM in modern organizations.",
+            "Interactive Exploration of BPM Concept: Dive into an interactive module that introduces the BPM lifecycle, illustrating its phases and applications in real-world scenarios.",
+            "Self-Reflection and Knowledge Check: Complete an optional self-check activity to evaluate your understanding of key BPM concepts and prepare for the lesson quiz."
+        ],
+        [
+            "IUnderstanding BPM Methodology: Gain insight into the structured approaches used to design, implement, and optimize business processes.",
+            "Enterprise Applications vs. Business Functions: Explore the differences and synergies between enterprise applications and business functions in achieving BPM goals.",
+            "Value Chains and Systems: Learn how value chains and value systems connect various business functions to enhance productivity and deliver value."
+        ],
+        [
+            "Interactive BPM Methodology Module: Engage with a dynamic module that explains key BPM methodologies and their applications through visual and practical examples.",
+            "Team Project Assignment: Collaborate with peers on the first team project assignment to apply BPM methodologies to a real-world business scenario.",
+            "Self-Reflection and Knowledge Check: Reflect on key concepts such as value chains, business function decomposition, and BPM relationships to prepare for upcoming lessons and activities."
+        ],
+        [
+            "Understanding IT Systems: Explore the role of IT systems in supporting enterprise operations and driving organizational efficiency.",
+            "Enterprise Applications and Integration: Learn how enterprise applications and integration tools enhance communication and data flow across systems.",
+            "Hub-and-Spoke Middleware: Discover how hub-and-spoke middleware architectures enable streamlined system connectivity and simplify IT infrastructure."
+        ],
+        [
+            "Interactive IT Systems Overview: Engage with a module that provides a clear and practical explanation of IT systems and their integration with enterprise applications.",
+            "Collaborative Group Discussion: Participate in a group discussion to analyze real-world examples of enterprise application integration and share insights on best practices."
+        ],
+        [
+            "Workflow Management: Understand the importance of designing and optimizing workflows to align with organizational goals.",
+            "System Workflows: Learn how system workflows enable seamless communication and integration across IT systems.",
+            "Service-Oriented Architecture (SOA): Explore the principles of SOA and how it supports modular,reusable, and scalable enterprise solutions that adapt to changing business needs."
+        ],
+        [
+            "Interactive SOA Module: Engage with an interactive module to understand how Service-Oriented Architecture enables flexible and reusable IT services across the organization.",
+            "Workflow Design Practice: Collaborate in a team project to design and evaluate system workflows that enhance operational efficiency and address specific business challenges.",
+            "Self-Reflection and Knowledge Check: Reflect on the role of workflows and SOA in enterprise architecture, and complete a knowledge check to ensure mastery of key concepts."
+        ],
+        [
+            "Conceptual Models and Terminology: Learn the key terms and structures used in BPM to represent processes and activities.",
+            "Understanding Abstraction: Explore how abstraction simplifies complex processes into manageable components for analysis and design.",
+            "Process Models and Event Diagrams: Discover how to represent workflows and state transitions using process models and event diagrams."
+        ],
+        [
+            "Interactive Conceptual Model Module: Engage with an interactive activity that breaks down BPM concepts and explains their practical applications in process management.",
+            "Collaborative Process Analysis: Participate in group discussions to analyze state transitions and event diagrams, sharing insights and best practices.",
+            "Self-Reflection and Knowledge Check: Reflect on your understanding of BPM foundations and complete a quiz to evaluate your knowledge of process and activity modeling."
+        ],
+        [
+            "Service Enabling in BPM: Understand how service enabling integrates processes with technology to enhance functionality and scalability.",
+            "Visual Paradigm Overview: Learn the basics of using Visual Paradigm, a tool for modeling and analyzing business processes and workflows.",
+            "Leveraging Technology for BPM: Discover how tools like Visual Paradigm help create visual representations that improve process clarity and collaboration."
+        ],
+        [
+            "Interactive Exploration of Service Enabling: Engage with a module that introduces service-enabling techniques and their practical applications in BPM.",
+            "Hands-On Tool Familiarization: Download and explore Visual Paradigm to gain a working knowledge of its interface and capabilities for process modeling.",
+            "Team Project Collaboration: Apply service-enabling concepts to a team project by designing a process model that integrates technological solutions."
+        ],
+        [
+            "BPM System Architecture Model: Learn about the architecture that supports BPM systems and enables seamless integration of workflows.",
+            "Understanding Process Orchestration: Discover how process orchestration coordinates tasks, systems, and human interactions to execute business processes efficiently.",
+            "The Role of Automation in Orchestration: Explore how automation enhances process execution, reduces errors, and improves scalability."
+        ],
+        [
+            "Interactive System Architecture Module: Engage with a dynamic module that breaks down the BPM system architecture model and its components.",
+            "Collaborative Orchestration Analysis: Participate in group discussions to analyze examples of process orchestration and its impact on workflow efficiency."
+        ],
+        [
+            "Master Dynamic Workflow Patterns: Learn how N-out-of-M joins allow workflows to converge seamlessly based on real-time conditions.",
+            "Enable Flexible Decision-Making: Discover how deferred choice empowers workflows to respond dynamically to events and triggers, improving adaptability.",
+            "Orchestrate Complex Processes: Explore how to manage multiple instances in parallel or sequential workflows, ensuring processes remain scalable and efficient."
+        ],
+        [
+            "Explore Workflow Pattern Essentials: Engage with an interactive module that brings advanced orchestration patterns to life, helping you visualize and understand their real-world applications.",
+            "Team-Based Workflow Design: Collaborate on a team project to design workflows that incorporate dynamic decision-making and multiple instances, preparing you for challenges in professional environments.",
+            "Reflect and Test Your Knowledge: Reflect on how advanced orchestration techniques enhance process management and validate your learning through applied exercises."
+        ],
+        [
+            "Understand Business Process Diagrams: Learn how BPMN diagrams visually represent workflows and business processes, enabling clear communication of complex operations.",
+            "Master Events, Activities, and Gateways: Explore the core elements of BPMN, including events, activities, sequence flows, and gateways, to design dynamic and logical workflows.",
+            "Design Interacting Processes: Discover how BPMN facilitates the modeling of processes that interact and exchange information across departments or systems."
+        ],
+        [
+            "Collaborative BPMN Design: Participate in group discussions to analyze real-world examples of BPMN applications and share insights on best practices for process modeling.",
+            "Hands-On Modeling Practice: Use BPMN tools to create your own process models, applying sequence flows, gateways, and interacting processes to solve practical business challenges."
+        ],
+        [
+            "Orchestration vs. Choreography: Understand the key distinctions between these approaches, focusing on how choreography enables decentralized coordination of processes.",
+            "Motivation for Process Choreography: Learn why organizations adopt process choreography to improve scalability, flexibility, and collaboration across systems.",
+            "Development Phases and Collaboration Tools: Explore the stages of process choreography development and the role of collaboration diagrams and service interaction patterns in designing seamless workflows."
+        ],
+        [
+            "Interactive Comparison of Orchestration and Choreography: Engage with an interactive module to understand the unique benefits and use cases of process choreography versus orchestration.",
+            "Team-Based Process Design: Collaborate on a team project to create a process choreography plan using collaboration diagrams and service interaction patterns."
+        ],
+        [
+            "Complex Service Interaction Patterns: Understand how advanced service interaction patterns facilitate communication and coordination in multi-party processes.",
+            "Process Choreography Design: Explore best practices for designing choreographed workflows that balance efficiency and adaptability.",
+            "BPMN Conversation Diagram Elements: Learn how to use BPMN conversation diagrams to represent interactions and align communication across various stakeholders."
+        ],
+        [
+            "Interactive Exploration of Complex Patterns: Engage with an interactive module to break down complex service interaction patterns and their applications in real-world scenarios.",
+            "Collaborative Choreography Development: Participate in group discussions to design a process choreography plan, incorporating conversation diagrams and advanced interaction patterns."
+        ],
+        [
+            "Unlock the Power of Petri Nets: Learn the essential components of Petri Nets—places, transitions, and tokens—and how they bring workflows to life.",
+            "Model Real-World Business Processes: Explore how Petri Nets help identify inefficiencies, simulate process behavior, and optimize workflows for success.",
+            "Transform Process Instances: Discover how Petri Nets dynamically manage and represent business process instances, giving you a new level of control and clarity."
+        ],
+        [
+            "Interactive Petri Net Exploration: Dive into an engaging module that introduces the mechanics of Petri Nets and their application in real-world business scenarios.",
+            "Team-Based Process Modeling: Collaborate with classmates to design and analyze a business process using Petri Nets, gaining hands-on experience with this powerful tool.",
+            "Apply What You’ve Learned: Practice building Petri Net models and use them to identify bottlenecks, streamline workflows, and optimize performance."
+        ],
+        [
+            "Ensuring Compatibility: Understand how to evaluate and ensure compatibility between processes, systems, and stakeholders in a choreography framework.",
+            "Advanced Choreography Modeling: Dive deeper into choreography modeling techniques to design seamless and efficient multi-party workflows.",
+            "Collaboration for Scalability: Learn how effective choreography modeling supports scalable and adaptable processes in dynamic business environments."
+        ],
+        [
+            "Interactive Compatibility Analysis: Explore compatibility challenges and solutions through an interactive module, helping you understand how to align processes effectively.",
+            "Collaborative Choreography Design: Participate in group discussions to develop advanced choreography models and share insights with peers.",
+            "Apply Your Skills: Practice creating choreography models that emphasize compatibility and efficiency, using real-world scenarios to refine your approach."
+        ],
+        [
+            "Data Modeling: Learn how to represent and analyze data flows to ensure alignment with business processes.",
+            "Organizational Modeling: Understand how to structure workflows around organizational hierarchies, roles, and responsibilities.",
+            "Business Process Flexibility: Explore strategies to create processes that adapt to evolving business needs and dynamic environments."
+        ],
+        [
+            "Interactive Data and Organizational Modeling Module: Engage with an interactive module that demonstrates how to integrate data flows and organizational structures into your process models.",
+            "Final Team Project: Collaborate on a comprehensive team project to design a process model that incorporates data, organizational strategies, and flexibility, showcasing your mastery of BPM concepts.",
+            "Present Your Final Project: Create and deliver a PowerPoint presentation to highlight your process modeling strategy, emphasizing real-world applications and insights."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Business Process Management: Concepts, Languages, Architecture",
+            "url": "https://link-springer-com.ezaccess.libraries.psu.edu/book/10.1007%2F978-3-662-59432-2"
+        },
+        {
+            "text": "Download Visual Paradigm. Try it FREE",
+            "url": "https://www.visual-paradigm.com/download/"
+        },
+        {
+            "text": "Information Technology Support",
+            "url": "https://it.psu.edu/get-support"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "image of Business Process Management Book",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/insc-526.png"
+        },
+        {
+            "alt": "info icon",
+            "src": "https://courses.worldcampus.psu.edu/canvas/sp25/22511--12783/content/02_lesson/images/info_button.PNG"
+        },
+        {
+            "alt": "image of sequence flow",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/insc-526-sequence.png"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Assignment Category",
+                "Quantity",
+                "Weight (% of grade)"
+            ],
+            [
+                "Milestone Assignments (Team based)",
+                "7",
+                "40%"
+            ],
+            [
+                "Individual Discussion Assignments",
+                "7",
+                "5%"
+            ],
+            [
+                "Group Discussion Assignments",
+                "7",
+                "5%"
+            ],
+            [
+                "Quizzes",
+                "7",
+                "50%"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"3804\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

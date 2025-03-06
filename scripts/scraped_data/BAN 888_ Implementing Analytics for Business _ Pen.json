@@ -1,0 +1,588 @@
+{
+    "metadata": {
+        "title": "BAN 888: Implementing Analytics for Business – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=5259"
+    },
+    "headings": {
+        "h2": "Week 13: Data Analytics and Your Organization",
+        "h4": "Unlocking Your Potential",
+        "h3": "Business Analytics Work Areas"
+    },
+    "paragraphs": [
+        "As the capstone course in the Business Analytics option of the Data Analytics MPS degree program, BAN 888: Implementing Analytics for Business immerses students in the practical application of analytics to real-world business challenges. This course emphasizes the end-to-end analytics project lifecycle, starting with business problem framing and extending to model lifecycle management. Key topics include data sourcing, cleaning, and integration, analysis methodology selection, model building and deployment, and assessing the benefits of implemented solutions. Students gain the critical skills needed to navigate complex analytics projects and communicate actionable insights effectively to non-technical business stakeholders.",
+        "The course adopts a team-based, hands-on approach, where students collaborate on solving real-world case studies. Teams select business scenarios and progress through the phases of problem framing, analytics model selection and development, and model lifecycle management, presenting their findings in a professional business setting. With guidance from the Certified Analytics Professional framework by INFORMS, students align their work with industry standards. This experience prepares graduates to excel in high-impact roles by combining technical expertise, strategic thinking, and effective communication skills.",
+        "This course introduces students to the comprehensive analytics lifecycle in a business context, emphasizing practical application and decision-making. Students will explore essential areas of business analytics, from problem framing and data integration to model lifecycle management. A strong focus on communication skills ensures graduates can effectively convey their findings to non-technical stakeholders.",
+        "Prerequisites:",
+        "Students are expected to have completed foundational analytics courses, such as BAN 830 and BAN 840, or possess equivalent knowledge in descriptive and predictive analytics.",
+        "After completing this course, students will be able to:",
+        "Required TextbookEvans, J. R. (2020). Business Analytics: Methods, Models, and Decisions (3rd ed.). Pearson.The textbook is accessible as an online resource through the PSU Library.",
+        "Required Software",
+        "Optional Reading Material:",
+        "Students will be graded on weekly assignments, team projects, and participation in discussions. A final team project assessing the complete analytics lifecycle will constitute a significant portion of the grade.",
+        "Class Participation",
+        "Active participation in discussions and team collaborations is crucial for mastering course content. Students are encouraged to engage with peers and instructors regularly.",
+        "Homework/Exams",
+        "Assignments and case studies will focus on real-world scenarios, requiring students to apply concepts and methodologies learned in class. Timely submission is essential for successful course completion.",
+        "*subject to change",
+        "Descriptive AnalyticsAnswers the question: “What happened?”Diagnostic AnalyticsAnswers the question: “Why did it happen?”Predictive AnalyticsAnswers the questions: “What will happen?” and “What can we expect…?”Prescriptive AnalyticsAnswers the questions: “What’s the best that can happen?” and “How will that best outcome happen?”",
+        "Almost all analytical models can be classified into one of three categories: descriptive, predictive, and prescriptive. These categories of models do as their names imply. Prescriptive methodologies offer solutions that provide specific quantifiable answers that can be implemented to solve a problem",
+        "The ability to understand a business problem and determine whether the problem is amenable to an analytics solution.",
+        "The ability to reformulate a business problem into an analytics problem with a potential analytics solution.",
+        "The ability to work effectively with data to help identify potential relationships that will lead to refinement of the business and analytics problem.",
+        "The ability to identify and select potential approaches for solving the business problem.",
+        "The ability to identify and build effective model structures to help solve the business problem.",
+        "The ability to deploy the selected model to help solve the business problem.",
+        "The ability to manage the model life cycle to evaluate business benefit of the model over time.",
+        "After completing this course, students will be able to:",
+        "During this course you will expand your knowledge of the lesson topics each week.",
+        "In this lesson, you will explore the foundational aspects of business analytics, reviewing its key topical areas and objectives. This includes distinguishing the differences between descriptive, diagnostic, predictive, and prescriptive analytics. You’ll also delve into the conceptual framework that underpins analytics and its relationship to the quantitative decision sciences, while gaining insight into the core performance domains of a business analytics professional.",
+        "By the end of this lesson, you will be well-prepared to approach analytics problems systematically and collaborate effectively with your peers in a professional setting.",
+        "In this lesson, you will explore the foundations and scope of business analytics and delve into the critical first step of any analytics project: framing the business problem. This foundational step involves identifying stakeholders, defining usability requirements, assessing whether the problem can be addressed through analytics, and obtaining stakeholder agreement. By mastering this step, you’ll develop the skills to guide successful analytics projects in professional settings.",
+        "By the end of this lesson, you will have the tools to effectively frame business problems, align analytics strategies with organizational goals, and lay the groundwork for impactful analytics projects.",
+        "In this lesson, you will master the art of translating a business problem into an analytics problem. This critical process includes reformulating the problem statement, developing relationships between drivers and inputs, stating assumptions, defining success metrics, and achieving stakeholder alignment. Additionally, you will revisit basic concepts for conducting analytics in spreadsheets, particularly Microsoft Excel, as a foundation for practical application.",
+        "By the end of this lesson, you will have a clear understanding of how to frame an analytics problem effectively and apply basic spreadsheet skills, positioning you to solve real-world business challenges with confidence.",
+        "In this week of the capstone course, you’ll take a significant step toward showcasing your ability to solve real-world business challenges through analytics. This is your opportunity to put theory into practice by framing a business problem, translating it into an analytics-focused solution, and presenting your findings. You’ll refine skills in problem-solving and communication, essential for success in today’s data-driven industries. By the end of this week, you’ll have gained hands-on experience in building the foundation of an impactful analytics project that bridges the gap between data insights and actionable business strategies.",
+        "By the end of this lesson, you will have completed a significant milestone in your capstone project, laying a strong foundation for the next stages of your business analytics journey.",
+        "In this lesson, you’ll discover the critical steps involved in preparing data for analytics. You’ll explore methods for identifying and prioritizing data needs, collecting and acquiring data, and refining it through cleaning, harmonization, and rescaling. Additionally, you’ll learn how to uncover relationships within datasets, document findings, and refine business and analytics problem statements based on your insights. This lesson also introduces fundamental data mining tasks and essential data visualization techniques using Microsoft Excel, equipping you with practical tools for knowledge discovery and effective presentation.",
+        "By the end of this lesson, you’ll understand how to transform raw data into meaningful insights and present those insights in a clear and impactful way, laying the foundation for effective decision-making.",
+        "This week, you will explore various methodologies available to analytics professionals, gaining insights into how to choose the most effective approaches for specific tasks. You’ll also refine your skills in spreadsheet model development and learn implementation tips that are crucial for delivering actionable insights in real-world analytics projects.",
+        "By the end of this lesson, you will have a clearer understanding of how to evaluate and choose effective methodologies for solving analytics problems. This knowledge will enhance your strategic decision-making skills in professional settings.",
+        "In this lesson, you’ll delve into the core of business analytics: model building. You’ll explore the essential steps to construct models that effectively address business challenges. This includes identifying appropriate structures, running evaluations, calibrating models and data, and ensuring seamless integration. Additionally, you’ll review foundational modeling techniques such as Monte Carlo simulation, discrete event simulation, queuing, forecasting, regression, decision trees, and linear programming—equipping you with the tools needed for impactful analytics.",
+        "By the end of this lesson, you will have a solid foundation in model building techniques and their application in solving business problems, preparing you for advanced analytics challenges.",
+        "In this lesson, you will finalize the second part of your Business Analytics Capstone Project. This milestone focuses on demonstrating your ability to work with data, refine business and analytics problems, select effective approaches, and build impactful model structures. Additionally, you will practice articulating your findings and solutions in a professional and compelling manner.",
+        "By completing this lesson, you will have demonstrated your capability to frame, analyze, and solve complex business problems through data-driven approaches while effectively communicating your findings.",
+        "This week focuses on the critical phase of solution deployment. You will learn how to validate business models, deliver findings, and establish systems for production. Additionally, this lesson emphasizes the importance of leveraging business analytics to maintain a competitive edge in the industry.",
+        "By the end of this lesson, you will have a strong understanding of how to deploy analytics solutions effectively and use them to drive strategic business outcomes.",
+        "This week focuses on the critical phase of model lifecycle management, where you will explore the processes for documenting model structure, maintaining model quality, and ensuring ongoing business value. By understanding how to recalibrate, train, and evaluate the performance of analytics models over time, you will gain insights into how analytics solutions can remain relevant and impactful in dynamic business environments.",
+        "Upon the completion of this lesson, you’ll have a robust understanding of how to manage analytics models throughout their lifecycle and ensure they provide lasting value to businesses.",
+        "Effective communication is a critical skill for business analytics professionals, enabling them to bridge the gap between complex analytics and actionable business insights. This week, you will explore essential soft skills such as stakeholder communication and data storytelling. These skills are vital for tailoring technical content to diverse audiences, ensuring clarity and engagement in your professional interactions.",
+        "By the end of this lesson, you will develop a deeper understanding of how soft skills can amplify your impact as an analytics professional, setting the stage for meaningful collaboration and clear communication in your career.",
+        "In the final week of the course, you will complete and present the third and final part of your business analytics capstone project. This is your opportunity to showcase your ability to deploy an analytics solution, articulate a plan for model lifecycle management, and demonstrate clear and impactful communication of your findings and recommendations.",
+        "By completing this lesson, you will not only refine your technical and analytical skills but also enhance your ability to communicate data-driven solutions effectively, preparing you for impactful roles in the field of business analytics.",
+        "This final lesson focuses on integrating analytics into organizational strategy and operations. You will explore the various categories of analytics, the foundational framework behind analytics practices, and the key work areas of business analytics. Additionally, you will review how organizations can align their business strategy with analytics capabilities to drive impactful decision-making and growth.",
+        "By the end of this lesson, you will have a comprehensive understanding of how to leverage analytics within an organizational context and the strategic value it brings to businesses. This knowledge will prepare you to make meaningful contributions in a data-driven environment.",
+        "Pursuing a major in Data Analytics and completing the Implementing Analytics for Business capstone course provides students with a significant edge in today’s data-driven business landscape. This course emphasizes real-world application, bridging the gap between theoretical knowledge and practical execution. Students gain hands-on experience in addressing complex business challenges, from problem framing to model deployment and lifecycle management. By working collaboratively on real-world case studies, students refine their ability to deliver actionable insights and effectively communicate their findings to non-technical stakeholders, a skill highly sought after in the industry.",
+        "Graduates equipped with this capstone experience are well-prepared to take on roles such as Business Analyst, Data Scientist, or Analytics Manager across various industries. The course’s alignment with the INFORMS Certified Analytics Professional (CAP) framework further ensures that students develop competencies recognized and valued by employers. This rigorous and comprehensive experience not only bolsters technical and analytical skills but also nurtures strategic thinking and leadership qualities, making graduates indispensable assets in their organizations.",
+        "Predictive Maintenance in Manufacturing:In this project, the student would analyze sensor and machinery data from a manufacturing plant to predict equipment failures before they occur. They would use predictive analytics models to optimize maintenance schedules, reduce downtime, and save operational costs.",
+        "Supply Chain Optimization:A logistics company might task students with analyzing delivery and inventory data to identify inefficiencies. The goal would be to implement an analytics-driven solution to reduce costs and improve delivery timelines, leveraging tools like linear programming and demand forecasting.",
+        "Fraud Detection in Financial Transactions:For a financial services company, a student might develop and deploy machine learning models to identify fraudulent transactions. They would evaluate patterns in transaction data and create algorithms to flag anomalies in real-time.",
+        "Healthcare Outcome Analysis:A project might involve analyzing patient data to assess the effectiveness of different treatment plans. By implementing predictive models, students would help healthcare providers optimize treatment protocols and improve patient outcomes.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Frame business problems to determine their suitability for analytics solutions.",
+            "Reformulate business problems into analytics problems with actionable insights.",
+            "Work with data to identify relationships that refine business challenges.",
+            "Select and apply appropriate methodologies to address analytics problems.",
+            "Build and evaluate effective models for business decision-making.",
+            "Deploy models and assess their performance over time.",
+            "Manage the lifecycle of analytics models to ensure sustained business benefits.",
+            "Communicate project results clearly to technical and non-technical audiences."
+        ],
+        [
+            "MS Office 365: Necessary for assignments involving data analysis and presentation.",
+            "Zoom: For team collaboration and discussions. Free for Penn State students."
+        ],
+        [
+            "Additional readings will be provided via Canvas and the PSU Library as supplemental materials."
+        ],
+        [
+            "The course is divided into the following major topics:",
+            "Analytics Soft Skills and Communication",
+            "Business Problem Framing",
+            "Data Sourcing, Cleaning, and Integration",
+            "Methodology Selection",
+            "Model Building and Deployment",
+            "Model Lifecycle Management"
+        ],
+        [
+            "Analytics",
+            "Problem Solving Approaches",
+            "Business Analytics Work Areas"
+        ],
+        [
+            "Frame business problems to determine their suitability for analytics solutions.",
+            "Reformulate business problems into analytics problems with actionable insights.",
+            "Work with data to identify relationships that refine business challenges.",
+            "Select and apply appropriate methodologies to address analytics problems.",
+            "Build and evaluate effective models for business decision-making.",
+            "Deploy models and assess their performance over time.",
+            "Manage the lifecycle of analytics models to ensure sustained business benefits.",
+            "Communicate project results clearly to technical and non-technical audiences."
+        ],
+        [
+            "L1-L2",
+            "L3-L4",
+            "L5-L6",
+            "L7-L8",
+            "L9-L10",
+            "L11-L12",
+            "L13"
+        ],
+        [
+            "Defining Analytics: Explore the definition of analytics and distinguish between its various categories, such as descriptive, diagnostic, predictive, and prescriptive analytics.",
+            "Conceptual Framework: Understand the relationship between analytics and the quantitative decision sciences, and how this framework supports business problem-solving.",
+            "Professional Performance Domains: Learn about the typical tasks and knowledge areas required of business analytics professionals to solve real-world problems."
+        ],
+        [
+            "Discussion Forum: Introduce yourself to your critical thinking group in the Week 1 Discussion Forum. Share your time zone, strengths, challenges, and potential project ideas.",
+            "Business Analytics Project – Part I: Begin working on the first part of your project by framing a potential business problem and exploring analytics-based solutions with your team.",
+            "Review Lecture Notes and Recording: Study the lecture notes and watch the Week 1 lecture recording to reinforce your understanding of the foundational concepts.",
+            "Group Collaboration: Engage with your critical thinking group to brainstorm and refine ideas for the analytics project."
+        ],
+        [
+            "Foundations of Business Analytics: Explore the core principles and scope of business analytics and its role in decision-making.",
+            "Framing the Business Problem: Learn how to define usability requirements, identify stakeholders, and determine if a problem is amenable to analytics solutions.",
+            "Stakeholder Collaboration: Refine problem statements, set constraints, and achieve consensus with stakeholders on the analytics approach."
+        ],
+        [
+            "Video Insights: Watch engaging LinkedIn Learning videos on “Explainable AI” and “Data Ethics” to examine real-world implications of analytics practices.",
+            "Discussion Forum: Reflect on the Explainable AI and Data Ethics videos. Share your professional experiences and perspectives in the Lesson 2 Discussion Forum by addressing questions about applicability, agreement with the speaker’s approach, and alternative suggestions.",
+            "Project Work: Begin working on Business Analytics Project: Part I to apply the principles of problem framing in a practical scenario."
+        ],
+        [
+            "Problem Reformulation: Learn to convert a business problem into an analytics problem, identifying relevant drivers and assumptions.",
+            "Defining Metrics of Success: Establish measurable success indicators and validate the analytics approach with stakeholders.",
+            "Practical Analytics Skills: Review basic spreadsheet techniques for executing simple analytics, focusing on Microsoft Excel."
+        ],
+        [
+            "Explore Foundational Concepts: Dive into curated readings and video resources to gain a deeper understanding of analytics problem framing and decision-making.",
+            "Collaborative Discussions: Share your reflections on problem-solving strategies and data-driven decision-making approaches with peers in the discussion forum.",
+            "Hands-On Application: Apply the concepts of problem framing and success metrics to real-world scenarios through project work, honing practical skills that are directly transferable to the workplace."
+        ],
+        [
+            "Business Problem Definition: Learn how to articulate a business issue and connect it to analytics-based solutions.",
+            "Problem Reformulation: Master the process of translating a real-world problem into an analytics framework for deeper insights.",
+            "Effective Communication: Develop the skills to present complex analytical solutions in a clear and compelling manner."
+        ],
+        [
+            "Project Work: Focus on crafting the first part of your Business Analytics Capstone Project, emphasizing problem identification and reformulation.",
+            "Lecture Insights: Review lecture materials and recordings to ensure your project approach aligns with best practices in analytics problem framing.",
+            "Discussion Forum: Collaborate with peers to gain feedback and share insights into refining your problem statement and approach."
+        ],
+        [
+            "Data Preparation: Understand how to identify, collect, and refine data to ensure it meets analytical needs.",
+            "Data Mining and Analysis: Learn methods to uncover relationships in data and refine problem statements using analytical results.",
+            "Data Visualization: Explore basic techniques for presenting data insights clearly and effectively using Excel."
+        ],
+        [
+            "Engage with Resources: Explore the recommended readings and videos to deepen your understanding of effective data preparation, mining, and visualization techniques. These materials will help you grasp the critical thinking and technical skills needed for real-world analytics.",
+            "Collaborate with Peers: Participate in a dynamic discussion on how to frame impactful analytics questions. Share your reflections on the videos and readings, and learn from the diverse perspectives of your peers.",
+            "Apply Knowledge: Work through practical exercises and case studies that simulate real-world data preparation and visualization challenges, helping you build confidence in applying these methods to business scenarios."
+        ],
+        [
+            "Diverse Problem-Solving Methods: Understand a range of problem-solving approaches and their applications in business analytics.",
+            "Tool Selection: Learn to identify and choose the most suitable software tools for specific analytical tasks.",
+            "Approach Testing and Selection: Explore the process of testing and selecting the best methods to solve analytics problems.",
+            "Spreadsheet Model Development: Review practical tips for creating robust and effective spreadsheet models."
+        ],
+        [
+            "Explore Analytics Methods: Dive into the readings and videos to understand the variety of methods and tools used by analytics professionals and their selection criteria.",
+            "Interactive Discussion: Participate in a discussion reflecting on real-world case studies, such as Hurricane Matthew’s data insights and forecasting customer complaints. Share your takeaways and consider alternative approaches.",
+            "Practical Application: Begin applying methodology selection principles to your Business Analytics Project: Part II, aligning your choices with project objectives."
+        ],
+        [
+            "Model Structures: Learn to identify and construct effective models tailored to business problems.",
+            "Evaluation and Calibration: Explore methods for running, evaluating, and calibrating models to ensure accuracy and relevance.",
+            "Integration: Discover how to integrate models into broader business processes for cohesive solutions.",
+            "Fundamental Techniques: Gain exposure to key modeling methods, including simulations, regression, decision trees, and linear programming."
+        ],
+        [
+            "Explore Model Building Fundamentals: Engage with readings and videos that showcase the science and art of analytical modeling.",
+            "Discussion Forum: Reflect on the insights shared in “Joyce Weiner: What’s Your Story?” and connect them to your professional experiences. Share your thoughts and alternative approaches with peers.",
+            "Project Application: Advance your Business Analytics Project: Part II by incorporating key modeling techniques and strategies discussed in this lesson."
+        ],
+        [
+            "Data Refinement: Show your ability to work with data, uncover relationships, and enhance the clarity of business and analytics challenges.",
+            "Approach Selection: Demonstrate how you identified and selected appropriate methodologies to address the business problem.",
+            "Model Development: Highlight the development of effective model structures to tackle business challenges.",
+            "Professional Communication: Communicate your project outcomes clearly and effectively, tailoring them to both technical and non-technical audiences."
+        ],
+        [
+            "Capstone Progress: Continue advancing your capstone project, refining the problem statement and integrating data insights into your solution.",
+            "Lecture Insights: Study the lecture notes and watch the recorded lecture to align your project work with lesson objectives.",
+            "Presentation Preparation: Finalize your deliverables with a focus on clarity, accuracy, and professional presentation."
+        ],
+        [
+            "Business Validation: Validate models to ensure they align with organizational objectives and deliver actionable insights.",
+            "Reporting and Production: Develop comprehensive reports, usability requirements, and production-ready systems for deployment.",
+            "Support Deployment: Implement and support the operational integration of the analytics solution.",
+            "Competitive Advantage: Explore strategies to sustain business success through effective analytics deployment."
+        ],
+        [
+            "Engage with Course Material: Explore foundational readings and video content to deepen your understanding of solution deployment processes and the competitive advantages of analytics.",
+            "Discussion and Collaboration: Participate in dynamic discussions, sharing your insights on the application of analytics in business and ethical considerations in emerging fields.",
+            "Practical Application: Begin applying concepts to real-world scenarios, focusing on validating models, preparing production-ready systems, and supporting deployment strategies."
+        ],
+        [
+            "Documenting Initial Structure: Learn how to record the foundational elements of a model to ensure clarity and reproducibility.",
+            "Model Quality Tracking: Understand techniques to monitor the performance and accuracy of models.",
+            "Recalibration and Maintenance: Discover how to adapt and refine models to keep them aligned with changing data and business contexts.",
+            "Training and Support: Explore strategies to train teams and stakeholders in model usage and benefits.",
+            "Evaluating Business Impact: Assess the long-term value and ROI of analytics models within an organization."
+        ],
+        [
+            "Explore Core Concepts: Delve into foundational readings and resources that provide insights into model lifecycle management and the evolving role of data scientists.",
+            "Engage with Expert Perspectives: Watch a featured video offering a professional’s journey and strategies in analytics and operations research. Reflect on how these insights could influence your own approach to model lifecycle management.",
+            "Collaborate and Discuss: Participate in dynamic discussion forums where you’ll analyze video content and share your thoughts on professional experiences, strategies, and potential improvements to analytics practices.",
+            "Apply Your Learning: Refine your ongoing project work to incorporate principles of model lifecycle management, focusing on ensuring long-term business value and model quality."
+        ],
+        [
+            "Importance of Soft Skills: Understand why communication and interpersonal skills are crucial for analytics professionals.",
+            "Engaging Stakeholders: Learn strategies for effective communication with various stakeholders in a business context.",
+            "Tailoring Communication: Discover methods to present data-driven insights in a way that is accessible and impactful for your audience."
+        ],
+        [
+            "Interactive Reading: Dive into key resources on the significance of soft skills in analytics, including how they enhance collaboration and decision-making.",
+            "Video Exploration: Watch an engaging video on the art of data storytelling and its role in transforming analytics into compelling narratives.",
+            "Collaborative Discussions: Participate in a discussion forum to reflect on the concept of data storytelling, sharing personal insights and strategies for effective communication.",
+            "Practical Application: Incorporate communication strategies into your Business Analytics Project, focusing on clarity and stakeholder engagement."
+        ],
+        [
+            "Model Deployment: Develop and present a comprehensive plan to deploy the selected model for solving the business problem.",
+            "Lifecycle Management: Outline strategies for managing the model’s lifecycle, including recalibration and evaluation of its long-term business benefits.",
+            "Effective Communication: Highlight the key aspects of the analytics process, ensuring your findings are accessible and actionable for stakeholders."
+        ],
+        [
+            "Capstone Project Completion: Finalize your Business Analytics Project, integrating feedback and refining your presentation to align with stakeholder expectations.",
+            "Presentation Preparation: Craft a compelling narrative that effectively communicates your analytics journey and the impact of your proposed solution.",
+            "Collaborative Reflection: Engage with peers in discussing project experiences, challenges, and solutions, enriching your understanding of analytics applications."
+        ],
+        [
+            "Categories of Analytics: Understand the distinctions and applications of descriptive, diagnostic, predictive, and prescriptive analytics.",
+            "Framework and Strategy: Examine how analytics frameworks support strategic business decisions and operational effectiveness.",
+            "Analytics Integration: Learn how organizations incorporate analytics into their structure and culture to maximize value."
+        ],
+        [
+            "Reading Exploration: Deepen your understanding of organizational analytics by reviewing the article “How to Integrate Data and Analytics into Every Part of Your Organization.”",
+            "Video Insights: Gain practical perspectives on advanced analytics methods and their application in operations research through a featured YouTube video.",
+            "Collaborative Reflection: Share and discuss your thoughts in the Advanced Analytics – Empowering Operations Research discussion forum, engaging with peers to explore real-world implications and strategies."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "iMAGE OF Textbook: Business Analytics, 3rd Edition,",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/BA_Cover.jpg"
+        },
+        {
+            "alt": "Graph showing the progression from Descriptive to Prescriptive Analytics with increasing difficulty and value.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/image-8-1024x591.png"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "PRESCRIPTIVEANALYTICS",
+                "What is the best action/outcome?",
+                "• Evaluates and determines new ways to operate• Targets Business objectives• Balances all constraints",
+                "Very high"
+            ],
+            [
+                "PREDICTIVEANALYTICS",
+                "What could happen?",
+                "• Predicts future probabilities and trends• Finds relationships in data not readily apparent with traditional analysis",
+                "Data needsBenefits"
+            ],
+            [
+                "DESCRIPTIVEANALYTICS",
+                "What happened?",
+                "• Prepares and analyzes historical data• Identifies patterns from samples for reporting of trends",
+                "Medium"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"5259\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

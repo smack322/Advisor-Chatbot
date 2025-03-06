@@ -1,0 +1,843 @@
+{
+    "metadata": {
+        "title": "MBADM 820: Financial Management – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=6265"
+    },
+    "headings": {
+        "h2": "Overview",
+        "h4": "Unlocking Your Potential",
+        "h3": "Final Exam",
+        "h5": "Notations"
+    },
+    "paragraphs": [
+        "MBADM 820: Financial Management is an intensive course designed to equip students with essential principles and tools for effective financial decision-making. Focused on managing cash flows over time and under uncertainty, this course lays the foundation for advanced finance and business studies. Students will explore critical topics such as the time value of money, valuation of bonds and stocks, capital budgeting, risk and return, firm valuation, capital markets, international finance, and options. By mastering these concepts, students will gain the analytical skills necessary to make sound financial decisions and address complex financial challenges in dynamic business environments.",
+        "The course is an intensive examination of techniques available to aid the financial manager in decision-making. It is designed to provide the principles and tools of sound financial decision-making involving cash flows over time under uncertainty. The course is also a basis and prerequisite for advanced classes in finance and business. The topics covered include the time value of money, valuation of bonds and stocks, capital budgeting, risk and return, valuation of a firm, capital markets and financing, international finance, and options.",
+        "After having successfully completed this course, you will be able to do the following:",
+        "For pricing and ordering information, please see the Barnes & Noble College website.",
+        "Materials will be available at Barnes & Noble College approximately three weeks before the course begins. It is very important that you purchase the correct materials. If your course requires one or more textbooks, you must have exactly the correct text required (edition and year).",
+        "To complete this course you will be required to purchase a textbook with access to McGraw-Hill Connect and a course pack from Harvard Business Review.",
+        "Ross, S., Westerfield, R., Jaffe, J., & Jordan, B. (2022). Corporate Finance, Loose-leaf with Connect Access, 13th Ed. McGraw-Hill. ISBN: 9781266898532.",
+        "There are two sources for purchasing the required textbook and access code, Barnes and Noble College (BNC) or the publisher of the text, McGraw-Hill.",
+        "Penn State faculty, staff, and students have access to The New York Times and The Wall Street Journal at no additional cost through the Student News Readership Program. To take advantage of this program, you must register using your Penn State email. Please visit the Penn State Digital Access page for complete details.",
+        "If you do not already own a financial calculator, you may want to purchase one.",
+        "Canvas, Penn State’s Learning Management System (LMS), supports most recent versions of Microsoft Windows and Apple Mac operating systems.",
+        "To determine if your operating system is supported, please review Canvas’ computer specifications.",
+        "Canvas supports the last two versions of every major browser release. It is highly recommended that you update to the newest version of whatever browser you are using.Please note that Canvas does not support the use of Internet Explorer. Students and instructors should choose a different browser to use.   To determine if your browser is supported, please review the list of Canvas Supported Browsers.",
+        "Note: Cookies must be enabled, and pop-up blockers should be configured to permit new windows from Penn State websites.",
+        "For a list of software, hardware, and computer settings specifically required by the Canvas LMS, please review Canvas’ computer specifications.",
+        "All Penn State students have access to Microsoft Office 365, including Microsoft Office applications such as Word, Excel, and PowerPoint.",
+        "Students will need a PDF reader, such as Adobe Reader.",
+        "Monitor capable of at least 1024 x 768 resolution",
+        "Microphone, Speakers",
+        "Standard webcam – many courses may require a webcam for assignments or exam proctoring software.",
+        "The Canvas mobile app is available for versions of iOS and Android. To determine if your device is capable of using the Canvas Mobile App, please review the Canvas Mobile App Requirements.",
+        "All course-related e-mails should go through Canvas’s course mail function (Canvas Inbox). Using Canvas to contact your instructor ensures that your message will be read, and your instructor will respond to you in a timely manner.",
+        "Many of the University Libraries resources can be utilized from a distance. Through the Libraries website, you can",
+        "You can view the Online Students’ Library Guide for more information.",
+        "You must have an active Penn State Access Account to take full advantage of the Libraries’ resources and services. Once you have a Penn State account, you will automatically be registered with the library within 24–48 hours. If you would like to determine whether your registration has been completed, visit the Libraries home page and select  My Account.",
+        "This course will include the following assignment categories.",
+        "*Includes Peer Evaluation of team functioning.",
+        "Letter grades will be based on the following scale:",
+        "Helping you to enhance skills and competencies related to group dynamics and teaming is a principle goal of the OMBA. Consequently, this course includes team activities and group work that allows for the application of teaming concepts that you learned in the Team Performance course (MBADM 810). You are expected to work in teams effectively and productively to complete all team assignments. Students may not request to work individually on team projects. Any adjustments to team composition are the sole right of the instructor. If you have concerns related to this commitment, please contact your instructor.",
+        "The content in this course is challenging. I anticipate that you may have questions as you progress through the readings and assignments. To ensure that your questions are answered, several Zoom sessions have been scheduled to occur throughout the semester. The dates and times of each session are located on the Canvas Syllabus page as well as in the Course Schedule. The Zoom sessions are not mandatory and are not graded, but I encourage you to attend. Recordings of all Zoom sessions will be available for your review in the course Media Gallery.",
+        "There is one case study assignment throughout the course of the semester. Read the assigned case study (procure through Harvard Business Review; see the Required Materials section in the Syllabus for the link to HBR). Respond to the question prompts included in the assignment instructions. Keep in mind that these are team-based assignments that include an evaluation of how each team member contributes to the completion of the assignment.",
+        "Active and engaged participation by all team members in team-based assignments is important. You are required to contribute to generating ideas for the cases and writing the paper, and you must be accountable to your team on time and effort commitments. As a result, you will be required to complete a peer evaluation for each member of your group at the conclusion of each of the case study discussions.",
+        "While the case study is a team-based project, your contributions to your team will be evaluated and used to generate your individual score for the case study assignment. Each evaluation will have the same 4 questions, rated on a scale of 1–7. Contributions will be evaluated on four factors: Cooperation, Participation and Commitment, Idea Generation, and Quality of Written Contributions. This evaluation will be completed by your group members as a peer evaluation. The results of the Peer Evaluation may include an increase or a decrease in your overall grade for this assignment. Students who receive high scores for their contributions to their team may receive up to a 10-point increase in their grade (i.e., “extra credit”). Students who receive lower scores for their contributions will receive a deduction from their grades.",
+        "As a professional, you are expected to act with the highest level of integrity and an exemplary work ethic. Likewise, in this course, you are required to adhere to the Smeal Honor Code and the Penn State University Code of Conduct, and also to hold your peers accountable to the same standards. In team assignments, you should do your share of the work, on time, and to the best of your ability. In discussions, always be courteous and accepting of others’ thoughts. Be supportive of classmates on assignments that allow or encourage collaboration. Keep in mind that you are in this course to study and learn new material that will benefit you in the future; you are not here to simply get a grade in the easiest way possible. Enjoy and embrace the learning experience with an ethical mindset, and you will always be proud of your work.",
+        "*Subject to change",
+        "Inflation reduces the purchasing power of future dollars.",
+        "In this economy, the only good produced is potatoes.",
+        "If you lend $100 at t = 0 for 1 year at a nominal rate rN = 10%, then at t = 1 you will receive 100(1 + rN) = $110.",
+        "If the price of potato at t = 0 is P0 = $1.00 per pound, then you have given up 100 lb. of potatoes by lending $100.",
+        "If the price of potato has not changed at t = 1 (so, P1 = P0 = $1.00 per pound), then you will be able to buy 110 lb. of potatoes. That’s a 10% return in potatoes.",
+        "But suppose the potato price has changed at t = 1: P1 = P0(1 + i) = $1.05 per pound. That’s 5% inflation.",
+        "$110 at t = 1 will buy \n  \n\n\n\n110\n\n\n\nP\n1\n\n\n\n=\n\n\n110\n\n\n1.05\n\n\n=\n104.76\n\n\n  lb. of potatoes.",
+        "The real rate of return in potatoes =\n\n  \n\n\nr\nR\n\n=\n\n\n104.76\n−\n100\n\n\n100\n\n\n=\n0.0476\n=\n4.76%\n\n\n  or\n  \n\n104.76\n=\n100\n(\n\n1\n+\n0.0476\n\n)\n=\n100\n(\n\n1\n+\n\nr\nR\n\n\n)",
+        "The Fisher equation shows the relationship between the nominal interest rate, the real interest rate, and the inflation. This relationship can be illustrated using the potato economy case:",
+        "The amount of potatoes that can be purchased using the loan proceeds is equal to the amount of potatoes given up by lending $100 at t = 0 plus the amount of additional potatoes earned from the lending (See Figure 1.2).",
+        "100\n\n\n1\n+\n\nr\nt\n\n\n\n\n\n\nP\n0\n\n\n\n1\n+\ni\n\n\n\n\n=\n\n100\n\nP\n0\n\n\n\n\n1\n+\n\nr\nR",
+        "(1+rt)=(1+rR)(1+i)(1+rt)=(1+rR)(1+i) : Fisher equation for a single period",
+        "Rearranging the Fisher equation for a single period and solve for the nominal rate, we get the following:",
+        "EG: rNOM = 10% and iexp = 5%. Then rREAL = 1.1 / 1.05 − 1 = 0.0476 (4.76%)",
+        "Consider the following certificate of deposits (CD) maturing in 15 years:",
+        "(Similar to the PV formula with the discount rate replaced by the inflation.)",
+        "In the real world, the interest rates are different for different maturity. Sometimes a short-term rate may be lower than a longer-term rate. Other times, the opposite may be the case.",
+        "The term structure of interest rates is the relationship between interest rate and maturity, where the interest rate refers to the nominal interest rates on default-free, pure discount bond. The pure discount interest rate is the interest rate on a single lump-sum future payment without any risk of default. The present value of a single lump-sum future payment is naturally less than the lump-sum amount, and so it is called discount bond.",
+        "The rate of return on a Treasury bill (T-bill) is an example of pure discount interest rate since a T-bill pays a lump-sum amount (face value) at the end of maturity with no payments before the maturity. However, rates of return on Treasury notes (T-note) or bonds (T-bond) are not pure discount interest rates since they pay coupons every 6 months until maturity in addition to the face value at maturity.",
+        "Firms need financing for capital expenditures (CAPEX) and working capital. The sources of financing are internally generated cash flows, long-term debt such as bonds, common stocks, and preferred stocks. A brief overview of long-term debt, preferred stocks, and common stocks are described on this page. This section is brief with an expectation that you will learn details of long-term financing topics from studying the assigned reading (Ross 11th ed., Chapter 15).",
+        "Long-term debt, such as a long-term bond, has contractual obligations to pay back a stated amount, including interest payments and maturity. Interest payments are treated as a business expense and are tax-deductible. The lenders may force bankruptcy if the borrower defaults on any payments, interest, or principal. The contractual obligations set in indentures include many other restrictions. An indenture is a legal contract specifying all the features of a bond, including maturity date, interest payment dates, interest calculation method, and other features such as callable or convertible, as well as any restrictions imposed on borrowers.",
+        "Preferred stocks entitle the holder to a fixed dividend periodically. The fixed dividend must be paid out before dividends to common shareholders, and the shares generally do not carry voting rights.",
+        "Some features of preferred stock:",
+        "Cumulative preferred stock is a class of preferred stock that requires the corporation to make up any missed payments before resuming common stock dividends. In case of liquidation, preferred shareholders have preference compared to common shareholders. Preferred stock has some features of debt (fixed dividends, like fixed interest on debt), and common equity (potential to appreciate in price).",
+        "Common stocks are shares entitling the common shareholders to dividends and voting rights. Dividends vary in amount depending on the financial conditions of the firm. Dividends are not a business expense and firms are not required to pay dividends regularly. Common shareholders have residual claims on firm’s earnings and assets after claims by debt holders and preferred shareholders.",
+        "Stock buybacks (share repurchase): Companies often repurchase shares of its own stock using its cash holding, but sometimes financed by borrowing. Stock buyback is another way of returning money to shareholders. This has the effect of changing debt-to-equity ratio (changing capital structure).",
+        "There are two important questions on factors that determine the exchange rates.",
+        "Spot exchange rates and forward exchange rates are interrelated with domestic and foreign price indices and inflation rates, and domestic and foreign interest rates. Two main theorems connecting these variables and partially answering the two questions are: Purchasing Power Parity (PPP) Theorem and Interest Rate Parity (IRP) Theorem. This section explains the PPP, and the next section IRP.",
+        "The PPP is based on the “law of one price,” meaning that price of an item is the same regardless of the currency used to purchase it.",
+        "Suppose pure gold bullion is priced P$ = $1,200 per 1 troy ounce in the U.S. and the spot exchange rate between EUR and USD is S€/$ = € 0.8/$. Then the price of gold in France should be:",
+        "€ 0.8/$ x $1,200/oz = € 960 /oz.",
+        "If the price of gold in France is different from € 960/oz, then there is an arbitrage profit-making opportunity. Suppose the price of gold in France is € 1,000/oz, then:",
+        "If the price of gold in France is € 900/oz, lower than € 960, then buying gold in France and selling it in the U.S. will generate an arbitrage profit.",
+        "Absolute Purchasing Power Parity using notions:",
+        "P€ = S€/$ x P$                                                                             (1)",
+        "Equivalently:",
+        "S€/$ = P€ / P$                                                                              (2)",
+        "Requirements for absolute PPP to hold:",
+        "For most goods, Absolute PPP rarely holds in practice.",
+        "The relative PPP offers information about what causes changes in exchange rates by expressing the expected future exchange rate in terms of inflations in foreign country and domestic inflation.",
+        "(Assume USD is the home currency)",
+        "S0,F/$: Spot exchange rate at t=0 in foreign currency per $1 (indirect quote)",
+        "E (St,F/$): Expected spot exchange rate at a future date, t, in foreign currency per $1",
+        "P0,$:  Home country (U.S.) price level at t=0",
+        "P0,F:  Foreign country price level at t=0",
+        "h$:   Expected U.S. inflation rate",
+        "hF:   Expected foreign country inflation rate",
+        "From the Absolute PPP Eq (2), we get:",
+        "Since \n\nE\n\n\nP\n\nt\n,\nF\n\n\n\n=\n\nP\n\n0\n,\nF\n\n\n×\n\n\n\n1\n+\n\nh\nF\n\n\n\nt",
+        "And\n\nE\n\n\nP\n\nt\n,\n$\n\n\n\n=\n\nP\n\n0\n,\n$\n\n\n×\n\n\n\n1\n+\n\nh\n$\n\n\n\nt",
+        "The Relative PPP is:",
+        "Because absolute PPP does not hold for many goods, we will focus on relative PPP from here on out.",
+        "Suppose the British pound exchange rate is currently 0.7407 GBP per dollar. The inflation rate in the U.K. over the next 5 years is expected to be 1.5% per year, whereas the U.S. inflation rate will be 3%. Based on relative PPP, what will the expected exchange rate be in 5 years?",
+        "Because the U.S. inflation rate is higher, we expect that the dollar will become less valuable. The exchange rate change will be approximately 1.5% – 3% = – 1.5% per year. Over 5 years the exchange rate is expected to fall to:",
+        "E(St=5,GBP/$) = (St=0,GBP/$) (1.015)5 /(1.03)5 = 0.7407(1.015)5 /(1.03)5 = GBP 0.688314/$",
+        "→   The exchange rate is expected to decline from GBP 0.7407 to 0.6883, at an annual rate of decline of 1.456% per year.",
+        "After having successfully completed this course, you will be able to do the following:",
+        "During this course you will expand your knowledge of the lesson topics each week.",
+        "In this lesson, you will explore the fundamental concept of Present Value (PV) and how it is used in financial decision-making. Understanding PV is essential for evaluating investments, loans, and cash flow patterns over time.",
+        "By the end of this lesson, you will be able to understand and apply Present Value concepts to evaluate financial decisions, calculate NPV, and assess the time value of money in different scenarios.",
+        "In this lesson, you will explore the foundational concepts of bonds and stocks, their valuation techniques, and the factors influencing their market behavior. Understanding these elements is crucial for making informed investment decisions and analyzing financial instruments effectively.",
+        "By the end of this lesson, you will have a thorough understanding of bonds and stocks, their valuation methods, and the risks associated with them. You will be equipped to analyze market data and apply financial models to real-world scenarios, laying the groundwork for advanced investment strategies.",
+        "In this lesson, you will delve into the principles of capital budgeting, a critical process for evaluating and selecting investment opportunities. Understanding the various decision-making rules and their applications will enhance your ability to assess projects and make sound financial decisions.",
+        "By the end of this lesson, you will have a solid understanding of capital budgeting processes and decision-making tools, including NPV, IRR, PB, and PI. You will be able to evaluate investment opportunities, consider cash flow implications, and make informed choices in resource allocation. These skills are foundational for strategic financial planning and investment analysis.",
+        "In this lesson, you will apply your knowledge of capital budgeting by analyzing a real-world case study. This hands-on experience will deepen your understanding of investment decision-making and strengthen your ability to evaluate complex financial scenarios.",
+        "By the end of this lesson, you will have gained practical experience in applying capital budgeting concepts to real-world scenarios. You will enhance your analytical and collaborative skills, enabling you to make well-informed investment decisions and communicate your findings effectively.",
+        "In this lesson, you will explore the relationship between risk and return, gaining insights into the concepts and theories that underpin investment decision-making. By analyzing historical data, theoretical models, and portfolio dynamics, you will build a strong foundation in evaluating the trade-offs between risk and expected returns.",
+        "Lesson 5A: Risk and Return – Introduction",
+        "Lesson 5B: Risk and Return – Theories",
+        "By the end of this lesson, you will have a comprehensive understanding of the relationship between risk and return, both from a theoretical and practical perspective. You will be equipped to evaluate investment opportunities, construct efficient portfolios, and apply advanced models like CAPM and Fama-French to real-world scenarios.",
+        "In this lesson, you will focus on preparing for and completing the midterm exam. The exam will assess your understanding of key concepts from the course, including Time Value of Money (TVM), Stocks & Bonds, Capital Budgeting, and Risk & Return.",
+        "By the end of this lesson, you will be equipped with the knowledge to complete the midterm exam, demonstrating your mastery of financial principles and decision-making frameworks.",
+        "In this lesson, you will explore the cost of capital, project-specific risk, and methods to incorporate uncertainty and floatation costs into capital budgeting decisions.",
+        "By the end of this lesson, you will be able to estimate the cost of capital, address uncertainty in project evaluations, and incorporate additional costs into comprehensive capital budgeting strategies.",
+        "In this lesson, you will examine the principles of efficient capital markets, explore the efficient market hypothesis (EMH), and assess its implications and challenges in corporate finance.",
+        "By the end of this lesson, you will understand efficient market principles, critically assess their validity, and apply these concepts to corporate financial strategies.",
+        "In this lesson, you will explore the foundational concepts of long-term financing and capital structure, including theories, practical applications, and their impact on firm valuation.",
+        "By the end of this lesson, you will understand the principles of long-term financing and capital structure, analyze the effects of leverage on firm valuation, and apply theories to practical decision-making scenarios.",
+        "In this lesson, you will learn about hedging and options, including their definitions, pricing, and practical applications in finance. You will also understand how options are used to manage risk and create corporate financial strategies.",
+        "By the end of this lesson, you will have a strong understanding of how options work, their value, and how they can be used for hedging and in corporate finance. You will also be equipped to apply option strategies to manage financial risk effectively.",
+        "In this lesson, you will explore the unique challenges international firms face in managing finance across borders. Key topics include foreign exchange markets, exchange rates, and international capital budgeting.",
+        "By the end of this lesson, you will have a solid understanding of the unique issues international firms face, including managing currency fluctuations and making capital budgeting decisions across borders. You will be prepared to evaluate global investment opportunities and financial risks.",
+        "In this final lesson, you will prepare for and complete the course’s final exam. This exam will assess your understanding of key concepts across the entire course, including capital budgeting, risk and return, cost of capital, and international finance.",
+        "By the end of this lesson, you will be prepared to take the final exam, which will test your ability to apply the financial concepts you’ve learned. Successful completion of the exam will demonstrate your mastery of the course material and your readiness for practical application in the field of finance.",
+        "Financial Management will equip you with essential skills to analyze and make strategic financial decisions, making you an asset in any business environment. By mastering concepts such as financial analysis, budgeting, capital structure, and investment decision-making, you’ll enhance your ability to manage corporate finances effectively. This course will prepare you for roles such as financial analyst, CFO, or corporate finance manager, where you can drive profitability, mitigate financial risks, and influence key business decisions. With the growing demand for professionals who can manage financial operations and make data-driven financial strategies, MBADM 820 offers valuable knowledge that will significantly enhance your career prospects in both large corporations and startups.",
+        "In  Financial Management, you’ll gain the skills necessary to make sound financial decisions in real-world business scenarios. For example, imagine a company evaluating whether to invest in a new piece of machinery that could increase production efficiency. Using concepts like Net Present Value (NPV) and Internal Rate of Return (IRR), you will learn to assess the profitability of the investment by factoring in projected cash flows, the time value of money, and risk analysis. This course will equip you with the tools to analyze such financial decisions, helping you understand how businesses allocate resources effectively to maximize value and ensure long-term sustainability.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Apply basic tools and principles to value a firm and financial instruments such as stocks and bonds.",
+            "Understand the issues underlying the risk and return relationship.",
+            "Evaluate long-term capital investments using basic valuation tools and principles.",
+            "Establish a basic understanding of a firm’s financing decisions and capital structure.",
+            "Estimate a company’s cost of capital.",
+            "Explain the valuation of financial options and applications of options concept to analysis in corporate finance.",
+            "Understand international financial markets and corporate finance issues faced by multinational corporations (MNC).\n\nExplain the relationships between foreign exchange rates, domestic and foreign interest rates, and domestic and foreign inflation rates.\nEvaluate long-term capital investment projects in foreign countries by MNCs.",
+            "Explain the relationships between foreign exchange rates, domestic and foreign interest rates, and domestic and foreign inflation rates.",
+            "Evaluate long-term capital investment projects in foreign countries by MNCs."
+        ],
+        [
+            "Explain the relationships between foreign exchange rates, domestic and foreign interest rates, and domestic and foreign inflation rates.",
+            "Evaluate long-term capital investment projects in foreign countries by MNCs."
+        ],
+        [
+            "BNC: Discounted bundled packages of the new only loose-leaf, binder-ready version of the textbook come with a Connect code and can be purchased directly from BNC. You must purchase a new textbook to receive the required Connect code. The Connect code also includes access to an electronic copy of the text.",
+            "Publisher: You may purchase all-digital access to Connect, which includes an electronic copy of the textbook through your course’s Connect website.\n\nOnce your text/access code has been purchased, you will select any McGraw Hill Connect assignment in the course to access Connect. You will be automatically directed through the registration process and directed to enter your Connect code if you haven’t registered previously. You will also be provided with the option to purchase an electronic-only copy of the textbook, should you not wish to purchase the discounted loose-leaf version through BNC.\nShould you wish to test drive the all-digital option or are waiting to receive the print package from BNC, you may select “start courtesy access”. This provides complimentary access to the eBook and all of your assignments for 14 days. At the end of the 14 days, you will need to enter a copy from the BNC package or purchase all-digital access. Any work you completed during this period will be saved.\nView the Connect Student Registration Information video in the Syllabus Module for more information or contact McGraw Hill’s customer experience group online or by phone at 1-800-331-5094. Self-help information may be found at McGraw Hill Higher Education Digital Technical Support.",
+            "Once your text/access code has been purchased, you will select any McGraw Hill Connect assignment in the course to access Connect. You will be automatically directed through the registration process and directed to enter your Connect code if you haven’t registered previously. You will also be provided with the option to purchase an electronic-only copy of the textbook, should you not wish to purchase the discounted loose-leaf version through BNC.",
+            "Should you wish to test drive the all-digital option or are waiting to receive the print package from BNC, you may select “start courtesy access”. This provides complimentary access to the eBook and all of your assignments for 14 days. At the end of the 14 days, you will need to enter a copy from the BNC package or purchase all-digital access. Any work you completed during this period will be saved.",
+            "View the Connect Student Registration Information video in the Syllabus Module for more information or contact McGraw Hill’s customer experience group online or by phone at 1-800-331-5094. Self-help information may be found at McGraw Hill Higher Education Digital Technical Support."
+        ],
+        [
+            "Once your text/access code has been purchased, you will select any McGraw Hill Connect assignment in the course to access Connect. You will be automatically directed through the registration process and directed to enter your Connect code if you haven’t registered previously. You will also be provided with the option to purchase an electronic-only copy of the textbook, should you not wish to purchase the discounted loose-leaf version through BNC.",
+            "Should you wish to test drive the all-digital option or are waiting to receive the print package from BNC, you may select “start courtesy access”. This provides complimentary access to the eBook and all of your assignments for 14 days. At the end of the 14 days, you will need to enter a copy from the BNC package or purchase all-digital access. Any work you completed during this period will be saved.",
+            "View the Connect Student Registration Information video in the Syllabus Module for more information or contact McGraw Hill’s customer experience group online or by phone at 1-800-331-5094. Self-help information may be found at McGraw Hill Higher Education Digital Technical Support."
+        ],
+        [
+            "To purchase and access Harvard Business School Cases Course Pack:\n\nGo to the HBR Website for your course and make sure to register so you can access your course readings. (You will need to register, but you do not need to subscribe.) You will need to purchase your HBR readings using your credit card. To read PDF articles, make sure you have Adobe Reader, which you can download for free from Adobe. For technical assistance contact Harvard Business School Publishing at 1-800-810-8858. They are open from 8:00 a.m.- 6:00 p.m., Eastern Standard Time (ET).",
+            "Go to the HBR Website for your course and make sure to register so you can access your course readings. (You will need to register, but you do not need to subscribe.) You will need to purchase your HBR readings using your credit card. To read PDF articles, make sure you have Adobe Reader, which you can download for free from Adobe. For technical assistance contact Harvard Business School Publishing at 1-800-810-8858. They are open from 8:00 a.m.- 6:00 p.m., Eastern Standard Time (ET)."
+        ],
+        [
+            "Go to the HBR Website for your course and make sure to register so you can access your course readings. (You will need to register, but you do not need to subscribe.) You will need to purchase your HBR readings using your credit card. To read PDF articles, make sure you have Adobe Reader, which you can download for free from Adobe. For technical assistance contact Harvard Business School Publishing at 1-800-810-8858. They are open from 8:00 a.m.- 6:00 p.m., Eastern Standard Time (ET)."
+        ],
+        [
+            "access magazine, journal, and newspaper articles online using library databases;",
+            "borrow materials and have them delivered to your doorstep—or even your desktop;",
+            "get research help via email, chat, or phone using the Ask a Librarian service; and",
+            "much more."
+        ],
+        [
+            "Nominal Interest",
+            "Long-Term Financing",
+            "Purchasing Power Parity"
+        ],
+        [
+            "This can be written mathematically as follows:"
+        ],
+        [
+            "Rearranging the equation by canceling out 100 and P0:"
+        ],
+        [
+            "Extending to multiple periods, M years:"
+        ],
+        [
+            "$1,000 initial investment (i.e., deposit).",
+            "10% per year interest rate.",
+            "Expected average future inflation 5% per year."
+        ],
+        [
+            "The stock has no maturity date.",
+            "A company can miss a dividend payment without triggering a default.",
+            "A shareholder has no voting rights in general."
+        ],
+        [
+            "Cumulative preferred stock",
+            "Common stocks",
+            "Stock buybacks"
+        ],
+        [
+            "Transaction costs are zero.",
+            "No barriers to trade (no taxes, tariffs, etc.).",
+            "No difference in the commodity between locations."
+        ],
+        [
+            "Apply basic tools and principles to value a firm and financial instruments such as stocks and bonds.",
+            "Understand the issues underlying the risk and return relationship.",
+            "Evaluate long-term capital investments using basic valuation tools and principles.",
+            "Establish a basic understanding of a firm’s financing decisions and capital structure.",
+            "Estimate a company’s cost of capital.",
+            "Explain the valuation of financial options and applications of options concept to analysis in corporate finance.",
+            "Understand international financial markets and corporate finance issues faced by multinational corporations (MNC).\n\nExplain the relationships between foreign exchange rates, domestic and foreign interest rates, and domestic and foreign inflation rates.\nEvaluate long-term capital investment projects in foreign countries by MNCs.",
+            "Explain the relationships between foreign exchange rates, domestic and foreign interest rates, and domestic and foreign inflation rates.",
+            "Evaluate long-term capital investment projects in foreign countries by MNCs."
+        ],
+        [
+            "Explain the relationships between foreign exchange rates, domestic and foreign interest rates, and domestic and foreign inflation rates.",
+            "Evaluate long-term capital investment projects in foreign countries by MNCs."
+        ],
+        [
+            "L1",
+            "L2,L3",
+            "L4,L5",
+            "L6,L7",
+            "L8,L9",
+            "L10,L11",
+            "L12"
+        ],
+        [
+            "Time Value of Money: Explores how the value of money changes over time due to inflation and interest rates.",
+            "Present Value: Introduces the formula for calculating PV and its importance in financial analysis.",
+            "PV Calculations Based on Differing Cash Flow Patterns: Discusses how to calculate PV for different types of cash flows, including uneven and periodic payments.",
+            "A Decision Problem with NPV: Shows how PV helps in decision-making, focusing on Net Present Value (NPV) as a tool for investment evaluation.",
+            "Compounding Frequency: Explains the effect of compounding frequency on PV and interest calculations.",
+            "Nominal Interest Rate and Inflation: Covers how inflation impacts the nominal interest rate and PV calculations."
+        ],
+        [
+            "Interactive Calculations: Apply PV calculations to real-life scenarios, such as evaluating loans and investment returns.",
+            "Scenario Analysis: Work through different cash flow patterns to calculate their PV and make informed decisions."
+        ],
+        [
+            "Bonds Overview: Learn about bonds, their types, and their significance in the financial market.",
+            "Bond Valuation: Explore methods to calculate the present value of bonds, including the Yield to Maturity (YTM).",
+            "Interest Rate Risk: Understand how fluctuations in interest rates impact bond prices and yields.",
+            "Semi-Annual Coupon Payments: Learn the process of valuing bonds with semi-annual payments.",
+            "Treasury Bonds and Notes: Study treasury bond price quotes and interpret their market data.",
+            "Stocks Overview: Understand stock market fundamentals, including dividends and price fluctuations.",
+            "Stock Valuation Models: Learn about the Constant Dividend Model and the Gordon Growth Model for valuation.",
+            "Valuation by Comparables: Analyze stock prices using financial comparables and free cash flow techniques."
+        ],
+        [
+            "Bond Valuation Practice: Apply the present value formula to calculate bond prices under different scenarios.",
+            "Stock Market Data Analysis: Interpret real-time stock quotes and dividend patterns.",
+            "Valuation Quizzes: Test your understanding with quizzes on bond and stock valuation techniques.",
+            "Discussion Forum: Participate in discussions about the role of bonds and stocks in portfolio management."
+        ],
+        [
+            "Capital Budgeting Process: Explore the steps involved in evaluating and selecting investment projects.",
+            "Net Present Value (NPV): Learn how to calculate NPV and why it’s considered the gold standard for investment decisions.",
+            "Internal Rate of Return (IRR): Understand the IRR and its role in comparing project profitability.",
+            "Payback Period (PB) and Discounted Payback Period (DPB): Evaluate how quickly investments can recover initial costs.",
+            "Profitability Index (PI): Discover how to rank investment opportunities when resources are limited.",
+            "Cash Flow Estimations: Study methods for estimating future cash flows for capital budgeting.",
+            "Inflation and Present Value: Learn how inflation impacts present value calculations.",
+            "Capital Rationing: Understand how to allocate limited resources among competing projects."
+        ],
+        [
+            "NPV and IRR Practice: Use financial formulas to compute NPV and IRR for real-world investment scenarios.",
+            "Capital Budgeting Comparisons: Analyze and compare decision rules (NPV, IRR, PB, PI) through guided exercises.",
+            "Cash Flow Estimation Exercise: Practice estimating cash flows and adjusting for inflation in project evaluation.",
+            "Discussion Forum: Engage in discussions about capital budgeting challenges and real-world applications."
+        ],
+        [
+            "Case Study: Ocean Carriers: Analyze a real-world capital budgeting scenario involving the shipping industry.",
+            "Application of Capital Budgeting Rules: Apply NPV, IRR, PB, and PI to assess investment options.",
+            "Cash Flow Projections: Develop accurate cash flow projections based on provided data.",
+            "Strategic Decision-Making: Explore the factors influencing investment decisions beyond quantitative metrics.",
+            "Team Collaboration: Work collaboratively to analyze data, discuss findings, and develop recommendations."
+        ],
+        [
+            "Case Analysis: Evaluate the Ocean Carriers case study to assess the viability of proposed investments.",
+            "Financial Modeling: Use capital budgeting techniques to calculate key financial metrics for the case.",
+            "Team Discussions: Collaborate with peers to share insights, analyze data, and refine your recommendations.",
+            "Peer Evaluation: Review and provide constructive feedback on team contributions to enhance collective learning."
+        ],
+        [
+            "Dollar Returns vs. Percentage Returns: Understand how returns are calculated and compared.",
+            "Arithmetic vs. Geometric Averages: Learn the differences and applications of these two averaging methods.",
+            "Historical Returns on Stocks and Bonds: Examine the risk-return trade-off based on historical data.",
+            "Single Stock Risk and Return: Assess the risk and return characteristics of individual securities.",
+            "Covariance and Correlation: Explore the relationship between returns of two securities.",
+            "Portfolio Risk and Return (Two Securities): Analyze risk and return for portfolios with two risky securities.",
+            "Portfolio Risk and Return (Risky and Riskless Securities): Evaluate portfolios containing both risky and riskless securities.",
+            "General Portfolio Formula: Apply the formula to calculate portfolio returns and risk.",
+            "Beta as a Risk Measure: Understand beta as an indicator of market risk for securities and portfolios."
+        ],
+        [
+            "Risk and Return with Two-Security Portfolios: Study the impact of different weights and correlations on portfolio risk.",
+            "Efficient Portfolios & Frontier: Learn how to construct portfolios that maximize returns for a given level of risk.",
+            "Capital Asset Pricing Model (CAPM): Understand CAPM as a framework for evaluating the expected return of assets.",
+            "Arbitrage Pricing Theory (APT): Explore an alternative to CAPM that accounts for multiple risk factors.",
+            "Fama-French Three-Factor Model: Delve into this model that incorporates size and value factors in asset returns."
+        ],
+        [
+            "Historical Data Analysis: Calculate and compare historical returns using real-world data.",
+            "Portfolio Risk Simulation: Create portfolios with varying combinations of risky and riskless securities to observe risk-return dynamics.",
+            "CAPM Applications: Use the CAPM formula to evaluate expected returns and market risk for different securities.",
+            "Discussion Participation: Engage in discussions to deepen your understanding of risk-return theories and models."
+        ],
+        [
+            "Midterm Exam Instructions: Familiarize yourself with the exam format, topics covered, and expectations.",
+            "Review of Key Concepts: A thorough review of all concepts covered in previous lessons.",
+            "Application of Knowledge: Test your ability to apply learned financial principles to solve real-world problems."
+        ],
+        [
+            "Study and Review: Review all course materials and key concepts, focusing on areas of weakness.",
+            "Practice Problems: Complete practice problems related to TVM, Stocks & Bonds, Capital Budgeting, and Risk & Return to reinforce your understanding.",
+            "Group Study Sessions: Engage with peers in study groups for discussion and clarification of challenging topics."
+        ],
+        [
+            "Cost of Capital: Understand the components and estimation techniques.",
+            "Equity Beta: Learn methods to calculate and interpret equity beta.",
+            "Project-Specific Risk: Explore how project beta affects the cost of capital.",
+            "Floatation Costs: Incorporate these costs into budgeting calculations."
+        ],
+        [
+            "Interactive Review: Engage with video examples and practice problems.",
+            "Collaborative Study: Participate in peer study groups."
+        ],
+        [
+            "Value Creation in Financing: Can financing decisions add value?",
+            "Efficient Capital Markets: Characteristics and significance.",
+            "Efficient Market Hypothesis (EMH): Concept and types of efficiency.",
+            "Market Challenges: Behavioral finance and anomalies in EMH.",
+            "Corporate Finance Implications: How efficiency impacts decision-making."
+        ],
+        [
+            "Critical Analysis: Engage with video examples and study challenges to EMH.",
+            "Interactive Discussions: Participate in peer discussions and share insights.",
+            "Problem Solving: Work on practice problems to apply learned concepts."
+        ],
+        [
+            "Long-Term Financing: Overview of financing options for firms.",
+            "Capital Structure & Pie Model: The value of a firm and its division.Financial Leverage: Impact on firm valuation.",
+            "Modigliani-Miller Proposition 1: Irrelevance of capital structure in a perfect market.",
+            "Weighted Average Cost of Capital (WACC): How it influences financing decisions.",
+            "Theories of Capital Structure: Trade-off theory, pecking order theory, and financial distress costs.",
+            "Capital Structure in Practice: Real-world considerations and applications."
+        ],
+        [
+            "Case Analysis: Work through practice problems on capital structure concepts.",
+            "Engagement: Participate in peer study groups to discuss theories and applications.",
+            "Quiz Preparation: Review key concepts with sample quiz questions."
+        ],
+        [
+            "Option Basics: Definitions, types of options, and market quotes.",
+            "Value of an Option: How options are priced based on various factors.",
+            "Payoff and Profit: Using notations and graphs to analyze options.",
+            "Put-Call Parity: Key relationship for European options.",
+            "Boundaries of Option Value: Limitations and pricing considerations.",
+            "Combinations of Options: Creating strategies using different options.",
+            "Implicit Options in Corporate Finance: The role of options in corporate financial decisions."
+        ],
+        [
+            "Case Study: Analyze real-world examples of hedging and options in practice.",
+            "Option Pricing: Calculate option values and understand their relationships.",
+            "Peer Collaboration: Participate in group discussions to solve problems involving options and hedging strategies."
+        ],
+        [
+            "Terminology: Key terms and concepts in international finance.",
+            "Foreign Exchange Markets: Understanding exchange rates and currency trading.",
+            "Purchasing Power Parity (PPP): Concept of currency value determination based on the cost of goods.",
+            "Interest Rate Parity: The relationship between interest rates and exchange rates.",
+            "International Capital Budgeting: How to evaluate investment decisions across borders and currencies."
+        ],
+        [
+            "Case Study: Analyze real-world examples of international finance challenges faced by companies.",
+            "Exchange Rate Calculations: Practice calculating and understanding exchange rate movements and their impact on businesses.",
+            "Peer Collaboration: Engage in group discussions to apply theories such as PPP and Interest Rate Parity to case problems."
+        ],
+        [
+            "Final Exam Instructions: Understand the format and expectations for the final exam.",
+            "Review of Key Topics: A comprehensive review of all lessons covered in the course.",
+            "Application of Concepts: Apply financial theories and techniques to solve complex problems."
+        ],
+        [
+            "Study Review: Go through all key concepts and practice problems from previous lessons.",
+            "Exam Simulation: Take practice quizzes or mock exams to prepare for the final exam format.",
+            "Peer Study Groups: Collaborate with peers for final exam preparation through group study sessions."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Barnes & Noble College website",
+            "url": "https://bncvirtual.com/psude"
+        },
+        {
+            "text": "McGraw Hill’s customer experience group online",
+            "url": "https://mh.my.site.com/CXG/s/"
+        },
+        {
+            "text": "McGraw Hill Higher Education Digital Technical Support",
+            "url": "https://mh.my.site.com/CXG/s/"
+        },
+        {
+            "text": "HBR Website",
+            "url": "https://hbsp.harvard.edu/import/"
+        },
+        {
+            "text": "Adobe",
+            "url": "https://www.adobe.com/"
+        },
+        {
+            "text": "Penn State Digital Access",
+            "url": "https://studentaffairs.psu.edu/involvement-student-life/student-services/student-news-readership-program"
+        },
+        {
+            "text": "Canvas’ computer specifications",
+            "url": "https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-are-the-browser-and-computer-requirements-for-Instructure/ta-p/66"
+        },
+        {
+            "text": "Canvas Supported Browsers",
+            "url": "https://community.canvaslms.com/docs/DOC-1284"
+        },
+        {
+            "text": "Canvas’ computer specifications",
+            "url": "https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-are-the-browser-and-computer-requirements-for-Instructure/ta-p/66"
+        },
+        {
+            "text": "Microsoft Office 365",
+            "url": "https://student.worldcampus.psu.edu/a-z-index/office-365"
+        },
+        {
+            "text": "Adobe Reader",
+            "url": "https://get.adobe.com/reader/"
+        },
+        {
+            "text": "Canvas Mobile App Requirements",
+            "url": "https://community.canvaslms.com/docs/DOC-1542"
+        },
+        {
+            "text": "Ask a Librarian service",
+            "url": "https://libraries.psu.edu/ask"
+        },
+        {
+            "text": "Online Students’ Library Guide",
+            "url": "http://guides.libraries.psu.edu/onlinestudentlibraryguide"
+        },
+        {
+            "text": "Libraries home page",
+            "url": "https://libraries.psu.edu/world"
+        },
+        {
+            "text": "Cumulative preferred stock",
+            "url": "#tab-strongcumulativepreferredstockstrong"
+        },
+        {
+            "text": "Common stocks",
+            "url": "#tab-strongcommonstocksstrong"
+        },
+        {
+            "text": "Stock buybacks",
+            "url": "#tab-strongstockbuybacksstrong"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "A mathematical formula showing the relationship between the amount of potatoes received and foregone, labeled with annotations for the amount of potatoes at \n𝑡\n=\n1\nt=1, \n𝑡\n=\n0\nt=0, and the real rate of return.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2025/01/L1_potatoes.png"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Assignment Category",
+                "Percent Value"
+            ],
+            [
+                "Lesson Quizzes (9 – lowest score dropped)",
+                "25%"
+            ],
+            [
+                "Discussions (5)",
+                "5%"
+            ],
+            [
+                "Case Study – Team *",
+                "20%"
+            ],
+            [
+                "Mid-Term Exam",
+                "20%"
+            ],
+            [
+                "Final Exam",
+                "30%"
+            ],
+            [
+                "Total",
+                "100%"
+            ]
+        ],
+        [
+            [
+                "Numerical Value",
+                "Letter Grade"
+            ],
+            [
+                "93 and above",
+                "A"
+            ],
+            [
+                "90 – 92.9",
+                "A-"
+            ],
+            [
+                "87 – 89.9",
+                "B+"
+            ],
+            [
+                "83 – 86.9",
+                "B"
+            ],
+            [
+                "80 – 82.9",
+                "B-"
+            ],
+            [
+                "75 – 79.9",
+                "C+"
+            ],
+            [
+                "70 – 74.9",
+                "C"
+            ],
+            [
+                "60 – 69.9",
+                "D"
+            ],
+            [
+                "Below 60",
+                "F"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"6265\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

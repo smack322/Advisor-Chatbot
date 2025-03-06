@@ -1,0 +1,715 @@
+{
+    "metadata": {
+        "title": "ACCTG 462: Government and Not forprofit Accounting – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=6340"
+    },
+    "headings": {
+        "h2": "Overview",
+        "h4": "Unlocking Your Potential",
+        "h3": "Lesson 14:Accounting for Healthcare Organizations and Auditing Practices",
+        "h5": "Student Attendance Policy"
+    },
+    "paragraphs": [
+        "ACCTG 462: Government and Not-for-Profit Accounting offers a specialized understanding of the unique accounting and auditing requirements for governmental and nonprofit entities. The course emphasizes the principles of fund accounting used by governments, highlighting their distinct financial reporting processes compared to private businesses. Students will explore the unique revenue sources and evaluation methods for nonprofits, such as voluntary health and welfare organizations and hospitals, which often rely on non-financial performance measures. By focusing on financial reporting and performance metrics, this course equips students with the knowledge and skills needed for careers in public service, nonprofit management, and government auditing.",
+        "This course provides a framework for understanding the unique accounting and auditing requirements of governments and not-for-profit entities. Governments and private businesses operate in vastly different environments. As a result, their accounting processes and reporting requirements are substantially different. The basic concepts, techniques, and terminology of fund accounting as utilized by governmental entities are emphasized. Nonprofit entities, including voluntary health and welfare agencies and hospitals, are often evaluated through non-financial measures and have unique revenue sources. Financial reporting and other performance measures are highlighted",
+        "After completing this course, you should be able to:",
+        "Custom ACCTG 462-001 Governmental and Not for Profit Accounting (Penn State Harrisburg) based on the Patton, T. K., Patton, S. R., Waymire, T. R., & Payne, W. (2022). Accounting for governmental and nonprofit organizations : (Second edition). Cambridge Business Publishers.The custom version is cheaper than purchasing the full book through the publisher’s website as the mybusinesscourse.com materials are included with the Penn State custom version.",
+        "If faculty have concerns about student use of generative artificial intelligence (AI) tools with completing course assignments, projects, papers, and assessments, it is recommended that guidelines around use of these tools be included in the course syllabus. Statements regarding use of generative AI tools can be connected to the statement on academic integrity. Faculty can allow the use of the tools and they can provide limitations or restrictions around use of these tools. Faculty can obtain additional information and resources about use of generative AI tools at the following sites:",
+        "Library databases can be accessed from the Databases A-Z page.Library guides list databases, books, journals, and other resources for specific majors and courses.",
+        "Students may reserve group study rooms. The Lion Study Space and Morrison Gallery are available 24/7 for student use.",
+        "Information Technology Services (ITS) is available to assist students with their Access Account, Multi-Factor Authentication, and other hardware and software issues. Information on the support available can be located at https://harrisburg.psu.edu/its/student-resources. Students can also access in-person support in the Lower Level of Olmsted Building during the hours of 8:00 a.m. to 9:00 p.m. Monday to Thursday, and during the hours of 8:00 a.m. to 5:00 p.m. on Friday. Technology support is available via phone 24/7 at +1-717-948-6188.",
+        "All course-related e-mails should go through Canvas’s course mail function (Canvas Inbox). Using Canvas to contact your instructor ensures that your message will be read, and your instructor will respond to you in a timely manner.",
+        "Many of the University Libraries’ resources can be utilized from a distance. Through the Library website, you can access magazines, journals, and articles; borrow materials and have them delivered to your doorstep; and get research help via email chat or phone from a librarian.",
+        "For more information, view the Penn State University Library website.",
+        "The expectation is that you will be available to take the exam at the scheduled times. However, ifsomething does come up, please reach out as soon as possible and we can figure out how to fairlyaddress the situation for the student and the remainder of the class.",
+        "Helping you to enhance skills and competencies related to group dynamics and teaming is a principle goal of the OMBA. Consequently, this course includes team activities and group work that allows for the application of teaming concepts that you learned in the Team Performance course (MBADM 810). You are expected to work in teams effectively and productively to complete all team assignments. Students may not request to work individually on team projects. Any adjustments to team composition are the sole right of the instructor. If you have concerns related to this commitment, please contact your instructor.",
+        "Homework includes Canvas Chapter Summaries. Homeworks will be in mybusinesscourse.com. The chapter summaries will be due at different times for the first week. After that point, all chaptersummaries will be due prior to the Tuesday class time – irrespective of the format of the class. Chapter summaries will require you to complete the readings before class & bring your notes to class after you submit a copy to Canvas. It must be handwritten. If it’s typed, no credit will be earned.Actively reading before class introduces concepts and ideas which we’ll explore during class. You may choose among the following active reading strategies:",
+        "You do not need to submit the same type of active reading strategy for every reading assignment. Fee free to change it up! When you take notes by hand, the physical energy of writing combined with the mental energy of thinking about what you’ve read and putting it into your own words has been shown to help students learn more effectively.",
+        "Quizzes will be accessed through the Canvas into mybusinesscourse. com.In class activities will be done as we proceed throughout the semester. They will be points assigned to activities performed in class.",
+        "Project materials are focused on two skill development areas – Artificial intelligence and Data analysis. Both areas have smaller assignments to help develop a base for completing both activities for the course. I’m here to support you so please ask questions as you attempt these items – just don’t leave them untilthe very end of the semester or we run out of time for the learning to occur.",
+        "Class attendance and evaluation of student performance are to occur in accordance with Academic Administrative Policy E-11. As indicated in this policy, “Class attendance is a critical element of student success and one of the most important ways students learn and understand course materials. Students may need to miss a class meeting to participate in a regularly scheduled university-approved curricular or extracurricular activity or due to unavoidable or other legitimate circumstances (including participation in local, state, and federal governmental elections and religious observances).”In relation to missing an exam or other evaluative event in class, the policy states, “When an absence or other circumstance covered in such policies results in a student being unable to complete an evaluative event that contributes to the final grade, the student or their representative is expected to inform their instructor, who is expected to provide the student, within reason, the opportunity to complete missedevaluative events. The instructor may require use of the class absence form. Even if the absence meets the expectations of University policies listed above, in some situations, making up missed classes or missed evaluative events may not be possible.”",
+        "Additional information regarding missed classes and exams can be located in Academic Administrative Policy E-11: Class Attendance and Evaluation of Student Performance.",
+        "*Subject to change",
+        "Governmental Hospitals must report on three categories of net position:",
+        "Governmental Hospitals  report using only three basic financial statements:",
+        "Governmental  statement of revenues , expenses, and changes in net position:",
+        "After completing this course, you should be able to:",
+        "In this lesson, you will explore the foundational concepts of government and nonprofit (GNP) accounting, including the unique characteristics of fund accounting and its importance in these sectors.",
+        "By the end of this week, you will have a solid understanding of the environment and characteristics of GNP accounting and the foundational principles of fund accounting. This knowledge will serve as the basis for more advanced topics in the course.",
+        "In this lesson, you will dive into the principles of budgetary accounting, focusing on how governmental entities plan, control, and evaluate financial resources through budgets.",
+        "By the end of this Lesson, you will have a thorough understanding of budgetary accounting principles and their application in managing and evaluating governmental financial resources.",
+        "In this lesson, you will explore the structure and purpose of general and special revenue funds, which are critical components of governmental fund accounting.",
+        "By the end of this Lesson, you will have a clear understanding of general and special revenue funds, their purpose, and their importance in governmental accounting.",
+        "In this lesson, you will gain a comprehensive understanding of General and Special Revenue Funds, their applications, and their importance in public sector financial management.",
+        "By the end of this lesson, you will have a clear understanding of how General and Special Revenue Funds operate, how they are used in budgeting, and how to report them effectively in the context of public sector financial accounting.",
+        "In this lesson, you will explore the remaining governmental funds, including Capital Project Funds, Debt Service Funds, and Permanent Funds, and their roles in managing long-term financial projects.",
+        "By the end of this lesson, you will have a solid grasp of Capital Project, Debt Service, and Permanent Funds, how they are used in government finance, and how to report and manage these funds effectively.",
+        "In this lesson, you will learn about Proprietary Funds, focusing on Enterprise Funds and Internal Service Funds, and their importance in government accounting for activities that operate like businesses.",
+        "By the end of this lesson, you will be well-versed in the operations of Enterprise and Internal Service Funds, and will be able to apply the knowledge gained to understand their role in managing government operations that are financed through fees and services.",
+        "In this lesson, you will learn about Fiduciary Funds, focusing on how they are used to manage resources held in trust or on behalf of others, such as pension funds, investment trusts, and agency funds.",
+        "By the end of this lesson, you will have a solid understanding of Fiduciary Funds, their role in managing trusts and custodial responsibilities, and how to account for and report on these specialized funds in governmental accounting.",
+        "In this lesson, you will explore the principles behind fund financial reporting and how to prepare financial statements for governmental funds, ensuring accurate and compliant financial documentation.",
+        "By the end of this lesson, you will be equipped with the knowledge to prepare and report on governmental fund financials, using appropriate accounting principles to create accurate and informative financial statements.",
+        "In this lesson, you will focus on Government-Wide Financial Statements, understanding how they provide a comprehensive view of the financial health of governmental entities.",
+        "By the end of this lesson, you will have a thorough understanding of Government-Wide Financial Statements, how they differ from fund-based financial reports, and how they provide a comprehensive view of a government’s financial position and activities.",
+        "In this lesson, you will learn how to analyze financial statements to assess the financial health and performance of governmental entities, using key metrics and analytical techniques.",
+        "By the end of this lesson, you will be equipped with the skills to analyze financial statements effectively, assess the financial condition of governmental entities, and use key ratios and trends to evaluate performance and sustainability.",
+        "In this lesson, you will explore the unique accounting and reporting practices of the federal government, including its financial statements and the rules that govern federal financial management.",
+        "By the end of this lesson, you will have a solid grasp of federal government accounting practices, the financial statements required for federal reporting, and the key differences between federal and other governmental fund accounting methods.",
+        "In this lesson, you will learn the basics of accounting for nonprofit organizations, including key principles and financial statement preparation specific to the nonprofit sector.",
+        "By the end of this lesson, you will have a strong understanding of nonprofit accounting, including the preparation of financial statements and the application of key principles such as fund accounting and net asset classification.",
+        "In this lesson, you will build on your understanding of nonprofit accounting by exploring advanced topics and real-world applications in managing nonprofit financials.",
+        "By the end of this lesson, you will have a comprehensive understanding of advanced nonprofit accounting, including the management of complex financial transactions, compliance with tax regulations, and assessing the financial health and sustainability of nonprofit organizations.",
+        "In these final lessons, you will delve into the unique accounting practices for healthcare organizations and gain an understanding of auditing for governmental and nonprofit entities, rounding out your knowledge of specialized accounting fields.",
+        "During University-Scheduled Time : The final exam will assess all topics covered throughout the semester, including healthcare accounting and auditing practices for governmental and nonprofit organizations.",
+        "By the end of these two lessons, you will have a strong understanding of accounting for healthcare organizations and the auditing processes for governmental and nonprofit entities, with the ability to analyze and assess financial practices and compliance in these specialized fields.",
+        "Government and Not-for-Profit Accounting provides students with specialized knowledge in accounting practices that are crucial for careers in the public and nonprofit sectors. By mastering governmental financial reporting, nonprofit accounting, and auditing practices, students will be well-equipped for roles in government agencies, nonprofit organizations, and auditing firms. The skills gained in this course open doors to careers such as public sector accountants, financial analysts for nonprofits, auditors specializing in government and nonprofit entities, and financial compliance officers. This expertise is highly sought after, as organizations in these sectors require professionals who can navigate complex financial regulations, ensure transparency, and contribute to the financial sustainability of the entities they serve.",
+        "Government and Not-for-Profit Accounting, students will gain insights into real-world applications of accounting principles in governmental and nonprofit sectors. For example, a city government may use governmental fund accounting to track revenues from property taxes, grants, and user fees, while managing expenses for public services like education, healthcare, and infrastructure. On the nonprofit side, a charity organization may report on donations and grants it receives, classifying them as restricted or unrestricted, and preparing financial statements to maintain transparency with donors and regulatory bodies. By studying these real-world scenarios, students learn how organizations in these sectors ensure accountability, comply with regulatory standards, and report financial information to stakeholders such as taxpayers, donors, and government agencies.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Describe the basics of governmental and not-for-profit accounting, including fund accountingand differences between levels of government, and why they are different than for profitbusinesses",
+            "Create the basic not-for-profit and governmental financial statements based on underlyingactivity requiring the initial recording of journal entries",
+            "Discuss the unique auditing, taxation, and performance measurement for these organizationsespecially entities operating in the healthcare sector"
+        ],
+        [
+            "https://aiai.psu.edu/, which includes an AI Literacy Unit Canvas Module that can be imported into Canvas courses.",
+            "https://guides.libraries.psu.edu/LLMs, which includes information from Penn State University Libraries.",
+            "https://ai.psu.edu/guidelines/, which includes AI Guidelines."
+        ],
+        [
+            "Subject guides",
+            "Course guides",
+            "How-to guides",
+            "Citation guides"
+        ],
+        [
+            "Outline with definitions, in your own words",
+            "Draw a mind map or other visual https://en.wikipedia.org/wiki/Mind_map",
+            "Make traditional notes of the material, in your own words",
+            "Write a summary in paragraph form and include at least 3 questions you’d like answered during class and/or make at least 3 personal connections to material"
+        ],
+        [
+            "Objectives of Financial Reporting",
+            "Budget Process",
+            "Financial Reporting"
+        ],
+        [
+            "Continuous cycle where evaluation of current-year performance affects next-year’s budget",
+            "Lengthy and formal process that takes several months."
+        ],
+        [
+            "Net investment in capital assets",
+            "Restricted net position (representing donor,governmental and contractual restrictions)",
+            "unrestricted net position"
+        ],
+        [
+            "statement of net position",
+            "statement of revenues,expenses, and changes in net position",
+            "statement of net position  of cash flows"
+        ],
+        [
+            "Reports all changes in net assets,including all revenues,expenses without regard to restrictions on their use",
+            "Operating expenses must be deducted from operating revenues to show operating income",
+            "Nonoperating revenues (such as investment income) and expenses (such as interest expense) are reported separatly after operating income but before capital contributions and transfers,arriving at total change in net position"
+        ],
+        [
+            "Describe the basics of governmental and not-for-profit accounting, including fund accountingand differences between levels of government, and why they are different than for profitbusinesses",
+            "Create the basic not-for-profit and governmental financial statements based on underlyingactivity requiring the initial recording of journal entries",
+            "Discuss the unique auditing, taxation, and performance measurement for these organizationsespecially entities operating in the healthcare sector"
+        ],
+        [
+            "L1,L2",
+            "L3,L4",
+            "L5,L6",
+            "L7,L8",
+            "L9,L10",
+            "L11,L12",
+            "L13,L14"
+        ],
+        [
+            "Government and Nonprofit Accounting Environment: Learn about the distinct operational and reporting environments of governmental and nonprofit entities.",
+            "Fund Accounting Basics: Understand the use of funds in governmental accounting and how it supports financial accountability.",
+            "Characteristics of GNP Entities: Explore the unique features that differentiate GNP organizations from private businesses."
+        ],
+        [
+            "Reading Assignment: Chapters 1 and 2 from the textbook (accessible via library course reserves in Canvas).",
+            "Class Sessions: Regularly scheduled class discussions to reinforce key concepts.",
+            "Assessments: Complete homework on MyBusinessCourse.com and submit chapter summaries on Canvas."
+        ],
+        [
+            "Budgetary Concepts: Understand the role of budgets in governmental accounting and their importance in financial management.",
+            "Budgetary Control: Learn how budgets are used as tools to monitor and control financial activities.",
+            "Evaluation Through Budgets: Explore how governments assess financial performance using budgetary data."
+        ],
+        [
+            "Reading Assignment: Chapter 3, “Budgetary Considerations in Governmental Accounting” (available in library course reserves via Canvas).",
+            "Class Sessions: Participate in regular class discussions to clarify concepts and ask questions.",
+            "Assessments: Complete homework on MyBusinessCourse.com, submit chapter summaries on Canvas, and work on Data Analysis 1 to apply budgetary concepts."
+        ],
+        [
+            "General Funds: Learn about the primary operating fund of governments and its role in financing general activities.",
+            "Special Revenue Funds: Understand how these funds are used to account for resources restricted or committed for specific purposes.",
+            "Fund Accounting Principles: Explore the differences and interactions between general and special revenue funds in financial reporting."
+        ],
+        [
+            "Reading Assignment: Chapter 4, “An Introduction to General and Special Revenue Funds” (available in library course reserves via Canvas).",
+            "Class Sessions: Engage in scheduled discussions to reinforce learning and clarify any questions.",
+            "Assessments: Complete homework on MyBusinessCourse.com, submit chapter summaries on Canvas, and take Quiz 1 to test your understanding of the material."
+        ],
+        [
+            "General Fund Overview: Learn about the General Fund, its role as the primary operating fund for government entities, and how it supports day-to-day operations.",
+            "Special Revenue Funds: Explore the concept of Special Revenue Funds, which are used for specific purposes, such as grants or taxes earmarked for particular projects.",
+            "Budgeting and Reporting: Understand the accounting procedures for both funds, including how revenues and expenditures are tracked and reported.",
+            "Fund Classification: Discover the various types of governmental funds and how they differ from one another, focusing on General and Special Revenue Funds."
+        ],
+        [
+            "Reading Assignment: Read Chapter 5 to dive deeper into the structure and functions of General and Special Revenue Funds.",
+            "Homework (mybusinesscourse.com): Complete the homework assignment for practical application of fund management principles.",
+            "Canvas Chapter Summary: Write a brief chapter summary to reinforce key concepts and assess your understanding of the lesson."
+        ],
+        [
+            "Capital Project Funds: Learn how these funds are used to finance large-scale infrastructure projects, including construction, renovation, and acquisition of capital assets.",
+            "Debt Service Funds: Understand how these funds manage and allocate money for the payment of interest and principal on governmental debts.",
+            "Permanent Funds: Discover the purpose of Permanent Funds, designed to support specific projects or initiatives, with the principal remaining intact while the income is used for designated purposes.",
+            "Governmental Fund Reporting: Explore the accounting standards and reporting requirements for these specialized funds."
+        ],
+        [
+            "Reading Assignment: Read Chapter 6 to gain in-depth knowledge about Capital Project Funds, Debt Service Funds, and Permanent Funds.",
+            "Homework (mybusinesscourse.com): Complete the homework assignment to practice applying the concepts from the lesson.",
+            "Canvas Chapter Summary: Summarize the key ideas from the chapter to reinforce learning and improve comprehension.",
+            "Verbal Exam: Prepare for a verbal exam to demonstrate your understanding of the material covered up to this point."
+        ],
+        [
+            "Enterprise Funds: Understand how these funds are used to account for services provided to the public on a fee basis, such as water, electricity, and transportation services.",
+            "Internal Service Funds: Learn how Internal Service Funds support internal operations by providing services to other government departments, such as printing, IT, or fleet management.",
+            "Revenue and Expense Recognition: Discover how revenues and expenses are recorded in Proprietary Funds, and understand how they are treated differently from governmental funds.",
+            "Accounting and Reporting Requirements: Explore the reporting standards for Proprietary Funds and the financial statements associated with these funds."
+        ],
+        [
+            "Reading Assignment: Read Chapter 7 to gain an understanding of how Enterprise and Internal Service Funds operate and their role in government finance.",
+            "Homework (mybusinesscourse.com): Complete the homework assignment to apply your understanding of Proprietary Funds to real-world scenarios.",
+            "Canvas Chapter Summary: Write a chapter summary to reinforce key concepts and ensure comprehension of the material.",
+            "Guest Speaker: Attend guest speaker sessions to gain insights from industry professionals on the practical applications of Proprietary Funds in government accounting."
+        ],
+        [
+            "Types of Fiduciary Funds: Understand the different types of Fiduciary Funds, including Pension Trust Funds, Investment Trust Funds, Private-Purpose Trust Funds, and Agency Funds, and their unique characteristics.",
+            "Purpose and Usage: Learn how these funds are used to manage resources that belong to external entities or individuals, such as employee pensions or other custodial responsibilities.",
+            "Fund Accounting: Explore the specific accounting methods used for Fiduciary Funds, including the measurement of assets, liabilities, and net position.",
+            "Reporting Requirements: Discover the reporting standards for Fiduciary Funds and the financial statements that reflect the balances and activities of these funds."
+        ],
+        [
+            "Reading Assignment: Read Chapter 8 to dive deep into the principles and practices of managing Fiduciary Funds.",
+            "Homework (mybusinesscourse.com): Complete the homework to apply the concepts of Fiduciary Funds in real-world scenarios.",
+            "Canvas Chapter Summary: Write a chapter summary to reinforce your understanding of the key concepts covered in the reading.",
+            "Data Analysis 2: Work on the Data Analysis 2 assignment to further enhance your practical skills in data interpretation and financial reporting related to Fiduciary Funds."
+        ],
+        [
+            "Reporting Principles: Understand the basic principles that guide the preparation of fund financial statements, including fund-based accounting and the measurement of financial resources.",
+            "Fund Financial Statements: Learn about the structure and components of fund financial statements, including the Balance Sheet and Statement of Revenues, Expenditures, and Changes in Fund Balances.",
+            "Basis of Accounting: Explore the different bases of accounting used in fund reporting, such as modified accrual and full accrual accounting, and their impact on financial statements.",
+            "Governmental Fund Types: Discover how financial statements differ between governmental funds, proprietary funds, and fiduciary funds, focusing on their specific reporting requirements."
+        ],
+        [
+            "Reading Assignment: Read Chapter 9 to gain an in-depth understanding of the principles and processes involved in preparing fund financial statements.",
+            "Homework (mybusinesscourse.com): Complete the homework assignment to practice applying fund reporting techniques in various scenarios.",
+            "Canvas Chapter Summary: Write a chapter summary to consolidate your learning and assess your understanding of the key reporting principles.",
+            "Data Analysis 3: Work on Data Analysis 3 to strengthen your skills in interpreting financial data and applying it to the preparation of fund financial statements."
+        ],
+        [
+            "Government-Wide Financial Statements: Learn about the two key government-wide financial statements: the Statement of Net Position and the Statement of Activities, and their role in providing a full-picture view of a government’s financial status.",
+            "Accrual Accounting: Explore the use of accrual accounting in government-wide reporting, contrasting it with the modified accrual accounting used in fund financial statements.",
+            "Economic Resources Measurement Focus: Understand how economic resources are measured in government-wide statements, focusing on long-term assets and liabilities.",
+            "Statement of Net Position: Dive deeper into how this statement captures the government’s financial position by showing all assets, liabilities, and net position (including unrestricted and restricted components).",
+            "Statement of Activities: Learn how this statement measures the overall change in net position, including revenues, expenses, and changes resulting from operational activities."
+        ],
+        [
+            "Reading Assignment: Read Chapter 10 to understand the structure and components of government-wide financial statements.",
+            "Homework (mybusinesscourse.com): Complete the homework assignment to apply your knowledge of government-wide reporting principles in different scenarios.",
+            "Canvas Chapter Summary: Write a chapter summary to consolidate and evaluate your understanding of government-wide financial statement preparation.",
+            "Quiz 2: Take the quiz to assess your grasp of the key concepts related to government-wide financial reporting."
+        ],
+        [
+            "Financial Statement Analysis: Learn the process of analyzing government financial statements, including the Statement of Net Position and Statement of Activities, to evaluate financial performance and stability.",
+            "Key Financial Ratios: Explore the various financial ratios used in analysis, such as liquidity, solvency, and profitability ratios, and how they apply to governmental financial data.",
+            "Financial Condition: Understand how to assess the financial condition of a government entity, focusing on fund balances, revenues, and expenditures to gauge fiscal health.",
+            "Trend Analysis: Learn how to conduct trend analysis by comparing financial data over multiple periods to identify patterns, strengths, and weaknesses in financial performance."
+        ],
+        [
+            "Reading Assignment: Read Chapter 11 to gain an understanding of financial statement analysis techniques and how to evaluate a government’s financial condition.",
+            "Homework (mybusinesscourse.com): Complete the homework assignment to practice applying financial analysis methods to real-world governmental financial statements."
+        ],
+        [
+            "Federal Government Financial Statements: Learn about the different types of financial statements used by the federal government, including the Balance Sheet, Statement of Net Cost, and Statement of Changes in Net Position.",
+            "Budgetary Accounting: Explore the special considerations in federal accounting, focusing on budgetary accounting and how it tracks appropriations and outlays.",
+            "Federal Reporting Requirements: Understand the federal government’s reporting requirements, including compliance with the Government Accountability Office (GAO) and other oversight bodies.",
+            "Accrual and Budgetary Basis of Accounting: Compare the accrual accounting used in federal financial statements with the budgetary basis used to track revenues and expenditures."
+        ],
+        [
+            "Reading Assignment: Read Chapter 12 to gain an in-depth understanding of federal government accounting and the standards that guide its financial reporting.",
+            "Homework (mybusinesscourse.com): Complete the homework assignment to apply your knowledge of federal accounting principles to practical scenarios.",
+            "Canvas Chapter Summary: Write a chapter summary to reinforce and assess your understanding of the key concepts of federal government financial reporting.",
+            "Exam 2 : Prepare for the exam covering Chapters 6-11, testing your understanding of governmental accounting principles, including federal government financial reporting."
+        ],
+        [
+            "Nonprofit Organization Accounting: Understand the unique characteristics of nonprofit accounting, focusing on the concept of fund accounting and the importance of tracking restricted and unrestricted funds.",
+            "Financial Statements for Nonprofits: Learn about the primary financial statements used in nonprofit accounting, such as the Statement of Financial Position, Statement of Activities, and Statement of Cash Flows.",
+            "Revenue Recognition in Nonprofits: Explore how nonprofit organizations recognize revenue, including contributions, grants, and other funding sources.",
+            "Net Assets Classification: Discover how net assets are classified as unrestricted, temporarily restricted, or permanently restricted, and the implications of these classifications on financial reporting."
+        ],
+        [
+            "Reading Assignment: Read Chapter 13 to explore the foundations of nonprofit accounting and its application in real-world scenarios.",
+            "Homework (mybusinesscourse.com): Complete the homework assignment to practice the accounting techniques used in nonprofit financial management.",
+            "Canvas Chapter Summary: Write a chapter summary to consolidate your learning and reflect on the key concepts related to nonprofit accounting.",
+            "Data Analysis Project: Work on the Data Analysis Project to apply your knowledge of nonprofit financial statements and analyze real nonprofit data."
+        ],
+        [
+            "Complex Financial Transactions: Learn how to account for more complex financial transactions in nonprofit organizations, such as endowments, investments, and in-kind donations.",
+            "Tax and Compliance Issues: Understand the unique tax considerations and compliance requirements for nonprofit organizations, including Form 990 reporting and donor restrictions.",
+            "Fundraising and Grant Reporting: Explore how nonprofit organizations account for and report on fundraising activities and grant funding, including restricted versus unrestricted grants.",
+            "Financial Health and Sustainability: Discover techniques for assessing the financial health and sustainability of a nonprofit organization using financial ratios and other analytical tools."
+        ],
+        [
+            "Reading Assignment: Read Chapter 13 to deepen your knowledge of advanced nonprofit accounting practices and financial management.",
+            "Quiz 3: Take the quiz to assess your understanding of the more advanced topics covered in nonprofit accounting.",
+            "Article Assignment: Complete the article assignment to further explore nonprofit accounting topics through current articles and real-world examples.",
+            "Guest Speaker: Attend the guest speaker session to gain insights from professionals in the nonprofit sector about the challenges and strategies in nonprofit financial management."
+        ],
+        [
+            "Healthcare Organization Accounting: Learn the principles and practices involved in accounting for healthcare organizations, including hospitals and clinics, with a focus on revenue recognition, cost allocation, and regulatory compliance.",
+            "Financial Statements in Healthcare: Explore the structure and content of financial statements in healthcare organizations, including balance sheets, income statements, and statements of cash flows.",
+            "Healthcare Revenue Sources: Understand the various revenue sources for healthcare organizations, including patient billing, insurance reimbursements, and government funding programs such as Medicare and Medicaid.",
+            "Regulatory Considerations: Discover the regulatory environment for healthcare accounting, including compliance with the Health Insurance Portability and Accountability Act (HIPAA) and other healthcare laws."
+        ],
+        [
+            "Reading Assignment: Read Chapter 14 to explore the complexities of healthcare organization accounting and reporting.",
+            "Homework (mybusinesscourse.com): Complete the homework assignment to apply healthcare accounting principles in real-world scenarios.",
+            "Canvas Chapter Summary: Write a chapter summary to assess your understanding of healthcare organization accounting practices.",
+            "Guest Speaker : Attend the guest speaker session to gain insights from professionals in the healthcare accounting field."
+        ],
+        [
+            "Auditing Governmental Entities: Learn the specific auditing practices for governmental organizations, including the standards set by the Government Accountability Office (GAO) and the Governmental Auditing Standards (GAS).",
+            "Auditing Nonprofits: Understand the auditing process for nonprofit organizations, including the role of external auditors, compliance with financial reporting standards, and how auditors evaluate internal controls and financial statements.",
+            "Audit Reports and Opinions: Explore how auditors prepare reports and opinions, including unmodified, modified, and adverse opinions, and their significance for financial transparency.",
+            "Ethics in Auditing: Discover the ethical considerations involved in the auditing process, focusing on independence, objectivity, and maintaining integrity in government and nonprofit audits."
+        ],
+        [
+            "Reading Assignment: Read Chapter 16 to gain a deep understanding of the auditing process for governmental and nonprofit organizations.",
+            "Homework (mybusinesscourse.com): Complete the homework assignment to apply auditing principles in practical situations.",
+            "Canvas Chapter Summary: Write a chapter summary to reinforce your understanding of the auditing process for government and nonprofit entities.",
+            "Reflection Paper: Reflect on the auditing practices you’ve learned, discussing their importance in ensuring transparency and accountability in financial reporting."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Penn State University Library",
+            "url": "https://libraries.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "A table outlining the steps in a budget preparation process",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2025/01/slide-17-1024x685.jpg"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Exam 1",
+                "Verbal Exam; 15%"
+            ],
+            [
+                "Exam 2",
+                "Written Exam; 15%"
+            ],
+            [
+                "Final Exam",
+                "Format can be decided by students; 20%"
+            ],
+            [
+                "Projects",
+                "15%"
+            ],
+            [
+                "Quizzes",
+                "10%"
+            ],
+            [
+                "In Class Activities and Participation",
+                "10%"
+            ],
+            [
+                "Homework including Chapter Summaries",
+                "15%"
+            ],
+            [
+                "Totals",
+                "100%"
+            ]
+        ],
+        [
+            [
+                "Grade",
+                "Percentage"
+            ],
+            [
+                "A",
+                "90 < 94"
+            ],
+            [
+                "A-",
+                "90 < 94"
+            ],
+            [
+                "B+",
+                "87 < 90"
+            ],
+            [
+                "B",
+                "84 < 87"
+            ],
+            [
+                "B-",
+                "80 < 84"
+            ],
+            [
+                "C+",
+                "77 < 80"
+            ],
+            [
+                "C",
+                "70 < 77"
+            ],
+            [
+                "D",
+                "60 < 70"
+            ],
+            [
+                "F",
+                "< 60"
+            ]
+        ],
+        [
+            [
+                "State and Local Governments",
+                "Federal Government",
+                "Nonprofits"
+            ],
+            [
+                "Help users asses:"
+            ],
+            [
+                "Current-year revenues sufficient to pay for services",
+                "Operating performance",
+                "Services provided and ability to continue to provide services"
+            ],
+            [
+                "Resources obtained and used in accordance with budget",
+                "Budget integrity",
+                "Manager’s fulfilling stewardship responsibilities"
+            ],
+            [
+                "Service efforts and accomplishments",
+                "Stewardship",
+                "Entity performance, including service efforts and accomplishments"
+            ],
+            [
+                "",
+                "Systems and controls",
+                ""
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"6340\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

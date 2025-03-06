@@ -1,0 +1,773 @@
+{
+    "metadata": {
+        "title": "BUSAD 525: Quantitative Methods in Finance – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=5697"
+    },
+    "headings": {
+        "h2": "Sampling Methods",
+        "h4": "Unlocking Your Potential",
+        "h5": "Example 3.1",
+        "h6": "MathJax:",
+        "h3": "Lesson 7: Monte Carlo Simulation"
+    },
+    "paragraphs": [
+        "BUSAD 525: Quantitative Methods in Finance is a three-credit course that equips students with essential statistical and econometric tools for financial and investment analysis, focusing on practical financial modeling skills. Topics include sampling, estimation, hypothesis testing, regression analysis, portfolio analysis, and time-series forecasting, with a strong emphasis on real-world applications. Students will gain hands-on experience using Microsoft Excel to implement quantitative techniques, bridging theoretical concepts with practical financial decision-making. This course is ideal for those seeking to develop technical expertise in quantitative finance and advance their careers in financial analysis or investment management.",
+        "BUSAD 525 studies statistical and econometric methods to provide a quantitative foundation in financial and investment analysis. Students will be introduced to the statistical and econometric methods necessary in quantitative financial modeling. Students will acquire practical knowledge, skills, and abilities in financial modeling, including sampling, estimation, hypothesis testing, regression analysis and its application in finance, portfolio analysis methods, and time-series analysis and forecasting. Spreadsheet programs such as the Microsoft Excel program will be used extensively throughout the course.",
+        "After completing the course, a student will be able to do the following:",
+        "E-Book Option: An online version of your text is available at no cost as a Penn State Library E-Book. You can access the E-Book through the Library Resources link on the course navigation. You may choose to use the E-Book as an alternative to purchasing a physical copy of the text. For questions or issues, contact the University Libraries Reserve Help (UL-RESERVESHELP@LISTS.PSU.EDU).",
+        "This course will require that you use Microsoft Excel and the @Risk Developer tool.",
+        "Free online software training is available to all students via LinkedIn Learning. (Note: You must be logged in with your PSU account in order to access LinkedIn Learning.)",
+        "One useful feature of MathJax, Zoom Trigger, enlarges equations when you click on them or hover over them with the mouse. To set up a Zoom Trigger, please follow the steps below.",
+        "Step 1: Right-click on the equation.",
+        "Step 2: Hover over “Math Settings.”",
+        "Step 3: Hover over “Zoom Trigger.”",
+        "Step 4: Click on your preferred Zoom Trigger option, which will allow you to zoom in on an equation with either a hover, click, or double-click.",
+        "Please remember that ALL questions about grades, course lesson content, and assignments should be directed to your course instructor. If you have any technical difficulties using the tools within this course, please contact the Penn State Helpdesk.",
+        "All course-related e-mails should go through Canvas’s course mail function (Canvas Inbox). Using Canvas to contact your instructor ensures that your message will be read, and your instructor will respond to you in a timely manner.",
+        "Many of the University Libraries’ resources can be utilized from a distance. Through the Library website, you can access magazines, journals, and articles; borrow materials and have them delivered to your doorstep; and get research help via email chat or phone from a librarian.",
+        "For more information, view the Penn State University Library.",
+        "All course materials (except for the textbook) will be available to you through Canvas. These maPlease complete all required learning activities prior to working on your assignments. Learning activities include reading the course content, as well as any assigned textbook readings, and viewing videos provided in each module.  (Please note the Excel spreadsheets shown in some of the videos may appear slightly different than the accompanying Example spreadsheets. For instance, the tabs at the bottom of the spreadsheets may be labeled differently. These minor differences do not interfere with the explanation of the concepts being presented).",
+        "After you have submitted an assignment, you will typically be able to view your grade and any comments made by your instructor within 7 days after the due date. This process is used for all homework assignments, exams, or other graded submissions. Some instructors may also send you a message informing you that the assignment has been graded. Instructors may choose to release all the grades to all students at once; other instructors may release grades per student one at a time.",
+        "*Grades will be based on the following scale:",
+        "A = 95-100, A- = 90-94, B+ = 87-89, B =84-86, B- = 80-83, C+ = 77-79, C = 70-76, D = 60-69, and F = Below 60",
+        "***Please refer to the University Grading Policy for Graduate Courses. for additional information about University grading policies.",
+        "There is one team-based project that is due at the end of the course (please check the course schedule for the due date). Although the project is not due until the end of the course, it would be beneficial for your team to begin working on the project as soon as the relevant materials are discussed during the course. You will be randomly assigned to a group. Further information about the team will be sent out via e-mail. The purpose of this project is to help you gain further understanding of the knowledge learned in this class by analyzing real-world data.",
+        "You should work as a team to find appropriate sources of data and use the methodologies taught in this class to study the data and answer the questions asked in the problem statements. To assist you with discussions, a team discussion forum may be set up so only the members of each team can access their team discussion forum as a means to communicate. Feel free to use them as often as you need to when completing the assignment. You can also use other means of communication with your team such as Zoom, Google Drive, Skype, e-mail, phone, etc., whichever communication tool works best for your group. Use Excel and incorporate spreadsheet output (show your work) in your submissions. Please use the following naming convention when submitting your team file and include your team name in the subject of the message (e.g., BUSAD525_FinalProject_Team1).",
+        "Finally, after your team has completed the Final Group Project, each member will need to complete a Peer Evaluation of each team member in order to earn a peer evaluation score. You will be rating your team members on dimensions such as communication, reliability, and quality of contribution. Note: The peer evaluation will consist of 2% of the Final Project grade.",
+        "Additional information about the Final Project assignment can be found in the Lesson 7 Module.",
+        "You will be assigned several homework problems during and/or at the end of each module. Check the course schedule to see when the homework problems are due. All the problems are to be solved with the aid of a computer. It is very important that you complete and submit all the homework problem sets assigned in order to master the materials, keep up with the course schedule, and do well on the exam.",
+        "There will be one midterm exam and one final exam, which will be completed online.  Both exams will be proctored.  Please be sure to familiarize yourself with the proctoring process by reading the Honorlock Proctoring module in your course.  Each exam will contain two parts: (a) a quiz to test your understanding of the concepts and (b) problem sets using Excel spreadsheets and other tools. The midterm exam will cover material learned in Modules 1 through 4. The final exam will primarily cover material learned in Modules 5 through 7 but may also cover earlier materials. You may use your lecture notes, the textbook, Excel, paper, and pencil while taking the exams; however, during the examination period, communication with other people concerning the subject matter of the exams is prohibited.",
+        "Note: You will only be able to access the midterm exam and final exam folders on the dates specified within the course schedule.",
+        "Honorlock Proctoring",
+        "The proctoring software uses your computer’s webcam or other technology to monitor and/or record your activity during exams. The proctoring software, Honorlock, may be listening to you, monitoring your computer screen, viewing you and your surroundings, and recording any activity (including visual and audio recordings) during the proctoring process. By enrolling in this course, you consent to the use of the proctoring software, including but not limited to any audio and/or visual monitoring that may be recorded. Please contact your instructor with any questions. For Honorlock resources and a practice test, see the Honorlock Information module in Canvas.",
+        "You will complete various multimedia assignments for each unit. In addition, there are activities located within each of the course modules. You will submit these activities to your instructor electronically. We recommend that you prepare your answers in the provided answer templates and submit them online. Please complete all of the activities for one module within one Excel workbook. Please keep a copy of all your work. We cannot assume responsibility for lost items.",
+        "The course schedule is strictly adhered to. Late assignments, discussion participation, and exams will be accepted ONLY if the instructor is notified prior to the due date of a special circumstance that cannot be avoided. Students will receive a zero for late work without an acceptable reason.",
+        "A few basic reminders when using email or discussion forums:",
+        "It is generally bad form to type your messages IN ALL CAPITAL LETTERS. In addition to proper capitalization (first words of sentences, proper nouns, names, etc.), a majority of online students have reported that complete sentences and punctuation make online text communication easier to read.It is much better not to post inflammatory or accusational remarks than it is to “get it off of your chest.” Profanity and personal attacks will have no part of this course. If you discover such remarks, please notify me immediately, and I will personally address the source of those remarks.",
+        "*Subject to change",
+        "There are two ways to examine probability of some random events:",
+        "Statistics (empirical classical probability)",
+        "Probability (a priori classical probability)",
+        "Probability model is an idealized conception of how reality works. For example, when I roll a fair die, each of the six faces is equally likely to occur, which indicates the probability of the occurrence of each number is 1/6. On the other hand, statistics tells us how we use a sample of data to calibrate our probability model. Using the die example again, if the probability of the occurrence for each face is difficult to determine, we can roll the die many times to count the proportion of times each face came up. We can then approximate the probability of the each face by using its corresponding proportions.",
+        "In the above experiment, the outcome of rolling a die is unknown and in statistics, we call such an uncertain outcome as a random variable. A random variable is usually denoted by X where one specific outcome is denoted by x.",
+        "In the example of rolling a die, the random variable, X, can take a value from 1 to 6. If there are only a finite number of distinct values of a random variable, it is called a discrete random variable. Examples of discrete random variables include the number of children in a family, the Friday night attendance at a cinema, the number of defective light bulbs in a box of ten. However, in the stock market, a stock’s price is also a random variable, but unlike the outcome of rolling a die, it has many more outcomes. If we cannot count the possible outcomes of a random variable (it has infinite number of outcomes), it is called continuous random variable. Examples include height, weight, the stock returns in percentage, and the time required to run a mile.",
+        "The set or list of all possible values of a discrete random variable, with their associated probabilities, is called the probability distribution (denoted by p(x)). For a continuous random variable, the probability function is denoted by f(x) and is called the probability density function (pdf).",
+        "Let’s assume that you toss two coins in the air and let X be the number of times heads comes up. What is the probability distribution?",
+        "Obviously, X is a discrete random variable. We can draw a histogram of the number of heads after the toss, shown below:",
+        "According to the definition of the probability distribution function, we can calculate p(x):",
+        "Table 1.2. Probability Distribution Function",
+        "Note that p(x) has two key properties:",
+        "If you want to know the probability of a set of outcomes rather than a single outcome, you need to analyze the cumulative distribution function (cdf). Cdf is represented by F(x)=P(X≤x)F(x)=P(X≤x), which means the probability that a random variable is less than or equal to a particular value x.",
+        "In the example of rolling a die, if we want to know the probability of a side facing upward that is less than or equal to 3(i.e., F(3)=P(X≤3))3(i.e., F(3)=P(X≤3)) , we need to add the probabilities of X = 1, 2, and 3. Therefore, F(3)=p(1)+p(2)+p(3)=16+16+16=12F(3)=p(1)+p(2)+p(3)=16+16+16=12 .",
+        "Example 1.1b",
+        "Let’s do an experiment by tossing a fair coin four times. Let X = # of times heads is the outcome. What is the probability function and F(2), F(3)? What is the probability of having heads 3 or more times?",
+        "The outcome of four tosses is a sequence of heads and tails such as Head-Tail-Tail-Head (HTTH). There are 16 possible outcomes in all. The following figure lists these outcomes along with the value of X for each outcome. A reasonable probability model says that the 16 outcomes are all equally likely; that is, each has a probability 1/16.",
+        "Note: It is easier to relate the concept of probability function to the relative frequency distribution. The following graph shows the frequency distribution of the number times heads occur. The probability of each outcome is just the relative frequency under such an outcome. Similarly, you can relate the concept of cdf to the concept of relative cumulative frequency.",
+        "The number of heads X has possible values of 0, 1, 2, 3, and 4. These values are not equally likely. As the above figure shows, X = 0 can occur in only one way, when the outcome is TTTT. So P(X=0)=1/6. The outcome X = 2, on the other hand, can occur in six different ways, so that",
+        "P(X=2)=(count of ways, in which X=2 can occur)÷16=6/16=3 /8.Therefore, the probability function can be computed and the results are listed below (you are encouraged to compute and confirm these results):",
+        "According to the definition of CDF, F(2) = P(X ≤ 2) = p(0) + p(1) + p(2) = \n        \n\n1\n16\n\n\n        + \n        \n\n4\n16\n\n\n        + \n        \n\n6\n16\n\n\n        = \n        \n\n11\n16\n\n\n        . Similarly, you can get F(3) = P(X ≤ 3) = \n        \n\n15\n16",
+        "The probability of having 3 or more heads P(X≥3)P(X≥3) can be computed in two ways. First, by the definition of the probability function, we sum p(3) and p(4), which gives us P(X≥3)=5/16 . Alternatively, we know from the introduction of the probability function that the total probability (the probability of all the possible outcomes) is equal to 1. Therefore, P(X≥3)P(X≥3) can be obtained by using the following calculation:",
+        "A mutual fund’s return level and its corresponding probabilities are shown in the following table:",
+        "Let’s try to answer the following questions in the video below:",
+        "Refer to the worksheet named Example 2 located within the Module 1 Examples, which contains the observed data.",
+        "In this example, we will demonstrate the concept of probability and cumulative probability density functions. Here we have one example of mutual funds. We know that the different levels of the returns and its corresponding probabilities. So we want to compute what is the probability of a mutual fund that has 9% of return? And then what is the cumulative density function that the return level is less than 9%? The last question is, what is the probability of the funds earning between 3%, 7 percent? So by looking at this table here, we see that if we want to use the random variable x to represent the return level, and that this is definitely a discrete random variable. If you remember from the lecture notes that the discrete random variable has a finite number of outcomes. So in this case, x will only have four different possible values. That’s why it is a discrete random variable. So in order to answer the first question, if the return level is 9%, we have to check if there is one return level that equals 9%. But obviously there’s not one. So because this is a discrete random variable and we have the confidence to say there’s no return levels corresponding to 9%. That’s why for the first question, the probability of X equaling 9 percent is 0. So this is the answer for the first question. The second question, what is the probability of return that is less than 9%? So this is a little bit different from the first question, because although there’s no return level, that’s exactly equal to 9 percent, There’s definitely some returns that are below the 9% level. For example, a percent, 6%, 4. So if you remember from the lecture notes, the cumulative density function of 9% equals to the probability of the random variable is less than or equal to 9%. So which translates Because of this, is a discrete random variable. We can actually enumerate other possible values. So this equals to the sum of the probability x is equal to 4 percent plus the probability x equals 26 percent, plus the probability of X equals to 8 percent, which you can find the corresponding probabilities. So for x equals to 4 percent is 0.2 probability and 0.4 plus 0.24 gives you the total probability, which is 0.84. So this is the answer for the second question. The third question is just a little bit trickier than the first two questions. It actually asks you what is the probability that the return levels between 3%? So 3% is less than or equal to the return level and then less than or equal to 7%. So in order to answer this, we know that we can easily compute the probability that X is less than or equal to 7%. All right, but we definitely want to exclude the part that is below 3% return level. So you want to minus the probability that X is less than or equal to 3 percent. So you basically exclude the part that does not belong to this range here, 3%, 7. And again for 7% cumulative attributions level, you can, by looking at a table similar to the second question. We know that 6% 4 return level is below the 7% return level. So you can compute this first part equals to this part, equals to the probability X equals to four plus the probability X equals six. The only two outcomes that have a return level is less than seven. And then you’ll return level that is x below 3%. So by looking at the table here, you’ll find there’s no return that is lower than 3%. So you’ll get a conclusion. Is this value here. This value here goes to 0. So u minus the 0, and it gives you the result equals to 4 percent is 0.26% is 0.4, and this equals 0.6. Okay? So I hope by solving this problem, you have a better understanding on the probability of discrete random variables and also its corresponding cumulative density functions.",
+        "In order to accurately and objectively estimate the population parameter, we need some sampling schemes to sample the data. There is typically a trade-off between cost and accuracy. Some sampling schemes are cheaper and easier to administer, whereas others cost more but provide more accurate information.  We will not take much space here to discuss the trade-offs (but you need to be aware of them).",
+        "Simple random sampling is the simplest type of sampling scheme. Consider a population of size N and suppose we want to sample n units from this population. The simple random sampling has the following property: to randomly select n number from the data, every number set with a size of n has the same probability of being chosen. Simple random samples are the easiest to understand. Sampling error is defined as the difference between the observed value of a statistic and the quantity it is intended to estimate in order to measure the accuracy of the statistic obtained from the sample.",
+        "In the following video, we illustrate a simple random sample example manually by using the Excel sampling function, Rand() and the data analysis add-in (the data is provided in the worksheet named Example 1 found in the Module 3 Examples  Excel template).",
+        "So in this example, I’m going to demonstrate how to do a simple random sampling. So we have a population of 40 families with their annual incomes listed here. And I would like to randomly select 10 families and use their income as a sample to represent population parameters. So I’m going to calculate the mean and the median and the standard deviation of both population and sample to compare them. Let’s see how off there. So I’m going to introduce two different methods to do simple random sampling. The first method is by using the Excel rand function. So here we have these 40 different families. So first, I just copy these 40 different families to hear outright. Basically you reproduce everything here. And then under a separate column, what you want to do is type in r a, n, d parentheses. This is a random number generator provided by Excel. It just provides you a random number between 01. So you populate this function to the whole list of families. So the next thing you want to do is because every time you do some operations, this number would change. It will change while you do some operations. So what you want to do is right now you copy the whole list of the random number and you want to paste values. So when you paste values, the values are now fixed. So basically you associate a random number ways one family. And this number has been fixed. The number will not be changed. All right, so remember you want to randomly select 10 different families. So how are you making sure that these 10 families are randomly selected? There are no systematic errors in it. So what you want to do is you can highlight these different columns. And you want to do a sort. And you want to sort by random number. You can either do the value from smallest to largest or you can do the largest to the smallest. It doesn’t matter. So long as you are sorted by the random number. I’ll right click OK. So now the first 10 different families will be the one you are randomly choosing. So this is the first way to do that. And remember, the reason you want to randomly sample from population is you want to get the parameters from the sample. So first of all, in order to compare the statistic from the sample and the population parameters. That’s first because this is the same population. We have only 40. It’s easy for us to calculate the mean and the median and the standard deviation. So mean equals two for the population average of the whole populations. And the mean, if you remember, Excel, has a function called a median. All right, so the standard deviation, because the standard deviation for the whole family is equal to STDEV. And you want to use STDEV dot P. P stands for population. If you remember the degree of freedom we talked about in Module 2. So you’ll want to use that standard deviation STDEV dot py to calculate the population standard deviation. So this gave me the whole population standard deviation. Now, let’s calculate the mean of the first sample we got here. So this equals to the average. So the first ten different family incomes. And you see they are different. The reasons they are different is so obvious because here, this is so-called statistic is the number you get from the sample in order to estimate those population mean. And obviously there are different. But later, when we talk about the sampling error and the confidence interval, you will know that you can use this statistic you got from it from the sample to estimate the population mean. So next, median equals to median of the sample. And again, it’s different from the population median. Finally, the standard deviation is equal to, now, because this is a sample, it’s not a population anymore. So we use STDEV. You can either just type in STDEV. By default, a calculates the sample standard deviation or you can use STDEV dot S. S stands for sample. Calculate the standard deviation. You see the standard deviation from the sample is also different from the population standard deviation. All right, so we’ve finished the first method of getting the simple random sampling. So next, we’re going to use another method to get a simple random sampling. This method is using the data analysis package provided by Excel. So in order to use this package, you need to first install it. So if you click this file and then go to Options, and then you go to Add-ins. As you could see at the bottom here you have Excel Add-ins. So you click Go. And then you want to make sure that this first box is checked Analysis ToolPak. So if you click okay, then it should just take a few seconds for Excel to install it. To see if this pack add-in is properly installed. Click the Data tab. You see on the right hand side here there’s a Data Analysis tab here. This same procedure has been used to install the Excel solver. When you did the portfolio optimization problem, you use solver Add-ins. But here we want to use a data analysis add-in. So next, after this ad and has been installed, you can just click this ad and you see the Data Analysis add-in has a lot of different functions that you can use. We will talk about this data analysis package, will use more of that later on in the course. But here, well, you want to do is select the sampling method. So if you click OK, then first there’s a pop-up window here. The first input is input range. So the input range is where you want to put the population ranges. So this obviously is the income population. If you check this box here labels, you’ll want to include this income. So Excel knows that the income has a label there. Now, right? So let’s just choose the output options are uploaded in the same worksheet. You can check a new worksheet. So you will generate a different worksheet for the output. So for this problem, Let’s just put the output here. You click Okay, see ten different income values are randomly selected. This is done by backstage algorithm provided by Excel to get these 10 different random samples from population. All right, so we will calculate the mean and median. So the standard deviation for this ten different sample also just to compare it with the population parameters. So this is the average. And the median equals the median. And the standard deviation is equal to STDEV.S. See you see the number you get. Also by comparing this simple statistic with population parameters, they’re all different. But you see that when you compute from two different samples, they’re estimated sample statistic. Each time you will get a different sample statistic. When you try to estimate the population parameters. Obviously it will be off. But later on when we talk about sampling error and the confidence interval, you will see how confident you will be by using this statistic.",
+        "Now let’s revisit our example and look at the bottom portion of the worksheet named Example 1.  Please follow along with the steps outlined below to set up the @Risk model.",
+        "Choose the uncertain variables. In this example, they are the demand (cell H18) and the fixed cost (cell H19).",
+        "Choose the distribution for the uncertain variables.  See the screenshot with highlights in Figures 7.1 and 7.2 to set the distribution.",
+        "Input the formula for calculating the output (in this case, Total cost). Which is the same as in the previous two scenarios (=H19+H20*H18).",
+        "Choose the @Risk output cell, which is H21. Select H21 cell and then follow the screenshot in Figure 7.3 to add output cell.",
+        "Set the number of iterations for your simulation. That is how many times you want to choose random samples to calculate the Total Cost. Obviously, the larger number of iterations, the better the results are close to the actual output. Usually, we set this number from 1000 to 5000. In this example, let’s set the number of iterations to 5000. After you click the “Simulate” button, you should see the output as shown in Figure 7.4. You can see that the distribution of the Total Cost with the two uncertain variables is close to a bell-curve  distribution.",
+        "Analyze the results. You may click the “Explore->Browse Results” to see the simulation distribution results for the Total Cost. By default, the results show the Confidence Interval of 90% with 5% on the left tail and 5% on the right tail. However, you can change the interval. For example, if you want to see what is the probability that the Total Cost is less than $900, you can type 900 at the top part of the left slider and you will see the probability of the Total cost less than $900. See the screenshot in Figure 7.5. Note that since this is a random sampling process, the resulting probability from your analysis may be different from mine.",
+        "You can also get a detailed output report by clicking “Reports->Output Reports” and then choose cell H21 as the “Selected outputs”. See the screenshot in Figure 7.6.",
+        "After you choose “Generate Report” you will be asked to save the PDF version of the report. In the report, you can see the distribution of the Total Cost on the top. You will also see the Tornado chart which shows the sensitivity analysis of the impact of the demand and the fixed cost on the Total Cost. We will discuss the Tornado chart later when we discuss the sensitivity analysis.",
+        "You can further click the “fx Function”->”Simulation Result” to get some statistics from the output. For example, you can use “RiskMean” to calculate the mean of the Total Cost output. You can also use “RiskPercentile” to find out the percentiles of the Total Cost. Note that when doing the above, you can leave the “Sim #” option blank since “Sim #” indicates the simulation numbers when you want to repeat the simulation more than once. In this example, we only do simulation once and therefore, we leave the option blank",
+        "Sensitivity analysis. It is always a good idea to see which uncertain variables have positive/negative impact on the outputs. We will rely on the Tornado chart to accomplish this job. You can click “Explore->Browse Results” and then click the icon at the bottom that looks like a tornado  and choose “Tornado-Correlation Coefficients”. See Figure 7.7 for reference.",
+        "We see that both demand and fixed cost have positive correlation with the Total Cost. However, the demand has a much higher correlation (equal to 100%) with the Total Cost, which means the higher the demand the higher the Total Cost (does this makes sense?).",
+        "The steps provided above complete the basics of the Monte Carlo Simulation. For a more detailed introduction, you can refer to the following video.",
+        "The model used here to illustrate @Risk’s basic features is of a company that is planning to develop an e-commerce service. There is no marginal cost of providing the service, but a server facility must be constructed which will require an upfront investment for each unit of annual capacity. The unit cost of capacity is assumed to be 80 cents and the revenue per transaction is assumed to be $1. The new service is a fat, expected to be popular for only one year. The transaction demand for the year of business is uncertain, but the company’s best guesses a demand of 2 million transactions.",
+        "Therefore, the company must decide how much capacity to build for this single year of business. If it builds more capacity than demand, the extra capacity will be wasted. If it builds less capacity than demand, it will lose potential sales. To get started. Here as a deterministic version of the model, which assumes no uncertainty in transaction demand. Any demand could be entered in the demand cell. But the number used here is the company’s best guess, 2 million. Also, any capacity could be entered in the capacity sell. The current value plans capacity for the best guess of transaction demand. And this is a good choice for the deterministic model. But there is no guarantee that it is best for a model assuming uncertainty and transaction demand, as you will see shortly.",
+        "The logic of the model is very simple. Capacity cost is $0.80 times the capacity used. Revenue is a dollar times the smaller capacity and demand. And profit is revenue minus cost. It is important to realize that there is an asymmetry in the model. To see this, I will enter a demand greater than capacity and a demand less than capacity. When demand is greater than capacity, the company receives revenue only on its capacity and the extra demand is lost. So the profit is the same for any demand greater than capacity. However, when demand is less than capacity, the company receives revenue only on its demand and the extra capacity is unused. In this case, profit decreases as demand decreases. This means that the most profit the company can earn with this capacity is $400 thousand. But it could earn a lot less if demand is small. Now, starting with this deterministic model, I’m going to develop an at-risk model that explicitly incorporates uncertainty in transaction demand.",
+        "As I go through this demonstration, I will follow the typical steps for developing any at-risk model. Before you can use at risk, you must loaded into memory. This is easy. It can be done with Excel already open, or it can be done with Excel not yet open. In the latter case, opening at risk opens both Excel and at risk. In either case, go to the Windows Start button. Find the Palisade Decision tools group and the list of all programs and select at risk. Of course, you can also have a shortcut to at-risk on your desktop or your taskbar. As you can see, it usually takes a few seconds for at-risk to load. You may get messy just like this one. And eventually you will see an at-risk welcome window. Once you close this window, you will know that at-risk is loaded because you will see this at risk tab for its breadth. It, by the way, you can see that I am using at risk 6 for this video. If you have used only earlier version, you will see a few changes in the basic modeling tools, but nothing dramatic.",
+        "To unload at risk from memory, you have two choices. If you close, excel at risk will close as well. Alternatively, you can click the utilities drop-down of the at-risk ribbon and select unload at risk at it. This unloads at risk but keeps Excel open. I won’t actually close it, but here’s how you would do it. Now that at-risk is open, I will walk you through the steps of developing the at-risk e-commerce model. Step one, decide which inputs are uncertain. In this case, I assume that only transaction demand is uncertain. The other inputs, the unit cost of capacity and the revenue per transaction could also be treated as uncertain. But for this beginning application, I will assume that these two inputs are known to be 80 cents and $1 respectively. Step 2, choose a probability distribution for uncertain transaction demand. This step requires you to think carefully about the uncertain transaction demand and choose a probability distribution that correctly encodes your knowledge and beliefs about the uncertainty. For this example, a normal distribution with mean 2 million and standard deviation 500000 is chosen, but others could be chosen. This is a subjective decision and there’s typically no right answer.",
+        "To enter this probability distribution in the transaction demand cell, you could enter the formula directly, just like you enter other Excel formulas. But an easier way is to let at-risk help you through it’s defined distributions button. To do this, you first choose the distribution you want, in this case normal, and then enter its parameters, in this case, the mean and standard deviation. As you can see at risks, risk normal function has been entered in the green demands sell. The risk static part is entered automatically for you. Indicates the value 2 million that is shown in this cell when the following setting is toggled the stack. Specifically look at the dice button in the app risk ribbon. This is a toggle. It’s either white or orange. By default, it is toggled to white or static. In this case at rest shows the mean of the distribution and the uncertain cell. So if you press the F9 key to recalculate with new random numbers, nothing happens if it’s toggled to orange or random, which I will do now, the uncertain cell really looks on certain in the sense that if you press the F9 key, you can see many different scenarios. You can decide which setting you prefer. But one advantage to the static setting is that you see the results from the deterministic model. Fortunately, the setting has no effect when you eventually run the simulation. Step 3, choose values for any decision variables. In this model, there is only one decision variable under the company’s control. Transaction capacity. For now, a reasonable value, 2 million will continue to be used, but it will be very later on to find a value with better profit potential. Now is a good time to save your work. Although this isn’t really a step in the at-risk process, you should always remember to save frequently. Step 4, develop the logic of the model with Excel formulas. This is typically where you spend a lot of time. However, this has already been done for you in rows 13 to 15. In fact, the logic is exactly the same as in the deterministic model. However, because the revenue and profit sales depend on the uncertain transaction demand cell, they change when demand changes, as you can see by pressing the F9 key, assuming that the dice button is toggled to random. This is the essence of simulation. When uncertain inputs change, outputs change. So you can see many different scenarios, not just a single best guess scenario. Step five, choose one or more at risk output cells. As you have already seen, if you press the F9 key, you get new outputs, such as new profit values. The trick is to keep track of these values as the model recalculates over and over. This is where you really appreciate the power of that risk. It allows you to designate output cells of interest. Then when the simulation runs for hundreds or even thousands of recalculations at risk keeps track of the values in the designated output cells. And eventually let you see these results in many different ways. To designate any cell as an at-risk output cell, select the cell and click the Add Output Button. At risk will suggest a label for this output, which it uses later in reports. You can change this label if you’d like. For this model, I have designated only one output cell, the profit cell. But in general, you can designate as many as you want. Note that the formula has changed to include risk output and empty parentheses and a plus sign. This is at risks way of indicating that this cell is an at-risk output cell. It has nothing to do with addition. Step 6, change at-risk settings. There are many ever settings you can change from the simulation settings button. However, you typically need to change only one setting, the number of iterations. This is the number of recalculations or repetitions that at-risk generates. You should choose a reasonably large value because you get a more accurate estimate of output distributions with more iterations. The only downside to a large number of iterations is increased computing time. For practical purposes from 1000 to 5000 iterations is generally sufficient. You can change the number of iterations from this dialog, or you can change it directly in the iteration box right here. By the way, I changed one other setting. I chose a fixed random number seed of 123. Although any other number would work, you will typically want to choose a random seed. But I chose a fixed seed so that if I needed to redo parts of this video, I would get the same results each time. If you choose a random seed, you will get different results each time you run the simulation. Step seven, run the simulation. This is the easy part. Just click the Start Simulation button. And although it is not visible here, you will see a progress indicator at the bottom of the screen. Depending on the complexity of your model and the number of iterations you request. The runtime can be a few seconds or considerably longer. Also, depending on which cell is selected and your simulation settings, you might see a distribution being built as the simulation runs. Specifically, depending on whether this button is orange or white. You might see a window showing a histogram being built. You might find this annoying. So if you don’t want to see any simulation results as the simulation is being run, you can toggle this button to white. The simulation results will still be available, but only after the simulation runs. Again, this is a good time to save. However, once you have run an app or a simulation, you are asked whether you want to save at risk simulation results and grafts. Either response is fine. But you should understand the two options. If you respond yes, the simulation results will be saved with the file, and they will be available the next time you open the file. However, this can sometimes add significantly to the size of the file. On the other hand, if you respond know the size of the file will remain unchanged. But you will have to run the simulation again the next time you open the file. Step eight, analyze the resulting output distributions. This is the whole point of the simulation. You want to see how an output such as profit, varies as one or more uncertain inputs. Buret, therefore, at risk provides multiple ways to view output results. I will show the basic possibilities here, and there are variations of these you can explore on your own. The easiest option is to select an output and click the Browse Results button. This shows a histogram of the selected output together with many summary measures on the right. By the way, you might have noticed that many more summary measures are shown in version 6 than in earlier versions. There are also sliders you can move. For example, if you move the left slider to 0 or if you type 0 at the top, you see the fraction of iterations where profit is 0 or less. So with this capacity, the company stands about a 21% chance of losing money. The main takeaway from this histogram is the skewness to the left. This is in spite of the symmetric normal distribution of transaction demand. The most profit the company can make is 400000. And this is a fairly likely outcome that occurs whenever the transaction demand is greater than or equal to capacity. It’s this bar right here. However, the company can also lose a considerable amount of money when transaction demand is low. This chart is quite interactive and at risk provides a lot of options for changing it with its buttons below the chart. You can experiment with these. For example, you can click the third button from the left. Select Copy Graph and then paste it in the Excel. The sliders no longer work, but at least you have a picture of the distribution. But you can also browse the distribution of an uncertain input, such as transaction demand, but this shouldn’t provide any surprises. You already specified a normal distribution for this input. So this is what you see. A second option is to click the summary button. This shows summary measures of all designated outputs on one tab and inputs on another tab. The summary measures include a mini histogram, the mean, the minimum, the maximum, and fifth and 95th percentiles. If you want more summary measures, you can right-click and select columns for table. For example, I will select standard deviation and median. As with Browse Results, there are a number of buttons at the bottom that you can use. Again, they are quite straightforward. For example, you can select the third button from the right. Select copy and then paste it into the worksheet. Although there are better ways to get the results in the worksheet. The results you get from the Browse Results button or summary button are great, but they disappear when you close their windows unless you copy them into Excel as indicated earlier. To get more permanent results, you can click the Excel reports button. However, before I generate a report, you should understand where it goes. By default at risk stores reports in a new workbook, not in the same workbook is your model. If this is not the behavior you like, you can change an at-risk application setting. Do so, click the utilities drop-down and select Application Settings and change place reports in setting to be active workbook. Right here. This setting will stay in place for all future at risk models until you change it again. Back to Excel reports. You can see that there are many options and you can experiment with them. However, the top option, quick reports, is probably sufficient for most of your analyses. This generates a new worksheet. And on the left there are several charts including the histogram you saw earlier, and accumulative probability distribution plus a lot of summary measures to the right. There are times when you might also want output results to be stored in Excel cells. And at-risk allows you to do this with its statistical functions, such as risk mean, risk percentile, and others. If you want to learn about these, or at least see the possibilities, you can click the Insert Function button and select the simulation results group. These are the statistical functions you can use. Each statistical function calculates a summary measure of an output distribution. For example, risk mean applied to profit calculates the average of all profits generated during the simulation. Note that you can enter these functions in a worksheet at any time, but their values will not be meaningful until you run the simulation. Therefore, don’t be surprised if Bs function show unrealistic values or even generate errors, the appropriate values will appear once you run the simulation. Several at-risk statistical functions have already been entered in the model. I painted them white to hide them, but now I’ll paint the black. Here are some examples. The risk mean function returns the average of the prophets. The risk standard deviation function with two Ds returns, the standard deviation of the profits. The risk percentile, was second argument equal to a decimal number from 0 to one, returns the requested percentile of the profits. For example, if the decimal is 0.05, you get the fifth percentile. The risk target function was second argument equal to any potential profit value returns the fraction of profits less than or equal to this type. For example, if the last argument is 0, you get the fraction of profits that are 0 or negative. If you want to greater than fraction, you can subtract risk target from one. For example, here is the fraction of profits greater than 200000. Also note that the fraction of profits greater than 400 thousand is 0 because such profits are impossible with a capacity of 2 million. To other buttons you might want to try are the detailed statistics and simulation buttons. Detailed statistics, simulation data. The details statistics provides about all the summary statistics of the outputs and the uncertain inputs you could ever want. These appear in a separate window, but if you want them in your workbook, you can click the middle button at the bottom and copy them or get a report in Excel. The simulation data button provides data on all uncertain inputs and outputs for each of the iterations you ran. So in this case, there are 5 thousand rows in this table. Again, you can move these into your workbook quite easily if you want that. Step nine, perform sensitivity analysis. Once the simulation model has been developed, it is always a good idea to use it as a tool for sensitivity analysis at risk. Let you run a number of sensitivity analyses, some of which are rather advanced, but I’m going to describe only one type, which is probably the most popular type. This analysis ask the following question. If a model has several uncertain inputs and a specific output of interest, which of these uncertain inputs has the greatest effect on the output? To answer this question at risk provides a tornado chart where the uncertain inputs with the greatest effects have the longest bars and are shown at the top of the chart. The e-commerce model developed so far has only one uncertainty input. So this sensitivity question doesn’t really apply. To make it apply, I will change the model slightly so that the unit cost of capacity and the revenue per transaction are also treated as uncertain inputs. Again, I will use the normal distribution for these inputs, but other distributions could be used. I will also paint them green. This isn’t really necessary, but it is my convention for indicating that they contain at-risk probability distributions. Now, each of these three sources of uncertainty has some effect on profit, but which has the most effect. To see, the simulation can be run for 5 thousand iterations, degenerate the histogram of profit you have seen before. This time, however, each iteration uses different random values of each of the three uncertain inputs. You can now click the Tornado button. You get several choices. Although they all lead to similar results, the correlation item is a good choice. Each bar in this graph shows the correlation between profit and the corresponding uncertain input. As you can see, the largest correlation is with IT transaction demand. The correlation is fairly strong at 0.77. When demand is large, profit tends to be large, but when demand is small, profit tends to be small. The other two uncertain inputs have much smaller correlations with profit. Point 4, 2, and minus 0.28. Of course, the negative correlation between profit and cost of capacity is expected when the cost of capacity increases, profit decreases. But the main takeaway from this chart is the transaction demand has the largest effect on profit. Starting from this tornado chart, you can also see scatterplots of profit versus each of the uncertain inputs. So this is an alternative way of seeing how uncertain inputs are related to profit. There’s the scatter plot between profit and transaction demand as an example. By the way, you can also run the sensitivity analyses directly from the Tornado button in the Results Group, this button right here. Step ten, finding good values of decision variables. One important goal of this E-commerce model is to find a transaction capacity with good profit potential. Which value should the company use? Of course, the company wants to choose a value that has good profit statistics. A large mean, a small standard deviation, a large 95th percentile, and possibly others. This is a difficult choice and there might not be a single value of capacity that works best for all of these goals. However, at risk has a very useful function risk sim table that lets you test different capacities to see their effects on profit. To use this function, you first decide on the capacities you want to test. You can test as many as you’d like. Here, six possibilities will be tested. Then in the blue decision sell, you enter the risk sim table function, not a value where the argument is the list of values you want to test enclosed in curly brackets. Note that at-risk shows the first two beats 1.2 million in the blue cell. But when you run the simulation, it will test all six. Before running the simulation, you’d have to change one simulation set, the number of simulations. You should change this to the number of capacities you want to test, in this case six. Then at-risk will run this many separate simulations, each with a number of iteration specified. 5000. And it will use the same random numbers in each of the six simulations. This latter point is important. It means that one capacity won’t win the contest simply because they’ve got lucky random numbers. Now, I will run the simulation. All of the output reports discussed earlier are available for each of the six simulations. This let you make comparisons. For example, if you use Browse Results, you can click the button with the pound sign to see any of the six profit distributions. Or if you click the summary button, you see summary measures for all six of the simulations. If you produce quick reports from the Excel reports button, you get a separate worksheet for each of the simulations as shown next.",
+        "Finally, if you’d like to use the statistical functions in at risk, like risk mean, you can append the last argument to any of them, the index one to six of the simulation. I created the necessary formulas to the right and painted them white to hide them. Now I’ll paint them black. Notice how I made these formulas copyable to the right by making the profit cell absolute and referring to the simulation indexes in row 16. Here’s an example. And I was able to copy that to the right. Which of these capacity should the company use? The decision is still not an easy one, but using capacity equal to mean demand is certainly not a good choice. It has a low mean profit, a fairly large probability of losing money, a relatively small probability of making at least 200 thousand, and a large negative fifth percentile. In most respects, a larger capacity like 2.2 million is even worse. You could easily make an argument for capacity of 1.4 million. It has a high mean, a low probability of losing money, hi, probability of making at least 200000, and a positive fifth percentile. On the downside, it has a relatively low 95th percentile. If you are concerned only with mean profit, you might instead favor a capacity of 1.6 million. In any case, the risk sim table function allows you to make a meaningful comparison across these various capacities. It is a very handy function and at risks arsenal, and you should get used to using it whenever possible.",
+        "The objective of this course is to equip students with the skills to apply statistical analysis to business situations. By learning various statistical methods and financial analysis techniques, students will gain the ability to interpret data and support decision-making processes in business contexts.",
+        "After completing the course, a student will be able to do the following:",
+        "Throughout this course students will develop a solid foundation in statistical analysis, equipping them with the necessary skills to tackle real-world business challenges. The course will prepare them to make informed decisions and communicate findings clearly, driving business success.",
+        "In this lesson, students will explore fundamental concepts in probability theory, probability distributions, expected value, variance, and portfolio theory. These topics will provide the foundation for understanding how to analyze risks and returns in financial markets.",
+        "At the end of this lesson, students will have gained a deeper understanding of how to apply probability and statistical methods to financial analysis, laying the groundwork for making informed investment decisions and managing portfolio risks effectively.",
+        "In this lesson, students will dive into the concepts of portfolio theory, focusing on the variance-covariance matrix, portfolio diversification, efficient portfolios, and the Capital Asset Pricing Model (CAPM). These concepts are essential for constructing and managing optimal investment portfolios.",
+        "At the end of this lesson, students will have a solid understanding of how to optimize portfolios using portfolio theory, evaluate the risk-return trade-offs, and apply key financial models like the CAPM to enhance their investment strategies.",
+        "In this lesson, students will learn about various sampling methods and the concept of estimation. They will explore how sampling distributions are used to estimate population parameters, including the sample mean and its distribution, particularly when dealing with small sample sizes.",
+        "At the end of this lesson, students will be equipped with a thorough understanding of sampling methods and their application in statistical estimation. They will be able to confidently analyze sampling distributions and apply appropriate techniques for accurate data estimation.",
+        "In this lesson, students will be introduced to the concept of hypothesis testing, a fundamental aspect of inferential statistics. They will learn how to formulate hypotheses, calculate test statistics, and interpret the results to make data-driven decisions. The module also covers the concepts of Type I and Type II errors, and how to specify significance levels.",
+        "At the end of this lesson, students will be equipped to conduct hypothesis tests and interpret the results. They will be able to choose the correct hypothesis test for various situations and understand the potential errors that can occur in the process. This knowledge will serve as a foundation for making informed decisions in data analysis.",
+        "In this lesson, students will explore correlation analysis and linear regression, two powerful statistical tools used to analyze relationships between variables. They will learn how to measure the strength and direction of relationships between variables using correlation, and predict outcomes using linear regression models.",
+        "At the end of this lesson, students will be able to perform correlation analysis and build simple linear regression models. They will understand the assumptions of linear regression and how to use statistical tests to determine the significance of the relationships between variables. This knowledge will enable them to make data-driven predictions and decisions in various fields.",
+        "In this lesson, students will delve into multiple linear regression, a technique used to model the relationship between two or more predictors and a dependent variable. The module covers model evaluation, variance analysis, and common issues that arise when assumptions are violated in multiple regression models.",
+        "At the end of this lesson, students will have a solid understanding of multiple linear regression techniques, how to handle categorical data with dummy variables, and how to detect and fix issues caused by assumption violations. They will also be equipped to use advanced techniques like nonlinear transformations and interaction terms to improve model accuracy.",
+        "In this lesson, students will explore Monte Carlo simulation, a powerful statistical method used to understand the impact of risk and uncertainty in predictive models. The module covers the @Risk software, example models, and step-by-step procedures to create and run Monte Carlo simulations.",
+        "At the end of this lesson, students will be proficient in using Monte Carlo simulations to model risk and uncertainty in various business and financial scenarios, enabling them to make more informed, data-driven decisions.",
+        "BUSAD 525 provides students with essential quantitative skills that are highly valued in the finance industry. By mastering techniques such as statistical analysis, portfolio theory, hypothesis testing, regression analysis, and Monte Carlo simulations, students can make data-driven decisions, optimize financial portfolios, and assess risk with precision. These skills are critical for roles in investment analysis, risk management, financial planning, and corporate finance, making graduates of this course highly competitive in the job market. Whether pursuing careers in banking, investment firms, or financial consulting, students will be equipped with the expertise to tackle complex financial challenges and drive business success.",
+        "In the finance industry, professionals frequently use quantitative methods to evaluate investment opportunities and manage risk. For example, an investment analyst at a hedge fund might apply portfolio theory and Monte Carlo simulations learned in BUSAD 525 to model the potential returns and risks of various asset combinations. By using these methods, the analyst can forecast different market scenarios, estimate expected returns, and determine the best portfolio allocation to maximize profits while minimizing risk. Additionally, linear regression analysis could be employed to identify relationships between stock prices and key economic indicators, helping analysts make informed predictions. The practical application of these techniques enables professionals to make data-driven decisions that can have a significant impact on the financial performance of organizations.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Identify and define business situations in which one can apply statistical analysis.",
+            "Match appropriate statistical methods to a variety of business situations.",
+            "Perform financial analyses using appropriate tools and techniques.",
+            "Interpret the results of statistical studies.",
+            "Communicate the findings of statistical research effectively.",
+            "Facilitate the managerial decision-making process."
+        ],
+        [
+            "The following textbook is required and is available to you via the Penn State E-book program.\n\nQuantitative Investment Analysis (CFA Institute Investment Series). 4th Edition. Richard A. DeFusco et al. (2015). ISBN: 9781119743620",
+            "Quantitative Investment Analysis (CFA Institute Investment Series). 4th Edition. Richard A. DeFusco et al. (2015). ISBN: 9781119743620"
+        ],
+        [
+            "Quantitative Investment Analysis (CFA Institute Investment Series). 4th Edition. Richard A. DeFusco et al. (2015). ISBN: 9781119743620"
+        ],
+        [
+            "The following workbook is required and is available to you via the Penn State E-Book program:\n\nQuantitative Investment Analysis Workbook (CFA Institute Investment Series). 4th Edition. Richard A. DeFusco et al. (2015). ISBN: 9781119743675",
+            "Quantitative Investment Analysis Workbook (CFA Institute Investment Series). 4th Edition. Richard A. DeFusco et al. (2015). ISBN: 9781119743675"
+        ],
+        [
+            "Quantitative Investment Analysis Workbook (CFA Institute Investment Series). 4th Edition. Richard A. DeFusco et al. (2015). ISBN: 9781119743675"
+        ],
+        [
+            "Microsoft Excel will be the software package used for this course. All students have free access to Microsoft Office 365 which includes Excel."
+        ],
+        [
+            "Instructions for downloading or accessing @Risk through the Virtual Lab will be provided in Module 7.  Please contact your instructor if you have any questions."
+        ],
+        [
+            "This course uses MathJax to display complex equations in an accessible way for all viewers. An example of an equation displayed using MathJax follows:"
+        ],
+        [
+            "HelpDesk Website: https://student.worldcampus.psu.edu/help-and-support/technical-support.",
+            "HelpDesk Email: techsupport@worldcampus.psu.edu",
+            "HelpDesk Phone: (800) 252-3592"
+        ],
+        [
+            "Probability Distribution",
+            "Sampling Methods",
+            "Create an @Risk Model"
+        ],
+        [
+            "Identify and define business situations in which one can apply statistical analysis.",
+            "Match appropriate statistical methods to a variety of business situations.",
+            "Perform financial analyses using appropriate tools and techniques.",
+            "Interpret the results of statistical studies.",
+            "Communicate the findings of statistical research effectively.",
+            "Facilitate the managerial decision-making process."
+        ],
+        [
+            "L1",
+            "L2",
+            "L3",
+            "L4",
+            "L5",
+            "L6",
+            "L7"
+        ],
+        [
+            "Probability Theory: Understanding the basics of probability and how it applies to decision-making.",
+            "Probability Distribution: Exploring various probability distributions, including normal and log-normal distributions, to model uncertainties.",
+            "Expected Value and Variance: Calculating the expected value and variance of a set of outcomes to assess their potential risk and return.",
+            "Portfolio Theory: Learning how to analyze a portfolio’s expected return and risk by considering the correlation of individual assets."
+        ],
+        [
+            "Introduction Activity and Community Building: Engaging in activities that encourage collaboration and community building among students.",
+            "Exercise 1 – Probability Distribution: Applying probability distribution concepts through practical exercises.",
+            "Exercise 2 – 50-68-95-99 Rule: Understanding the Normal Distribution rule through hands-on exercises.",
+            "Exercise 3 – Expected Value and Variance: Practicing the calculation of expected value and variance for different scenarios.",
+            "Exercise 4 – Variance: Deepening knowledge of variance with additional exercises.",
+            "Exercise 5 – Portfolio Expected Return and Variance: Applying portfolio theory to calculate expected returns and risk.",
+            "Exercise 6 – Correlation: Understanding how correlations impact portfolio risk through exercises."
+        ],
+        [
+            "Variance-Covariance Matrix: Analyzing the relationships between the returns of different assets in a portfolio to understand risk.",
+            "Variance of the Portfolio: Calculating the overall risk of a portfolio by considering the variances and covariances of its individual assets.",
+            "Portfolio Diversification: Learning how diversification reduces risk by combining assets with varying correlations.",
+            "Efficient Frontier: Exploring the trade-off between risk and return to identify the best possible portfolios.",
+            "Capital Asset Line (CAL): Understanding the relationship between the return on a portfolio and the risk-free rate.",
+            "Capital Market Line (CML): Learning the relationship between expected return and standard deviation for an optimal portfolio.",
+            "Capital Asset Pricing Model (CAPM): Analyzing the expected return of an asset based on its risk relative to the market."
+        ],
+        [
+            "Exercise 1 – Variance-Covariance Matrix: Applying the variance-covariance matrix to understand asset correlations in a portfolio.",
+            "Exercise 2 – Variance of the Portfolio: Practicing portfolio variance calculations to assess risk.",
+            "Exercise 3 – Efficient Frontier: Constructing the efficient frontier through hands-on exercises to determine optimal portfolio risk-return trade-offs.",
+            "Exercise 4 – Efficient Portfolio: Building and analyzing efficient portfolios based on given constraints.",
+            "Exercise 5 – Capital Asset Line (CAL): Exploring the CAL by calculating the risk-return trade-off for different portfolios.",
+            "Exercise 6 – Capital Asset Pricing Model (CAPM): Applying the CAPM model to understand the expected return of an asset based on market conditions."
+        ],
+        [
+            "Sampling Methods: Simple Random Sampling: Learning how to randomly select samples from a population, ensuring each element has an equal chance of being chosen.",
+            "Sampling Methods: Stratified Sampling: Understanding how to divide a population into subgroups and sample each subgroup to improve precision.",
+            "Estimation: Exploring methods to estimate population parameters, like means or proportions, from sample data.",
+            "Sampling Distribution of the Sample Mean: Understanding the distribution of sample means and how it relates to the population mean.",
+            "Sampling Distribution of the Sample Mean (continued): Further exploration of how sample size influences the sampling distribution of the mean.",
+            "Sampling Distribution of the Sample Mean from the Small Sample Size: Analyzing the effects of smaller sample sizes on the distribution of the sample mean."
+        ],
+        [
+            "Exercise 1 – Simple Random Sampling: Practicing random sampling to understand its importance in obtaining unbiased samples.",
+            "Exercise 2 – Stratified Sampling: Applying stratified sampling techniques to improve the representativeness of a sample.",
+            "Exercise 3 – Sampling Distribution of the Sample Mean from the Small Sample Size: Studying the behavior of sample means when sample sizes are small, emphasizing the Central Limit Theorem."
+        ],
+        [
+            "What is Hypothesis Testing?: Understanding the process of formulating and testing hypotheses using statistical methods.",
+            "Hypothesis: Defining null and alternative hypotheses for various research questions.",
+            "Test Statistics and Probability Distribution: Learning how to calculate and use test statistics in hypothesis testing.",
+            "Specifying the Significance Level and Type I and Type II Errors: Understanding the concepts of significance level, and the potential errors that can occur in hypothesis testing.",
+            "Hypothesis Testing for Mean and Variance: Exploring different techniques for testing hypotheses about population means and variances.",
+            "Hypothesis Testing for a Mean – Two Population Means: Learning how to compare two population means to see if there’s a statistically significant difference.",
+            "Hypothesis Testing for Two Variances: Examining how to test hypotheses involving variances from two different populations."
+        ],
+        [
+            "Exercise 1 – Hypothesis Testing (Problems 6.3, 6.5, and 6.6): Practicing hypothesis testing on various scenarios, focusing on means and variances.",
+            "Exercise 2 – Hypothesis Testing for a Mean (Problem 6.7): Applying hypothesis testing methods to determine if the sample mean is significantly different from the population mean.",
+            "Exercise 3 – Hypothesis Testing for a Mean (Problem 6.8): Testing hypotheses on differences between two population means.",
+            "Exercise 4 – Hypothesis Testing for Variance (Problem 6.9): Learning to test hypotheses involving population variances.",
+            "Exercise 5 – Hypothesis Testing for Variance (Problem 6.10): Further exploring hypothesis testing techniques for variance."
+        ],
+        [
+            "Correlation Analysis: Understanding how to measure the strength and direction of the linear relationship between two variables.",
+            "Testing the Significance of the Correlation: Learning how to assess whether the observed correlation is statistically significant.",
+            "Limitation of the Correlation Analysis: Recognizing the limitations and potential pitfalls of using correlation to describe relationships between variables.",
+            "Linear Regression: Introduction to simple linear regression, including its purpose and basic calculations.",
+            "Simple Linear Regression (continued): Further exploration of how to build and interpret linear regression models.",
+            "Assumptions of the Linear Regression Model: Understanding the assumptions underlying linear regression analysis for accurate results.",
+            "The Coefficient of Determination: Learning how to use R-squared to assess the goodness of fit in a regression model.",
+            "Hypothesis Testing: Using hypothesis testing to evaluate the statistical significance of regression coefficients."
+        ],
+        [
+            "Exercise 1 – Correlation: Applying correlation analysis to data sets to determine the strength and direction of relationships between variables.",
+            "Exercise 2 – Correlation: Further practice with calculating and interpreting correlations in real-world contexts.",
+            "Exercise 3 – Linear Regression: Building and interpreting simple linear regression models to make predictions based on data.",
+            "Exercise 4 – CAPM: Applying regression analysis to the Capital Asset Pricing Model (CAPM) in financial contexts.",
+            "Exercise 5 – Simple Regression Model: Hands-on practice in constructing simple regression models and analyzing their effectiveness."
+        ],
+        [
+            "Multiple Linear Regression: Introduction to multiple linear regression models, which allow for predicting a dependent variable using multiple independent variables.",
+            "Analysis of Variance in Multiple Linear Regression (ANOVA): Understanding how to perform and interpret ANOVA to assess the fit of a regression model.",
+            "Adjusted R-Square: Exploring the adjusted R-squared value, a measure used to evaluate the goodness of fit while accounting for the number of predictors in the model.",
+            "Different Modeling Techniques in Multiple Linear Regression: Understanding various techniques used to enhance model accuracy, including feature selection and regularization.",
+            "Dummy Variable: Introduction to dummy variables, used to represent categorical variables in regression models.",
+            "Interaction Variable: Exploring interaction variables, which help capture the combined effect of two or more predictors on the dependent variable.",
+            "Nonlinear Transformation: Examining how nonlinear transformations can improve the model by capturing relationships that are not purely linear.",
+            "Problems Resulting from Assumption Violations in the Multiple Linear Regression Model: Identifying and addressing issues that arise when the assumptions of multiple regression models (e.g., linearity, independence) are violated."
+        ],
+        [
+            "Exercise 1 – Adjusted R-Square: Practicing the calculation and interpretation of adjusted R-squared to assess model fit.",
+            "Exercise 2 – Dummy Variable: Working with dummy variables to include categorical predictors in regression models.",
+            "Exercise 3 – Dummy Variable: Further practice with using dummy variables in more complex scenarios.",
+            "Exercise 4 – Regression Model: Building and evaluating regression models that incorporate interaction terms and other variables.",
+            "Exercise 5 – Nonlinear Transformation: Applying nonlinear transformations to improve model performance when linear relationships do not fit the data."
+        ],
+        [
+            "What is @Risk?: Introduction to the @Risk software, which enables users to perform Monte Carlo simulations and analyze risk in financial and business models.",
+            "Example Model: Exploring an example model to understand how Monte Carlo simulations are applied in real-world scenarios.",
+            "Steps to Create Model: Learning the essential steps to set up and create a Monte Carlo simulation model using @Risk."
+        ],
+        [
+            "Exercise 1 – Monte Carlo Simulation: Hands-on practice running Monte Carlo simulations and interpreting the results to evaluate risk and uncertainty."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Quantitative Investment Analysis",
+            "url": "https://catalog.libraries.psu.edu/catalog/36139929"
+        },
+        {
+            "text": "Quantitative Investment Analysis Workbook",
+            "url": "https://catalog.libraries.psu.edu/catalog/36139930"
+        },
+        {
+            "text": "Microsoft Office 365",
+            "url": "https://office365.psu.edu/"
+        },
+        {
+            "text": "LinkedIn Learning",
+            "url": "https://www.linkedin.com/learning/topics/excel?u=76811570"
+        },
+        {
+            "text": "https://student.worldcampus.psu.edu/help-and-support/technical-support.",
+            "url": "https://student.worldcampus.psu.edu/help-and-support/technical-support"
+        },
+        {
+            "text": "techsupport@worldcampus.psu.edu",
+            "url": "mailto:techsupport@worldcampus.psu.edu?subject=World%20Campus%20Tech%20Support%20Inquiry"
+        },
+        {
+            "text": "Penn State University Library.",
+            "url": "https://libraries.psu.edu/"
+        },
+        {
+            "text": "University Grading Policy for Graduate Courses.",
+            "url": "https://courses.worldcampus.psu.edu/public/ID/shared/grad_grading_policy.html"
+        },
+        {
+            "text": "random variable",
+            "url": "https://courses.worldcampus.psu.edu/canvas/master/mst-20220713135741-alm626/content/01_lesson/corefiles/525lessonprobability.html#gt-random"
+        },
+        {
+            "text": "discrete random variable",
+            "url": "https://courses.worldcampus.psu.edu/canvas/master/mst-20220713135741-alm626/content/01_lesson/corefiles/525lessonprobability.html#gt-discrete"
+        },
+        {
+            "text": "continuous random variable",
+            "url": "https://courses.worldcampus.psu.edu/canvas/master/mst-20220713135741-alm626/content/01_lesson/corefiles/525lessonprobability.html#gt-continuous"
+        },
+        {
+            "text": "probability distribution",
+            "url": "https://courses.worldcampus.psu.edu/canvas/master/mst-20220713135741-alm626/content/01_lesson/corefiles/525lessonprobability.html#gt-distribution"
+        },
+        {
+            "text": "probability density function (pdf)",
+            "url": "https://courses.worldcampus.psu.edu/canvas/master/mst-20220713135741-alm626/content/01_lesson/corefiles/525lessonprobability.html#gt-PDF"
+        },
+        {
+            "text": "cumulative distribution function",
+            "url": "https://courses.worldcampus.psu.edu/canvas/master/mst-20220713135741-alm626/content/01_lesson/corefiles/525lessonprobability.html#gt-cdf"
+        },
+        {
+            "text": "relative frequency distribution",
+            "url": "https://courses.worldcampus.psu.edu/canvas/master/mst-20220713135741-alm626/content/01_lesson/corefiles/525lessonprobability.html#gt-rfd"
+        },
+        {
+            "text": "Module 1 Examples",
+            "url": "https://courses.worldcampus.psu.edu/canvas/master/mst-20220713135741-alm626/content/01_lesson/corefiles/525Module_1_Examples.xlsx"
+        },
+        {
+            "text": "Simple random sampling",
+            "url": "https://courses.worldcampus.psu.edu/canvas/master/mst-20220713135741-alm626/content/03_lesson/corefiles/lesson525sampling.html#gt-simple"
+        },
+        {
+            "text": "Module 3 Examples",
+            "url": "https://courses.worldcampus.psu.edu/canvas/master/mst-20220713135741-alm626/content/03_lesson/corefiles/Module_3_Examples_1.xlsx"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "Math formula for standard deviation with MathJax settings menu.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/mathjax1-1.jpg"
+        },
+        {
+            "alt": "Math formula for standard deviation with MathJax \"Math Settings\" menu expanded.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/mathjax2-1.jpg"
+        },
+        {
+            "alt": "Math formula for standard deviation with MathJax \"Zoom Trigger\" settings expanded.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/mathjax3-1-1024x533.jpg"
+        },
+        {
+            "alt": "The image shows six white dice arranged in a circular pattern on a green and white background.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/probabilitydice1-1024x857.jpg"
+        },
+        {
+            "alt": "The image shows a 2x2 grid with the title \"# of Heads\" and labels for the x-axis values 0, 1, 2, and X.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/image16.gif"
+        },
+        {
+            "alt": "The image shows various American coins, including pennies and nickels, arranged in a circular pattern.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/probabilitycoins-1024x1014.jpg"
+        },
+        {
+            "alt": "The image shows six white dice arranged in a circular pattern on a green and white background.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/probabilitydice2-1024x872.jpg"
+        },
+        {
+            "alt": "The image shows a 2x5 grid with letters and numbers representing different cases of a probability distribution.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/image17.gif"
+        },
+        {
+            "alt": "The image shows a spreadsheet-like interface with various scenarios, data inputs, and a histogram visualizing a normal distribution.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/Figure_7.1-1024x605.png"
+        },
+        {
+            "alt": "The image shows a spreadsheet with scenarios, data inputs, and a histogram of a probability distribution.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/Figure_7.2-1024x554.png"
+        },
+        {
+            "alt": "",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/Figure_7.3.png"
+        },
+        {
+            "alt": "",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/Figure_7.4-1024x649.png"
+        },
+        {
+            "alt": "",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/Figure_7.5-1024x525.png"
+        },
+        {
+            "alt": "",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/Figure_7.6-1024x631.png"
+        },
+        {
+            "alt": "",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/Figure_7.7-1024x502.png"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Assignment Category",
+                "Maximum Scores (% of Final Grade)"
+            ],
+            [
+                "Homework Problem Sets (7)",
+                "35%"
+            ],
+            [
+                "Midterm Exam",
+                "25% (10% quiz + 15% problem sets)"
+            ],
+            [
+                "Final Exam",
+                "25% (10% quiz + 15% problem sets)"
+            ],
+            [
+                "Final Project",
+                "15% (13% project + 2% peer eval)"
+            ]
+        ],
+        [
+            [
+                "X",
+                "P(X)"
+            ],
+            [
+                "0",
+                "1\n4"
+            ],
+            [
+                "1",
+                "2\n4\n\n=\n\n1\n2"
+            ],
+            [
+                "3",
+                "1\n4"
+            ]
+        ],
+        [
+            [
+                "Return Level",
+                "Probability"
+            ],
+            [
+                "4%",
+                "0.2"
+            ],
+            [
+                "6%",
+                "0.4"
+            ],
+            [
+                "8%",
+                "0.24"
+            ],
+            [
+                "10%",
+                "0.16"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"5697\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

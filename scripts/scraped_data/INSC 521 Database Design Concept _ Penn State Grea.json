@@ -1,0 +1,495 @@
+{
+    "metadata": {
+        "title": "INSC 521 Database Design Concept – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1761"
+    },
+    "headings": {
+        "h2": "University Policies",
+        "h4": "Unlocking Your Potential",
+        "h3": "Readings"
+    },
+    "paragraphs": [
+        "This course offers a comprehensive exploration into the backbone of the digital world: databases. Serving as the foundational layer for the vast majority of applications online, databases are integral to the field of information technology. They empower organizations across the globe to process data and information effectively, a critical capability for navigating the complexities of modern business landscapes.",
+        "Delving into the intricacies of database construction and optimization, this program underscores the necessity of these skills for organizations striving for a competitive edge in the current economic climate. With a curriculum centered around the capture of requirements, design, and development of relational database applications, students will gain hands-on experience in translating business needs into robust database systems. This course is meticulously structured to equip prospective students with the expertise needed to excel in the realm of database technology, ensuring they are prepared to meet and exceed the demands of today’s data-driven world.",
+        "(3 credits)  Databases provide the backend of most applications on the internet and they are a vital part in information technology. All organizations process data and information to conduct business. Understanding how databases are constructed and optimized is necessary for organizations to gain competitive advantage in today’s economic environment.",
+        "This course focuses on the requirements capture, design, and development of relational database applications, analysis of business requirements and development of appropriate database systems",
+        "This course is designed to foster a comprehensive understanding of database design concepts and possibilities, emphasizing the important role these concepts play in organization today. Such an understanding is valuable for prospective developers, managers, and decision makers. Additionally, the students will be able to put these concepts into practice by building a database application. Upon completion of this course students will gain an in depth understanding of:",
+        "Fundamentals of Database Systems (7th Edition), 2010, by Ramez Elmasri and Shamkant B. Navathe,  Addison Wesley (ISBN:9780133970777)",
+        "You may purchase course materials from Barnes & Noble College (the bookstore used by Penn State’s World Campus), or you may search for the book from other providers or vendors, either rental, digital or print versions.  You may even find an online version, just be sure you use the edition listed.",
+        "Oracle Database 11g: the complete references, by Kevin, McGraw-Hill/Osborne Media(ISBN 9780071598750)",
+        "A grade is given on the basis of the instructor’s judgment as to the student’s scholarly attainment (see the Penn State Graduate Degree Programs Bulletin, p. 41). The following grading system applies to graduate students:",
+        "Grades will be based on the following scale:",
+        "A = 93-100, A- = 90 – 92, B+ = 87 – 89, B = 84 – 86, B- = 80 – 83, C+ = 77 – 79, C = 70 – 76, D = 60 – 69, and F = 60 and below.",
+        "There will be six milestone homework assignments over the term of this class. Throughout the course you will be working on a project.  Please submit each milestone by the due date noted in the Course Schedule.  If you have any questions about the project, please contact your instructor.",
+        "There will be six discussions in the course.  Your answers to weekly questions should be submitted on Friday night at midnight. You are expected to provide at least one answer for each discussion question. Further discussions on the question and feedback to other classmates’ postings will be accepted until Sunday 11: 59 PM Eastern Time. Every student is expected to provide at least two feedback postings.",
+        "There will be two exams. Examinations are to be taken without collaboration with other students or individuals. You will have at least a week to complete the exams, and each exam is due at 11:59 PM Eastern Time on the date specified. No make-up exams will be given, except in cases of emergencies or with prior approval.",
+        "The mid-term and final exams will be proctored via Honorlock (online proctoring software). The proctoring software uses your computer’s webcam or other technology to monitor and/or record your activity during exams. The proctoring software, Honorlock, may be listening to you, monitoring your computer screen, viewing you and your surroundings, and recording any activity (including visual and audio recordings) during the proctoring process. By enrolling in this course, you consent to the use of the proctoring software, including but not limited to any audio and/or visual monitoring which may be recorded. Please contact your instructor with any questions. For Honorlock resources and a practice test, see the Honorlock Information module in Canvas.",
+        "Please view the University Policies and Resources which includes important information regarding academic integrity, student disability resources, educational equity, counseling services,  and technical requirements.* subject to change",
+        "This course is designed to foster a comprehensive understanding of database design concepts and possibilities, emphasizing the important role these concepts play in organization today. Such an understanding is valuable for prospective developers, managers, and decision makers. Additionally, the students will be able to put these concepts into practice by building a database application. Upon completion of this course students will gain an in depth understanding of:",
+        "During this course you will expand your knowledge of the lesson topics each week.",
+        "Dive into the dynamic world of databases with a journey through our meticulously designed unit! Prepare to embark on a thrilling adventure that will transform your understanding and skills in database design and management. Here’s what’s in store for you:",
+        "Immerse yourself in the foundational knowledge with our curated reading list:",
+        "In this lesson, we will dive into the heart of database innovation and software development! This unit is your golden ticket to mastering the art and science of database design, a journey that will arm you with the skills to architect the digital foundations of tomorrow. Let’s break down what this adventure has in store:",
+        "Prepare to expand your mind with cutting-edge insights from our textbook:",
+        "In this lesson, we will embark on a journey into the heart of database design that will elevate your understanding and skills to unprecedented heights! This unit is a deep dive into the fascinating world of database conceptual design, where creativity meets logic, and ideas transform into structured realities. Let’s unpack the exhilarating adventure that awaits you:",
+        "Prepare to immerse yourself in knowledge with these key readings:",
+        "In this lesson prepare to dive into an electrifying week of discovery and mastery in the realm of database design! In this lesson you’ll embark on a thrilling expedition through the core principles that underpin the integrity and efficiency of databases. This unit is your ticket to unlocking the mysteries of database structure and optimization. Let’s unveil the roadmap of this enthralling journey:",
+        "Arm yourself with knowledge through these targeted readings:",
+        "In this lesson, you will take you on an unforgettable adventure into the world of Database Logical Design, where you’ll unlock the secrets to transforming abstract concepts into practical, powerful database structures. Prepare to explore the meticulous process of turning a conceptual design into a logical masterpiece, ensuring your databases are not only functional but also perfectly optimized for real-world applications.",
+        "Immerse yourself in a pivotal exploration:",
+        "In this lesson we will explore the crucial aspects of database management that ensure your data isn’t just stored but truly shines in its quality and functionality. Embark on a journey to explore how the quality of data and the foundational principles of functional dependencies and normal forms can transform a good database into a great one. Here’s what this action-packed week has in store for you:",
+        "Prepare to dive into the depths of database mastery with these enlightening reads:",
+        "In this lesson we will look into the heart of SQL and database mastery, designed to elevate you from a novice to a connoisseur of database technologies. This adventure begins with the basics of SQL and DML, guiding you through the intricacies of data retrieval operations and the art of crafting precise SQL queries. As you progress, you’ll dive deeper into advanced SQL techniques, mastering union-like and aggregate SELECT statements, and engaging in thought-provoking discussions to refine your skills.",
+        "Your journey continues as you apply your knowledge to real-world scenarios, analyzing database schema examples and demonstrating your prowess through hands-on homework assignments. The climax of this educational saga explores the critical realm of database transactions, where you’ll navigate the challenges of deadlocks, lock-based concurrency control, and discover a treasure trove of useful SQL commands.",
+        "A career as a Database Design Concepts engineer positions you at the forefront of technological innovation, directly influencing the development and optimization of critical digital infrastructures. With businesses increasingly dependent on data for strategic decision-making and operational efficiency, your expertise becomes crucial in enabling organizations to leverage data effectively. This role offers a wide array of career opportunities, from data architecture and administration to leadership in data strategy, driven by the ongoing digital transformation across sectors. The demand for skilled database professionals is on the rise, ensuring a dynamic and rewarding career path that not only promises significant professional growth but also the opportunity to impact the future of technology profoundly.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Relational Modeling",
+            "Relational Algebra",
+            "Structured Query Language",
+            "Data Normalization"
+        ],
+        [
+            "“A” (Excellent) indicates exceptional achievement.",
+            "“B” (Good) indicates substantial achievement.",
+            "“C” (Satisfactory) indicates acceptable but substandard achievement.",
+            "“D” (Poor) indicates inadequate achievement and is a failing grade for a graduate student."
+        ],
+        [
+            "Database Management Systems (DBMS) Introduction",
+            "Modeling Data in an Organization",
+            "Conceptual Design-Entity Relationship Diagrams",
+            "Integrity Constraints- Functional Dependencies, and Keys",
+            "Logical Design",
+            "Data Redundancy: Normal Forms",
+            "Data Redundancy: Normalization and Denormalization",
+            "Oracle Database Deployment and Database Management Tools",
+            "Data Relations",
+            "SQL and DML",
+            "Database Schema Examples",
+            "Views and Triggers"
+        ],
+        [
+            "Oracle Instance",
+            "Hierarchical Model",
+            "Concurrency Control"
+        ],
+        [
+            "Relational Modeling",
+            "Relational Algebra",
+            "Structured Query Language",
+            "Data Normalization"
+        ],
+        [
+            "L1",
+            "L2",
+            "L3",
+            "L4",
+            "L5",
+            "L6",
+            "L7"
+        ],
+        [
+            "Section 1: The Database Design Process – Uncover the secrets behind crafting efficient and effective databases, a critical skill in our data-driven age.",
+            "Section 2: Data Requirements Specifications Generation – Learn how to gather and specify data requirements, the cornerstone of any successful database system.",
+            "Section 3: Data Models: Existent Types of Database Systems – Explore the vast landscape of database systems, discovering how diverse data models can revolutionize data management and retrieval.",
+            "Section 4: Data Models – Delve deeper into data models, understanding their intricacies and how they shape the backbone of digital infrastructure."
+        ],
+        [
+            "Course Syllabus – Your roadmap to success in this unit.",
+            "Textbook: Chapters 1 and 2 – Begin your journey with an in-depth look at the principles of database design and management."
+        ],
+        [
+            "Section 1: The Database Design Process – Embark on a thrilling exploration of how to craft efficient, powerful databases from the ground up. This is where your journey to becoming a database wizard begins!",
+            "Section 2: Data Requirements Specifications Generation – Dive deep into the art of distilling complex data needs into crystal-clear specifications. Get ready to translate the language of data into actionable blueprints!",
+            "Section 3: Software Requirements Specifications (SRS) Document – Unlock the secrets to creating comprehensive SRS documents that serve as the cornerstone for successful software projects. Your roadmap to software excellence awaits!",
+            "Section 4: Data Requirements – Hone your ability to identify and articulate precise data needs, a critical skill in sculpting databases that not only meet but exceed expectations."
+        ],
+        [
+            "Textbook: Chapters 3.1 and 3.2 – Immerse yourself in these pivotal chapters to gain a deeper understanding of database and software design principles."
+        ],
+        [
+            "Section 1: Database Conceptual Design – Kickstart your adventure by delving into the art and science of conceptualizing databases. Discover how to turn abstract ideas into concrete database structures that power the digital world.",
+            "Section 2: The Entity Relationship (ER) Model – Unravel the mysteries of the ER Model, a cornerstone in database design that visually represents data and its intricate relationships. This is where your ability to think critically and creatively takes center stage."
+        ],
+        [
+            "Example 1: Database Design Using Entity Relationship Diagrams – Witness the power of ER diagrams in action as we tackle a practical database design challenge, providing you with a clear blueprint to visualize complex data structures.",
+            "Example 2: Self-Assessed Example Generated by Changing the Small Company Problem Description – Test your prowess by tweaking a real-world problem and crafting an optimized database design solution. This is your playground for innovation and problem-solving.",
+            "Example 3: Step-by-Step Implementation on the University Database – Take a guided tour through the creation of a university database, a step-by-step challenge that will hone your skills and deepen your understanding of database implementation."
+        ],
+        [
+            "Textbook: Chapters 5, 6.1, 6.2, 6.4, and 9 – Dive into these chapters to arm yourself with essential concepts, tools, and techniques in database design. These readings are your secret weapon to mastering the course material."
+        ],
+        [
+            "Section 1: Database Keys – Explore the critical role of database keys, the guardians of data uniqueness and integrity. Discover how these keys pave the way for error-free data retrieval and relationship building.",
+            "Section 2: Functional Dependencies – Delve into the world of functional dependencies, a foundational concept that ensures your data is logically structured, leading to databases that are both powerful and easy to maintain.\n\nExample 1: Functional Dependencies – Employee Database – Apply your knowledge to an employee database scenario, where understanding functional dependencies is key to unlocking efficient data organization and retrieval.",
+            "Example 1: Functional Dependencies – Employee Database – Apply your knowledge to an employee database scenario, where understanding functional dependencies is key to unlocking efficient data organization and retrieval.",
+            "Section 3: Attribute Closure – Navigate the concept of attribute closure, a technique that will sharpen your skills in determining the capabilities of a set of attributes within a database environment.",
+            "Section 4: Identifying the Keys in a Table – Master the art of identifying keys in a table, a crucial skill for anyone looking to design databases that are both robust and scalable."
+        ],
+        [
+            "Example 1: Functional Dependencies – Employee Database – Apply your knowledge to an employee database scenario, where understanding functional dependencies is key to unlocking efficient data organization and retrieval."
+        ],
+        [
+            "Textbook: Chapters 5.2.2, 14.2, and 14.3.3 – These sections have been carefully selected to provide you with a deep dive into the mechanics of database keys, functional dependencies, and attribute closures. Prepare to be challenged and enlightened."
+        ],
+        [
+            "Section 1: Database Logical Design – Discover the art and precision of database logical design, a critical phase where conceptual blueprints come to life. You’ll learn how to:\n\nStep 1: Rules for Converting a Conceptual Design into a Logical Design – Master the essential rules and guidelines that bridge the gap between conceptual dreams and logical realities.\nStep 2: Add All the Attributes to Entities – Dive deep into the process of enriching entities with attributes, ensuring each element of your database is accurately represented and fully functional.\nStep 3: Add Keys and Other Constraints to Each Entity in the Logical Model – Explore how to strategically apply keys and constraints, crucial for maintaining data integrity and enforcing business rules within your database.",
+            "Step 1: Rules for Converting a Conceptual Design into a Logical Design – Master the essential rules and guidelines that bridge the gap between conceptual dreams and logical realities.",
+            "Step 2: Add All the Attributes to Entities – Dive deep into the process of enriching entities with attributes, ensuring each element of your database is accurately represented and fully functional.",
+            "Step 3: Add Keys and Other Constraints to Each Entity in the Logical Model – Explore how to strategically apply keys and constraints, crucial for maintaining data integrity and enforcing business rules within your database."
+        ],
+        [
+            "Step 1: Rules for Converting a Conceptual Design into a Logical Design – Master the essential rules and guidelines that bridge the gap between conceptual dreams and logical realities.",
+            "Step 2: Add All the Attributes to Entities – Dive deep into the process of enriching entities with attributes, ensuring each element of your database is accurately represented and fully functional.",
+            "Step 3: Add Keys and Other Constraints to Each Entity in the Logical Model – Explore how to strategically apply keys and constraints, crucial for maintaining data integrity and enforcing business rules within your database."
+        ],
+        [
+            "Textbook: Chapter 8.3 – Delve into the nuances of logical database design with this focused reading, crafted to equip you with the knowledge and skills to excel in this critical stage of database development."
+        ],
+        [
+            "Section 1: Quality of Data Stored in a Database – Uncover the secrets to maintaining impeccable data quality within your databases. Learn the strategies and practices that ensure data is accurate, reliable, and ready to drive insightful decisions.",
+            "Section 2: Functional Dependencies and Normal Forms – Venture into the realm of functional dependencies and normal forms, where the magic of data organization and efficiency unfolds. Discover how these principles are vital in minimizing redundancy and ensuring the integrity of your data through optimal design."
+        ],
+        [
+            "Textbook: Chapters 14.2, 14.3, 14.4, and 14.5. – These chapters are your map to understanding the critical elements of data quality and structure. Explore the intricacies of functional dependencies and how normal forms can revolutionize the way you think about database design."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "University Policies and Resources",
+            "url": "https://sites.psu.edu/gvwc/course/penn-state-university-policies-and-resources/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/03/insc521_image.jpeg"
+        },
+        {
+            "alt": "",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/02/SWENG-521-Website-Image-2-1024x579-1.png"
+        },
+        {
+            "alt": "",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/03/insc521_Concurrency_Control-1024x313.png"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Assignment",
+                "Quantity",
+                "Percentage of Final Grade"
+            ],
+            [
+                "Project Milestones",
+                "6",
+                "50%"
+            ],
+            [
+                "Exams",
+                "2",
+                "30%"
+            ],
+            [
+                "Discussion Forums",
+                "6",
+                "20%"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"1761\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

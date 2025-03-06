@@ -1,0 +1,530 @@
+{
+    "metadata": {
+        "title": "SYSEN 507: Systems Thinking – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4427"
+    },
+    "headings": {
+        "h2": "Lesson 7: System Archetypes: Recurring Patterns of Behavior",
+        "h4": "Unlocking Your Potential",
+        "h3": "Stocks and Flows"
+    },
+    "paragraphs": [
+        "SYSEN 507: Systems Thinking is a comprehensive introduction to understanding and describing complex systems, focusing on identifying emergent properties, feedback mechanisms, and their effects. Students will develop a deep understanding of the difference between systematic and systemic approaches, recognizing the pitfalls of reductionism and the importance of a holistic perspective in analyzing systems.",
+        "Through guided readings and hands-on activities, students will explore and apply various systems-thinking methodologies, including Causal Loop Diagrams, Stock and Flow Models, and Rich Pictures. These tools will enable them to visualize, analyze, and communicate the dynamic behavior of complex systems effectively. By the end of the course, students will have the skills to critically assess and describe systems holistically, making them valuable contributors in any field requiring systems analysis and problem-solving.",
+        "Computing and network technologies are constantly changing and must be adopted appropriately to help transform enterprise information systems that better support business operations and management. This course will investigate the evolution of information systems architecture. Students will learn to employ contemporary information systems architecture to enhance IT support for business operations and management in organizations. Students will explore contemporary information systems architecture from different perspectives, including perspectives in technology, business operations, and management.",
+        "After successfully completing this course, you will be able to:",
+        "R. Stair and G. Reynolds, Principles of Information Systems, 14th ed. Boston, MA: Cengage, 2021.E-book ISBN-13: 9780357710784, or Hardcover ISBN-13: 9780357112410.",
+        "Options for purchasing your textbook:",
+        "A grade is given on the basis of the instructor’s judgment as to the student’s scholarly attainment (see the Penn State Graduate Degree Programs Bulletin, p. 41). The following grading system applies to graduate students:",
+        "Grades will be based on the following scale:",
+        "A = 94 – 100, A- = 90 – 93, B+ = 87 – 89, B = 84 – 86, B- = 80 – 83, C+ = 77 – 79, C = 70 – 76, D = 60 – 69, and F = 60 and below.",
+        "You will participate in Discussions with the entire class as well as Paired Team Discussions.",
+        "Please view the rubric for each discussion forum. Your instructor will monitor activity in the Discussion Forums and may post or reply as needed.",
+        "The semester-long group assignment will include three Presentations and three Design Projects. Each deliverable is outlined in the Group Assignment Description found in the course modules.  When collaborating with your team, you may choose any method of communication that is most effective  (Google Docs, Microsoft Office Teams, Zoom, etc.)  If you need any assistance using the collaboration tools, please contact Penn State IT for assistance.",
+        "*subject to change",
+        "To draw a causal loop diagram, you should begin by drawing behavior over time (BOT) graphs. Here’s how to create BOTs:",
+        "Building a Causal Loop Diagram",
+        "“A short-term symptomatic “solution” is used to correct a problem, with seemingly positive immediate results. As this correction is used more and more, more fundamental long-term corrective measures are used less and less. Over time, the capabilities for the fundamental solution may atrophy or become disabled, leading to even greater reliance on the symptomatic solution.” [Senge]",
+        "Figure 6.3 shows an example of Shifting the Burden:",
+        "When constructing CLDs we don’t really care what about the nature of the variable – how or if it can be measured, what units it might have, the scale of those units, or the concrete relationship between two linked variables (for example, what mechanism connects a players anxiety level regarding their beer deliveries to their ordering strategy?) What we care about is documenting the critical variables and the direction each moves in relation to one another (same or opposite) so that we can determine the type of loop structures created (reinforcing or balancing).",
+        "In order to simulate the model, however, we need to define the nature of the variables, their units, scales, and how they affect each other. The first step is to determine which variables are stocks and which are flows.",
+        "The easiest way to think of stocks and flows is with a bathtub analogy shown in Figure 7.2. The level of water in the bathtub is the stock and would be measured in liters or gallons, say. The only way the level of water in the bathtub can increase is if the faucet was turned on and water flowed into the tub. That flow would be measured in liters/minute or gallons/minute. Equally, the only way the level of water would decrease is if the plug was removed from the drain and water flowed out of the tub. Again, this flow would be measured in l/min or gpm. Without a flow (the faucet or drain) the stock (the level of water) cannot change.",
+        "This course will provide you with a thorough introduction to:",
+        "During this course you will expand your knowledge of the lesson topics each week.",
+        "In this lesson, you’ll dive into the fundamentals of systems thinking, learning how to view problems and solutions as interconnected parts of a larger whole. This approach equips you to navigate complex projects with clarity and confidence.",
+        "By the end of these lessons, you will be equipped with the skills and mindset to approach complex challenges with a systems-oriented perspective, enhancing your problem-solving abilities and project outcomes.",
+        "This lesson introduces you to the foundational concepts of system modeling, focusing on how structures within systems influence their behavior. Through engaging activities, you’ll learn to represent systems visually to better understand their dynamics.",
+        "By the end of this module, you’ll be equipped to identify critical variables, understand their relationships, and construct diagrams that reveal the deeper structures behind system behaviors. These skills will empower you to diagnose and influence complex systems effectively.",
+        "This lesson delves deeper into causal loop diagrams (CLDs), reinforcing your ability to model system behavior. You’ll explore reinforcing loops, self-correcting mechanisms, and the dynamics that lead to S-shaped growth patterns. By the end, you’ll understand how to represent these behaviors and their underlying structures.",
+        "By completing this module, you’ll master the ability to construct models of reinforcing and self-correcting behavior, identify limits to growth structures, and recognize the interplay between mental models and system dynamics. These skills will elevate your systems thinking approach and prepare you for more complex applications.",
+        "This lesson focuses on how mental models shape our understanding of systems and influence our responses to problems. By exploring the interplay between perception and reality, you’ll learn to recognize how individual viewpoints can affect decision-making within a system.",
+        "By completing this module, you’ll deepen your understanding of the impact of mental models, learn to integrate diverse perspectives into problem-solving, and apply Soft Systems Methodology to complex systems.",
+        "This lesson explores how subconscious mental models shape our perception of systems and situations. You’ll learn to recognize how biases influence the data we select and the assumptions we make, as well as strategies for reflecting on and challenging these biases to improve decision-making.",
+        "By completing this module, you will gain the ability to evaluate subconscious influences on perception, distinguish between models of social systems, and approach complex challenges with a more reflective, systems-oriented mindset.",
+        "This lesson focuses on the intersection of system dynamics and systems thinking. By understanding systemic structures, you’ll uncover leverage points that can drive meaningful change in complex systems. You’ll also explore how to balance varying perspectives to address wicked problems effectively.",
+        "By completing this module, you’ll be equipped to explain systemic structures in complex situations, identify leverage points, and apply systems thinking principles to address real-world challenges with a collaborative and informed approach.",
+        "This lesson introduces the foundational concepts of stock and flow modeling, helping you understand the differences between rates (flows) and levels (stocks). You’ll learn how these elements interact to create the dynamic behavior observed in complex systems.",
+        "By completing this module, you’ll be able to distinguish between stocks and flows, develop stock and flow models, and use policy simulators to analyze and guide decisions in complex systems.",
+        "SSYEN 507 equips professionals with the critical skills needed to address complex, interconnected challenges in various industries. By mastering concepts like causal loop diagrams, stock and flow models, and system archetypes, students develop the ability to analyze systemic structures and identify leverage points for meaningful change. These skills are in high demand across sectors such as technology, healthcare, manufacturing, and government, where systems thinking is essential for designing efficient, scalable, and sustainable solutions.",
+        "Graduates of this course are well-prepared for roles like Systems Engineer, Policy Analyst, Operations Manager, and Strategic Planner. Employers value candidates with the ability to approach problems holistically, model system behavior, and collaborate across disciplines to address “wicked problems.” Adding SYSEN507 to your resume demonstrates a strong foundation in systems thinking and quantitative modeling—key qualifications for advancing in a competitive job market.",
+        "A real-world example of a systems thinking challenge can be seen in urban transportation planning. A city faced growing congestion and pollution due to increasing car usage, which impacted air quality, commute times, and overall quality of life. Stakeholders included commuters, public transportation agencies, environmental advocates, businesses, and city planners, each with conflicting priorities. Commuters desired convenience and affordability, while environmental groups pushed for reduced emissions. Meanwhile, local businesses worried about the economic impact of reduced car access to shopping areas. Initial attempts to solve the problem with isolated interventions—such as adding bike lanes or implementing tolls—failed to address the broader systemic issues, leading to unintended consequences like increased traffic in neighboring areas and public backlash.",
+        "To address this, systems engineers applied the principles of SYSENG 507 by creating a holistic system dynamics model. Using causal loop diagrams (CLDs), they mapped the relationships between variables like public transit availability, road usage, air pollution, and economic activity. They then transitioned to stock and flow models to simulate the long-term impact of various policy decisions, such as expanding public transit, implementing congestion pricing, and incentivizing electric vehicle usage. Stakeholders were engaged throughout the process to ensure their perspectives were represented in the model.",
+        "The resulting policy simulation revealed that a combination of public transit expansion and congestion pricing could reduce traffic while maintaining economic activity. This approach allowed the city to implement targeted policies with broad stakeholder support, ultimately reducing congestion, lowering emissions, and improving the quality of life for residents. This example highlights the critical role of systems thinking and quantitative modeling in addressing complex, interconnected challenges, demonstrating the real-world value of skills learned in SYSENG 507.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Understand the evolution of information systems architecture in organizations.",
+            "Analyze and design architectural solutions to address architectural weakness in current enterprise information systems",
+            "Analyze the potentials and limitations of different architecture implementations when the emerging IT solutions are adopted."
+        ],
+        [
+            "You can purchase a digital version of the textbook from the link in the Student Resources module. It will take you to the Cengage platform where you can purchase access to the E-textbook for the duration of the course.",
+            "You may purchase the textbook from Barnes & Noble College (the bookstore used by Penn State’s World Campus).",
+            "You may obtain the textbook from a vendor of your choice"
+        ],
+        [
+            "“A” (Excellent) indicates exceptional achievement.",
+            "“B” (Good) indicates substantial achievement.",
+            "“C” (Satisfactory) indicates acceptable but substandard achievement.",
+            "“D” (Poor) indicates inadequate achievement and is a failing grade for a graduate student."
+        ],
+        [
+            "The Paired Team Discussion Forums will give you an opportunity to view the presentations created by another team and provide them with constructive feedback and evaluation.  Likewise, the other team will view your team’s work and provide feedback.  Each team will delegate one member of their team to create the initial post to share the presentation and annotated bibliography.  Then each student must view the other team’s presentation and provide feedback. (Ideally, only two teams will be paired together to evaluate each others’ presentations throughout the semester.  If necessary, an additional third team may be added.  If so, each student must view and evaluate both presentations.)",
+            "The full-class Discussion Forums will provide an opportunity for each student to individually respond to prompts related to lesson concepts.  Each student is expected to read the replies of classmates, provide comments and feedback, and build knowledge by learning from one another."
+        ],
+        [
+            "Presentation 1: Your team will evaluate an organization’s Information Systems Architecture from the managerial perspective (strategic planning).",
+            "Presentation 2: Your team will evaluate an organization’s Information Systems Architecture from the business operational perspective (business intelligence and analytics).",
+            "Presentation 3: Your team will evaluate an organization’s Information Systems Architecture from the technical perspective (emerging technologies)."
+        ],
+        [
+            "Design Project 1: Your team will conduct a risk assessment of information assets needed to support CarMax’s business processes",
+            "Design Project 2: Your team will recommend and develop an implementation plan to consolidate the company’s heterogeneous business functions into a unified solution.",
+            "Design Project 3: Your team will select appropriate Internet of Things (IoT) technology for the company and make specific recommendations"
+        ],
+        [
+            "Business Continuity Management",
+            "Introduction to Information Systems",
+            "Planning and Project Management",
+            "Technology",
+            "Database Management Systems",
+            "Data Management and Data Governance",
+            "Business Intelligence, Big Data and Data Analytics",
+            "Networks",
+            "The Cloud and Internet of Things (IoT)",
+            "Enterprise Systems",
+            "AI and Automation",
+            "E-Commerce",
+            "System Integration and Middleware",
+            "DevOps"
+        ],
+        [
+            "Casual Loop",
+            "System Architectures",
+            "Stacks and Flows"
+        ],
+        [
+            "Use nouns or noun phrases",
+            "Be sure our variable name fits into phrases such as “level of” or “size of”",
+            "Use a neutral or positive term whenever possible",
+            "Include intangible variables, such as morale, where appropriate, as well as tangible variables"
+        ],
+        [
+            "Stocks accumulate (or deplete) over time and can be measured at an instant in time.",
+            "Flows increase (flow into) or decrease stocks (flow out of) stocks and can be measured only over a period of time. Hence, flows are rates."
+        ],
+        [
+            "Modeling Techniques for Complex Systems: Developing causal loop diagrams (CLDs), stock and flow (SAF) models, and other quantitative methods to analyze dynamic systems.",
+            "Soft Systems Methodology (SSM): Applying SSM to address wicked problems by incorporating diverse stakeholder perspectives and identifying holistic solutions.",
+            "Systems Archetypes and Patterns: Identifying recurring systemic structures such as limits to growth, shifting the burden, and balancing versus reinforcing loops.",
+            "Quantitative Simulation for Policy Development: Building and using system dynamics models to test policy interventions and simulate system behavior over time.",
+            "Integrating Mental Models into System Analysis: Recognizing and addressing biases and mental models to improve collaboration and understanding in complex systems.",
+            "Real-World Applications of Systems Thinking: Solving practical problems in industries such as healthcare, transportation, resource management, and global policy using systems approaches."
+        ],
+        [
+            "L1",
+            "L2",
+            "L3",
+            "L4",
+            "L5",
+            "L6",
+            "L7"
+        ],
+        [
+            "Interconnectedness of Systems: Explore how elements within a system interact and influence each other, including feedback loops and unintended consequences.",
+            "The Importance of Holistic Thinking: Learn why systems thinking is crucial for addressing complex, interconnected challenges in projects and systems engineering."
+        ],
+        [
+            "Case Studies: Analyze real-world examples of systemic challenges and solutions to deepen your understanding of applied systems thinking.",
+            "Group Discussions: Engage with peers to share perspectives and collaboratively analyze complex systems, reinforcing the value of diverse input."
+        ],
+        [
+            "Identifying Critical Variables: Learn how to pinpoint the most important variables within a system that drive behavior and outcomes.",
+            "Causal Loop Diagramming (CLD): Explore how to use CLDs to map the structure of systems, identify feedback loops, and understand their influence on system behavior."
+        ],
+        [
+            "Behavior Over Time Graphing: Analyze how key variables in a system change over time and document these trends to inform system improvement strategies.",
+            "Real-World System Modeling: Apply CLD techniques to analyze a familiar system (e.g., an organization, supply chain, or personal project) and identify balancing and reinforcing loops."
+        ],
+        [
+            "Reinforcing vs. Self-Correcting Loops: Differentiate between loops that amplify system behavior and those that stabilize it.",
+            "Limits to Growth: Understand the dynamics behind S-shaped growth and identify the constraints that prevent further expansion."
+        ],
+        [
+            "Force-Field Analysis Workshop: Analyze a real-world system to determine the driving and restraining forces at play.",
+            "Mind Grooving and Do The Test Activities: Revisit mental model exercises to deepen your understanding of how perception influences systems thinking."
+        ],
+        [
+            "Mental Models and Perception: Understand how personal and organizational mental models shape the way problems and solutions are perceived.",
+            "Soft Systems Methodology: Learn a structured approach for analyzing complex problems by integrating diverse viewpoints."
+        ],
+        [
+            "Mental Model Reflection Exercise: Examine your own mental models and how they influence your perception of problems and solutions.",
+            "Visual Mapping Workshop: Create diagrams that incorporate multiple stakeholder viewpoints and illustrate system dynamics."
+        ],
+        [
+            "Convergent vs. Divergent Problems: Learn how to differentiate between well-defined problems and evolving, complex issues, and how to approach each effectively.",
+            "Hard vs. Soft Systems: Explore the differences between hard systems (structured, objective problems) and soft systems (complex, subjective problems)."
+        ],
+        [
+            "Reflection on the Ladder of Inference: Examine how mental models influence your assumptions and conclusions, using exercises to practice stepping down the ladder of inference.",
+            "Soft Systems Methodology Application: Practice applying SSM to analyze a complex, divergent problem, incorporating multiple stakeholder viewpoints."
+        ],
+        [
+            "System Dynamics and Structures: Understand how systemic structures influence behavior and identify leverage points to drive change.",
+            "System Archetypes: Explore recurring patterns in systems to predict challenges and craft solutions."
+        ],
+        [
+            "System Archetype Exploration: Identify system archetypes in real-world scenarios and discuss their implications on systemic behavior.",
+            "Dynamic Modeling Workshop: Create system dynamics models that incorporate stakeholder perspectives and explore their influence on decision-making."
+        ],
+        [
+            "Stocks and Flows: Understand the distinction between stocks (accumulations) and flows (rates of change) and their role in driving system behavior.",
+            "Behavior Over Time: Explore how stock and flow models reveal dynamic behavior that cannot be inferred from causal loop diagrams alone."
+        ],
+        [
+            "Stock and Flow Identification Exercise: Practice identifying stocks, flows, and feedback loops in sample systems to build foundational modeling skills.",
+            "Policy Simulator Exploration: Experiment with policy simulators to test interventions in dynamic systems, analyzing the short- and long-term impacts."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "A book called Principles of Information Systems by R. Stair and G. Reynolds",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/insc831-book-1.jpg"
+        },
+        {
+            "alt": "The image appears to be a graph titled \"Behavior Over Time\" (BOT), showcasing multiple curves representing dynamic system behavior. The x-axis likely represents time, while the y-axis represents a variable's magnitude or level. The graph contains multiple distinct curves that intersect and show varying trends, such as growth, decline, or oscillation over time. These patterns may be used to analyze the influence of systemic structures or relationships within a given system.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/BOT_Graph.png"
+        },
+        {
+            "alt": "This image illustrates the \"Shifting the Burden\" systems archetype. It features two interconnected feedback loops",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/shifting_the_burden_arch.png"
+        },
+        {
+            "alt": "This image depicts the concept of stocks and flows using a bathtub analogy. This analogy is commonly used in systems thinking to explain dynamic systems and their behavior over time, emphasizing the balance between accumulation and depletion.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/stacks_flows.png"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Assignment",
+                "Quantity",
+                "Points Each",
+                "Percentage of Final Grade"
+            ],
+            [
+                "Team Presentations",
+                "3",
+                "10",
+                "30%"
+            ],
+            [
+                "Team Projects",
+                "3",
+                "15",
+                "45%"
+            ],
+            [
+                "Discussion Forums",
+                "5",
+                "5",
+                "25%"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"4427\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

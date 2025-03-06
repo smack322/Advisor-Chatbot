@@ -1,0 +1,535 @@
+{
+    "metadata": {
+        "title": "MKTG 811: Driving Business Success with Marketing Analytics – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4379"
+    },
+    "headings": {
+        "h2": "Lesson 7: Group Project Presentation – iFood CRM Data Analyst Case",
+        "h4": "Unlocking Your Potential",
+        "h3": "Customer Analytics"
+    },
+    "paragraphs": [
+        "In today’s competitive landscape, data-driven marketing is not just a trend—it’s a critical component of business success. Organizations depend on marketing analytics to understand their customers, anticipate market trends, and make strategic decisions that drive growth.",
+        "This course equips students with the foundational skills needed to apply marketing analytics effectively to solve real-world business challenges. You will explore the entire data analysis process, from planning and statistical evaluation to reporting and actionable insights. Through hands-on learning, you will map data to marketing problems, perform statistical analyses tailored to marketing scenarios, and communicate your findings in impactful ways. With a focus on transforming raw data into meaningful strategies, this course empowers students to support organizations in harnessing the full potential of marketing analytics. Whether you aim to improve customer targeting, optimize campaigns, or drive business strategy, MKTG 811 will prepare you to lead in a data-driven world",
+        "Modern marketing organizations rely on data and analytics to understand markets and customers. Data-driven marketing isn’t a fad it’s a requirement for business success.",
+        "This course will provide students with a foundational understanding of applying marketing data analytics to business decisions and strategy. The course will review the process and components of data analysis, including planning the analysis, basic properties of statistics, and reporting results. Students will learn how to map data to marketing challenges, apply basic statistics to marketing analyses, communicate data results in meaningful ways, and support organizations in effectively leveraging marketing data. Special emphasis is given to translating data into meaningful and actionable business insights. This course does not assume any prior knowledge in statistics.",
+        "Venkatesan, R., Farris, P. and Wilcox, R. (2021), Marketing Analytics: Essential Tools for Data-Driven Decisions. Darden Business Publishing, University of Virginia Press, Charlottesville and London.",
+        "Software: Microsoft Excel, SPSS (https://softwarestore.psu.edu/spss-license/-9645)",
+        "BA 800 and BUSAD 801",
+        "After completing this course, students should be able to:",
+        "Grading Scale:",
+        "Learning in class is a collective and interactive effort. Class attendance and participation are an important contributor to your own learning. You are expected to be actively participating in class discussions by asking questions and offering answers to other students’ questions. You should read the assigned textbook chapters before you come to class each week. The professor should be notified if you are to miss a class. Missing more than 2 classes will negatively affect your participation grade and final course grade.",
+        "Weekly homework problems are assigned. Sample illustrative solutions will be provided the following week. You are not required to turn in your homework.",
+        "There are six weekly open-book, open-notes quizzes. A portion of quiz questions are related to homework assignments. You need to complete the homework before attempting the quizzes.",
+        "Teams of three to five students each will work on this project. A dataset will be provided. Appropriate analytic techniques should be used to analyze the data and answer relevant business and marketing questions. Deliverables include a PowerPoint presentation file, an Excel workbook and SPSS syntax and output files that show all the analytical work. More details will be provided in class.",
+        "*subject to change",
+        "Market Basket Analysis",
+        "After completing this course, students should be able to:",
+        "During this Course you will expand your knowledge of the lesson topics each week.",
+        "In this lesson, you will be introduced to the foundational concepts of marketing analytics and its critical role in business success. You’ll explore the goals and processes behind marketing analytics, including how to link marketing inputs to metrics for strategic decision-making. Additionally, you’ll learn basic data exploration techniques in Excel, equipping you with essential tools for analyzing and visualizing data.",
+        "By the end of this lesson, you will have a solid understanding of how marketing analytics connects data to strategy and the skills to begin exploring datasets using Excel. This foundational knowledge will set the stage for advanced topics and techniques in the weeks to come.",
+        "In this lesson, you will dive into the application of multiple linear regression for marketing mix modeling (MMM). You will learn how to evaluate the impact of various marketing inputs, such as pricing, advertising, and promotions, on sales performance. Through hands-on activities, you will analyze real-world data to explore relationships, estimate returns on marketing investments, and optimize resource allocation.",
+        "Upon completing this lesson, you will have the expertise to utilize multiple regression techniques for analyzing marketing data and deriving meaningful insights. These capabilities will help you refine marketing strategies and optimize resource distribution effectively.",
+        "In this lesson, you will explore conjoint analysis, a powerful tool for understanding how consumers make trade-offs between product features and costs. This method, which combines multiple attributes in a joint analysis, allows marketers to uncover customer preferences, estimate the importance of specific product features, and predict the market potential of new offerings. By using real-world scenarios and datasets, you’ll gain hands-on experience in designing products and interpreting consumer data.",
+        "At the conclusion of this lesson, you will have the skills to use conjoint analysis for product design and market prediction. These techniques will enable you to quantify customer preferences and develop offerings that align with market demand, providing valuable insights for strategic decision-making.",
+        "In this lesson, you will learn the fundamentals of customer segmentation using cluster analysis. Segmentation is a vital part of marketing strategy, allowing businesses to group customers based on shared characteristics and target them with tailored messaging and offerings. Through hands-on activities and the use of tools like SPSS and Excel, you’ll explore how to identify meaningful clusters within a dataset and use these insights to inform strategic decisions.",
+        "After completing this lesson, you will have the ability to segment customers effectively using cluster analysis and leverage these insights to improve marketing strategy. These skills are essential for identifying unique customer needs and developing targeted approaches to maximize engagement and profitability.",
+        "In this lesson, you will delve deeper into customer analytics by learning to calculate Customer Lifetime Value (CLV) and applying logistic regression to predict customer behaviors. CLV helps businesses evaluate the long-term value of individual customers and informs strategies for customer retention and acquisition. Logistic regression, on the other hand, is a key predictive tool for understanding binary outcomes, such as whether a customer will make a purchase or churn. Together, these tools empower marketers to make data-driven decisions that maximize customer relationships and profitability.",
+        "After completing this lesson, you will be equipped with the skills to assess customer value and predict behavioral outcomes, enabling you to craft targeted strategies that enhance customer loyalty and maximize long-term profitability.",
+        "This lesson focuses on two essential tools for customer analytics: RFM (Recency, Frequency, Monetary) analysis and market basket analysis. RFM analysis helps identify high-value customer segments based on their purchasing behaviors, enabling marketers to craft targeted strategies. Market basket analysis uncovers relationships between products often purchased together, offering insights for cross-selling, recommendations, and promotions. Together, these techniques empower businesses to deepen customer engagement and maximize revenue potential.",
+        "By completing this lesson, you will gain valuable skills in customer segmentation and behavioral analysis, enabling you to design data-driven marketing strategies that drive customer retention and increase sales opportunities.",
+        "In this lesson, you will work collaboratively on a group project to analyze a real-world dataset and present actionable insights for iFood, a leading food delivery app. This comprehensive case study challenges you to explore customer data, segment behaviors, and build a predictive model to enhance the effectiveness of marketing campaigns. Your results will be compiled into a professional presentation tailored for both technical and business stakeholders, showcasing your analytical expertise and strategic thinking.",
+        "This project will allow you to apply the full range of skills developed throughout the course, from exploratory data analysis to predictive modeling and business communication. By the end of this lesson, you will have demonstrated your ability to solve complex marketing problems collaboratively and translate data-driven insights into actionable business strategies.",
+        "For data analytics professionals, mastering marketing analytics opens the door to a wealth of career opportunities in industries driven by data-informed decision-making. This course equips students with the ability to analyze customer behavior, measure marketing effectiveness, and optimize strategies using tools like regression analysis, segmentation techniques, and predictive modeling. These skills are highly valued in roles such as marketing data analyst, business intelligence analyst, and customer insights manager, where turning raw data into actionable business strategies is key.",
+        "The insights gained from marketing analytics also empower graduates to bridge the gap between technical analysis and strategic business decision-making. By understanding how to assess the ROI of campaigns, identify high-value customers, and predict market trends, students position themselves as indispensable contributors to any organization aiming to enhance its competitive edge. Whether in retail, technology, or financial services, this course lays the foundation for a successful career in the ever-evolving field of data-driven marketing.",
+        "Measuring ROI of Digital Advertising:Using data from a digital advertising campaign, students can apply regression models to evaluate the impact of ad spend across channels like Google Ads, social media, and email marketing. The project could involve identifying which channels generate the highest return on investment and recommending an optimal budget allocation strategy.",
+        "Optimizing Product Pricing Strategies:By analyzing pricing data and sales trends, students can develop a model to determine the optimal pricing strategy for a product or service. This project could involve studying the impact of discounts, bundling, or premium pricing on revenue and customer acquisition.",
+        "Market Basket Analysis for Cross-Selling Opportunities:A project might involve using market basket analysis to identify product combinations frequently purchased together in an online store. These insights could guide cross-selling strategies, such as suggesting complementary items during the checkout process or creating bundle offers.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "map data and analytics to marketing strategic decisions;",
+            "understand fundamental tools commonly used in marketing analytics;",
+            "conduct analyses appropriate for marketing objectives;",
+            "translate analytic results into meaningful and actionable marketing insights;",
+            "communicate analytic results and insights."
+        ],
+        [
+            "Mapping",
+            "Cluster Analysis",
+            "Customer Analytics"
+        ],
+        [
+            "Identifies products that are often bought together\n\n\nHow likely will the customer buy product B if she already has product A in herbasket?\nWhich products are often bought together?",
+            "How likely will the customer buy product B if she already has product A in herbasket?",
+            "Which products are often bought together?",
+            "Find association rules",
+            "Act on the association rules\n\n\nPromote cross-selling with coupons and/or physically close placement\nOnline recommendations",
+            "Promote cross-selling with coupons and/or physically close placement",
+            "Online recommendations"
+        ],
+        [
+            "How likely will the customer buy product B if she already has product A in herbasket?",
+            "Which products are often bought together?"
+        ],
+        [
+            "Promote cross-selling with coupons and/or physically close placement",
+            "Online recommendations"
+        ],
+        [
+            "If someone buys milk, what’s the likelihood they’ll buy coffee as well?",
+            "If milk and coffee are independent: P(C|M) = P(C)",
+            "If milk and coffee are dependent as complements: P(C|M) > P(C)",
+            "If milk and coffee are dependent as substitutes: P(C|M) < P(C)",
+            "If milk and coffee has an unknown relationship, P(C|M) ? P(C)",
+            "In MBA, we try to find unexpected relationships between products sothat P(B|A) > P(B)"
+        ],
+        [
+            "communicate analytic results and insights.",
+            "map data and analytics to marketing strategic decisions;",
+            "understand fundamental tools commonly used in marketing analytics;",
+            "conduct analyses appropriate for marketing objectives;",
+            "translate analytic results into meaningful and actionable marketing insights;"
+        ],
+        [
+            "L1",
+            "L2",
+            "L3",
+            "L4",
+            "L5",
+            "L6",
+            "L7"
+        ],
+        [
+            "Understanding Marketing Analytics: Learn about the goals of marketing analytics, such as understanding customer behavior, optimizing resource allocation, and improving strategy effectiveness.",
+            "Types of Analytics: Explore the four types of analytics—descriptive, diagnostic, predictive, and prescriptive—and their applications in marketing.",
+            "Data Exploration in Excel: Develop skills in using tools like pivot tables, histograms, and scatter plots to analyze and summarize data effectively."
+        ],
+        [
+            "Build Analytical Foundations: Engage with resources to understand the role of marketing analytics in identifying trends, improving strategies, and solving business problems.",
+            "Practice Data Exploration: Use Excel to perform descriptive statistics, construct histograms, and create scatter plots with trendlines.",
+            "Collaborate and Share Insights: Participate in discussions to reflect on how marketing metrics and analytics can drive decision-making."
+        ],
+        [
+            "Understanding Marketing Mix Modeling: Learn how to use multiple regression to assess the contribution of marketing variables, such as pricing, ads, and promotions, to sales outcomes.",
+            "Regression Techniques in Excel: Explore regression outputs, including R², adjusted R², coefficients, p-values, and significance tests, to evaluate the quality of your models.",
+            "Applications of MMM: Understand how MMM provides insights for sales attribution, ROI estimation, forecasting, and budget optimization."
+        ],
+        [
+            "Analyze Marketing Data: Use Excel to calculate descriptive statistics, correlations, and regression models based on marketing inputs.",
+            "Visualize Insights: Create scatter plots and trendlines to explore relationships between variables such as price, ads, and sales.",
+            "Build and Interpret Models: Develop a regression model to evaluate the influence of factors like social ads, search ads, and price changes on revenue."
+        ],
+        [
+            "Understanding Conjoint Analysis: Learn how conjoint analysis reveals customer preferences by analyzing how they make trade-offs between attributes like price, quality, and features.",
+            "Applications in Marketing: Explore practical uses of conjoint analysis, such as designing products, estimating willingness to pay, and predicting market share in competitive environments.",
+            "Analyzing Data: Use SPSS and Excel to estimate attribute importance, compute utility scores, and simulate customer choices for various product profiles."
+        ],
+        [
+            "Design and Evaluate Product Profiles: Analyze datasets to compute total utility and attribute importance for different product configurations.",
+            "Apply Statistical Tools: Work with SPSS to perform dummy variable regression and interpret outputs for customer preference modeling.",
+            "Simulate Customer Decisions: Use Excel to simulate product utility and evaluate trade-offs customers are willing to make among product attributes."
+        ],
+        [
+            "Introduction to Customer Segmentation: Understand the role of segmentation in marketing strategy, including its use in targeting and positioning.",
+            "Cluster Analysis Techniques: Explore clustering methods such as K-Means and hierarchical clustering to group observations based on similarities.",
+            "Practical Application of Segmentation: Learn to profile customer clusters using variables like demographics, behaviors, and psychographics to inform marketing actions."
+        ],
+        [
+            "Prepare and Analyze Data: Standardize variables and prepare datasets for cluster analysis in Excel and SPSS.",
+            "Perform Clustering: Use hierarchical clustering to determine the optimal number of clusters and apply K-Means clustering to group observations.",
+            "Profile and Target Clusters: Create cluster profiles using pivot tables and identify actionable insights for targeting specific customer groups."
+        ],
+        [
+            "Customer Lifetime Value (CLV): Understand how to calculate CLV and leverage it to identify high-value customers and prioritize retention strategies.",
+            "Logistic Regression: Learn how to model and predict binary outcomes, such as purchase likelihood or churn, using logistic regression techniques.",
+            "Strategic Insights: Explore how CLV and logistic regression combine to guide marketing efforts, optimize budgets, and improve customer targeting."
+        ],
+        [
+            "Calculate CLV: Use Excel to analyze transaction data and calculate CLV for various customer segments, identifying those with the highest potential value.",
+            "Apply Logistic Regression: Work with SPSS to build logistic regression models that predict customer behaviors, such as retention or churn.",
+            "Interpret Model Outputs: Use regression results to draw actionable insights, guiding customer outreach and retention strategies."
+        ],
+        [
+            "RFM Analysis: Learn to segment customers based on recency, frequency, and monetary value to identify loyal customers, churn risks, and promotional opportunities.",
+            "Market Basket Analysis: Explore how to find association rules between products, calculate metrics like support, confidence, and lift, and apply these insights to cross-selling and recommendations.",
+            "Strategic Applications: Understand how these methods improve customer targeting, optimize marketing budgets, and enhance product placement strategies."
+        ],
+        [
+            "Perform RFM Analysis: Use Excel to compute RFM metrics, segment customers, and identify high-value groups for targeted marketing.",
+            "Analyze Purchase Patterns: Conduct market basket analysis using transaction data to discover product associations and develop cross-selling strategies.",
+            "Interpret and Apply Insights: Create actionable marketing plans based on RFM segmentation and product association rules to maximize customer value."
+        ],
+        [
+            "Data Exploration: Conduct a detailed analysis of the dataset to uncover customer characteristics and identify key factors influencing campaign response.",
+            "Customer Segmentation: Develop a segmentation strategy based on customer behaviors to target distinct groups effectively.",
+            "Predictive Modeling: Create and validate a model to maximize profitability by predicting which customers are most likely to respond to future campaigns."
+        ],
+        [
+            "Collaborate as a Team: Work with your group to divide tasks, share findings, and develop a unified approach to the case study.",
+            "Analyze and Model Data: Use Python or other analytical tools to perform exploratory analysis, segmentation, and predictive modeling.",
+            "Craft a Business Presentation: Prepare a concise and impactful presentation summarizing your insights, segmentation strategy, and model results for a mixed audience of business and technical stakeholders."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "https://softwarestore.psu.edu/spss-license/-9645",
+            "url": "https://softwarestore.psu.edu/spss-license/-9645"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "Diagram titled \"Mapping Marketing Strategy and Analytics,\" showing key components such as segmentation, targeting, positioning, and associated analytics techniques like clustering, customer lifetime value, and A/B testing.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/mktg811-strategy.png"
+        },
+        {
+            "alt": "Diagram of hierarchical clustering showing blue stars as data points connected by red lines forming clusters.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/MKTG-811-CLUSTER-1024x560.png"
+        },
+        {
+            "alt": "Scatter plot labeled \"Hierarchical Clustering,\" showing blue data points connected by red lines to illustrate clusters.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/MKTG8110-HC-1024x575.png"
+        },
+        {
+            "alt": "Two tables display observed and expected frequencies to assess statistical independence between coffee and milk purchases, with row and column totals included.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/mktg811coffee.png"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Assignment",
+                "Points",
+                "Percentage"
+            ],
+            [
+                "Class attendance and participation (individual)",
+                "10",
+                "10%"
+            ],
+            [
+                "Six quizzes (open book, individual)",
+                "60",
+                "60%"
+            ],
+            [
+                "Group project (Team)",
+                "30",
+                "30%"
+            ],
+            [
+                "Total:",
+                "100",
+                "100%"
+            ]
+        ],
+        [
+            [
+                "A: ≥ 95",
+                "A-: ≥ 90",
+                "B+: ≥ 87",
+                "B: ≥ 84",
+                "B-: ≥ 80"
+            ],
+            [
+                "C+: ≥ 77",
+                "C: ≥ 70",
+                "C-:  ≥ 67",
+                "D: ≥ 61",
+                "F: < 61"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"4379\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

@@ -1,0 +1,944 @@
+{
+    "metadata": {
+        "title": "ACCTG 804: Data Analytics in the Accounting Profession – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=6494"
+    },
+    "headings": {
+        "h2": "Overview",
+        "h4": "",
+        "h3": "Lesson 14:Final Project Refinement, Peer Review, and Submission",
+        "h5": "PARTICIPATION"
+    },
+    "paragraphs": [
+        "ACCTG 804 equips students with essential data analytics knowledge and hands-on experience tailored to the accounting profession. The course begins with a conceptual foundation, emphasizing the ethical use of data and the importance of assembling accounting information with desirable characteristics for effective analysis and visualization. Students will learn to interpret and analyze outputs from fundamental data analytics tools. The course then transitions to practical applications, focusing on leveraging data analytics skills across various accounting subdomains using modern software packages. Throughout, students will engage with the Extract-Transform-Load (ETL) process, gaining a comprehensive understanding of how data analytics can enhance decision-making and insights in the accounting field.",
+        "ACCTG 804 offers a comprehensive exploration of data analytics tailored to the accounting profession, blending theoretical knowledge with practical application. The course begins with a conceptual overview, focusing on ethical data use, the assembly of high-quality accounting data, and the analysis of data characteristics for effective calculations and visualizations. Students will gain insights into interpreting outputs from foundational data analytics tools. In the latter portion, the focus shifts to applying these skills within various accounting contexts using cutting-edge software. A continuous emphasis on the Extract-Transform-Load (ETL) process ensures students develop the technical proficiency needed to manage, analyze, and interpret data in real-world scenarios, preparing them to excel in data-driven accounting roles.",
+        "After completing this course, you should be able to:",
+        "All course-related e-mails should go through Canvas’s course mail function (Canvas Inbox). Using Canvas to contact your instructor ensures that your message will be read, and your instructor will respond to you in a timely manner.",
+        "Many of the University Libraries’ resources can be utilized from a distance. Through the Library website, you can access magazines, journals, and articles; borrow materials and have them delivered to your doorstep; and get research help via email chat or phone from a librarian.",
+        "For more information, view the Penn State University Library website.",
+        "PLEASE NOTE: Regarding final course grades, there will not be an overall curve imposed at the end of the course.",
+        "***Participation and University-approved absences: Exceptions to the loss of subjectiveParticipation points will ONLY be given to students with University-approved absences (e.g.,University-approved curricular and extra-curricular activities, including employment interviews and religious holidays). Related “Conflict exams” policies discussed above apply here (e.g., you must provide official documentation, etc.).",
+        "*Subject to change",
+        "What Is It In a Broader Context? + Why Is It Important?",
+        "The Profession’s Perspective: What? + Why?…",
+        "Background theory/What?",
+        "Why?",
+        "Two-Sample T-Test: Key assumptions",
+        "Two-Sample T-Tests: Application",
+        "Procedures:",
+        "Obtain .TSV files from SEC EDGAR + Convert to Excel:",
+        "Recall: Average total assets for ALL pre-amendment startups = Average total assets for ALL post-amendment startups?Therefore, the null/alternative hypothesis we want to test:",
+        "Will define accordingly in Excel.",
+        "Step 3: Calculate the test statistic t",
+        "If sample variances are equal:",
+        "If sample variances are not equal:",
+        "Will examine variances accordingly in Excel and select appropriate test.",
+        "Step 4: Calculate the p-value of the test statistic t.",
+        "Excel will calculate and report p-value for us.",
+        "Let’s perform this analysis in the actual Excel file…",
+        "Step 5: Draw a conclusion.",
+        "As P-value < α=0.05 significance level:",
+        "I.e., we have sufficient evidence to say that post-amendment startups’ average total assets appear to have changed significantly compared to pre-amendment startups’ average total assets.",
+        "Therefore, this empirical finding provides us with at least some preliminary evidence supporting stakeholders’ expectations that average start-up quality would improve from pre- to post-amendment thanks to the amendment.",
+        "After completing this course, you should be able to:",
+        "In this lesson, you will gain an overview of the course, understand its objectives, and explore the importance of data analytics from both broad and professional perspectives. You’ll also learn about the foundational tools, techniques, and ethical considerations that will guide your journey in data analytics for accounting.",
+        "By the end of this lesson, you will have a comprehensive understanding of the course’s structure, an appreciation of the relevance of data analytics in accounting, and an awareness of its foundational tools and applications.",
+        "In this lesson, you will delve into the diverse types of data used in analytics and explore the fundamental types of data analytics. This week focuses on understanding the “What,” “Why,” and “How” behind different analytical methods and their role in decision-making processes within the accounting profession.",
+        "By the end of this lesson, you will have a solid understanding of the diverse types of data used in analytics, an introduction to the four types of data analytics, and insights into their applications within the accounting profession.",
+        "In this lesson, you will explore the concept of hypothesis testing as an essential tool in data analytics. This week focuses on understanding and applying two-sample t-tests, providing a foundational preview of how statistical testing supports decision-making in accounting and data-driven environments.",
+        "By the end of this lesson, you will understand the fundamentals of hypothesis testing and be able to conduct two-sample t-tests, applying these techniques to analyze and compare data effectively in real-world scenarios.",
+        "In this lesson, you will examine the unique characteristics of accounting data and its applications within the context of data analytics. This week focuses on understanding the “What,” “Why,” and “How” of accounting data, emphasizing its role in decision-making and analytics-driven insights.",
+        "By the end of this lesson, you will have a clear understanding of the characteristics of accounting data and its importance in data analytics. You will also gain insights into how this data is used to support analytical processes and decision-making in the accounting profession.",
+        "In this lesson, you will demonstrate your understanding of the concepts covered in the first part of the course through an exam. This week focuses on assessing your knowledge of data analytics principles, tools, and techniques introduced so far, ensuring you are on track with course objectives.",
+        "By the end of this lesson, you will have completed Exam #01, demonstrating your grasp of the course material covered so far. This assessment will help identify areas of strength and topics that may require further review as you progress in the course.",
+        "In this lesson, you will build on your understanding of descriptive analytics by exploring advanced concepts and measures. This week focuses on the “What,” “Why,” and “How” of descriptive analytics, including a detailed examination of measures of dispersion, and provides hands-on practice with real-world datasets.",
+        "By the end of this lesson, you will have a deeper understanding of descriptive analytics and its applications. You will be proficient in calculating and interpreting measures of dispersion, equipping you with practical skills for analyzing and summarizing data effectively.",
+        "In this lesson, you will deepen your understanding of diagnostic analytics and explore its role in uncovering the “why” behind data patterns. Additionally, you will examine the theoretical foundation of hypothesis testing, setting the stage for its practical application. This week emphasizes the “What,” “Why,” and “How” of these essential analytical techniques.",
+        "By the end of this lesson, you will have a solid grasp of diagnostic analytics, including its purpose, importance, and application. Additionally, you will understand the theoretical foundation of hypothesis testing, preparing you for its practical implementation in data-driven decision-making.",
+        "In this lesson, you will build on your understanding of hypothesis testing by exploring two common statistical tests: the two-sample t-test and the z-test. This week covers both the “What,” “Why,” and “How” of these tests, providing an early application preview of the two-sample t-test and a deeper dive into the z-test, a crucial tool for data analysis.",
+        "By the end of this lesson, you will have a thorough understanding of both two-sample t-tests and z-tests, including how to apply these tests to compare data sets, test hypotheses, and draw conclusions in data-driven decision-making. You will also be prepared to evaluate statistical significance in various scenarios using these tools.",
+        "In this lesson, you will demonstrate your understanding of the topics covered throughout the course thus far by completing Exam #02. This quiz focuses on reinforcing your knowledge and application of the key concepts in data analytics, including hypothesis testing, t-tests, z-tests, and various analytical techniques.",
+        "By the end of this lesson, you will have completed Exam #02, demonstrating your knowledge and analytical skills. The results will provide insight into your progress and highlight areas for further study as you continue in the course.",
+        "In this lesson, you will be introduced to the guidelines and expectations for your final project. This week focuses on understanding the requirements for the project, which will apply the skills and concepts you’ve learned throughout the course to a real-world data analytics scenario.",
+        "By the end of this lesson, you will have a clear understanding of the final project requirements and expectations. You will be prepared to select your project topic and begin applying the data analytics techniques learned throughout the course to develop your final deliverables.",
+        "In this week, you will focus on preparing for the completion of your final project. Emphasis is placed on reviewing key guidance, understanding the requirements, and practicing using the provided tools. You will also begin working on the necessary data sets and methodologies for your project, ensuring that you are on track to meet all deadlines.",
+        "By the end of this lesson, you will be prepared to start applying your analysis techniques to the data you have selected for the final project. You will have a clear understanding of the project’s expectations and the necessary steps to complete it on time.",
+        "This week, you will move into the active development phase of your final project. You will apply data analysis techniques to your selected dataset, refine your project approach, and ensure all requirements from the project guidelines are being met. Regular practice with the code templates is key to progressing effectively.",
+        "By the end of this lesson, you will have made significant progress in analyzing your dataset and developing the necessary components of your final project. You will be on track to start drafting your findings and conclusions for the final report.",
+        "This week, you will focus on finalizing the analysis for your project and beginning the process of drafting the final report. This includes interpreting the results of your data analysis, refining your insights, and preparing to write your executive summary.",
+        "By the end of this lesson, you will have a completed draft of your final project report, including a clear presentation of your methodology, results, and conclusions. You will be ready to incorporate feedback and refine your final submission.",
+        "In Week 14 and 15, the focus will be on refining your final project, engaging in peer reviews, and preparing for submission. You will polish your work based on valuable peer feedback, make final adjustments, and reflect on your learning experience throughout the course. The culmination of this work will be the final project submission in Week 15.",
+        "By the end of this combined week, you will have refined and submitted your final project, reflecting on your learning journey. You will have the confidence and readiness to apply the data analytics skills you’ve gained in real-world situations.",
+        "Data Analytics in the Accounting Profession provides students with a valuable skill set that is increasingly in demand within the accounting and finance industries. By mastering data analytics tools and techniques, students will enhance their ability to interpret financial data, improve decision-making processes, and drive business insights. This course prepares students for a variety of roles, including data analyst, financial analyst, and accounting professional, equipping them with the knowledge to leverage data-driven approaches in accounting tasks such as auditing, budgeting, forecasting, and performance analysis. Graduates will be better positioned to advance in their careers by demonstrating expertise in both accounting principles and data analytics, two critical areas in today’s data-driven business environment.",
+        "Data Analytics in the Accounting Profession, students learn to apply data analytics techniques to real-world accounting scenarios. For example, a student might analyze financial data to detect fraudulent activity, such as identifying unusual patterns in transaction data that suggest potential errors or fraud. By applying descriptive, diagnostic, predictive, and prescriptive analytics, students can uncover insights like forecasting future financial trends, diagnosing discrepancies in financial statements, and recommending strategic decisions for improving business performance. This hands-on approach, using actual accounting data and industry-standard tools, prepares students to solve real-world problems in accounting, audit, and finance roles.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Gain an understanding of data analytics thinking and terminology; and",
+            "Gain hands-on experience with data analytics tools and techniques.\n\n\nThe first portion of the course covers a conceptual introduction to data analytics with emphasis on the ethical use of data, where we will learn:\n\n\nThe importance of assembling accounting data;\nThe desirable characteristics of data for effective calculations and visualization; and\nThe analysis and interpretation of fundamental data analytics tools/outputs.\n\n\nThe second portion of the course transitions to applying our data analytics skills to various subdomains of accounting using current and relevant software packages. Coverage of subject matter related to the Extract-Transform-Load process will be incorporated throughout the course.",
+            "The first portion of the course covers a conceptual introduction to data analytics with emphasis on the ethical use of data, where we will learn:\n\n\nThe importance of assembling accounting data;\nThe desirable characteristics of data for effective calculations and visualization; and\nThe analysis and interpretation of fundamental data analytics tools/outputs.",
+            "The importance of assembling accounting data;",
+            "The desirable characteristics of data for effective calculations and visualization; and",
+            "The analysis and interpretation of fundamental data analytics tools/outputs.",
+            "The second portion of the course transitions to applying our data analytics skills to various subdomains of accounting using current and relevant software packages. Coverage of subject matter related to the Extract-Transform-Load process will be incorporated throughout the course."
+        ],
+        [
+            "The first portion of the course covers a conceptual introduction to data analytics with emphasis on the ethical use of data, where we will learn:\n\n\nThe importance of assembling accounting data;\nThe desirable characteristics of data for effective calculations and visualization; and\nThe analysis and interpretation of fundamental data analytics tools/outputs.",
+            "The importance of assembling accounting data;",
+            "The desirable characteristics of data for effective calculations and visualization; and",
+            "The analysis and interpretation of fundamental data analytics tools/outputs.",
+            "The second portion of the course transitions to applying our data analytics skills to various subdomains of accounting using current and relevant software packages. Coverage of subject matter related to the Extract-Transform-Load process will be incorporated throughout the course."
+        ],
+        [
+            "The importance of assembling accounting data;",
+            "The desirable characteristics of data for effective calculations and visualization; and",
+            "The analysis and interpretation of fundamental data analytics tools/outputs."
+        ],
+        [
+            "There is no required textbook or course packet for this course. All relevant source materials for class discussions and deliverables (e.g., slide decks and exercises related to various course topics) will be posted on Canvas in a timely manner throughout the fall term.",
+            "Please refer to Canvas as directed by the Instructor during class meetings, and/or as communicated via Canvas announcements."
+        ],
+        [
+            "There will be two exams given during the academic term. There will be no final exam during the University’s final exams week.",
+            "These exams:\n\n\nMay consist of a combination of multiple-choice questions, short answer questions, problems, and/or cases.\nWill be designed to test your conceptual understanding of the material being covered in the course.\nWill cover topics that will be announced in class meetings prior to each exam date (once such dates are finalized by the Instructor). We will also discuss any recommendations for preparation for each exam.\nWill each take place during our regularly scheduled class sessions.",
+            "May consist of a combination of multiple-choice questions, short answer questions, problems, and/or cases.",
+            "Will be designed to test your conceptual understanding of the material being covered in the course.",
+            "Will cover topics that will be announced in class meetings prior to each exam date (once such dates are finalized by the Instructor). We will also discuss any recommendations for preparation for each exam.",
+            "Will each take place during our regularly scheduled class sessions.",
+            "Conflict exams: For direct conflicts with exam dates that are known in advance, a conflict exam will ONL be given to students with Penn State University approved absences (e.g., University-approved curricular and extra-curricular activities, including employment interviews and religious holidays).\n\n\nYou must:\n\n\nProvide at least one week of advance notice;\nSubmit official/supporting documentation; and\n Receive permission from the Instructor prior to being approved to schedule a conflict exam.\n\n\nYour request for a conflict exam may be denied if advance notice is not provided (i.e., the Instructor is not obligated to give you a conflict exam if you fail to properly recognize and/or properly communicate your conflict with sufficient notice).\nConflict exams will be statistically similar in length and difficulty as non-conflict exams and will be scheduled at a mutually-agreeable time between the Instructor and student while remaining sensitive to integrity of the exam process.",
+            "You must:\n\n\nProvide at least one week of advance notice;\nSubmit official/supporting documentation; and\n Receive permission from the Instructor prior to being approved to schedule a conflict exam.",
+            "Provide at least one week of advance notice;",
+            "Submit official/supporting documentation; and",
+            "Receive permission from the Instructor prior to being approved to schedule a conflict exam.",
+            "Your request for a conflict exam may be denied if advance notice is not provided (i.e., the Instructor is not obligated to give you a conflict exam if you fail to properly recognize and/or properly communicate your conflict with sufficient notice).",
+            "Conflict exams will be statistically similar in length and difficulty as non-conflict exams and will be scheduled at a mutually-agreeable time between the Instructor and student while remaining sensitive to integrity of the exam process.",
+            "Make-up exams: In those rare instances where an emergency arises immediately prior to the exam (e.g., serious illness, injury, or a family emergency), contact the Instructor as soon as possible, explain the circumstances, and submit legitimate documentation supporting your excuse. The Instructor will make a reasonable judgment in these cases, but when deciding whether or not to approve a make-up exam the Instructor will consider the nature of the emergency, the timing of notice provided, and the integrity of the exam process. The Instructor will also consider the overwhelming percentage of students who are able to make the exam at the regularly-scheduled time. If your particular situation is not deemed by the Instructor to be a true emergency (e.g., serious illness, injury, or a family emergency), then your request for a make-up exam will be denied. Accordingly, do not rely on the existence of a make-up exam policy as an excuse to miss a regularly-scheduled exam. Make-up exams will be statistically similar in length and difficulty as non-make-up exams and will be scheduled at a mutually-agreeable time between the Instructor and student while remaining sensitive to integrity of the exam process."
+        ],
+        [
+            "May consist of a combination of multiple-choice questions, short answer questions, problems, and/or cases.",
+            "Will be designed to test your conceptual understanding of the material being covered in the course.",
+            "Will cover topics that will be announced in class meetings prior to each exam date (once such dates are finalized by the Instructor). We will also discuss any recommendations for preparation for each exam.",
+            "Will each take place during our regularly scheduled class sessions."
+        ],
+        [
+            "You must:\n\n\nProvide at least one week of advance notice;\nSubmit official/supporting documentation; and\n Receive permission from the Instructor prior to being approved to schedule a conflict exam.",
+            "Provide at least one week of advance notice;",
+            "Submit official/supporting documentation; and",
+            "Receive permission from the Instructor prior to being approved to schedule a conflict exam.",
+            "Your request for a conflict exam may be denied if advance notice is not provided (i.e., the Instructor is not obligated to give you a conflict exam if you fail to properly recognize and/or properly communicate your conflict with sufficient notice).",
+            "Conflict exams will be statistically similar in length and difficulty as non-conflict exams and will be scheduled at a mutually-agreeable time between the Instructor and student while remaining sensitive to integrity of the exam process."
+        ],
+        [
+            "Provide at least one week of advance notice;",
+            "Submit official/supporting documentation; and",
+            "Receive permission from the Instructor prior to being approved to schedule a conflict exam."
+        ],
+        [
+            "Individual assignments will be administered at various points throughout the course. These assignments will present opportunities to apply specific course learning objectives. (With respect to Discussion Board Assignments, these assignments may present opportunities to discuss items related to specific course learning objectives.)",
+            "Specific information will be provided in class meetings about the nature and administration of each individual assignment (including due dates and expected deliverables)."
+        ],
+        [
+            "Canvas drop boxes will be used as the primary submission vehicle for various course assignments. Canvas assessments may also be used as a submission vehicle for various course assignments.",
+            "When provided, a Canvas drop box and/or Canvas assessment MUST be used to submit your assignment.\n\n\nYour assignment will be considered to be on time if it is submitted to the correct drop box before the drop box and/or assessment closes.\nYour assignment will be considered to be late if it is submitted after the drop box and/or assessment closes (even if your submission time is one minute after the drop box closes!).\nIn most cases, it will still be possible to submit an assignment via a drop box and/or assessment after its due date. In this case, please understand that a ten percent (10%) grading deduction (based on the total points possible) will be assessed for each 24-hour period following the closure of any drop box and/or assessment. An additional one-time-only ten percent (10%) grading deduction (based on the total points possible) may be assessed if you upload any file(s) to the wrong drop box.",
+            "Your assignment will be considered to be on time if it is submitted to the correct drop box before the drop box and/or assessment closes.",
+            "Your assignment will be considered to be late if it is submitted after the drop box and/or assessment closes (even if your submission time is one minute after the drop box closes!).",
+            "In most cases, it will still be possible to submit an assignment via a drop box and/or assessment after its due date. In this case, please understand that a ten percent (10%) grading deduction (based on the total points possible) will be assessed for each 24-hour period following the closure of any drop box and/or assessment. An additional one-time-only ten percent (10%) grading deduction (based on the total points possible) may be assessed if you upload any file(s) to the wrong drop box."
+        ],
+        [
+            "Your assignment will be considered to be on time if it is submitted to the correct drop box before the drop box and/or assessment closes.",
+            "Your assignment will be considered to be late if it is submitted after the drop box and/or assessment closes (even if your submission time is one minute after the drop box closes!).",
+            "In most cases, it will still be possible to submit an assignment via a drop box and/or assessment after its due date. In this case, please understand that a ten percent (10%) grading deduction (based on the total points possible) will be assessed for each 24-hour period following the closure of any drop box and/or assessment. An additional one-time-only ten percent (10%) grading deduction (based on the total points possible) may be assessed if you upload any file(s) to the wrong drop box."
+        ],
+        [
+            "You are expected to take an active role in the learning process during your enrollment in this course. Much of the learning process will be based on activities such as classroom discussion and individual or group exercises. Therefore, you are expected to come to class prepared and ready to engage in the activities of the day. I will assess your participation throughout the semester. Lack of attendance may result in a loss of participation points associated with that evaluation. Late arrival and/or early departure may also result in a loss of participation points at the Instructor’s discretion.",
+            "The Participation grading category will consist of THREE separate evaluation points:\n\n\nOne for the first five weeks of the course;\nOne for the second five weeks of the course; and\nOne for the last five weeks of the course.",
+            "One for the first five weeks of the course;",
+            "One for the second five weeks of the course; and",
+            "One for the last five weeks of the course.",
+            "Each evaluation point will consist of two components:\n\n\nAn objective assessment worth 50% of the overall grading category: The objective component will be based on observed in-class participation, which is inherently different for each person. As I get to know you, I will also get to know your style of engagement. For some students, this will involve volunteering responses to questions being asked of the group during class. For other students, remaining engaged may involve the manifestation of a different learning style. Regular attendance and remaining engaged in the daily activities and/or classroom discussion in a manner that remains consistent with your learning style is the key to earning the objective Participation points.\nA subjective assessment worth 50% of the overall grading category: By contrast, the subjective component will be based on my personal assessment of your overall level of participation in the course, given the opportunities provided throughout the academic term. This may include my personal assessment of your level of attendance*** and in-class engagement, and this may also include my personal assessment of whether you took advantage of course resources such as office hours, if needed. Disengaging in classroom activities will quickly reduce both your objective and subjective Participation scores.",
+            "An objective assessment worth 50% of the overall grading category: The objective component will be based on observed in-class participation, which is inherently different for each person. As I get to know you, I will also get to know your style of engagement. For some students, this will involve volunteering responses to questions being asked of the group during class. For other students, remaining engaged may involve the manifestation of a different learning style. Regular attendance and remaining engaged in the daily activities and/or classroom discussion in a manner that remains consistent with your learning style is the key to earning the objective Participation points.",
+            "A subjective assessment worth 50% of the overall grading category: By contrast, the subjective component will be based on my personal assessment of your overall level of participation in the course, given the opportunities provided throughout the academic term. This may include my personal assessment of your level of attendance*** and in-class engagement, and this may also include my personal assessment of whether you took advantage of course resources such as office hours, if needed. Disengaging in classroom activities will quickly reduce both your objective and subjective Participation scores."
+        ],
+        [
+            "One for the first five weeks of the course;",
+            "One for the second five weeks of the course; and",
+            "One for the last five weeks of the course."
+        ],
+        [
+            "An objective assessment worth 50% of the overall grading category: The objective component will be based on observed in-class participation, which is inherently different for each person. As I get to know you, I will also get to know your style of engagement. For some students, this will involve volunteering responses to questions being asked of the group during class. For other students, remaining engaged may involve the manifestation of a different learning style. Regular attendance and remaining engaged in the daily activities and/or classroom discussion in a manner that remains consistent with your learning style is the key to earning the objective Participation points.",
+            "A subjective assessment worth 50% of the overall grading category: By contrast, the subjective component will be based on my personal assessment of your overall level of participation in the course, given the opportunities provided throughout the academic term. This may include my personal assessment of your level of attendance*** and in-class engagement, and this may also include my personal assessment of whether you took advantage of course resources such as office hours, if needed. Disengaging in classroom activities will quickly reduce both your objective and subjective Participation scores."
+        ],
+        [
+            "Data Analytics",
+            "Inferential Statistics and Hypothesis Testing",
+            "Two-Sample T-Tests"
+        ],
+        [
+            "What",
+            "Why"
+        ],
+        [
+            "What are some data sources of accounting-specific knowledge?\n\nFinancial accounting data\nManagerial accounting data\nTax accounting data\nGovernmental accounting data",
+            "Financial accounting data",
+            "Managerial accounting data",
+            "Tax accounting data",
+            "Governmental accounting data"
+        ],
+        [
+            "Financial accounting data",
+            "Managerial accounting data",
+            "Tax accounting data",
+            "Governmental accounting data"
+        ],
+        [
+            "Why Accounting-Specific Knowledge X DA?\n\nAdvances in technology è Analyze larger and larger data sets.\n“AI won’t replace accountants; folks with AI/DA training will replace the untrained…”.\nMarket signals: Industry:\n\n\nPractitioners: AICPA/NASBA (Source: https://www.evolutionofcpa.org/): New licensure model.\n\n\nEmployers: EY: EY.ai (Source: https://www.ey.com/en_us/big-data-analytics): “…a partner that understands their business and can connect AI capabilities to drive transformation… Drawing on experience across …assurance and tax with diverse perspectives and insights, we deliver solutions that put humans at the center of transformation.”\nMarket signals: AcadAdvances in technology è Analyze larger and larger data sets.\n“AI won’t replace accountants; folks with AI/DA training will replace the untrained…”.\nMarket signals: Industry:\n\n\nPractitioners: AICPA/NASBA (Source: https://www.evolutionofcpa.org/): New licensure model.\n\n\nEmployers: EY: EY.ai (Source: https://www.ey.com/en_us/big-data-analytics): “…a partner that understands their business and can connect AI capabilities to drive transformation… Drawing on experience across …assurance and tax with diverse perspectives and insights, we deliver solutions that put humans at the center of transformation.”\nMarket signals: Academia:\n\n\nGreater compute-capacity + Emerging tech. (e.g., AI/ChatGPT, etc.) è Algorithmic automation of repetitive and/or low-risk accounting functions/tasks.",
+            "Advances in technology è Analyze larger and larger data sets.",
+            "“AI won’t replace accountants; folks with AI/DA training will replace the untrained…”.",
+            "Market signals: Industry:\n\n\nPractitioners: AICPA/NASBA (Source: https://www.evolutionofcpa.org/): New licensure model.",
+            "Practitioners: AICPA/NASBA (Source: https://www.evolutionofcpa.org/): New licensure model.",
+            "Employers: EY: EY.ai (Source: https://www.ey.com/en_us/big-data-analytics): “…a partner that understands their business and can connect AI capabilities to drive transformation… Drawing on experience across …assurance and tax with diverse perspectives and insights, we deliver solutions that put humans at the center of transformation.”",
+            "Market signals: AcadAdvances in technology è Analyze larger and larger data sets.",
+            "“AI won’t replace accountants; folks with AI/DA training will replace the untrained…”.",
+            "Market signals: Industry:\n\n\nPractitioners: AICPA/NASBA (Source: https://www.evolutionofcpa.org/): New licensure model.",
+            "Practitioners: AICPA/NASBA (Source: https://www.evolutionofcpa.org/): New licensure model.",
+            "Employers: EY: EY.ai (Source: https://www.ey.com/en_us/big-data-analytics): “…a partner that understands their business and can connect AI capabilities to drive transformation… Drawing on experience across …assurance and tax with diverse perspectives and insights, we deliver solutions that put humans at the center of transformation.”",
+            "Market signals: Academia:\n\n\nGreater compute-capacity + Emerging tech. (e.g., AI/ChatGPT, etc.) è Algorithmic automation of repetitive and/or low-risk accounting functions/tasks.",
+            "Greater compute-capacity + Emerging tech. (e.g., AI/ChatGPT, etc.) è Algorithmic automation of repetitive and/or low-risk accounting functions/tasks."
+        ],
+        [
+            "Advances in technology è Analyze larger and larger data sets.",
+            "“AI won’t replace accountants; folks with AI/DA training will replace the untrained…”.",
+            "Market signals: Industry:\n\n\nPractitioners: AICPA/NASBA (Source: https://www.evolutionofcpa.org/): New licensure model.",
+            "Practitioners: AICPA/NASBA (Source: https://www.evolutionofcpa.org/): New licensure model.",
+            "Employers: EY: EY.ai (Source: https://www.ey.com/en_us/big-data-analytics): “…a partner that understands their business and can connect AI capabilities to drive transformation… Drawing on experience across …assurance and tax with diverse perspectives and insights, we deliver solutions that put humans at the center of transformation.”",
+            "Market signals: AcadAdvances in technology è Analyze larger and larger data sets.",
+            "“AI won’t replace accountants; folks with AI/DA training will replace the untrained…”.",
+            "Market signals: Industry:\n\n\nPractitioners: AICPA/NASBA (Source: https://www.evolutionofcpa.org/): New licensure model.",
+            "Practitioners: AICPA/NASBA (Source: https://www.evolutionofcpa.org/): New licensure model.",
+            "Employers: EY: EY.ai (Source: https://www.ey.com/en_us/big-data-analytics): “…a partner that understands their business and can connect AI capabilities to drive transformation… Drawing on experience across …assurance and tax with diverse perspectives and insights, we deliver solutions that put humans at the center of transformation.”",
+            "Market signals: Academia:\n\n\nGreater compute-capacity + Emerging tech. (e.g., AI/ChatGPT, etc.) è Algorithmic automation of repetitive and/or low-risk accounting functions/tasks.",
+            "Greater compute-capacity + Emerging tech. (e.g., AI/ChatGPT, etc.) è Algorithmic automation of repetitive and/or low-risk accounting functions/tasks."
+        ],
+        [
+            "Practitioners: AICPA/NASBA (Source: https://www.evolutionofcpa.org/): New licensure model."
+        ],
+        [
+            "Practitioners: AICPA/NASBA (Source: https://www.evolutionofcpa.org/): New licensure model."
+        ],
+        [
+            "Greater compute-capacity + Emerging tech. (e.g., AI/ChatGPT, etc.) è Algorithmic automation of repetitive and/or low-risk accounting functions/tasks."
+        ],
+        [
+            "Inferential Statistics:\n\nBranch of statistics that focuses on making inferences about a population based on sample data.\nAllows researchers to draw conclusions and make predictions about population based on representative sample.\nInvolves estimating population parameters, testing hypotheses, and making predictions.",
+            "Branch of statistics that focuses on making inferences about a population based on sample data.",
+            "Allows researchers to draw conclusions and make predictions about population based on representative sample.",
+            "Involves estimating population parameters, testing hypotheses, and making predictions."
+        ],
+        [
+            "Branch of statistics that focuses on making inferences about a population based on sample data.",
+            "Allows researchers to draw conclusions and make predictions about population based on representative sample.",
+            "Involves estimating population parameters, testing hypotheses, and making predictions."
+        ],
+        [
+            "Purpose: Answers question, “Are two population means equal or different?”"
+        ],
+        [
+            "Example: Regulation Crowdfunding (“RegCF”) market: Overview:\n\nStarted: 2016 2Q.\nMax target: $1M (prior to March 15, 2021); $5M (after March 15, 2021).\n\n\nExpectations: “…likely to attract more quality issuers…” (Source: Republic 2021.)\n\n\nDoes average start-up quality indeed improve from pre- to post-amendment? (Descriptive Analytics)\n\n\nIf so, I might be interested in investing…\n\n\nEmpirically investigate:\n\n\nAverage total assets for ALL startups pre-amendment = …ALL post-amendment startups?\n\n\nAt least 20 quarters’ data (2016 2Q–2021 1Q) for pre-amendment period alone!\nTime-consuming to assemble all data; simply want quick preview, so no thanks.\n\n\nAlternative: Sample one quarter’s data from each population (pre- and post-amendment period).\n\n\nPre-amendment: Quarter immediately preceding amendment. Post-amendment: Quarter immediately following amendment.",
+            "Started: 2016 2Q.",
+            "Max target: $1M (prior to March 15, 2021); $5M (after March 15, 2021).\n\n\nExpectations: “…likely to attract more quality issuers…” (Source: Republic 2021.)",
+            "Expectations: “…likely to attract more quality issuers…” (Source: Republic 2021.)",
+            "Does average start-up quality indeed improve from pre- to post-amendment? (Descriptive Analytics)\n\n\nIf so, I might be interested in investing…",
+            "If so, I might be interested in investing…",
+            "Empirically investigate:\n\n\nAverage total assets for ALL startups pre-amendment = …ALL post-amendment startups?\n\n\nAt least 20 quarters’ data (2016 2Q–2021 1Q) for pre-amendment period alone!\nTime-consuming to assemble all data; simply want quick preview, so no thanks.\n\n\nAlternative: Sample one quarter’s data from each population (pre- and post-amendment period).\n\n\nPre-amendment: Quarter immediately preceding amendment. Post-amendment: Quarter immediately following amendment.",
+            "Average total assets for ALL startups pre-amendment = …ALL post-amendment startups?\n\n\nAt least 20 quarters’ data (2016 2Q–2021 1Q) for pre-amendment period alone!\nTime-consuming to assemble all data; simply want quick preview, so no thanks.",
+            "At least 20 quarters’ data (2016 2Q–2021 1Q) for pre-amendment period alone!",
+            "Time-consuming to assemble all data; simply want quick preview, so no thanks.",
+            "Alternative: Sample one quarter’s data from each population (pre- and post-amendment period).\n\n\nPre-amendment: Quarter immediately preceding amendment. Post-amendment: Quarter immediately following amendment.",
+            "Pre-amendment: Quarter immediately preceding amendment. Post-amendment: Quarter immediately following amendment."
+        ],
+        [
+            "Started: 2016 2Q.",
+            "Max target: $1M (prior to March 15, 2021); $5M (after March 15, 2021).\n\n\nExpectations: “…likely to attract more quality issuers…” (Source: Republic 2021.)",
+            "Expectations: “…likely to attract more quality issuers…” (Source: Republic 2021.)",
+            "Does average start-up quality indeed improve from pre- to post-amendment? (Descriptive Analytics)\n\n\nIf so, I might be interested in investing…",
+            "If so, I might be interested in investing…",
+            "Empirically investigate:\n\n\nAverage total assets for ALL startups pre-amendment = …ALL post-amendment startups?\n\n\nAt least 20 quarters’ data (2016 2Q–2021 1Q) for pre-amendment period alone!\nTime-consuming to assemble all data; simply want quick preview, so no thanks.\n\n\nAlternative: Sample one quarter’s data from each population (pre- and post-amendment period).\n\n\nPre-amendment: Quarter immediately preceding amendment. Post-amendment: Quarter immediately following amendment.",
+            "Average total assets for ALL startups pre-amendment = …ALL post-amendment startups?\n\n\nAt least 20 quarters’ data (2016 2Q–2021 1Q) for pre-amendment period alone!\nTime-consuming to assemble all data; simply want quick preview, so no thanks.",
+            "At least 20 quarters’ data (2016 2Q–2021 1Q) for pre-amendment period alone!",
+            "Time-consuming to assemble all data; simply want quick preview, so no thanks.",
+            "Alternative: Sample one quarter’s data from each population (pre- and post-amendment period).\n\n\nPre-amendment: Quarter immediately preceding amendment. Post-amendment: Quarter immediately following amendment.",
+            "Pre-amendment: Quarter immediately preceding amendment. Post-amendment: Quarter immediately following amendment."
+        ],
+        [
+            "Expectations: “…likely to attract more quality issuers…” (Source: Republic 2021.)"
+        ],
+        [
+            "If so, I might be interested in investing…"
+        ],
+        [
+            "Average total assets for ALL startups pre-amendment = …ALL post-amendment startups?\n\n\nAt least 20 quarters’ data (2016 2Q–2021 1Q) for pre-amendment period alone!\nTime-consuming to assemble all data; simply want quick preview, so no thanks.",
+            "At least 20 quarters’ data (2016 2Q–2021 1Q) for pre-amendment period alone!",
+            "Time-consuming to assemble all data; simply want quick preview, so no thanks.",
+            "Alternative: Sample one quarter’s data from each population (pre- and post-amendment period).\n\n\nPre-amendment: Quarter immediately preceding amendment. Post-amendment: Quarter immediately following amendment.",
+            "Pre-amendment: Quarter immediately preceding amendment. Post-amendment: Quarter immediately following amendment."
+        ],
+        [
+            "At least 20 quarters’ data (2016 2Q–2021 1Q) for pre-amendment period alone!",
+            "Time-consuming to assemble all data; simply want quick preview, so no thanks."
+        ],
+        [
+            "Pre-amendment: Quarter immediately preceding amendment. Post-amendment: Quarter immediately following amendment."
+        ],
+        [
+            "Each observation in one sample = Independent of observations in other sample.",
+            "Normally distributed data = Bell-curve shaped; however, no need to investigate as each sample’s n is >30.",
+            "Two samples’ variance = ~Same; if not, employ appropriate test statistic.",
+            "Data for both samples obtained via random sampling method.\n\n\nRandom selection  ~Representative sample.\nAlternative: Convenience sampling: Non-random as not every member in population has equal probability of selection.\n\n\nPros: More convenient: Rather than collecting/consolidating all quarters’ data for random sampling,select one quarter from each population based on professional judgment for brief exploratory examination.\n\n\nConsistent with my objective: \n\n\nGain an initial understanding first.\nThen, weigh costs/benefits of expanding investigation to better inform ultimate investment decision (e.g., time to collect and assemble).\n\n\n\n\nCons: Should not draw inferences about original populations as convenience samples ≠ representative.",
+            "Random selection  ~Representative sample.",
+            "Alternative: Convenience sampling: Non-random as not every member in population has equal probability of selection.\n\n\nPros: More convenient: Rather than collecting/consolidating all quarters’ data for random sampling,select one quarter from each population based on professional judgment for brief exploratory examination.\n\n\nConsistent with my objective: \n\n\nGain an initial understanding first.\nThen, weigh costs/benefits of expanding investigation to better inform ultimate investment decision (e.g., time to collect and assemble).\n\n\n\n\nCons: Should not draw inferences about original populations as convenience samples ≠ representative.",
+            "Pros: More convenient: Rather than collecting/consolidating all quarters’ data for random sampling,select one quarter from each population based on professional judgment for brief exploratory examination.\n\n\nConsistent with my objective: \n\n\nGain an initial understanding first.\nThen, weigh costs/benefits of expanding investigation to better inform ultimate investment decision (e.g., time to collect and assemble).",
+            "Consistent with my objective: \n\n\nGain an initial understanding first.\nThen, weigh costs/benefits of expanding investigation to better inform ultimate investment decision (e.g., time to collect and assemble).",
+            "Gain an initial understanding first.",
+            "Then, weigh costs/benefits of expanding investigation to better inform ultimate investment decision (e.g., time to collect and assemble).",
+            "Cons: Should not draw inferences about original populations as convenience samples ≠ representative."
+        ],
+        [
+            "Random selection  ~Representative sample.",
+            "Alternative: Convenience sampling: Non-random as not every member in population has equal probability of selection.\n\n\nPros: More convenient: Rather than collecting/consolidating all quarters’ data for random sampling,select one quarter from each population based on professional judgment for brief exploratory examination.\n\n\nConsistent with my objective: \n\n\nGain an initial understanding first.\nThen, weigh costs/benefits of expanding investigation to better inform ultimate investment decision (e.g., time to collect and assemble).\n\n\n\n\nCons: Should not draw inferences about original populations as convenience samples ≠ representative.",
+            "Pros: More convenient: Rather than collecting/consolidating all quarters’ data for random sampling,select one quarter from each population based on professional judgment for brief exploratory examination.\n\n\nConsistent with my objective: \n\n\nGain an initial understanding first.\nThen, weigh costs/benefits of expanding investigation to better inform ultimate investment decision (e.g., time to collect and assemble).",
+            "Consistent with my objective: \n\n\nGain an initial understanding first.\nThen, weigh costs/benefits of expanding investigation to better inform ultimate investment decision (e.g., time to collect and assemble).",
+            "Gain an initial understanding first.",
+            "Then, weigh costs/benefits of expanding investigation to better inform ultimate investment decision (e.g., time to collect and assemble).",
+            "Cons: Should not draw inferences about original populations as convenience samples ≠ representative."
+        ],
+        [
+            "Pros: More convenient: Rather than collecting/consolidating all quarters’ data for random sampling,select one quarter from each population based on professional judgment for brief exploratory examination.\n\n\nConsistent with my objective: \n\n\nGain an initial understanding first.\nThen, weigh costs/benefits of expanding investigation to better inform ultimate investment decision (e.g., time to collect and assemble).",
+            "Consistent with my objective: \n\n\nGain an initial understanding first.\nThen, weigh costs/benefits of expanding investigation to better inform ultimate investment decision (e.g., time to collect and assemble).",
+            "Gain an initial understanding first.",
+            "Then, weigh costs/benefits of expanding investigation to better inform ultimate investment decision (e.g., time to collect and assemble).",
+            "Cons: Should not draw inferences about original populations as convenience samples ≠ representative."
+        ],
+        [
+            "Consistent with my objective: \n\n\nGain an initial understanding first.\nThen, weigh costs/benefits of expanding investigation to better inform ultimate investment decision (e.g., time to collect and assemble).",
+            "Gain an initial understanding first.",
+            "Then, weigh costs/benefits of expanding investigation to better inform ultimate investment decision (e.g., time to collect and assemble)."
+        ],
+        [
+            "Gain an initial understanding first.",
+            "Then, weigh costs/benefits of expanding investigation to better inform ultimate investment decision (e.g., time to collect and assemble)."
+        ],
+        [
+            "Go to https://www.sec.gov/dera/data/crowdfunding-offerings-data-sets and scroll down to bottom of page",
+            "Click on “2020 Q4 CF” and “2021 Q2 CF”, download each quarter’s ZIP file, and unzip.",
+            "From each zip file, convert “FORM_C_DISCLOSURE” .TSV files to Excel and save both quarter’s tabs to one Excel file."
+        ],
+        [
+            "H0: μ1=μ2, or μ1–μ2=0 (The two-population means are equal.)",
+            "H1: μ1≠μ2, or μ1–μ2≠0 (The two-population means are not equal.)"
+        ],
+        [
+            "Reject the null hypothesis."
+        ],
+        [
+            "Gain an understanding of data analytics thinking and terminology; and",
+            "Gain hands-on experience with data analytics tools and techniques.\n\nThe first portion of the course covers a conceptual introduction to data analytics with emphasis on the ethical use of data, where we will learn:\n\nThe importance of assembling accounting data;\nThe desirable characteristics of data for effective calculations and visualization; and\nThe analysis and interpretation of fundamental data analytics tools/outputs.\n\n\nThe second portion of the course transitions to applying our data analytics skills to various subdomains of accounting using current and relevant software packages. Coverage of subject matter related to the Extract-Transform-Load process will be incorporated throughout the course.",
+            "The first portion of the course covers a conceptual introduction to data analytics with emphasis on the ethical use of data, where we will learn:\n\nThe importance of assembling accounting data;\nThe desirable characteristics of data for effective calculations and visualization; and\nThe analysis and interpretation of fundamental data analytics tools/outputs.",
+            "The importance of assembling accounting data;",
+            "The desirable characteristics of data for effective calculations and visualization; and",
+            "The analysis and interpretation of fundamental data analytics tools/outputs.",
+            "The second portion of the course transitions to applying our data analytics skills to various subdomains of accounting using current and relevant software packages. Coverage of subject matter related to the Extract-Transform-Load process will be incorporated throughout the course."
+        ],
+        [
+            "The first portion of the course covers a conceptual introduction to data analytics with emphasis on the ethical use of data, where we will learn:\n\nThe importance of assembling accounting data;\nThe desirable characteristics of data for effective calculations and visualization; and\nThe analysis and interpretation of fundamental data analytics tools/outputs.",
+            "The importance of assembling accounting data;",
+            "The desirable characteristics of data for effective calculations and visualization; and",
+            "The analysis and interpretation of fundamental data analytics tools/outputs.",
+            "The second portion of the course transitions to applying our data analytics skills to various subdomains of accounting using current and relevant software packages. Coverage of subject matter related to the Extract-Transform-Load process will be incorporated throughout the course."
+        ],
+        [
+            "The importance of assembling accounting data;",
+            "The desirable characteristics of data for effective calculations and visualization; and",
+            "The analysis and interpretation of fundamental data analytics tools/outputs."
+        ],
+        [
+            "L1,L2",
+            "L3,L4",
+            "L5,L6",
+            "L7,L8",
+            "L9,L10",
+            "L11,L12",
+            "L13,L14"
+        ],
+        [
+            "Introductions: Connect with your instructor and classmates to establish a collaborative learning environment.",
+            "Course Objectives and Expectations: Understand the syllabus, course goals, key deliverables, and participation expectations.",
+            "Data Analytics: Broad Perspective: Explore the basics of data analytics, including its definition, purpose, and broad applications.",
+            "Data Analytics: The Profession’s Perspective: Discover how data analytics is applied in the accounting profession, the importance of industry-specific data sources, and a preview of analytics tools and methods."
+        ],
+        [
+            "Class Introduction Discussions: Share personal backgrounds and learn about others to build rapport.",
+            "Syllabus Review Session: Participate in a guided walkthrough of the syllabus to clarify expectations and key milestones.",
+            "Lecture on Broad Perspective of Data Analytics: Engage with an interactive discussion to understand the fundamental concepts and significance of data analytics.",
+            "Case Discussion on Accounting Data Analytics: Analyze real-world examples to explore the role and impact of data analytics in accounting."
+        ],
+        [
+            "Types of Data: Understand the vast array of data types available for analysis and their relevance in accounting scenarios.",
+            "Introduction to Types of Data Analytics: Gain an overview of the four key types of data analytics and their applications.\n\nDescriptive Analytics: Learn how to summarize historical data to understand trends and patterns.\nDiagnostic Analytics: Explore techniques to investigate the causes behind specific data trends.\nPredictive Analytics: Discover methods for forecasting future outcomes based on historical data.\nPrescriptive Analytics: Understand how to use analytics to recommend actionable strategies.",
+            "Descriptive Analytics: Learn how to summarize historical data to understand trends and patterns.",
+            "Diagnostic Analytics: Explore techniques to investigate the causes behind specific data trends.",
+            "Predictive Analytics: Discover methods for forecasting future outcomes based on historical data.",
+            "Prescriptive Analytics: Understand how to use analytics to recommend actionable strategies."
+        ],
+        [
+            "Descriptive Analytics: Learn how to summarize historical data to understand trends and patterns.",
+            "Diagnostic Analytics: Explore techniques to investigate the causes behind specific data trends.",
+            "Predictive Analytics: Discover methods for forecasting future outcomes based on historical data.",
+            "Prescriptive Analytics: Understand how to use analytics to recommend actionable strategies."
+        ],
+        [
+            "Interactive Discussion on Data Types: Participate in a guided discussion on the types of data commonly used in analytics and their importance.",
+            "Lecture on Data Analytics Types: Engage with presentations that introduce descriptive, diagnostic, predictive, and prescriptive analytics, including practical examples.",
+            "Group Activity on Analytical Scenarios: Collaborate with peers to identify appropriate types of analytics for various accounting scenarios.",
+            "Q&A Session on Analytical Techniques: Clarify concepts and deepen understanding of analytics methods through instructor-led discussions."
+        ],
+        [
+            "Hypothesis Testing: Overview: Learn the purpose and process of hypothesis testing in data analytics.",
+            "Two-Sample T-Tests: Introduction: Understand the basics of two-sample t-tests, including their purpose and assumptions.",
+            "Two-Sample T-Tests: Application: Explore practical scenarios where two-sample t-tests are used to compare data sets and derive insights."
+        ],
+        [
+            "Lecture on Hypothesis Testing: Gain an understanding of the hypothesis testing framework and its importance in data analysis.",
+            "Interactive Presentation on Two-Sample T-Tests: Engage in a step-by-step walkthrough of two-sample t-tests, including key concepts and calculations.",
+            "Self-Study Exercise on Applications: Work independently on real-world examples to practice applying two-sample t-tests.",
+            "Class Discussion on Insights: Share findings from exercises and discuss the implications of t-test results in accounting contexts."
+        ],
+        [
+            "What is Accounting Data?: Explore the nature of accounting data and its key characteristics.",
+            "Why is Accounting Data Important?: Understand the significance of accounting data in supporting business decisions and financial analysis.",
+            "How is Accounting Data Used?: Learn about practical applications of accounting data in analytics, including examples of data processing and interpretation."
+        ],
+        [
+            "Lecture on Accounting Data Characteristics: Participate in a discussion that outlines the defining features of accounting data.",
+            "Interactive Exploration of Accounting Data Uses: Engage in a session on the practical applications of accounting data in decision-making scenarios.",
+            "Group Exercise on Data Analysis: Collaborate with peers to analyze sample accounting datasets and derive actionable insights.",
+            "Q&A and Reflection Session: Discuss questions and share key takeaways about the applications and value of accounting data."
+        ],
+        [
+            "Exam Format: Gain clarity on the structure of Exam #01, which will include questions related to course topics.",
+            "Topics Covered: Expect questions on foundational concepts such as data types, analytics methods, hypothesis testing, and accounting data applications.",
+            "Preparation Tips: Review key materials from Weeks 1–4 to ensure readiness for the assessment."
+        ],
+        [
+            "Self-Study and Revision: Revisit lecture notes, discussion points, and exercises from previous weeks to reinforce your understanding.",
+            "Practice Questions: Complete optional practice questions or review exercises provided by the instructor to build confidence.",
+            "Exam Participation: Complete Exam #01, applying your knowledge to answer multiple-choice, short-answer, or problem-solving questions."
+        ],
+        [
+            "Descriptive Analytics: Overview: Understand the purpose and role of descriptive analytics in summarizing and interpreting data.",
+            "Why Descriptive Analytics Matters: Learn how descriptive analytics provides insights into trends, patterns, and data summaries.",
+            "Measures of Dispersion: Introduction: Explore key concepts like range, variance, and standard deviation to understand data variability.",
+            "How to Apply Descriptive Analytics: Gain practical experience using tools and techniques to calculate and interpret measures of dispersion."
+        ],
+        [
+            "Workshop on Descriptive Analytics: Engage in a guided session that delves deeper into the principles of descriptive analytics.",
+            "Hands-On Practice with In-Class Data: Use provided datasets (e.g., asset price data) to apply concepts and perform descriptive analyses.",
+            "Interactive Lecture on Measures of Dispersion: Participate in a presentation that explains and demonstrates calculations for range, variance, and standard deviation.",
+            "Collaborative Data Exercises: Work with peers to analyze data and interpret measures of dispersion in the context of real-world scenarios."
+        ],
+        [
+            "Diagnostic Analytics: Overview: Learn how diagnostic analytics helps identify the causes of trends and anomalies in data.",
+            "Why Diagnostic Analytics is Critical: Understand its importance in problem-solving and decision-making processes.",
+            "How to Perform Diagnostic Analytics: Gain insight into methods and tools, such as correlation analysis, used to uncover data relationships.",
+            "Hypothesis Testing Foundations: Explore the theoretical underpinnings of hypothesis testing, including its role in validating data-driven assumptions."
+        ],
+        [
+            "Lecture on Diagnostic Analytics: Participate in a session covering the principles, importance, and techniques of diagnostic analytics.",
+            "Hands-On Practice with Correlation Data: Use provided datasets to explore relationships between variables and identify meaningful patterns.",
+            "Discussion on Hypothesis Testing Theory: Engage in a conceptual overview of hypothesis testing, focusing on its purpose and methodology.",
+            "Collaborative Analysis Exercise: Work in groups to apply diagnostic analytics techniques to a real-world scenario and discuss findings."
+        ],
+        [
+            "Two-Sample T-Tests: Introduction and Application: Review the basics of two-sample t-tests, including when and how they are applied to compare two independent data sets.",
+            "Z-Tests: Background and Theory: Understand the theoretical foundation of z-tests, which are used for comparing sample data against population parameters.",
+            "Z-Tests: Application: Learn how to apply z-tests to evaluate hypotheses in practical scenarios."
+        ],
+        [
+            "Two-Sample T-Test Practice: Engage in a hands-on exercise using provided data to apply the two-sample t-test and interpret the results.",
+            "Z-Test Scenario Analysis: Work with sample data to practice calculating and applying z-tests in real-world contexts.",
+            "Discussion on Hypothesis Testing: Participate in a class discussion about when to use a t-test vs. a z-test and the implications of each test’s results.",
+            "Interactive Application Session: Analyze data through both t-tests and z-tests, discussing the results and their significance."
+        ],
+        [
+            "Exam Format: Clarify the structure of Exam #02, which will include questions covering various course topics.",
+            "Topics to Review: Be prepared for questions related to hypothesis testing (t-tests, z-tests), descriptive and diagnostic analytics, and other key analytical concepts.",
+            "Assessment Purpose: The exam will assess your grasp of core data analytics methods and your ability to apply them in real-world scenarios."
+        ],
+        [
+            "Review of Key Concepts: Revisit lecture notes, class discussions, and exercises from previous weeks to prepare for the exam.",
+            "Practice Problems: Work through sample questions or review exercises to ensure understanding and readiness.",
+            "Exam Completion: Complete Exam #02, answering multiple-choice, short-answer, or problem-solving questions based on the covered material."
+        ],
+        [
+            "Final Project Guidelines: Review the structure and expectations of the final project, including key deliverables and deadlines.",
+            "Project Topic and Scope: Learn how to select a relevant topic and define the scope of your analysis, ensuring it aligns with the course objectives.",
+            "Data Analysis Techniques to Apply: Understand which data analytics methods (descriptive, diagnostic, hypothesis testing) are expected to be used in your project.",
+            "Submission and Evaluation Criteria: Familiarize yourself with the assessment rubric and the criteria on which your project will be evaluated."
+        ],
+        [
+            "Final Project Briefing: Attend a session explaining the final project requirements, helping you plan and organize your work.",
+            "Project Topic Selection: Begin brainstorming and selecting a project topic that applies course concepts to a practical data analysis scenario.",
+            "Review of Previous Projects: Look at examples of past final projects to understand the expectations and quality of work needed.",
+            "Q&A Session: Participate in a class discussion to ask questions and clarify any aspects of the project guidelines."
+        ],
+        [
+            "Final Project Checkpoint: Review and ensure you have completed any initial tasks or steps for the final project as outlined in the project guidelines.",
+            "Consult the Guidelines: Carefully read through the Final Project_Guidelines and note any upcoming deadlines or key tasks that need to be completed in the following weeks.",
+            "Data Selection: Begin selecting data for your final project, ensuring it is from a finance/accounting setting that is distinct from the Regulation Crowdfunding dataset used in class.",
+            "Practice with Code: Utilize the shared Google Colab Notebook to practice running code templates that will support your analysis in the final project."
+        ],
+        [
+            "Guidelines Review: Go through the final project guidelines and make sure you understand the requirements for data sources, analysis techniques, and project deliverables.",
+            "Data Exploration: Start exploring the finance/accounting data you will use, ensuring it is suitable for your project objectives.",
+            "Code Practice: Practice with the code templates provided in the shared Google Colab Notebook, tailoring it to your specific data and project requirements."
+        ],
+        [
+            "Data Analysis: Start applying descriptive, diagnostic, and/or predictive analytics to your chosen dataset.",
+            "Refine Your Methodology: Ensure that your analysis approach is aligned with the project’s requirements and your selected data source.",
+            "Use of Code Templates: Continue practicing and customizing the Google Colab code templates to suit your specific data analysis needs.",
+            "Consultation: Seek feedback and guidance from the instructor or peers as you refine your project."
+        ],
+        [
+            "Data Analysis Exercise: Use the code templates to analyze your data and test your hypotheses.",
+            "Peer Review: Participate in a peer review session where you can exchange feedback on each other’s data analysis methods and progress.",
+            "Consult with Instructor: If needed, schedule time with the instructor to discuss any challenges or areas of improvement in your project."
+        ],
+        [
+            "Finalizing Data Analysis: Ensure that all analysis steps are complete, and results are thoroughly interpreted.",
+            "Report Structure: Start drafting the report, focusing on presenting your methodology, analysis, and findings clearly and effectively.",
+            "Integration of GenAI: If you used GenAI tools like Microsoft Copilot in your project, ensure you have saved documentation of your prompts and the generated results, as these will be included in your final submission."
+        ],
+        [
+            "Data Interpretation: Review the results of your analysis and finalize your interpretation of the findings.",
+            "Report Writing: Begin drafting the report, focusing on structuring your methodology, results, and conclusions logically.",
+            "GenAI Documentation: If applicable, ensure all documentation of GenAI prompts and responses is saved and formatted for inclusion in the report."
+        ],
+        [
+            "Peer Review: Participate in a peer review session to provide and receive feedback on your projects.",
+            "Project Refinement: Use feedback to refine and improve your final project, focusing on clarity and quality.",
+            "Final Adjustments: Make any necessary adjustments to your analysis, presentation, and overall project structure.",
+            "Final Project Submission: Ensure all components of your final project are complete and ready for submission.",
+            "Review and Double-Check: Verify that your project adheres to the guidelines and includes all required documentation.",
+            "Course Reflection: Reflect on the skills and knowledge gained throughout the course and consider how you will apply them in future work."
+        ],
+        [
+            "Peer Review: Review a peer’s project and provide feedback based on the established criteria.",
+            "Incorporating Feedback: Use peer feedback to revise and enhance your final project.",
+            "Refinement: Implement final changes needed for clarity, completeness, and quality.",
+            "Final Project Submission: Submit your completed project via the designated platform.",
+            "Course Reflection: Write a brief reflection about your learning journey and the key takeaways from the course.",
+            "Final Q&A: Participate in a final Q&A session for any last-minute clarifications"
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Penn State University Library",
+            "url": "https://libraries.psu.edu/"
+        },
+        {
+            "text": "What",
+            "url": "#tab-strongwhatstrong"
+        },
+        {
+            "text": "Why",
+            "url": "#tab-strongwhystrong"
+        },
+        {
+            "text": "humans at the center of transformation",
+            "url": "https://www.ey.com/en_gl/services/ai/platform"
+        },
+        {
+            "text": "humans at the center of transformation",
+            "url": "https://www.ey.com/en_gl/services/ai/platform"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2025/01/image-23-1024x438.png"
+        },
+        {
+            "alt": "",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2025/01/image-25-1024x540.png"
+        },
+        {
+            "alt": "",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2025/01/image-27.png"
+        },
+        {
+            "alt": "",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2025/01/image-28.png"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Exam 1",
+                "30%"
+            ],
+            [
+                "Exam 2",
+                "20%"
+            ],
+            [
+                "Individual Assignments (which may include Discussion Board Assignments; to be determined)",
+                "30%"
+            ],
+            [
+                "Participation: Weeks 1 – 5",
+                "6%"
+            ],
+            [
+                "Participation: Weeks 6 – 10",
+                "7%"
+            ],
+            [
+                "Participation: Weeks 11 – 15",
+                "7%"
+            ]
+        ],
+        [
+            [
+                "Grade",
+                "Percentage"
+            ],
+            [
+                "A",
+                "94-100%"
+            ],
+            [
+                "A-",
+                "90-93%"
+            ],
+            [
+                "B+",
+                "87-89%"
+            ],
+            [
+                "B",
+                "84-86%"
+            ],
+            [
+                "B-",
+                "80-83%"
+            ],
+            [
+                "C+",
+                "77-79%"
+            ],
+            [
+                "C",
+                "70-76%"
+            ],
+            [
+                "D",
+                "60-69%"
+            ],
+            [
+                "F",
+                "Below 60%"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"6494\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

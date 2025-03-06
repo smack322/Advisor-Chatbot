@@ -1,0 +1,767 @@
+{
+    "metadata": {
+        "title": "DAAN 862: Python for Data Science – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2977"
+    },
+    "headings": {
+        "h2": "University Policies and Resources",
+        "h4": "Unlocking Your Potential",
+        "h5": "Open Source Software",
+        "h3": "Lesson 14: Final Exam"
+    },
+    "paragraphs": [
+        "DAAN 862:  is a three-credit course that equips students with essential skills to use Python for advanced data analytics. The course focuses on developing analytics systems while applying best practices and software design principles. Students will work with Python’s powerful toolkits to manipulate, analyze, and visualize complex data sets, exploring techniques such as statistical analysis, machine learning, text analysis, social network analysis, and information visualization. Weekly interactive Zoom sessions provide opportunities to review lessons, discuss assignments, and address questions in real-time. By combining hands-on projects with practical applications, this course prepares students to confidently solve real-world data challenges and use Python to gain meaningful insights from diverse data sets.",
+        "This course will employ the Python programming language and its several toolkits for manipulating, analyzing, and visualizing complex data sets. Students will apply statistical, machine learning, information visualization, and text analysis techniques through popular Python toolkits such as Pandas, Matplotlib, Scikit-Learn, and NLTK to gain insight into their data.",
+        "The objective of this course is to provide hands-on experience with data reading, cleaning, processing, and visualization techniques using Python programming language and its toolkits.",
+        "After successfully completing this course, students will be able to demonstrate:",
+        "Anaconda Spyder: https://www.anaconda.com/download/",
+        "Please remember that ALL questions about grades, course lesson content, and assignments should be directed to your course instructor. If you have any technical difficulties using the tools within this course, please contact the Penn State Helpdesk.",
+        "All course-related e-mails should go through Canvas’s course mail function (Canvas Inbox). Using Canvas to contact your instructor ensures that your message will be read, and your instructor will respond to you in a timely manner.",
+        "Many of the University Libraries’ resources can be utilized from a distance. Through the Library website, you can access magazines, journals, and articles; borrow materials and have them delivered to your doorstep; and get research help via email chat or phone from a librarian.",
+        "For more information, view the Penn State University Library.",
+        "Students will be evaluated on their understanding of the course material by completing eleven (11) weekly assignments that evaluate their understanding of and ability to apply material contained in the lectures and reading assignments. One cumulative final exam will evaluate their knowledge of the Python language and program design principles, Final Grades will be calculated as follows:",
+        "*Grades will be based on the following scale:",
+        "A = 96 – 100, A- = 90 – 95, B+ = 87 – 89, B = 84 – 86, B- = 80 – 83, C+ = 77 – 79, C = 70 – 76, D = 60 – 69, and F = 60 and below.",
+        "There will be 11 assignments and 1 project-based final exam.",
+        "Late submissions will not be accepted unless the instructor has given permission prior to the due date.",
+        "After you have submitted an assignment, you will typically be able to review your grade and any comments made by your instructor within 7 days after the due date. This process is used for all homework assignments, exams, or other graded submissions. Some instructors may also send you a message informing you that the assignment has been graded. Some instructors may choose to release all the grades to all students at once; other instructors may release grades per student one at a time.",
+        "Be sure to review the University Policies and Resources which include important information regarding academic integrity, student disability resources, educational equity, counseling services, and technical requirements.",
+        "*Subject to change",
+        "This discussion board is a place to say hello and build stronger connections with classmates. Since we come from diverse professional and academic backgrounds, this is a great opportunity to get to know each other and share our experiences with databases and data management. Please start by letting everyone know how you would like to be addressed throughout this course and/or what name you prefer to go by.",
+        "In your introduction, please include the following:",
+        "What’s your journey so far, either professionally or academically? Feel free to share your experiences with large-scale databases, data warehousing, and data management systems, as well as any work related to database architecture, data storage, or handling large datasets.",
+        "Have you worked with Python before, especially in the context of data analytics? Feel free to share any relevant experience with Python libraries (such as Pandas, NumPy, or Matplotlib), analytics projects, or programming in general.",
+        "What brings you to this course? Are you looking to improve your Python programming skills, apply analytics techniques in your current role, or learn how to leverage Python for data analysis?",
+        "What do you hope to achieve? Are there specific Python tools, libraries, or analytics methods you’re particularly excited to explore and apply to real-world problems?",
+        "To foster community, we encourage you to respond to your classmates’ posts as well. Share tips, ask questions, or find common interests based on shared experiences or goals.",
+        "You can share your introduction as a written post or a short video—whichever you prefer. Feel free to include something that inspired your interest in analytic systems, such as a project, a tool, a book, or even a personal experience. If you’d like, also share something fun or personal, like a hobby or an interesting fact about yourself.",
+        "This is a space to connect, collaborate, and build a community as we navigate this course together!",
+        "An important task in data mining is data preparation, i.e. cleaning, transforming, and rearranging. Pandas provides various simple and effective preparation methods.",
+        "At the end of this lesson, students will be able to:",
+        "Pandas adopts a convention used in R for missing value NA (Not Available). pandas built-in methods make handling missing data very easy.",
+        "click the titles to learn more",
+        "Created artificial data. The data was created by a normal distribution which randomly selects three numbers as NA and one as None.",
+        "As shown in the precedent figure, the None data type will also be considered as NaNs.",
+        "Isnull is the method to identify missing data, which returns a DataFrame with Boolean values. By adding statistic function such as sum, you can get the total count of Na’s in each coloum.",
+        "There is several options when using dropna method to filter out missing data.",
+        "If you would like to fill in missing data instead of filtering out the missing data, fillna is the correct method to use. You are able to fill in missing values with a constant like 0 :",
+        "When using a dict in Fillna, a different fill value will be applied to each column.",
+        "As shown in the precedent figure, all missing values in b,c, and e were replaced with 0.5, 0 and 2, respectively.",
+        "You can also use the value at the same column but the previous row is is used to fill NA’s.",
+        "As shown in the precedent figure, there is still a missing value in column c since there is not previous row for it.",
+        "In Python, there are several libraries which provide a range of machine learning algorithms. The most popular one is Scikit-Learn:",
+        "Scikit-Learn: A package containing various common algorithms.",
+        "Scikit-learn features a clean, uniform, and streamlined process that has very detailed online documentation. Once you learned the basic usage and syntax for one algorithm it is very straightforward to use any classification, regression, clustering, or preprocessing models.",
+        "At the end of this lesson, using scikit-learn, the student will be able to:",
+        "The objective of this course is to provide hands-on experience with data reading, cleaning, processing, and visualization techniques using Python programming language and its toolkits.",
+        "After successfully completing this course, students will be able to demonstrate:",
+        "Throughout this course you will develop a deeper understanding of these topics, gaining hands-on experience in Python, R, HTML scripting, and Statistics, all crucial for data analysis and modeling in the modern data landscape.",
+        "In this foundational lesson, you will be introduced to the Python programming language, which serves as a powerful tool for data analysis. You’ll start by learning how to install Python and set up your environment, ensuring that you have all the necessary tools to begin coding.",
+        "By the end of this lesson, you will have the foundational knowledge to begin writing Python programs, solving basic problems, and understanding how Python’s syntax supports logical, data-driven solutions.",
+        "In this lesson, you will explore Numpy, a powerful library for numerical computing in Python. Numpy allows for efficient handling of large datasets and performing complex mathematical operations. You’ll begin by understanding arrays, the core data structure in Numpy, and advance to more complex operations that can speed up your data analysis.",
+        "By the end of this lesson, you will be equipped with the skills to work efficiently with numerical data using Numpy. You will be able to perform various array operations, understand indexing techniques, and use universal functions to optimize your data analysis workflows. This knowledge will be fundamental as you continue to build more advanced data analysis capabilities throughout the course.",
+        "In this lesson, you will explore Pandas, one of the most widely used libraries in Python for data manipulation and analysis. You will learn how to work with Series and DataFrames, which are key data structures in Pandas. Additionally, you will explore how to perform basic statistical analysis and work with data from different sources, making this lesson essential for data-driven decision-making.",
+        "By the end of this lesson, you will have the skills to effectively manipulate data using Pandas and perform foundational statistical analysis. You will be able to work with real-world datasets, gaining insights that are crucial for data-driven decision-making. This will provide you with a solid foundation for more advanced analysis in later lessons.",
+        "In this lesson, you will learn essential techniques for data cleaning, processing, and manipulation using Pandas. You will gain practical skills for handling real-world data challenges, such as missing data, data transformations, and string manipulations, all of which are crucial for preparing datasets for analysis. This lesson is a vital step in mastering data wrangling and ensuring the quality of your data.",
+        "By the end of this lesson, you will be equipped with the skills to clean and manipulate data effectively, preparing datasets for meaningful analysis. This lesson will lay the foundation for more advanced data analysis techniques in future lessons.",
+        "In this lesson, you will learn advanced techniques for data wrangling using Pandas, a critical skill for organizing and preparing complex datasets. You will explore hierarchical indexing, merging datasets, and reshaping data to create structured, actionable datasets ready for analysis.",
+        "By the end of this lesson, you will have the tools to efficiently organize and prepare complex datasets for analysis. These skills will help you tackle a wide range of data challenges and set the stage for advanced data exploration in upcoming lessons.",
+        "Learn the fundamentals of data visualization using Matplotlib, a versatile Python library, and explore its integration with Pandas for easier plotting. This lesson focuses on creating visualizations that effectively communicate insights from data.",
+        "By the end of this lesson, you will have the skills to create compelling visualizations that enhance data storytelling, providing a solid foundation for more advanced visualization techniques in future lessons.",
+        "In this lesson, you will explore evaluation models using Scikit-Learn, a popular Python library for machine learning. This lesson covers techniques to assess the performance of various models and ensure their reliability in real-world scenarios.",
+        "By the end of this lesson, you will have a solid understanding of how to evaluate machine learning models across various tasks, enabling you to select and refine models for optimal performance. This foundation will support your continued exploration of advanced machine learning techniques in future lessons.",
+        "In this lesson, you will dive into supervised learning techniques, focusing on classification models using Scikit-Learn. These models enable you to classify data into categories, forming the backbone of many predictive analytics tasks.",
+        "By the end of this lesson, you will have the skills to build and apply various classification models, enabling you to tackle a range of supervised learning problems. These techniques will serve as a foundation for more advanced machine learning topics in the course.",
+        "In this lesson, you will explore supervised learning methods focused on regression models using Scikit-Learn. These models are designed to predict continuous outcomes, making them essential for tasks such as forecasting and trend analysis.",
+        "By the end of this lesson, you will have the tools to create and apply regression models for continuous data predictions. These skills will prepare you to address complex analytical challenges and deepen your understanding of supervised learning techniques.",
+        "In this lesson, you will explore advanced supervised learning models using Scikit-Learn, focusing on powerful techniques like Support Vector Machines (SVM) and ensemble methods. These models are widely used for handling complex data and achieving high-performance predictions.",
+        "By the end of this lesson, you will have the expertise to implement and evaluate advanced supervised learning techniques, equipping you to tackle complex data problems with confidence. These models will enhance your ability to deliver robust and reliable predictive solutions.",
+        "In this lesson, you will delve into unsupervised learning with a focus on clustering algorithms using Scikit-Learn. Clustering is a powerful technique for identifying patterns and grouping data without predefined labels, making it essential for exploratory data analysis.",
+        "By the end of this lesson, you will have the ability to use clustering methods to uncover hidden patterns in data. These skills will enhance your capacity to analyze complex datasets and extract meaningful insights for diverse applications.",
+        "In this lesson, you will explore text mining techniques using Python libraries re and NLTK. Text mining enables you to process and analyze textual data, uncovering valuable insights from unstructured information such as documents, reviews, and social media posts.",
+        "By the end of this lesson, you will have a solid understanding of text mining fundamentals and practical experience with tools like re and NLTK. These skills will prepare you to tackle unstructured text data and extract meaningful insights for a wide range of applications.",
+        "In this lesson, you will focus on text classification, a key application of natural language processing that assigns predefined categories to text data. Using Scikit-Learn, you will learn to implement and evaluate models like Naive Bayes and Support Vector Machines for various text classification tasks.",
+        "By the end of this lesson, you will have a comprehensive understanding of text classification methods and practical experience with implementing models using Scikit-Learn. These skills will enable you to develop robust solutions for real-world text analysis challenges.",
+        "In this final lesson, you will demonstrate your understanding of the key concepts and techniques covered throughout the course. The Final Exam will assess your knowledge and ability to apply data analysis, programming, and machine learning principles to solve real-world problems.",
+        "By the end of this lesson, you will have the opportunity to showcase your knowledge and skills acquired throughout the course. Successful completion of the final exam will demonstrate your readiness to apply data analytics and machine learning techniques in practical scenarios.",
+        "The Python for Data Science course provides students with essential skills to excel in the rapidly growing field of data science and analytics. As organizations continue to rely on data-driven insights, proficiency in Python—one of the most widely used programming languages for data analysis and machine learning—becomes increasingly valuable. Through this course, students gain hands-on experience with tools like Numpy, Pandas, Matplotlib, and Scikit-learn, empowering them to tackle complex data challenges. Graduates of this course will be well-equipped to pursue a range of data science roles, from data analyst to machine learning engineer, and will stand out in an ever-competitive job market.",
+        "Imagine you’re working for a retail company, and your goal is to help the business make more informed decisions about inventory management. Using the skills learned in the Python for Data Science course, you would begin by analyzing past sales data stored in large datasets. With Pandas and Numpy, you can clean, manipulate, and merge data from different sources to identify trends and patterns, such as which products are most likely to sell out in certain months or which items are underperforming.",
+        "Once the data is prepared, you can use Matplotlib and Seaborn to visualize sales trends over time, helping stakeholders understand key insights at a glance. By applying Scikit-learn and machine learning models, you can build predictive models to forecast future demand, allowing the company to optimize its inventory levels and reduce costs. This real-world application demonstrates how the skills learned in Python for Data Science can be used to drive strategic decisions and solve complex business challenges, making you a valuable asset to any organization.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Understanding of the Python programming language and its development environment.",
+            "The ability to manipulate, analyze, and visualize complex data sets using the Python language.",
+            "Knowledge of the best practices and principles of software design in analytics systems."
+        ],
+        [
+            "Book 1: ISBN: 978-1491957660 Wes Mckinney, Python for Data Analysis., O’Reilly, 3rd edition, 2017, the third edition is also available open-source at wesmckinney.com/book. It has an additional April 2023 update that coincides with the April 2023 release of Pandas 2.0.0, which includes new preprocessing functions like melt, pivot, pivot_table, and crosstab. If you are still using the 2nd edition, please note that the chapters after Chapter 12 are numbered differently in the 3rd edition.",
+            "Book 2: ISBN: 978-1788299879 Gavin Hackeling, Mastering Machine Learning with scikit-learn, 2nd edition, 2017.",
+            "Book 3: ISBN: 978-1484243534 Dipanjan Sarkar, Text Analytics with Python, 2nd edition, May 2019: https://learning.oreilly.com/playlists/0e39264a-c60a-4732-ba91-a3cbfb602d85/Links to an external site."
+        ],
+        [
+            "You can buy hard copies of these books, or you can simply read them online by signing in to O’Reilly Online Learning with your Penn State email (i.e., xyz@psu.edu). Click on Sign In With Single Sign On (SSO). Validate your authentication with WebAccess/ 2 Factors Authentication (DUO). Search the book by title or by providing the ISBN. Create a favorite list and add the book for quick access.",
+            "You may purchase course materials from Barnes & Noble College (the bookstore used by Penn State’s World Campus). For pricing and ordering information, please see the Barnes & Noble College . Materials will be available at Barnes & Noble College approximately three weeks before the course begins. Alternatively, you may obtain these texts from other favorite bookstores. Be sure you purchase the edition/publication date listed."
+        ],
+        [
+            "HelpDesk Website: https://student.worldcampus.psu.edu/help-and-support/technical-supportLinks to an external site.",
+            "HelpDesk Email: techsupport@worldcampus.psu.edu",
+            "HelpDesk Phone: (800) 252-3592"
+        ],
+        [
+            "All assignments and the project-based final project should be solved by Python instead of other software.",
+            "Please submit a Word or PDF file for all assignments and the project-based final project.",
+            "All assignments and the project-based final project should be completed independently without collaboration with other students.",
+            "You will have a week to finish each assignment, and they are due at 11:59 PM Eastern time on the date specified.",
+            "Late submissions will not be accepted unless the instructor has given permission prior to the due date."
+        ],
+        [
+            "Activity & Community Building",
+            "Handling Missing Data with Pandas",
+            "Scikit-Learn"
+        ],
+        [
+            "Your journey",
+            "Your experience",
+            "Reason",
+            "Your expectations"
+        ],
+        [
+            "Identify and handle missing data by using pandas",
+            "Perform data transformation tasks by using pandas",
+            "Manipulate strings by utilizing string methods and pandas"
+        ],
+        [
+            "Perform train-test splitting and corss validation methods with model_selection model",
+            "Evaluate classification, regression, and clustering models"
+        ],
+        [
+            "Understanding of the Python programming language and its development environment.",
+            "The ability to manipulate, analyze, and visualize complex data sets using the Python language.",
+            "Knowledge of the best practices and principles of software design in analytics systems."
+        ],
+        [
+            "L1,L2",
+            "L3,L4",
+            "L5,L6",
+            "L7,L8",
+            "L9,L10",
+            "L11, L12",
+            "L13, L14"
+        ],
+        [
+            "Installing Python: Learn how to install Python on your system, ensuring you’re set up to begin coding.",
+            "Python Basics: Familiarize yourself with Python syntax, variables, data types, and operators.",
+            "Control Flow: Master conditional statements, loops, and other control flow mechanisms to structure your programs.",
+            "Functions: Understand how to define and use functions to create reusable code and improve efficiency."
+        ],
+        [
+            "Complete the installation of Python on your computer to set up your development environment.",
+            "Engage in hands-on exercises to practice Python syntax, including writing simple programs that use variables and operators.",
+            "Work through interactive coding challenges that focus on control flow and decision-making.",
+            "Create and test basic functions to reinforce your understanding of modular programming."
+        ],
+        [
+            "Arrays: Learn how to create and manipulate Numpy arrays, the fundamental data structure used for numerical data.",
+            "Array Indexing: Understand how to access and modify array elements using indexing techniques.",
+            "Array Operations: Explore various operations on arrays, such as addition, subtraction, multiplication, and division, for efficient data manipulation.",
+            "Universal Functions (ufuncs): Discover fast element-wise operations that apply mathematical functions to entire arrays in a highly efficient manner."
+        ],
+        [
+            "Set up and use Numpy to create arrays, followed by exercises to practice array indexing and slicing.",
+            "Engage in hands-on coding exercises that involve performing arithmetic operations on arrays.",
+            "Complete interactive challenges that demonstrate how to use universal functions for element-wise operations, optimizing calculations.",
+            "Participate in discussion forums to share your experience with Numpy and discuss challenges and best practices with peers."
+        ],
+        [
+            "Basic Data Types – Series: Learn about Pandas Series, which allows you to store and manipulate one-dimensional data.",
+            "Basic Data Types – DataFrame: Understand how to work with DataFrames, the two-dimensional structure used to store and manage structured data in Pandas.",
+            "Indexing and Slicing: Master how to access and manipulate data in Series and DataFrames using indexing and slicing techniques.",
+            "Import and Export Data: Learn how to import data from various file formats (CSV, Excel, etc.) and export data back to these formats.",
+            "Statistical Analysis: Explore how to perform statistical analysis, such as calculating means, medians, variances, and correlations, to derive insights from your data."
+        ],
+        [
+            "Create and manipulate Series and DataFrames using practical coding exercises to reinforce your understanding of these key data structures.",
+            "Work with data import/export exercises to practice loading and saving data from different file types.",
+            "Engage in coding challenges that involve performing statistical analysis to calculate key measures like averages, sums, and correlations.",
+            "Participate in discussions to share insights with peers on statistical methods and best practices for data analysis."
+        ],
+        [
+            "Handling Missing Data: Learn how to identify, handle, and fill missing values in datasets, ensuring data completeness and consistency.",
+            "Data Transformation I: Explore how to transform data to fit specific analytical needs, including data type conversions and reshaping data.",
+            "Data Transformation II: Deepen your understanding of data transformation techniques, such as filtering, grouping, and aggregating data.",
+            "String Manipulation: Master string operations in Pandas to clean and manipulate textual data, such as removing whitespace, splitting, and extracting information from strings."
+        ],
+        [
+            "Work with datasets containing missing values and practice techniques to handle and fill missing data.",
+            "Complete exercises that involve transforming data into formats suitable for analysis, such as converting data types and reshaping data structures.",
+            "Engage in hands-on coding challenges where you’ll manipulate and process data by grouping, filtering, and aggregating it.",
+            "Participate in discussions and share strategies for effective string manipulation and text-based data cleaning."
+        ],
+        [
+            "Hierarchical Indexing: Understand how to create and use multi-level indices in Pandas to organize and access data more efficiently.",
+            "Merging Datasets: Learn to combine multiple datasets through merging, joining, and concatenating operations.",
+            "Reshaping and Pivoting: Master the art of restructuring data using pivot tables, stack, and unstack operations to better analyze and visualize information."
+        ],
+        [
+            "Work through examples to create hierarchical indices and practice accessing and modifying multi-level indexed data.",
+            "Engage in exercises where you merge datasets of varying complexity, ensuring consistency and accuracy.",
+            "Complete coding challenges focused on reshaping and pivoting datasets to gain insights from different data perspectives.",
+            "Participate in discussion forums to exchange ideas and solutions for effective data wrangling techniques."
+        ],
+        [
+            "Plotting with Matplotlib: Understand how to create basic and advanced plots, including line charts, bar charts, and scatter plots, using Matplotlib’s powerful features.",
+            "Plotting with Pandas: Learn how to generate quick and simple visualizations directly from Pandas DataFrames for streamlined data exploration."
+        ],
+        [
+            "Practice creating visualizations with Matplotlib, exploring different types of plots and customization options.",
+            "Engage in exercises to produce plots directly from Pandas, leveraging its simplicity and efficiency.",
+            "Complete challenges that combine data analysis and visualization to uncover and present insights.",
+            "Participate in discussions to exchange tips and strategies for designing clear and impactful visualizations."
+        ],
+        [
+            "Cross Validation: Learn how to use cross-validation techniques to evaluate model performance and prevent overfitting.",
+            "Classification Metrics: Understand key metrics like accuracy, precision, recall, and F1-score to assess classification models.",
+            "Regression Metrics: Explore metrics such as mean absolute error, mean squared error, and R-squared for evaluating regression models.",
+            "Clustering Metrics: Study methods to measure clustering performance, including silhouette scores and other relevant metrics."
+        ],
+        [
+            "Apply cross-validation techniques on datasets to validate model performance effectively.",
+            "Work through exercises using classification, regression, and clustering metrics to analyze different models.",
+            "Engage in coding challenges that involve comparing models based on their evaluation metrics.",
+            "Participate in discussions to share insights and strategies for interpreting evaluation results."
+        ],
+        [
+            "Logistic Regression: Learn how logistic regression can be used for binary classification tasks and how to interpret its outputs.",
+            "Naïve Bayes: Understand the Naïve Bayes algorithm, ideal for text classification and other probabilistic tasks.",
+            "Decision Tree: Explore decision tree models for making rule-based decisions based on input features.",
+            "Neural Network: Discover the basics of neural networks for handling complex classification problems."
+        ],
+        [
+            "Implement logistic regression models on datasets and analyze their predictions.",
+            "Work through hands-on exercises with Naïve Bayes, exploring its use in real-world classification tasks.",
+            "Build decision tree models and interpret the rules generated for classification.Experiment with simple neural networks to understand their application in classification problems.",
+            "Participate in discussions to share experiences and strategies for building and optimizing classification models."
+        ],
+        [
+            "Linear Regression: Learn the fundamentals of linear regression, including how to model relationships between variables and interpret coefficients.",
+            "Regression Tree: Discover regression tree models and how they make predictions by splitting data into decision nodes.",
+            "Neural Network: Explore neural networks for regression tasks, leveraging their ability to capture complex patterns in data."
+        ],
+        [
+            "Build and evaluate linear regression models to predict outcomes based on input features.",
+            "Apply regression trees to analyze data and understand the decision-making process behind predictions.",
+            "Experiment with neural networks for regression, focusing on their ability to handle non-linear relationships.",
+            "Participate in discussions to exchange insights and best practices for working with regression models."
+        ],
+        [
+            "Support Vector Machine (SVM): Learn how SVMs work to classify data by finding the optimal decision boundary, even in high-dimensional spaces.",
+            "SVM Practice: Apply SVMs to real-world datasets, refining your understanding of this versatile algorithm.",
+            "Ensemble Methods (Random Forests): Discover how Random Forests combine multiple decision trees to improve prediction accuracy and reduce overfitting.",
+            "Ensemble Methods (AdaBoost): Understand how AdaBoost builds strong models by focusing on correcting errors from previous iterations."
+        ],
+        [
+            "Build and optimize SVM models for classification and regression tasks.",
+            "Practice using Random Forests to analyze datasets, exploring their flexibility and accuracy.",
+            "Experiment with AdaBoost to understand how iterative improvement enhances model performance.",
+            "Join discussions to exchange ideas and strategies for applying advanced models effectively."
+        ],
+        [
+            "K-means: Learn the basics of K-means clustering, including how to segment data into meaningful groups based on similarity.",
+            "Hierarchical Clustering: Explore hierarchical clustering to create nested clusters and visualize relationships through dendrograms.",
+            "DB-Scan: Understand DB-Scan, a density-based clustering method ideal for identifying arbitrary-shaped clusters and handling noise."
+        ],
+        [
+            "Implement K-means on real-world datasets, fine-tuning parameters to optimize clustering results.",
+            "structures.Experiment with DB-Scan to detect clusters in noisy datasets and compare its performance with other methods.",
+            "Engage in discussions to share insights and best practices for clustering techniques."
+        ],
+        [
+            "Introduction to Text Mining: Understand the fundamentals of text mining and its applications in various fields.",
+            "Regular Expressions (re): Learn how to use regular expressions for text search, pattern matching, and data extraction.",
+            "NLTK Basics: Discover the Natural Language Toolkit (NLTK) and its tools for processing and analyzing text.",
+            "Text Normalization: Explore techniques to clean and standardize text data for analysis, including tokenization, stemming, and lemmatization."
+        ],
+        [
+            "Work on practical examples to extract patterns and clean text data using regular expressions.",
+            "Apply NLTK tools to perform basic text processing tasks like tokenization and word frequency analysis.",
+            "Normalize text data to prepare it for advanced natural language processing tasks.",
+            "Participate in discussions to share techniques and insights about text mining challenges and solutions."
+        ],
+        [
+            "Introduction to Text Classification: Understand the principles of text classification and its use cases in spam filtering, sentiment analysis, and topic labeling.",
+            "Naive Bayes Classifier: Explore how this probabilistic model is used for text classification and why it is particularly effective for certain tasks.",
+            "Support Vector Machines (SVM): Learn how SVMs handle text data by finding optimal boundaries to classify text into categories."
+        ],
+        [
+            "Work through examples of text classification using the Naive Bayes algorithm, gaining hands-on experience with its implementation.",
+            "Build and evaluate SVM models for text classification, comparing their performance with Naive Bayes.",
+            "Analyze different datasets to understand how model selection impacts classification outcomes.",
+            "Participate in discussions to share strategies and approaches for improving text classification accuracy."
+        ],
+        [
+            "Comprehensive Review: The exam will cover all topics, including Python programming, data analysis with Pandas and Numpy, statistical analysis, machine learning models, text mining, and classification.",
+            "Problem Solving: You will work through a series of practical questions that challenge you to apply what you’ve learned in a hands-on manner.",
+            "Assessment of Key Skills: The exam will evaluate your proficiency in using Python, implementing machine learning algorithms, performing data wrangling, and visualizing results."
+        ],
+        [
+            "Prepare for the exam by reviewing all course materials, including lessons, assignments, and discussion topics.",
+            "Focus on reinforcing key concepts and techniques that were taught throughout the course.",
+            "Participate in review sessions and engage in discussions to clarify any doubts before the exam."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Python for Data Analysis.",
+            "url": "https://wesmckinney.com/book/"
+        },
+        {
+            "text": "https://learning.oreilly.com/playlists/0e39264a-c60a-4732-ba91-a3cbfb602d85/Links to an external site.",
+            "url": "https://learning.oreilly.com/playlists/0e39264a-c60a-4732-ba91-a3cbfb602d85/"
+        },
+        {
+            "text": "O’Reilly Online Learning",
+            "url": "https://www.oreilly.com/online-learning/"
+        },
+        {
+            "text": "xyz@psu.edu",
+            "url": "mailto:xyz@psu.edu"
+        },
+        {
+            "text": "Barnes & Noble College",
+            "url": "https://bncvirtual.com/psude"
+        },
+        {
+            "text": "https://www.anaconda.com/download/",
+            "url": "https://www.anaconda.com/download/"
+        },
+        {
+            "text": "https://student.worldcampus.psu.edu/help-and-support/technical-supportLinks to an external site.",
+            "url": "https://student.worldcampus.psu.edu/help-and-support/technical-support"
+        },
+        {
+            "text": "techsupport@worldcampus.psu.edu",
+            "url": "mailto:techsupport@worldcampus.psu.edu?subject=World%20Campus%20Tech%20Support%20Inquiry"
+        },
+        {
+            "text": "Penn State University Library.",
+            "url": "https://libraries.psu.edu/"
+        },
+        {
+            "text": "University Policies and Resources",
+            "url": "https://sites.psu.edu/gvwc/course/penn-state-university-policies-and-resources/"
+        },
+        {
+            "text": "Your journey",
+            "url": "#tab-strongyourjourneystrong"
+        },
+        {
+            "text": "Your experience",
+            "url": "#tab-strongyourexperiencestrong"
+        },
+        {
+            "text": "Reason",
+            "url": "#tab-strongreasonstrong"
+        },
+        {
+            "text": "Your expectations",
+            "url": "#tab-strongyourexpectationsstrong"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "Laptop screen showing \"online community\" with books, notebook, and sticky notes on a wooden desk, representing a study and collaboration space.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/community-building-discussion-banner-1024x218.png"
+        },
+        {
+            "alt": "",
+            "src": "https://courses.worldcampus.psu.edu/canvas/master/mst-20220713122842-alm626/content/04_lesson/images/Fig_4.1.png"
+        },
+        {
+            "alt": "",
+            "src": "https://courses.worldcampus.psu.edu/canvas/master/mst-20220713122842-alm626/content/04_lesson/images/Fig_4.2.png"
+        },
+        {
+            "alt": "",
+            "src": "https://courses.worldcampus.psu.edu/canvas/master/mst-20220713122842-alm626/content/04_lesson/images/Fig_4.3.png"
+        },
+        {
+            "alt": "",
+            "src": "https://courses.worldcampus.psu.edu/canvas/master/mst-20220713122842-alm626/content/04_lesson/images/Fig_4.4_1.png"
+        },
+        {
+            "alt": "",
+            "src": "https://courses.worldcampus.psu.edu/canvas/master/mst-20220713122842-alm626/content/04_lesson/images/Fig_4.5.PNG"
+        },
+        {
+            "alt": "",
+            "src": "https://courses.worldcampus.psu.edu/canvas/master/mst-20220713122842-alm626/content/04_lesson/images/Fig_4.6.PNG"
+        },
+        {
+            "alt": "",
+            "src": "https://courses.worldcampus.psu.edu/canvas/master/mst-20220713122842-alm626/content/04_lesson/images/Fig_4.7.PNG"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Assignment Category",
+                "Quantity",
+                "Points",
+                "Weight (% of Final Grade)"
+            ],
+            [
+                "Lesson Assignments",
+                "11",
+                "100 (each)",
+                "75%"
+            ],
+            [
+                "Project-Based Final Exam",
+                "1",
+                "100",
+                "25%"
+            ]
+        ],
+        [
+            [
+                "Argument",
+                "Description"
+            ],
+            [
+                "dropna",
+                "Filter axis labels based on whether values for each label have missing data, with varying thresholds for how much missing data to tolerate."
+            ],
+            [
+                "fillna",
+                "Fill in missing data with some value or using an interpolation method such as ‘ffill’ or ‘bfill’."
+            ],
+            [
+                "isnull",
+                "Return a like-type object containing boolean values indicating which values are missing / NA."
+            ],
+            [
+                "notnull",
+                "Negation of isnull"
+            ]
+        ],
+        [
+            [
+                "Argument",
+                "Description"
+            ],
+            [
+                "value",
+                "Scalar value or dict-like object to use to fill missing values"
+            ],
+            [
+                "method",
+                "Interpolation, by default ‘ffill’ if a function called with no other arguments"
+            ],
+            [
+                "axis",
+                "Axis to fill on, default axis=0"
+            ],
+            [
+                "inplace",
+                "Modify the calling object without producing a copy"
+            ],
+            [
+                "limit",
+                "For forward and backward filling, the maximum number of consecutive periods to fill"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"2977\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

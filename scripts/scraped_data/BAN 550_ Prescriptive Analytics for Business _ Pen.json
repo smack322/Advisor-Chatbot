@@ -1,0 +1,591 @@
+{
+    "metadata": {
+        "title": "BAN 550: Prescriptive Analytics for Business – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=5196"
+    },
+    "headings": {
+        "h2": "Lessons 12: Simulation",
+        "h4": "Unlocking Your Potential",
+        "h3": "Discrete-Event Simulation Modeling"
+    },
+    "paragraphs": [
+        "BAN 550: Prescriptive Analytics for Business is a three-credit course that explores the advanced field of prescriptive analytics, guiding students in using data to recommend optimal actions and decisions in complex business environments. As the final step in the analytics process, prescriptive analytics combines insights from descriptive and predictive analytics to answer the critical question, “What should happen?” This three-credit course emphasizes both the theoretical foundations and the practical implementation of prescriptive analytics tools, preparing students to create impactful solutions in organizational decision-making.",
+        "Students will gain expertise in obtaining and organizing data (descriptive analytics), modeling and forecasting outcomes (predictive analytics), and leveraging this knowledge to develop models that recommend the best courses of action (prescriptive analytics). By the end of the course, students will understand how to implement these methods in real-world settings, making BAN 550 an essential component for anyone aiming to lead data-driven strategies in their professional careers.",
+        "BAN 550 – Prescriptive Analytics for Business is a 3-credit course designed to equip students with advanced tools and techniques for optimal decision-making in complex business environments. Grounded in the INFORMS analytics framework, the course focuses on descriptive, predictive, and prescriptive analytics, emphasizing their integration into solving real-world business challenges.",
+        "After completing the course, students will be able to:",
+        "Business Analytics, 3rd Edition, by James R. Evans (ISBN: 9780135231678).",
+        "Grades are determined through a combination of assignments, discussions, and case studies.",
+        "Active participation in weekly discussions is essential. Students are expected to engage in collaborative discussions, share insights, and contribute meaningfully to group projects.",
+        "Weekly assignments are designed to reinforce learning, while case studies provide practical applications of prescriptive analytics concepts. Students will work individually on homework and collaboratively on team-based projects.",
+        "*subject to change",
+        "Integer programming is a restriction (opposite of relaxation) of LP. The general IP model is:",
+        "Integer variables can either be:",
+        "Integer programs can either be pure or mixed.",
+        "ratio of outcomes favorable to total outcomes",
+        "probability is the relative frequency of occurrence",
+        "probability is a language stating strength of belief",
+        "After completing the course, students will be able to:",
+        "During this course you will expand your knowledge of the lesson topics each week.",
+        "In this lesson, you will explore the foundational aspects of business analytics, focusing on key areas such as descriptive, predictive, and prescriptive analytics. Additionally, you will develop or refresh spreadsheet modeling skills, including the use of Excel macros, to enhance your technical capabilities. This week sets the stage for your journey into the spectrum of analytics practices.",
+        "By the end of this lesson, you will have a clearer understanding of the spectrum of analytics applications and an enhanced ability to use spreadsheet tools to support analytics processes.",
+        "In this lesson, you will expand your skills in spreadsheet modeling, focusing on Excel VBA to enhance automation and efficiency. Additionally, you’ll delve into key ethical considerations for analytics professionals, ensuring your decision-making aligns with industry standards and principles.",
+        "This week’s lesson emphasizes the integration of technical expertise and ethical considerations, providing valuable insights and hands-on experience to prepare you for real-world business challenges.",
+        "In this lesson, you will dive into prescriptive analytics, focusing on optimization techniques to support decision-making with certain data. Through hands-on practice, you’ll learn how to formulate linear programming models and use Excel Solver to find optimal solutions for real-world business scenarios.",
+        "This lesson provides a practical introduction to optimization, equipping you with the skills to tackle complex logistical challenges and create cost-effective solutions in business contexts.",
+        "This lesson builds on your foundation in prescriptive analytics by introducing more advanced linear programming models and applications. You’ll explore the use of algebraic notation for problem formulation and dive into real-world examples of large-scale optimization to understand its practical impact.",
+        "This lesson offers practical exposure to complex modeling scenarios and emphasizes how prescriptive analytics can solve large-scale challenges across industries. It equips you with advanced tools and techniques to refine your problem-solving abilities.",
+        "In this lesson, we expand our prescriptive analytics toolkit by exploring integer programming, a key technique for modeling discrete decisions. Through real-world examples, you’ll learn how to apply this method to solve complex optimization problems in industries such as political districting and sports scheduling.",
+        "This lesson equips you with the skills to tackle real-world challenges requiring discrete decision-making, demonstrating the power of integer programming to optimize solutions in diverse contexts.",
+        "In this lesson, you’ll explore the exciting world of supply chain management and learn how businesses optimize their operations through aggregate planning. This week focuses on understanding supply chain fundamentals and applying optimization techniques to create and analyze planning models in Excel. You’ll also gain hands-on experience with scenario analysis, building critical skills that can be applied across a variety of industries.",
+        "By the end of this lesson, you’ll have gained valuable skills in supply chain optimization and aggregate planning that set you apart in today’s competitive job market. These practical tools and techniques are integral to driving business success and will prepare you for impactful roles in the field.",
+        "In this lesson, you will explore the critical role of Sales and Operations Planning (S&OP) in coordinating supply chain activities. This week focuses on using optimization techniques to develop effective S&OP models, enabling businesses to align supply chain strategies with overall operational goals. You will also gain hands-on experience building and analyzing S&OP models in Excel, preparing you to address complex challenges in real-world scenarios.",
+        "By completing this lesson, you will gain a comprehensive understanding of Sales and Operations Planning and its impact on organizational success. The skills you develop here will be valuable in optimizing supply chain processes and driving operational efficiency in your career.",
+        "In this lesson, you will delve into industrial-level modeling languages for prescriptive analytics, focusing on the Generalized Algebraic Modeling System (GAMS). You will explore the advantages of modeling languages over traditional tools like Solver and gain hands-on experience in developing and solving optimization models with GAMS.",
+        "By engaging with this lesson, you will gain valuable insights into advanced modeling tools and their role in prescriptive analytics. The practical skills developed here will prepare you to leverage GAMS for solving intricate optimization problems in various professional contexts.",
+        "In this lesson, you’ll explore how probability concepts and data modeling can address real-world uncertainty in business scenarios. Building a strong foundation in probability and learning how to apply probability distributions to analyze data will prepare you for more advanced decision-making techniques in analytics. You’ll also dive into sampling methods and explore how to model and fit distributions to data, gaining valuable skills for addressing complex problems with confidence.",
+        "By the end of this lesson, you will have a robust understanding of probability and data modeling techniques, setting a solid foundation for applying these skills to complex decision-making scenarios in your future projects.",
+        "In this lesson, you’ll refine your understanding of probability by learning how to fit empirical data to theoretical probability distributions. This crucial skill bridges the gap between raw data and actionable insights, equipping you with tools to evaluate patterns and prepare for advanced techniques like Monte Carlo simulations.",
+        "Understanding distribution fitting is a foundational skill for analytics professionals. It empowers you to model and interpret data accurately, a critical step in developing reliable predictive and prescriptive solutions. This lesson offers practical experience that connects theoretical concepts to impactful, real-world applications in business analytics.",
+        "This lesson introduces decision analysis, a prescriptive analytics technique designed for scenarios with uncertainty and well-defined probabilities. You’ll explore how to make optimal decisions when faced with multiple potential outcomes, leveraging a structured approach to analyze and resolve complex business challenges.",
+        "Decision analysis equips analytics professionals with the tools to make informed decisions even in uncertain environments. Mastering this skill prepares you to tackle real-world business problems with confidence, bridging the gap between uncertainty and actionable insights.",
+        "In these final lessons, we delve into simulation—a powerful analytics technique used to assess the impact of uncertainty on decision-making outcomes. By integrating simulation into decision analysis, you will gain the tools to explore various scenarios and develop robust insights, preparing you for real-world business challenges.",
+        "Simulation bridges the gap between theoretical analytics and practical application, equipping you to handle uncertainty in business contexts confidently. These lessons prepare you to employ simulation techniques across industries, enhancing your ability to forecast and plan effectively.",
+        "Earning a Master in Data Analytics with coursework in Prescriptive Analytics for Business positions graduates as highly valuable problem-solvers in today’s data-driven economy. Prescriptive analytics enables professionals to go beyond understanding what happened (descriptive analytics) and predicting future trends (predictive analytics) to determining the best courses of action for achieving business goals. This advanced capability is particularly sought after in industries like supply chain management, finance, healthcare, and technology, where data-driven decision-making can result in significant cost savings, operational efficiency, and competitive advantage.",
+        "Incorporating prescriptive analytics into your skill set equips you to design optimization models, conduct scenario analysis, and implement decision-making frameworks tailored to real-world challenges. These skills make graduates attractive candidates for roles such as data scientists, business analysts, and operations managers. Employers highly value professionals who can leverage tools like Excel Solver, GAMS, and advanced modeling techniques to deliver actionable insights and drive strategic initiatives, making this course a key step toward achieving leadership roles in analytics and business strategy.",
+        "Supply Chain Optimization for a Global RetailerA student may develop a prescriptive analytics model to optimize inventory levels across multiple warehouses and retail stores. Using historical sales data and demand forecasts, the project could focus on minimizing holding costs while ensuring product availability to meet customer demand.",
+        "Energy Production Planning for a Utility CompanyCreate a model that determines the most cost-effective mix of energy sources (e.g., renewable, fossil fuels) to meet fluctuating demand while adhering to environmental regulations and budget constraints.",
+        "Route Optimization for a Logistics ProviderDevelop an algorithm to optimize delivery routes for a transportation company. The project would consider variables like fuel costs, traffic patterns, and delivery time windows to minimize operational expenses and enhance customer satisfaction.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Completion of BAN 830 – Descriptive Analytics or equivalent coursework."
+        ],
+        [
+            "Differentiate between descriptive, predictive, and prescriptive analytics and their applications in business decision-making.",
+            "Identify and apply prescriptive analytics methods to various business scenarios with certainty and uncertainty.",
+            "Use optimization models to recommend decisions in supply chain and operations management.",
+            "Implement advanced analytics techniques using tools like Excel, Solver, and GAMS.",
+            "Analyze the results of prescriptive models and communicate actionable insights effectively."
+        ],
+        [
+            "Available through Penn State Library e-reserves or other textbook sellers."
+        ],
+        [
+            "Excel: For spreadsheet modeling and optimization. (Free with Penn State Office 365 subscription.)",
+            "Zoom Videoconferencing: For live sessions. (Free for Penn State students.)",
+            "Solver: For advanced optimization modeling within Excel.",
+            "GAMS: For complex optimization modeling."
+        ],
+        [
+            "Late submissions incur a 20% penalty per day and are not accepted after 48 hours."
+        ],
+        [
+            "Deep neural networks and time series forecasting using deep learning",
+            "Analytics process modeling and ethics",
+            "Spreadsheet modeling and VBA",
+            "Optimization techniques, including Solver and GAMS",
+            "Decision analysis and simulation"
+        ],
+        [
+            "Integer Programming",
+            "Probability",
+            "Discrete-Event Simulation Modeling"
+        ],
+        [
+            "Binary (0-1), or",
+            "General"
+        ],
+        [
+            "The probability of an outcome is in the interval [0, 1]",
+            "The sum of the probabilities of all possible outcomes is 1"
+        ],
+        [
+            "Differentiate between descriptive, predictive, and prescriptive analytics and their applications in business decision-making.",
+            "Identify and apply prescriptive analytics methods to various business scenarios with certainty and uncertainty.",
+            "Use optimization models to recommend decisions in supply chain and operations management.",
+            "Implement advanced analytics techniques using tools like Excel, Solver, and GAMS.",
+            "Analyze the results of prescriptive models and communicate actionable insights effectively."
+        ],
+        [
+            "L1-L2",
+            "L3-L4",
+            "L5-L6",
+            "L7-L8",
+            "L9-L10",
+            "L11",
+            "L12"
+        ],
+        [
+            "Introduction to Business Analytics: Learn about the overarching rubric for business analytics, as outlined by INFORMS, and its practical application in organizations.",
+            "Excel Macros: Explore the functionality of macros in Excel, including how they can automate tasks and enhance productivity.",
+            "Spreadsheet Modeling Skills: Build foundational spreadsheet modeling skills to support future analytics tasks."
+        ],
+        [
+            "Explore Foundational Concepts: Dive into the provided readings and video resources to build a strong understanding of business analytics and Excel macros. Reflect on how these tools apply to real-world scenarios.",
+            "Collaborative Discussion: Share your thoughts on the evolving role of analytics in business and exchange ideas with peers in the forum, fostering an engaging and interactive learning experience.",
+            "Practical Application: Experiment with creating a macro in Excel to automate tasks and enhance your technical skill set, ensuring a hands-on approach to learning."
+        ],
+        [
+            "Spreadsheet Modeling Principles: Learn effective techniques for organizing, building, and auditing spreadsheets to minimize errors and optimize functionality.",
+            "VBA for Excel: Explore advanced features of Excel VBA, including coding and debugging, to automate repetitive tasks and improve productivity.",
+            "Analytics Ethics: Discuss ethical dilemmas and responsibilities in the field of analytics, guided by the INFORMS code of ethics."
+        ],
+        [
+            "Engage with Core Concepts: Study chapters from the textbook and the INFORMS code of ethics to build a strong foundation in spreadsheet modeling and analytics ethics.",
+            "Collaborative Discussion: Participate in discussions on spreadsheet error risks and ethical challenges in analytics, encouraging a deeper understanding of real-world implications.",
+            "Hands-On Practice: Develop a VBA macro to automate data generation and analysis, refining your technical skills through practical application."
+        ],
+        [
+            "Introduction to Optimization: Understand the foundational principles of linear programming and its applications in decision-making.",
+            "Transportation Planning: Learn to develop least-cost shipping schedules by leveraging optimization models.",
+            "Excel Solver: Gain proficiency in using Excel Solver to build and solve optimization models."
+        ],
+        [
+            "Study Core Concepts: Review chapters from the course textbook on optimization and decision-making techniques to understand the theory behind linear programming.",
+            "Interactive Video Tutorial: Watch the LinkedIn Learning video, “Solving Optimization and Scheduling Problems in Excel,” to enhance your technical skills with Solver.",
+            "Practical Application:\n\nDevelop a written formulation of a transportation problem, defining constraints, supply, demand, and cost structures.\nBuild an Excel Solver model to optimize a shipping schedule, finding the least-cost solution for transporting goods between plants and markets.",
+            "Develop a written formulation of a transportation problem, defining constraints, supply, demand, and cost structures.",
+            "Build an Excel Solver model to optimize a shipping schedule, finding the least-cost solution for transporting goods between plants and markets."
+        ],
+        [
+            "Develop a written formulation of a transportation problem, defining constraints, supply, demand, and cost structures.",
+            "Build an Excel Solver model to optimize a shipping schedule, finding the least-cost solution for transporting goods between plants and markets."
+        ],
+        [
+            "Advanced Formulations: Learn to represent complex problems using algebraic notation, enhancing precision and clarity in modeling.",
+            "Real-World Applications: Study large-scale linear programming examples, including performance evaluation at the American Red Cross and optimization at Chevron refineries.",
+            "Integrating Tools: Explore how Excel, Access, and Visual Basic can be combined to deploy robust analytical models."
+        ],
+        [
+            "Explore Core Readings: Deepen your understanding of advanced modeling techniques through textbook chapters and manuscripts such as Stigler’s Diet Problem and Optimizing Chevron Refineries.",
+            "Hands-On Application: Model and solve a revised transportation problem to apply advanced linear programming concepts and techniques.",
+            "Engage in Discussions: Use the Week 4 General Discussion Forum to share insights, ask questions, and collaborate with peers on class concepts and assignments."
+        ],
+        [
+            "Integer Programming Fundamentals: Understand the role of integer variables in linear programming and their application in real-world decision-making.",
+            "Solution Techniques: Explore methods for solving integer programs and gain hands-on experience with binary variables.",
+            "Practical Applications: Learn from real-world cases such as Philadelphia political districting, radio advertisement scheduling, and the Canadian Football League’s game scheduling."
+        ],
+        [
+            "Explore Key Concepts: Engage with curated readings and examples that highlight the role of integer programming in decision-making and optimization.",
+            "Practice and Apply: Develop and refine your problem-solving skills through interactive assignments and real-world case studies.",
+            "Collaborate and Reflect: Participate in discussions to share perspectives and clarify concepts, fostering a deeper understanding of the material."
+        ],
+        [
+            "Supply Chain Fundamentals: Discover the essential principles of supply chain management and how they drive decision-making.",
+            "Optimization Framework: Learn how optimization techniques empower businesses to create effective aggregate planning models.",
+            "Scenario Analysis: Develop Excel-based models to analyze real-world challenges and explore alternative solutions."
+        ],
+        [
+            "Read and Explore: Delve into chapters on supply chain management and aggregate planning to build your foundational knowledge.",
+            "Hands-On Modeling: Use Excel to create and refine aggregate planning models, replicating scenarios from real-world business cases.",
+            "Collaborative Discussions: Join engaging discussions with classmates to exchange ideas and perspectives, enhancing your learning experience."
+        ],
+        [
+            "Role of S&OP: Understand how S&OP serves as a key process for balancing supply and demand within an organization.",
+            "Optimization in S&OP: Learn how to apply optimization frameworks to improve coordination and decision-making.",
+            "Excel Modeling and Analysis: Build practical skills in creating S&OP models and conducting scenario analyses to evaluate different strategies."
+        ],
+        [
+            "Engage with Core Readings: Study foundational materials on supply chain management and S&OP strategies to understand their applications.",
+            "Develop S&OP Models: Create and refine Excel-based models that align with business objectives and explore their sensitivity to various scenarios.",
+            "Collaborative Insights: Participate in discussions with peers to share ideas, clarify concepts, and deepen your understanding of S&OP."
+        ],
+        [
+            "Exploring Alternatives to Solver: Learn about the capabilities of advanced modeling tools and their applications in real-world scenarios.",
+            "Introduction to GAMS: Understand the structure, functionality, and advantages of using GAMS for optimization modeling.",
+            "Practical Application: Develop skills in modifying and solving optimization problems using GAMS, enhancing your ability to tackle complex business challenges."
+        ],
+        [
+            "GAMS Exploration: Familiarize yourself with GAMS software by exploring its features and applications in prescriptive analytics.",
+            "Practical Application: Use GAMS to develop and solve optimization models, integrating advanced features and scenarios for real-world relevance.",
+            "Collaborative Discussion: Participate in class discussions to share insights and strategies for optimizing problem-solving techniques with GAMS."
+        ],
+        [
+            "Foundations of Probability: Understand how probability principles can be applied to analyze and solve business problems.",
+            "Probability Distributions: Explore various types of distributions and their practical use in data analysis.",
+            "Sampling Methods: Learn how to draw samples from distributions to model uncertainty effectively.",
+            "Data Modeling: Discover how to fit data to distributions, gaining insights that drive better business decisions."
+        ],
+        [
+            "Explore Core Concepts: Study essential topics in probability and data modeling through curated readings and practical examples.",
+            "Hands-On Application: Practice fitting probability distributions to real-world datasets to see how theory translates into actionable insights.",
+            "Collaborative Discussions: Engage in thought-provoking discussions with peers, sharing perspectives on modeling and problem-solving strategies."
+        ],
+        [
+            "Fitting Data to Distributions: Explore methods to determine whether data aligns with Normal, Exponential, or other distributions.",
+            "Understanding Bin Widths: Learn how adjusting bin widths can impact distribution fitting and data interpretation.",
+            "Practical Applications: Discover how probability distribution fitting supports simulation models and real-world decision-making."
+        ],
+        [
+            "Explore Fundamental Concepts: Study the principles of data modeling and distribution fitting through engaging readings and guided examples.",
+            "Apply Knowledge to Real Data: Analyze a dataset to determine its best-fit distribution, honing your ability to interpret data effectively.",
+            "Collaborate and Discuss: Participate in discussions with peers to share insights, approaches, and solutions to common data fitting challenges."
+        ],
+        [
+            "Introduction to Decision Analysis: Learn the principles and framework of decision analysis for situations involving uncertainty.",
+            "Handling Probabilities and Outcomes: Understand how to incorporate probabilistic elements into decision-making models.",
+            "Practical Case Study: Apply decision analysis concepts to real-world business problems for hands-on learning."
+        ],
+        [
+            "Engage with Core Concepts: Delve into decision analysis techniques by studying examples and exploring best practices in the field.",
+            "Practice Through Application: Solve the “Performance Lawn Equipment” case to apply decision analysis methods to a real-world scenario.",
+            "Collaborate and Reflect: Discuss challenges and strategies in decision analysis with peers, gaining diverse perspectives on its applications."
+        ],
+        [
+            "Understanding Simulation: Learn how simulation incorporates uncertainty into analytics for better decision-making.",
+            "Probability and Distributions: Explore key distribution types, including Normal, Uniform, and Empirical, and their role in modeling scenarios.",
+            "Practical Applications: Apply simulation techniques to real-world cases, such as inventory management and production planning."
+        ],
+        [
+            "Engage with Core Concepts: Study materials on simulation methods, including theoretical concepts and practical applications.",
+            "Hands-On Analysis: Develop models using Excel to simulate distributions and predict outcomes for complex business scenarios.",
+            "Collaborate and Discuss: Participate in forums to share insights and strategies for effective simulation modeling."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "Image of business analytics 3rd edition textbook.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/BA_Cover-1.jpg"
+        },
+        {
+            "alt": "Mathematical equation showing maximization of a summation.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/image-5-edited.png"
+        },
+        {
+            "alt": "Mathematical notation of linear inequality constraints.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/image-6.png"
+        },
+        {
+            "alt": "Mathematical notation of equality constraints in a system.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/image-7.png"
+        },
+        {
+            "alt": "Diagram of the Jansen Potash operation illustrating production (mining, processing) and logistics (rail, shipping).",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/ban-840.png"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Assessment Type",
+                "Points Each",
+                "Total Points"
+            ],
+            [
+                "Weekly Assignments",
+                "60",
+                "600"
+            ],
+            [
+                "Discussions",
+                "10",
+                "100"
+            ],
+            [
+                "Case Studies (Team)",
+                "150",
+                "300"
+            ],
+            [
+                "Total",
+                "",
+                "1000"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"5196\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

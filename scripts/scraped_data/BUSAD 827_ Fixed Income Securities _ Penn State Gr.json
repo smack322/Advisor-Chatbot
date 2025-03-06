@@ -1,0 +1,538 @@
+{
+    "metadata": {
+        "title": "BUSAD 827: Fixed Income Securities – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=5455"
+    },
+    "headings": {
+        "h2": "Lesson 7: Interest-Rate Swaps",
+        "h4": "Unlocking Your Potential",
+        "h3": "Basic Structure of Plain Vanilla Interest Rate Swap"
+    },
+    "paragraphs": [
+        "BUSAD 827 Fixed Income Securities: This three-credit course provides an in-depth exploration of fixed income securities and their role in portfolio management. Over the span of the course, students will gain a comprehensive understanding of various fixed income instruments, including treasury, corporate, and municipal bonds, as well as mortgage-backed and asset-backed securities. The course also delves into interest rate derivatives and credit derivatives, ensuring students develop a robust foundation in these critical financial instruments.",
+        "Through carefully selected readings, case studies, and hands-on activities, students will learn to construct and manage fixed income portfolios with a focus on aligning investments to specific benchmarks. Practical exercises will emphasize strategies for measuring and managing risks, enabling participants to navigate the complexities of fixed income portfolio management with confidence.",
+        "By the end of the course, students will have the skills needed to effectively design and manage fixed income portfolios, meet performance objectives, and address challenges in today’s dynamic financial landscape. This course is ideal for individuals seeking to enhance their expertise in portfolio management or advance their careers in finance and investment management.",
+        "(3 credits) This course focuses on the various fixed income securities including bonds (treasury, corporate, municipal), mortgage-backed securities, asset-backed securities, interest rate derivatives, and credit derivatives. It builds upon that knowledge in order to understand fixed income portfolio management, with focus on portfolio construction, managing versus a benchmark, and measuring and managing risks.",
+        "FIN 808 and FIN 813",
+        "Microsoft Excel: There will be a number of financial model building exercises covered in the class using Excel. We will complete several exercises to gain sufficient practice applying the tools and concepts to actual managerial decision scenarios. Please sharpen your Excel skills quickly to ensure that you do not hinder your ability to learn finance and economics.",
+        "Proctored Exams – None.",
+        "Measurements of Learning Objectives",
+        "Grades will be based on the following scale:",
+        "A = 95 and above, A- = 89-94, B+ = 85-88, B =79-84, B- = 75-78, C = 69-74, D = 60-68, and F = Below 60",
+        "Each week you will be required to complete a homework assignment. The homework assignments will consist of either end-of-chapter problems from the course text or excel-based problem sets. Please refer to the course schedule to view the assigned problems and due dates. Use Excel and incorporate spreadsheet output (show your work) in your submissions. Submission is mandatory for the final grade release.",
+        "***Exams will be submitted electronically. Any late submission will be subject to 50% late submission penalty.",
+        "*subject to change",
+        "The price of any financial instrument should be the same as the sum of present values of all future cash flows that you expect to receive from holding the financial instrument to its maturity.",
+        "Therefore, to determine the price of any financial instrument, it is required to have an estimate of (i) the expected cash flows, and (ii) the appropriate required yield to be used to calculate present values of the expected cash flows. We will discuss how to measure the appropriate required yield in Chapter 3. Here we will first focus on the expected cash flows.",
+        "The expected cash flows for a coupon bond that the issuer cannot retire prior to its stated maturity date consist of:",
+        "In general, the current or market price of a bond can be calculated by using the formula in equation 5:",
+        "Let’s say you plan to buy a bond which pays coupons twice a year, which is a semi-annual coupon bond. What should be the price of this semi-annual coupon bond?",
+        "Equation 1.5: P=∑i=1nCt(1+r)t+Mt(1+r)n",
+        "An interest rate cap is a portfolio of call options on LIBOR with expiration dates staggered over time. Each call option is called a caplet and it guarantees that the interest rate in each of the future periods will not be higher than a certain limit, a strike rate or a cap rate, as observed in the interest rate call option.",
+        "Characteristics of interest rate caps include:",
+        "Alpha manufacturing (Alpha) plans to borrow $20 million for 10 years from Beta Commercial Bank (BCB) at an interest rate of 2% over 3-month LIBOR as shown in Figure 7.1.",
+        "At the same time, Alpha wants to hedge its exposure to uncertain interest payments on the variable rate loan as follows.",
+        "Alpha enters with BCB into a 10-year plain vanilla interest swap contract with a six-month settlement period (therefore, the reset frequency is every 6 month) and the notional principal amount (NP) of $20 million. Under the contract, Alpha agrees to receive the floating-rate payments (3-month LIBOR * NP of $20 million) by paying the fixed-rate payment (5% p.a. * NP of $20 million) on every 6 months for the next 10 years.",
+        "Combined with the interest rate swap, Alpha successfully converts the net interest payment on the BCB loan from variable rate (3-mo LIBOR plus 2%) to a fixed rate at 7% as shown below:",
+        "BCB Loan Interest Payment:",
+        "- (3-mo LIBOR + 2% p.a.)",
+        "SWAP:",
+        "+ 3-mo LIBOR (floating rate leg)   - 5% p.a. (fixed rate leg)",
+        "Net Interest Payment: 7% p.a.",
+        "Using the interest-rate swap, Alpha fully hedges future interest rate risk associated with its $20 million loan.",
+        "This course will provide you with a thorough introduction to:",
+        "During this course you will expand your knowledge of the lesson topics each week.",
+        "This lesson provides a solid foundation in fixed-income securities, focusing on the essential features of bonds, their issuers, and key concepts related to bond maturity.",
+        "By the end of this lesson, you will have a thorough understanding of bond fundamentals and the skills to evaluate fixed-income securities effectively, preparing you for deeper exploration of portfolio management.",
+        "This lesson introduces you to conventional yield measures and their role in determining a bond’s relative attractiveness. You’ll learn how to calculate yield and understand its significance for evaluating investment returns.",
+        "By the end of this lesson, you’ll have a strong grasp of yield measures, bond price volatility, and the tools used to evaluate and manage interest rate risk, equipping you to make more informed investment decisions.",
+        "This lesson introduces the key factors affecting yield spreads between bonds, with a particular focus on maturity and its role in determining interest rate patterns.",
+        "By the end of this lesson, you will have developed a deep understanding of the term structure of interest rates, the construction of yield curves, and the importance of theoretical spot rates in bond pricing, preparing you to navigate yield dynamics confidently.",
+        "This lesson introduces the core characteristics and provisions of convertible bonds, bridging the gap between fixed-income securities and equity investments. Learn how these bonds offer unique opportunities for investors seeking both income and growth potential.",
+        "By the end of this lesson, you will have a comprehensive understanding of convertible bonds, their investment potential, and the strategies for identifying arbitrage opportunities, preparing you to confidently navigate this dynamic segment of the bond market.",
+        "This lesson begins by examining the limitations of traditional yield spread analysis and introduces static spread as an alternative measure. Learn the conditions under which static spreads provide more accurate insights for bond evaluation.",
+        "By the end of this lesson, you will have mastered advanced bond valuation techniques, including static spread, OAS, and the binomial interest rate tree, equipping you with the tools to analyze bonds with embedded options effectively and make more informed investment decisions.",
+        "This lesson introduces forward rate agreements (FRA), highlighting their unique features and how they differ from traditional interest-rate futures contracts. Learn how these contracts offer flexibility to institutional investors for managing interest-rate exposure.",
+        "By the end of this lesson, you will gain a strong understanding of advanced interest-rate risk management tools, including FRAs and interest-rate caps, floors, and collars, preparing you to apply these strategies in institutional investment settings confidently.",
+        "This lesson introduces interest-rate swaps, a critical tool in managing interest-rate exposure. Understand their unique features, role in financial markets, and how they differ from other interest-rate derivatives like futures and options.",
+        "By the end of this lesson, you will have a comprehensive understanding of interest-rate swaps, including their pricing, valuation, and practical applications, equipping you to use these tools effectively in real-world financial settings.",
+        "BUSAD 827 equips students with advanced knowledge and practical skills in fixed-income securities, derivatives, and portfolio management. This course is designed to prepare individuals for high-impact roles in investment management, risk analysis, and financial consulting by teaching techniques for evaluating and pricing complex financial instruments such as bonds, swaps, and interest-rate derivatives. Graduates of this course gain a competitive edge in the financial sector, as they are equipped to assess risk, develop effective investment strategies, and manage portfolios with precision.",
+        "Professionals who complete BADM 827 are well-positioned for roles such as Fixed-Income Analyst, Portfolio Manager, Financial Risk Manager, or Derivatives Trader. This expertise is highly sought after by employers in investment banks, asset management firms, and financial consulting organizations. Mastery of the concepts taught in this course can significantly enhance career prospects in the competitive financial services industry.",
+        "One real-world example related to the concepts taught in BADM 827: Advanced Fixed-Income Securities Analysis can be found in the 2008 financial crisis. During this period, many institutional investors and banks held complex financial instruments like mortgage-backed securities (MBS) and collateralized debt obligations (CDOs) in their portfolios. These instruments were structured with embedded options and other features that made their valuation challenging. Many institutions relied on traditional yield spread measures without fully understanding the risks or applying more sophisticated tools, such as option-adjusted spreads (OAS) or static spreads, to assess their true value and risk exposure.",
+        "As the housing market collapsed and interest rates fluctuated, the lack of accurate pricing and risk management techniques led to significant losses. For example, large financial institutions faced liquidity issues because they underestimated the sensitivity of these securities to market changes. To address this, some firms turned to advanced valuation techniques, including the use of binomial interest-rate trees and OAS, to reassess their portfolios and make more informed decisions about restructuring their holdings.",
+        "This situation highlights the importance of mastering fixed-income valuation and risk management techniques, such as those taught in BADM 827. By using these advanced methodologies, financial professionals can better evaluate complex instruments, anticipate market risks, and develop strategies to protect institutional portfolios. These skills not only prevent financial losses but also ensure compliance with regulatory requirements and foster long-term stability in the financial markets.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Explain the various features of fixed income securities and how those features affect the risks associated with investing in these securities.",
+            "Explain the general principles of fixed income security valuation.",
+            "Compute the traditional yield measures for fixed-rate bonds to understand limitations PVVP, duration and convexity measures.",
+            "Demonstrate how interest rate volatility is estimated to identify issues associated with",
+            "Describe the factors affecting bond yield, term structure of interest rate, the relationship among par yield, spot rates and forward rates.",
+            "Identify the methodologies for analyzing convertible bonds.",
+            "Describe the approaches to valuing bonds with embedded options.",
+            "Identify unique characteristics associated with forward rate agreement (FRA) and compute the price and value of FRA contracts.",
+            "Describe unique characteristics of interest rate options such as cap, floor and collar.",
+            "Identify unique characteristics associated with interest rate swap by computing the price and value of various interest."
+        ],
+        [
+            "Bond Markets, Analysis, and Strategies, 9/E, Frank J. Fabozzi, EDHEC Business School, ISBN-10: 0133796779 • ISBN-13: 9780133796773 ©2016 • Prentice Hall"
+        ],
+        [
+            "Midterm Exams: There will be two (2) mid-term exams, which will consist of 20 multiple-choice problems. You will be given 4-hours to complete each mid-term exam. The midterm exam 1 will cover Lessons 1 & 2 and midterm exam 2 will cover Lessons 3 to 5.  The midterm exams are timed; you will have four (4) hours to complete each midterm exam.\n\nNote: During the examination period for the midterm exams, communication with other people concerning the subject matter of the exam is prohibited. ​ No makeup examinations will be given for any reason except for a medical emergency. Vacation plans, nonrefundable airline tickets, etc. are not acceptable excuses.",
+            "Note: During the examination period for the midterm exams, communication with other people concerning the subject matter of the exam is prohibited. ​ No makeup examinations will be given for any reason except for a medical emergency. Vacation plans, nonrefundable airline tickets, etc. are not acceptable excuses.",
+            "Final Exam: The excel-based final exam will cover Lessons 6–7 and will be posted at 9 am on Wednesday and be due by 11:59 pm on Sunday in Week 7. You will be given an excel template where you will need to provide detailed steps taken to arrive your answers.\n\nNote: During the examination period for final exam, communication with other people concerning the subject matter of the exam is prohibited. ​ No makeup examinations will be given for any reason except for medical emergency. Vacation plans, nonrefundable airline tickets, etc. are not acceptable excuses.",
+            "Note: During the examination period for final exam, communication with other people concerning the subject matter of the exam is prohibited. ​ No makeup examinations will be given for any reason except for medical emergency. Vacation plans, nonrefundable airline tickets, etc. are not acceptable excuses."
+        ],
+        [
+            "Note: During the examination period for the midterm exams, communication with other people concerning the subject matter of the exam is prohibited. ​ No makeup examinations will be given for any reason except for a medical emergency. Vacation plans, nonrefundable airline tickets, etc. are not acceptable excuses."
+        ],
+        [
+            "Note: During the examination period for final exam, communication with other people concerning the subject matter of the exam is prohibited. ​ No makeup examinations will be given for any reason except for medical emergency. Vacation plans, nonrefundable airline tickets, etc. are not acceptable excuses."
+        ],
+        [
+            "Interest Rate- Swaps",
+            "Fundamental Features of a Bond and It’s Pricing",
+            "Measuring Yield and Bond Price Volatility",
+            "Factors Affecting Bond Yield including Term Structure of Interest Rate",
+            "Analysis of Convertible Bond (CB)",
+            "Analysis of Bonds with Embedded Options",
+            "Interest Rate Derivatives Contract (FRA, Options)"
+        ],
+        [
+            "Bond Pricing",
+            "Interest Rate Cap",
+            "Interest Rate Swap"
+        ],
+        [
+            "where P = price of a bond today",
+            "n = number of periods",
+            "C = periodic coupon payment",
+            "r = periodic interest rate",
+            "M = maturity value",
+            "t = time period when the payment is to be received"
+        ],
+        [
+            "Where the following variables mean:",
+            "NP is the notional principal;",
+            "τk = tk+1 - tk (the period in fractional year between tk and tk+1);",
+            "Xk = cap rate (strike rate); and",
+            "Lk = variable rate, LIBOR, at time tk for the period between tk and tk+1"
+        ],
+        [
+            "The unique characteristics of interest-rate derivatives contracts, focusing on swaps, futures, and options.",
+            "The differences between plain vanilla interest-rate swaps and cross-currency swaps.",
+            "How to compute the price and value of interest-rate swaps using structured methodologies.",
+            "Practical applications of interest-rate swaps in managing interest-rate and currency risks."
+        ],
+        [
+            "L1",
+            "L2",
+            "L3",
+            "L4",
+            "L5",
+            "L6",
+            "L7"
+        ],
+        [
+            "Understand Risks Faced by Fixed-Income Investors: You’ll analyze the various risks investors face, such as interest rate risk, credit risk, and reinvestment risk, equipping you to evaluate bond investments more effectively.",
+            "Master Bond Pricing Principles: Learn to compute bond prices using fundamental pricing methods. Gain insights into the factors influencing bond valuation and the complications that arise when pricing fixed-income instruments."
+        ],
+        [
+            "Bond Issuer Analysis: Examine real-world examples of government, corporate, and municipal bond issuers.",
+            "Risk Identification Workshop: Identify and categorize risks associated with different fixed-income securities through interactive exercises."
+        ],
+        [
+            "Price Sensitivity Metrics: Explore bond price volatility using tools like PVBP and duration to understand market risks.",
+            "Practical Applications of Duration: Analyze how duration is used to manage interest rate risk, while identifying its limitations."
+        ],
+        [
+            "Yield Calculation Workshop: Practice computing conventional yield measures and total return for different types of bonds.",
+            "Bond Price Sensitivity Analysis: Use PVBP and duration to analyze how bond prices change with shifts in interest rates."
+        ],
+        [
+            "Analyze Factors Influencing Yield Spreads: Explore how maturity, credit risk, and liquidity affect yield differences between bonds.",
+            "Differentiate Between Par and Spot Yield Curves: Understand the characteristics of par and spot yield curves and their respective roles in bond valuation."
+        ],
+        [
+            "Spot vs. Forward Rates Exercise: Compare spot rates and forward rates to evaluate their relationship and impact on bond pricing.",
+            "Yield Spread Analysis: Identify and analyze the factors contributing to yield spreads between two bonds."
+        ],
+        [
+            "Describe Investment Features: Understand the hybrid characteristics of convertible bonds, including their fixed-income and equity-like attributes.",
+            "Analyze Pricing and Value: Explore the methodologies for assessing convertible bond pricing and their sensitivity to market changes."
+        ],
+        [
+            "Convertible Bond Features Workshop: Examine real-world examples of convertible bonds and their key provisions, such as conversion ratios and call/put options.",
+            "Pricing Analysis Exercise: Analyze the pricing of convertible bonds under different market scenarios."
+        ],
+        [
+            "Analyze Drawbacks of Traditional Yield Spread: Understand why traditional measures may fall short in capturing bond pricing complexities.",
+            "Understand Bonds with Embedded Options: Describe the features of callable and puttable bonds and their influence on valuation."
+        ],
+        [
+            "Lattice Method Exercise: Construct a binomial interest rate tree to price a bond with an embedded option.",
+            "Option-Adjusted Spread Simulation: Apply the OAS concept to evaluate the true yield spread of bonds with embedded options."
+        ],
+        [
+            "Understand Forward Rate Agreements (FRA): Identify the unique features of FRAs and how they differ from interest-rate futures.",
+            "Learn to Price FRA Contracts: Develop skills to compute the price and value of FRAs for different scenarios."
+        ],
+        [
+            "FRA Pricing Workshop: Calculate the price and value of forward rate agreements under different interest-rate conditions.",
+            "Risk Management Case Study: Analyze real-world examples of institutional investors managing risk using caps, floors, and collars."
+        ],
+        [
+            "Analyze Risk Management Applications: Understand how swaps are used to mitigate interest-rate and currency risks effectively.",
+            "Learn Pricing Techniques: Gain practical knowledge of how to price and value interest-rate swaps accurately."
+        ],
+        [
+            "Swap Basics Workshop: Explore the unique characteristics of interest-rate derivatives, focusing on swaps, futures, and options.",
+            "Pricing Interest-Rate Swaps Exercise: Calculate the price and value of plain vanilla and cross-currency swaps using real-world examples."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "FIN 808",
+            "url": "https://bulletins.psu.edu/search/?P=FIN%20808"
+        },
+        {
+            "text": "FIN 813",
+            "url": "https://bulletins.psu.edu/search/?P=FIN%20813"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "Cover of the book titled Bond Markets, Analysis, and Strategies (10th Edition) by Frank J. Fabozzi. The design features colorful bond certificates fanned out on the left side against a clean white background, with the title and author’s name prominently displayed on the right.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/fixed_income_sec_book.gif"
+        },
+        {
+            "alt": "Close-up image of a bond investment document displaying U.S. Treasury data, including maturity dates, coupon rates, and current yields. A black pair of eyeglasses and an orange pencil rest on top of the document. A chart showing yield curve data is visible in the background.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/Investing_in_Bonds_Final-1024x681.jpeg"
+        },
+        {
+            "alt": "Diagram showing a financial transaction between BCB (Lender) and Alpha (Borrower). BCB provides a principal of $20 million to Alpha, with Alpha agreeing to pay interest based on 3-month LIBOR plus 2%. Arrows illustrate the flow of funds between the two parties.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/ir_rate_swap1.jpg"
+        },
+        {
+            "alt": "Diagram illustrating an interest rate swap between BCB (Fixed Rate Receiver) and Alpha (Fixed Rate Payer). BCB receives a fixed rate of 5% quarterly (R_FIXED) from Alpha, while Alpha pays a floating rate based on the 3-month LIBOR (R_FLOATING). Arrows indicate the direction of payments between the two parties.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/ir_rate_swap2.jpg"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Grading Component",
+                "Quantity",
+                "Percentage of Final Grade"
+            ],
+            [
+                "Homework Assignments",
+                "7",
+                "Ungraded"
+            ],
+            [
+                "2 Midterm Exams (Multiple-choice, Individual)",
+                "2",
+                "60% (30% each)"
+            ],
+            [
+                "Final Exam (Excel-based, Individual)",
+                "1",
+                "40%"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"5455\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

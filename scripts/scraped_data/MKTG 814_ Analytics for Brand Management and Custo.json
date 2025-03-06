@@ -1,0 +1,448 @@
+{
+    "metadata": {
+        "title": "MKTG 814: Analytics for Brand Management and Customer Experience – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=5538"
+    },
+    "headings": {
+        "h2": "Lesson 5: Using Data to Manage Product Development and Pricing",
+        "h4": "Unlocking Your Potential",
+        "h3": "Kano Analysis"
+    },
+    "paragraphs": [
+        "This course provides an immersive exploration of marketing strategy through the lens of customer management, emphasizing the philosophy of treating customers as valuable assets. Designed for the modern, data-driven business environment, the course equips students with the tools to leverage detailed customer information to foster loyalty, enhance satisfaction, and optimize long-term customer value. While the focus is on organizations in “data-rich” industries, traditional customer relationship strategies and tactics are also explored, ensuring a well-rounded perspective that prepares students to succeed across a variety of business contexts.",
+        "Built around the customer lifecycle framework, the course covers every stage of customer relationship management, from identifying and acquiring prospects to nurturing relationships through up-selling, cross-selling, and personalization. Students will dive deep into critical topics such as customer retention, loyalty programs, and advanced customer profitability metrics like lifetime value and customer equity. Additionally, the program introduces cutting-edge marketing analytics tools and techniques—such as decile analysis, RFM analysis, and data mining—providing hands-on exposure to the methodologies driving customer-centric decision-making in today’s competitive marketplace.",
+        "MKTG 814 equips students with the skills to leverage marketing data analytics for brand and product success. The course focuses on analyzing brand positioning, brand equity, customer loyalty, price optimization, and customer experience enhancement. Special emphasis is placed on data visualization and effectively communicating insights to drive strategic business decisions.",
+        "Upon successful completion of this course, students will be able to:",
+        "You have various types of reading assignments for this course. All required readings are listed throughout the course in the appropriate lessons. You need to complete the following tasks to be prepared for course reading assignments.",
+        "You may want to visit the Student Library Guide, a web page designed to help you understand and use library resources effectively.",
+        "Various online articles are used to help illustrate current applications of various concepts we will cover in this class. All curated articles are freely available and are linked in the appropriate lesson content.",
+        "Varies and changes to maintain relevancy.",
+        "*subject to change",
+        "During the ideation and prototyping phases product concepts are tested to identify features and versions that are likely to be successful in the marketplace. Concept tests typically involve asking consumers survey questions about their perceptions of the offering and its characteristics–including assessing aspects such as usefulness, liking, and purchase intent.",
+        "Conjoint analysis is a research tool that is often employed for this purpose. It relies on a research methodology using survey questions to identify combinations of product/service elements leading to the greatest market receptivity. Respondents are presented with a variety of product packages, each with different versions of features, and are asked to select those they’re most interested in. Back-end analytics then identify the features that produce the strongest positive responses, thereby helping marketers to identify the right combination of product characteristics",
+        "The goal of marketing is to move customers through the purchase journey and beyond to loyalty. The customer lifecycle framework postulates that this process has six phases. It begins when customers discover the brand and its offerings and is ongoing as brands maintain relationships with customers via engagement that keeps them coming back. Let’s talk about each phase specifically, and review some analytics you may apply to generate insights for each area.",
+        "Kano analysis (named after the individual who created the model) is a technique for identifying the features of an offering that are likely to be most successfully received by customers. The model identifies the most relevant and important features of an offering by how well they perform on 2 dimensions.",
+        "The Kano model assumes that customers have three types of needs. There are varying terminologies associated with these 3 groups so if you see different verbiage be aware they’re all getting at the same concepts:",
+        "These are features that customers expect from a product (sometimes called ‘cost of entry’ because they are essentially required by an offering in their market). For example, texting ability is a feature the majority (if not all) customers expect from a cell phone; therefore, a cell phone producer must include that feature to meet this expected need. In Kano analysis, these needs are sometimes referred to as ‘must be’ because without them customers would not consider the offering. These features don’t create excitement or delight but can lead to customer dissatisfaction if not done well.",
+        "These features are the next step up from expected needs–the ones that customers want from an offering. They’re also the features of an offering that differentiate it in the marketplace. To continue with my example, texting functionality is an expected feature for a cell phone but a high-megapixel camera is likely to be a differentiating feature for a cell phone. In Kano analysis, these types of features are called ‘satisfiers’ because when done well they increase customer satisfaction.",
+        "These are features of an offering that set it far apart from competitors. These features meet needs customers may not even know they have, and when included they elicit feelings of delight (which is why Kano analysis often refers to them as ‘delighters’). Customers don’t expect these features, but when they are included they can greatly increase satisfaction. For example, an AI technology feature in a cell phone may meet this criterion.",
+        "Upon successful completion of this course, students will be able to:",
+        "During this course you will expand your knowledge of the lesson topics each week.",
+        "This lesson introduces you to the process of gathering and interpreting brand and customer data to better understand perceptions, experiences, and opportunities. You will also learn how to group data into composite metrics that simplify analysis and enhance strategic insights.",
+        "By the end of this lesson, you will have a clear understanding of how to collect and analyze brand and customer data, design effective surveys, and create composite metrics that drive meaningful results. You will be ready to apply these concepts in future analytics challenges.",
+        "In this lesson, you will explore how data can be used to assess and manage brand equity—a critical factor for business success in competitive markets. By analyzing real-world cases and applying strategic frameworks, you will gain a deeper understanding of how businesses measure brand value, identify key drivers of success, and position themselves within their industry landscape.",
+        "By the end of this lesson, you will have the skills to assess brand equity, evaluate the competitive landscape, and identify opportunities for growth. You’ll be able to apply these concepts to real-world business challenges, positioning you to make data-driven decisions that enhance brand value.",
+        "In this lesson, you will explore the customer lifecycle framework—a critical tool for understanding and managing customer interactions at every stage. From acquisition to loyalty, you’ll learn how to evaluate customers effectively across each phase, identify key metrics, and use analytics to drive a superior customer experience. Through case examples and hands-on analysis, you’ll develop skills to assess and optimize customer relationships for long-term success.",
+        "By the end of this lesson, you will have a strong understanding of the customer lifecycle, its strategic importance, and the metrics needed to measure success at every stage. You’ll leave equipped to enhance customer experiences and drive meaningful business growth.",
+        "This lesson introduces the concept of brand loyalty, its impact on business performance, and how data analysis can uncover opportunities for growth. You’ll also evaluate loyalty programs and explore frameworks for enhancing customer retention.",
+        "By the end of this lesson, you will be able to evaluate brand loyalty using advanced analytics techniques, segment customers for targeted retention strategies, and assess loyalty program success. These skills will prepare you to drive customer satisfaction and build lasting brand loyalty.",
+        "In this lesson, you will learn how businesses use data to make critical decisions about product development, performance, and pricing. By applying advanced analytic techniques, such as segmentation analysis, product feature evaluation, and pricing assessments, you’ll develop the skills to create products that resonate with customers and optimize pricing strategies for profitability.",
+        "By the end of this module, you will be able to use data analytics to segment markets, evaluate products, and optimize pricing strategies effectively. You will leave with a strong understanding of how to manage the product lifecycle and drive business success using data-driven insights.",
+        "A career in marketing analytics is one of the fastest-growing and most impactful paths for data-driven professionals. By taking MKTG 814: Analytics for Brand Management and Customer Experience, you’ll gain the critical skills needed to analyze and interpret data to drive strategic decisions for brands and businesses. This course prepares you to tackle real-world challenges, from evaluating brand equity and loyalty to optimizing customer experiences and pricing strategies. Employers across industries are actively seeking professionals who can transform complex data into actionable insights, making you an invaluable asset to marketing teams, consulting firms, and global organizations.",
+        "With expertise in tools like segmentation analysis, customer lifecycle evaluation, and data visualization, you’ll be equipped to influence key business outcomes, such as increasing brand value, enhancing customer satisfaction, and improving profitability. Whether your goal is to work for leading corporations, emerging startups, or consult across industries, this course positions you at the intersection of marketing strategy and data analytics, setting you apart in a competitive job market and providing a clear pathway to roles such as Marketing Analyst, Brand Strategist, or Customer Insights Manager.",
+        "Brand Equity Assessment for a Retail Brand: Analyze survey and sales data to evaluate brand equity, using metrics like customer loyalty, brand awareness, and Net Promoter Score (NPS). Develop actionable insights to help a retail company improve its brand positioning and customer perception in a competitive market.",
+        "Customer Segmentation for a Financial Services Company: Use segmentation techniques such as clustering analysis to identify distinct customer groups based on behaviors, demographics, and preferences. Recommend targeted marketing strategies to increase engagement, improve customer satisfaction, and drive growth.",
+        "Pricing Optimization for a New Product Launch: Apply tools like Conjoint Analysis and Van Westendorp Price Sensitivity Analysis to determine optimal pricing for a new product. Work with data to understand customer willingness to pay, competitive pricing, and product features that drive value.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Concept Testing",
+            "Customer Lifecycle Management",
+            "Kano Analysis"
+        ],
+        [
+            "Customer satisfaction: measured from a high of ‘delighted’ to a low of ‘frustrated,’ defining the degree of positive effect customers have associated with the features.",
+            "Functionality: measured as a degree of performance between ‘none’ and ‘best,’ denoting how well the product features are executed."
+        ],
+        [
+            "Expected needs",
+            "Wanted needs",
+            "Exciting needs"
+        ],
+        [
+            "Effectively communicate analytic results in ways that are meaningful for business stakeholders.",
+            "Articulate how marketing data supports brand, product, and customer marketing initiatives.",
+            "Use data analytics to identify and drive brand and product positioning.",
+            "Understand key brand equity metrics, manage brand data, and leverage insights to improve performance.",
+            "Conduct analyses to identify optimal product pricing strategies.",
+            "Apply analytic techniques to evaluate and enhance the customer experience."
+        ],
+        [
+            "L1",
+            "L2",
+            "L3",
+            "L4",
+            "L5"
+        ],
+        [
+            "Defining Brand and Customer Data: Understand how data is defined, collected, and managed to evaluate brand perceptions and customer experiences.",
+            "Survey Design and Data Collection: Learn the principles of effective survey design to ensure data quality and reliability.",
+            "Creating Composite Metrics: Explore techniques such as factor analysis to group variables and create meaningful composite scores for brand and customer analytics.",
+            "Key Metrics in Analytics: Discover commonly used metrics to evaluate brand equity, customer satisfaction, and product performance."
+        ],
+        [
+            "Engage with Peers: Participate in a discussion on the importance of high-quality data in measuring brand and customer success.",
+            "Explore Real-World Examples: Review case studies showcasing how organizations use survey data and composite scores to inform strategic decisions.",
+            "Reflective Exploration: Consider how metrics and scores simplify data and support actionable business insights."
+        ],
+        [
+            "Defining Brand Equity: Understand what brand equity means and why it matters for long-term success.",
+            "Analyzing the Competitive Landscape: Learn to use data to evaluate a brand’s position relative to its competitors.",
+            "Identifying Brand Value Drivers: Discover techniques for pinpointing factors that drive brand success and areas for improvement.",
+            "Uncovering Whitespace Opportunities: Use data to identify gaps and opportunities for growth within a brand category."
+        ],
+        [
+            "Interactive Discussions: Engage with peers to reflect on real-world brand equity scenarios and their impact on business outcomes.",
+            "Case Analysis: Explore and analyze brand equity case studies, applying tools like SWOT analysis to assess positioning and performance.",
+            "Practical Exploration: Use frameworks such as key driver analysis, importance-performance mapping, and brand association mapping to evaluate brands within competitive contexts."
+        ],
+        [
+            "Understanding the Customer Lifecycle: Define the key stages, from discovery to loyalty, and their role in business strategy.",
+            "Importance of Lifecycle Evaluation: Learn why tracking customers across the lifecycle is essential for improving retention and long-term value.",
+            "Metrics and Assessments: Explore essential analytics techniques for evaluating each phase, including acquisition, engagement, conversion, and loyalty."
+        ],
+        [
+            "Interactive Discussion: Share insights on how businesses optimize the customer experience across different lifecycle phases.",
+            "Case Exploration: Analyze a case study focused on evaluating customer behaviors during the lifecycle “explore” phase.",
+            "Practical Application: Apply key lifecycle metrics and analytics tools to assess customer data and identify opportunities for improvement."
+        ],
+        [
+            "Understanding Brand Loyalty: Learn about the loyalty triad and its role in fostering long-term customer relationships.",
+            "Analyzing Loyalty Programs: Discover techniques to assess the effectiveness of loyalty initiatives using data-driven insights.",
+            "Net Promoter Score (NPS): Explore how NPS helps businesses measure customer satisfaction and predict loyalty."
+        ],
+        [
+            "Interactive Discussion: Reflect on examples of successful brand loyalty programs and share insights with peers.",
+            "Case Study Analysis: Apply key driver analysis and segmentation techniques to evaluate a brand’s loyalty strategy.",
+            "Practical Exploration: Learn to profile customer segments and analyze loyalty program performance using real-world data scenarios."
+        ],
+        [
+            "Market Segmentation and Positioning: Learn how to identify and target market segments using data-driven techniques to position products effectively.",
+            "Evaluating Product Features and Performance: Explore tools like Kano Analysis, MaxDiff, and Conjoint Analysis to determine which product components and features customers value most.",
+            "Pricing Optimization: Understand pricing techniques, including Van Westendorp and Gabor-Granger analyses, to evaluate price sensitivity and find optimal pricing points.",
+            "Integrating Insights: Discover how to tie together segmentation, product analysis, and pricing insights to support product lifecycle management."
+        ],
+        [
+            "Case Study Exploration: Analyze real-world scenarios to assess product features, market positioning, and pricing strategies.",
+            "Applied Reflection: Reflect on how data analysis supports product success, from identifying customer needs to setting competitive pricing.",
+            "Interactive Discussion: Collaborate with peers to explore how businesses use segmentation, product evaluation, and pricing tools to stay competitive."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Student Library Guide",
+            "url": "http://guides.libraries.psu.edu/onlinestudentlibraryguide"
+        },
+        {
+            "text": "Expected needs",
+            "url": "#tab-expectedneeds"
+        },
+        {
+            "text": "Wanted needs",
+            "url": "#tab-wantedneeds"
+        },
+        {
+            "text": "Exciting needs",
+            "url": "#tab-excitingneeds"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "\"Customer journey diagram segmented into six labeled phases: Discover, Explore, Buy, Use, Ask, and Engage, surrounding a central figure.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/mktg-813-customer.png"
+        }
+    ],
+    "tables": [],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"5538\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

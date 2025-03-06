@@ -1,0 +1,619 @@
+{
+    "metadata": {
+        "title": "BUSAD 888: Analytics Design Implementation – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=5996"
+    },
+    "headings": {
+        "h2": "Lesson 7: Linear Regression",
+        "h4": "Unlocking Your Potential",
+        "h3": "Confusion Matrix"
+    },
+    "paragraphs": [
+        "BUSAD 888: Analytics Design and Implementation is a three-credit capstone course that is a pivotal component of the Master of Data Analytics program. It is meticulously designed to prepare students to create comprehensive analytics systems, from the ground up. Students will gain hands-on experience in every phase of analytics project development: collecting and cleansing datasets, integrating robust database and data warehousing solutions, and deploying advanced statistical and machine learning methods for data mining and text mining.",
+        "Through practical exercises, interactive lectures, and collaborative projects, the course offers deep dives into the complexities of large-scale data analysis. You will master the art of transforming raw data into insightful, actionable information using cutting-edge visualization techniques.",
+        "The primary deliverable for the course is a fully functional analytics system, developed in a team setting. By simulating real-world roles and challenges, students will navigate the intricacies of data system design and implementation, gaining invaluable skills that are immediately applicable in professional settings.",
+        "Upon completion, participants will be equipped to design, implement, and manage sophisticated analytics systems, making them invaluable assets in today’s data-driven industries. This course not only enhances technical skills but also sharpens strategic thinking and problem-solving abilities, essential for any aspiring data analytics professional.",
+        "This course is the capstone course for the Master of Data Analytics program. It will provide students training in designing a complete Analytics System including collecting and cleaning data/data sets, storing data sets in the Database/Data Warehouse, analyzing large scale data sets using statistical and machine learning techniques (Data Mining/Text Mining), and using different visualization techniques to visualize large data sets.",
+        "In the Analytics Design Implementation course, we will have an opportunity to integrate and apply the analytical skills and knowledge learned in the previous Data Analytics courses to real world data. A general goal is to practice previously acquired Predictive/ Business Analytics concepts and methods while also learn new ideas and practices in Predictive Analytics. More specifically the goals include the following:",
+        "There are no required purchased materials for this course. If any materials is required you will receive a mail from the instructor. The mail will contain the required attachments.",
+        "Access to a reliable Internet connection is required for this course. If you experience problems with your Internet connection while working on this course, it is your responsibility to find an alternative Internet access point.",
+        "To find more information about technology at Penn State, please visit our Student Technology Guide (https://connecttotech.psu.edu).",
+        "If you need technical assistance at any point during the course, please contact the Great Valley IT Helpdesk (https://greatvalley.psu.edu/great-valley-it-helpdesk-contact-us).",
+        "Grading Scale:",
+        "Assignment Details:",
+        "The course is composed of assignments, discussions and a final project.",
+        "*subject to change",
+        "Now we will focus the lesson on some miscellaneous techniques related to data cleaning. The first of which will be howto deal with bimodal data.",
+        "Let’s take a simple example to show how bimodal distributed data looks and how to transform a variable from a bimodaldistribution to a normal distribution.",
+        "# Create a variable with bimodal distributionx = rnorm(100, mean = 10, sd = 2)y = rnorm(100, mean = 20, sd = 2)bimodal =c(x,y) # bimodal is a variable with Bimodal distributionhist(bimodal)",
+        "An outlier is a value or an observation that is distant from other observations, that is to say, a data point that differs significantly from other data points. Enderlein (1987) goes even further as the author considers outliers as values that deviate so much from other observations one might suppose a different underlying sampling mechanism.",
+        "A boxplot helps to visualize a quantitative variable by displaying five common location summary(minimum, median, first and third quartiles and maximum) and any observation that was classified as asuspected outlier using the 1 replyinterquartile range (IQR) criterion.",
+        "Another method, known as Hampel filter, consists of considering as outliers the values outside the interval( ) formed by the median, plus or minus 3 median absolute deviations ( ):where is the median absolute deviation and is defined as the median of the absolute deviations.",
+        "Similar to the Grubbs test, Dixon test is used to test whether a single low or high value is an outlier. So if more than one outliers is suspected, the test has to be performed on these suspected outliers individually.",
+        "To perform the Dixon’s test in R, we use the dixon.test() function from the {outliers} package.However, we restrict our dataset to the 20 first observations as the Dixon test can only be done on smallsample size (R will throw an error and accepts only dataset of 3 to 30 observations):subdat <- dat[1:20, ] test <- dixon.test(subdat$hwy) test## ## Dixon test for outliers## ## data: subdat$hwy## Q = 0.57143, p-value = 0.006508## alternative hypothesis: lowest value 15 is an outlier on August 17, 2020 09:27:12:”Comment written by",
+        "The results show that the lowest value 15 is an outlier (p-value = 0.007).",
+        "Confusion matrix: This is the matrix of the actual versus the predicted.",
+        "Some terms used in a confusion matrix are:",
+        "True positives (TPs): True positives are cases when we predict the disease as yes when thepatient actually does have the disease.True negatives (TNs): Cases when we predict the disease as no when the patient actually doesnot have the disease.False positives (FPs): When we predict the disease as yes when the patient actually does nothave the disease. FPs are also considered to be type I errors.False negatives (FNs): When we predict the disease as no when the patient actually does havethe disease. FNs are also considered to be type II errors.",
+        "Precision (P): When yes is predicted, how often is it correct?(TP/TP+FP)",
+        "Recall (R)/sensitivity/true positive rate: Among the actual yeses, what fraction was predictedas yes?(TP/TP+FN)",
+        "F1 score (F1): This is the harmonic mean of the precision and recall.",
+        "This course will provide you with a thorough introduction to:",
+        "During this course you will expand your knowledge of the lesson topics each week.",
+        "This lesson serves as an introduction to predictive analytics, focusing on basic concepts and model evaluation metrics. You will learn about the components of a confusion matrix, including true positives, true negatives, false positives, and false negatives. Understanding precision, recall, and F1 score will enable you to evaluate the accuracy of predictive models effectively.",
+        "By the end of this lesson, you will have a comprehensive understanding of predictive analytics and model evaluation techniques, enabling you to assess the accuracy and reliability of different predictive models effectively. You will be proficient in applying key metrics such as precision, recall, and specificity, and understand the significance of R-squared and adjusted R-squared values in regression analysis.",
+        "This week introduces the fundamental concepts of predictive analytics, focusing on the Akaike Information Criteria (AIC) for model selection and the essentials of hyperparameter tuning in machine learning models. You will learn how AIC helps in selecting the best statistical model and the basics of tuning parameters to enhance model performance.",
+        "Upon completing this lesson, you will be able to implement and optimize complex machine learning models, preparing you for real-world data science challenges and further academic pursuits in the field of machine learning.",
+        "This lesson explores the fundamentals of Big Data, emphasizing its vast potential to transform various sectors including healthcare, finance, and environmental modeling. You will learn about the characteristics of Big Data, often summarized by the five Vs: Volume, Velocity, Variety, Veracity, and Value.",
+        "By the end of this week, you will not only understand the critical role of Big Data and predictive analytics in decision-making and operational efficiency but also be equipped with the practical skills to collect, analyze, and ethically manage data. This foundational knowledge will prepare you for advanced studies or careers in data science and analytics.",
+        "This lesson introduces you to the concept of outliers in statistical data, explaining how outliers can significantly influence the outcomes of data analysis. You’ll learn about the different types of outliers—extreme values and mistakes—and why distinguishing between them is crucial.",
+        "By completing this lesson, you will have a firm understanding of how to detect and manage outliers in statistical data, enhancing the reliability and validity of your data analysis projects.",
+        "This lesson introduces the Naïve Bayes (NB) classifier, explaining its foundation in Bayesian statistics and the assumption of independence among features. You will understand the basic mechanism that drives the effectiveness of the NB classifier in various applications.",
+        "By completing this lesson, students will gain a comprehensive understanding of the Naïve Bayes classifier, enhancing their ability to implement and critically evaluate NB models in various practical scenarios.",
+        "This lesson introduces you to the critical aspects of handling data anomalies such as errors, missing values, and irregularities within datasets. You will gain an understanding of how these inconsistencies impact data quality and learn strategic approaches to data cleaning that ensure reliability in decision-making processes.",
+        "By completing this lesson, you will enhance your ability to preprocess and clean data effectively, ensuring that your data analyses are built on solid, error-free foundations. This skill set is crucial for any professional involved in data science or analytics.",
+        "This week introduces the fundamentals of linear regression modeling, focusing on establishing a strong foundation in handling data variables and understanding their interrelationships.",
+        "These activities and key points will help you develop a solid foundation in handling and analyzing data using linear regression techniques, ensuring you are well-prepared to tackle predictive modeling challenges in various domains.",
+        "BUSAD 888: Analytics Design Implementation offers a specialized curriculum designed to prepare students for the rapidly evolving field of business analytics. This course equips students with the necessary skills to design, implement, and manage analytics projects effectively, thereby enhancing their expertise in leveraging data-driven decision-making processes. The knowledge gained through this course is particularly valuable for roles that require the integration of analytical insights with strategic business planning and execution.",
+        "Graduates of BUSAD 888 are well-positioned for a variety of career opportunities where analytics and data interpretation are at the forefront of operational and strategic decisions. Potential job roles include Analytics Manager, Business Intelligence Analyst, Data Strategist, and Implementation Specialist, among others. These roles are critical in sectors such as finance, marketing, healthcare, and technology, where understanding and applying data analytics can drive company growth and innovation.",
+        "One practical example of a project in the field of Analytics Design Implementation, specifically within Supply Chain Optimization, can be illustrated by a manufacturing company seeking to enhance operational efficiencies and cost management. The company faced challenges with high operational costs due to inefficient inventory management and delayed product deliveries, which in turn led to stockouts and excess inventory in various segments of their supply chain.",
+        "To address these issues, the company implemented a project focusing on the integration of predictive analytics and real-time data tracking systems. Initially, a team of analysts used predictive analytics to accurately forecast demand patterns and optimize inventory levels across different warehouses and retail outlets. This involved analyzing historical sales data, seasonal trends, and real-time market conditions to predict future product demands with high accuracy.",
+        "Simultaneously, the company introduced real-time tracking systems for monitoring goods and materials throughout the supply chain. This technology provided dynamic updates on the location and status of goods, enabling more responsive logistics decisions. By implementing these systems, the company could significantly reduce delivery times and prevent situations of overstock and stockouts.",
+        "The culmination of these efforts led to a streamlined supply chain operation with reduced operational costs, improved delivery performance, and an overall enhancement in customer satisfaction. This project not only demonstrated the power of integrating advanced analytics into supply chain management but also highlighted the tangible benefits such as cost savings and improved operational efficiency that can be achieved through such implementations.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Draw upon previous Descriptive/Predictive/Prescriptive Analytics methods to complete a comprehensive project.",
+            "Read about new Descriptive/ Predictive/ Prescriptive Analytics methods, apply, evaluate and compare them",
+            "Discuss and present the findings",
+            "Write scientific reports/papers."
+        ],
+        [
+            "Introduction to Predictive Analytics: Covers the basics of predictive modeling, including foundational concepts and initial project discussions.",
+            "Project Planning and Data Collection: Focuses on organizing team projects, defining goals, and outlining strategies for effective data collection.",
+            "Data Preparation Techniques: Explores methods for preparing data for analysis, such as cleaning, transformation, and variable selection.",
+            "Advanced Predictive Models: Delves into more complex aspects of predictive analytics, including advanced modeling techniques and strategies.",
+            "Team Presentations and Feedback: Involves regular team presentations to showcase progress, receive peer and instructor feedback, and refine approaches.",
+            "Project Documentation: Emphasizes the importance of thorough documentation practices for all stages of the analytics project.",
+            "Evaluation and Validation: Discusses methods for assessing model performance and ensuring the validity of analytical results."
+        ],
+        [
+            "Data Cleaning",
+            "Outlier Detection",
+            "Predictive Analytics"
+        ],
+        [
+            "Histogram",
+            "Transformed Histogram"
+        ],
+        [
+            "Box Plot",
+            "Hampel Filter",
+            "Dixon’s Test"
+        ],
+        [
+            "Linear Regression Modeling Basics: Understand the development and application of linear regression models in various contexts.",
+            "Data Preparation Skills: Learn to handle missing data, outliers, and multicollinearity to improve model reliability.",
+            "Model Development and Evaluation: Construct and assess linear regression models using statistical measures like R-squared.",
+            "Software Proficiency in Regression Analysis: Apply regression techniques using statistical software to analyze real-world data.",
+            "Analytical Results Interpretation: Effectively interpret and communicate the results of regression analyses.",
+            "Advanced Regression Methods: Explore regularization methods such as Ridge and Lasso for enhanced predictive modeling.",
+            "Ethical Modeling and Practical Application: Address ethical considerations and apply regression methods to industry-specific problems."
+        ],
+        [
+            "L1",
+            "L2",
+            "L3",
+            "L4",
+            "L5",
+            "L6",
+            "L7"
+        ],
+        [
+            "Confusion Matrix Components: Understand the roles of true positives, true negatives, false positives, and false negatives in evaluating predictive models.",
+            "Precision, Recall, and F1 Score: Learn how these metrics are used to measure the accuracy and reliability of predictions."
+        ],
+        [
+            "Case Studies: Analyze real-world scenarios to apply the knowledge of model evaluation metrics like precision, recall, and ROC curves.",
+            "Group Discussions: Participate in discussions to explore the effects of in-time and out-of-time validations on predictive model performance."
+        ],
+        [
+            "Predictive Analytics Fundamentals: Understand the basic principles of predictive analytics, including model selection and the importance of minimizing overfitting through techniques like AIC.",
+            "Model Evaluation Techniques: Master the use of advanced evaluation metrics such as confusion matrices, precision, recall, sensitivity, and specificity in model assessment."
+        ],
+        [
+            "Discussion on Confusion Matrix Metrics: Learn about precision, recall, sensitivity, and specificity through detailed examples and discussions.",
+            "Interactive Tutorials on Lasso and Ridge Regression: Engage in tutorials to learn how these techniques modify the loss function to penalize large coefficients."
+        ],
+        [
+            "Understanding Big Data: Learn about the critical characteristics of Big Data, known as the five Vs: Volume, Velocity, Variety, Veracity, and Value, and their impact on various industries.",
+            "Fundamentals of Predictive Analytics: Explore how predictive analytics uses statistical models and machine learning techniques to forecast future events, enhancing decision-making processes."
+        ],
+        [
+            "Lectures on Big Data Fundamentals: Gain insights into the origins and importance of Big Data across different fields.",
+            "Discussions on Case Studies: Analyze real-world examples of how Big Data is driving innovation and solving complex problems."
+        ],
+        [
+            "Definition and Impact of Outliers: Understand what outliers are and how they can impact the results of data analysis.",
+            "Types of Outliers: Learn to differentiate between extreme values and mistakes within datasets."
+        ],
+        [
+            "Interactive Tutorials in R: Engage in hands-on R coding sessions to apply various methods for detecting outliers on sample datasets.",
+            "Problem-Solving Exercises: Work through exercises where you decide on the best approach to handle outliers in datasets, considering factors such as data distribution and the importance of outliers in the specific context."
+        ],
+        [
+            "Foundational Concepts: Introduction to the Naïve Bayes (NB) classifier and its basis in Bayesian statistics, highlighting the assumption that each feature in a dataset is independent of the others.",
+            "Statistical Underpinning: Explanation of Bayes’ Theorem and how it applies to NB classifiers, providing a mathematical foundation for understanding probability models in classification tasks."
+        ],
+        [
+            "Interactive Simulation: Engage in a computer-based simulation that demonstrates the NB classifier’s decision-making process with both synthetic and real-world datasets.",
+            "Case Study Analysis: Work through a detailed case study involving spam detection, using the NB classifier to differentiate between spam and non-spam emails, analyzing the impact of feature independence on model accuracy."
+        ],
+        [
+            "Understanding Data Anomalies: Learn about the various types of errors, missing values, and irregularities that can appear in data, and the impact they have on data quality.",
+            "Techniques for Error Detection: Explore methods such as statistical analysis, clustering, and pattern-based identification to detect and manage outliers and other data anomalies."
+        ],
+        [
+            "Interactive Tutorials: Engage with step-by-step guides in R to learn how to implement data cleaning techniques practically, focusing on outlier detection and correction of data irregularities.",
+            "Data Transformation Workshop: Participate in a workshop to apply data normalization techniques on real-world datasets, including bimodal transformation and skewness correction."
+        ],
+        [
+            "Understanding Linear Regression: Explanation of the dependent (Y) and independent (X) variables in a regression model.",
+            "Model Fitting and Validation: Techniques for dividing data into training and testing sets to evaluate model effectiveness."
+        ],
+        [
+            "Interactive Modeling Session: Step-by-step guidance on coding in R to load data, handle missing values, and perform basic statistical summaries.",
+            "Group Discussion and Analysis: Discuss the implications of model findings in a group setting to enhance understanding of variable impacts on wine quality."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-are-the-browser-and-computer-requirements-for-Canvas/ta-p/66",
+            "url": "https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-are-the-browser-and-computer-requirements-for-Canvas/ta-p/66"
+        },
+        {
+            "text": "https://community.canvaslms.com/docs/DOC-2059",
+            "url": "https://community.canvaslms.com/docs/DOC-2059"
+        },
+        {
+            "text": "https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-are-the-browser-and-computer-requirements-for-Canvas/ta-p/66",
+            "url": "https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-are-the-browser-and-computer-requirements-for-Canvas/ta-p/66"
+        },
+        {
+            "text": "http://softwarestore.psu.edu/news/microsoft-no-cost-software",
+            "url": "http://softwarestore.psu.edu/news/microsoft-no-cost-software"
+        },
+        {
+            "text": "https://adobe.psu.edu.",
+            "url": "https://adobe.psu.edu/"
+        },
+        {
+            "text": "https://community.canvaslms.com/docs/DOC-1542",
+            "url": "https://community.canvaslms.com/docs/DOC-1542"
+        },
+        {
+            "text": "https://connecttotech.psu.edu",
+            "url": "https://connecttotech.psu.edu/"
+        },
+        {
+            "text": "https://greatvalley.psu.edu/great-valley-it-helpdesk-contact-us",
+            "url": "https://greatvalley.psu.edu/great-valley-it-helpdesk-contact-us"
+        },
+        {
+            "text": "Histogram",
+            "url": "#tab-histogram"
+        },
+        {
+            "text": "Transformed Histogram",
+            "url": "#tab-transformedhistogram"
+        },
+        {
+            "text": "Box Plot",
+            "url": "#tab-boxplot"
+        },
+        {
+            "text": "Hampel Filter",
+            "url": "#tab-hampelfilter"
+        },
+        {
+            "text": "Dixon’s Test",
+            "url": "#tab-dixonstest"
+        },
+        {
+            "text": "interquartile range (IQR)",
+            "url": "https://statsandr.com/blog/descriptive-statistics-in-r/#interquartile-range"
+        },
+        {
+            "text": "restrict our dataset",
+            "url": "https://statsandr.com/blog/data-manipulation-in-r/#subset-a-data-frame"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "This image shows a histogram depicting a bimodal distribution of data. The x-axis is labeled \"bimodal\" with values ranging from 5 to 25, and the y-axis is labeled \"Frequency\" with values ranging from 0 to 40. The histogram has two peaks, one centered around the value 10 and another around the value 20, indicating the presence of two distinct groups or modes within the data set. The bars are approximately symmetric around these central values.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2025/01/bimodal_hist.jpeg"
+        },
+        {
+            "alt": "This image is a histogram titled \"Histogram of bimodal.\" It displays a bimodal distribution with two distinct peaks. The x-axis, labeled 'bimodal', ranges from 5 to 25 and represents the data values. The y-axis, labeled 'Frequency', ranges from 0 to 40 and shows the count of occurrences for each data value. The histogram features significant peaks around the 10 and 20 values, suggesting two modes in the data distribution. The bars are uniformly wide, and the distribution appears symmetric around these modes.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2025/01/bimodal_hist-1.jpeg"
+        },
+        {
+            "alt": "This image is a box plot labeled on the y-axis as \"hwy\" and the x-axis as \"x\". The box plot represents the distribution of highway mileage data. The central blue box shows the interquartile range (IQR) with the horizontal line inside the box indicating the median value. The whiskers extend from the box to show the range of non-outlier data, while two points above the whiskers represent outliers in the dataset. The plot suggests a mostly symmetric distribution with a few outlier values above the upper whisker.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2025/01/box_plot-1-1024x733.jpeg"
+        },
+        {
+            "alt": "This image displays a box plot labeled on the y-axis as \"hwy,\" showcasing the distribution of highway mileage data. The plot includes a gray box representing the interquartile range (IQR) with a bold line indicating the median. Whiskers extend from the box, illustrating the range of non-outlier data, while two outlier points are clearly marked below the lower whisker with values 20 and 15, labeled above the plot as \"Outliers: 20, 15.\" The caption below the plot discusses applying the Dixon test to identify outliers, specifically focusing on the values 20 and 15, by finding the row numbers corresponding to these values.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2025/01/outliers-1024x826.jpeg"
+        },
+        {
+            "alt": "This image represents a confusion matrix commonly used in statistical and machine learning classification problems. The matrix is divided into rows and columns, categorizing predictions and their outcomes based on \"True Condition\" (Condition Positive and Condition Negative) and \"Predicted Condition\" (Predicted Positive and Predicted Negative).",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2025/01/confusion_matrix-1024x324.png"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Operating System",
+                "Penn State’s LMS, Canvas, supports most recent versions of Microsoft Windows and Apple Mac operating systems. To determine if your operating system is supported, please review the Canvas Computer Specifications (https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-are-the-browser-and-computer-requirements-for-Canvas/ta-p/66)."
+            ],
+            [
+                "Hardware",
+                "For a list of required computer hardware specifications and internet speed, please review the Canvas Computer Specifications (https://community.canvaslms.com/docs/DOC-2059)."
+            ],
+            [
+                "Browser",
+                "Canvas supports the last two versions of every major browser release. We highly recommend updating to the newest version of whatever browser you are using. To determine if your browser is supported, please review the list of Canvas Supported Browser (https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-are-the-browser-and-computer-requirements-for-Canvas/ta-p/66). Note: Cookies must be enabled, and pop-up blockers should be configured to permit new windows from Penn State websites."
+            ],
+            [
+                "Additional Software",
+                "All Penn State students have free access to Microsoft Office 365 including Office applications such as Word, Excel, and PowerPoint(http://softwarestore.psu.edu/news/microsoft-no-cost-software). Students will need Adobe Acrobat, available through Adobe Creative CloudFree Adobe Software Suite License – https://adobe.psu.edu."
+            ],
+            [
+                "Sound Card, Microphone, and Speakers",
+                "Required: Sound Card, Microhome, and Speakers Webcam may be required."
+            ],
+            [
+                "Monitor",
+                "Capable of at least 1024 x 768 resolution."
+            ],
+            [
+                "Mobile Device",
+                "The Canvas mobile app is available for versions of iOS and Android. To determine if your device is able to use the Canvas Mobile App, pleasereview the Canvas Mobile App Requirements(https://community.canvaslms.com/docs/DOC-1542)."
+            ]
+        ],
+        [
+            [
+                "A   = 95-100",
+                "B   = 84-86",
+                "C  = 70-76"
+            ],
+            [
+                "A-  = 90-94",
+                "B-  = 80-83",
+                "D  = 60-69"
+            ],
+            [
+                "B+ = 87-89",
+                "C+ = 77-79",
+                "F  = Below 60"
+            ]
+        ],
+        [
+            [
+                "Assignment Details"
+            ],
+            [
+                "Assignment Category",
+                "Weight (% of final grade)"
+            ],
+            [
+                "Biweekly Group Analytics Project Plan(in-class presentation)Each team member has to presentAttendance is mandatory and has 5% weightageSEEQ completion is mandatory and has 2% weightage",
+                "30% (23% + 5% +2%)"
+            ],
+            [
+                "Finished Analytics System (cleaned Datasets, scripts, visualization artifacts etc. – Weekly update report) Discussion assignment has 20% weightage",
+                "30% (10% + 20%)"
+            ],
+            [
+                "Final Group Report and Presentation",
+                "40%"
+            ],
+            [
+                "Total",
+                "100%"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"5996\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

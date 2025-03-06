@@ -1,0 +1,592 @@
+{
+    "metadata": {
+        "title": "DAAN 501: Analytics Research and Problem Framing – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4896"
+    },
+    "headings": {
+        "h2": "Lesson 14: Presentations",
+        "h4": "Unlocking Your Potential",
+        "h3": "Supervised Models"
+    },
+    "paragraphs": [
+        "DAAN 50: Analytics Research and Problem Framing is a foundational three-credit course designed to prepare students for advanced research in the field of data analytics. This course introduces students to the core elements of the research process, including quantitative, qualitative, and mixed-methods approaches, as they relate to data analytics and its applications. Students will gain a comprehensive understanding of research methodologies, enabling them to critically evaluate the quality and relevance of existing literature in the field.",
+        "A key focus of the course is the ethical principles underpinning research, including an exploration of human-subject research guidelines and the Institutional Review Board (IRB) approval process. By addressing these challenges, students will learn how to navigate the ethical complexities of conducting research in data analytics, ensuring their work adheres to professional and academic standards.",
+        "Throughout the course, students will develop skills to critically assess research findings, integrate insights into their own understanding of data analytics, and situate their research within the broader academic conversation. Analytics Research and Problem Framing equips students with the tools to engage in meaningful, impactful research, laying the groundwork for success in academic, professional, and applied settings.",
+        "DAAN 501 is a three-credit course designed to provide students with a comprehensive understanding of the research process as it applies to data analytics. Students will explore quantitative, qualitative, and mixed-method approaches while addressing the ethical principles and challenges involved in research. Topics include human-subject research guidelines and navigating the Institutional Review Board (IRB) approval process. Through critical evaluation of existing literature in the analytics domain, students will learn how to situate their own research within the broader academic context.",
+        "Textbook: None",
+        "By the end of this course, students will:",
+        "Assignments:Assignments are due as specified in the syllabus and must be submitted on Canvas. Collaboration is encouraged; however, each student must submit individual work reflecting their understanding.",
+        "Late Submissions:Late assignments are not accepted unless prior approval is obtained (at least 24 hours before the due date). Exceptions may be granted for extraordinary circumstances such as illness or emergencies.",
+        "Grading Scale:",
+        "Penn State values academic integrity as an essential part of education. Acts of academic dishonesty, such as plagiarism, cheating, or unauthorized use of prior work, will result in disciplinary action, which may include a failing grade or referral to the Office of Student Conduct. For more information, visit the Office of Student Conduct.",
+        "*subject to change",
+        "Descriptive Analytics, which use data aggregation and data mining to provide insightinto the past and answer: “What has happened?”",
+        "Predictive Analytics, which further use statistical models and forecasts techniques to understandthe future and answer: “What could happen?”",
+        "Prescriptive Analytics, which further use optimization and simulation algorithms to conductsensitivity analysis to advice on possible outcomes and answer: “What should we do?”",
+        "Qualitative implies an emphasis on the qualities of entities and on processes and meanings that are not experimentally examined or measured [if measured at all] in terms of quantity, amount, intensity, or frequency.",
+        "Qualitative researchers stress the socially constructed nature of reality, the intimate relationship between the researcher and what is studied, and the situational constraints that shape inquiry. Such researchers emphasize the value-laden nature of inquiry. They seekanswers to questions that stress how social experience is created and given meaning.",
+        "In contrast, quantitative studies emphasize the measurement and analysis of causal relationships between variables, not processes. Qualitative forms of inquiry are considered by many social and behavioral scientists to be as much a perspective on how to approachinvestigating a research problem as it is a method.",
+        "Qualitative Understanding or Exploring a Central Phenomenon: looking at why andattempting to further and deepen our understanding of the social world.",
+        "In-depth understanding of Y; external forces shape and are shaped by Y.",
+        "Supervised learning is when Y is given.",
+        "By the end of this course, students will be able to:",
+        "During this course you will expand your knowledge of the lesson topics each week.",
+        "In this lesson, you will be introduced to the fundamentals of analytics research, including the research process and its significance in advancing the field. You will explore how to identify and refine a research topic while gaining insights into the components of a strong research proposal. This lesson serves as the foundation for your journey into structured and impactful academic inquiry.",
+        "By the end of this lesson, you will have a foundational understanding of the research process and will have identified a topic that aligns with your academic and professional aspirations.",
+        "Building on the foundational concepts of research, this lesson focuses on critically evaluating existing literature and identifying gaps in knowledge. You will learn how to conduct a literature review, synthesize findings, and perform a gap analysis to situate your research within the broader academic context.",
+        "Upon completing this lesson, you will be equipped to critically evaluate academic literature and uncover opportunities for meaningful research within your chosen domain.",
+        "This lesson explores real-world research projects in analytics, providing insights into how analytics is applied to diverse domains. You will examine topics such as university rankings, building energy efficiency, and healthcare analytics, gaining a better understanding of how analytics contributes to solving complex problems in these areas.",
+        "Through this lesson, you will deepen your understanding of how analytics can be applied to diverse and impactful areas, setting the stage for more focused research projects.",
+        "This lesson introduces the Institutional Review Board (IRB) process, emphasizing its importance for ensuring ethical compliance in research. You will explore case studies, particularly in learning analytics, to understand the steps required to obtain IRB approval for collaborative studies.",
+        "Upon completing this lesson, you will be prepared to navigate the IRB approval process for research projects, ensuring ethical standards are upheld in your work.",
+        "This lesson focuses on the ethical and procedural aspects of conducting research involving human subjects. You will complete CITI training to understand the principles of responsible research conduct and review the process for obtaining IRB approval. These skills are essential for ensuring your research aligns with ethical guidelines and institutional requirements.",
+        "By completing this lesson, you will be well-versed in ethical research practices and prepared to navigate the IRB approval process for your projects.",
+        "In this lesson, you will learn how to frame research problems and questions effectively, a critical skill for conducting impactful analytics research. Using examples such as ranking systems, Citibike demands, building energy efficiency, and disease risk scoring, you will explore the process of refining broad ideas into focused research questions that address real-world challenges.",
+        "hrough this lesson, you will acquire the tools to frame meaningful research questions, setting a strong foundation for future work in data analytics.",
+        "In this lesson, you will explore the core principles of quantitative research, including various study designs and methodologies commonly used in data analytics. By examining how these methods are structured and applied, you will gain insights into the strengths and limitations of quantitative approaches to research. This knowledge will help you understand how to effectively collect and analyze data to address research questions.",
+        "By completing this lesson, you will have a solid understanding of quantitative research approaches and how to effectively apply them to analytics-focused studies.",
+        "Building on the concepts introduced in the previous lesson, this lesson examines case studies that illustrate the application of quantitative research, study designs, and methods in real-world contexts. Using examples like Citibike sharing and building energy efficiency, you will see how quantitative research drives insights and solutions for complex challenges.",
+        "After this lesson, you will have a deeper appreciation of how quantitative research is utilized in diverse scenarios, enhancing your ability to connect theory with practical application.",
+        "This lesson introduces the foundations of qualitative research, focusing on study designs and methods that provide rich, in-depth insights into data analytics challenges. You will explore how qualitative research differs from quantitative approaches and learn to evaluate the strengths and applications of various qualitative methodologies.",
+        "Through this lesson, you will develop a strong understanding of qualitative research methods and how to apply them to explore complex research questions.",
+        "In this lesson, you will examine case studies that highlight the practical application of qualitative research methods in real-world contexts. By exploring examples like university rankings and service satisfaction, you will gain insight into how qualitative research uncovers valuable patterns and perspectives in data-driven decision-making.",
+        "After completing this lesson, you will have a deeper appreciation of the value of qualitative research methods in uncovering actionable insights and addressing complex analytics challenges.",
+        "This lesson introduces the principles of mixed methods research, which combines both qualitative and quantitative approaches to provide comprehensive insights into complex research questions. You will explore various mixed methods study designs, understand their applications, and review examples of how they integrate diverse data collection and analysis techniques.",
+        "By the end of this lesson, you will be prepared to design and propose a research project using mixed methods, effectively bridging qualitative and quantitative perspectives.",
+        "Building on the concepts introduced in the previous lesson, this lesson examines case studies that apply mixed methods research to real-world challenges. Through examples like university rankings, building energy efficiency, and healthcare analytics, you will see how combining methods enhances the depth and breadth of insights.",
+        "Through this lesson, you will gain a clearer understanding of how mixed methods research provides comprehensive solutions to multifaceted analytics problems, preparing you to apply these strategies in your own work.",
+        "In this lesson, you will explore how to analyze and interpret data across quantitative, qualitative, and mixed methods approaches. By applying these techniques to real-world contexts like university rankings, building energy efficiency, and healthcare analytics, you will gain practical insights into synthesizing diverse data types into meaningful conclusions. This lesson also emphasizes preparing your final research proposal.",
+        "After completing this lesson, you will be equipped to analyze and interpret data effectively and will have submitted a polished research proposal, ready for evaluation.",
+        "In this culminating lesson, you will present your research proposal to your peers and evaluate their proposals. This activity provides an opportunity to demonstrate your understanding of the research process, defend your methodology, and gain feedback to refine your work further.",
+        "This final lesson allows you to showcase your progress and learn from others, completing the course with a well-developed and thoughtfully reviewed research proposal.",
+        "Taking a course in Analytics Research and Problem Framing as part of a data analytics master’s program has a profound impact on your career trajectory. This course equips you with essential skills to identify, structure, and address complex problems using data-driven methodologies. By mastering the art of framing research questions and critically evaluating literature, you gain the ability to approach challenges systematically and align your analyses with business objectives, setting you apart as a strategic thinker in the data analytics field.",
+        "These competencies are highly sought after in industries ranging from healthcare and finance to technology and marketing. Employers value professionals who can not only interpret data but also design impactful research that informs decision-making and drives innovation. Whether you aspire to roles like data scientist, business analyst, or research lead, this course lays a strong foundation for conducting meaningful research and delivering actionable insights, positioning you for leadership and success in the evolving analytics landscape.",
+        "Healthcare Analytics: A student could develop a project focused on predicting patient readmission rates. By framing the research problem effectively, they might identify gaps in current predictive models, gather relevant data, and apply advanced analytics techniques to design solutions that improve healthcare outcomes and reduce costs.",
+        "Smart Cities and Transportation: Students might work on optimizing bike-sharing programs like Citibike. This could involve analyzing historical demand data, conducting surveys to identify usage patterns, and creating a mixed-method framework to recommend operational improvements.",
+        "Sustainability and Energy Efficiency: A project could focus on improving building energy efficiency. Students could analyze energy consumption data, investigate qualitative factors like occupant behavior, and propose data-backed solutions to reduce carbon footprints and operational costs.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Analytics Research",
+            "Qualitative Research",
+            "Supervised Models"
+        ],
+        [
+            "Descriptive (What happened?)",
+            "Interpretive (What was the meaning to people of what happened?)",
+            "Process oriented (What happened over time?)"
+        ],
+        [
+            "Regression: the response Y is quantitative.",
+            "Classification: the response is qualitative, or categorical."
+        ],
+        [
+            "To learn the research terminology in data science and analytics",
+            "To understand the ethical principles of research, ethical challenges, and approval processes",
+            "To know how to analyze published research",
+            "To be aware of methods of appropriately framing research problems in the context of data science and analytics in support of decision-making"
+        ],
+        [
+            "L1-L2",
+            "L3-L4",
+            "L5-L6",
+            "L7-L8",
+            "L9-L10",
+            "L11-L12",
+            "L13-L14"
+        ],
+        [
+            "Understanding the Research Process: Explore the steps involved in designing and conducting analytics research.",
+            "Research Proposals: Learn the purpose and structure of research proposals, including how to articulate a clear and focused research objective.",
+            "Topic Selection: Begin identifying a potential thesis topic aligned with your interests and academic goals."
+        ],
+        [
+            "Engage with Resources: Review tutorials on research methodology and proposal writing to understand key expectations in analytics research.",
+            "Identify a Research Topic: Reflect on your areas of interest and consult with your advisor to refine and finalize your thesis topic.",
+            "Explore Research Tutorials: Use tools such as the linked research tutorials to build foundational knowledge for structuring your research process."
+        ],
+        [
+            "Literature Review Process: Learn to search, evaluate, and summarize academic research papers effectively.",
+            "Critical Appraisal: Develop skills to critically assess the validity, reliability, and relevance of research studies.",
+            "Gap Analysis: Identify areas where further research is needed and frame your study to address these gaps."
+        ],
+        [
+            "Conduct a Literature Review: Use Penn State Library resources to search for and compile relevant research papers in your field of interest.",
+            "Critically Assess Research: Analyze the validity and relevance of selected studies to identify key takeaways and limitations.",
+            "Perform a Gap Analysis: Synthesize findings from your review to highlight areas for future exploration and refine your research focus."
+        ],
+        [
+            "University Rankings: Analyze methodologies used to evaluate institutions at national and international levels.",
+            "Building Energy Efficiency: Explore analytics-driven approaches to optimizing energy usage and sustainability.",
+            "Healthcare Analytics: Learn how data-driven insights improve patient care, resource allocation, and operational efficiency."
+        ],
+        [
+            "Explore Research Applications: Review and discuss the use of analytics in the selected topics to understand their impact and relevance.",
+            "Identify Challenges: Reflect on the challenges and considerations unique to each domain of research.",
+            "Collaborate with Peers: Engage in discussions to share insights and ideas about research applications in these fields."
+        ],
+        [
+            "Understanding IRB Requirements: Learn the purpose and guidelines of IRB approval for research involving human subjects.",
+            "Collaborative Learning Analytics: Examine case studies highlighting ethical considerations in learning analytics research.",
+            "Resources for IRB Approval: Familiarize yourself with tools and guidelines for navigating the IRB process effectively."
+        ],
+        [
+            "Review IRB Guidelines: Use provided resources to understand the steps and requirements for obtaining IRB approval.",
+            "Analyze Case Studies: Study examples of research projects to identify ethical challenges and solutions.",
+            "Engage in Discussion: Collaborate with classmates to reflect on the importance of ethical compliance in research."
+        ],
+        [
+            "CITI Training: Learn the fundamentals of ethical research practices through the Collaborative Institutional Training Initiative (CITI).",
+            "IRB Approval Process: Explore the steps and documentation required to gain approval for research involving human data or specimens.",
+            "Practical Application: Understand specific cases, such as “Data or Specimens Only Research,” and how to meet IRB standards."
+        ],
+        [
+            "Complete CITI Training: Access the CITI platform and finish modules focused on responsible conduct in research.",
+            "Review IRB Resources: Utilize provided tools and documentation to familiarize yourself with the IRB application process.",
+            "Submit Completion Report: Generate a completion report for the “Data or Specimens Only Research” module to demonstrate your understanding of ethical compliance."
+        ],
+        [
+            "Problem Framing: Understand how to define research problems clearly and concisely.",
+            "Developing Research Questions: Learn to create specific, actionable research questions that guide your study.",
+            "Practical Examples: Explore real-world cases to see how problems and questions are framed in diverse analytics contexts."
+        ],
+        [
+            "Analyze Examples: Review provided scenarios to practice framing research questions for various domains.",
+            "Perform a Gap Analysis: Identify existing knowledge gaps in a chosen topic and refine your research focus.",
+            "Frame Your Research Question: Use the insights gained to develop a well-defined research question for your project."
+        ],
+        [
+            "Quantitative Research Fundamentals: Learn the principles and purposes of quantitative research in analytics.",
+            "Study Designs: Explore common research designs, including experimental, observational, and cross-sectional studies.",
+            "Analytical Methods: Understand the tools and techniques used for quantitative data analysis."
+        ],
+        [
+            "Review Research Papers: Analyze examples of quantitative studies to identify study designs and methods used.",
+            "Study Design Exploration: Compare and contrast various quantitative research designs to understand their applications.",
+            "Reflect on Applications: Consider how quantitative methods can be applied to your own research interests."
+        ],
+        [
+            "Quantitative Case Studies: Explore how quantitative research is implemented in practical scenarios.",
+            "Citibike Sharing: Analyze how data-driven research informs usage patterns and optimization strategies.",
+            "Building Energy Efficiency: Understand how quantitative methods are used to improve sustainability and operational performance."
+        ],
+        [
+            "Examine Case Studies: Review real-world applications of quantitative research to understand methodologies and outcomes.",
+            "Identify Key Insights: Reflect on how the methods and results in these studies can inform similar research in your domain.",
+            "Discuss Applications: Share your thoughts on the potential for applying these approaches to other areas of analytics."
+        ],
+        [
+            "Qualitative Research Fundamentals: Understand the purpose and unique aspects of qualitative research in analytics.",
+            "Study Designs: Explore approaches such as case studies, interviews, and focus groups to collect and analyze qualitative data.",
+            "Data Interpretation: Learn techniques for interpreting and drawing meaningful insights from qualitative data."
+        ],
+        [
+            "Review Research Papers: Study examples of qualitative research to identify study designs and methodologies.",
+            "Explore Study Designs: Compare various qualitative approaches to understand their relevance and applications.",
+            "Reflect on Insights: Consider how qualitative methods can complement other research strategies in analytics."
+        ],
+        [
+            "Qualitative Case Studies: Learn how qualitative research methods are implemented in specific scenarios.",
+            "University Rankings: Analyze the qualitative factors considered in ranking institutions on national and international levels.",
+            "Service Satisfaction: Understand how qualitative insights shape strategies for improving user satisfaction."
+        ],
+        [
+            "Study Case Examples: Examine real-world applications of qualitative research to understand methodologies and insights.",
+            "Identify Patterns: Reflect on the qualitative data used in case studies and how it informs outcomes.",
+            "Discuss Broader Applications: Share your perspectives on how these methods could apply to your research interests."
+        ],
+        [
+            "Foundations of Mixed Methods: Understand the purpose and advantages of integrating qualitative and quantitative approaches.",
+            "Study Designs: Explore designs such as explanatory, exploratory, and convergent models for combining methods.",
+            "Practical Applications: Learn how mixed methods research addresses multifaceted analytics problems."
+        ],
+        [
+            "Review Research Papers: Study examples of mixed methods research to identify study designs and methodologies.",
+            "Analyze Integration Techniques: Reflect on how qualitative and quantitative methods complement each other in real-world studies.",
+            "Propose Your Research: Develop a research proposal that incorporates mixed methods to address a complex question."
+        ],
+        [
+            "Mixed Methods in Action: Explore how mixed methods are implemented in practical research scenarios.",
+            "University Rankings: Learn how both qualitative and quantitative data contribute to evaluating institutions globally.",
+            "Building Energy Efficiency: Understand how mixed methods provide a holistic view of energy optimization strategies.",
+            "Healthcare Analytics: Discover how integrating approaches improves patient care and operational analysis."
+        ],
+        [
+            "Examine Case Studies: Analyze examples of mixed methods research to identify the value of integrating diverse data types.",
+            "Reflect on Insights: Consider the outcomes of these studies and how mixed methods contributed to their success.",
+            "Discuss Applications: Share your thoughts on how mixed methods research could benefit your research interests."
+        ],
+        [
+            "Quantitative Data Analysis: Learn methods for analyzing numerical data and deriving statistical insights.",
+            "Qualitative Data Interpretation: Understand how to extract themes and patterns from textual or observational data.",
+            "Mixed Methods Synthesis: Explore strategies for integrating findings from both qualitative and quantitative analyses."
+        ],
+        [
+            "Analyze Case Examples: Examine data from university rankings, energy efficiency, and healthcare analytics to practice interpretation techniques.",
+            "Refine Your Proposal: Use insights from this lesson to finalize your research proposal.",
+            "Submit Final Proposal: Apply what you’ve learned to create a comprehensive and well-supported research proposal."
+        ],
+        [
+            "Presenting Research Proposals: Develop skills to clearly and effectively communicate your research plans.",
+            "Peer Evaluation: Learn to provide constructive feedback on the research proposals of others.",
+            "Refining Ideas: Use peer feedback to strengthen the quality and impact of your research proposal."
+        ],
+        [
+            "Deliver Your Presentation: Share your research proposal with classmates, highlighting key aspects of your study.",
+            "Evaluate Classmates’ Work: Review and provide constructive feedback on peer proposals to enhance the learning process for everyone.",
+            "Reflect and Adjust: Incorporate feedback from peers and instructors to refine your research approach."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Office of Student Conduct",
+            "url": "http://studentaffairs.psu.edu/conduct/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "Central element \"Y\" with bidirectional arrows connecting to four surrounding components.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/DAAN-501-central-phenomenon.png"
+        },
+        {
+            "alt": "",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/image-1.png"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Grade",
+                "Percentage"
+            ],
+            [
+                "A",
+                "95–100%"
+            ],
+            [
+                "A-",
+                "90–94%"
+            ],
+            [
+                "B+",
+                "87–89%"
+            ],
+            [
+                "B",
+                "84–86%"
+            ],
+            [
+                "B-",
+                "80–83%"
+            ],
+            [
+                "C+",
+                "77–79%"
+            ],
+            [
+                "C",
+                "70–76%"
+            ],
+            [
+                "D",
+                "60–69%"
+            ],
+            [
+                "F",
+                "0–59%"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"4896\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

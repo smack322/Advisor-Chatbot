@@ -1,0 +1,636 @@
+{
+    "metadata": {
+        "title": "AI 570: Deep Learning – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=3015"
+    },
+    "headings": {
+        "h2": "Lesson 14: Project Presentation and Evaluation",
+        "h4": "Unlocking Your Potential",
+        "h3": "Optional Software",
+        "h5": "Assignment Details"
+    },
+    "paragraphs": [
+        "A-I 507 Deep Learning is a three-credit class. Dive deep into the fascinating realm of artificial intelligence with our specialized Deep Learning course, designed to propel students into the forefront of AI technology and innovation. This course is meticulously structured to provide both foundational knowledge and advanced skills in neural network architectures and algorithm implementation. Through hands-on, practical experiences, you’ll be expertly prepared for real-world applications, making this an essential step in your educational journey and career development in AI.Prerequisites:",
+        "Throughout this course, you will learn to design neural network architectures and training procedures via hands-on assignments. You will also have the opportunity to prove your skills by building small projects in cutting-edge Deep Learning libraries. The course will also emphasize hands-on experience and assignments to implement algorithms.",
+        "After successfully completing this course, you will be able to demonstrate:",
+        "Open-Source Software: Anaconda with Python and Jupyter Notebooks.",
+        "(*) Instructions for accessing this software will be provided in the lessons.",
+        "Penn State Provided Software:",
+        "All Penn State students have free access to Microsoft Office 365. This includes access to Word, Outlook, Excel, PowerPoint, Sway, Teams, etc.",
+        "You also have a free Adobe Creative Cloud account with access to products such as Photoshop, InDesign, Spark, Acrobat, Illustrator, and more! Please visit Penn State Adobe Support for more information,",
+        "Proctored Exams – None.",
+        "A grade is given solely on the basis of the instructor’s judgment as to the student’s scholarly attainment (see the Penn State Graduate Degree Programs Bulletin, p. 41). The following grading system applies to graduate students:",
+        "Students will be evaluated on their understanding of the course material by completing assignments that demonstrate their ability to apply material contained in the lessons and activities.",
+        "Students will be expected to complete assignments, Scientific Reading, Project Proposal, Presentation, and Deliverables, as well as Discussion Forums. Final grades will be calculated as follows:",
+        "Grades will be based on the following scale:",
+        "A = 94 – 100, A- = 90 – 93, B+ = 87 – 89, B = 84 – 86, B- = 80 – 83, C+ = 77 – 79, C = 70 – 76, D = 60 – 69, and F = 60 and below.",
+        "Homework assignments will be given periodically. Due dates are noted in the course schedule. Doing the homework promptly and carefully is necessary for learning the material. Collaboration with fellow students is allowed and encouraged on homework. However, each student must turn in their own written work which reflects their own understanding of the material.  You will submit your work via Turnitin, which is an originality service detector, empowering you to do your best, original work.",
+        "Practice Exercises:  There are also several ungraded practice exercises throughout the course.  Although these are ungraded, it is important for you to complete these guided practice exercises.  If you need additional support on any of these exercises, please contact your instructor.",
+        "Discussions are provided as an opportunity to connect with your peers about the lesson content, to share ideas, questions, and resources. You will be evaluated on the quality of your initial post as well as your replies and responses to the posts of your peers.",
+        "You will be assigned a scientific paper on various topics related to Deep Learning and you will write a review in your own words. You are expected to work independently on the paper and use whatever material that you have at your disposal. Scientific Reading & Review is worth 10% of your grade.  You will submit your paper via Turnitin.",
+        "The project is worth 50% of your total grade. (10% for Project Proposal, 30% for deliverables, and 10% for presentation). This is a team project and each team should have at least two members. Your team will select a challenging and original problem to solve in your project. At the end of the semester, you will upload the final report (10+ pages excluding the title page). You will be provided with a template and instructions on what points need to be covered. A list of different data sources will also be shared with the class. You may download the data from this source or you are free to work on your own data set if you have any (related to your companies/workplace etc.). When completing group work, your team may choose any method of collaboration or communication that is most effective (Google Docs, Microsoft Teams, Zoom, etc.) If you need any assistance using these technologies, contact Penn State IT Support. You will present your group project by creating a video using Zoom.",
+        "*subject to change",
+        "Regression is a type of supervised learning. The term regression refers to a set of problems that aims to explain the relationship between one outcome variable (called dependent variables) and one or more independent variables (called predictor variables). For example, the house price prediction is a regression problem in which the house purchase price (dependent variable) can be estimated from predictors or variables such as the number of bedrooms, the lot size, and location etc. The overall idea of regression is to examine which variables in particular are significant predictors of the outcome variable.",
+        "Neural networks can be seen as natural extension of linear regression.",
+        "The characteristics of the biological neuron:",
+        "Recall the comparison we made in Lesson 1 between the biological neuron and the artificial neuron.",
+        "Implementing Blocks",
+        "From an implementation perspective, a block is a Python class, which inherits from the tf.keras.Model that presents a block in Keras. A customized block class has the constructor function__init__(self) to perform the necessary initialization and the call()to define the forward propagation of the block, that is, how to obtain the required output based on the input.",
+        "The block class must thus define the forward propagation function call()and must store any required weights and biases. It is worth noting that the block does not need to define the backpropagation function to compute the gradients. In fact, the block class will inherit the auto differentiation function from its parent (tf.keras.Model).",
+        "You only need to define the code for the forward propagation function and manage the weights and biases (model parameters) if required by your customized block.",
+        "The following snippet implements a MLP model with one fully-connected hidden layer with 256 units and ReLU activation, followed by a fully-connected output layer with 10 neuron units and no activation function.",
+        "Upon successfully completing this course, you will be equipped with:",
+        "During this course you will expand your knowledge of the lesson topics each week.",
+        "We begin this lesson with an exploration of the fascinating world of Artificial Intelligence, focusing on how Deep Learning is revolutionizing industries. To set a strong foundation, we will cover essential math concepts like Linear Algebra, Calculus, and Probability, all of which are critical to understanding the mechanics of machine learning. Finally, we’ll dive into Python programming and set up Jupyter Notebook to prepare for hands-on coding throughout the course.",
+        "By the end of this lesson, you will have a clear understanding of big data’s role in modern society and the ethical principles that guide responsible data collection practices.",
+        "In this lesson, we’ll dive into the foundational steps involved in constructing a basic neural network. You’ll gain an understanding of key processes such as data preprocessing, defining the architecture of a neural network, specifying loss functions, training the network, and evaluating its performance. These building blocks will set the stage for implementing more advanced techniques later in the course",
+        "By the end of this lesson, you will have a foundational understanding of how neural networks are constructed and trained, from data preprocessing to performance evaluation. You’ll be equipped to define key concepts such as linear regression, explain the components of a regression model, and understand the role of the loss function and gradient descent in optimizing neural networks.",
+        "In this lesson, we introduce Multilayer Perceptrons (MLPs), one of the foundational architectures in artificial neural networks. You’ll learn how MLPs are structured with layers of neurons and connections, and how they are trained to learn from examples. We’ll implement MLP networks from scratch, gaining hands-on experience while exploring key challenges such as optimizing architecture and improving training efficiency.",
+        "By the end of this lesson, you’ll have a clear understanding of how MLPs work, how to analyze their behavior during training, and how to address common challenges to create better-performing models. This lesson provides practical Python implementations to reinforce your learning and build confidence in applying these techniques.",
+        "This lesson focuses on the advanced aspects of constructing deep learning models using platforms like TensorFlow and PyTorch. Building on the foundations established in previous lessons, we delve deeper into customizing layers and blocks to create powerful, flexible neural network architectures. You’ll also learn about weights and biases initialization and how these choices impact model performance.",
+        "By the end of this lesson, you’ll move beyond being an end-user of AI frameworks to a power developer, equipped with the skills to design and implement complex models tailored to your specific needs.",
+        "This lesson focuses on the vital process of machine learning optimization and its role in creating accurate and high-performing models. We will begin by clarifying the distinction between model parameters, which are determined during training, and hyperparameters, which are set before training and define the structure of your model. Understanding this distinction is essential to mastering the optimization process.",
+        "By the end of this lesson, you’ll have a clear understanding of optimization concepts and the knowledge to apply them effectively, enabling you to elevate your models’ performance with precision.",
+        "In this lesson, we focus on strategies to improve the performance and efficiency of deep neural networks. As models become more complex, ensuring they train effectively while maintaining high accuracy requires careful optimization and fine-tuning. You’ll learn techniques to address common challenges like overfitting, vanishing gradients, and slow convergence, enabling your models to perform better on unseen data.",
+        "By the end of this lesson, you will have a clear understanding of advanced strategies to enhance the performance and effectiveness of deep neural networks. You’ll be equipped to identify and apply techniques that optimize training and improve model outcomes in machine learning applications.",
+        "This lesson introduces Convolutional Neural Networks (CNNs), a powerful and efficient type of neural network designed to handle high-dimensional data, such as images, while avoiding the pitfalls of overfitting and high parameter counts. We’ll explore how CNNs exploit spatial structure in data, making them ideal for tasks like image recognition, object detection, and beyond.",
+        "By the end of this lesson, you’ll understand why CNNs have become a go-to technique for analyzing structured data and how they achieve remarkable results in fields ranging from computer vision to natural language processing.",
+        "We will start the lesson by building on your understanding of Convolutional Neural Networks (CNNs), this lesson delves into advanced deep neural network architectures that have revolutionized computer vision and other fields. You’ll explore landmark models such as AlexNet, VGG, Network in Network (NiN), GoogLeNet, and DenseNet. These networks demonstrate how innovative designs enhance performance and efficiency, offering solutions to complex AI challenges.",
+        "By the end of this lesson, you will have a comprehensive understanding of advanced deep neural network architectures, including AlexNet, VGG, NiN, GoogLeNet, and DenseNet. You’ll be equipped with the knowledge to design and develop these networks, applying their innovative principles to solve complex AI challenges.",
+        "In this lesson, you will dive into the exciting field of computer vision, exploring advanced techniques to enhance image classification and object detection systems. You will learn to apply methods like image augmentation and fine-tuning to improve model generalization and tackle real-world challenges. Additionally, you’ll gain hands-on experience with object detection concepts such as bounding boxes, anchor boxes, and multiscale detection, and implement cutting-edge algorithms like R-CNN, SSD, and YOLO. By the end, you will be equipped with the skills to design and develop sophisticated computer vision systems for various applications.",
+        "By the end of this lesson, you’ll be equipped with the knowledge and skills to design and implement sophisticated computer vision systems, paving the way for impactful applications in various fields.",
+        "In this lesson, you will be introduced to Generative Adversarial Networks (GANs), an innovative approach to generative modeling that has revolutionized fields like image, video, and voice generation. GANs consist of two neural networks—a Generator and a Discriminator—that compete with each other to produce new, realistic content. You’ll explore the architecture of GANs, their training process, and their application in creating data that mimics real-world examples.",
+        "In this lesson we will introduce you to sequence models, an essential area of supervised learning that handles data in sequential form. Sequence models are widely used in applications such as financial time series prediction, speech recognition, DNA sequencing, music generation, and sentiment classification. At the core of these models are Recurrent Neural Networks (RNNs), which excel in processing sequential data by leveraging their “memory” to analyze input sequences effectively.",
+        "By the end of this lesson, you’ll be well-prepared to apply RNNs to solve real-world problems involving sequential data, setting a strong foundation for advanced machine learning tasks.",
+        "In this lesson we will build on your knowledge of standard RNNs, this lesson focuses on advanced sequence models designed to overcome the limitations of simple RNNs, such as the vanishing gradient problem. You’ll explore Gated Recurrent Units (GRUs) and Long Short-Term Memory (LSTM) networks, which use specialized gates to manage long-term dependencies in sequential data. These architectures are critical for solving complex sequence learning problems across various domains.",
+        "In this lesson we will introduce you to transformers, a groundbreaking neural network architecture that has redefined sequence-to-sequence (Seq2Seq) models. We begin with an exploration of Seq2Seq models built with recurrent neural networks, such as LSTMs, and their application in tasks like machine translation. From there, we’ll delve into the attention mechanism, a powerful tool that enables models to focus on the most relevant parts of input sequences, significantly improving Seq2Seq performance.",
+        "By the end of this lesson, you will have a thorough understanding of sequence-to-sequence models, the role of attention mechanisms in enhancing model performance, and the transformative power of transformer architectures. You will be equipped to implement attention-based Seq2Seq models and utilize pre-trained transformer models to build high-quality machine translation systems, preparing you to excel in advanced sequence modeling tasks.",
+        "Congratulations on reaching the final week of the course! This lesson focuses on the culmination of your efforts through project delivery and oral presentations. Each team will prepare a professional presentation to showcase the results of their project, recording it on Zoom and sharing it with the class for review and feedback. This is an opportunity to demonstrate your work, reflect on your progress, and engage with peers to discuss the outcomes of your projects.",
+        "Earning a Master’s in Artificial Intelligence, particularly with specialized coursework like A-I 570: Deep Learning, opens the door to a wide range of impactful and high-demand career opportunities. Deep learning is at the forefront of advancements in AI, powering innovations across industries such as healthcare, finance, technology, transportation, and entertainment. With expertise in building and training neural networks, mastering natural language processing, and applying computer vision techniques, graduates are well-prepared to tackle complex challenges and drive meaningful change in both established organizations and cutting-edge startups.",
+        "The career impact of this degree extends beyond technical roles, as professionals with deep learning expertise often influence strategic decision-making and innovation. Graduates can pursue roles such as Machine Learning Engineer, Data Scientist, AI Research Scientist, or Deep Learning Specialist, where they design systems that automate processes, predict trends, and solve critical problems. As AI continues to evolve and expand, professionals equipped with deep learning knowledge are not only poised for rewarding careers but also positioned to lead the transformation of industries worldwide.",
+        "One real-world example of a deep learning project addressing climate change challenges can be seen in the field of extreme weather prediction. A government agency wanted to implement a system to analyze vast amounts of climate data to predict hurricanes, droughts, and heatwaves more accurately. However, the challenge lay in the complex nature of climate data, which spans across time and space, and in the lack of tools capable of integrating this data effectively. The initial attempts used traditional statistical models, which failed to capture the intricate patterns and interactions in the data. This resulted in inaccurate predictions, leading to insufficient preparedness for extreme weather events and significant economic and societal costs.",
+        "To overcome these limitations, a team of deep learning researchers and data scientists was brought in to develop a robust solution. They used advanced time series forecasting and spatiotemporal data analysis techniques to train neural networks capable of understanding the complex relationships in the data. The team leveraged convolutional and recurrent neural networks to process spatial and temporal aspects of the climate data and incorporated visualization tools to make predictions accessible to policymakers. By applying these models, they created a system that could accurately predict weather patterns, giving communities and governments weeks of advance warning.",
+        "This implementation not only improved disaster preparedness but also provided insights into long-term climate trends, enabling better resource allocation and planning. The success of this project highlighted the transformative potential of deep learning in addressing pressing global issues like climate change.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Students must be in the AI_MPS or DAAN_MPS majors. SWENG_MSE students may enroll with division approval.",
+            "Recommended STAT 500 or equivalent.",
+            "Students should have preliminary programming skills in Python."
+        ],
+        [
+            "Knowledge of deep learning algorithms and techniques",
+            "The ability to identify suitable learning tasks to which these techniques can be applied",
+            "Understanding of some of the current limitations of deep learning techniques",
+            "Formulation of deep learning problems, setting up and running computational experiments and evaluation of results, reuse of common deep learning libraries and packages."
+        ],
+        [
+            "Dive into Deep Learning  (Recommended)\n\nA digital version of this text is available on the web at https://d2l.ai.",
+            "A digital version of this text is available on the web at https://d2l.ai.",
+            "Python for Data Analysis (Optional)\n\nFree E-Book: An online version Python for Data Analysis (2017) is available at no cost to you as a Penn State student. You can access the E-Book through O’Reilly LearningLinks to an external site.. (Use your Penn State email to access the book.) (ISBN: 9781491957660)",
+            "Free E-Book: An online version Python for Data Analysis (2017) is available at no cost to you as a Penn State student. You can access the E-Book through O’Reilly LearningLinks to an external site.. (Use your Penn State email to access the book.) (ISBN: 9781491957660)"
+        ],
+        [
+            "A digital version of this text is available on the web at https://d2l.ai."
+        ],
+        [
+            "Free E-Book: An online version Python for Data Analysis (2017) is available at no cost to you as a Penn State student. You can access the E-Book through O’Reilly LearningLinks to an external site.. (Use your Penn State email to access the book.) (ISBN: 9781491957660)"
+        ],
+        [
+            "“A” (Excellent) indicates exceptional achievement.",
+            "“B” (Good) indicates substantial achievement.",
+            "“C” (Satisfactory) indicates acceptable but substandard achievement.",
+            "“D” (Poor) indicates inadequate achievement and is a failing grade for a graduate student."
+        ],
+        [
+            "Introduction to Deep Learning",
+            "Neural Networks Basics",
+            "Shallow Neural Networks",
+            "Deep Neural Networks",
+            "Optimization",
+            "Improving Deep Neural Networks",
+            "Convolutional Neural Networks (CNNs)",
+            "Advanced CNNs",
+            "Computer Vision & Advanced Computer Vision",
+            "Generative Adversarial Networks (GANs)",
+            "Recurrent Neural Networks (RNNs)",
+            "Advanced RNNs",
+            "Transformers"
+        ],
+        [
+            "Linear Regression",
+            "Neural Networks",
+            "Block Implementation"
+        ],
+        [
+            "Regression"
+        ],
+        [
+            "Thousands of synapses",
+            "Active dendrites",
+            "Cell recognizes 100’s of unique patterns",
+            "Learn by growing new synapses"
+        ],
+        [
+            "Knowledge of deep learning algorithms and techniques",
+            "The ability to identify suitable learning tasks to which these techniques can be applied",
+            "Understanding of some of the current limitations of deep learning techniques",
+            "Formulation of deep learning problems, setting up and running computational experiments and evaluation of results, reuse of common deep learning libraries and packages."
+        ],
+        [
+            "L1-L2",
+            "L3-L4",
+            "L5-L6",
+            "L7-L8",
+            "L9-L10",
+            "L11-L12",
+            "L13-L14"
+        ],
+        [
+            "Interactive Lecture: Engage in a guided introduction to Artificial Intelligence and Deep Learning, exploring real-world applications and current trends in the field.",
+            "Define Machine Learning components: such as Data, Models, Objective Functions, and Optimization Algorithms"
+        ],
+        [
+            "Python Environment Setup: Follow step-by-step instructions to install Python and configure Jupyter Notebook for future coding projects.",
+            "Discussion Activity: Collaborate with peers to discuss how foundational math concepts connect to practical applications in machine learning and deep learning."
+        ],
+        [
+            "Concept Walkthrough: Break down each step of building a neural network, from data preprocessing to performance evaluation, with visual aids and examples.",
+            "Data Preprocessing Task: Practice cleaning, normalizing, and splitting data into training and testing sets."
+        ],
+        [
+            "Training and Evaluation Hands-On: Train your neural network using sample data and evaluate its accuracy with performance metrics.",
+            "Peer Review Session: Share your neural network model with classmates and receive feedback on your design and implementation."
+        ],
+        [
+            "Introduction to MLPs: Learn the structure of Multilayer Perceptrons, including layers, neurons, and connections, and understand their role in neural network architectures.",
+            "Ethics in Data Collection: Explore the ethical implications of data collection, including privacy, consent, and transparency."
+        ],
+        [
+            "Regularization Techniques: Implement weight decay and dropout to improve model generalization and performance on unseen data.",
+            "Numerical Stability: Understand the importance of proper parameter initialization to avoid problems such as vanishing or exploding gradients during training."
+        ],
+        [
+            "Custom Layer and Block Design: Learn to create and stack custom layers and blocks to build complex, flexible neural network architectures.",
+            "Weights and Biases Initialization: Explore advanced initialization techniques and their impact on training stability and model performance."
+        ],
+        [
+            "Weights and Biases Initialization: Experiment with different initialization strategies and evaluate their effects on model convergence and performance.",
+            "Code-Along Workshop: Follow guided examples to construct, train, save, and deploy a deep learning model with advanced features."
+        ],
+        [
+            "Understanding Parameters and Hyperparameters: Participate in an interactive session to identify and differentiate model parameters (e.g., weights and biases) and hyperparameters (e.g., learning rate, epochs, and optimizers).",
+            "Hyperparameters vs. Parameters: Learn the distinction and why hyperparameter tuning is essential for model performance."
+        ],
+        [
+            "Learning Rate Adjustment Workshop: Observe how varying learning rates impact model convergence and performance.",
+            "Discussion Session: Share insights and challenges encountered during hyperparameter tuning with peers to deepen your understanding."
+        ],
+        [
+            "Batch Normalization: Accelerate training and improve stability by normalizing activations within the network.",
+            "Regularization: Learn how techniques like dropout and L2 regularization help prevent overfitting."
+        ],
+        [
+            "Optimizer Comparison: Compare the performance of SGD, Adam, and RMSprop optimizers on the same model to see their effects.",
+            "Fine-Tuning Pretrained Models: Use transfer learning to fine-tune a pretrained model for a specific dataset or task."
+        ],
+        [
+            "Efficiency of CNNs: Learn why CNNs require fewer parameters and are faster to train compared to MLPs for structured data.",
+            "Reducing Overfitting: Discover how CNNs mitigate overfitting by exploiting data structure and using fewer parameters."
+        ],
+        [
+            "Hyperparameter Tuning: Experiment with different architectures and learn how hyperparameter choices impact CNN performance.",
+            "Building a CNN: Create a basic convolutional neural network to classify images in a dataset."
+        ],
+        [
+            "AlexNet: Understand how AlexNet introduced deeper architectures and advanced training techniques for improved image recognition.",
+            "DenseNet: Study the principles of densely connected layers to reduce redundant parameters and improve gradient flow."
+        ],
+        [
+            "Case Study: Analyze real-world applications of these architectures in fields like image recognition, medical imaging, and autonomous vehicles.",
+            "Hands-On Design: Use a programming framework to implement a simplified version of one of the deep networks discussed in the lesson."
+        ],
+        [
+            "Image Classification Improvement: Learn advanced techniques such as image augmentation and fine-tuning to improve image classifier performance.",
+            "Semantic Segmentation and Style Transfer: Apply segmentation to identify areas of interest in images and use style transfer to generate creative visual outputs."
+        ],
+        [
+            "Bounding Box Exercises: Experiment with bounding boxes, anchor boxes, and multiscale detection to understand their functionality.",
+            "Algorithm Implementation: Write code to apply R-CNN, SSD, or YOLO for object detection tasks."
+        ],
+        [
+            "GAN Architecture: Learn the structure and interaction of the Generator and Discriminator networks in a GAN.",
+            "Generative Models: Understand the concept of generative modeling and how GANs produce realistic data."
+        ],
+        [
+            "Hands-On Implementation: Code a simple GAN model, implementing both Generator and Discriminator networks.",
+            "Team Project Development: Collaborate with your peers to incorporate GANs into your ongoing team project."
+        ],
+        [
+            "Sequence Modeling: Understand the basics of sequence models and their applications in supervised learning.",
+            "Text Preprocessing: Discover the steps for preparing textual data, including tokenization and encoding for input into sequence models."
+        ],
+        [
+            "Markov Model Analysis: Study the Markov process and its application to sequential data problems.",
+            "RNN Implementation: Build a Recurrent Neural Network in TensorFlow and Keras to tackle a sample sequential data task, such as sentiment classification."
+        ],
+        [
+            "Gated Recurrent Units (GRUs): Understand how GRUs use update and reset gates to handle long-term dependencies in sequence data.",
+            "Deep and Bidirectional RNNs: Explore the benefits of stacking multiple RNN layers and using bidirectional computations for improved performance."
+        ],
+        [
+            "Deep and Bidirectional RNNs: Implement deep and bidirectional RNNs to enhance sequential data processing.",
+            "Encoder-Decoder Application: Build an encoder-decoder model using RNNs and apply it to a sequence-to-sequence dataset."
+        ],
+        [
+            "Seq2Seq Models: Learn the fundamentals of sequence-to-sequence models and their use in machine translation and other tasks.",
+            "Transformers: Explore the architecture and functionality of transformers, including the concept of self-attention."
+        ],
+        [
+            "Pretrained Model Hands-On: Leverage publicly available transformer models, such as BERT or GPT, to develop a high-quality machine translation system",
+            "Team Project Integration: Apply transformers or attention mechanisms to your ongoing team project to enhance its capabilities."
+        ],
+        [
+            "Professional Presentation Preparation: Develop and deliver a polished project presentation using PowerPoint and Zoom.",
+            "Reflection and Growth: Evaluate your team’s performance and reflect on the challenges and successes of the project."
+        ],
+        [
+            "Project Submission: Submit your final project deliverables, ensuring all results are reproducible and clearly documented.",
+            "Peer Evaluation: Review and evaluate another team’s presentation, providing three points of strength and three areas for improvement, along with any questions or insights."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Dive into Deep Learning",
+            "url": "https://d2l.ai/"
+        },
+        {
+            "text": "O’Reilly LearningLinks to an external site.",
+            "url": "https://www.oreilly.com/library/view/python-for-data/9781491957653/"
+        },
+        {
+            "text": "Microsoft Office 365",
+            "url": "https://office365.psu.edu/"
+        },
+        {
+            "text": "Penn State Adobe Support",
+            "url": "https://adobe.psu.edu/account-support/"
+        },
+        {
+            "text": "Regression",
+            "url": "#tab-regression"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "Python for Data Analysis (Optional): Free E-Book available for Penn State students through O'Reilly Learning. Includes instructions to access the book with a Penn State email. ISBN: 9781491957660.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/ai801_book-256x300-2.jpeg"
+        },
+        {
+            "alt": "",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/linear_regression.png"
+        },
+        {
+            "alt": "",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/neural_network-1024x487.png"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Assignment",
+                "Points",
+                "Quantity",
+                "% of Final Grade"
+            ],
+            [
+                "Individual Assignments",
+                "100",
+                "3",
+                "30%"
+            ],
+            [
+                "Literature Review",
+                "100",
+                "1",
+                "10%"
+            ],
+            [
+                "Project Proposal",
+                "100",
+                "1",
+                "10%"
+            ],
+            [
+                "Project Presentation",
+                "100",
+                "1",
+                "10%"
+            ],
+            [
+                "Project Deliverables",
+                "100",
+                "1",
+                "30%"
+            ],
+            [
+                "Discussion Forums",
+                "100",
+                "multiple",
+                "10%"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"3015\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

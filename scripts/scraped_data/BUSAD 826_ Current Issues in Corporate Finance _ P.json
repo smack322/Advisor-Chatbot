@@ -1,0 +1,880 @@
+{
+    "metadata": {
+        "title": "BUSAD 826: Current Issues in Corporate Finance – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=5832"
+    },
+    "headings": {
+        "h2": "Course Requirements and Grading",
+        "h4": "Unlocking Your Potential",
+        "h5": "Which One?",
+        "h3": "Lesson 7: Peer Review"
+    },
+    "paragraphs": [
+        "BUSAD 826: Current Issues in Corporate Finance offers an in-depth exploration of advanced corporate finance concepts and practical financial modeling techniques. The course equips students with essential skills in valuation, financial forecasting, and model-building using tools such as Excel and Monte Carlo simulation software. Topics include capital structure, cost of capital, and creating pro forma financial statements for capital budgeting analysis. Students will engage in hands-on learning, including sensitivity, scenario, and regression analyses, as well as Monte Carlo simulations with @Risk™ (Decision Tools Suite), enabling a robust understanding of risk and decision-making in finance. Designed for finance professionals aiming to bridge theoretical knowledge with real-world application, the course includes an intensive residency session and requires intermediate Excel proficiency.",
+        "BUSAD 826 covers topics in financial modeling for valuation utilizing advanced corporate finance concepts, such as capital structure and cost of capital, and financial forecasting. The ability to understand and build working financial models is an essential skill in many finance fields, including commercial banking, corporate financial management, investment management, and investment banking. Estimating a company’s current value and projecting its future performance requires reliable and flexible financial models. This course bridges the gap between theory and real-world practice through a step-by-step, hands-on approach to financial modeling using Excel and Monte Carlo simulation software. The course will focus specifically on model building for financial statement projections (pro forma financial statements) and capital budgeting analysis. The modeling exercises in this course will employ a variety of techniques employed in financial model building, such as sensitivity analysis, scenario analysis, regression analysis, and Monte Carlo simulation.",
+        "The software for the Monte Carlo simulations will be @Risk™ (Decision Tools Suite), an Excel add-in software. @RiskTM enables the modeling of probability distributions of key assumptions (input variables, such as the sales growth rate) in forecasting, and generates the distribution(s) of output variables relevant to decision-making, such as the value of a project or an enterprise. Monte Carlo simulations will be applied in model building throughout this course and other courses, such as FIN 532 and BUSAD 585 (885).",
+        "The main learning in this course will be accomplished through a hands-on, Monday Saturday mandatory residency session supplemented by online study. Students are expected to have acquired an intermediate level of proficiency in Excel before the start of this course.",
+        "After completing the course, students should be able to model and solve financial decision problems using Excel. Specifically, you should be able to:",
+        "E-Book Option: An online version of one or more of your texts is available at no cost as a Penn State Library E-Book. Some E-Books will only be available online, while others will be available to download in full or in part. You may choose to use the E-Book as an alternative to purchasing a physical copy of the text. You can access the E-Book by selecting the Library Resources link on the course navigation, and then selecting the E-Reserves link. For questions or issues, you can contact the University Libraries Reserve Help (UL-RESERVESHELP@LISTS.PSU.EDU).",
+        "The chapters from the following textbooks are required and may be accessed through the University Libraries eReserves system:",
+        "To access the readings click on Library Resources in the Canvas Course Menu or go to the Penn State University Libraries home page, click on the Course Reserves tab at the top, and search for “BUSAD 826.” See below for further information about the library. You are strongly encouraged to develop Excel examples used in the chapters on your own by following the directions therein.",
+        "The following reference materials are excellent resources for the course:",
+        "Microsoft Excel will be used extensively in this course, and students are expected to have acquired an “intermediate level of skills in Excel by the end of the first week, including the time value of money functions such as NPV(), PV(), PMT(), and IRR().” In addition, a Monte Carlo simulation software, @RISK, will be used to model uncertainty in capital budgeting analysis and valuation modeling.",
+        "It is highly recommended that you view the following Excel resources to practice your skills and use as reference material.",
+        "Basic and More (Excel 2013):",
+        "For Additional Support:",
+        "Please remember that ALL questions about grades, course lesson content, and assignments should be directed to your course instructor. If you have any technical difficulties using the tools within this course, please contact the Penn State Helpdesk.",
+        "All course-related e-mails should go through Canvas’s course mail function (Canvas Inbox). Using Canvas to contact your instructor ensures that your message will be read, and your instructor will respond to you in a timely manner.",
+        "Many of the University Libraries’ resources can be utilized from a distance. Through the Library website, you can access magazines, journals, and articles; borrow materials and have them delivered to your doorstep; and get research help via email chat or phone from a librarian.",
+        "For more information, view the Penn State University Library.",
+        "The learning assessment in BUSAD 826 will be based on individual and team assignments, including quizzes, a final exam, and two team projects. After you have submitted an assignment, you will typically be able to review your grade and any comments made by your instructor within 7 days after the due date. This process is used for all homework assignments, exams, or other graded submissions. Some instructors may send you a message informing you the assignment has been graded. Some instructors may also choose to release all the grades to all students at once; other instructors may release grades per student one at a time. The graded activities and the percentage of your course grade associated with the activities are as follows:",
+        "*Grades will be based on the following scale:",
+        "A = 94 and above, A- = 90-93.9, B+ = 87-89.9, B =84-86.9, B- = 80-83.9, C+ = 77-79.9, C = 70-76.9, D = 60-69.9, and F = Below 60",
+        "The instructor may post several discussion questions to a general discussion forum for each of the first two weeks and students are encouraged to participate in the discussion. Your participation is voluntary, and you will not be graded on these discussions. The discussions will be used to enhance your learning experience.",
+        "Quizzes 1 and 2 consist of problem-solving questions designed to assess your mastery of the main concepts learned from Lessons 1 and 2. Quizzes 1 and 2 will be completed online where you will download the quiz file to your computer, provide solutions to the problem-solving questions, and then upload your Excel solution file.",
+        "Each team will analyze two companies, Walmart (WMT) during the residency period and a company to be announced (TBA) as the final project. Please see the course schedule for due dates for each of the team projects. Details of the projects will be discussed in class during the residency week.",
+        "The WMT project experience during the residency period will serve as a practice to prepare you for the final project. As such the WMT project has only a 10% weight. Each team will prepare a financial analysis, financial projection, and valuation for the company, including pro forma financial statements and a valuation model in Excel, a written report in Word, and a presentation in PowerPoint. The report should not exceed 5 pages, double-spaced. Font size should be 12 points for headings and 10 points for text. An appendix can be attached without any limit on the number of pages. Each team will present the WMT project in class during the residency week. Each team member must deliver a portion of this team presentation and will be evaluated individually.",
+        "For the final team project, your team will analyze a company that will be announced by the instructor during the residency week. The final project has a 40% weight, and consists of three parts:",
+        "The final exam is designed to test your:",
+        "*Subject to change",
+        "You have learned from the time value of money concept, stock and bond valuation, and capital budgeting in BA831 that discount rate is a necessary input to compute present value.  As such, it is also one of the critical input variables for valuing a company.  Discount rate is sometimes called required return or cost of capital.  This section describes how to estimate the cost of equity capital.",
+        "(SELECT TITLES TO LEARN MORE)",
+        "The formulas listed below should have been covered in an introductory finance course such as BA831, or MBADM820 (formerly FIN 531). They are listed here to refresh your memory because they will be used often in this course. You might want to review them in one of the financial management textbooks by Brealey-Myers-Allen or Welch listed in the syllabus.",
+        "The first formula we will look at is the constant dividend model.",
+        "Formula for the price of a stock at t = 0, P0, with a constant dividend payment, D0, from t = 1 to infinity and a discount rate, r:",
+        "Equation 1a1:",
+        "The variables are defined as follows:",
+        "Formula for the price of a stock at t = 0, P0, with dividends growing at a constant growth rate of g and a discount rate, r:",
+        "The variables mean the following:",
+        "Application: Equation (1b1) is used to estimate empirically the cost of equity, ke:",
+        "Below you will find three Cost of Equity example and their solutions.",
+        "(SELECT TABS TO LEARN MORE)",
+        "Example 1: Cost of Equity Using Gordon Model",
+        "Estimate the cost of equity for a firm with the current dividend of $3 per share, the current share price of $60, and anticipated dividend growth rate of 12%.",
+        "Example 1: (Cost of Equity Using Gordon Model)",
+        "P0 = $60; g = 12%; D0 = $3 → Equation (1b2): ke = 12% + 3 · (1.12) / 60 = 17.6%",
+        "Example 2: Cost of Equity for Kellogg – Whole Period (10 years)",
+        "Kellogg’s quarterly dividend for 10 years between 29May1996 and 30May2006 is as follows:",
+        "Based on the 10-year data, what is the cost of equity using Gordon’s formula (constant growth rate dividend model)?",
+        "Example 2: Cost of Equity for Kellogg – Whole Period (10 years)",
+        "P0 = $49.28; g = 3.61%; D0 = $1.112 → Equation (1b2):",
+        "ke = 3.61% + 1.112 × (1.0361) / 49.28 = 5.95%",
+        "Example 3: Cost of Equity for Kellogg – Sub Period (5 years)",
+        "Example 3: Cost of Equity for Kellogg – Sub Period (5 years)",
+        "Estimate the cost of equity based on the latest 5-year quarterly dividend data between May 29, 2001, and May 30, 2006. The dividend on 29May2001 is 0.253",
+        "ke = 4.20%",
+        "The expected return from a stock, KE, is the sum of the risk-free rate, rF, and the market risk premium, MRP, times beta of the stock return, βE:",
+        "Equation 1c1: KE = rF + βE * MRP",
+        "The variabales in Equation 1c1 are defined as follows:",
+        "The variables in Equation 1c2 are defined as follows:",
+        "The variables in Portfolio Value Equation mean the following:",
+        "Application to the market data:",
+        "By studying Benninga Section 3.8 through 3.9 (pages 89–96), you should learn how to do the following:",
+        "When a company used both debt and equity to finance its operations, the cost of capital is called the Weighted Average Cost of Capital (WACC), and is estimated as follows:",
+        "The variables in Equation 1d1 are defined as follows:",
+        "In this section we will revisit the TRI Case. Table 2.1 shows partial results from a financial forecast for TRI.",
+        "The tax rate is 35%. Next, you will find some questions that you should consider. The answers will be discussed throughout this lesson.",
+        "Question 1:",
+        "How would you go about estimating the amount of cash flow available to all equity holders, assuming TRI is a 100% equity-financed company? This amount is called the free cash flow (FCF).",
+        "Question 2:",
+        "The value of the firm was estimated in Lesson 1 as the PV of all FCFs discounted at the unlevered cost of equity of 9%. Now suppose TRI decided to borrow $61 now and pay down $3 per year from Year 1 through Year 5 with the outstanding debt balance of $46 at the end of Year 5. The interest rate on debt is 7%.",
+        "(SELECT TITLES TO LEARN MORE)",
+        "Free cash flow is the cash produced from the operating activities of a firm and is available for distribution to shareholders as if the firm is an all-equity (unlevered) firm after making all required investments in the business necessary to sustain the firm’s assets and future growth.",
+        "There are several important characteristics of FCF to become familiar with:",
+        "FCF vs. Net Income (NI): It is important to recognize the difference between FCF and Net income.",
+        "FCF will increase or turn positive as growth slows down and profits from past investments grow. This is because a slower growth requires smaller investments in CAPEX and net working capital. Increasing FCF and increased profit also increase FCF.",
+        "Since FCF is the cash from operating activities, it is important to separate",
+        "The operating value of a firm, levered or unlevered, is defined as the present value of all FCFs discounted by tax-adjusted WACC for the corresponding capital structure.",
+        "Free Cash Flow to Equity (FCFE) is a measure of how much cash is available for distribution to the common shareholders (exclude preferred shareholders) after required investment in working capital, property, plant, and equipment needed to sustain the firm’s assets and future growth and after required distributions to nonequity claimholders (debt, preferred stock, options) have been paid.",
+        "Based on the definition on FCF in the previous section, the FCF calculation can be expressed as:",
+        "FCF   =     +   EBIT · (1 – tc)                 +   Noncash expenses such as depreciation                 –   CAPEX (investment in fixed assets)                 –   Change in net working capital (investment in working capital)",
+        "Based on the definition of FCFE in the previous section, the FCFE calculation can be expressed as:",
+        "FCFE   =   +   FCF",
+        "–   All cash interest",
+        "–   Preferred stock dividends",
+        "+   Tax shelter from financing charges (ITS)",
+        "–   Principal repayments",
+        "+   Proceeds from new debt issues",
+        "+   New preferred stock issued",
+        "+   Stock buyback",
+        "–   New common stock issued",
+        "The FCF calculation: starting from EBIT can be expressed as:",
+        "FCF Calculation: Starting From EBIT   +   EBIT   +   Noncash expenses (e.g., depreciation, amortization)   –   Noncash revenues (e.g., revenue accruals)   –   tc · EBIT (cash tax payments without interest tax shields, or ITS)   –   Increase in net working capital   –   CAPEX (new fixed assets purchased)   =   Free Cash Flow",
+        "Note: Check if nonoperating gains and expenses are embedded within EBIT. Some companies may embed nonoperating gains and expenses within EBIT. If so, these items need to be excluded. Examples of nonoperating gains and expenses include, but are not limited to",
+        "These are advanced topics beyond the scope of this course. If you are interested, read “McKinsey Part V: Advanced Valuation Issues.”",
+        "In this section, we will discuss Example 1 (FCF Calculation for TRI). EBIT, depreciation, CAPEX, and Change in NWC are forecasted for TRI for the next six years based on a forecasting model for TRI’s financial statements (income statement, balance sheet statement, and cash flow statement).",
+        "Estimate FCF forecast for the next six years. Assume the income tax rate for TRI is 35%. Note: the data in Table 2.2 includes the same information from the overview of Section 2.",
+        "Click on Example 1 (FCF Calculation for TRI) to view the solution:",
+        "An alternative to the EBIT method is to calculate FCF from the statement of cash flows. Specifically, FCF may be calculated starting from net income in the section on cash flows from operating activities (CFO):",
+        "FCF Calculation: Starting From Net Income (CFO Method)",
+        "FCF Calculation: Starting From Net Income (CFO Method)   +   Net income (profit after tax)   +   Noncash expenses (e.g., depreciation, amortization)   –   Noncash revenues   –   Increase in current assets   +   Increase in current liability   =   After-tax cash flows from operation (from statement of cash flows)   +   After-tax interest payment (net)   –   CAPEX (new fixed assets purchased)   =   Free Cash Flow",
+        "Note regarding after-tax interest payments (net): Adding back after-tax interest payments (net) neutralizes the effect of interest payments on the firm’s profit because FCF measures the cash produced by the business/operating activity of the firm.",
+        "Current Assets: Cash and cash equivalents (marketable securities) are excluded from the current assets (CA) by some and included by others depending upon their views on the cash and marketable securities (C&MS) being either part of, or not part of, the operating activities.",
+        "Equivalence of EBIT Method and CFO Method",
+        "Proof of Equivalence:",
+        "FCF(CFO) ≡ NI + Dep – Δ(NWC) + Interest – tc · Interest – CAPEXFCF(EBIT) ≡ EBIT · (1 – tc) + Dep – Δ(NWC) – CAPEX",
+        "Since NI = (EBIT – Interest) · (1 – tc)⇒ NI + Interest – tc · (Interest)= (EBIT – Interest)(1 – tc) + Interest – tc · (Interest)= EBIT · (1 – tc)",
+        "Substitute EBIT · (1 – tc) for NI + Interest – tc · (Interest) in the FCF(CFO) expression:",
+        "⇒ FCFF (CFO) = FCFF (EBIT) is proved.",
+        "WACC Method",
+        "Industry WACC: It is often more useful to use industry WACCs when a company has more than one division in different industries. It will produce more reliable estimates of the firm value if each division is valued separately using an industry WACC corresponding to the division’s industry.",
+        "This section is adapted from Brealey-Myers-Allen Principles of Corporate Finance, 10th ed., Chapter 19, Sections 3 and 5.",
+        "Data source for kd, ku, beta, MRP, risk-free rate, WACC, FCF, and debt ratio: Retrieved from http://www.wikiwealth.com/discounted-cash-flow-analysis:cost. Wikiwealth now charges a fee to access certain contents.",
+        "The course aims to equip students with the skills and knowledge required to model and solve financial decision problems using Excel. By focusing on practical applications and advanced techniques, students will be able to approach complex financial challenges effectively. The course provides a strong foundation in financial modeling and analysis, preparing students for real-world financial decision-making.",
+        "After completing the course, students should be able to:",
+        "Throughout the course, students will be exposed to a variety of financial modeling tools and techniques, allowing them to tackle complex financial scenarios with confidence. By the end of the course, students will be proficient in using Excel and other advanced tools to model financial decisions, providing them with the expertise needed to analyze and value enterprises in uncertain environments.",
+        "In this lesson, students will learn the fundamental concepts related to the cost of capital, which is essential for making sound investment and financing decisions. The lesson explores different valuation models and the impact of capital structure on the cost of capital.",
+        "By the end of this lesson, students will have a thorough understanding of the cost of capital, the drivers of DCF valuation, and the relationship between capital structure and cost of capital. These skills will be essential for valuing firms and making informed investment decisions.",
+        "In this lesson, students will focus on the concept of free cash flow (FCF) and its role in valuation. The lesson introduces three key methods of discounted cash flow (DCF) valuation—WACC, APV, and CCF—and explores their application in real-world scenarios.",
+        "By the end of this lesson, you will have mastered the key concepts of free cash flow and its importance in valuation. You will also be proficient in using WACC, APV, and CCF methods to perform DCF valuations, which are essential for assessing company value and making informed investment decisions.",
+        "In this lesson, students will prepare for Residency Week by reviewing essential readings, videos, and files. The lesson covers key topics and expectations to help students succeed during Residency Week, focusing on critical skills and materials needed for in-depth discussions and activities.",
+        "By the end of this lesson, students will be well-prepared for Residency Week, having reviewed all necessary materials, videos, and documents. This preparation will allow students to actively engage in discussions, case studies, and practical exercises during the residency, applying their knowledge effectively in real-world business contexts.",
+        "In this lesson, students will participate in Residency Week on campus, where they will engage in hands-on, interactive sessions and case studies. This week offers an opportunity to collaborate with peers, apply theoretical concepts, and further develop skills in a practical environment.",
+        "By the end of this lesson, students will have actively participated in Residency Week, applying their learning to real-world business scenarios. The experience will deepen your understanding of course concepts and enhance their practical skills, preparing them for the final team project and future professional endeavors.",
+        "In this lesson, students will complete the final exam, which serves as a comprehensive assessment of the course material. This exam is designed to test the students’ understanding and application of the key concepts covered throughout the course.",
+        "By the end of this lesson, students will have completed the final exam, which consolidates their understanding of the course material. Successfully completing the exam will reflect the knowledge and skills they have developed throughout the course, marking the culmination of their learning experience.",
+        "In this lesson, students will work on their final team project, which involves a comprehensive analysis of a company announced during Residency Week. The project requires students to collaborate on creating a detailed written report and an engaging PowerPoint/video presentation, demonstrating their ability to apply course concepts to real-world business scenarios.",
+        "By the end of this lesson, students will have successfully completed their team project, submitting both the written report and the presentation. This project will showcase your ability to apply theoretical concepts to practical business analysis, culminating in a comprehensive, real-world business solution.",
+        "In this lesson, students will engage in the peer review process for the final team project. This activity allows students to evaluate their teammates’ contributions and provide constructive feedback to ensure the project meets the highest standards.",
+        "At the end of this lesson, students will be proficient in using Monte Carlo simulations to model risk and uncertainty in various business and financial scenarios, enabling you to make more informed, data-driven decisions.",
+        "Enrolling in BUSAD 826: Current Issues in Corporate Finance provides students with a deep understanding of key financial principles and emerging trends in corporate finance. By analyzing real-world cases, learning advanced financial modeling techniques, and exploring current challenges like capital structure decisions, mergers and acquisitions, and risk management, students are equipped with the practical knowledge needed for high-level financial decision-making. This course enhances critical thinking, problem-solving, and analytical skills, making graduates highly competitive in roles such as financial analyst, corporate finance manager, investment banker, or CFO. The insights gained in this course will help students navigate complex financial environments, driving their success in the finance industry.",
+        "A relevant real-world example in corporate finance is the decision-making process behind Apple’s capital allocation strategy. Apple’s approach to managing its massive cash reserves, which have reached over $200 billion in recent years, is a textbook example of corporate finance in action. In response to shareholder pressure, Apple has used a combination of stock buybacks, dividend payments, and strategic investments in R&D to balance returning value to shareholders while maintaining the necessary capital for innovation. This example illustrates the importance of financial management decisions in balancing growth opportunities, risk management, and shareholder value. Students in BUSAD 826 can explore these strategies by analyzing Apple’s capital structure, dividend policies, and risk assessments to understand how corporate finance decisions affect long-term business success.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Demonstrate proficiency in advanced Excel techniques in financial problem-solving.",
+            "Build a functional and dynamic working model for pro forma financial statements.",
+            "Solve capital budgeting problems.",
+            "Apply Monte Carlo simulations using @RISK in estimating firm values and analyzing capital budgeting problems under uncertainty.",
+            "Value an enterprise based on forecasting models, simulation, and advanced corporate finance theories."
+        ],
+        [
+            "Benninga, S. (2014) Financial modeling (4th ed.) Cambridge, MA: The MIT Press. ISBN: 978-0-262-02728-1 (E-book Option Available – View ‘Library Resources’). A CD (containing Excel files) is included with the text if you purchase a physical copy of the book. Please check with the bookseller or the book’s publisher about the availability of the CD. If you prefer to use the E-book, you are strongly encouraged to develop Excel examples used in the text on your own by following the directions in the book. The 5th edition of the book is scheduled to be available in the first quarter of 2022. You are strongly encouraged to purchase the 5th edition. The ISBN for the 5th edition is 978-0-262-04642-8.",
+            "Tjia, J. S. (2009). Building financial models—A complete guide to designing, building, and applying projection models (2nd ed.) New York, NY: McGraw-Hill. ISBN 978-0-07-160889-3 OR",
+            "Tjia, J. S. (2018). Building financial models—The complete guide to designing, building, and applying projection models (3rd ed.) New York, NY: McGraw-Hill. ISBN 978-1-260-10882-8",
+            "(Decision Tools Suite) @Risk software and Guide to Using @RISK – Risk Analysis and Simulation\n\nNote: A link to the Decision Tools Suite (@RISK) software is provided in the Student Resources module.",
+            "Note: A link to the Decision Tools Suite (@RISK) software is provided in the Student Resources module."
+        ],
+        [
+            "Note: A link to the Decision Tools Suite (@RISK) software is provided in the Student Resources module."
+        ],
+        [
+            "Brealey, R., Myers, S., & Allen, F. Principles of corporate finance (10th ed.). McGraw-Hill. (BMA). ISBN: 978-0-07-353073-4. Chapters 9, 17, 18, and 19.",
+            "Fernandez, P., Aguirreamalloa, J., & Linares, P. (2013). Market risk premium and risk-free rate used for 51 countries in 2013: a survey with 6,237 answers. IESE Business School.",
+            "Holden, C. W. (2012). Excel modeling in corporate finance. (4th ed.). Prentice Hall. ISBN-10: 0-13-249784-0. Chapter 16.",
+            "Winston, W. (2008). Financial models using simulation and optimization II. Palisade Corporation. Chapters 20 and 23."
+        ],
+        [
+            "Welch, I. (2011). Corporate finance (4th ed.). Anderson Graduate School of Management University of California. ISBN: 978-0-9840049-2-8. Retrieved from https://book.ivo-welch.info/home/ (A free corporate finance graduate-level textbook is available online.)",
+            "Koller, T., Goedhart, M., & Wessels, D. (2020). Valuation – Measuring and Managing the Value of Companies (7th ed.). Hoboken, NJ: McKinsey & Company. John Wiley & Sons, Inc. ISBN: 978-1-118-87373-1"
+        ],
+        [
+            "Note: You will need to be logged in to the “lynda.psu.edu” site first and you will be prompted to do so if necessary. click on Browse the library and then click on Software. From the list scroll down and select Microsoft from the menu and select Excel. Then select the version of Excel that is on your computer.)"
+        ],
+        [
+            "HelpDesk Website: https://student.worldcampus.psu.edu/help-and-support/technical-support.",
+            "HelpDesk Email: techsupport@worldcampus.psu.edu",
+            "HelpDesk Phone: (800) 252-3592"
+        ],
+        [
+            "Cost of Capital",
+            "Free Cash Flow",
+            "DCF Valuation in Practice"
+        ],
+        [
+            "P0 = the value of the stock at time = 0",
+            "Dt = the dividend expected at time = t, t = 1, 2, … , ∞",
+            "D0 = the dividend paid at time = 0",
+            "ke = the discount rate, the cost of equity",
+            "Dt = D0 (constant dividend assumption)"
+        ],
+        [
+            "g = dividend growth rate (g < ke)",
+            "Dt = D0 (1 + g)t  (assumption that dividend grows at a constant growth rate)"
+        ],
+        [
+            "Example 1: Cost of Equity Using Gordon Model",
+            "Example 2: Cost of Equity for Kellogg – Whole Period (10 years)",
+            "Example 3: Cost of Equity for Kellogg – Sub-Period (5 years)"
+        ],
+        [
+            "Example 1",
+            "Example 2",
+            "Example 3"
+        ],
+        [
+            "DIV1996May29 = 0.195",
+            "DIV2006May30 = 0.278",
+            "Price2006May30 = 49.28"
+        ],
+        [
+            "Step 1: Estimate the 10-year quarterly growth rate of dividend:\n\n      g(quarterly) = [(last quarterly div) / (first quarterly div)](1/40) - 1 \n                  = (0.278 / 0.195) ^ (1 / 40) – 1 = 0.89%",
+            "g(quarterly) = [(last quarterly div) / (first quarterly div)](1/40) - 1",
+            "= (0.278 / 0.195) ^ (1 / 40) – 1 = 0.89%",
+            "Step 2: Convert the quarterly growth rate to an annual rate:\n\n      g(annual) = [1 + g(quarterly)]4 – 1 = 1.0089 ^ 4 – 1 = 3.61%",
+            "g(annual) = [1 + g(quarterly)]4 – 1 = 1.0089 ^ 4 – 1 = 3.61%",
+            "Step 3: Annualize the latest dividend:\n\n      D0 = 0.278 × 4 = 1.112",
+            "D0 = 0.278 × 4 = 1.112",
+            "Step 4: Assume the future dividend growth rate will be the same as the historical dividend growth rate. Then use the Gordon formula for cost of equity, that is, Equation (1b2)"
+        ],
+        [
+            "g(quarterly) = [(last quarterly div) / (first quarterly div)](1/40) - 1",
+            "= (0.278 / 0.195) ^ (1 / 40) – 1 = 0.89%"
+        ],
+        [
+            "g(annual) = [1 + g(quarterly)]4 – 1 = 1.0089 ^ 4 – 1 = 3.61%"
+        ],
+        [
+            "D0 = 0.278 × 4 = 1.112"
+        ],
+        [
+            "rF = risk free rate",
+            "KE = expected rate of return of a stock, also called cost of equity",
+            "βE = equity beta, COVARIANCE (stock return, market return) divided by VARIANCE (market return)",
+            "MRP = market risk premium, (expected market return) minus (risk free rate) [For empirical estimates of MRP, read the article Market risk premium and risk free rate used for 51 countries in 2013: a survey with 6,237 answers. This reading can be accessed through the library’s electronic reserves system. To access the course reserves, follow the ‘Library Resources’ link in the course menu.]"
+        ],
+        [
+            "βP = portfolio beta",
+            "βi = beta of the ith security included in the portfolio"
+        ],
+        [
+            "Vi is the amount of the ith security in the portfolio",
+            "wi = Vi / Vp ; the security i’s weight in the portfolio"
+        ],
+        [
+            "Estimate beta empirically using regression analysis applied to historical stock return data on Merck and the S&P 500.",
+            "Estimate Merck’s cost of equity based on CAPM Security Market Line and beta estimated above."
+        ],
+        [
+            "WACC = weighted average cost of capital",
+            "KE = cost of equity",
+            "KD = cost of debt",
+            "D = market value of debt",
+            "E = market value of equity",
+            "TC = marginal corporate tax rate"
+        ],
+        [
+            "Will this increase or decrease the value of TRI? Why?",
+            "How would you go about estimating the change, if any, in the firm value of TRI in the presence of debt?"
+        ],
+        [
+            "FCF vs. Net Income",
+            "FCF",
+            "FCF",
+            "Operating Value",
+            "FCFE"
+        ],
+        [
+            "Interest Expenses: Since NI is the return available to shareholders only, NI is calculated after interest expenses to debt holders, but FCF is calculated before interest expense because FCF is the return available to all investors, both shareholders and debt holders.",
+            "Interest Income: Interest income is included in NI calculation, but excluded for nonfinancial firms because it is not an operating income for a nonfinancial firm.",
+            "Non-cash expenses such as depreciation are subtracted from revenue when NI is calculated, but not when FCF is calculated.",
+            "CAPEX and Investment in Net Working Capital (NWC) are not expenses and, hence, they are not factors influencing NI (i.e., they do not appear in any income statement), but they reduce FCF.",
+            "FCF can be negative (FCF < 0) for a rapidly growing business even if the business is profitable (NI > 0) if CAPEX and Investment in NWC are large."
+        ],
+        [
+            "Operating assets and liabilities from non-operating assets and liabilities, such as financial assets and liabilities; and",
+            "Operating income and expenses from non-operating income and expenses, such as income and expenses from financial assets and liabilities (interest) and from discontinued operation.",
+            "Cash expenses from non-cash expenses such as depreciation & amortization",
+            "Cash revenues from non-cash revenues such as accrued revenue like earned revenue but not yet received"
+        ],
+        [
+            "The value of equity, VE, is then the present value of all FCFEs discounted by the levered cost of equity."
+        ],
+        [
+            "gains and losses related to pensions;",
+            "embedded interest expenses from operating leases; and",
+            "restructuring charges hidden in the cost of sales"
+        ],
+        [
+            "The logic is slightly different, but both produce the same FCF.",
+            "It’s a good idea to calculate both ways—you can check errors in calculation!"
+        ],
+        [
+            "ST financing can be ignored if it is temporary or is offset by Cash and Marketable Securities",
+            "Include the cost of ST financing in the WACC calculation if it is a continuing and permanent source of funding for the operating assets. In this case, be sure to exclude short-term debts from current liabilities."
+        ],
+        [
+            "Cost of equity (levered): Use the stock market data to estimate the equity beta and apply CAPM.",
+            "Cost of debt: Use the borrowing rate of the company, the yield to maturity of the company’s bonds, or the bond yield of similarly rated companies.",
+            "Cost of capital of convertible bonds: complicated because it is a combination of straight bonds and options on stock.",
+            "Cost of junk bonds: complicated, but promised yields may be used as approximations of expected yield under an assumption that the default risk is low.",
+            "Using judgment: Estimating the costs of capital is not an exact science—making a judgment call is not uncommon."
+        ],
+        [
+            "Demonstrate proficiency in advanced Excel techniques for financial problem-solving.",
+            "Build functional and dynamic working models for pro forma financial statements.",
+            "Solve capital budgeting problems with efficiency.",
+            "Apply Monte Carlo simulations using @RISK to estimate firm values and analyze capital budgeting problems under uncertainty.",
+            "Value an enterprise based on forecasting models, simulations, and advanced corporate finance theories."
+        ],
+        [
+            "L1",
+            "L2",
+            "L3",
+            "L4",
+            "L5",
+            "L6",
+            "L7"
+        ],
+        [
+            "Cost of Capital: Understand the components that determine the cost of capital and how to calculate it.",
+            "DCF Valuation Drivers: Learn how discounted cash flow (DCF) valuation is impacted by cost of capital and other key variables.",
+            "Capital Structure and Cost of Capital: Explore how changes in capital structure affect the cost of capital and overall financial performance."
+        ],
+        [
+            "Introduction Activity: Begin by reviewing the course syllabus and schedule to familiarize yourself with the lesson structure.",
+            "Exercise 1 – Super Normal Growth Model: Apply the super normal growth model to understand the cost of capital in growing firms.",
+            "Exercise 2 – WACC with Changed Capital Structure: Analyze how the weighted average cost of capital (WACC) changes when the capital structure of a firm is modified.",
+            "Quiz 1: Test your understanding of the cost of capital concepts and their application in financial decision-making."
+        ],
+        [
+            "Free Cash Flow: Understand how to calculate and interpret free cash flow, a critical metric in company valuation.",
+            "Three DCF Methods: Learn the differences and applications of WACC, APV, and CCF in DCF valuation.",
+            "DCF Valuation in Practice: Apply DCF valuation techniques to practical case studies, understanding the impact of each method on firm valuation."
+        ],
+        [
+            "Exercise 1 – FCF Calculations: Practice calculating free cash flow using real-world data and formulas.",
+            "Exercise 2 – Two Methods of FCF Calculation: Compare and contrast two methods of calculating free cash flow, understanding their advantages and limitations.",
+            "Exercise 3 – Equivalence of DCF Models: Solve a multiple-period case to demonstrate the equivalence of WACC, APV, and CCF methods in DCF valuation.",
+            "Quiz 2: Assess your understanding of free cash flows and the application of the three DCF methods."
+        ],
+        [
+            "Readings: Review the provided document, “BUSAD826_Pre-Residency_Week_Spring_2_2022.pdf,” which outlines the objectives, structure, and expectations for Residency Week.",
+            "Pre-Residency Videos: Watch the pre-residency videos to get familiar with key topics and case studies that will be discussed during Residency Week.",
+            "Pre-Residency Files: Use the additional files provided to enhance your understanding of the materials and prepare for interactive sessions."
+        ],
+        [
+            "Reading Activity: Thoroughly read the provided document before watching the videos to understand the key points for Residency Week.",
+            "Video Review: Watch the pre-residency videos and take notes on the critical aspects covered, which will aid in participation during the residency sessions.",
+            "File Exploration: Go through the pre-residency files, ensuring a clear understanding of the concepts that will be applied in real-world scenarios during the residency."
+        ],
+        [
+            "Communication Presentation: Explore the “BUSAD 826 Communication Presentation.pdf” to prepare for presentations and discussions during the residency.",
+            "Costco Case Study: Use the Residency Files – Costco to analyze real-world business challenges and solutions, helping to link theory with practice.",
+            "Final Team Project: Begin working on the Final Team Project, applying knowledge gained in previous lessons to a real-world case study."
+        ],
+        [
+            "Agenda Review: Familiarize yourself with the weekly schedule to ensure you are prepared for each session and discussion.",
+            "Presentation Preparation: Prepare your communication presentation, practicing key points and collaborating with your team for smooth delivery.",
+            "Costco Case Study: Analyze the Costco case study files to understand the application of course concepts in a real business scenario.",
+            "Final Project: Start working on the Final Team Project, collaborating with peers to apply what you’ve learned and complete the project successfully."
+        ],
+        [
+            "Final Exam (A): Download and review the “Final Exam (A)” file to prepare for the first part of the exam.",
+            "Final Exam (B): Download the “Final Exam (B)” file to familiarize yourself with the second part of the exam.",
+            "Final Exam Submission: Complete and submit the final exam by the deadline, demonstrating your mastery of the course material."
+        ],
+        [
+            "File Review: Carefully review both “Final Exam (A)” and “Final Exam (B)” to understand the questions and expectations.",
+            "Final Exam Completion: Work through the exam, applying your knowledge of the course material to answer the questions accurately.",
+            "Submission: Submit the completed final exam on time to ensure it is graded and counted toward your final grade."
+        ],
+        [
+            "Final Project – Written Report: Submit the final written report by the given deadline, detailing the analysis and findings for the chosen company.",
+            "PowerPoint/Video Presentation: Prepare a professional PowerPoint or video presentation via VoiceThread to present the team’s analysis, including key insights and recommendations."
+        ],
+        [
+            "Written Report Submission: Collaborate with your team to research and analyze the company, compiling your findings into a structured written report.",
+            "PowerPoint/Video Presentation: Work with your team to create a compelling presentation that communicates your analysis and conclusions effectively."
+        ],
+        [
+            "Peer Evaluation: Complete the Final Project Peer Evaluation by assessing the contributions of your team members and providing thoughtful, constructive feedback.",
+            "Feedback Importance: Understand the significance of giving and receiving feedback to improve both individual and team performance."
+        ],
+        [
+            "Peer Review Completion: Evaluate each team member’s work on the final project, focusing on their involvement, contributions, and the quality of their work.",
+            "Constructive Feedback: Provide specific, actionable feedback to your peers, helping them understand strengths and areas for improvement."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "University Libraries Reserve Help",
+            "url": "mailto:UL-RESERVESHELP@LISTS.PSU.EDU"
+        },
+        {
+            "text": "Penn State University Libraries home page",
+            "url": "http://www.libraries.psu.edu/psul.html"
+        },
+        {
+            "text": "Corporate finance",
+            "url": "http://book.ivo-welch.info/home/"
+        },
+        {
+            "text": "Excel 2013",
+            "url": "http://www.gcflearnfree.org/excel2013"
+        },
+        {
+            "text": "Free online software training Lynda.com Microsoft Training and Tutorials",
+            "url": "http://www.lynda.psu.edu/"
+        },
+        {
+            "text": "https://student.worldcampus.psu.edu/help-and-support/technical-support.",
+            "url": "https://student.worldcampus.psu.edu/help-and-support/technical-support"
+        },
+        {
+            "text": "techsupport@worldcampus.psu.edu",
+            "url": "mailto:techsupport@worldcampus.psu.edu?subject=World%20Campus%20Tech%20Support%20Inquiry"
+        },
+        {
+            "text": "Penn State University Library.",
+            "url": "https://libraries.psu.edu/"
+        },
+        {
+            "text": "Example 1",
+            "url": "#tab-strongexample1strong"
+        },
+        {
+            "text": "Example 2",
+            "url": "#tab-strongexample2strong"
+        },
+        {
+            "text": "Example 3",
+            "url": "#tab-strongexamplestrong3"
+        },
+        {
+            "text": "FCF vs. Net Income",
+            "url": "#tab-strongfcfvsnetincomestrong"
+        },
+        {
+            "text": "FCF",
+            "url": "#tab-fcf"
+        },
+        {
+            "text": "FCF",
+            "url": "#tab-fcf"
+        },
+        {
+            "text": "Operating Value",
+            "url": "#tab-operatingvalue"
+        },
+        {
+            "text": "FCFE",
+            "url": "#tab-fcfe"
+        },
+        {
+            "text": "Data source for kd, ku, beta, MRP, risk-free rate, WACC, FCF, and debt ratio",
+            "url": "http://www.wikiwealth.com/discounted-cash-flow-analysis:cost"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "Table of Free Cash Flow (FCF) calculation over six years.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/Fig_2.1.jpg"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Assignment Category",
+                "Grading",
+                "Timeframe"
+            ],
+            [
+                "Quizzes 1, 2 (individual)",
+                "10% (5% each)",
+                "Weeks 1, 2"
+            ],
+            [
+                "Team Project I (Walmart, WMT)",
+                "10% (5% reports, 5% presentation)",
+                "Week 4 (Saturday presentation during the residency week)"
+            ],
+            [
+                "Final Exam (individual)",
+                "40%",
+                "Week 5"
+            ],
+            [
+                "Team Project 2 (company, TBA)",
+                "40% (15% report, 15% presentation, 10% peer evaluation)",
+                "Week 5"
+            ]
+        ],
+        [
+            [
+                "",
+                "Year 1",
+                "Year 2",
+                "Year 3",
+                "Year 4",
+                "Year 5",
+                "Year 6"
+            ],
+            [
+                "EBIT",
+                "$100.00",
+                "$105.00",
+                "$110.25",
+                "$115.76",
+                "$121.55",
+                "$127.63"
+            ],
+            [
+                "Depreciation",
+                "$15.00",
+                "$15.75",
+                "$16.54",
+                "$17.36",
+                "$18.23",
+                "$19.14"
+            ],
+            [
+                "CAPEX",
+                "$65.00",
+                "$68.25",
+                "$71.66",
+                "$75.25",
+                "$79.01",
+                "$82.96"
+            ],
+            [
+                "Increase in Net Working Capital",
+                "$9.61",
+                "$10.50",
+                "$10.61",
+                "$11.58",
+                "$12.16",
+                "$12.76"
+            ]
+        ],
+        [
+            [
+                "",
+                "Year 1",
+                "Year 2",
+                "Year 3",
+                "Year 4",
+                "Year 5",
+                "Year 6"
+            ],
+            [
+                "EBIT",
+                "$100.00",
+                "$105.00",
+                "$110.25",
+                "$115.76",
+                "$121.55",
+                "$127.63"
+            ],
+            [
+                "Depreciation",
+                "$15.00",
+                "$15.75",
+                "$16.54",
+                "$17.36",
+                "$18.23",
+                "$19.14"
+            ],
+            [
+                "CAPEX",
+                "$65.00",
+                "$68.25",
+                "$71.66",
+                "$75.25",
+                "$79.01",
+                "$82.96"
+            ],
+            [
+                "Increase in Net Working Capital",
+                "$9.61",
+                "$10.50",
+                "$10.61",
+                "$11.58",
+                "$12.16",
+                "$12.76"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"5832\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

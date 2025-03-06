@@ -1,0 +1,594 @@
+{
+    "metadata": {
+        "title": "BUSAD 510: Business Analytics and Decision Modeling – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=6628"
+    },
+    "headings": {
+        "h2": "Predictive Analytics",
+        "h4": "Unlocking Your Potential",
+        "h5": "The SOAR Analytics Model",
+        "h6": "Microsoft Excel",
+        "h3": "Lesson 7: Advanced Analytics"
+    },
+    "paragraphs": [
+        "BUSAD 510: Business Analytics and Decision Modeling equips students with essential analytical tools to identify, evaluate, and solve business problems involving uncertainty and time evolution. The course emphasizes data-driven decision-making through data visualization, linear and non-linear regression analysis, and advanced analytical techniques. Students will develop skills to interpret and analyze data, apply predictive models, and address challenges in implementing analytical approaches within organizations. By integrating theory and practical application, the course prepares students to make informed managerial decisions and navigate the complexities of data analysis in a business context.",
+        "The course equips students with the analytical tools to identify, evaluate, and solve businessproblems that include both time evolution and uncertainty. Toward this end, you will learn basicanalytic methods to make informed managerial decisions through interpretation and analysis ofdata. The course will focus on data visualization, linear and non-linear regression analysis, andadvanced data analysis techniques. Finally, throughout the course, we explore the challengesthat can arise in implementing analytical approaches within an organization.",
+        "After completion of this course, students of should be able to:",
+        "This course will require that you use Microsoft Excel and the @Risk Developer tool.",
+        "Penn State’s LMS, Canvas, supports most recent versions of Microsoft Windows and Apple Mac operating systems. To determine if your operating system is supported, please review the Canvas Computer Specifications (https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-are-the- browser-and- computer-requirements-for-Canvas/ta-p/66).",
+        "For a list of required computer hardware specifications and internet speed, please review the Canvas Computer Specifications (https://community.canvaslms.com/docs/DOC- 2059).",
+        "Canvas supports the last two versions of every major browser release. We highly recommend updating to the newest version of whatever browser you are using. To determine if your browser is supported, please review the list of Canvas Supported Browser (https://community.canvaslms.com/t5/Canvas- Basics-Guide/What-are-the- browser-and-computer-requirements-for- Canvas/ta-p/66).Note: Cookies must be enabled, and pop-up blockers should be configured topermit new windows from Penn State websites.",
+        "All Penn State students have free access to Microsoft Office 365 including Office applications such as Word, Excel, and PowerPoint (http://softwarestore.psu.edu/news/microsoft-no-cost-software).Students will need Adobe Acrobat, available through Adobe Creative Cloud Free Adobe Software Suite License – https://adobe.psu.edu/",
+        "Required: Sound Card, Microphone, and Speakers Webcam may be required.",
+        "Capable of at least 1024 x 768 resolution.",
+        "The Canvas mobile app is available for versions of iOS and Android.To determine if your device is able to use the Canvas Mobile App, pleasereview the Canvas Mobile App Requirements (https://community.canvaslms.com/docs/DOC-1542).",
+        "Access to a reliable Internet connection is required for this course. If you experience problemswith your Internet connection while working on this course, it is your responsibility to find analternative Internet access point.",
+        "To find more information about technology at Penn State, please visit our Student TechnologyGuide (https://connecttotech.psu.edu/).",
+        "If you need technical assistance at any point during the course, please contact the Great Valley ITHelpdesk (https://greatvalley.psu.edu/great-valley-it-helpdesk-contact-us).",
+        "All course-related e-mails should go through Canvas’s course mail function (Canvas Inbox). Using Canvas to contact your instructor ensures that your message will be read, and your instructor will respond to you in a timely manner.",
+        "Many of the University Libraries’ resources can be utilized from a distance. Through the Library website, you can access magazines, journals, and articles; borrow materials and have them delivered to your doorstep; and get research help via email chat or phone from a librarian.",
+        "For more information, view the Penn State University Library.",
+        "*Grades will be based on the following scale:",
+        "96-100: A; 90-95.99: A-; 87-89.99: B+; 84-86.99: B; 80-83.99: B-; 77-79.99: C+; 70-76.99: C;60-69.99: D; <60: F",
+        "Six (6) weekly online activities have been set up in Canvas. These weekly asynchronous onlineactivities will be open according to the schedule posted on canvas.",
+        "Over the course of the semester, there will be 3 individual write-ups. Readings (if required) andquestions for the assignment will be provided 1 week prior to the assignment.",
+        "Each student will research and present a project based on business analytics that incorporateconcepts learned in the class. The student may choose from a number of possible data sourcesprovided by the instructor or choose his/her own data source. The project will be done inphases (note the schedule on canvas). A detailed description of this assignment will beprovided in Canvas and discussed in class. Grades for this assignment, assigned by theinstructor, will be based upon the relevance and complexity of the business questions asked,the complexity of the data, any required cleaning, the quality of analysis, and communicabilityto a general business audience, and the overall clarity of the report. All papers must use APA-style formatting for in-text citations and references.",
+        "The Management Division at Penn State Great Valley has established a standard for writtencommunication that must be met by all students. Citations and references should follow APA(American Psychological Association) format. For information about this format, or to purchasean APA manual, please go to the following website: http://www.apastyle.org/index.html. Pleasenote that failure to follow APA format for citations and references may result in a poor grade onwritten assignments. Failure to provide citations for paraphrased or quoted material authoredby someone other than the student is a violation of Penn State’s policy on academic integrity.",
+        "The Writing Center offers free one-to-one writing consultations to all students currently enrolled in a graduate degree program. The Writing Center exists to help students develop their written communication skills and to support faculty in their efforts to improve student writing. To set up a consultation, contact GVWritingCenter@psu.edu",
+        "We will follow an interactive, discussion-oriented approach in this class. For this reason, youractive participation during the in-person sessions is extremely important. You will be evaluatedon your positive contribution to the class discussions. Your contribution is graded at the end ofeach class by the instructor.",
+        "Since this course is interactive in nature, attendance is crucial for the in-person sessions. Eachweek, students will discuss the assigned topics in class, and part of the grade is based on class participation. Class discussions are going to be a significant contribution to your understandingof the material. If a situation arises that would cause you to miss class, please notify me inadvance. It is the student’s responsibility to make arrangements regarding any missed materialsor assignments.",
+        "All assignments are due on the day mentioned in the schedule. Late assignments will NOT beaccepted.",
+        "No make-up assignments will be given. If you miss any deliverable for unforeseen andunfortunate events, you must bring documentation. We will use the average score of yourindividual assignment as the grade for the missed assignment. Please note undocumented caseswill not be considered.",
+        "There will be a comprehensive quiz covering the concepts in this class. Please see the scheduleon canvas.",
+        "*Subject to change",
+        "Defined as the use of data to create knowledge, to help draw conclusions and address business questions.",
+        "Marketing Analytics",
+        "Accounting Analytics",
+        "Financial Analytics",
+        "Operations Analytics",
+        "An analytics mindset is the ability to:",
+        "► Ask the right questions;",
+        "► Extract, transform and load relevant data;",
+        "► Apply appropriate data analytic techniques; and",
+        "► Interpret and share the results with stakeholders.",
+        "1.Specify the Question",
+        "2.Obtain the Data",
+        "3.Analyze the Data",
+        "4.Report the Results",
+        "Addresses the question of whether something or some event will happen in the future. To the extent that there is a strong correlation between the past and future, predictive analytics can be particularly useful.",
+        "Predictive analytics provide foresight by identifying patterns in historical data by assessing likelihood or probability.",
+        "Classification – Separates or Classifies a Sample (or Population) into two or more groups or classes",
+        "Regression – Predicts a specific outcome value based on independent variable inputs",
+        "Time Series Analysis – Predicts future values based on past values of the same variable",
+        "Artificial Intelligence",
+        "Machine Learning (ML)",
+        "Artificial Neural Networks (ANNs)",
+        "Deep Learning",
+        "After completion of this course, students of should be able to:",
+        "In this lesson, you will explore the fundamentals of business analytics through the SOAR model (Situation, Objectives, Analysis, and Results). This framework provides a structured approach to identifying problems, setting objectives, conducting analysis, and interpreting results to support informed decision-making in business contexts.",
+        "By the end of this lesson, you will have a foundational understanding of the SOAR model, its applications in business analytics, and the role of data in solving organizational challenges. This knowledge will prepare you for deeper exploration of analytics in subsequent lessons.",
+        "In this lesson, you will explore foundational statistical tools—hypothesis testing, ANOVA, and regression—that enable data-driven decision-making. These techniques provide essential methods for analyzing business data, identifying patterns, and testing assumptions.",
+        "By the end of this lesson, you will have the skills to use statistical tools like hypothesis tests, ANOVA, and regression for business analysis. These methods will empower you to interpret data and make informed decisions confidently.",
+        "In this lesson, you will dive into exploratory business analytics, focusing on uncovering patterns, trends, and insights in data. This foundational step in analytics involves summarizing and visualizing data to identify potential business opportunities or challenges.",
+        "By the end of this lesson, you will understand how to conduct exploratory business analytics, summarize data effectively, and identify key patterns and insights. These skills will enable you to interpret data confidently and prepare it for further analysis.",
+        "In this lesson, you will focus on confirmatory business analytics, which involves testing hypotheses and validating insights derived from data. This step emphasizes statistical rigor to confirm patterns and relationships, ensuring data-driven decisions are reliable and accurate.",
+        "By the end of this lesson, you will be proficient in confirmatory business analytics, capable of validating hypotheses, and ensuring the reliability of data insights. These skills will strengthen your ability to make informed and confident business decisions.",
+        "In this lesson, you will focus on effectively reporting the results of business analytics. Clear communication of findings is crucial to ensuring that insights are understood and actionable for stakeholders. You will learn techniques for crafting impactful reports and visualizations that highlight key outcomes.",
+        "By the end of this lesson, you will be adept at reporting business analytics results, creating clear and engaging visualizations, and tailoring insights to your audience. These skills will enable you to effectively communicate findings and drive informed decision-making in business settings.",
+        "In this lesson, you will explore functional analytics, focusing on analyzing specific business functions such as marketing, operations, and finance. By understanding functional analytics, you will gain insights into optimizing processes and improving decision-making within key organizational areas.",
+        "By the end of this lesson, you will understand how to apply analytics to specific business functions, use targeted analysis to solve functional challenges, and leverage insights to improve organizational performance. These skills will prepare you to drive data-driven success in specialized business areas.",
+        "In this lesson, you will delve into advanced analytics techniques, focusing on predictive and prescriptive analytics. These methods go beyond descriptive insights to forecast future trends and recommend optimal actions, enabling data-driven strategies for complex business problems.",
+        "By the end of this lesson, you will be proficient in advanced analytics, capable of applying predictive and prescriptive methods to solve complex business problems. These skills will empower you to make strategic, data-driven decisions that drive innovation and success.",
+        "Business Analytics and Decision Modeling equips students with the skills to analyze data, create predictive models, and make data-driven decisions, which are essential in today’s business landscape. Graduates gain expertise in advanced analytics techniques, data visualization, and decision-making frameworks, preparing them for roles such as business analyst, data scientist, or decision support specialist. The course also develops critical thinking and problem-solving skills, enabling students to address complex business challenges and contribute to strategic initiatives in industries ranging from finance and marketing to supply chain and operations management.",
+        "Business Analytics and Decision Modeling course, students might explore how a retail company uses predictive analytics to optimize its inventory management. By analyzing historical sales data, customer preferences, and seasonal trends, the company can forecast future demand for products and make data-driven decisions about restocking. Additionally, decision models like linear programming can help determine the most cost-effective allocation of resources, such as warehousing space and transportation. This practical application of business analytics allows the company to improve operational efficiency, reduce costs, and enhance customer satisfaction through better product availability.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Synthesize and interpret sufficiently large amount of data, both quantitative and categorical.",
+            "Identify and utilize the appropriate tools and methodology to evaluate and solve a business problem",
+            "Generate insights using appropriate tools and effectively communicate those insights"
+        ],
+        [
+            "Vernon J. Richardson & Marcia Watson. Introduction to Business Analytics,",
+            "McGrawHill, ISBN10: 1265454345 | ISBN13: 9781265454340, Assigned Readings (see readings list in Canvas)"
+        ],
+        [
+            "Microsoft Excel will be the software package used for this course. All students have free access to Microsoft Office 365 which includes Excel."
+        ],
+        [
+            "Business Analytics",
+            "Predictive Analytics",
+            "Autonomous Business Analytics"
+        ],
+        [
+            "Marketing",
+            "Accounting",
+            "Financial",
+            "Operations Analytics"
+        ],
+        [
+            "Measures and attempts to improve its marketing performance.",
+            "Is providing insights into customer preferences and trends."
+        ],
+        [
+            "Measure, record and communicate financial performance to decision makers, including shareholders, management, customers, suppliers and regulators.",
+            "Help measure accounting performance and address accounting questions in the audit, financial accounting, managerial accounting and tax areas"
+        ],
+        [
+            "Management of money by investing, borrowing, lending, budgeting, saving and forecasting financial capital (money).",
+            "Help a company measure and evaluate its financial performance, from predicting receivables collection from its customers to helping management evaluate future investments based on expected investment performance, such returns to investments in equipment or employee training or stocks and bonds."
+        ],
+        [
+            "Includes an evaluation of a company’s human resource (evaluation of employee efficiency and turnover), IT operations, and supply chain (e.g., sourcing, manufacturing, distribution and logistics).",
+            "Operations Analytics measure and improve the efficiency and effectiveness of the company’s operations, since operations is all actions needed to run the company and generate income.",
+            "Getting the “Right Product in the Right Place at the Right Time” requires extensive data analysis to ensure product fulfilment."
+        ],
+        [
+            "Classification",
+            "Regression",
+            "Time Series Analysis"
+        ],
+        [
+            "Cognitive analytics",
+            "Mimics human capabilities, such as judgment and reasoning, creating insights from structured and unstructured data",
+            "Advanced technologies that continuously learn and rapidly modify themselves to optimize performance as new data and outcomes are created."
+        ],
+        [
+            "A collective term for computer systems that can sense their environment, think, learn, and take action in response to what they’re sensing and their objectives",
+            "AI systems accomplish tasks in a way that appears smart or “intelligent” to us as they appear to mimic human decision processes"
+        ],
+        [
+            "Used to implement AI"
+        ],
+        [
+            "Uses statistical techniques that allow the computer to “learn” from data without being explicitly programmed.\n\n\nautomates analytical model building by learning from large data sets, identifying patterns in the data, and then independently making decisions\nmay use data mining to analyze large datasets to identify patterns, anomalies, and relationships",
+            "automates analytical model building by learning from large data sets, identifying patterns in the data, and then independently making decisions",
+            "may use data mining to analyze large datasets to identify patterns, anomalies, and relationships"
+        ],
+        [
+            "automates analytical model building by learning from large data sets, identifying patterns in the data, and then independently making decisions",
+            "may use data mining to analyze large datasets to identify patterns, anomalies, and relationships"
+        ],
+        [
+            "Used to implement human-level, general AI",
+            "One way to implement ML",
+            "Based on human brain neurons",
+            "Millions of interconnected processing nodes",
+            "Organized into layers"
+        ],
+        [
+            "ANNs with more than three neural network layers",
+            "Trained to recognize, classify, and describe unstructured data such as text, images, and voice\n\n\nFor example, by providing multiple photos that are labeled by name and/or category (baby, teenager, adult), deep learning may learn to identify a person (or a category of people) based on pictures by understanding the patterns in the data. The more training examples provided, the better the accuracy of the prediction.",
+            "For example, by providing multiple photos that are labeled by name and/or category (baby, teenager, adult), deep learning may learn to identify a person (or a category of people) based on pictures by understanding the patterns in the data. The more training examples provided, the better the accuracy of the prediction."
+        ],
+        [
+            "For example, by providing multiple photos that are labeled by name and/or category (baby, teenager, adult), deep learning may learn to identify a person (or a category of people) based on pictures by understanding the patterns in the data. The more training examples provided, the better the accuracy of the prediction."
+        ],
+        [
+            "Synthesize and interpret sufficiently large amount of data, both quantitative and categorical.",
+            "Identify and utilize the appropriate tools and methodology to evaluate and solve a business problem",
+            "Generate insights using appropriate tools and effectively communicate those insights"
+        ],
+        [
+            "L1",
+            "L2",
+            "L3",
+            "L4",
+            "L5",
+            "L6",
+            "L7"
+        ],
+        [
+            "Understanding the SOAR Model: Learn the components of the SOAR model and their role in business analytics.",
+            "The Role of Business Analytics: Discover how analytics drives decision-making and creates value for organizations.",
+            "Data as a Foundation: Understand the importance of data collection, quality, and preparation in analytics.",
+            "Applications of Analytics: Explore real-world examples where the SOAR model has been applied to solve business problems."
+        ],
+        [
+            "Assignment: Complete the Week 1 Lab activity to apply SOAR concepts to a business scenario ."
+        ],
+        [
+            "Hypothesis Testing: Evaluate claims and assumptions in business data using statistical tests.",
+            "ANOVA: Compare means across multiple groups to uncover significant differences.",
+            "Regression Analysis: Model relationships between variables and make predictions to inform decisions."
+        ],
+        [
+            "Analytics Project: Start “Stage 1” of the Insurance Class Project using the provided datasets and guidelines.",
+            "Hands-On Lab: Apply concepts in the Week 2 Lab to reinforce your understanding through practice."
+        ],
+        [
+            "Data Exploration: Learn techniques to clean, summarize, and organize datasets for analysis.",
+            "Visualization: Discover how to create compelling visual representations of data for better insights.",
+            "Identifying Insights: Use exploratory methods to uncover trends, outliers, and relationships in data."
+        ],
+        [
+            "Individual Assignment: Complete “Assignment 1” by providing four examples of the use/misuse of statistics in business.",
+            "Week 3 Lab: Practice hands-on exploratory analytics in the lab activity."
+        ],
+        [
+            "Hypothesis Testing: Learn how to design and execute tests to confirm or reject assumptions.",
+            "Model Validation: Understand the importance of validating analytical models to ensure their accuracy.",
+            "Data-Driven Insights: Apply confirmatory techniques to derive actionable and reliable business conclusions."
+        ],
+        [
+            "Analytics Project: Progress to “Stage 2” of the Analytics Project, applying confirmatory methods.",
+            "Week 4 Lab: Practice confirmatory analytics techniques in the lab activity to reinforce your understanding."
+        ],
+        [
+            "Effective Communication: Learn how to present analytical findings in a concise and meaningful way.",
+            "Visual Storytelling: Use data visualizations to enhance understanding and engagement.",
+            "Tailoring Reports: Understand how to adapt reporting styles to meet the needs of different audiences."
+        ],
+        [
+            "Individual Assignment: Complete “Assignment 2” by providing examples of business analytics that you find fascinating .",
+            "Week 5 Lab: Practice creating reports and visualizations in the lab activity."
+        ],
+        [
+            "Understanding Functional Areas: Learn how analytics applies to specific business functions like marketing, sales, and finance.",
+            "Targeted Analysis: Develop skills to address unique challenges and opportunities within individual functions.",
+            "Improving Performance: Use data-driven insights to enhance efficiency and effectiveness across functional areas."
+        ],
+        [
+            "Individual Assignment: Complete “Assignment 3” by sharing your experience with Generative AI.",
+            "Week 6 Lab: Practice analyzing functional data and deriving actionable insights in the lab activity."
+        ],
+        [
+            "Predictive Analytics: Learn to forecast outcomes using techniques such as machine learning and statistical models.",
+            "Prescriptive Analytics: Explore methods for recommending actions that maximize business objectives.",
+            "Advanced Tools and Techniques: Understand cutting-edge tools and their applications in solving intricate business challenges."
+        ],
+        [
+            "Analytics Project: Complete the Analytics Project to apply advanced analytics techniques.",
+            "Final Quiz: Demonstrate your understanding of course content in the final quiz ."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Microsoft Office 365",
+            "url": "https://office365.psu.edu/"
+        },
+        {
+            "text": "https://adobe.psu.edu/",
+            "url": " https://adobe.psu.edu/"
+        },
+        {
+            "text": "https://connecttotech.psu.edu/",
+            "url": "https://connecttotech.psu.edu/"
+        },
+        {
+            "text": "https://greatvalley.psu.edu/great-valley-it-helpdesk-contact-us",
+            "url": "https://greatvalley.psu.edu/great-valley-it-helpdesk-contact-us"
+        },
+        {
+            "text": "Penn State University Library.",
+            "url": "https://libraries.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "http://www.apastyle.org/index.html"
+        },
+        {
+            "text": "",
+            "url": "mailto:GVWritingCenter@psu.edu"
+        },
+        {
+            "text": "Marketing",
+            "url": "#tab-strongmarketingstrong"
+        },
+        {
+            "text": "Accounting",
+            "url": "#tab-strongaccountingstrong"
+        },
+        {
+            "text": "Financial",
+            "url": "#tab-strongfinancialstrong"
+        },
+        {
+            "text": "Operations Analytics",
+            "url": "#tab-strongoperationsanalyticsstrong"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2025/01/Picture1-3.jpg"
+        },
+        {
+            "alt": "",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2025/01/image-29-1024x656.png"
+        }
+    ],
+    "tables": [],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"6628\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

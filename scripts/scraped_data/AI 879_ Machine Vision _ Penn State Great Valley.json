@@ -1,0 +1,580 @@
+{
+    "metadata": {
+        "title": "AI 879: Machine Vision – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=3716"
+    },
+    "headings": {
+        "h2": "Lesson 14: Future Trends in Machine Vision",
+        "h4": "Unlocking Your Potential",
+        "h3": "Required Software"
+    },
+    "paragraphs": [
+        "AI 879: Machine Vision is a three-credit fourteen-week course. Machine Vision is a groundbreaking subfield of Artificial Intelligence that empowers machines to interpret and understand digital images with precision and insight. The potential of this technology is transformative, driving innovation across industries such as manufacturing, transportation, healthcare, security, robotics, and agriculture. As machine learning continues to evolve, the opportunities in machine vision are virtually limitless.",
+        "In this course, you’ll delve into the fascinating world of machine vision, exploring essential concepts and techniques that form the backbone of this field. Learn best practices for selecting algorithms, representing and structuring images effectively, extracting and segmenting features, and filtering and analyzing critical information from images. Through hands-on learning and practical applications, you will develop the skills needed to design and implement cutting-edge machine vision solutions.",
+        "This course will also examine real-world applications, including automatic inspection, process control, target acquisition, and navigation for vehicles and robots. Beyond technical expertise, you’ll cultivate the critical thinking skills necessary to solve complex problems, preparing you to confidently tackle real-world challenges and take your machine vision expertise to the next level.",
+        "We’re here to support you throughout this learning journey, ensuring you gain the tools, confidence, and knowledge to succeed in this exciting and rapidly advancing field. Whether you’re looking to push the boundaries of innovation or make an immediate impact in your career, AI 879: Machine Vision is your gateway to mastering the future of computer-based image analysis and recognition.",
+        "This course will explore concepts in computer-based image recognition and analysis systems for such applications as automatic inspection, process control, target acquisition and vehicle and robot navigation.",
+        "After successfully completing this course, you will be able to demonstrate:",
+        "The textbook for this course is available online at no cost to Penn State students:",
+        "Students will be required to use Matlab for some of the exercises in this course. The MATLAB student license is available for free through Software@Penn State.  Alternatively, students may access MATLAB through Penn State Webapps.  If you need any assistance, please contact Information Technology Support for assistance.",
+        "Grades will be based on the following scale:",
+        "A = 94 – 100, A- = 90 – 93, B+ = 87 – 89, B = 84 – 86, B- = 80 – 83, C+ = 77 – 79, C = 70 – 76, D = 60 – 69, and F = 60 and below.",
+        "There will be 14 weekly assignments to provide you with an opportunity to practice the concepts taught and to assess your comprehension of the material and your ability to apply the concepts learned.  The assignments may be in the form of discussion forums, written analysis, or generation of models or coding.",
+        "There will be one midterm and one final exam during the course, both of which will be proctored (see Honorlock Information module for details). The exams will be closed-book, but students will be permitted to view the Canvas course material.",
+        "*NOTE: Exams in this class are summative, not formative. They are designed for the purpose of assessment as well as benchmarking students’ performance in the course and are not intended for student learning. Answer keys to individual questions, therefore, will not be provided. However, a narrative of ways to improve will be provided upon request from the student.",
+        "*subject to change",
+        "Computer vision can be defined as a scientific field that extracts information out of digital images. The type of information gained from an image can vary from identification, space measurements for navigation, or augmented reality applications. Computer vision is building algorithms that can understand the content of images and use it for other applications. We will see examples later in this lesson when we look at the different  domains where computer vision is applied.",
+        "Computer vision is closely related to a number of different fields, yet there are clear distinctions between them. The figure below shows how computer vision is related to image processing and to computer graphics.",
+        "Figure 1.3. Computer vision and its relationship to other fields.",
+        "Pixel based approximation: The most simplistic method determining the new pixel value is to assign it the value of the pixel that the point falls within. No other pixels are considered. In Matlab this is best represented by the “nearest” method.",
+        "The figure below shows the result of scaling the “Migrant Mother” image after scaling it to 10%, 5% and 2%. For the purpose of this example, the images were re-scaled at the same height so we can evaluate the error introduced by the scaling operation.  As the original image contains 7,020,288 pixels, that number is reduced to 70,596, 17702, and 2881 respectively.",
+        "Figure 5.1. Migrant mother image with rescaling",
+        "MATLAB supports functions that enable you to use the Hough transform to detect lines in an image.  View the example provided below using the image:",
+        "This course will provide you with a thorough introduction to:",
+        "During this course you will expand your knowledge of the lesson topics each week.",
+        "This lesson introduces you to the exciting field of computer vision, focusing on how technology can decode the complexity of images and transform data into meaningful insights.",
+        "By the end of this lesson, you’ll have a foundational understanding of computer vision, its methods, and its practical significance, preparing you to delve deeper into the field.",
+        "This lesson introduces you to MATLAB, a powerful programming language widely used for mathematical computing and image processing. You’ll learn its interface and fundamental features through hands-on examples.",
+        "By the end of this lesson, you’ll have a strong foundation in MATLAB programming, preparing you to tackle more advanced concepts and applications in computer vision.",
+        "This lesson introduces fundamental statistical concepts that address the challenges of interpreting two-dimensional images of a three-dimensional world. You’ll discover how probability helps manage uncertainty in image analysis.",
+        "By the end of this lesson, you’ll have the statistical tools necessary to manage uncertainty and analyze complex image data, preparing you for advanced computer vision challenges.",
+        "This lesson explores how machine learning methods are applied to interpret image data by focusing on patterns and relationships rather than the physical properties of image creation, such as light or perspective.",
+        "By the end of this lesson, you will have the skills to differentiate between key models, interpret their applications, and effectively analyze visual data using machine learning methods.",
+        "This lesson introduces you to foundational image preprocessing algorithms, enabling you to prepare images for analysis and enhance the performance of computer vision applications.",
+        "By the end of this lesson, you’ll have the tools to preprocess images effectively, ensuring they are optimized for analysis in computer vision applications.",
+        "This lesson delves into image pyramids and their applications, enabling you to process images at different resolutions and refine pattern detection. You’ll also explore transformations like wavelet and parametric methods for blending and interpolation.",
+        "By the end of this lesson, you’ll be able to manipulate images across multiple resolutions and apply advanced transformation techniques, equipping you for complex computer vision tasks.",
+        "This lesson focuses on feature detection and matching techniques, critical for aligning images and defining correspondences in computer vision tasks. You’ll learn to extract and analyze keypoint features to solve complex image-matching challenges.",
+        "By the end of this lesson, you’ll have the skills to extract and match keypoint features across images, enabling you to tackle advanced computer vision applications with confidence.",
+        "This lesson introduces you to object detection, focusing on identifying objects within images and defining their locations using bounding boxes. You’ll also learn about semantic segmentation, which provides pixel-level delineation of objects and materials.",
+        "By the end of this lesson, you’ll have the knowledge and skills to identify and delineate objects in images, preparing you to tackle more advanced computer vision tasks.",
+        "This lesson focuses on image classification, a key task in computer vision that involves categorizing images into predefined classes based on visual content. You’ll explore methods like feature-based classification, bag of words, and Naive Bayes classifiers to develop a strong foundation in image categorization.",
+        "By the end of this lesson, you’ll have the skills to design, implement, and evaluate image classification systems, equipping you to tackle advanced computer vision challenges.",
+        "This lesson explores the critical features of edges and contours in images, highlighting their role in defining object boundaries and detecting occlusions. You’ll learn advanced algorithms to detect, analyze, and connect edges into meaningful contours.",
+        "By the end of this lesson, you’ll have the skills to detect edges and contours in images effectively, enabling you to analyze object boundaries and shapes in advanced computer vision applications.",
+        "This lesson focuses on the classical Hough transform technique, a robust method for detecting objects with specific shapes. You’ll learn how this approach overcomes challenges like gaps in boundary features and image noise to accurately detect lines, circles, and other forms.",
+        "These activities and key points will help you master the Hough transform, a foundational tool for detecting shapes in computer vision.",
+        "This lesson focuses on geometric image registration, the process of aligning and matching features across images captured from different viewpoints. You’ll learn key techniques like image stitching and robust fitting algorithms for practical applications such as creating panoramas.",
+        "By the end of this lesson, you’ll have the skills to match and align features across images effectively, enabling you to tackle advanced applications like panorama generation and image registration.",
+        "This lesson delves into the essential tasks of depth and pose estimation, focusing on extracting spatial information from images. You’ll learn to compute distances using stereo vision and apply triangulation and stereo rectification to achieve precise 3D mappings.",
+        "By the end of this lesson, you’ll have the skills to extract depth information from images and align views for 3D scene understanding, preparing you for advanced applications in robotics, AR/VR, and more.",
+        "This lesson provides a comprehensive overview of the vast field of computer vision, revisiting key topics covered throughout the course and introducing emerging areas and future directions. Gain insights into the broader applications and trends shaping the field.",
+        "By the end of this lesson, you’ll have a holistic understanding of computer vision, its foundational principles, and emerging areas, equipping you to explore advanced opportunities in this dynamic field.",
+        "Completing AI 879: Machine Vision equips you with a comprehensive skill set to pursue careers in the rapidly growing field of computer vision and related domains. Machine vision technology is at the heart of advancements in automation, artificial intelligence, robotics, and augmented reality, making it a cornerstone for industries such as manufacturing, healthcare, automotive, and entertainment. With expertise in feature detection, object recognition, image classification, and 3D mapping, you’ll be well-prepared to solve real-world problems and contribute to cutting-edge innovations.",
+        "Graduates with machine vision skills are highly sought after for roles such as computer vision engineer, machine learning specialist, robotics developer, and AI researcher. These positions often involve developing algorithms for autonomous systems, enhancing human-computer interaction, and improving visual data interpretation. By leveraging the foundational and advanced techniques learned in this course, you’ll be able to take advantage of the growing demand for professionals who can integrate machine vision into transformative technologies.",
+        "One real-world example of a computer vision problem can be seen in the retail industry. A major retail chain wanted to implement a machine vision system to automate inventory management and enhance the customer shopping experience. The goal was to use cameras and AI to track product availability on shelves, identify misplaced items, and analyze customer movement patterns to optimize store layout. However, the initial implementation faced challenges due to inconsistent lighting conditions, crowded store environments, and the wide variety of product packaging. The system struggled to accurately identify items, leading to incorrect inventory counts and frustrated customers.",
+        "To address this, the company brought in a computer vision engineer to refine the system. The engineer implemented advanced techniques such as deep learning-based object detection and segmentation to handle diverse product appearances and environmental factors. Stereo vision and triangulation were employed to estimate product positions and depths accurately. Additionally, the engineer trained the model on an extensive dataset representative of real-world scenarios, improving its ability to recognize products even in challenging conditions.",
+        "With these improvements, the machine vision system became significantly more accurate, ensuring real-time inventory updates and reducing instances of misplaced items. Customers experienced better service as products were restocked promptly, and the company used insights from customer movement patterns to optimize store layouts, boosting sales. This highlights how effective computer vision solutions can transform operations and improve customer satisfaction in",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "understanding of various models for representing and structuring images and for extracting important information",
+            "knowledge of relevant machine vision paradigms and image processing algorithms for static and real-time images.",
+            "ability to design machine vision systems using appropriate algorithmic processing blocks."
+        ],
+        [
+            "Computer Vision: Models, Learning, and Inference (2012)  ISBN: 978-1107011793, E-ISBN: 978-1139516709"
+        ],
+        [
+            "Intro to Computer Vision",
+            "Exploring MATLAB",
+            "Probability Concepts",
+            "Learning and Inference",
+            "Image Processing",
+            "Image Pyramids, Wavelets, and Transforms",
+            "Feature Detection",
+            "Object Detection and Segmentation",
+            "Image Classification",
+            "Hough Transforms",
+            "Image Alignment and Stitching",
+            "Depth and Pose Estimation"
+        ],
+        [
+            "Computer Vision",
+            "Image Processing",
+            "Hough Transformers"
+        ],
+        [
+            "Understand machine vision domains and their applications across industries.",
+            "Apply learning and inference techniques to solve regression and classification problems in vision.",
+            "Perform feature extraction and preprocessing of images using filtering, compression, and other techniques.",
+            "Utilize models for chains, trees, grids, shapes, styles, colors, identity, and visual words to structure and analyze images.",
+            "Design and implement machine vision systems for applications such as automatic inspection, process control, target acquisition, and navigation."
+        ],
+        [
+            "L1-L2",
+            "L3-L4",
+            "L5-L6",
+            "L7-L8",
+            "L9-L10",
+            "L11-L12",
+            "L13-L14"
+        ],
+        [
+            "Learn to define and differentiate computer vision, image processing, and image graphics, and understand their roles in analyzing visual content.",
+            "Explore real-world use cases: like facial recognition, process automation, and navigation, showcasing the practical impact of the field."
+        ],
+        [
+            "Interactive Forum: Share your introduction and connect with peers in the Welcome discussion.",
+            "Interactive Forum: Share your introduction and connect with peers in the Welcome discussion."
+        ],
+        [
+            "MATLAB Basics: Understand the primary windows in MATLAB, including the command window, workspace, current directory, and editor.",
+            "Working with Data Structures: Gain hands-on experience with variables, arrays, and matrices, fundamental elements of MATLAB programming."
+        ],
+        [
+            "Interface Exploration: Identify key elements of the MATLAB environment and their purposes.",
+            "Hands-On Coding: Practice creating and editing scripts and applying loops to solve image-processing challenges."
+        ],
+        [
+            "Learn to define key terms: such as probability, statistical population, variables, and samples. These foundational ideas are critical for tackling computer vision problems effectively.",
+            "Master the use of statistical measures: like mean, variance, and standard deviation. Understand how these metrics summarize data and reveal patterns in image analysis."
+        ],
+        [
+            "Core Readings: Explore the basics of probability in Chapter 2 of Computer Vision: Models, Learning, and Inference by Simon Prince.",
+            "Homework Assignment: Apply your understanding of probability through exercises designed to reinforce key concepts."
+        ],
+        [
+            "Compare and contrast regression and classification methods used in computer vision. Explore examples that demonstrate the practical applications of these methods in interpreting image data.",
+            "Discriminative Models: Parameterize scene content using data to build a probability model of the scene."
+        ],
+        [
+            "Hands-On Practice: Experiment with examples provided in the lesson content to deepen your understanding of learning and inference.",
+            "Homework Assignment: Apply your knowledge of machine learning techniques in a structured exercise to reinforce the lesson’s key concepts."
+        ],
+        [
+            "Point Operators: Learn to apply scaling, additive and multiplicative gains, linear combinations of images, and histogram equalization for adjusting image exposure and contrast.",
+            "Linear Filtering Techniques: Explore convolution, correlation, and kernel-based operations, including Sobel filters for edge detection and image enhancement."
+        ],
+        [
+            "Hands-On Practice: Implement preprocessing techniques in MATLAB to apply what you’ve learned.",
+            "Homework Exercise: Test your skills with targeted problems designed to reinforce key concepts."
+        ],
+        [
+            "Image Pyramids: Learn to construct Gaussian and Laplacian pyramids to represent images at multiple resolutions, aiding in hierarchical pattern detection and blending.",
+            "Wavelet Transforms: Understand wavelet transforms for decomposing images into frequency components, providing tools for analysis, compression, and feature extraction."
+        ],
+        [
+            "Core Readings: Study Sections 3.5.3–3.6.1 in Chapter 3 of Computer Vision: Algorithms and Applications to deepen your understanding of image pyramids, blending, and transformations.",
+            "Hands-On MATLAB Practice: Implement Gaussian and Laplacian pyramids, wavelet transforms, and parametric transformations using MATLAB."
+        ],
+        [
+            "Core Concepts: Understand key terms such as feature detection, feature matching, feature descriptors, and invariance (scale, rotation, and affine).",
+            "Feature Detection Algorithms: Explore algorithms like the Harris corner detector, Adaptive Non-Maximal Suppression (ANMS), and Histogram of Oriented Gradients (HOG) for identifying key points in images."
+        ],
+        [
+            "Algorithm Exploration: Compare and contrast various feature detection algorithms such as Harris, SURF, ORB, and HOG to understand their strengths and limitations in different scenarios.",
+            "Feature Visualization: Visualize detected features and key points on sample images using MATLAB to better understand how algorithms identify and highlight features."
+        ],
+        [
+            "Object Detection Fundamentals: Learn how to categorize objects within images and locate them using bounding boxes for tasks such as face and pedestrian detection.",
+            "Semantic Segmentation: Understand pixel-accurate delineation techniques to identify and separate objects and materials within digital images."
+        ],
+        [
+            "Algorithm Design: Implement segmentation algorithms to extract meaningful regions and compare their performance across different scenarios.",
+            "Interactive Practice: Experiment with bounding box creation and pixel-level segmentation using sample datasets to reinforce your learning."
+        ],
+        [
+            "Classification Workflow: Understand the process of image classification, from feature extraction to testing classifiers.",
+            "Evaluation Metrics: Learn to compute and interpret metrics like accuracy and confusion matrices to evaluate classifier performance."
+        ],
+        [
+            "Feature Comparison: Analyze the role of visual features in distinguishing classes and experiment with different feature extraction techniques.",
+            "Model Tuning: Adjust parameters in classification algorithms to optimize performance and observe the impact on accuracy."
+        ],
+        [
+            "Edge Characteristics: Understand the types and properties of edges in images, including their role in defining boundaries.",
+            "Algorithm Comparisons: Evaluate the strengths and limitations of different edge detection and contour algorithms."
+        ],
+        [
+            "Algorithm Visualization: Use MATLAB to visualize edge and contour detection results, comparing outputs from different algorithms.",
+            "Real-World Applications: Analyze images from real-world datasets to practice detecting edges and contours in diverse scenarios."
+        ],
+        [
+            "Robustness of the Hough Transform: Learn how this technique tolerates gaps in feature boundaries and resists the effects of image noise.",
+            "Shape Representations: Compare and contrast polar and linear representations of lines in the context of object detection."
+        ],
+        [
+            "Parameter Tuning: Experiment with Hough transform parameters (e.g., threshold values) to optimize shape detection results.",
+            "Advanced Visualizations: Create detailed visualizations of the Hough accumulation matrix to explore how different shapes are represented in parameter space."
+        ],
+        [
+            "Geometric Transformations: Understand how 2D and 3D geometric transformations are used for image alignment and stitching.",
+            "Practical Applications: Discover how image registration techniques are used in fields such as medical imaging, remote sensing, and computer graphics."
+        ],
+        [
+            "Visualization of Matches: Use MATLAB to visualize matched features across images before and after alignment.",
+            "Parameter Tuning: Experiment with RANSAC parameters to optimize robustness and accuracy in image registration."
+        ],
+        [
+            "Stereo Rectification: Learn the steps involved in aligning epipolar lines through 2D projective transformations to prepare image pairs for depth estimation.",
+            "Triangulation: Study the process of determining 3D point locations by triangulating corresponding points across image pairs."
+        ],
+        [
+            "Depth Map Creation: Generate depth maps from stereo image pairs, applying triangulation techniques for accurate 3D representation.",
+            "Real-World Data Analysis: Work with real-world stereo datasets to apply the concepts learned and gain practical experience."
+        ],
+        [
+            "Comprehensive Review: Reflect on the foundational topics covered, from image processing to advanced techniques like depth estimation and alignment.",
+            "Comprehensive Review: Reflect on the foundational topics covered, from image processing to advanced techniques like depth estimation and alignment."
+        ],
+        [
+            "Trend Analysis: Analyze case studies or examples that illustrate current trends and future directions in computer vision.",
+            "Innovation Discussion: Engage in a class discussion to brainstorm potential applications for emerging computer vision technologies."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Computer Vision: Models, Learning, and Inference",
+            "url": "https://catalog.libraries.psu.edu/catalog/8513086"
+        },
+        {
+            "text": "Information Technology Support",
+            "url": "https://it.psu.edu/get-support"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "The image is the cover of the book titled \"Computer Vision: Models, Learning, and Inference\" by Simon J. D. Prince. The cover features a patterned design of animals such as elephants and birds in shades of beige and blue. The title and author's name are prominently displayed on the lower half of the cover against a dark blue background.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/ai879-textbook.jpg"
+        },
+        {
+            "alt": "A diagram illustrating the relationship between computer vision, computer graphics, and image processing. The flow begins with \"Image Processing\" feeding into \"Two-dimensional images,\" represented in a rectangular box. An arrow labeled \"Computer Vision\" connects \"Two-dimensional images\" to \"Three-dimensional Real World,\" which is in another rectangular box. Another arrow labeled \"Computer Graphics\" flows back from \"Three-dimensional Real World\" to \"Two-dimensional images,\" completing the loop. The diagram highlights the interplay between these fields in handling 2D images and their transformation into or from 3D real-world representations.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/computer_vision-1024x497.jpg"
+        },
+        {
+            "alt": "A grayscale image showing a woman with a contemplative and distressed expression, seated with her hand resting on her chin. Two children lean into her shoulders, their faces turned away from the camera. The scene conveys a sense of hardship and vulnerability.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/migrant_mother-3.png"
+        },
+        {
+            "alt": "A Hough Transform plot displaying the intensity map of accumulator space with prominent peaks highlighted by green squares. The x-axis represents the angle θ in degrees, ranging from -80 to 80, and the y-axis represents the distance ρ. Bright yellow and red regions indicate areas of high intensity, corresponding to detected lines in the transformed space.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/hough_transform.png"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Assignment",
+                "Points Each",
+                "Quantity",
+                "Percentage of Final Grade"
+            ],
+            [
+                "Homework Assignments",
+                "100",
+                "14",
+                "28%"
+            ],
+            [
+                "SEEQ Survey (Formerly SRTEs)",
+                "100",
+                "1",
+                "2%"
+            ],
+            [
+                "Midterm Exam",
+                "50",
+                "1",
+                "35%"
+            ],
+            [
+                "Final Exam",
+                "50",
+                "1",
+                "35%"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"3716\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

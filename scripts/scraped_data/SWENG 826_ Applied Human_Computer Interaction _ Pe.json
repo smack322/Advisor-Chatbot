@@ -1,0 +1,538 @@
+{
+    "metadata": {
+        "title": "SWENG 826: Applied Human-Computer Interaction – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2327"
+    },
+    "headings": {
+        "h2": "Master Task Analysis to Enhance User Experience",
+        "h4": "Unlocking Your Potential",
+        "h3": "Showcase Your Prototype with Confidence",
+        "h5": "Part 1 – Brief reflection"
+    },
+    "paragraphs": [
+        "SWENG 826: This 3-credit course offers an in-depth introduction to the dynamic field of Human-Computer Interaction (HCI), focusing on the design and evaluation of software products that are both effective and intuitive for users. Students will explore foundational theories and cutting-edge techniques essential to creating interfaces that not only meet user needs but also enhance their experiences. Through a mix of analysis and hands-on practice, students will evaluate existing software interfaces and develop prototypes, building skills that are highly sought after in tech-driven industries.",
+        "A key component of this course is understanding and applying usability testing. Students will delve into real-world usability challenges by reviewing published case studies and designing their own usability study. By the end of the course, students will be equipped to design and critique interactive products that meaningfully impact how people work, communicate, and play in today’s digital world.",
+        "Students will learn how to identify and design software-driven, interactive products that support how people work, communicate, and play from both a theoretical and practical perspective.",
+        "By the end of the course, students will be able to:",
+        "All required reading is available online either via libraries.psu.edu or on the Web. The required reading from the following textbooks has been posted as pdf files in the Resources module.",
+        "There are no Exams (or Proctored Exams) for this course.",
+        "Performance will be evaluated through projects where students will apply what they have learned to design and evaluation problems. Some assignments will be completed individually and others in teams. It is anticipated that this course will be offered once every year.",
+        "Grades will be based on the following scale:",
+        "A = 95 – 100, A- = 90 – 94, B+ = 87 – 89, B = 84 – 86, B- = 80 – 83, C+ = 77 – 79, C = 70 – 76, D = 60 – 69, and F = Below 60.",
+        "Your grade will be based on the assignments as noted above. Please be aware that the Assignments build upon each other and each one will take considerable time and effort to complete.",
+        "None, however, almost half of your final grade is based on group assignment so it’s in your best interest to collaborate actively with your teammates and contribute equitably on all team assignments. Note too that a portion of your individual grade is based on peer evaluation that you complete at the end of the semester.",
+        "Students will be evaluated on different projects throughout the course, some individually and some with group work.",
+        "*subject to change",
+        "User roles are also not user groups. There are fulltime students, part-time students who workpart-time, part-time students who work fulltime, students who are parents, students who areveterans, etc. However, the set of goals they may want to do is the same, so it’s one user role,student. Unless there is at least one goal that only one group needs to do (and the other groupswould never need to do it), then it’s a single user role. The following illustration may help you:",
+        "In this assignment, you’ll dive into hands-on design by creating a basic wireframe for a prototype using Balsamiq Wireframes for Google Drive. Working individually, you’ll explore Balsamiq’s tools and features to capture your initial design ideas for a main page and key user goals, developing valuable wireframing skills. This independent exercise encourages each student to bring a unique perspective to the project, and next week, you’ll have the opportunity to share and compare your design with your teammates, fostering a richer collaborative process.",
+        "This assignment has two parts.",
+        "Go to the W3C Web Accessibility Initiative web page, Diversity of Web Users – How Peoplewith Disabilities Use the Web, at https://www.w3.org/WAI/intro/people-use-web/diversity.Each student must read the Diversity of abilities section (press the plus key [+] to expand it.)Then each student must select one of the disability categories from those listed (Auditory,Cognitive and neurological, Physical, Speech, or Visual.) The category you select must bedifferent than the ones your teammates select (so while you must do your own work, you must coordinate category selection with them). Read the More about…, Examples of…, andExamples of barriers… sections.",
+        "Answer the following:",
+        "By the end of the course, students will be able to:",
+        "During this course you will expand your knowledge of the lesson topics each week.",
+        "This lesson introduces you to the core principles of usability, user experience, and user-centered design, laying a foundation for creating human-focused products. You’ll learn how understanding user needs and behaviors is essential for impactful design.",
+        "Discover the importance of contextual inquiry and how observing real-life scenarios helps shape effective designs. Through focused readings, you’ll delve into the process of modeling reality with personas and scenarios, enabling you to create user-centered products.",
+        "By understanding user characteristics and scenarios, you’ll gain insight into the varying needs and goals of different users. Learn practical methods for crafting well-defined personas and scenarios to support informed design decisions.",
+        "By the end of this lesson, you’ll be equipped with the tools to analyze user needs deeply, setting the stage for creating designs that resonate with real people.",
+        "This lesson focuses on understanding user perception and how it influences interface design, equipping you with foundational knowledge to create intuitive and visually structured products.",
+        "Dive into the psychology of design with readings on how users interpret what they see, and how structured visual elements improve usability. You’ll explore how the human mind processes information, guiding your approach to intuitive interface design.",
+        "Gain hands-on experience with wireframing and prototyping, essential skills for visualizing and refining user interfaces. This week’s resources introduce you to various UI tools, helping you translate ideas into functional layouts.",
+        "By completing this lesson, you’ll understand the basics of user perception and be ready to apply UI design tools effectively to meet diverse user needs.",
+        "This lesson introduces you to task analysis, a vital technique for understanding user actions and optimizing interface design to align with real-world tasks and limitations.",
+        "Explore the cognitive challenges users face, from limited attention to imperfect memory. Through targeted readings, you’ll learn why reading isn’t intuitive, how attention constraints shape user interactions, and the impact these factors have on task performance.",
+        "Develop skills in task analysis, allowing you to break down complex actions into simpler, manageable steps. This process will help you design interfaces that facilitate user tasks and reduce cognitive load.",
+        "By the end of this lesson, you’ll have a thorough understanding of task analysis and be ready to apply this knowledge to design interfaces that support and simplify user interactions.",
+        "This lesson focuses on translating user insights into an initial design, emphasizing the importance of recognition, user learning, and intuitive organization for effective interfaces.",
+        "Discover why recognition is easier than recall, and how simplifying interactions can enhance usability. Learn about the challenges users face with problem-solving and time constraints and review foundational interface design rules to guide your decisions.",
+        "Explore information architecture basics and content organization schemes, ensuring that your design layout is logical and accessible. You’ll gain valuable insights on structuring content to match user expectations and needs, creating a smoother navigation experience.",
+        "By completing this lesson, you’ll gain confidence in designing intuitive interfaces and will be well-prepared to create layouts that align with user needs and cognitive patterns.",
+        "This lesson is dedicated to the art of constructive feedback, both in receiving and providing it, to refine and enhance user-centered designs effectively.",
+        "Through an annotated bibliography, you’ll compile key resources that support your design approach, giving you a deeper understanding of research-backed best practices and emerging trends.",
+        "Learn the value of diverse perspectives by reviewing another team’s work, offering feedback that is insightful, respectful, and aimed at enhancing their design. This exercise will help you hone a critical eye and build collaborative feedback skills essential for any design process.",
+        "By the end of this lesson, you’ll have improved your ability to assess designs critically and incorporate feedback, making you more adept at iterative design refinement.",
+        "This lesson focuses on the critical process of refining your prototype through expert evaluation, enhancing both the functionality and usability of your design.",
+        "Engage in an expert review of a user interface to identify strengths and areas for enhancement. This activity will teach you how to analyze a design from a usability standpoint, using best practices to make informed suggestions.",
+        "Apply insights gained from your expert review to make targeted adjustments to your prototype. This iterative process ensures that your design not only meets user needs but also aligns with industry standards for usability.",
+        "By completing this lesson, you’ll gain hands-on experience in usability evaluation, empowering you to create a final prototype that is both effective and user-friendly.",
+        "This lesson focuses on presenting your final prototype and refining your communication skills to highlight your design’s strengths and usability features.",
+        "Learn techniques for presenting a clear, engaging demonstration of your user interface prototype, showcasing its functionality and user-centered design elements. This experience will help you communicate your design decisions effectively and persuasively.",
+        "Offer suggestions for future improvements and engage in a peer evaluation to reflect on both your contributions and your teammates’. This activity reinforces the importance of continuous improvement and collaborative growth in design projects.",
+        "By completing this lesson, you’ll be prepared to showcase your design skills professionally and apply constructive feedback to drive future success in UI/UX design projects.",
+        "Mastering applied Human-Computer Interaction (HCI) and software engineering can significantly boost your career by providing you with the skills to design intuitive, user-centered digital products. You’ll be equipped to bridge the gap between users’ needs and technical requirements, an invaluable skill in creating software that is both functional and enjoyable to use. This expertise enhances your ability to drive collaborative projects where user experience is a priority, making you a vital asset in roles like UX Designer, Product Manager, or Usability Engineer. Additionally, with growing demand for professionals who can align technology with human-centered design, you’ll find greater opportunities for career advancement and competitive compensation.",
+        "Healthcare App Development: Designing an application for remote patient monitoring, allowing patients to track their health metrics (e.g., heart rate, blood pressure) and share them with healthcare providers. The student would use HCI principles to ensure the interface is intuitive for users of all ages and technical skill levels, while leveraging software engineering skills to create a secure, reliable backend for managing sensitive health data.",
+        "Smart Home Device Interfaces: Developing user interfaces for smart home systems, such as a centralized app that allows users to control lighting, security, and HVAC systems. The project would involve creating seamless interactions and user flows to make the app intuitive, even for first-time users, along with engineering responsive and secure system integrations across various smart devices.",
+        "eLearning Platforms: Building an accessible eLearning platform that supports interactive course content, multimedia, and real-time feedback for students and educators. With HCI, the student would ensure that the platform is engaging and user-friendly, taking into account diverse accessibility needs. From a software engineering perspective, the student would focus on scalability and performance to support a large number of simultaneous users.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Understand how our capabilities and limitations as humans affect usability",
+            "Become familiar with well-known user interface design rules",
+            "Understand how to design for usability",
+            "Know how to evaluate for usability"
+        ],
+        [
+            "Johnson, J. (2010). Designing with the Mind in Mind: Creating Products for Humans. Springer.",
+            "Richter, M., & Fluckiger, M. (2014). User-Centered Engineering: Creating Products for Humans. Springer."
+        ],
+        [
+            "Usability, User Experience (UX), User-Centered Design (UCD), and Contextual Analysis",
+            "The User, and User Interface Design Tools",
+            "Evaluation and Design of Interactive Products",
+            "Theoretical and Practical Communications Re: Interactive Products"
+        ],
+        [
+            "User Roles",
+            "UI Wireframes",
+            "Accessibility Awareness"
+        ],
+        [
+            "List one example of each type of disability – Auditory, Cognitive and neurological, Physical, Speech, or Visual (just list them, no need to define them)",
+            "Consider what you learned from both the general discussion on disabilities and the one your selected, and write a brief reflection to answer the following questions:\n\n\nWhat did you learn?\nWhat surprised you?\nHow will you apply what you learned to applications you specify, design, and/or develop in the future?",
+            "What did you learn?",
+            "What surprised you?",
+            "How will you apply what you learned to applications you specify, design, and/or develop in the future?"
+        ],
+        [
+            "What did you learn?",
+            "What surprised you?",
+            "How will you apply what you learned to applications you specify, design, and/or develop in the future?"
+        ],
+        [
+            "Understand how our capabilities and limitations as humans affect usability",
+            "Become familiar with well-known user interface design rules",
+            "Understand how to design for usability",
+            "Know how to evaluate for usability"
+        ],
+        [
+            "L1",
+            "L2",
+            "L3",
+            "L4",
+            "L5",
+            "L6",
+            "L7"
+        ],
+        [
+            "Prototype Background Preparation: Begin by building a strong foundation for your project prototype with background research and preparation.",
+            "Personas and Scenarios: Develop realistic personas and scenarios that reflect diverse user needs, setting the stage for empathetic design.",
+            "Collaboration Agreement Forum: Collaborate with your team to establish a framework for effective communication and project coordination."
+        ],
+        [
+            "Learning about Accessibility: Delve into the principles of accessible design to ensure inclusivity in your user interfaces.",
+            "Practice UI Wireframe: Develop your skills by creating a wireframe, allowing you to bring theoretical concepts into a practical design."
+        ],
+        [
+            "Contextual Analysis and Initial Wireframes for Team Prototype: Collaborate with your team to apply contextual insights and develop initial wireframes, setting the foundation for an effective, user-centered prototype",
+            "Task Analysis: Conduct a task analysis to understand and document user actions and requirements, honing your ability to design with empathy and precision."
+        ],
+        [
+            "Feedback from Potential Users: Gather feedback on your design ideas from real users, helping you refine your approach based on genuine insights and preferences.",
+            "Draft UI Design: Collaborate with your team to develop a draft user interface, integrating best practices to create a cohesive, user-friendly experience."
+        ],
+        [
+            "Annotated Bibliography: Develop an annotated bibliography to organize and reflect on essential resources that influence your design thinking and process.",
+            "Feedback to Another Team: Review and provide constructive feedback on another team’s prototype, gaining insights that may also inspire improvements to your own design."
+        ],
+        [
+            "Expert Review of a UI: Conduct an expert review on an interface to practice evaluating usability, applying this knowledge to refine your own prototype.",
+            "Continued Prototype Refinement: This phase allows you to fine-tune every detail, ensuring your design is polished, intuitive, and ready to meet real-world user needs."
+        ],
+        [
+            "Ideas for Future Prototypes: Identify ways to improve the current design, building your skills for making ongoing updates in future projects.",
+            "Team and Self Evaluation: Share constructive feedback with team members and reflect on your own work, gaining insights into teamwork and personal growth.",
+            "UI Prototype Demo Recording: Work with your team to record a demo of your prototype, focusing on delivering a clear and engaging presentation."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "https://www.w3.org/WAI/intro/people-use-web/diversity",
+            "url": "https://www.w3.org/WAI/intro/people-use-web/diversity"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "A table with three rows and four columns displaying Venn diagrams and descriptions for different user roles based on shared or unique goals. Circles represent user roles, where blue is for user role A's goals and yellow is for user role B's goals.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/10/user-roels.png"
+        },
+        {
+            "alt": "Screenshot of a wireframing tool interface with a blank workspace and a toolbar containing various UI elements, such as buttons, text blocks, and icons. The left panel lists \"New Wireframe 1\" as the current wireframe, with options for notes and alternate versions on the right.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/10/wireframe-1024x471.png"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Assignment",
+                "Quantity",
+                "Percentage of Final Grade"
+            ],
+            [
+                "Personas and scenarios for assigned application (individual)",
+                "15",
+                "5.0%"
+            ],
+            [
+                "Prototype background research (individual)",
+                "15",
+                "5.0%"
+            ],
+            [
+                "Group agreement discussion forum (team)",
+                "10",
+                "2.5%"
+            ],
+            [
+                "Simple UI wireframe using myBalsamiq (individual)",
+                "20",
+                "6.0%"
+            ],
+            [
+                "Learning about Accessibility assignment (individual)",
+                "15",
+                "6.0%"
+            ],
+            [
+                "Task Analysis for assigned application (individual)",
+                "20",
+                "6.0%"
+            ],
+            [
+                "Contextual Analysis & Initial wireframes for assigned application (team)",
+                "20",
+                "6.0%"
+            ],
+            [
+                "Solicit and summarize feedback from potential users (individual)",
+                "20",
+                "6.0%"
+            ],
+            [
+                "Draft UI Prototype design (team)",
+                "30",
+                "9.0%"
+            ],
+            [
+                "Annotated bibliography of selected articles on UI design (individual)",
+                "10",
+                "2.5%"
+            ],
+            [
+                "Feedback to another group’s draft design and prototype (individual)",
+                "30",
+                "9.0%"
+            ],
+            [
+                "Expert Review of a UI (individual)",
+                "20",
+                "6.0%"
+            ],
+            [
+                "Suggestions for future prototypes (individual)",
+                "20",
+                "6.0%"
+            ],
+            [
+                "Group effectiveness and member contribution assessment (individual)",
+                "35",
+                "10.0%"
+            ],
+            [
+                "UI prototype demonstration (team)",
+                "50",
+                "15.0%"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"2327\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

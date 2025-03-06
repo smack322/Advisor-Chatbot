@@ -1,0 +1,603 @@
+{
+    "metadata": {
+        "title": "BUSAD 523: Prices and Markets – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=6172"
+    },
+    "headings": {
+        "h2": "Overview",
+        "h4": "Unlocking Your Potential",
+        "h3": "Lesson 7: Advanced Topics in Business Strategy"
+    },
+    "paragraphs": [
+        "BUSAD 523 : Prices and Markets focuses on the application of economic principles to key managerial decisions, helping students understand the economic factors that influence daily business operations. The course covers essential concepts such as marginal analysis, present value analysis, supply and demand, agency theory, and game theory. By using these frameworks, students will develop critical decision-making skills, enabling them to address real-world challenges like pricing strategies, employee management, and maximizing profitability. This course also provides foundational knowledge beneficial to other MBA courses, particularly in finance, marketing, and business strategy, ensuring students are equipped for effective management in various organizational contexts.",
+        "Managers make many economic decisions every day. How many employees should be hired, how they should be monitored, what price should be charged for the firm’s product to reach firm objectives, how to maximize profitability, and so on are some of the questions managers deal with every day.",
+        "Managerial Economics is concerned with the application of economic principles and methodologies to key management decisions within organizations. It provides principles to foster the goals of the organization, as well as a better understanding of the external business environment in which an organization operates. Managerial Economics is fundamentally a unique way of thinking about problems, issues and decisions that managers face at the functional as well as the strategic levels, and this course provides students with theoretical concepts and frameworks such as marginal analysis, present value analysis, supply and demand, agency theory, game theory, and so on and help them develop rational decision-making skills.",
+        "A primary purpose of the course is to develop tools useful in other MBA courses since economics is the foundation for much of what is taught in finance, marketing, business strategy and many other courses in the MBA program.",
+        "After the completion of this course, students should be able to understand:",
+        "Penn State’s LMS, Canvas, supports most recent versions of Microsoft Windows and Apple Mac operating systems. To determine if your operating system is supported, please review the Canvas Computer Specifications.",
+        "For a list of required computer hardware specifications and internet speed, please review the Canvas Computer Specifications.",
+        "Canvas supports the last two versions of every major browser release. We",
+        "highly recommend updating to the newest version of whatever browser you are using. To determine if your browser is supported, please review the list of Canvas Supported Browser",
+        "Note: Cookies must be enabled, and pop-up blockers should be configured to permit new windows from Penn State websites.",
+        "All Penn State students have free access to Microsoft Office 365 including Office applications such as Word, Excel, and PowerPoint",
+        "(http://softwarestore.psu.edu/news/microsoft-no-cost-software).",
+        "Students will need Adobe Acrobat, available through Adobe Creative Cloud",
+        "Free Adobe Software Suite License – https://adobe.psu.edu/",
+        "Required: Sound Card, Microphone, and Speakers",
+        "Webcam may be required.",
+        "Capable of at least 1024 x 768 resolution.",
+        "The Canvas mobile app is available for versions of iOS and Android.",
+        "To determine if your device is able to use the Canvas Mobile App, please review the Canvas Mobile App Requirements",
+        "(https://community.canvaslms.com/docs/DOC-1542).",
+        "Access to a reliable Internet connection is required for this course. If you experience problems with your Internet connection while working on this course, it is your responsibility to find an alternative Internet access point.",
+        "To find more information about technology at Penn State, please visit our Student Technology Guide (https://connecttotech.psu.edu/).",
+        "If you need technical assistance at any point during the course, please contact the Great Valley IT Helpdesk (https://greatvalley.psu.edu/great-valley-it-helpdesk-contact-us).",
+        "All course-related e-mails should go through Canvas’s course mail function (Canvas Inbox). Using Canvas to contact your instructor ensures that your message will be read, and your instructor will respond to you in a timely manner.",
+        "Many of the University Libraries’ resources can be utilized from a distance. Through the Library website, you can access magazines, journals, and articles; borrow materials and have them delivered to your doorstep; and get research help via email chat or phone from a librarian.",
+        "For more information, view the Penn State University Library.",
+        "The grade given to a student is based on the instructor’s judgment as to the student’s scholarly attainment. Class attendance is required and will affect the student’s class participation grade.",
+        "For an A: The student has demonstrated exceptional achievement including knowledge of organizational theories and concepts; good presentation, leadership, analytical, research, and writing skills; and active, and prepared participation in class.",
+        "For a B: The student has demonstrated substantial knowledge of organizational theories and concepts; good presentation, leadership, analytical, research, and writing skills; and prepared participation in class.",
+        "For a C: The student has demonstrated acceptable but substandard knowledge of organizational theories and concepts; moderate presentation, leadership, analytical, research, and writing skills; and prepared participation in class.",
+        "For a D: The student has demonstrated poor knowledge of organizational theories and concepts; presentation, leadership, analytical, research, and writing skills; and participation in class. D is a failing grade for graduate students.",
+        "For an F: The student has demonstrated work unworthy of any credit.",
+        "The grading point equivalents for +/- marks are A- (3.67), B+ (3.33), B- (2.67), and C+ (2.33).",
+        "(from Penn State Grad. Degree Programs Bulletin: http://www.psu.edu/bulletins/whitebook/$acadinfo.ht)",
+        "The course is taught 75% online using a variety of methods including: lecture, small and large group discussions, discussion boards, case studies, problem sets, practice problems, and actively preparing for class by reading assigned text chapters and watching lectures. Students are encouraged to respectfully challenge their own, each others, and the instructor’s views.  The classroom is a cooperative learning environment where students are encouraged to help each other learn the course materials.",
+        "The fact that classes are scheduled is evidence that the faculty believes class instruction is important. Therefore, class attendance is important for the benefit of students. Accordingly, it is the policy of the University that class attendance by students be encouraged and that all instructors organize and conduct their courses with this policy in mind. A student should attend every class for which the student is scheduled and should be held responsible for all work covered in the courses taken. In each case, the instructor should decide when the class absence constitutes a danger to the student’s scholastic attainment and should make this fact known to the student at once. A student whose irregularity in attendance causes the student, in the judgment of the instructor, to become deficient scholastically may run the risk of receiving a failing grade or receiving a lower grade than the student might have secured had the student been in regular attendance.",
+        "Writing Center:",
+        "The Writing Center offers free one-to-one writing consultations to all students currently enrolled in a graduate degree program. The Writing Center exists to help students develop their written communication skills and to support faculty in their efforts to improve student writing. To set up a consultation, contact Erica Vinskie at GVWritingCenter@psu.edu",
+        "*Subject to change",
+        "One role of a manager is to construct incentives to induce maximal effort from employees.",
+        "Goal: exceed customer desire to have pizza arrive hot and gooey, and not sticking to the top of the box. “Delivered in less than 30 minutes or it’s free” – dropped due to increased accidents including $79MM lawsuit by Jean Kinder  who was hit by delivery driver",
+        "Factors like technology, concentration and market conditions.",
+        "Individual firm behavior in the market. Behavior includes pricing decisions, advertising decisions and R&D decisions, among other factors.",
+        "Resulting profit and social welfare that arise in the market",
+        "Structure-conduct-performance paradigm",
+        "Model that views these three aspects of industry as being integrally related.",
+        "For limit pricing to effectively prevent entry by rational competitors, the preentry price must be linked to the postentry profits of potential entrants.",
+        "After the completion of this course, students should be able to understand:",
+        "In this lesson, you will explore the fundamental principles of Managerial Economics and how they apply to decision-making processes within organizations. This chapter lays the groundwork for understanding how economic concepts influence managerial strategies and organizational success.",
+        "By the end of this lesson, you will have a solid understanding of foundational economic principles and their relevance to managerial decision-making. You will be equipped with tools to analyze key business scenarios and develop effective strategies for organizational success.",
+        "IIn this lesson, you will explore Quantitative Demand Analysis, focusing on understanding how to measure and analyze demand for goods and services. You will learn to apply mathematical and statistical techniques to assess demand elasticity, forecast consumer behavior, and evaluate market trends, all of which are essential for effective managerial decision-making.",
+        "By the end of this lesson, you will have a strong understanding of the principles and techniques of quantitative demand analysis. You’ll gain practical skills for measuring and interpreting demand, equipping you to make data-driven decisions in real-world business contexts.",
+        "In this lesson, you will examine the theory of individual behavior and the production process, focusing on how individuals make decisions to maximize utility and how firms manage production and costs efficiently. These foundational concepts are critical for understanding consumer and producer behavior in economic systems.",
+        "By the end of this lesson, you will have a thorough understanding of how individual choices and production processes impact economic outcomes. You will develop the analytical skills needed to evaluate utility maximization, resource allocation, and cost management in real-world contexts.",
+        "In this lesson, you will explore the organization of the firm, focusing on how firms structure their operations and make decisions to maximize efficiency and profitability. By understanding the internal and external factors influencing firm organization, you’ll gain insights into the strategic and operational challenges businesses face.",
+        "By the end of this lesson, you will understand how firms are organized and make critical decisions to optimize performance. You’ll develop practical skills in analyzing organizational structures and trade-offs, preparing you for strategic decision-making in business environments.",
+        "In this lesson, you will examine how firms operate in different market structures, including competitive, monopolistic, and monopolistically competitive markets. You will also explore basic oligopoly models and game theory, gaining insights into strategic decision-making and competitive dynamics in various market conditions.",
+        "By the end of this lesson, you will understand the dynamics of competitive, monopolistic, and monopolistically competitive markets, as well as oligopoly models and game theory applications. You’ll enhance your strategic thinking and problem-solving skills, preparing you for complex decision-making in diverse market environments.",
+        "In this lesson, you will learn about the pricing strategies firms with market power employ to maximize profits and analyze the role of information in shaping market outcomes. By examining these concepts, you will develop a deeper understanding of how businesses navigate complex pricing dynamics and leverage information to gain competitive advantages.",
+        "By the end of this lesson, you will be able to analyze and implement pricing strategies for firms with market power and understand the critical role of information in economic decision-making. These skills will enhance your ability to make informed strategic choices in competitive business environments.",
+        "In this lesson, you will explore advanced topics in business strategy, focusing on strategic decision-making in dynamic and competitive environments. You will analyze frameworks and tools to address complex business challenges and gain a deeper understanding of how firms align resources and objectives to achieve long-term success.",
+        "By the end of this lesson, you will have enhanced your ability to develop and implement advanced business strategies in dynamic and competitive environments. You’ll gain practical skills to analyze complex situations and make strategic decisions that drive business success.",
+        "Prices and Markets equips students with essential economic principles and analytical tools that have a direct impact on various career paths in business, management, and consulting. Understanding pricing strategies, market behavior, and economic decision-making will enable you to make informed, data-driven decisions in roles such as marketing analyst, financial consultant, operations manager, and business strategist. The skills developed in this course, including market analysis, demand forecasting, and strategic pricing, are crucial for navigating complex market environments and optimizing business performance, positioning you for success in competitive industries.",
+        "Prices and Markets, students will explore real-world scenarios such as how companies like Apple and Amazon set their product prices based on market conditions, consumer demand, and competitor actions. For instance, Apple’s strategy of premium pricing for its iPhones involves analyzing customer willingness to pay and the impact of supply and demand on product availability. Similarly, Amazon uses dynamic pricing algorithms to adjust prices in real-time based on competitor prices, inventory levels, and consumer purchasing behavior. These real-world examples demonstrate how the pricing concepts taught in the course are applied by companies to optimize profits and maintain a competitive edge in rapidly changing markets.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "How consumers allocate income and determine the portion of income devoted to consumption;",
+            "How firms make input, output, and pricing decisions in both the short and long run;",
+            "Behavior of the four types of markets;",
+            "How government regulations affect market allocation and social welfare;",
+            "How to build economic models and test these models to determine their validity;",
+            "The process of rational decision making and appreciate different stakeholder views"
+        ],
+        [
+            "Baye, M.R. and Prince, J.T.  (2017). Managerial Economics and Business Strategy (9th          Edition). New York, NY: McGraw-Hill/Irwin.Additional articles assigned by instructor"
+        ],
+        [
+            "Understand Incentives",
+            "Structure-Conduct-Performance",
+            "Limit Pricing"
+        ],
+        [
+            "Changes in profits provide an incentive to how resource holders use their resources.",
+            "Within a firm, incentives impact how resources are used and how hard workers work."
+        ],
+        [
+            "CEOs – salary + bonus",
+            "Careful – Domino’s pizza & Wells Fargo"
+        ],
+        [
+            "2016 Epi Pen – increased to $600/pkg\n\nMylan Heather Bresch CEO",
+            "Mylan Heather Bresch CEO",
+            "2015 Daraprim increased 5000%! $750/pill\n\nTurig Pharmaceuticals, CEO Martin Shkreli",
+            "Turig Pharmaceuticals, CEO Martin Shkreli"
+        ],
+        [
+            "Mylan Heather Bresch CEO"
+        ],
+        [
+            "Turig Pharmaceuticals, CEO Martin Shkreli"
+        ],
+        [
+            "Fined $185MM for opening 1, 534,280 customer accounts without their permission and 565,443 credit card accounts by transferring funds, “Pinning” 0000 and entering in fake data including email addresses such as 124@wellsfargo.com incurring fees. Wells Fargo earned $1/14 per fake account in fees"
+        ],
+        [
+            "Use of intimidation tactics",
+            "5300 employees fired for “engaging in improper sales tactics”",
+            "LA city attorney made $50 MM",
+            "Comptroller got $35MM",
+            "John Stumpf CEO retires"
+        ],
+        [
+            "Structure",
+            "Conduct",
+            "Performance",
+            "paradigm"
+        ],
+        [
+            "Successful businesses often spawn entry of new competitors into the market, and adversely affect the profits of existing firms.",
+            "Faced with that threat, a manager may consider limit pricing, which is a strategy where an incumbent maintains a price below the monopoly level in order to prevent entry."
+        ],
+        [
+            "Under limit pricing, the entrant was assumed to have complete information about the incumbent’s demand and costs.\n\nThe strategy did not “hide” information about the profitability of the incumbent’s business.\nThe low price charged by the incumbent did not prevent entry; the entrant stayed out because it believed the incumbent would produce at least Q_L, if it entered.",
+            "The strategy did not “hide” information about the profitability of the incumbent’s business.",
+            "The low price charged by the incumbent did not prevent entry; the entrant stayed out because it believed the incumbent would produce at least Q_L, if it entered.",
+            "A revised strategy is to set the monopoly price, P^M, and produce the monopoly output, Q^M, and threaten to expand output to Q^L, if entry occurs.\n\nThis, however, is not a credible threat; so, a rational entrant would find it profitable to enter if the incumbent sets price, P^L.",
+            "This, however, is not a credible threat; so, a rational entrant would find it profitable to enter if the incumbent sets price, P^L."
+        ],
+        [
+            "The strategy did not “hide” information about the profitability of the incumbent’s business.",
+            "The low price charged by the incumbent did not prevent entry; the entrant stayed out because it believed the incumbent would produce at least Q_L, if it entered."
+        ],
+        [
+            "This, however, is not a credible threat; so, a rational entrant would find it profitable to enter if the incumbent sets price, P^L."
+        ],
+        [
+            "How consumers allocate income and determine the portion of income devoted to consumption;",
+            "How firms make input, output, and pricing decisions in both the short and long run;",
+            "Behavior of the four types of markets;",
+            "How government regulations affect market allocation and social welfare;",
+            "How to build economic models and test these models to determine their validity;",
+            "The process of rational decision making and appreciate different stakeholder views"
+        ],
+        [
+            "L1",
+            "L2",
+            "L3",
+            "L4",
+            "L5",
+            "L6",
+            "L7"
+        ],
+        [
+            "Economic Decision-Making: Learn how managers address questions like pricing, employee allocation, and profitability goals.",
+            "Marginal Analysis: Understand the importance of evaluating additional costs and benefits in decision-making.",
+            "Supply and Demand: Explore the role of market dynamics in shaping managerial strategies.",
+            "Agency Theory: Discover the relationship between principals and agents in organizational structures.",
+            "Game Theory: Gain insights into competitive strategies and strategic interactions among players."
+        ],
+        [
+            "Chapter 1 Lecture: Review the detailed explanations of key concepts.",
+            "Chapter 1 PowerPoint Slides: Access visual aids summarizing the lecture content.",
+            "Assigned Problems: Solve real-world examples to apply theoretical knowledge.",
+            "Solutions Guide: Check your understanding and refine problem-solving skills."
+        ],
+        [
+            "Demand Elasticity: Learn how price, income, and cross-price elasticity influence consumer demand.",
+            "Quantitative Techniques: Apply mathematical methods to analyze and predict demand patterns.",
+            "Market Trends: Evaluate how external factors impact demand and consumer behavior.",
+            "Problem-Solving Practice: Work through exercises on key concepts from Chapter 3 to strengthen your understanding."
+        ],
+        [
+            "Read & Watch Lectures : Review the materials to gain theoretical and practical insights into demand analysis.",
+            "Assigned Problems : Practice solving quantitative problems to apply concepts learned in the lectures.",
+            "Discussion Board Posts: Submit one original post analyzing a quantitative demand analysis topic and one thoughtful response to a classmate to encourage collaborative learning."
+        ],
+        [
+            "Theory of Individual Behavior: Explore how individuals make choices within constraints to maximize satisfaction.",
+            "Production Process: Learn how firms combine resources to produce goods and services effectively.",
+            "Cost Analysis: Understand fixed, variable, and marginal costs and their role in production decisions.",
+            "Problem-Solving Practice: Apply concepts to exercises  for hands-on learning.",
+            "Discussion Board Engagement: Contribute to class discussions to share insights and learn collaboratively."
+        ],
+        [
+            "Read & Watch Lectures: Review these materials for in-depth explanations of the concepts.",
+            "Assigned Problems : Solve targeted exercises to solidify understanding.",
+            "Discussion Board Posts: Submit one original post and one response to a classmate to engage with peers.",
+            "Problem Set : Submit  to demonstrate your ability to apply the material to practical scenarios."
+        ],
+        [
+            "Firm Structure: Learn about the different ways firms organize to achieve their objectives.",
+            "Decision-Making Processes: Examine how firms make key operational and strategic decisions.",
+            "Economic Trade-offs: Explore the balance between costs, resources, and outcomes in firm organization.",
+            "Problem-Solving Practice: Work through exercises to deepen understanding.",
+            "Discussion Board Engagement: Share and discuss perspectives with classmates to enhance learning."
+        ],
+        [
+            "Read & Watch Lectures : Study these materials to gain a comprehensive understanding of firm organization.",
+            "Assigned Problems : Practice applying theoretical concepts to real-world scenarios.",
+            "Discussion Board Posts: Submit one original post and one response to a classmate to foster collaborative learning.",
+            "Problem Set : Submit  to demonstrate your grasp of the material through applied exercises."
+        ],
+        [
+            "Market Structures: Learn the key characteristics of competitive, monopolistic, and monopolistically competitive markets.",
+            "Basic Oligopoly Models: Understand how firms behave in markets with few competitors and interdependent decision-making.",
+            "Game Theory: Analyze strategic interactions between firms to predict outcomes in oligopolistic markets.",
+            "Case Study Practice: Apply theoretical knowledge to a real-world case for hands-on learning.",
+            "Problem-Solving Practice: Solve exercises to reinforce understanding."
+        ],
+        [
+            "Read & Watch Lectures : Explore in-depth content on market structures, oligopoly models, and game theory.",
+            "Assigned Problems : Complete exercises to apply concepts to practical scenarios.",
+            "Discussion Board Posts: Submit one original post and one response to a classmate to engage in collaborative analysis.",
+            "Case Study:demonstrating your ability to analyze and strategize within various market contexts."
+        ],
+        [
+            "Pricing with Market Power: Explore how firms determine optimal pricing strategies based on market conditions and demand.",
+            "Role of Market Power: Understand how market dominance influences pricing flexibility and profitability.",
+            "Economics of Information: Examine the impact of information asymmetry and strategic use of information in markets.",
+            "Problem-Solving Practice: Apply concepts to exercises  for practical understanding."
+        ],
+        [
+            "Read & Watch Lectures : Deepen your knowledge of pricing strategies and the economics of information.",
+            "Assigned Problems : Solve these problems to reinforce the concepts discussed in the lectures.",
+            "Discussion Board Posts: Participate by submitting one original post and responding to a classmate’s post to engage in collaborative learning.",
+            "Problem Set :  showcase your application of these advanced concepts."
+        ],
+        [
+            "Strategic Decision-Making: Learn advanced methods for making informed and impactful strategic choices.",
+            "Resource Allocation: Understand how to optimize the use of resources to gain competitive advantages.",
+            "Dynamic Environments: Examine strategies for navigating change and uncertainty in business contexts.",
+            "Problem-Solving Practice: Apply theoretical knowledge to exercises for hands-on learning.",
+            "Case Analysis: Use case studies to evaluate and formulate business strategies in real-world scenarios."
+        ],
+        [
+            "Read & Watch Lectures : Study materials to gain insights into advanced strategic concepts.",
+            "Assigned Problems : Solve exercises to apply strategic frameworks to practical situations.",
+            "Discussion Board Posts: Submit one original post and one response to a classmate to share and refine ideas collaboratively.",
+            "Case Study :  demonstrate your ability to analyze and develop strategic solutions."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Canvas Computer Specifications",
+            "url": "https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-are-the-browser-and-computer-requirements-for-Instructure/ta-p/66"
+        },
+        {
+            "text": "Canvas Computer Specifications",
+            "url": "https://community.canvaslms.com/t5/Canvas-Basics-Guide/What-are-the-browser-and-computer-requirements-for-Instructure/ta-p/66"
+        },
+        {
+            "text": "Penn State University Library.",
+            "url": "https://libraries.psu.edu/"
+        },
+        {
+            "text": "http://www.psu.edu/bulletins/whitebook/$acadinfo.ht",
+            "url": "http://www.psu.edu/bulletins/whitebook/%24acadinfo.htm"
+        },
+        {
+            "text": "124@wellsfargo.com",
+            "url": "mailto:124@wellsfargo.com"
+        },
+        {
+            "text": "Structure",
+            "url": "#tab-strongstructurestrong"
+        },
+        {
+            "text": "Conduct",
+            "url": "#tab-strongconductstrong"
+        },
+        {
+            "text": "Performance",
+            "url": "#tab-strongperformancestrong"
+        },
+        {
+            "text": "paradigm",
+            "url": "#tab-strongparadigmstrong"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2025/01/Picture1-2.jpg"
+        },
+        {
+            "alt": "",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2025/01/Picture2.jpg"
+        },
+        {
+            "alt": "A diagram illustrating Porter’s Five Forces Framework, showing the competitive forces shaping industry strategy",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2025/01/image-21-1024x612.png"
+        },
+        {
+            "alt": "A graph showing intersecting supply and demand curves with labeled points indicating equilibrium and price changes.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2025/01/image-22-1024x578.png"
+        }
+    ],
+    "tables": [],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"6172\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

@@ -1,0 +1,633 @@
+{
+    "metadata": {
+        "title": "DAAN 822: Data Collection and Cleaning – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2663"
+    },
+    "headings": {
+        "h2": "Objectives",
+        "h4": "Unlocking Your Potential",
+        "h5": "References and additional reading materials will be provided in each lesson.",
+        "h3": "Lesson 14: Final Week (Final Exam)"
+    },
+    "paragraphs": [
+        "DAAN 822: This course is valued at 3 credits, and students will learn key tools and techniques for collecting, preparing, and cleaning data for analysis. Inaccurate or inconsistent data can skew results, so the course focuses on methods for identifying and correcting errors in large datasets. Topics include automated data collection, retrieving data from existing databases, and applying error detection and cleansing techniques to ensure data quality and reliability.",
+        "Over the next weeks in the Data Collection and Cleaning course, we will explore the tools and techniques required for data collection and computational procedures to automatically or semi-automatically identify and eliminate errors in large datasets. The presence of incorrect and inconsistent data can significantly distort the results of the data analysis often negating the potential benefits of information-driven approaches. As a result, a variety of research over the last decades has focused on data cleansing: computational procedures to automatically or semi-automatically identify – and, when possible, correct – errors in large data sets. The goal of this course is to explore and discuss different data collection tools and techniques in addition to learning skills for retrieving data from existing databases. To further enforce data quality and reliability this course will introduce techniques for error detection and data cleaning on large databases. Please take a moment to review the course syllabus by clicking on the Syllabus tab in the left-hand menu. Here you will find out about the topics we will be covering, the assignments and grading scheme, and the University’s policy on academic integrity and how it impacts this course.",
+        "Before we move on to the details, however, I would like you to familiarize yourselves with Canvas and the structure I will be using throughout this course. Under Modules, you will find a page that links you to the beginning of each weekly lesson. Within each set of weekly lessons, pages will be the links to the course’s discussion forums, assignments, readings, etc. Over the coming weeks, each week’s learning materials will appear in step with our progress though the materials. You can expect to see new modules and their assignments appearing each Monday, but you should be checking in every day so you can track and contribute to the discussion forums that are ongoing.",
+        "For some topics we will have a discussion forum that will serve as our medium to interact collectively. I will pose questions to feed the discussion, but you should all feel free to pose additional questions related to that board’s topic. I plan to be online at least once every day including weekends to respond to questions and any other issues that may arise. Of course, you can still email me personally on any issue or topic and I will usually respond within 24 hours. On this note, please ensure that you email me from within Canvas so that all course communications are kept secure.",
+        "If you are taking an online course for the first time, please be aware that learning online will be somewhat different from learning in the traditional classroom. On one hand, online classes give you a bit more flexibility by not requiring you to be in class at a specified time or being asked an impromptu question by the professor. On the other hand, you cannot raise your hand to ask a clarification question, nor can you stop by the professor’s office for help with a difficult assignment. Under Modules, click the Course Introduction Forum and take a moment to tell the class something about yourself and your background.",
+        "Separating signal from noise presents many computational and inferential challenges, which can be approached from a perspective at the interface of computer science, IT and statistics.",
+        "Through this course students will use various tools and techniques for collecting data and understand the difficulties and pitfalls of each technique. As the collected data is just the input raw material for research and decision-making, one has to invest time and effort in preparing the data and cleaning it to make any predictions or inferences. For data preparation and cleaning students will learn different statistical techniques and will be able to appreciate the power of these techniques in preparing the collected data to reveal the hidden truth. In addition, students will also have an opportunity to explore different types of databases containing captured data from different domains including biological data, social networking data and data from different financial institutions. Finally, through this course students will have an opportunity to develop custom scripts using scripting language such as Perl and python for retrieving data from the internet and from existing databases.",
+        "There is currently no required software for this course.",
+        "Please remember that ALL questions about grades, course lesson content, and assignments should be directed to your course instructor. If you have any technical difficulties using the tools within this course, please contact the Penn State Helpdesk.",
+        "All course-related e-mails should go through Canvas’s course mail function (Canvas Inbox). Using Canvas to contact your instructor ensures that your message will be read, and your instructor will respond to you in a timely manner.",
+        "Many of the University Libraries’ resources can be utilized from a distance. Through the Library website, you can access magazines, journals, and articles; borrow materials and have them delivered to your doorstep; and get research help via email chat or phone from a librarian.",
+        "For more information, view the Penn State University LibraryLinks to an external site.",
+        "The following grading system applies to graduate students:",
+        "Grades will be based on the following scale: A = 93-100, A- = 90-92, B+ = 87-89, B = 84-86, B- = 80-83, C+ = 77-79, C = 70-76, D = 60-69, and F = Below 60.",
+        "There will be five discussions over the term of this class. Each one of you is expected to participate in the discussion forum. Your answers to weekly questions should be submitted by Saturday at 5:00 PM EST. You are expected to provide at least one answer for each discussion question. Further discussions on the question and feedback to other members’ postings will be accepted till Monday at 5:00 PM Eastern Time. Every student is expected to provide at least two feedback postings.",
+        "There will be seven team homework assignments over the term of this class-leading to the term project. Details are found on the ‘Term Project’ page under Student Resources in the course’s Canvas Modules. The homework will be posted in Canvas and must be turned in electronically on the specified due date. No late submission for homework. Students are strongly advised that any act of cheating will result in an automatic F grade. You are encouraged to discuss problems and ideas with your classmates, but the final solutions/codes must be your or your team’s work. Good luck and have a nice ride!",
+        "There will be two exams. You are free to use any material to solve the problems with adequate references. For these exams, you are responsible for all the material covered in class as well as in the assigned readings. Examinations are to be taken without collaboration with other students or individuals. You will have at least a week to complete the exams, and each exam is due at 5:00 PM Eastern Time on the date specified. Your examination responses must be submitted in the specified file format, either PDF, DOC or DOCX format, and must be placed in the appropriate assignment in Canvas. No make-up exams will be given, except in cases of emergencies or with prior approval.",
+        "Again, students are free to write their responses by hand and then scan them into a PDF file. Late exams will not be accepted unless there are mitigating circumstances, and I have given permission prior to the due date of the exam. When the exam is first made accessible, it may include questions or problems based on material that has not yet been covered. This is done so that students can get a head start on the exam. All material on the exam will be covered in time for the students to complete the exam on time. The last exam will be due on the last official scheduled day of class at 5:00 PM Eastern Time.",
+        "Additional information about the exams and the topics covered for each will be posted on the Web site later in the quarter. Please check the syllabus for the dates of the exams.",
+        "After you have submitted an assignment, you will typically be able to review your grade and any comments made by your instructor within 7 days after the due date. This process is used for all homework assignments, exams, or other graded submissions. Some instructors may also send you a message informing you that the assignment has been graded. Some instructors may choose to release all the grades to all students at once; other instructors may release grades per student one at a time.",
+        "All course material is available in Canvas. I will be posting information to the course bulletin board to remind you of what is available and what you should be working on. Material is provided on a lesson-by-lesson basis and is presented to you as Web pages, Microsoft Word documents (.doc), or in Portable Document Format (PDF). Material that you submit for the course should be uploaded to designated discussion forums and assignments in Canvas and should be submitted as either PDF, text, or Microsoft Word files. Work may be handwritten as long as it is legible, and subsequently scanned to a PDF file. I will not have the ability to read any other file formats.",
+        "There will be discussion boards for students to discuss among themselves different aspects of the course, and I will participate in the discussions when it is appropriate. Use the discussion board to post your questions and to read the responses from your classmates. Exams are on an individual basis. Any questions on exams should be directed to me.",
+        "Separating signal from noise presents many computational and inferential challenges, which can be approached from a perspective at the interface of computer science, IT and statistics.",
+        "Through this course students will use various tools and techniques for collecting data and understand the difficulties and pitfalls of each technique. As the collected data is just the input raw material for research and decision-making, one has to invest time and effort in preparing the data and cleaning it to make any predictions or inferences. For data preparation and cleaning students will learn different statistical techniques and will be able to appreciate the power of these techniques in preparing the collected data to reveal the hidden truth. In addition, students will also have an opportunity to explore different types of databases containing captured data from different domains including biological data, social networking data and data from different financial institutions. Finally, through this course students will have an opportunity to develop custom scripts using scripting language such as Perl and python for retrieving data from the internet and from existing databases.",
+        "*Subject to change",
+        "In all qualitative enquiries observation is a fundamental and highly important method. The process of observation entitles to the systematic noting and recording of events, behaviors, and artifacts in the social setting chosen for study. The recordings of events are often referred to as field notes. A qualitative researcher when performing an observation records frequently a detailed, nonjudgmental and concrete description of what was observed. The collection of data through observation can range from a highly structured, detailed notation of behavior structured by checklists to a more holistic description of the events and behavior. Generally a researcher enters the setting with broad areas of interest but without a predetermined categories or strict observational checklists. This way the researcher is able to make a note of all the recurring patterns of behavior and relationships. A complete analysis of the field notes is performed in order to identify and describe the patterns thus making the checklists more appropriate and context-sensitive. Performing classroom studies is a good example of observation in an educational setting. The figure 2.1 below shows a sample edited and cleaned-up field notes for a study of the Kindergarten teachers. The researcher has formatted the field note with descriptive notes in the column on the left while reserving the right side column for comments. Note that in the top the researcher has recorded the date and time of the observed event. In addition to that at times the researcher records the location of the observation. In this field note the researcher has recorded his observation about the room which is in the basement of the school. Pay a close attention to the details recorded in the field notes especially the number of people in the room, the age of the bricks that are part of the building, the dimension of the room, the location of the objects (furniture, racks books, toys etc.) in the room, pictures in the wall, the lighting conditions in the room etc. On the right hand side you can see the comments made by the researcher [1].",
+        "As indicated before, observation is a core part of the qualitative research studies. In every other qualitative study techniques observations play an important role. For example in in-depth interviews observations play a key role. When performing an in-depth interview the researcher makes a record of the participant’s behavior, body language and other associated information in his field notes. In short, observation is an integral part of qualitative research study [1].",
+        "A type of observation developed primarily from cultural anthropology and qualitative sociology perspective is the method often referred to as participant observation. As the name suggest it requires the researcher to be an active participant and demands for the involvement of the researcher in the social setting. The immersion of researchers in the settings permits them to see, hear, and begin to experience reality as the participants do. This immersion offers the researcher the opportunity to learn directly from their own experience. Street ethnography is an example of participant observation where the researcher is immersed in a research setting that is usually associated with a dangerous environment. For example the researcher is working with the police, drug users, cults, and situations in which political or social tensions may erupt into violence [1].",
+        "Qualitative in-depth interviews (interviews) are typically conversations than formal events with predetermined response categories. It is often defined as a conversation with a purpose. Before researchers (interviewer) interviews the participants they explores few general topics to help uncover the participant’s views but otherwise they respect participants frame and structure of responses. The objective of the researcher is to understand the participant’s perspective on the phenomenon of interest which should unfold as the participant views it and not as the researcher views it. For a successful interview to be conducted, researcher should have some degree of systematization and structured questioning.  Secondly, the researcher’s attitude should be conveying the attitude that the participant’s views are valuable and useful. Similar to observations even in interviews the researchers maintains a field note. The figure 2.2 below provides an elaborated sample field notes from an interview conducted for a study of students of color in a community college. The researcher objective was to understand how students identified and defined effective teachers. The field note records details about when and what time the interview was conducted and who was the participant, what role the participant plays (advisor with an academic department), interview location (setting), description of the participant and a detailed record of the conversation transcripts. The conversation transcripts, settings and description about the participants are recorded on the left hand column and the interviewer’s notes are recorded in the right hand column. The researcher also makes sure that ethical issues have been taken in to consideration while questioning the participant. The strength of conducting interviews is that it can yield data in quantity quickly. However, it has several limitations. For a successful interview cooperation of the participant is essential. At times the participant will be unwilling, uncomfortable or may be unaware of the recurring patterns in their lives [1].",
+        "There are several more specialized forms of interviewing including ethnographic interviewing, phenomenological interviewing, elite interviewing, focus-group interviewing and interviewing children. The ethnographic questions are used by the researcher to gather cultural data of the participant. The value of the ethnographic interview lies in its focus on culture through the perspective of the participants. Using this approach a researcher can elicit from participants about the meaning for events and behaviors and for generating a typology of cultural classification schemes. Ethnographic interview generally focuses on eliciting knowledge about cultures from the perspective of the participants. The phenomenological interviews are specific type of interviews conducted to determine the meaning of a concept or a phenomenon that is shared by several individuals. An interview with an elite person is a specialized case of interviewing that focuses on a particular type of interviewee. They are generally considered to be the most influential person in the organization or community and are selected on the basis of their expertise in areas relevant to the research [1].",
+        "The method of interviewing participants in focus groups comes largely from marketing research widely adapted to social sciences and applied research. Small groups consisting of 4 to 12 participants who are unfamiliar with one another are selected to be interviewed because they all share certain characteristics relevant to the study’s question. The focus group interviewing method assumes that an individual’s attitude and beliefs do not form in a vacuum: people often listen to other’s opinions and understandings to form their own. The questions framed by a researcher in a focus-group setting are deceptively simple so as to trick the participants in to expressing their views through the creation of a supportive environment. The advantage of focus group method is that it is socially oriented, studying participants in an atmosphere more natural than artificial experimental circumstances and more relaxed than a one-to-one interview. Disadvantages include issues related to power dynamics, researcher usually has less control over a group interview than on individuals, and there can be a considerable loss of time while dead-end or irrelevant issues are discussed. In some studies researchers consider interviewing children to learn more about the aspects of their world and how they perceive them. The major challenges for researchers in such interviewing process are selecting candidate based on age and role. Choosing between interviewing preschoolers and early adolescents can be quite challenging as preschoolers are active, and cannot be expected to sit still for long hours and can drive one to distraction with their incessant questions as they are in the verge of exploring their emerging language skills. On the other hand early adolescents can be taciturn and can fit well in to focus-group interviews with their peers or in to one-to-one type interviews. The researcher looks along two dimensions of roles when interviewing children namely the extent of positive contact between the adult and child and the extent to which the adult has direct authority over the child [1].",
+        "Survey is the most preferred way for the researchers to obtain a small amount of information from a large group of subjects (people).  In survey based research questioners are generally used as tools or instruments. When researchers conduct a survey they generally administer questioners to a set of randomly chosen sample of participants to learn more about the distribution of characteristics, attitudes, or beliefs. The groups of people chosen by researcher are based on the assumption that a characteristic or belief of the group can be described or measured accurately through self-reporting. Researchers also rely on the fact that the participants address to the questioners accurately and honestly. A questioner typically entails several questions that have structured response categories and some open-ended questions. Questions in the questioner are examined (sometimes quite vigorously) for bias, sequence, clarity and face-validity. They are usually tested on a small group to determine their usefulness and, perhaps, reliability.  Surveys are conducted in three ways: by email, telephone and personal interview. Surveys can be either conducted at any single point of time or taken at several different times. Once a survey is completed analysis of the survey data takes the form of descriptive or inferential statistics. Strength of surveys includes accuracy, generalizability, and convenience. Accuracy can however be enhanced by quantification, replicability and control over observer effects. Results of a survey can be generalized to a larger population within error bounds and they are amenable to rapid statistical analysis and are comparatively easy to administer and manage. However, surveys have several weaknesses. They do not accurately measure the complex social relationships or intricate patterns of interaction. Secondly, a survey cannot assure further evidence that the sample represents a broader universe i.e. results on a sample cannot be generalized over a population with 100% confidence [1].",
+        "Cyr and Bonanni in [2] have looked in to the difference in gender (male and female) perceptions in regard to their experience in online shopping.  Their investigation was focused on examining how perceptions between the genders differ concerning transaction security, website design elements (InfoDesign- Information design, NavigDesign – Navigational design, VisDesign- Visual design), website trust, website satisfaction, and e-loyalty, when shopping online. In the Appendix survey of [2] they have provided a questioner that was used for this survey research. Their questioner included 23 questions classified under 7 different categories. For their questioner researchers used a 5-point Likert scale (http://en.wikipedia.org/wiki/Likert_scale) to capture the responses of the participants. The 5-point Likert scale allowed the participants to agree-disagree against each question with 1 representing “disagree” and 5 representing “agree”. In another similar study, Srinivasan et. al. in [3] tried to determine if there was any significant difference among the factors namely the transactional security, information design, navigational design, visual design, web site trust, web site satisfaction, and e-loyalty over the sustainability of on-line banking for different banks in USA and in India. Their questioner (provided below in figure 2.3) also included 23 questions based on the 7 major categories. Here it is important to note that both the questioners are different (questions are different in both the questioner) even though they follow a similar pattern. The respondents were instructed to respond against each question in a 5-point Likert scale with 1 meaning “less likely” to 5 meaning “more likely”. The questioner in figure 2.3 also includes several questions to collect the demographic information of the respondents.",
+        "In order to design a questioner for your survey research there are several on-line tools namely Google spreadsheet surveys and survey monkey. These sites allow you to design and distribute electronic surveys to the respondents. A tutorial on how to design and distribute electronic surveys using Google spreadsheet surveys and survey monkey is provided here. This tutorial will help you to gain skills and experience with developing an on-line questioner for survey based research.",
+        "In the process of performing a qualitative study, researchers come across scenarios where they have to retrieve background, geographical and historical data for a particular setting. Researchers generally supplement participant observation, interviewing, surveys with gathering and analyzing documents produced in the course of every-day events or constructed specifically for the research that they are currently working. Several documents including the Minutes of the meetings, logs, announcements, formal policy statements, letters etc. can be useful for the researchers in understanding the settings or group being studied. When the research subject is a society, community, or an organization then the archival data play a major role in supplementing other qualitative research methods. The specialized analytic approach of retrieving information from the documents is called content analysis. Content analysis has an advantage of being unobtrusive and nonreactive. Researchers first gather the data and then determine where the emphasis lies [1].",
+        "Raw data gathered through conducting interviews and observations (field note) now need to be converted to “processed data” through the process of transcription and translation. Transcription could be a complex process. For instance consider a scenario in which the researcher tape records an interview with a respondent and later transcribes the tape. In this process at critical junctions the researcher has to make a judgment involving placing something as simple as a period or a semicolon which otherwise has a potential to shape the meaning of the written word and, hence, of the interview itself. There are several other issues including judiciously drawing inferences and offering interpretations of linguistic patterns, transcribing sentences that were interrupted, topics left unfinished and in ascertaining the overall clarity of the discussions. Translation (from one language to another) on the other hand is more complex than transcribing because they involve more subtle issues related to connotation and meaning. There are several issues that the researcher has to address in the translation process including being a self-translator or involving a translator as part of the analysis, how to determine if a translation has been performed accurately and the subtle meanings of the original language has been captured, translating words and phrases with the same intensity from original language to the target language etc [1].",
+        "Finally, rich sources from which data can be collected include WWW (World Wide Web), databases, films, videos and photography. We will look in to WWW and databases in later lessons. In this section we will discuss about reviewing films, videos and photography.  Anthropology related studies have a long history of retrieving data from films and photography. Films, videos and photography has the unique ability to capture visible phenomenon seemingly objectively-yet always from the perspective of the filmmaker. Films, video’s and photography are especially valuable for discovery and validation. They document nonverbal behaviors and communication such as facial expressions, gestures, and emotions. Other advantages include capturing elements which human eyes fail to capture due to limitations, preservation and help in studying data from nonrecurring, disappearing, or rare events. Do these technologies have any weakness? Yes, there are several fundamental questions yet unanswered – What is the nature of the truth? Do these technologies manipulate reality? [1].",
+        "Obtaining data/information from literature, books, video (films) and photographs are beyond the scope of this course. In this course we will concentrate on obtaining information from on-line sources including Internet and on-line databases. In the next lesson we will shed some light on the technologies that can help us in collecting data automatically from the WWW or internet.",
+        "Data analysis is performed in order to identify errors and inconsistencies in the data source. This step includes both the manual inspection of the data samples as well as examining the metadata to gain an insight about the data properties and to detect any data quality issues.",
+        "Transformation workflow and mapping rules which is performed in order to account for the degree of heterogeneity in the number of different data sources and the dirtiness of the data. In this approach a large number of data transformation and cleaning steps are executed in order to map each source to a common data model for any given data warehouse. The schema-related transformations and cleaning are specified by a declarative query and mapping language as far as possible, to enable automatic generation of the transformation code.",
+        "Verification is performed (testing and evaluated) to ensure that the transformation workflow and the definitions are implemented correctly and in an effective manner on a sample or copy of the data source. This step also helps in improving the transformation definitions. Here one should be cautions to implement several iterations of the analysis, design and verification steps since some errors only become apparent after applying the transformations.",
+        "Transformation is performed by running the ETL workflow whenever there is a need for loading and refreshing the data warehouse or during answering queries from multiple sources.",
+        "Backflow of cleaned data is performed to keep the original sources in order after the errors and dirty data are removed and data is cleaned. This is done to keep the legacy applications improved and to avoid redoing the cleaning work for future data extractions.",
+        "This course covers key concepts and techniques in big data and data quality, focusing on ethical data collection and cleaning practices.",
+        "Key topics include:",
+        "During this course you will deepen your understanding of the lesson topics each week.",
+        "In this lesson, you will be introduced to the world of big data and its significance in today’s data-driven landscape. You will also explore the ethical considerations involved in data collection, ensuring that you understand the importance of responsible and transparent practices in handling data.",
+        "By the end of this lesson, you will have a clear understanding of big data’s role in modern society and the ethical principles that guide responsible data collection practices.",
+        "This lesson introduces you to essential qualitative data collection techniques, helping you develop the skills to gather and analyze non-numeric data effectively across various research contexts.",
+        "By the end of this lesson, you will have the tools and techniques needed to conduct effective qualitative research, setting the foundation for successful data collection and analysis",
+        "This lesson introduces you to essential programming languages, including HTML, R, and Python, while also covering the basics of statistics for data analysis.",
+        "You will begin by learning HTML to create simple web pages, followed by an introduction to Python and R for data manipulation and analysis. Along the way, you will explore fundamental statistical concepts, providing the tools you need to interpret and analyze data effectively",
+        "By completing this lesson, you will have a solid understanding of HTML, R, Python, and basic statistics, preparing you for more advanced topics in programming and data analysis.",
+        "In this lesson, you will learn automated data collection techniques, focusing on Python scripting, web scraping, and data manipulation. You will start by learning how to convert between JSON and XML formats using Python scripts, then move on to web scraping with tools like the Google Chrome Scraper extension and Beautiful Soup. The lesson also introduces Python DataFrames for efficient data manipulation.",
+        "By the end of this lesson, you’ll have the skills to automate data collection, work with various data formats, and manipulate data for analysis. This will set you up for more advanced projects in data science and analytics.",
+        "This lesson covers the basics of web scraping and data collection using APIs and R. You will learn to collect data from websites like PubMed and Bugzilla, scrape data with rvest in R, and download tweets from Twitter for analysis.",
+        "By the end of this lesson, you’ll have the practical skills to gather data from websites and social media, preparing you for more advanced data analysis tasks.",
+        "This lesson explores advanced web scraping techniques, including web crawling with Rcrawler in R and learning Perl for data collection. You will master how to collect large datasets using Rcrawler and gain hands-on experience with Perl through a series of tutorials.",
+        "By the end of this lesson, you’ll be equipped with the skills to perform advanced web scraping and data collection using R and Perl.",
+        "In this lesson, you will explore the importance of data cleaning in the data analysis process. You will learn about the challenges involved in cleaning data and the current approaches to handle these issues. The lesson also covers ETL (Extraction, Transformation, and Loading) techniques, basic statistical methods for analyzing data, and a hands-on example of converting data from JSON to CSV format.",
+        "By the end of this lesson, you’ll have the practical skills to clean and process data, preparing you for more advanced analysis and data-driven decision-making.",
+        "In this lesson, you will learn about data cleaning from a process-oriented perspective, focusing on identifying and handling data anomalies. You will explore methods for parsing and transforming data to ensure it is ready for analysis. This lesson will equip you with essential tools and techniques to clean and prepare your data effectively.",
+        "By the end of this lesson, you will be equipped with a solid understanding of data cleaning methods, preparing you to handle real-world data and ensure it’s ready for in-depth analysis",
+        "In this lesson, you will explore data quality issues and their impact on data analysis, focusing on both single and multiple data sources. You will learn about key data quality metrics and criteria, discover functionalities provided by data quality tools, and tackle common problems encountered when working with various data sources. The lesson also covers how to create a data quality report using Python 3.6.5.",
+        "By the end of this lesson, you will have the skills to identify and resolve data quality issues, ensuring that your data is reliable and ready for analysis. This will lay the groundwork for handling complex data problems in future data science projects.",
+        "This lesson focuses on ensuring data quality and reliability through techniques like data deduplication, outlier detection, and data sampling. You will learn to identify and eliminate duplicate records, detect outliers, and understand assumptions of linearity in data. The lesson also covers how to build enterprise applications that ensure data quality across the organization.",
+        "By the end of this lesson, you’ll be equipped with the tools to ensure data quality in real-world applications, laying the groundwork for advanced data management and analytics practices.",
+        "This lesson introduces essential data cleaning techniques to help you manage and correct common data issues. You will explore methods to identify and handle errors, missing values, and irregularities in data. Additionally, you will learn techniques for managing bimodal data, addressing skewness, and filling in missing values to create cleaner, more reliable datasets.",
+        "By the end of this lesson, you’ll be equipped to detect and resolve common data issues, ensuring data quality for analysis and advanced data science tasks.",
+        "In this lesson, you’ll explore essential post-hoc data cleaning techniques to ensure data accuracy and consistency. Through hands-on tutorials, you’ll learn to use OpenRefine (Google Refine) for effective data cleaning, focusing on identifying and correcting errors in large datasets.",
+        "By the end of this lesson, you’ll have a solid understanding of post-hoc cleaning techniques and how to use OpenRefine to manage and refine large datasets, preparing you for high-quality data analysis.",
+        "In this lesson, you will review key course projects focused on data collection and cleaning, providing you with an opportunity to reflect on your progress and apply the skills you have learned. You will revisit four significant projects: U.S. Airlines, Hospital Readmissions, DC Crime Dataset, and Retail Websites/Social Media. By reviewing these projects, you’ll consolidate your understanding of the data cleaning process and its real-world applications.",
+        "By the end of this lesson, you will have the confidence to apply data collection and cleaning techniques to real-world datasets, ensuring you’re well-prepared for future data analysis tasks.",
+        "In this final lesson, you will demonstrate your understanding of the course material through a comprehensive final exam. This exam will assess your knowledge and skills acquired throughout the course, covering key topics such as data collection, web scraping, programming, and statistical analysis.",
+        "By the end of this lesson, you will have successfully completed the course and be ready to apply your knowledge in real-world data science and analytics challenges.",
+        "Becoming skilled in data collection and cleaning is a powerful career asset, as it positions you as a key contributor to data integrity and reliable analysis—two cornerstones of decision-making in any data-driven industry. With expertise in these areas, you’ll be able to gather, refine, and validate raw data, transforming it into meaningful insights that support effective strategies. Whether you work in marketing, healthcare, finance, or tech, the ability to ensure data accuracy and usability is critical for any role in analytics, data science, or business intelligence.",
+        "Proficiency in data collection and cleaning can also open doors to roles like Data Analyst, Data Engineer, or Data Scientist, all of which are in high demand and offer substantial growth potential. As companies increasingly rely on clean data to drive competitive advantage, your skills will make you an invaluable asset capable of impacting business outcomes. Mastering these foundational skills can be a significant stepping stone to advanced analytics roles, positioning you for a successful career in the fast-evolving world of data.",
+        "Financial Data Analysis: Stock Market Trends",
+        "In this project, students will collect historical stock market data from financial APIs such as Yahoo Finance or Alpha Vantage, and focus on cleaning and preparing the data for time-series analysis. The project will involve identifying key trends, spotting seasonality patterns, and using forecasting techniques to predict future stock prices or market behaviors. Students will apply data-cleaning techniques to ensure the data is accurate and ready for analysis, including handling missing values and resampling data for consistency.",
+        "Key Skills:",
+        "In the finance industry, clean and accurate historical stock data is crucial for making well-informed investment decisions and predicting market movements. Investment firms, financial analysts, and stockbrokers rely on data analysis to guide their trading strategies. This project simulates real-world tasks, preparing students to use data-driven methods to assess market trends and forecast future changes, which is essential in risk management and investment planning.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Optional text and materials will also be provided by the instructor each week when, as, and if required."
+        ],
+        [
+            "“A” (Excellent) indicates exceptional achievement;",
+            "“B” (Good) indicates substantial achievement;",
+            "“C” (Satisfactory) indicates acceptable but substandard achievement; and",
+            "“D” (Poor) indicates inadequate achievement and is a failing grade for a graduate student."
+        ],
+        [
+            "Data Analysis Pipeline",
+            "Qualitative Data Collection Methods",
+            "Data Cleaning"
+        ],
+        [
+            "Data Analysis & Workflow",
+            "Verification & Transformation & Backflow"
+        ],
+        [
+            "Big Data and Ethics in Data Collection",
+            "Qualitative Data Collection Methods",
+            "Experience HTML scripting, R and Python programming and Statistics",
+            "Data Collection Techniques and Cleaning",
+            "Data Cleaning: Process, Techniques, Problems, and Approaches",
+            "Data Quality, Reliability, and Application"
+        ],
+        [
+            "L1,L2",
+            "L3,L4",
+            "L5,L6",
+            "L7,L8",
+            "L9,L10",
+            "L11, L12",
+            "L13, L14"
+        ],
+        [
+            "Introduction to Big Data: Learn about the scope, scale, and impact of big data on industries and decision-making processes.",
+            "Ethics in Data Collection: Explore the ethical implications of data collection, including privacy, consent, and transparency."
+        ],
+        [
+            "Building Our Learning Community: Start by engaging with peers in an introductory activity, helping to foster a collaborative and interactive learning environment.",
+            "Discussion Forum: Reflect on the ethical challenges in data collection and share your thoughts with your classmates in the Lesson 1 Discussion Forum."
+        ],
+        [
+            "Analyze and Interpret Data: Gain skills in identifying patterns and extracting meaningful insights from qualitative data to deepen your understanding of research topics.",
+            "Introduction to Qualitative Data Collection: Learn how to effectively gather non-numeric data in different research settings.",
+            "Explore Key Techniques: Examine methods like interviews, focus groups, and content analysis, and understand how to apply them in real-world research."
+        ],
+        [
+            "Hands-On Practice: Conduct interviews and focus groups in simulated environments to develop real-world data collection skills.",
+            "Case Study Exploration: Analyze examples of qualitative research to see how different methods are applied in various fields.",
+            "Reflection and Review: Engage in self-assessments to identify areas for improvement in your own qualitative data collection approach."
+        ],
+        [
+            "Create Web Content with HTML: Learn the basics of HTML to build and structure simple web pages.",
+            "Programming Fundamentals in Python and R: Get introduced to Python and R, two widely-used languages in data science, learning basic syntax and data handling.",
+            "Basic Statistics for Data Analysis: Explore core statistical concepts and techniques to interpret data."
+        ],
+        [
+            "HTML Practice Exercise: Create a basic webpage using HTML tags and structure.",
+            "Python & R Scripting Tasks: Write simple scripts in Python and R for data manipulation.",
+            "Statistics in Action: Apply statistical methods to real-world data.",
+            "Discussion Forum: Join a discussion to share insights and experiences with HTML, programming, and statistics."
+        ],
+        [
+            "Data Exchange Formats: Learn how to convert data between JSON and XML formats using Python scripts.",
+            "Web Scraping with Google Chrome Scraper: Collect data from websites using the Google Chrome Scraper extension.",
+            "Introduction to DataFrames in Python: Work with Python DataFrames to organize and manipulate data effectively.",
+            "Master Web Scraping with Beautiful Soup: Use Beautiful Soup to parse and extract data from HTML content."
+        ],
+        [
+            "Python Scripting Exercise: Convert JSON to XML and vice versa using Python scripts.",
+            "Web Scraping Challenge: Collect data using the Google Chrome Scraper and analyze it.",
+            "Beautiful Soup Practice: Use Beautiful Soup to extract data from a sample website.",
+            "Team Assignment: Define a goal as part of a team project, applying the automated data collection techniques you’ve learned."
+        ],
+        [
+            "Collect Data with APIs: Learn how to access data from platforms like PubMed and Bugzilla using APIs.",
+            "Scrape Web Data with rvest: Master the rvest package in R for extracting data from web pages.",
+            "Download Tweets from Twitter: Explore how to collect Twitter data using API calls."
+        ],
+        [
+            "Hands-On API Practice: Collect real data from PubMed and Bugzilla.",
+            "rvest Scraping Exercise: Apply web scraping techniques using rvest to extract data from a website.",
+            "Twitter Data Challenge: Download tweets from Twitter and analyze the collected data."
+        ],
+        [
+            "Web Crawling with Rcrawler in R: Learn to crawl websites and collect data with the Rcrawler package.",
+            "Introduction to Perl: Install and get started with Perl for text manipulation and web scraping.",
+            "Perl Tutorials: Complete tutorials to build your Perl scripting skills."
+        ],
+        [
+            "Rcrawler Practice: Crawl a website and collect data.",
+            "Perl Scripting: Work through Perl tutorials to understand basic scripting.",
+            "Team Project: Collect data from websites as part of a team assignment."
+        ],
+        [
+            "Introduction to Data Cleaning: Understand the common problems in data cleaning and the methods used to address them.",
+            "ETL Techniques: Learn the fundamental steps of ETL (Extraction, Transformation, and Loading) for processing data.",
+            "Basic Statistical Techniques: Use basic statistics to describe and analyze data for insights.",
+            "ETL Practical Example (JSON to CSV): Work through a simple ETL example, converting data from JSON to CSV format."
+        ],
+        [
+            "Data Cleaning Exercise: Identify and address common data quality issues in a sample dataset.",
+            "ETL Process Practice: Perform the steps of ETL with a hands-on example, transforming JSON data into CSV format.",
+            "Team Assignment: Continue the data collection project from Week 6, applying your data cleaning and ETL skills."
+        ],
+        [
+            "Classification of Data Anomalies: Learn how to identify various types of data anomalies and their impact on data analysis.",
+            "Process Perspective of Data Cleaning: Understand the structured process behind cleaning data, ensuring consistency and accuracy.",
+            "Methods for Data Cleaning: Explore key techniques for parsing and transforming data to make it usable for analysis."
+        ],
+        [
+            "Data Anomaly Identification: Practice classifying and identifying data anomalies in real-world datasets.",
+            "Cleaning Workflow Exercise: Apply a step-by-step process to clean a dataset, focusing on parsing and transforming data."
+        ],
+        [
+            "Introduction to Data Quality Metrics: Understand key data quality criteria and learn how to assess the reliability of your data.",
+            "Data Quality Tools: Explore the functionalities provided by different tools to measure and improve data quality.",
+            "Single and Multiple Source Problems: Learn about common data quality problems in both single-source and multi-source datasets.",
+            "Creating a Data Quality Report with Python: Gain hands-on experience in using Python 3.6.5 to generate a data quality report"
+        ],
+        [
+            "Data Quality Analysis: Use data quality tools to assess and address issues in real-world datasets.",
+            "Team Assignment: Work with your team to investigate and identify data quality problems, applying the techniques learned during the lesson."
+        ],
+        [
+            "Data Deduplication: Learn how to identify and eliminate duplicate records from your data sources to ensure clean, accurate datasets.",
+            "Outlier Detection Techniques: Understand different methods for detecting and handling outliers in data to maintain reliability.",
+            "Assumptions of Linearity & Data Sampling: Explore the assumptions of linearity in data and the importance of proper data sampling for accurate analysis.",
+            "Building Enterprise Applications for Data Quality: Learn how to build enterprise applications that automate and enforce data quality standards."
+        ],
+        [
+            "Deduplication Exercise: Apply data deduplication techniques to clean a real-world dataset.",
+            "Outlier Detection Challenge: Use statistical methods to identify and address outliers in a provided dataset.",
+            "Data Sampling Practice: Work with data sampling techniques to analyze data in a way that supports your analytical models.",
+            "Enterprise Application Simulation: Build a basic enterprise application that ensures data quality and reliability."
+        ],
+        [
+            "Identify Data Issues: Learn to detect errors, missing values, and irregularities in datasets.",
+            "Handle Bimodal and Skewed Data: Discover techniques for managing bimodal distributions and correcting skewed data.",
+            "Address Missing Values: Explore effective methods for handling and filling in missing data points."
+        ],
+        [
+            "Error Identification Practice: Apply techniques to identify and resolve data errors and inconsistencies.",
+            "Data Cleaning Challenge: Work with bimodal and skewed data to bring it into a usable format.",
+            "Team Assignment: Collaborate with classmates on a data-cleaning project, using all techniques learned to create a clean dataset."
+        ],
+        [
+            "Master Post-hoc Data Cleaning Techniques: Understand and apply methods for cleaning data after collection to enhance data quality.",
+            "Hands-on with OpenRefine – Part I: Learn the basics of OpenRefine and start cleaning and organizing data efficiently.",
+            "Hands-on with OpenRefine – Part II: Dive deeper into advanced OpenRefine techniques for complex data cleaning tasks."
+        ],
+        [
+            "Post-hoc Cleaning Exercises: Practice identifying and addressing common data issues with hands-on examples.",
+            "OpenRefine Guided Tutorial: Work through a step-by-step tutorial in OpenRefine, learning essential cleaning techniques.",
+            "Data Quality Improvement Project: Use OpenRefine to clean and improve a sample dataset, enhancing its accuracy for analysis."
+        ],
+        [
+            "Review of Course Projects: Reflect on the U.S. Airlines, Hospital Readmissions, DC Crime Dataset, and Retail Websites/Social Media projects.",
+            "Data Collection and Cleaning: Understand the techniques and tools used in each project for cleaning and preparing data for analysis."
+        ],
+        [
+            "Project Reflection: Revisit your past projects to analyze how you approached data cleaning and identify areas for improvement.",
+            "Team Assignment: Work on the final team assignment using the knowledge gained throughout the course, consolidating your data cleaning skills."
+        ],
+        [
+            "Review of Key Concepts: Reflect on and review all the concepts learned in the course, including data collection techniques, programming with R and Python, and web scraping.",
+            "Final Exam Preparation: Prepare for the final exam by revisiting assignments, quizzes, and key lesson materials."
+        ],
+        [
+            "Self-Assessment: Take part in a self-assessment to identify areas of strength and areas needing review before the exam.",
+            "Final Exam: Complete the final exam to demonstrate your understanding of course concepts and practical skills."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Data Extraction from Financial APIs: Learn to gather stock market data from popular financial data sources.",
+            "Handling Time-Series Data: Focus on cleaning and preparing time-series data, including resampling and filling missing data points.",
+            "Data Visualization and Trend Analysis: Use tools like Matplotlib and Seaborn to visualize trends in stock data.",
+            "Forecasting Techniques: Apply models such as ARIMA or machine learning algorithms to forecast future stock prices based on historical data."
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Penn State University LibraryLinks to an external site.",
+            "url": "https://libraries.psu.edu/"
+        },
+        {
+            "text": "https://www.purdue.edu/discoverypark/cyber/assets/pdfs/BigDataWhitePaper.pdf",
+            "url": "https://www.purdue.edu/discoverypark/cyber/assets/pdfs/BigDataWhitePaper.pdf"
+        },
+        {
+            "text": "is provided here",
+            "url": "https://apipheny.io/surveymonkey-api-google-sheets/"
+        },
+        {
+            "text": "Data Analysis & Workflow",
+            "url": "#tab-dataanalysisampworkflow"
+        },
+        {
+            "text": "Verification & Transformation & Backflow",
+            "url": "#tab-verificationamptransformationampbackflow"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "A flowchart of a data processing pipeline with stages from Acquisition to Interpretation and factors like Heterogeneity, Scale, and Privacy.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/image.png"
+        },
+        {
+            "alt": "Figure 2.1 Sample edited and cleaned field notes  Source: Marshall, C. & Rossman, G. B. (2006). “Designing Qualitative Research: Fourth edition, California: Sage Publication",
+            "src": "https://courses.worldcampus.psu.edu/canvas/master/mst-20220713124115-alm626/content/02_lesson/images/Figure2-1.png"
+        },
+        {
+            "alt": "Figure 2.2 Sample edited and cleaned field notes collected during an interview Source: Marshall, C. & Rossman, G. B. (2006). “Designing Qualitative Research: Fourth edition, California: Sage Publication",
+            "src": "https://courses.worldcampus.psu.edu/canvas/master/mst-20220713124115-alm626/content/02_lesson/images/Figure2-2.png"
+        },
+        {
+            "alt": "",
+            "src": "https://courses.worldcampus.psu.edu/canvas/master/mst-20220713124115-alm626/content/02_lesson/images/Figure2-3-1.PNG"
+        },
+        {
+            "alt": "Diagram depicting categories of data quality problems divided into single-source and multi-source problems, each with schema and instance level issues.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/Figure_7-1.png"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Assignment Category",
+                "Weight (% of grade)"
+            ],
+            [
+                "Team Project",
+                "35%"
+            ],
+            [
+                "Discussion Forums",
+                "5%"
+            ],
+            [
+                "Examinations (Both exams will have equal weight.)",
+                "60%"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"2663\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

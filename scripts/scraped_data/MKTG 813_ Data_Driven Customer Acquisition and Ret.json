@@ -1,0 +1,461 @@
+{
+    "metadata": {
+        "title": "MKTG 813: Data-Driven Customer Acquisition and Retention – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=5387"
+    },
+    "headings": {
+        "h2": "Lesson 5: Leveraging Customer Metrics for Profitability",
+        "h4": "Unlocking Your Potential",
+        "h3": "Guiding Principle of CRM: \u000bGrab, Grow and Hold the Right Customers"
+    },
+    "paragraphs": [
+        "Welcome to MKTG 813: Data-Driven Customer Acquisition and Retention. This cutting-edge course empowers you to harness data-driven strategies to transform customer relationships into valuable, long-term assets for any organization. By integrating customer management with marketing strategy, you’ll learn to view customers as pivotal assets and leverage data to enhance loyalty, satisfaction, and overall value. Focusing on firms operating in data-rich environments, MKTG 813 also explores traditional strategies to provide a well-rounded perspective on customer relationship management. Key themes include targeted approaches for managing high-value customers and strategies to optimize the lifecycle of customer relationships.",
+        "Central to the course is the customer lifecycle framework, which provides actionable insights into acquiring, developing, and retaining customers while addressing challenges such as attrition and win-back. You’ll dive into essential topics like customer loyalty programs, customer economics (profitability, lifetime value, and equity), and advanced marketing analytics. Gain hands-on experience with powerful tools such as decile analysis, RFM analysis, choice models (e.g., logit, probit), and data mining techniques like classification and decision trees. This course equips you with the knowledge and skills to make data-driven decisions and drive measurable success in customer management.",
+        "This course focuses on marketing strategy as it relates to customer management, where the philosophy is to view customers as assets of the firm and the goal is to use customer information to build customer loyalty and relationships. This involves, in part, applying differential attention to more valuable customers with the goal of improving customer satisfaction while optimizing the current and future value of the customer base. The course will focus primarily on firms in ‘data-rich’ environments – that is, firms with detailed data on individual customers and firms with many customers. However, we will also spend time discussing more traditional customer relationship strategies and tactics.",
+        "The course is built around a single customer framework: the customer lifecycle. This general framework emphasizes strategic initiatives in customer relationship management including identifying good prospects and customer acquisition; customer development through up-selling, cross-selling and personalization; customer attrition and retention; and win-back. Topics covered include customer loyalty and loyalty programs, customer economics including customer profitability, lifetime value, and customer equity.",
+        "The course will also provide an introduction – including the advantages, limitations, common uses and some best practice examples – of commonly used marketing analytic tools and techniques. These include decile analysis, RFM (recency/frequency/monetary) analysis, choice models (e.g. logit, probit, etc.), and data mining tools (e.g. classification and decision trees such as CHAID).",
+        "MKTG 811",
+        "Upon completion of the course, students will be able to do the following:",
+        "Ex: This course is broken into the following modules:",
+        "The Penn State World Campus technical requirements are used for this course. Additional requirements are listed below.",
+        "Zoom Videoconferencing is also used. Zoom is free to use for all PSU students and does not require any additional software or hardware. Learn about Zoom.",
+        "*subject to change",
+        "Acquisition rate (%) = 100 * Number of prospects acquired / Number of prospects targeted",
+        "Acquisition cost ($) = Acquisition spending ($)/ Number of prospects acquired",
+        "Upon completion of the course, students will be able to do the following:",
+        "During this course you will expand your knowledge of the lesson topics each week.",
+        "In this lesson, you will explore the fundamentals of customer relationship management (CRM) and its significance in fostering business success. Through this introduction, you’ll examine the shift from product-centric to customer-centric business models and the strategic importance of building strong customer relationships.",
+        "By the end of this lesson, you will have a foundational understanding of customer relationship management and its importance in aligning business strategies with customer needs, setting the stage for more in-depth exploration of CRM practices.",
+        "In this lesson, you will delve into the essential strategies businesses use to attract profitable customers. You’ll learn how customer relationship management (CRM) tools and referral programs can be leveraged to drive customer acquisition and understand the intricate relationship between customer purchase behavior and referral activities.",
+        "By the end of this lesson, you will have a deeper understanding of customer acquisition strategies, equipping you with the tools to analyze and apply CRM-driven techniques effectively in real-world scenarios.",
+        "In this lesson, you will explore how businesses assess the value of their customer bases to guide decisions on customer selection and resource allocation. You’ll gain insights into key concepts like Recency, Frequency, and Monetary (RFM) analysis, Potential Customer Value (PCV), and Customer Lifetime Value (CLV), and learn how these measures influence strategic business decisions.",
+        "By the end of this lesson, you will have a solid understanding of the tools and methodologies businesses use to evaluate their customer bases, setting the stage for more advanced analysis in customer management strategies.",
+        "In this lesson, you will investigate the fundamentals of customer loyalty and the strategic implementation of loyalty programs. You will learn about the distinctions between attitudinal and behavioral loyalty and how these concepts influence the effectiveness of loyalty initiatives in fostering long-term, profitable customer relationships.",
+        "By the end of this lesson, you will have a deeper understanding of customer loyalty dynamics and the strategic value of well-designed loyalty programs in enhancing customer retention and business success.",
+        "In this lesson, you will explore the importance of customer metrics and their role in driving business success. You will analyze how firms select and use these metrics to link performance indicators to desired outcomes, such as profitability and shareholder value, while considering innovative approaches to measure customer-related data.",
+        "Upon completion of this lesson, you will have developed an analytical perspective on customer metrics and their application, equipping you with the knowledge to assess and improve business performance through data-driven insights.",
+        "MKTG 813: Data-Driven Customer Acquisition and Retention provides students with critical skills and insights to thrive in careers that demand expertise in data analytics. By exploring core concepts such as customer metrics, predictive modeling, and loyalty program design, this course prepares students to tackle real-world challenges and drive results in data-driven marketing and customer relationship management. Whether it’s through mastering advanced analytics, developing strategic customer acquisition plans, or optimizing retention strategies, students gain the tools needed to stand out in competitive job markets.",
+        "For data analytics majors, this course opens doors to a variety of impactful roles such as Marketing Analyst, CRM Specialist, Customer Insights Manager, and Digital Marketing Strategist. It not only enhances technical and strategic capabilities but also fosters the ability to adapt and innovate in dynamic industries. The knowledge gained equips students to excel in roles that prioritize data-driven decision-making and customer-centric strategies, positioning them as valuable contributors to their organizations.",
+        "Marketing Campaign Performance Dashboard: Create an interactive dashboard for a marketing team to track the success of various customer acquisition campaigns. Include metrics such as click-through rates, conversion rates, and cost per acquisition to enable data-driven decision-making.",
+        "Churn Prediction and Mitigation Strategy: Build a machine learning model to predict customer churn for a telecommunications company. Develop actionable recommendations to prevent churn through targeted marketing and customer support interventions.",
+        "Social Media Advertising ROI Analysis: Analyze the return on investment for a social media advertising campaign for a global brand. Identify which platforms and target audiences generated the highest engagement and acquisition rates.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Discussion Forums",
+            "Individual Writings",
+            "Group Writings",
+            "Final Exam"
+        ],
+        [
+            "Customer Relationship Management",
+            "Customer Acquisition",
+            "Guiding Principle of CRM"
+        ],
+        [
+            "Denotes average probability of acquiring a customer from a population",
+            "Computed for a group of customers",
+            "Typically computed on a campaign-by-campaign basis"
+        ],
+        [
+            "Precise values for firms targeting prospects through direct mail",
+            "Less precise for broadcast communications"
+        ],
+        [
+            "Increase your analytical skills through exposure to commonly used customer metrics and analytics techniques.",
+            "Give you a solid foundation in customer-centric marketing strategy.",
+            "Emphasize how strategic CRM combined with marketing analytics can help accomplish strategic marketing initiatives and improve firm profitability."
+        ],
+        [
+            "L1",
+            "L2",
+            "L3",
+            "L4",
+            "L5"
+        ],
+        [
+            "What is CRM?: Understand the concept of CRM and its role in creating and maintaining profitable customer relationships.",
+            "Shifting from Product-Centric to Customer-Centric: Explore the challenges and benefits of transitioning to a customer-focused approach in business operations.",
+            "Strategic Importance: Learn how CRM enhances marketing strategies and contributes to profitability and shareholder value."
+        ],
+        [
+            "Explore CRM Concepts: Read a foundational article to gain insights into the logic of relationship marketing and its impact on profitability.",
+            "Engage in Reflection: Reflect on the challenges businesses face when transitioning to a customer-centric approach and think critically about possible solutions.",
+            "Interactive Discussions: Share your perspective on CRM strategies and challenges through a collaborative discussion with peers."
+        ],
+        [
+            "Customer Acquisition through CRM: Discover how businesses use CRM strategies to identify and acquire high-value customers.",
+            "The Role of Referral Programs: Examine how referral programs enhance customer acquisition and the conditions that maximize their success.",
+            "Behavioral Insights: Analyze the connection between customers’ purchasing behavior and their likelihood to refer others."
+        ],
+        [
+            "Learn from Case Studies: Explore real-world examples of successful customer acquisition strategies driven by CRM and referral programs.",
+            "Critical Thinking Exercise: Reflect on how incentives affect referral behavior and propose scenarios where referral programs could be optimized.",
+            "Collaborative Discussions: Share insights on the effectiveness of referral strategies and discuss innovative approaches with your peers."
+        ],
+        [
+            "Customer Valuation for Strategic Decisions: Understand how firms assess customer value to prioritize resources effectively.",
+            "RFM and PCV Analysis: Learn how to calculate and interpret RFM and PCV metrics and their applications in customer segmentation.",
+            "Customer Lifetime Value (CLV): Explore the concept of CLV, how it is determined, and its role in long-term business planning."
+        ],
+        [
+            "Engage with Core Concepts: Study the required reading to familiarize yourself with RFM analysis and its practical applications.",
+            "Explore Analytical Tools: Reflect on how RFM, PCV, and CLV can be used by firms to enhance profitability and optimize resource allocation.",
+            "Application Insight: Think critically about how businesses might adjust their strategies based on customer valuation metrics."
+        ],
+        [
+            "Understanding Loyalty: Differentiate between attitudinal and behavioral loyalty, and explore their roles in evaluating customer profitability.",
+            "Loyalty Programs: Analyze the key components of successful loyalty programs and how they contribute to building sustainable customer relationships.",
+            "Strategic Benefits: Understand the advantages loyalty programs offer to businesses, including customer retention and increased profitability."
+        ],
+        [
+            "Analyze Core Concepts: Reflect on the differences between attitudinal and behavioral loyalty, considering their implications for measuring customer value.",
+            "Interactive Engagement: Record a brief video response discussing the role of loyalty metrics and their influence on loyalty program design.",
+            "Collaborative Insights: Engage with peers by reviewing and discussing their perspectives on loyalty programs and customer behavior."
+        ],
+        [
+            "Introduction to Customer Metrics: Understand the most commonly used customer metrics and their significance in business analytics.",
+            "Linking Metrics to Outcomes: Learn how to connect specific metrics to measurable business goals, such as profit and value creation.",
+            "Expanding the Metric Framework: Explore opportunities for firms to adopt additional metrics to better capture customer insights."
+        ],
+        [
+            "Reflect on Key Metrics: Read the required article to gain insights into selecting metrics that align with business objectives.",
+            "Engage in Analysis: Record a video response discussing the role of customer metrics in profitability and suggest additional metrics that firms could use.",
+            "Collaborate and Share: Participate in peer discussions to explore diverse perspectives on customer metrics and their applications."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Penn State World Campus technical requirements",
+            "url": "https://www.worldcampus.psu.edu/general-technical-requirements"
+        },
+        {
+            "text": "Zoom Videoconferencing",
+            "url": "https://psu.zoom.us/"
+        },
+        {
+            "text": "Learn about Zoom",
+            "url": "http://itld.psu.edu/learning-path/zoom-learning-path-participants"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "Marketing framework showing customers, company, competitors influencing segmentation, targeting, and the 4Ps for target market.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/MKTG-813-TRADTIONAL-1024x547.png"
+        },
+        {
+            "alt": "Evolution of marketing eras from 'good old days' to customer-centric, showing orientation and organizational focus shifts.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/MKTG-813-EVOLUTION.png"
+        },
+        {
+            "alt": "Graph showing customer lifecycle: loss during acquisition, profit with development, and sustained growth through retention.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/mktg-813-crm.png"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Product-Centric Marketing",
+                "vs.",
+                "Customer-Centric\u000bMarketing"
+            ],
+            [
+                "Product FocusTransactions/SalesMarket ShareProduct ProfitabilityBrand LoyaltyProduct LifecycleNew Product Development",
+                "",
+                "Customer FocusRelationshipsShare of CustomerCustomer ProfitabilityCustomer LoyaltyCustomer LifecycleCustomer Development"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"5387\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

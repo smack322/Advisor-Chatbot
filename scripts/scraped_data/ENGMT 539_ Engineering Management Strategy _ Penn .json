@@ -1,0 +1,617 @@
+{
+    "metadata": {
+        "title": "ENGMT 539: Engineering Management Strategy – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4788"
+    },
+    "headings": {
+        "h2": "Lesson 14: Final Project Report",
+        "h4": "Unlocking Your Potential",
+        "h6": "Individual Grade Composition (30% of Total)",
+        "h5": "Human Resource Management"
+    },
+    "paragraphs": [
+        "ENGMT 539 Engineering Management Strategy: is a pivotal course in the Master of Engineering Management program, designed exclusively for students in this cohort-based program. This three-credit course provides a comprehensive framework for understanding and applying advanced engineering management strategies in real-world settings. Through a dynamic mix of participative learning and case study analysis, students explore complex challenges in engineering management, sharpening their decision-making and strategic leadership skills.",
+        "The course emphasizes the integration of knowledge gained throughout the program, including Economic & Financial Studies, Management Science, Decision & Risk Analysis, Technical Project Management, and Creative Problem Solving. Students work on a capstone project that requires synthesizing these concepts to address multifaceted engineering problems, demonstrating their ability to craft innovative, actionable strategies.",
+        "By the end of ENGMT 539, students will have developed the critical skills to lead teams, solve complex challenges, and drive organizational success in engineering environments. This course not only solidifies their foundation in engineering management but also positions them as confident, forward-thinking leaders ready to excel in the global industry.",
+        "This course is part of a cohort program and is only available to students accepted into the Master of Engineering Management program. This capstone course is intended to provide a unifying experience: Students bring together the concepts, theories, and techniques learned throughout the program in the examination of case studies in engineering management and strategy through participative learning using case methods. In addition, students complete an engineering management project that requires integrating the knowledge from previous courses in Economic & Financial Studies, Management Science, Decision & Risk Analysis, Technical Project Management, Creative Problem Solving, and other relevant courses.",
+        "In the capstone project, you are expected to demonstrate competency in the profession of engineering management. Your analysis should address the needs of coordinating and developing large interdisciplinary engineering projects and apply the analytical approaches to solving technical and socio-economic problems, display your competency in leading technical people and fostering effective teams, and demonstrate your ability to manage technical projects in the presence of uncertainty and risk.",
+        "Specific learning outcomes are as follows:",
+        "No required text.",
+        "***The course has a Handouts folder with useful references for analysis tools you can use, case methods, and pertinent data sources.",
+        "Proctored Exams – None",
+        "All course material is available to you on CANVAS. I will be posting to the course bulletin board reminders about available resources and current assignments. Material is provided on a lesson-by-lesson basis and is presented to you in web pages, Microsoft Word documents (.doc), PowerPoint slides (PPT), or Portable Document Format (PDF) documents. Material that you submit for the course assignments should be submitted as one of these file formats. I will not have the ability to read any other file formats, and I appreciate your cooperation with these details of the course.",
+        "Each project team will have at least three meetings with the instructor: during week 2, week 8, and the final week of class. Additional meetings can be scheduled as needed. Participation in these three meetings accounts for roughly 10% of your final grade.",
+        "Communication is essential to successful completion of the project and therefore an essential part of this course.",
+        "Your class participation will be evaluated by your response and participation in the group discussion boards in each Group Space. I would expect most of your asynchronous communication to be through the Group Space provided in Canvas. Each group also has group file space available in your Canvas Group Space that you’ll want to use, particularly for working on large project files (the size of files you can post to the boards is fairly small). However, you can decide to choose any other communication means that you think will work best for your team (e.g., Whatsapp, Microsoft Teams, …). In such cases, I will come up with an alternative way to assess class participation.",
+        "As your project progresses, you will find it necessary to have synchronous virtual meetings with your teammates. You have a few options for communication. The recommended tools are Zoom and the Conferences feature in your Canvas Group Space. Be sure to record your meeting for those members who were unable to attend. Your second option is to hold a conference call. In the past, some groups made conference calls using calling facilities available through one group member’s work place. The third option is to request a Blackboard Collaborate room for your group. Please use the following form to request a meeting room: https://courses.worldcampus.psu.edu/public/roomrequest/index.php.",
+        "If you have technical issues, please contact the ITS Help Desks at helpdesk@psu.edu, 814-863-2494, or 814-863-1035.",
+        "*subject to change",
+        "The objective of Lesson 6 is to analysis the internal capability of the firm.",
+        "According to Barney & Hesterly (2010):",
+        "“[I]nternal analysis provides a comparative look at a firm’s capabilities. Internal analysis helps a firm to determine if its resources and capabilities are likely sources of competitive advantage and establish strategies that will exploit any sources of competitive advantage. The concepts of resource and capability should be understood in order to understand how to analysis the internal capability. Resource is tangible (factories, products) and intangible (reputation) assets of a firm. Capability is a subset of resources that enable a firm to take full advantage of other resources (marketing skill, cooperative relationships).”",
+        "Based on our understanding of resources and capabilities, we can apply internal capability analysis methods such as SWOT, value chain analysis, or the VRIO framework to conduct an engineering management project. Read the detailed descriptions of SWOT analysis and Value Chain Analysis below in order to understand each analysis’ features and objectives.",
+        "“Human Resource Management focuses on matching the needs of the business with the needs and development of employees… This includes the skills and knowledge that will be required by the organization both now and in the future. This is an integrated process as it involves looking at every area within an organization” (http://businesscasestudies.co.uk/tarmac/developing-a-human-resource-strategy/).",
+        "Dave Ulrich (1996) lists the functions of HR as:",
+        "Read the following blogpost that elaborates Ulrich’s HR functions:http://strategic-hcm.blogspot.com/2009/07/dave-ulrich-hr-transformation-book.html",
+        "A case study is typically performed in order to explore why a business succeeds or fails. In either case, there are major issues to be identified and overcome. How a business subject handled those issues generally explains its success or failure, but it is also very important to analyze specific problems and potential resolutions along with such issues. The goal of this analytical stage is to systematically and effectively identify major issues surrounding your case in relation to the outcomes of the previous analysis steps (i.e., strategic & functional analyses). Furthermore, this step deals with how to form appropriate strategic responses and actions. It is also necessary to identify possible engineering management solutions through a strategic alternatives review. The table below summarizes the overview of problem identification and solution evaluation methods.",
+        "This course will provide you with a thorough introduction to:",
+        "During this course you will expand your knowledge of the lesson topics each week.",
+        "This lesson provides an overview of the capstone project, outlining its purpose and key objectives. You’ll explore how this project integrates the knowledge gained throughout the program to solve complex engineering management challenges.",
+        "By the end of this lesson, you’ll be adept at leveraging advanced problem-solving tools and strategies to achieve project success.",
+        "This lesson introduces you to the case study, Design Thinking and Innovation at Apple. Through this in-depth example, you’ll explore how Apple’s leadership, strategy, and business model have driven its success in engineering management and innovation.",
+        "By completing this lesson, you’ll enhance your ability to analyze and write impactful engineering management cases, preparing you to approach strategic challenges with confidence and clarity.",
+        "This lesson explores essential problem-solving skills, focusing on the step-by-step process of defining, analyzing, and solving case study problems in engineering management.",
+        "By the end of this lesson, you’ll have a clear understanding of how to approach and solve engineering management problems, equipping you with skills to excel in real-world scenarios.t cases, preparing you to approach strategic challenges with confidence and clarity.",
+        "This lesson introduces key methodologies to analyze the performance and strategy of a targeted business entity. You’ll learn to use publicly available data, such as quarterly reports, SEC filings, and press releases, to evaluate a company’s vision, goals, strategy, and management characteristics.",
+        "By completing this lesson, you’ll be equipped with the tools to perform a comprehensive analysis of business performance and strategy, preparing you to make informed recommendations in engineering management context",
+        "This lesson introduces key methodologies to evaluate the external factors affecting a business, including political, economic, social, and technological (PEST) influences, competitive forces, and industry dynamics. These tools help identify risks and opportunities, enabling managers to create strategies for growth and sustainability.",
+        "By completing this lesson, you’ll gain the ability to assess external environmental factors and integrate these insights into effective strategic management.ipping you with skills to excel in real-world scenarios.",
+        "This lesson delves into the methods used to evaluate a firm’s internal resources and capabilities. By assessing tangible and intangible assets, you’ll learn how organizations identify competitive advantages and develop strategies to leverage them effectively.",
+        "By the end of this lesson, you’ll be able to perform comprehensive internal capability analyses, providing actionable insights for engineering management projects and be",
+        "This lesson delves into the methods used to evaluate a firm’s internal resources and capabilities. By assessing tangible and intangible assets, you’ll learn how organizations identify competitive advantages and develop strategies to leverage them effectively.",
+        "By the end of this lesson, you’ll be able to perform comprehensive internal capability analyses, providing actionable insights for engineering management projects.",
+        "This lesson equips you with the tools to critically analyze a company’s research and engineering operations, focusing on efficiency and effectiveness in planning, implementation, and evaluation.",
+        "By completing this lesson, you’ll gain the ability to assess and enhance research and engineering operations, setting the stage for effective, streamlined processes in real-world scenarios.",
+        "This lesson focuses on understanding the critical roles of Human Resource Management (HRM) and organizational structures within a company. You’ll explore how HR strategies align with business goals and how effective organizational structures support overall performance.",
+        "By completing this lesson, you’ll be equipped to analyze and improve HR strategies and organizational designs, enabling businesses to thrive in dynamic environments.",
+        "This lesson focuses on conducting a functional analysis of a company’s marketing and financial operations. By identifying strengths and weaknesses within these areas, you’ll gain the tools to develop practical strategies for improving performance and achieving organizational goals.",
+        "By the end of this lesson, you’ll be equipped to evaluate and improve the marketing and financial operations of any organization, enabling strategic decision-making and effective goal achievement.",
+        "This lesson focuses on identifying and analyzing the major issues that contribute to a business’s success or failure. You’ll explore structured approaches to problem-solving, learning to uncover root causes and propose effective strategic responses.",
+        "By the end of this lesson, you will have the skills to systematically identify issues, uncover root causes, and develop strategic responses to ensure business success.",
+        "This lesson focuses on translating strategic ideas into actionable plans, ensuring that strategies can be successfully implemented to achieve business objectives. You’ll explore the importance of detailed planning and the challenges of turning strategic goals into reality.",
+        "By completing this lesson, you will gain the skills to develop effective implementation plans that turn strategic vision into tangible results, equipping you for leadership roles in complex project environments.",
+        "This capstone project culminates your learning experience by integrating engineering and management principles to tackle complex, real-world issues. Students will collaborate in groups to analyze a company’s strategic, functional, and operational challenges, propose innovative solutions, and create detailed implementation plans.",
+        "By the end of this project, you’ll deliver a professional-level report and presentation that showcase your ability to address engineering management challenges with innovative and practical solutions, preparing you for leadership roles in your field.",
+        "ENGMT 529: Engineering Management Strategy equips professionals with the critical skills needed to lead in dynamic, technology-driven environments. By mastering strategic analysis, functional optimization, and implementation planning, graduates are prepared to tackle complex engineering challenges and drive organizational success. This course emphasizes the integration of management principles with engineering expertise, providing students with the tools to align technical innovation with business objectives effectively.",
+        "Graduates of this course are well-suited for leadership roles such as engineering manager, project manager, operations manager, or systems engineer. These positions often require strategic thinking, data-driven decision-making, and the ability to manage cross-disciplinary teams. Armed with a strong foundation in engineering management strategy, professionals can excel in industries ranging from aerospace and energy to software and manufacturing, where strategic insight and technical acumen are key to success.",
+        "A multinational aerospace company, tasked with developing a next-generation commercial aircraft, faced a multitude of strategic challenges, including rising costs, regulatory compliance, and global supply chain disruptions. To address these challenges, the company’s engineering management team applied core principles of strategic analysis and implementation, as taught in ENGMT 539. Using tools such as PEST analysis and SWOT, the team identified external pressures from environmental regulations and internal weaknesses in their supply chain coordination. This analysis allowed them to align their strategy with key market opportunities, such as increased demand for fuel-efficient aircraft, and mitigate risks by diversifying suppliers.",
+        "The team also utilized Root Cause Analysis and Strategic Alternative Review (SAR) to propose innovative solutions for reducing costs while maintaining quality. One solution involved the adoption of advanced simulation technologies to streamline design and testing, which cut prototyping costs by 25%. The implementation plan included clear milestones, stakeholder engagement, and ongoing performance metrics to ensure success. By combining strategic thinking with actionable insights, the company successfully launched the aircraft on time, exceeding efficiency targets and gaining a competitive edge in the market. This example underscores the value of skills gained in ENGMT 539 for addressing complex, high-stakes challenges in engineering management",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "27 credits in the engineering management program."
+        ],
+        [
+            "Understand the various components of the Engineering Management program and to apply these to solve problems in management of technology and innovation.",
+            "Appreciate the interaction between the technical, financial, organizational and societal aspects of engineering management.",
+            "Make informed, balanced decisions when participating as a team member in new product development or when leading the project as a technical manager.",
+            "Apply the acquired skills in the various core and elective courses to a comprehensive project.",
+            "Manage the difficulty of the decision-making process in incomplete, unclear and ambiguous situations.",
+            "Perform various economic, financial and managerial analyses using appropriate tools and techniques learned in the Engineering Management curriculum."
+        ],
+        [
+            "The first is the group grade, for which every member of the group receives the same number of points. The group grade accounts for 70% of the final grade.\n\nThe group grade is based on the following: 20% for 4 Group Reports (analysis components) 30% for online meetings and discussions with the instructor and 50% for the final report (the integrated analysis). Note that the final project presentation will be graded as part of the grade for the final project report.",
+            "The group grade is based on the following: 20% for 4 Group Reports (analysis components) 30% for online meetings and discussions with the instructor and 50% for the final report (the integrated analysis). Note that the final project presentation will be graded as part of the grade for the final project report.",
+            "The second category is your individual grade which makes up the remaining 30%.\n\nYour individual grade is based on individual case reading homework (50%), peer evaluation (40%), and class participation (10%, mainly online discussion/participation activities). The instructor reserves the right to give students an extra point toward an excellent performance that clearly enhances teamwork through their leading roles and active participation.",
+            "Your individual grade is based on individual case reading homework (50%), peer evaluation (40%), and class participation (10%, mainly online discussion/participation activities). The instructor reserves the right to give students an extra point toward an excellent performance that clearly enhances teamwork through their leading roles and active participation."
+        ],
+        [
+            "The group grade is based on the following: 20% for 4 Group Reports (analysis components) 30% for online meetings and discussions with the instructor and 50% for the final report (the integrated analysis). Note that the final project presentation will be graded as part of the grade for the final project report."
+        ],
+        [
+            "Your individual grade is based on individual case reading homework (50%), peer evaluation (40%), and class participation (10%, mainly online discussion/participation activities). The instructor reserves the right to give students an extra point toward an excellent performance that clearly enhances teamwork through their leading roles and active participation."
+        ],
+        [
+            "Creative Problem Solving",
+            "Capstone course that integrates knowledge from previous curriculum in this program, including but not limited to the following:",
+            "Economic & Financial Studies",
+            "Management Science",
+            "Decision & Risk Analysis",
+            "Technical Project Management"
+        ],
+        [
+            "Strategic Analysis",
+            "Functional Analysis",
+            "Strategic Responses"
+        ],
+        [
+            "aligning HR and business strategy,",
+            "re-engineering organization processes,",
+            "listening and responding to employees, and",
+            "managing transformation and change."
+        ],
+        [
+            "Strategic and Functional Analysis – Apply tools like SWOT, PEST, and 4Ps to evaluate internal and external business factors.",
+            "Problem-Solving Technique – Use methods like Root Cause Analysis, SAR, and AHP to develop and assess solutions.",
+            "Implementation Planning – Create actionable, validated plans with clear timelines and resource allocation.",
+            "Collaborative and Analytical Skills – Work in teams to research, analyze, and present findings effectively."
+        ],
+        [
+            "L1-L2",
+            "L3-L4",
+            "L5-L6",
+            "L7-L8",
+            "L9-L10",
+            "L11-L12",
+            "L13-L14"
+        ],
+        [
+            "Capstone Project Purpose: Integrate knowledge from program coursework to solve real-world engineering management problems.",
+            "Strategic Planning Integration: Use advanced methodologies to create actionable strategies tailored to project objectives."
+        ],
+        [
+            "Project Topic Selection: Collaborate with your group to choose a capstone project topic and define clear objectives.",
+            "Strategic Framework Application: Apply cutting-edge strategic planning methodologies to your project analysis."
+        ],
+        [
+            "Case Writing Guidelines: Learn from Paul M. Swiercz’s article to structure and present key issues in engineering management cases.",
+            "Problem Identification: Understand how to highlight and address challenges faced by engineering managers in dynamic environments."
+        ],
+        [
+            "In-Depth Case Review: Read Design Thinking and Innovation at Apple, focusing on its strategy, leadership, and business model.",
+            "Individual Assignment: Respond to guided questions that assess Apple’s approach to solving engineering management challenges."
+        ],
+        [
+            "Structured Problem-Solving Framework: Learn a step-by-step approach to case study analysis, including defining the problem, understanding the environment, generating solutions, and assessing risks.",
+            "Solution Development and Implementation: Focus on drafting actionable plans to implement solutions and monitor progress toward resolving problems."
+        ],
+        [
+            "Guided Reading: Study Essential Problem Solving Skills for Management Consultants to understand best practices for solving engineering case problems.",
+            "Problem Analysis Exercise: Define a case study problem, identify success factors, and evaluate potential solutions."
+        ],
+        [
+            "Strategic Business Analysis: Learn to evaluate company performance using publicly available data, such as quarterly reports, SEC filings, and press releases.",
+            "Vision and Mission Assessment: Analyze the historical progression of a company’s vision and mission, linking it to milestones and strategic goals."
+        ],
+        [
+            "Performance Data Collection: Analyze investor documents and press releases to gather insights on a company’s operational and financial performance.",
+            "Strategic Goal Assessment: Use case examples like IKEA and Groupon to identify and assess operational and financial outcomes."
+        ],
+        [
+            "External Environment Analysis: Understand the importance of analyzing macro-environmental factors, industry forces, and competitive dynamics that influence business performance.",
+            "PEST Analysis: Learn how to evaluate political, economic, social, and technological factors that shape the broader business environment."
+        ],
+        [
+            "Industry Analysis Workshop: Apply Porter’s Five Forces Model to analyze the competitive landscape of a selected industry.",
+            "Competitor Profiling: Perform a competitor analysis to assess market positioning and strategic behavior."
+        ],
+        [
+            "Internal Capability Analysis: Understand the role of evaluating a firm’s tangible and intangible resources to identify sources of competitive advantage.",
+            "Key Frameworks: Learn to apply SWOT analysis, Value Chain Analysis, and the VRIO framework to assess a company’s internal strengths and weaknesses."
+        ],
+        [
+            "Value Chain Exercise: Map out a company’s value chain to identify activities that create value and contribute to competitive advantage.",
+            "VRIO Framework Practice: Assess a company’s resources using the VRIO criteria to determine their potential for sustaining competitive advantage."
+        ],
+        [
+            "Internal Capability Analysis: Understand the role of evaluating a firm’s tangible and intangible resources to identify sources of competitive advantage.",
+            "Key Frameworks: Learn to apply SWOT analysis, Value Chain Analysis, and the VRIO framework to assess a company’s internal strengths and weaknesses."
+        ],
+        [
+            "Value Chain Exercise: Map out a company’s value chain to identify activities that create value and contribute to competitive advantage.",
+            "VRIO Framework Practice: Assess a company’s resources using the VRIO criteria to determine their potential for sustaining competitive advantage."
+        ],
+        [
+            "Understanding Research and Engineering Operations: Learn to break down research activities into planning, implementation, and performance evaluation.",
+            "Identifying Inefficiencies and Opportunities: Explore methods to pinpoint delays, defects, and cost drivers in research and engineering workflows."
+        ],
+        [
+            "Industry Benchmark Study: Research best practices from leading companies using advanced tools and methodologies.",
+            "Interactive Exercise: Engage in a scenario-based activity where you identify inefficiencies in a simulated operation and recommend improvements."
+        ],
+        [
+            "Core Functions of Human Resource Management (HRM): Understand HR’s role in aligning business strategy with employee needs and development.",
+            "Analyzing Organizational Structures: Study various organizational structure types, such as functional, matrix, and divisional, and their impact on performance."
+        ],
+        [
+            "Organizational Structure Mapping: Create and analyze a visual map of an organization’s structure using examples from the readings.",
+            "Comparative Analysis Activity: Compare the HR and organizational strategies of two companies to identify best practices and areas for improvement."
+        ],
+        [
+            "Strategic Marketing Analysis: Understand the importance of customer segmentation in aligning marketing strategies with target needs and behaviors.",
+            "Financial Function Analysis: Learn to evaluate a company’s financial performance using key financial ratios, including liquidity, profitability, and leverage ratios."
+        ],
+        [
+            "Marketing Case Study Analysis: Examine a company’s customer segmentation and marketing mix strategies, identifying key strengths and opportunities for improvement.",
+            "Financial Ratio Analysis Exercise: Calculate and interpret financial ratios to assess a firm’s financial health and performance against industry benchmarks."
+        ],
+        [
+            "Systematic Problem Identification: Learn to use tools like the Issue Tree to break down complex challenges into manageable components.",
+            "Root Cause Analysis Techniques: Explore methods such as Change Analysis and Fishbone Diagrams to uncover the underlying causes of issues."
+        ],
+        [
+            "Issue Tree Development: Create an Issue Tree for a business scenario to dissect a major problem into its root causes and actionable components.",
+            "Fishbone Diagram Exercise: Construct a Fishbone Diagram to analyze the contributing factors of a process failure or bottleneck."
+        ],
+        [
+            "Critical Role of Implementation Planning: Understand the importance of implementation planning in translating strategies into actionable outcomes.",
+            "Frameworks for Effective Execution: Learn how to prioritize tasks, set milestones, and measure progress to ensure strategic goals are achieved."
+        ],
+        [
+            "Implementation Framework Analysis: Research and compare various implementation planning frameworks, such as Gantt charts, OKRs, or balanced scorecards.",
+            "Case Study on Work-Life Balance: Examine how two organizations successfully implemented work-life balance strategies, highlighting key lessons and transferable insights."
+        ],
+        [
+            "Integration of Engineering and Management Principles: Apply interdisciplinary tools and methodologies to solve complex, real-world problems in engineering management.",
+            "Comprehensive Analysis Techniques: Perform strategic, functional, and operational analyses using tools like SWOT, PEST, and Value Chain Analysis."
+        ],
+        [
+            "Company Research and Selection: Select a company of interest and gather data on its operations, challenges, and market position to define the project scope.",
+            "Final Report and Presentation: Synthesize findings into a professional report and deliver a group presentation to demonstrate actionable insights and recommendations."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "https://courses.worldcampus.psu.edu/public/roomrequest/index.php",
+            "url": "https://courses.worldcampus.psu.edu/public/roomrequest/index.php"
+        },
+        {
+            "text": "helpdesk@psu.edu",
+            "url": "mailto:helpdesk@psu.edu"
+        },
+        {
+            "text": "http://businesscasestudies.co.uk/tarmac/developing-a-human-resource-strategy/",
+            "url": "http://businesscasestudies.co.uk/tarmac/developing-a-human-resource-strategy/conclusion.html#axzz2RCN7poLS"
+        },
+        {
+            "text": "http://strategic-hcm.blogspot.com/2009/07/dave-ulrich-hr-transformation-book.html",
+            "url": "http://strategic-hcm.blogspot.com/2009/07/dave-ulrich-hr-transformation-book.html"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "A table titled \"Micro to Macro\" features two columns representing the micro-level and macro-level aspects of organizational management. The table includes several rows that bridge these two perspectives, showing the progression from individual-focused (micro) to organizational and societal-focused (macro). Key elements on the micro side include topics like \"Employee Motivation & Participation,\" \"Testing, Assessment & Selection,\" \"Performance Management & Feedback,\" \"Training & Development,\" \"Gender, Race, Workplace Diversity and Inclusion,\" \"Workplace Health, Burnout and Safety,\" \"Work/Life Balance,\" and \"Sense-Making.\" On the macro side, corresponding elements include \"Organizational Design & Structure,\" \"Organizational Culture & Climate,\" \"Organizational Change & Development,\" \"Organizational Learning & Knowledge Management,\" \"Strategic Management & Planning,\" \"Temporality at Work,\" \"Organizations and Technology/Virtual Work,\" \"Inter-Organizational Relations,\" \"Organizations & Institutions,\" \"Organizations & Social Inequality,\" \"Organizations in the 'New Economy,'\" and \"Organizations & Globalization.\" Each row connects micro-level topics with their broader macro-level organizational or societal implications.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/micro_macro.jpg"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Assignment Category",
+                "Quantity",
+                "% of Final Grade"
+            ],
+            [
+                "Group Report",
+                "4",
+                "20%"
+            ],
+            [
+                "Meetings and Discussions",
+                "3",
+                "30%"
+            ],
+            [
+                "Final Project Report",
+                "1",
+                "50%"
+            ]
+        ],
+        [
+            [
+                "Assignment Category",
+                "Quantity",
+                "% of Final Grade"
+            ],
+            [
+                "Case Reading",
+                "2",
+                "50%"
+            ],
+            [
+                "Peer Evaluation",
+                "1",
+                "40%"
+            ],
+            [
+                "Class Participation",
+                "15+",
+                "10%"
+            ]
+        ],
+        [
+            [
+                "Issue Tree",
+                "Evolved from MECEgraphical breakdown of key questionProgressive dissection of problem",
+                "Discovery of root problems and their solutions"
+            ],
+            [
+                "Change Analysis",
+                "Describes a situation with and without problemAnalyzes differences and identify consequences",
+                "Used in conjunction with root cause analysis to provide specific cause"
+            ],
+            [
+                "Root Cause Analysis",
+                "What happenedWhy it happenedHow to prevent it from happening again",
+                "Thorough analysis of the problem"
+            ],
+            [
+                "Fishbone Analysis",
+                "Diagram-based approach for thinking through all of the possible causes of a problem",
+                "Discover the root cause of a problem.Uncover bottlenecks in your processes.Identify where and why a process isn’t working."
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"4788\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

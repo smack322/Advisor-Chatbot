@@ -1,0 +1,465 @@
+{
+    "metadata": {
+        "title": "ENGMT 841: Application of Statistics in Quality and Continuous Improvement in Engineering – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2041"
+    },
+    "headings": {
+        "h2": "University Policies",
+        "h4": "4. Energy Efficiency in Construction or Infrastructure Projects",
+        "h5": "Optional Texts:",
+        "h6": "A = 95-100, A- = 90-94, B+ = 87-89, B = 84-86, B- = 80-83, C+ = 77-79, C = 70-76, D = 65-69, F = 64 and Below",
+        "h3": "Benefit of Having Taken This Course:"
+    },
+    "paragraphs": [
+        "ENGMT 841: This course provides a comprehensive exploration of quality improvement tools, focusing on enhancing products and processes in both manufacturing and service industries. Students will gain practical knowledge in Lean methodologies and Six Sigma principles, learning how to apply these techniques to drive continuous improvement. Designed for engineers, the course offers an in-depth understanding of quality evolution, equipping students with the most effective tools and strategies for optimizing processes, products, and services in today’s competitive marketplace.",
+        "(3 credits) Application of quality tools to improve products and processes including lean processes and six sigma principles for the continuous improvement of products and processes in the manufacturing and service industries.",
+        "*Prerequisites: Even though there are no official prerequisites in the catalog, all students are expected to have the basic use of Excel and basic mathematics. The mathematics needed for the course will be quite basic and will be reviewed as needed. You will also be expected to use our online discussion forums, chat rooms, and electronic mail on a regular basis. The most important prerequisite of all, however, is your interest in the course, motivation, and commitment to learning.",
+        "This course will expose engineers to the world of quality evolution using the most accepted methods, tools, and techniques to improve their products, processes, and services. Variability and identifying the sources of variation are the key to product and performance improvements. Students learn the proper metrics to measure these variations and the proper ways of measuring the metrics. We explore improvements in Process, Product and Performance.",
+        "Process modelling and simulation will be performed using the software iGrafx, whereas the statistical and product quality analyses will be performed using Minitab statistical software. With the use of Value Stream mapping, the non-value process activities will be identified and optimized. The concepts of Lean and Six Sigma will be extensively used to solve practical problems. The application and the effective use of various statistical quality control techniques will be introduced in this course to determine the variability in the process and products. The use of inferential statistics to relate the behavior of population from samples in terms of differences in mean and proportions will be covered. Applications of correlation, regression and various control charts will be covered to understand the variations in the product performance and to help to improve the product quality. Optimal process and design parameter settings will be illustrated using the application of Design of Experiments.",
+        "After completing the course, a student will be able to:",
+        "Our bookstore is MBS Direct, a mail-order textbook vendor.  You can order from MBS Direct by calling 1-800-325-3252 or by visiting their online bookstore at http://direct.mbsbooks.com/psude.htm.",
+        "All of the software is available to students at no cost.  Instructions for accessing the software will be provided in the lessons.",
+        "Proctored Exams – None",
+        "Note: A grade is given solely on the basis of the instructor’s judgment as to the student’s scholarly attainment (see the Penn State Graduate Degree Programs Bulletin).",
+        "The following grading system applies to graduate students:",
+        "Students are reminded that simply meeting the minimal requirements of any assignment (both in terms of content and presentation) will result in a letter grade of “B” or less for that assignment.",
+        "Students will use the discussion forums to discuss different aspects of the course with their team members. The instructor will participate in the discussions as needed.",
+        "All assignments for each week must be submitted to the appropriate Canvas assignment before 11:59 PM EST on Sunday in that week for the submission to be considered “on time” (exact dates due dates are listed in the Course Schedule, found in the Canvas course).",
+        "There will be two untimed exams (one midterm exam, and one final exam). Students will have one week to complete and submit each of the tests on Canvas.  Each exam is worth 20 points.",
+        "Each team will be provided with the application from a previous Baldrige Award winner.  The team will evaluate the application and submit reports throughout the semester.  Three interim reports are worth 5 points each. The final report is worth 10 points.",
+        "Please view the University Policies and Resources which includes important information regarding academic integrity, student disability resources, educational equity, counseling services,  and technical requirements.",
+        "*Subject to change",
+        "After completing the course, a student will be able to:",
+        "During this course you will expand your knowledge of the lesson topics each week.",
+        "Get ready for an exciting journey into the heart of Quality and Continuous Improvement! This week, you’ll dive deep into the essentials of quality management, where you’ll explore strategies that drive performance excellence and organizational success.",
+        "This week is all about building a solid foundation, equipping you with the skills and knowledge to excel in the dynamic field of quality management.",
+        "This week, you will begin to elevate your expertise in Business Process Management, by diving into the strategies that streamline operations and drive efficiency across organizations. With each reading and task, you’ll gain a deeper understanding of how successful businesses optimize their processes for peak performance.",
+        "This week is all about mastering the art of business process management, arming you with the tools to optimize workflows, reduce inefficiencies, and achieve operational excellence.",
+        "In this lesson, we will dive into the powerful world of Statistics in Quality Management and explore how data drives decision-making and how statistical tools help organizations achieve excellence by making sense of complex information.",
+        "Get ready to unlock the power of your analytical side! With these tools, you’ll be able to quantify success, troubleshoot issues, and elevate quality management to new heights.",
+        "This week, gear up for an exploration of Control Charts, one of the most powerful tools in quality management! You’ll learn how to track, analyze, and control processes, ensuring that everything stays within the lines of excellence.",
+        "This week is all about mastering the art of maintaining control over processes, using data-driven insights to ensure that your operations stay efficient, effective, and continuously improving.",
+        "Get ready in this lesson to unlock the Quality Tools that top organizations use to drive continuous improvement and maintain high performance! This week, you’ll dive into the essential techniques that streamline problem-solving and enhance decision-making in quality management.",
+        "This week is all about equipping yourself with a toolkit for success! By mastering these quality tools, you’ll be prepared to tackle any challenge and optimize processes with confidence.",
+        "In this week’s lesson, we will dive into the Design of Experiments (DOE), one of the most advanced techniques in quality management! This week, you’ll explore how experimental design is used to identify critical factors, optimize processes, and make informed decisions that boost performance.",
+        "This week is all about experimentation—gaining the skills to systematically test, analyze, and optimize processes. Prepare to become a problem-solving powerhouse as you master the Design of Experiments!",
+        "Get ready for a powerful finale to your journey in quality management as we explore the game-changing methodologies of Six Sigma and Lean! This week, you’ll learn how organizations achieve breakthrough improvements by eliminating waste, reducing variability, and driving efficiency to its highest level.",
+        "This week is all about mastering the strategies that transform businesses. With Six Sigma and Lean under your belt, you’ll be ready to tackle complex problems, streamline processes, and lead your organization to peak efficiency. This is where students finish strong and apply all that they have learned throughout the course.",
+        "Taking this course – Application of Statistics in Quality and Continuous Improvement in Engineering – can have a profound impact on a student’s career. By mastering statistical methods and quality management tools such as Six Sigma, Lean, and Design of Experiments, students gain the ability to analyze and optimize processes, making them highly valuable in industries where efficiency and product excellence are critical. This skill set not only makes students competitive for roles in quality engineering, manufacturing, and process management but also positions them to lead initiatives that drive cost savings, performance improvements, and innovation within organizations.",
+        "Furthermore, the hands-on experience with statistical software such as Minitab and process simulation tools like iGrafx equips students with practical skills directly applicable to solving real-world challenges. This practical knowledge of how to reduce variability, streamline operations, and enhance product performance prepares students for leadership roles, opening doors to career advancement in sectors like aerospace, automotive, healthcare, and technology, where quality improvement is a top priority. In short, this course provides a solid foundation for building a successful career in engineering with a focus on continuous improvement and data-driven decision-making.",
+        "A student with a master’s degree in engineering management, combined with the skill acquired in this Application of Statistics in Quality and Continuous Improvement in Engineering course, will be well-equipped to tackle a variety of impactful real-world projects. Here are a few examples:",
+        "In a manufacturing setting, such as an automotive or aerospace company, the student could lead a project focused on reducing defects and improving production efficiency using Six Sigma and Lean principles. By applying statistical techniques learned in the course—like control charts and Design of Experiments (DOE)—they could identify the root causes of variability in the assembly line, optimize process parameters, and implement solutions that minimize waste and improve product quality. This hands-on understanding of variability and process control would directly benefit the company by reducing costs, improving production speed, and enhancing the overall quality of the final product.",
+        "Another potential project could be in the healthcare sector, focusing on improving patient care processes. For example, the student could apply Value Stream Mapping and statistical tools like regression analysis and control charts to reduce wait times in hospital emergency rooms. The ability to identify non-value-adding steps in patient care workflows and streamline processes would significantly enhance the efficiency of services, reduce costs, and improve patient satisfaction. This approach aligns with the growing emphasis on operational excellence in healthcare systems.",
+        "In industries like retail or e-commerce, optimizing supply chain operations is crucial. The student could work on a project to improve the accuracy and speed of order fulfillment processes. By using Minitab for data analysis and employing Lean methodologies to identify bottlenecks, they could develop strategies to reduce lead times, eliminate waste, and ensure more reliable delivery schedules. The insights gained from the course’s focus on continuous improvement would enable them to deliver solutions that increase customer satisfaction and drive competitive advantage in fast-paced markets.",
+        "In construction or civil engineering projects, where energy efficiency and sustainable practices are becoming increasingly important, the student could apply Design of Experiments to optimize building materials and construction methods that minimize energy use. By statistically analyzing different factors like material strength, cost, and energy performance, they could recommend improvements that not only meet environmental regulations but also reduce long-term operational costs for buildings. This data-driven approach would lead to greener, more cost-efficient projects that have a significant impact on sustainability efforts.",
+        "The key benefit for students who have completed this course for these types of real-world examples is their ability to apply statistical thinking and quality improvement methodologies to a wide range of engineering challenges. The course provides them with the tools to measure and manage variability, optimize processes, and drive continuous improvement. These skills are highly sought after in industries that prioritize efficiency, quality, and performance, making these students valuable assets in their organizations, and capable of leading high-impact projects that deliver measurable results.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Apply process analysis tools to reduce the non-value-added activities and optimize the process.",
+            "Use various advanced and sophisticated statistical analysis tools.",
+            "Analyze variations in data and use appropriate statistical tools to quantify the variations.",
+            "Synthesize how businesses are a collection of processes with various inputs and outputs.",
+            "Communicate and apply the Lean and Six Sigma concepts"
+        ],
+        [
+            "Introduction to Statistical Quality Control. 7th Edition by Douglas C. Montgomery, John Wiley & Sons, 2013 ISBN 978-1-118-14681-1",
+            "Implementing Six Sigma: Smarter Solutions Using Statistical Methods. by Forrest W. Breyfogle III (2003 John Wiley & Sons, Inc. ISBN: 0-471-26572-1"
+        ],
+        [
+            "“A” (Excellent) indicates exceptional achievement;",
+            "“B” (Good) indicates substantial achievement;",
+            "“C” (Satisfactory) indicates acceptable but substandard achievement; and",
+            "“D” (Poor) indicates inadequate achievement and is a failing grade for a graduate student."
+        ],
+        [
+            "Quality and Continuous Improvement",
+            "Business Process Management",
+            "Statistics in QM",
+            "Control Charts",
+            "Quality Tools",
+            "Six Sigma and LEAN",
+            "Design of Experiments"
+        ],
+        [
+            "Apply process analysis tools to reduce the non-value-added activities and optimize the process.",
+            "Use various advanced and sophisticated statistical analysis tools.",
+            "Analyze variations in data and use appropriate statistical tools to quantify the variations.",
+            "Synthesize how businesses are a collection of processes with various inputs and outputs.",
+            "Communicate and apply the Lean and Six Sigma concepts"
+        ],
+        [
+            "L1",
+            "L2",
+            "L3",
+            "L4",
+            "L5",
+            "L6",
+            "L7"
+        ],
+        [
+            "Readings that set the foundation: Start by reviewing the Course Syllabus and Schedule to stay ahead of the curve. Then, learn how to seamlessly connect to WebLabs, where you’ll master the tools Minitab and iGrafx, critical for quality analysis and process improvement.",
+            "Explore the fundamentals: Through Lesson 1 Content and Chapters 1 & 2 of Managing for Quality and Performance Excellence, you’ll uncover the core principles of quality management, learning how top organizations set the gold standard.",
+            "Team Collaboration: You’ll also begin dissecting the Baldrige Application assigned to your team, working together to analyze and apply real-world strategies for achieving excellence!"
+        ],
+        [
+            "In-depth Readings: Start with the Online Lesson Content, then dive into Chapter 5 of Managing for Quality and Performance Excellence to further enhance your grasp on quality management principles. You’ll also explore Chapters 3 & 4 of Managing Business Process Flows – Principles of Operations to uncover the mechanics behind effective process flows and operational strategies.",
+            "Baldrige Application Deep Dive: Continue your exploration of the Baldrige Application, focusing on Sections 1 & 2. You’ll apply what you’ve learned to real-world scenarios, gaining insights into how award-winning organizations create and maintain stellar processes."
+        ],
+        [
+            "Lesson Content that Delivers Insight: Begin by exploring the Online Lesson Content, which will introduce you to key statistical methods used in quality management.",
+            "Key Readings on Statistics: In Chapter 6 of Managing for Quality and Performance Excellence, you’ll discover how to leverage statistics to monitor performance, identify trends, and make data-driven decisions that propel organizations to the next level.",
+            "Baldrige Application Analysis: This week, you’ll focus on Sections 3 & 4 of the Baldrige Application, where you’ll witness firsthand how leading organizations use statistical tools to measure their progress and sustain excellence."
+        ],
+        [
+            "Lesson Content that Empowers: Start by reviewing the Online Lesson Content, which will introduce you to the fundamentals of control charts and their role in maintaining consistent quality in processes.",
+            "Mastering Control Charts: Dive into Chapter 8 of Managing for Quality and Performance Excellence, where you’ll explore how control charts help monitor variability, identify trends, and detect out-of-control processes before they become costly issues."
+        ],
+        [
+            "Exploring Key Tools: Start with the Online Lesson Content, where you’ll be introduced to a wide range of quality tools like fishbone diagrams, Pareto charts, and flowcharts. These tools are essential for analyzing processes, identifying root causes, and implementing solutions effectively.",
+            "Deep Dive into Quality Tools: In Chapter 7 of Managing for Quality and Performance Excellence, you’ll explore how these tools are used in real-world scenarios to ensure continuous improvement and sustained success. You’ll learn how to select the right tools for the job, interpret data, and apply them to drive process improvements."
+        ],
+        [
+            "Core Lesson Content: Begin by reviewing the Online Lesson Content, which will introduce the principles of DOE and how it is used to explore and optimize processes by testing different variables and conditions.",
+            "In-Depth Reading on DOE: In Chapter 6 of Managing for Quality and Performance Excellence, you’ll learn how to structure experiments that uncover the relationships between factors affecting performance. This powerful approach helps organizations fine-tune their processes and improve quality outcomes.",
+            "Baldrige Application Analysis: This week, you’ll focus on Sections 5 & 6 of the Baldrige Application, seeing how world-class organizations apply DOE principles to experiment with different approaches and achieve peak performance."
+        ],
+        [
+            "Six Sigma & Lean Foundations: Begin with the Online Lesson Content, where you’ll dive into the principles behind Six Sigma and Lean—two of the most influential approaches to process improvement. Learn how Six Sigma’s data-driven strategies and Lean’s focus on eliminating waste come together to create unstoppable organizational excellence.",
+            "Mastering the Tools: In Chapters 9 & 10 of Managing for Quality and Performance Excellence, you’ll explore how top companies implement Six Sigma and Lean to reduce defects, streamline operations, and enhance customer satisfaction. You’ll gain insight into tools like DMAIC (Define, Measure, Analyze, Improve, Control) and Lean’s principles of flow and value.",
+            "Baldrige Application Analysis: This week, you’ll wrap up your analysis by reviewing Section 7 of the Baldrige Application, seeing how leading organizations integrate Six Sigma and Lean to continuously innovate and improve performance."
+        ],
+        [
+            "Career Impact",
+            "Real World Examples"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "http://direct.mbsbooks.com/psude.htm",
+            "url": "http://direct.mbsbooks.com/psude.htm"
+        },
+        {
+            "text": "University Policies and Resources",
+            "url": "https://sites.psu.edu/gvwc/course/penn-state-university-policies-and-resources/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [],
+    "tables": [
+        [
+            [
+                "Assignment Category",
+                "Quantity",
+                "% of Final Grade"
+            ],
+            [
+                "Weekly Homework and Discussions",
+                "Various",
+                "35%"
+            ],
+            [
+                "Midterm Exam",
+                "1",
+                "20%"
+            ],
+            [
+                "Final Exam",
+                "1",
+                "20%"
+            ],
+            [
+                "Baldrige Award Team Project",
+                "1",
+                "25%"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"2041\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

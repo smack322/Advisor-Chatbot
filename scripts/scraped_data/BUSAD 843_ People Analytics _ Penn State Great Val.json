@@ -1,0 +1,625 @@
+{
+    "metadata": {
+        "title": "BUSAD 843: People Analytics – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=5647"
+    },
+    "headings": {
+        "h2": "Lesson 14: Team Project Presentations",
+        "h4": "Unlocking Your Potential",
+        "h3": "Three Types of Analytics",
+        "h5": "Examples of the kinds of questions that ELV calculations can help to answer:"
+    },
+    "paragraphs": [
+        "BUSAD 843: People Analytics is a three-credit course provides students with the skills to integrate process modeling, data analytics, and evidence-based decision-making into the management of people within organizations. Designed to bridge traditional human resource (HR) practices with data-driven approaches, the course prepares students to leverage HR information systems and analytical tools to make strategic, measurable decisions.",
+        "Through a combination of readings, hands-on activities, and real-world case studies, students will model HR processes, develop data queries, analyze results, and generate actionable reports. Key HR areas such as talent selection, compensation, performance evaluation, productivity management, training and development, and occupational health will be explored. Students will also learn to apply HR metrics to assess diversity, equity, and inclusion (DEI) initiatives and evaluate the impact of HR processes on broader business outcomes.",
+        "By the end of this course, students will gain a leadership perspective that values evidence-based decision-making. They will enhance their ability to interpret and communicate insights from people data, effectively supporting organizational change efforts and strategic initiatives. Overall, students will leave with the analytical and technical skills needed to drive success in modern HR management.",
+        "BUSAD 843 is a World Campus (WC) course offered 100% online to Penn State graduate students, including MBA students and students in other professional master’s programs. This course counts as an elective in the Talent and Diversity Leadership concentration in the OMBA program and in the Analytics for Managers, Leading in Diversity, Equity, and Inclusion, and Human Resource Management graduate certificate programs. The topics, insights, and applications addressed in this course are also relevant to other graduate programs that develop students’ business analytics and decision-making skills.",
+        "People analytics is centered at the intersection of an organization’s business and (HR) strategy, statistics, technology systems, and the application of scientific methods. Students in this course will gain hands-on experience by using a mock company database to test their analytic models and their ideas about how to address the questions that business professionals have about people working in organizations. Students will also have the opportunity to model a real-world management challenge and evaluate the analytical techniques and augmented decision-making tools that could be used to reach an outcome or decision.",
+        "BUSAD 801 or STAT 500 or instructor/program approval. Students are typically expected to have completed a prior statistics course at the undergraduate or graduate level.",
+        "The course will provide you with an in-depth look at how to:",
+        "A grade is given primarily on the basis of the instructor’s judgment as to the student’s scholarly attainment. Grading of class projects and exams involves a scoring rubric and comparison to products/exams of other students in the class. Each student should consider that s/he is starting the course with a mean (average) grade. Student work will either lower or raise this grade. Students are reminded that a letter grade of A is given to students who do exceptional work in both the quality of communicating ideas/information and the level of scholarship demonstrated, not simply for completion of assignments or meeting minimal requirements set for assignments. Student work will be graded as:",
+        "The grade-point equivalents for +/- marks are A- (3.67), B+ (3.33), B- (2.67), and C+(2.33).",
+        "*Grades will be based on the following scale:",
+        "A = 93-100, A- = 90-92.99, B+ = 87-89.99, B =83 -86.99, B- = 80-82.99, C+ = 77-79.99, C = 70-76.99, D = 60-69.99, and F = Below 60",
+        "There are 14 weekly discussion forums in this course. Students will be evaluated based on their timely and meaningful responses to forum questions. At a minimum, each student is expected to post one direct response to the prompt and one response to other students’ postings for each forum question. Quality of interaction is always valued over quantity. In addition, students are highly encouraged to share references to additional and relevant resources with the rest of the class via posting to the appropriate forum. Weekly class discussions will be evaluated using two criteria on a 5-point scale (10 points total). The 12 discussions with the highest grades will be used in the final calculation for class participation.",
+        "The goal of the assigned exercises is the understanding, based on hands-on experience, of the translation of managerial questions into research questions answerable through data analysis. Several walk-throughs of the exercises, including sample queries, are provided in the lessons for the class. Each student will prepare a summary report of the exercises they completed; a minimum of two completed exercises is required. If a third exercise is completed, we will count the two highest grades earned for this assignment.",
+        "Working in teams of 2-4 students throughout the semester, students will complete online activities designed to reflect and extend the reading assignments and class notes. These team activities and their corresponding team discussions span more than one week/lesson. Hence, team reports may entail more than one part as the team works through an activity. A total of three (3) team reports are assigned.",
+        "Working within their team, students will decide on an HRM area of interest and will select a decision that managers typically must make in that area. Students will 1) develop a model for the focal HR process or problem, 2) develop an analytics model that describes at least one of the decision processes, 3) list the data and data characteristics required for a decision, 4) describe the process used to get and organize the data and the analytical techniques and tools that would be used to reach an outcome or decision, and 5) describe the anticipated deployment and life cycle management of the model. Students may use available databases and other resources to demonstrate the feasibility of their approach and anticipated outcomes, but actual data collection, determination of an outcome, and validation is not required. Students will present and discuss their projects in a forum during the last week of class.",
+        "At the end of the semester, each student will be asked to rate and comment on the individual contributions of team members, including themselves throughout the course. A form for this evaluation is provided. The individual grade on this assignment will reflect the overall ratings provided by the members of each team as well as the instructor’s evaluation of the quality and completeness of the submitted peer review form.",
+        "*subject to change",
+        "Let’s look more deeply at the three types of analytics and the pertinent questions that are posed to gather the correct data.",
+        "Descriptive Analytics: In the exploration of data analytics, we find the foundational layer of Descriptive Analytics. The quintessential question associated with this layer is: “What happened?” This can be analogized to the story beginning with, “Once upon a time…” Within this framework, descriptive analytics describes and frames what happened in the past by analyzing and visualizing data from an event or phenomena that has already occurred.",
+        "Predictive Analytics:  At the core, predictive analytics endeavors to forecast impending events by gauging probabilities and discerning emergent trends.  The question associated with this layer is: “What will happen next?”  This can be analogized to the story beginning with “Changes are….” Such forecasts are predicated upon the relationships discerned within the data and models germinated from our earlier understanding via descriptive analytics, incorporating tools such as regression analysis and machine learning. In essence, predictive analytics embodies the art and science of prognostication, grounded in rigorous statistical evaluation of historical, contemporary, and prospective data trajectories.",
+        "Prescriptive Analytics: Prescriptive analytics endeavors to prescribe what should happen, or what is the best course of action given what we know from the data.  Also, what we perceive to be constraints and opportunities, not as widely used as machine learning. The question associated with this layer is “What should I do?” This can be analogized to the story beginning with, “The best thing to do…” It not only informs but also counsels on the optimal path forward, taking into account our amassed data knowledge, and the constraints and opportunities that lie ahead.",
+        "Several articles are included as course resources to describe the legal and ethical issues and guidelines re: privacy laws, risk management, and people data protection.",
+        "Calculating Employee Lifetime Value involves considering various elements such as the employee’s productivity, contributions to projects, potential for innovation, and their impact on team dynamics. It goes beyond just financial metrics and takes into account the overall value an employee adds to the company culture and success. ELV is valuable for strategic human resources management, helping organizations make informed decisions about talent acquisition, development, and retention. Understanding and maximizing Employee Lifetime Value is crucial for creating a workforce that not only meets current needs but also contributes to the sustained growth and success of the organization over time.  ​",
+        "This course will provide you with a thorough introduction to:",
+        "During this course you will expand your knowledge of the lesson topics each week.",
+        "This lesson introduces People Analytics as a critical tool for data-driven decision-making in the modern business landscape. Learn how it goes beyond traditional HR practices to provide actionable insights into workforce trends and behaviors.",
+        "By the end of this lesson, you will have a clear understanding of what People Analytics is, its applications, and the professional skills required to succeed in the field. This foundational knowledge will prepare you to analyze workforce data effectively and contribute to data-driven business strategies.",
+        "This lesson introduces the Modified Business Value Creation Model, highlighting the interconnected relationship between people, processes, products, and financial outcomes. Learn how stakeholders—owners, employees, and customers—play pivotal roles in shaping business success.",
+        "By the end of this lesson, you will gain a deeper understanding of the dynamic relationships among people, processes, products, and financial outcomes. You will also develop the skills to analyze value creation and identify stakeholders, preparing you to drive impactful analytics projects.",
+        "This lesson highlights the importance of data systems as the backbone of People Analytics. Learn how these systems transform raw data into actionable insights to support strategic decision-making in HR.",
+        "By the end of this lesson, you will understand the critical role of data systems in People Analytics, be familiar with common HR data sources, and have foundational skills for navigating relational databases while adhering to ethical and legal guidelines. These competencies will prepare you to extract actionable insights from HR data systems effectively.",
+        "This lesson focuses on the importance of segmenting data based on shared characteristics for analysis and reporting. Understand how grouping people by demographics, job functions, or behavioral patterns contributes to actionable insights in People Analytics.",
+        "By the end of this lesson, you will gain proficiency in segmenting data and designing queries in MS Access. These foundational skills will empower you to organize and analyze people data effectively, preparing you for more advanced People Analytics tasks in future lessons.",
+        "This lesson focuses on the critical role of statistical techniques in developing analytical models. Learn when and how to apply tools like measures of central tendency, variance, correlation, ANOVA, and regression to analyze workforce data.",
+        "By the end of this lesson, you will have a strong foundation in statistical techniques and their applications in people analytics. You will also gain the skills to choose appropriate tools for analytical models, enabling you to extract actionable insights and support data-driven decision-making in organizations.",
+        "This lesson focuses on the critical skill of translating business problems into research questions that can be analyzed using statistical tools. Learn how to frame questions that guide data-driven decision-making in areas such as performance, pay, and attrition.",
+        "By the end of this lesson, you will have the skills to frame analytical questions, build decision models, and use statistical tools to uncover actionable insights about performance, pay, and fairness in workforce decisions. These competencies will prepare you to address complex HR challenges with a data-driven approach.",
+        "This lesson builds on previous exercises by focusing on converting research questions into actionable hypotheses. Learn how hypotheses guide the use of statistical tools for analysis and testing.",
+        "By the end of this lesson, you will gain the ability to analyze structured data using statistical techniques, present findings with actionable recommendations, and refine analytical approaches to address limitations effectively. These skills will empower you to deliver impactful insights in workforce analytics.",
+        "This lesson explores Employee Lifetime Value (ELV) as a metric for assessing the net value an employee contributes to an organization throughout their tenure. Learn how this concept parallels Customer Lifetime Value (CLV) and supports strategic HR decisions.",
+        "By the end of this lesson, you will gain a deeper understanding of how to calculate and apply ELV and NAV metrics to evaluate workforce value. These insights will empower you to align HR strategies with organizational goals and make data-driven decisions that optimize employee contributions.",
+        "This lesson begins with the essential question, “Do we need to hire?” and delves into workforce planning. Learn how supply and demand analyses inform decisions about staffing needs and recruitment strategies.",
+        "By the end of this lesson, you will gain a comprehensive understanding of workforce planning and recruitment analytics. These skills will enable you to forecast staffing needs, evaluate recruitment effectiveness, and incorporate advanced tools like AI into hiring processes while ensuring ethical practices.",
+        "This lesson explores how to define and measure “better applicants” by translating recruitment questions into specific, actionable analytics questions. Learn how recruitment sources impact applicant quality and performance.",
+        "By the end of this lesson, you will be equipped to analyze recruitment strategies, evaluate talent acquisition metrics, and leverage advanced tools to enhance hiring decisions. These skills will help you address real-world recruitment challenges and optimize workforce outcomes.",
+        "This lesson explores the importance of employee engagement and its impact on productivity, quality, and workplace environments. Learn how engagement reflects employees’ commitment and affects key organizational outcomes, including customer satisfaction and innovation.",
+        "By the end of this lesson, you will have the skills to analyze employee engagement and its relationship with productivity and quality. You will also learn to use advanced analytics tools to visualize insights, empowering you to drive meaningful improvements in workplace dynamics.",
+        "This lesson examines voluntary turnover and retention, focusing on the factors influencing employees’ decisions to stay with or leave an organization. Learn how to apply people analytics to assess and predict these workforce trends.",
+        "By the end of this lesson, you will have the skills to model and predict employee attrition and retention using people analytics. You will also learn to interpret and visualize workforce data effectively, providing actionable insights to address turnover and enhance employee retention strategies.",
+        "This lesson provides an opportunity to review the key concepts, skills, and methods learned throughout the course. Understand how applying data-driven approaches to people management has equipped you with actionable insights for solving organizational challenges.",
+        "By the end of this lesson, you will consolidate your knowledge and skills in people analytics, equipped to apply evidence-based methods to real-world challenges. Reflecting on your learning journey, you’ll leave with a well-rounded understanding of the strategic and ethical implications of data-driven decision-making.",
+        "This final lesson is dedicated to presenting the cumulative work you’ve completed throughout the course. Highlight your analytical skills and insights through the Team People Analytics Project and Presentation, showcasing your ability to solve real-world challenges with data-driven solutions.",
+        "By the end of this lesson, you will have successfully completed the course and demonstrated your proficiency in people analytics through discussions, exercises, reports, and the final team project. Reflecting on your achievements, you will leave equipped with valuable skills to excel in data-driven decision-making in workforce management.",
+        "BUSAD 843: People Analytics equips students with the skills and knowledge to harness data-driven approaches for managing and optimizing human capital in organizations. By focusing on predictive analytics, workforce planning, and metrics like Employee Lifetime Value (ELV) and retention modeling, this course prepares graduates to make strategic decisions that align with business objectives. Students learn to integrate statistical tools, ethical considerations, and strategic insights, enabling them to influence organizational culture, enhance productivity, and drive innovation.",
+        "Careers in people analytics are highly sought after in today’s data-driven business landscape. Graduates of BUSAD 843 can pursue roles such as People Analytics Specialist, Workforce Planning Analyst, HR Data Scientist, and Talent Management Consultant. These positions are prevalent across industries, from tech giants optimizing employee engagement to consulting firms designing data-driven HR strategies. The ability to analyze people data effectively positions professionals to lead transformative initiatives, making them valuable assets in a competitive job market.",
+        "One real-world example of a people analytics application can be seen in a large retail organization experiencing high employee turnover, particularly in its customer service department. The organization noticed that turnover rates were affecting customer satisfaction, as new employees required significant time and resources for training. Managers suspected that low engagement and limited career advancement opportunities were contributing to the issue, but they lacked data to confirm their assumptions or guide actionable solutions.",
+        "To address this, a People Analytics Specialist trained in BUSAD 843 was brought in to analyze the problem. Using a combination of employee engagement surveys, historical attrition data, and performance metrics, the specialist built a predictive model to identify patterns and key drivers of turnover. The analysis revealed that employees with unclear career development paths and inconsistent feedback from managers were significantly more likely to leave within their first year.",
+        "Armed with these insights, the specialist proposed several targeted interventions, including mentorship programs, structured performance reviews, and clear advancement pathways. They also developed dashboards to monitor engagement and turnover metrics in real-time. Within a year of implementing these changes, the organization saw a marked decrease in turnover rates and a corresponding improvement in customer satisfaction scores. This example highlights the transformative impact of applying people analytics to solve complex workforce challenges, demonstrating the value of the skills developed in BUSAD 843.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Describe, model, and evaluate human resource processes such as recruitment, selection, compensation, performance evaluation, productivity management and enhancement, training, development, safety protocols, and occupational health ​",
+            "Demonstrate understanding of the various sources of unstructured and structured data you may encounter in business settings​",
+            "Demonstrate the ability to apply traditional predictive analytics techniques, such as linear and multiple regression and various forecasting methods, to identify trends in data and future staffing and performance requirements​",
+            "Recognize the relative strengths and limitations as well as common errors and biases associated with using certain tools and approaches to analyzing data​",
+            "Develop queries, analyze data, and generate reports that meaningfully and ethically “tell a story” that is appropriately tailored to those who need and can use the information​",
+            "Apply frameworks and metrics that link people data with business outcomes, strategic initiatives, and diversity, equity, and inclusion goals"
+        ],
+        [
+            "West, M. (2019). People Analytics for Dummies. NJ: John Wiley & Sons. ISBN: 978-1-119-43476-4.\n\nStudents will need to purchase either the printed or e-book version.",
+            "Students will need to purchase either the printed or e-book version.",
+            "Other assigned readings of articles will be provided throughout the course and listed in the readings in each lesson overview."
+        ],
+        [
+            "Students will need to purchase either the printed or e-book version."
+        ],
+        [
+            "Students will need Excel and MS Access (which are part of Office 365) and statistical software such as SPSS, SAS, R, or Python.  *Note: It does not matter which one, but students need some way to run some statistics. SPSS should be free to PSU students.",
+            "Students will also need to be able to use Bing Chat (or ChatGPT), which is included in MS Edge (in Office 365)."
+        ],
+        [
+            "A (4.00; EXCELLENT) indicates exceptional achievement.",
+            "B (3.00; GOOD) indicates substantial achievement.",
+            "C (2.00; SATISFACTORY) indicates acceptable but substandard achievement.",
+            "D (1.00; POOR/) is a failing grade for a graduate student.",
+            "F (0.00; FAILURE) indicates work unworthy of any credit."
+        ],
+        [
+            "Introduction to People Analytics",
+            "Framing the People Question",
+            "Systems and HR Databases",
+            "Segmenting People Data",
+            "Statistics and Predictive Modeling",
+            "Evaluating Differences in People Data",
+            "The Value of Employing People",
+            "AI and Predictive People Analytics",
+            "Presenting Data-Driven Results",
+            "Data-Driven Employee Engagement",
+            "Defining Success in Analytics",
+            "People Analytics Project"
+        ],
+        [
+            "Three Types of Analytics",
+            "Legal & Ethical Issues",
+            "Employee Lifetime Value"
+        ],
+        [
+            "The Federal Trade Commission provides a business guide for protecting employees’ and customers’ personal information:https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-businessSee also: https://www.ftc.gov/business-guidance/privacy-security ​",
+            "The Society for Human Resource Management points out some of the legal risks associated with using “big data” for people analytics and HR decision-making: https://www.shrm.org/resourcesandtools/legal-and-compliance/employment-law/pages/legal-risks-of-big-data.aspx​",
+            "A 2021 article in Forbes magazine describes the top seven obligations a company has regarding employee data privacy:https://www.forbes.com/sites/forbestechcouncil/2021/10/15/top-seven-obligations-concerning-employee-data- privacy/?sh=39376c442e94​",
+            "The U.S. Equal Employment Opportunity Commission (EEOC)  provides links to various components of the EEOC’s privacy program, including Privacy Act issuances, privacy impact assessments, breach notification policies, and policies related to the protection of information and privacy. The EEOC’s privacy program follows the requirements of the Privacy Act of 1974, 5 USC 552a, and EEOC’s privacy regulations, 29 C.F.R. 1611. The Privacy Act establishes practices that govern the collection, maintenance, and sharing of information about individuals that is maintained in a “system of records” by federal agencies.https://www.eeoc.gov/privacy-act"
+        ],
+        [
+            "Should we allocate resources to the average ELV (in dollars) per job segment or to the total ELV (in dollars) per segment?",
+            "How can we develop a model to predict how much time and money it will take to fill a workforce plan?",
+            "What incentives do our recruiters have to optimize the talent pool they find for us?  How can we encourage recruiters to find rarer (but ideal) talent and/or talent that are more difficult to convince? ​",
+            "How much should we spend to attract, activate, and retain different types of employees in our organization?​",
+            "How can we show the value of an employee’s effort above their cost?​",
+            "What is the difference in estimated ELV in each job family by performance rating? ​",
+            "What is the difference in estimated ELV in each job family by pre-hire characteristics and recruitment costs?​",
+            "What strategy should we use to increase ELV?  Should we increase the number of employees in a segment, increase the value each incumbent employee produces, or extend the tenure of employees in the segment?​"
+        ],
+        [
+            "people analytics principles and applications in workforce management,",
+            "predictive analytics for understanding and anticipating workforce trends,s",
+            "tatistical and visualization techniques for analyzing employee data,",
+            "ethical considerations and legal guidelines in people data analytics,",
+            "frameworks for evaluating employee engagement, retention, and turnover,",
+            "talent acquisition metrics and strategies for optimizing recruitment,",
+            "advanced methods such as logistic regression and sentiment analysis, and",
+            "integrating analytics insights into strategic organizational decision-making."
+        ],
+        [
+            "L1-L2",
+            "L3-L4",
+            "L5-L6",
+            "L7-L8",
+            "L9-L10",
+            "L11-L12",
+            "L13-L14"
+        ],
+        [
+            "Strategic Impact: Explore how People Analytics transforms HR practices to improve organizational performance and employee outcomes.",
+            "Definition and Scope: Understand the definition of People Analytics and its importance in data-driven decision-making."
+        ],
+        [
+            "Defining People Analytics Discussion: Share your understanding of People Analytics and its role in modern organizations.",
+            "Real-World Case Analysis: Review a case study of a tech company using People Analytics to address employee turnover and improve satisfaction."
+        ],
+        [
+            "People and Process Results: Learn the drivers behind talent outcomes, strategy implementation, and innovation.",
+            "Customer and Financial Results: Analyze how customer choices and experiences connect to a firm’s profitability and long-term financial health."
+        ],
+        [
+            "Value Creation Analysis: Map out the Modified Business Value Creation Model for a case company, identifying people, process, and customer results.",
+            "Feedback Loop Simulation: Explore how financial results influence future people and process decisions using a practical example."
+        ],
+        [
+            "Sources of HR Data: Understand common sources of people data and their relevance to HR analytics.",
+            "Relational Database Concepts: Learn how relational databases like HRIS organize and connect various HR metrics."
+        ],
+        [
+            "Team Report Activity: Collaborate on the second part of the Jelly Beans Activity, applying insights from HR data systems.",
+            "Database Exploration Exercise: Review and analyze the LPT Inc. database to understand its structure and use in HR analytics."
+        ],
+        [
+            "Segmentation Basics: Learn the principles of grouping data by shared characteristics for meaningful analysis.",
+            "Query Design in MS Access: Develop the technical skills to create simple and cross-tab queries."
+        ],
+        [
+            "Segmentation Exercise: Use the LPT, Inc. database to group employees by demographics, job functions, and tenure.",
+            "Query Creation Workshop: Design simple and cross-tab queries in MS Access to extract and summarize key data points."
+        ],
+        [
+            "Statistical Techniques: Learn when and how to use central tendency, variance, correlation, ANOVA, and regression for workforce analysis.",
+            "Deductive Reasoning: Understand how to apply descriptive and inferential statistics to predictive analytics models."
+        ],
+        [
+            "Statistical Techniques Workshop: Practice calculating and interpreting measures of central tendency, variance, correlation, and regression using sample datasets.",
+            "Predictive Modeling Case Study: Apply descriptive and inferential statistics to create a basic predictive model for workforce trends."
+        ],
+        [
+            "Decision Process Models: Construct models that align data analysis with decision-making goals.",
+            "Statistical Techniques: Apply tools like ANOVA, regression, and GLM to analyze workforce data effectively."
+        ],
+        [
+            "Decision Process Model Exercise: Practice creating decision process models to frame and address questions about performance and pay differences.",
+            "Team Report Activity: Collaborate on Team Report #2 to apply statistical methods and interpret insights from workforce data."
+        ],
+        [
+            "Hypothesis Framing: Learn to translate research questions into hypotheses for data analysis.",
+            "Statistical Application: Apply tools like regression, ANOVA, and GLM to structured datasets effectively."
+        ],
+        [
+            "Hypothesis Development Exercise: Practice framing hypotheses based on research questions from structured datasets.",
+            "Statistical Analysis Workshop: Use advanced statistical tools to analyze data and interpret results, focusing on structured workforce datasets."
+        ],
+        [
+            "Employee Lifetime Value (ELV): Understand how ELV quantifies the long-term contributions of employees to organizational success.",
+            "Net Activated Value (NAV): Learn to calculate and interpret NAV as a measure of employee effort above cost."
+        ],
+        [
+            "Employee Lifetime Value Workshop: Practice calculating ELV using sample workforce data, incorporating factors such as tenure and contributions.",
+            "NAV Calculation Exercise: Apply formulas to estimate Net Activated Value for a segment of employees, analyzing the implications of activation levels."
+        ],
+        [
+            "Workforce Planning: Learn to assess staffing needs through data-driven supply and demand analyses.",
+            "Talent Acquisition Metrics: Understand how to calculate and apply metrics like cost-per-hire and quality-of-hire."
+        ],
+        [
+            "AI in Recruitment Case Study: Evaluate the potential impact of AI tools on recruitment and selection processes, including ethical implications.",
+            "Workforce Planning Workshop: Practice forecasting staffing needs using data analysis techniques like regression modeling."
+        ],
+        [
+            "Defining Recruitment Success: Translate recruitment questions into clear, data-driven research questions.",
+            "Talent Metrics and Decision-Making: Apply metrics like quality-of-hire and cost-per-hire to evaluate recruitment strategies."
+        ],
+        [
+            "Recruitment Source Comparison Exercise: Analyze data from the LPT Database to compare the effectiveness of college recruits versus agency hires.",
+            "Talent Acquisition Metrics Workshop: Calculate and interpret metrics to assess recruitment efficiency and applicant quality."
+        ],
+        [
+            "Employee Engagement Analysis: Understand how engagement impacts productivity, quality, and organizational outcomes.",
+            "Multi-Level Analysis: Evaluate engagement, climate, and culture at individual, group, and organizational levels."
+        ],
+        [
+            "Engagement Data Exploration: Identify and assemble data to evaluate employee attitudes, behavior, and workplace climate.",
+            "Sentiment Analysis Workshop: Use sentiment analysis to analyze employee feedback and generate visual representations with word clouds."
+        ],
+        [
+            "Voluntary Turnover vs. Retention: Differentiate between voluntary and involuntary turnover and their impact on organizational outcomes.",
+            "Predictive Modeling: Learn how to use logistic regression to predict employee attrition based on individual and organizational data."
+        ],
+        [
+            "Attrition Analysis Workshop: Use descriptive analytics and visualization techniques to analyze voluntary turnover data.",
+            "Logistic Regression Exercise: Apply logistic regression to model and predict employee attrition based on key factors."
+        ],
+        [
+            "Core People Analytics Concepts: Reiterate the principles of evidence-based decision-making, predictive analytics, and solving business problems through data.",
+            "Strategic and Ethical Considerations: Understand how to frame analytics recommendations in a strategic and ethical manner."
+        ],
+        [
+            "Discussion on Problems and Solutions: Participate in the class discussion to analyze real-world challenges and solutions in people analytics.",
+            "Database Exercise Report Submission: Finalize and submit any outstanding database exercise reports, applying the analytics skills you’ve honed throughout the course."
+        ],
+        [
+            "People Analytics Presentation: Showcase your ability to analyze and interpret people data effectively through a team presentation.",
+            "Peer Feedback: Engage in meaningful peer review to evaluate collaboration and contributions."
+        ],
+        [
+            "Team Presentation Delivery: Post your Team People Analytics Presentation to the class discussion and provide thoughtful feedback on peers’ presentations.",
+            "Reflective Class Discussion: Participate in the final class discussion to share your takeaways and discuss how you’ll apply people analytics in future scenarios."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business",
+            "url": "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business"
+        },
+        {
+            "text": "https://www.ftc.gov/business-guidance/privacy-security",
+            "url": "https://www.ftc.gov/business-guidance/privacy-security"
+        },
+        {
+            "text": "https://www.shrm.org/resourcesandtools/legal-and-compliance/employment-law/pages/legal-risks-of-big-data.aspx",
+            "url": "https://www.shrm.org/resourcesandtools/legal-and-compliance/employment-law/pages/legal-risks-of-big-data.aspx"
+        },
+        {
+            "text": "https://www.forbes.com/sites/forbestechcouncil/2021/10/15/top-seven-obligations-concerning-employee-data- privacy/?sh=39376c442e94",
+            "url": "https://www.forbes.com/sites/forbestechcouncil/2021/10/15/top-seven-obligations-concerning-employee-data-privacy/?sh=39376c442e94"
+        },
+        {
+            "text": "https://www.eeoc.gov/privacy-act",
+            "url": "https://www.eeoc.gov/privacy-act"
+        },
+        {
+            "text": "Strategy Foundation",
+            "url": "https://psu.instructure.com/courses/2258287/modules/items/41687213"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "Book cover of People Analytics for Dummies by Mike West. The cover features a yellow and black design with a blue circular section containing text highlights such as 'Learn how top companies use people analytics,' 'Analyze data to quantify your investment in people,' and 'Use feedback to create a winning people culture.' The background displays a network of connected icons representing people.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/BUSAD_People_Analytic_Book.png"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Assignment Category",
+                "Quantity",
+                "Weight (% of Final Grade)"
+            ],
+            [
+                "Class Participation (Weekly Discussion Forum)",
+                "14",
+                "15%"
+            ],
+            [
+                "Database Exercises",
+                "2",
+                "20%"
+            ],
+            [
+                "Team Reports",
+                "3",
+                "30%"
+            ],
+            [
+                "People Analytics Team Project",
+                "1",
+                "30%"
+            ],
+            [
+                "Peer Evaluation",
+                "1",
+                "5%"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"5647\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

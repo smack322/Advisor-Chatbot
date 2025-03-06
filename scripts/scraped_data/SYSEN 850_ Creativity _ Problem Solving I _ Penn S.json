@@ -1,0 +1,562 @@
+{
+    "metadata": {
+        "title": "SYSEN 850: Creativity & Problem Solving I – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2505"
+    },
+    "headings": {
+        "h2": "The Management of Diversity in the Context of Change",
+        "h4": "Unlocking Your Potential",
+        "h3": "Techniques for Enhancing Level"
+    },
+    "paragraphs": [
+        "SYSEN 850: Creativity & Problem Solving is a three-credit course that offers students an essential grounding in the art and science of problem solving within Engineering Management. Emphasizing creativity, cognitive processes, and problem-solving techniques, this course empowers students to navigate complex challenges with innovation and strategic clarity. Through a combination of theoretical insights and practical applications, students explore how creativity and structure can work together to drive effective solutions. Topics include cognitive function, styles of problem solving, and the nuanced role of structure, all of which lay a critical foundation for advanced courses like SYSEN 552.",
+        "In addition to theory, SYSEN 850 incorporates hands-on activities and case studies across engineering, science, and management fields, ensuring students can apply their learning in real-world settings. By analyzing change as a catalyst and learning to manage diverse problem-solving approaches within teams, students will leave the course with a refined toolkit of adaptive strategies and collaborative skills. This course is ideal for students looking to build versatile, interdisciplinary skills in problem solving, making them well-prepared to lead and innovate in the complex landscape of Engineering Management.",
+        "This course provides students with the socio-technical foundations needed to address the interdisciplinary, integrative, and collaborative aspects of Engineering Management; this foundation will be developed further in SYSEN 552. This course will address fundamental principles of individual problem solving, creativity, and the process of change, establishing a solid and rigorous core of facilitating concepts and language that will be useful throughout the program. To serve this purpose, selected elements of cognitive psychology will be examined, along with general and domain-specific models of problem solving and change processes, a range of problem solving techniques, and illustrative examples of these (and other) key topics in a variety of contexts.",
+        "Specific coverage will include:",
+        "Students entering this class are assumed to have no previous expertise in cognitive psychology or any other related social science. The course is designed to provide a basic yet thorough introduction to problem solving from the individual perspective, including the diverse ways in which people respond to and seek to bring about change. It serves as the prerequisite for SYSEN 552: Creativity and Problem Solving II, where principles of collaborative problem solving will be examined.",
+        "The fundamental objective of this course is to help students become better and more effective problem solvers through a clear understanding of the cognitive processes involved in individual problem solving and creative activity. Students who complete this course successfully will be able to:",
+        "M. J. Kirton, Adaption-Innovation in the Context of Diversity and Change, Routledge, 2006 (reprint edition).  (Free E-Book option available).ISBN-13: 978-0415298513 or ISBN-10: 0415298512 (paperback)",
+        "E-Book Option: An online version of your text is available at no cost as a Penn State Library E-Book. You can access the E-Book through the Library Resources link on the course navigation. You may choose to use the E-Book as an alternative to purchasing a physical copy of the text. For questions or issues, contact the University Libraries Reserve Help (UL-RESERVESHELP@LISTS.PSU.EDU).",
+        "Grades will be based on the following scale:",
+        "A = 95 – 100, A- = 90 – 94, B+ = 87 – 89, B = 84 – 86, B- = 80 – 83, C+ = 77 – 79, C = 70 – 76, D = 60 – 69, and F = 60 and below.",
+        "There will be a discussion forum associated with each lesson. You are required to log on to every discussion forum and to post at least one original response related to the assigned topic as well as a minimum of two substantive responses (in general) to your classmates postings. The specific posting requirements will be included along with the discussion topic for each forum. You are not required to follow threads from previous lessons, but you are always welcome to post comments that relate to any previous discussion if it also relates to the current theme in some way.",
+        "Your instructor will monitor all discussion forums and will participate in them throughout the course to evaluate your performance every week and provide feedback (as a group and/or on an individual basis). Your formal grade for discussion forum performance will be calculated based on the number of postings you make and the quality of your comments (e.g., degree of advanced thinking, quality of communication).",
+        "There will be two written assignments during the course: Reflection & Synthesis (R&S) #1 – #2. These are due at the end of Lessons 2 and 5, respectively. The purpose of these assignments is to help you reflect upon, analyze, synthesize, and apply the material covered in this course. You are welcome to work together in the early stages of these assignments (e.g., discussing your ideas, pondering approaches, recommending references), but the final product must be entirely your own individual work.",
+        "In completing each assignment, you are expected to submit neat, organized, and complete written documents that demonstrate higher order thinking and good communication skills (i.e., the quality of your writing will be assessed). Typed assignments (1.5 line spacing or double-spaced; 12-point font; 1″ margins; and citations following either the APA or MLA format) are required. Each written assignment is worth a total of 100 points and 20% of your course grade. Of these 100 points, 80 points will be used to assess the content of your response (e.g., have you completed the required task, the depth of your analysis), while the remaining 20 points will be used to assess the quality of your communication (e.g., your writing – grammar, spelling, punctuation, clarity of expression, etc.).",
+        "There will be two exams: one midterm exam (20% of course grade) and one final exam (20% of course grade). The purpose of these exams is to ensure your ready recall of fundamental concepts and key points covered in this course; they will not focus on minute detail (e.g., no dates). In terms of format, all exams will be primarily (if not completely) multiple choice, with the possibility of a few short answer questions.",
+        "All exams will be given as timed online exams, offered within prescribed windows of opportunity during the appropriate week. You will have a restricted amount of time to complete each exam once you have begun it – i.e., you will not be able to “pause” or “save” the exam and return to it later. All exams are to be completed without the collaboration or assistance of any other individuals, including other students, and without access to previous copies of any exam from this course. You will be “on your honor” to follow these requirements; evidence of cheating will be dealt with according to Penn State Academic Integrity policies.",
+        "Both exams will be proctored online using proctoring software that uses your computer’s webcam or other technology to monitor and/or record your activity during exams. The proctoring software may be listening to you, monitoring your computer screen, viewing you and your surroundings, and recording any activity (including visual and audio recordings) during the proctoring process.",
+        "*subject to change",
+        "Here, we are dealing fundamentally with reason, as opposed to reflex or instinct as mentioned above. This schema is not a physiological diagram; instead, it shows the brain’s functioning as departments of an organization whose primary aim is self-survival (imagine a boardroom of 100 billion neurons, looking after 100 trillion other cells!).",
+        "Note the three main elements of cognition:",
+        "as well as these other important terms: Behavior, Environment, and Product. Now we will consider the basic functions, roles, and relationships of and between all of the above.",
+        "First, Cognitive Affect selects the problem (opportunity) to solve out of all those available (however they have come to our attention) and determines the kind of solution needed or desired, includ­ing the means that are acceptable for attaining it. So, for example, you might be asked to produce a particular circuit assembly in half the usual time, but without sacrificing quality. Or, you might have to defend yourself against an attacker, but choose to disarm the person rather than kill him. These choices are driven by motive, another of the four principal elements of problem solving.",
+        "Note the subtext in this portion of the schema – i.e., I WANT – which describes motive in its most general form. Freud (an Austrian who founded psychoanalysis) separated “I WANT” into three specific parts: I NEED – I LIKE – I OUGHT. I NEED is the imperative – I must find the solution or die. I LIKE comes into play when I have options and can choose the solution I prefer (assuming it is available). I OUGHT operates when I am willing to postpone an immediate reward for a later, “higher” reward (e.g., for the sake of others, the team); I OUGHT helps us collaborate with those (needed) others and provides a reason for the development of ethics. All these forms of motive will be reflected in what I KNOW (Cognitive Resource), since the opportunities (problems) I choose to tackle (based on motive) will determine the knowledge and experience I need to gain (and will pursue).",
+        "Once the problem (opportunity) has been chosen via Cognitive Affect, Cognitive Effect carries out the detailed problem solving process, i.e., it plans a problem’s solution through to implementation (I PLAN). This process is enabled and limited by one’s:",
+        "More specifically, potential cognitive level (“at what level”) refers to one’s innate capacity for problem solving; it is measured by such means as intelligence, talent, and/or the degree of complexity one can handle. Cognitive style (“in what way”) refers to the preferred and stable manner in which a person responds to and seeks to bring about change (including the solution of problems); style can also be measured along a number of dimensions, including Adaption-Innovation, Introversion-Extraversion, etc.",
+        "Level and style are independent, a fact we will simply state now, with proofs provided later (in Lesson 3). We also note that style is established early in life (by one’s mid-teens, if not sooner) and does not change – i.e., style is fixed. So, just as style is independent from capacity (i.e., level), style is also not behavior, which is flexible (through coping behavior – which is learned; see more on Behavior below).",
+        "Finally, Cognitive Resource contains and processes the accumulated knowledge, skills, and experience of the individual (I KNOW). This is manifest level (what you actually know about different things – e.g., engineering, playing an instrument, foreign languages, etc.), as opposed to potential level (your capacity to know, which is housed in Cognitive Effect). Here is a simple analogy: potential level describes the size (and shape) of the cognitive “bucket” that is your brain; manifest level describes the contents of that bucket.",
+        "Cognitive Resource is your “backroom powerhouse” that influences the scope of all other operations; it continues to digest and manipulate its contents at all times (even as we sleep) – accumulating events, and by learning, turning them into experience, and by further learning, transforming experience into theory (whether one uses this term or not). Brought to bear throughout the problem solving process, it is the accumulation of the results from all previous problem solving activities, as well as feedback from the environment.",
+        "Some techniques are intended to release potential capacity, i.e., to help us utilize more of the capacity we were born with or to utilize it more effectively. So, for example, if your idea generation is blocked, you might do something that relaxes you – e.g., take a walk around the block, go driving in your car, take a nap, etc. – i.e., something aimed at reducing the fatigue or anxiety that may be impeding the best use of your capacity (rather like “helping” your computer by restarting it). Or, if you are distracted (say, by too much noise or too many stimuli), you might go find a quiet place to do your work, break things down into small pieces, or do the parts that require the least concentration. These techniques are all examples of things we can do to release additional potential level (from within our existing store); they don’t solve the problem you are working on directly, but they may enable you to do so later or more efficiently.",
+        "Recall the processes associated with Cognitive Resource – i.e., Learning and Memory. Techniques to enhance manifest level can be used to impact the effectiveness of either or both of these. So, enhancing manifest level refers to increasing how much we learn (and retain) and how quickly we learn it, as well as how much of it we recall and how quickly/effectively we recall it.",
+        "There are many different kinds of techniques aimed at enhancing manifest level. One example is mnemonics, which include acronyms (e.g., “ROY G BIV” for colors of the rainbow – Red, Orange, Yellow, Green, Blue, Indigo, Violet), acrostics (“Every Good Boy Does Fine” for the G-clef notes on sheet music), and rhymes. For many more examples, search the Web using “mnemonic devices” or “mnemonic techniques” as keywords. Another example is the group of methods called “speed reading” techniques; these enable a person to work through more written information in less time, with a higher level of retention. Since techniques aimed at enhancing manifest level improve actual (level) performance, they increase one’s problem solving effectiveness directly.",
+        "It is appropriate to consider once again the larger context of problem solving and how the specific material we have been learning fits into this strategic view. To support this exercise, refer to the Table below as we discuss the progression of theoretical elements, fundamental aims, practical entry points, and personal insights that guide our study along the path from the individual problem solver to problem solving teams and, ultimately, to problem solving leadership. In this course, you are completing the first stage of this journey; let’s summarize its key features first and then explore where they will lead.",
+        "Students who complete this course successfully will be able to:",
+        "During this course you will expand your knowledge of the lesson topics each week.",
+        "In this first lesson, you’ll be introduced to the fundamentals of problem-solving, focusing on cognitive styles through Adaption-Innovation (A-I) theory. You’ll explore the role of cognitive style in shaping problem-solving approaches and learn how A-I theory can enhance team performance and leadership in engineering management contexts.",
+        "By the end of this lesson, you’ll gain a solid understanding of cognitive style and how it impacts problem-solving in engineering management, setting a strong foundation for collaborative work in complex environments.",
+        "This lesson delves into the Adaption-Innovation continuum, examining how preferences for structure influence problem-solving styles. Through core readings, you’ll gain insight into adaptive and innovative approaches, understanding the characteristic behaviors associated with each. These concepts form a foundation that will be built upon in future lessons, allowing you to see how cognitive styles shape individual and team dynamics.",
+        "By the end of this lesson, you’ll have a deeper understanding of how structured and flexible approaches to problem-solving coexist, helping you navigate complex issues with greater insight and adaptability.",
+        "In this lesson, you’ll dive into how differing styles and levels impact creative thinking and problem solving. By exploring the definitions of style and level, you’ll gain a better understanding of cognitive diversity and the challenges of rigidly defining creativity. Readings will guide you through current perspectives on creativity and the cognitive functions that drive it, providing clarity amid the lack of consensus in this field.",
+        "Through these activities, you’ll strengthen your grasp on how cognitive diversity enhances problem-solving, preparing you for collaborative, innovation-driven roles in engineering management.",
+        "Building on the concepts introduced in Lesson 3, this lesson delves into the process and technique aspects of problem-solving. By exploring how different approaches to process and technique can shape problem-solving outcomes, you’ll gain further insights into cognitive diversity within team settings. The readings provide perspectives on managing the intellectual structures that influence how individuals approach challenges, especially within technical and scientific domains.",
+        "This lesson will empower you to integrate process and technique into your problem-solving toolkit, giving you a comprehensive approach to managing complex projects and team dynamics in engineering and technical fields.",
+        "Building on the concepts introduced in Lesson 3, this lesson delves into the process and technique aspects of problem-solving. By exploring how different approaches to process and technique can shape problem-solving outcomes, you’ll gain further insights into cognitive diversity within team settings. The readings provide perspectives on managing the intellectual structures that influence how individuals approach challenges, especially within technical and scientific domains.",
+        "By the end of this lesson, you’ll be equipped to bridge the gap between theory and practice, enhancing your ability to apply change models and manage complex projects effectively.",
+        "Building on previous lessons, this week provides an in-depth look into the latter half of Chapter 3, covering the development, testing, and practical applications of KAI theory. Reviewing this foundational content will give you a comprehensive perspective on KAI’s role in understanding and enhancing problem-solving capabilities within diverse teams.",
+        "These activities will help you strengthen your command of KAI concepts, equipping you to apply theory effectively and foster innovation and adaptability within your professional field.",
+        "This lesson covers advanced concepts in managing cognitive diversity, emphasizing how the Paradox of Structure impacts problem-solving within diverse teams. Through case studies, you’ll examine how disciplines like science and music apply this paradox, helping you better understand the catalytic role of change in complex projects.",
+        "By engaging in these activities, you’ll gain practical strategies for managing diversity in teams and learn how to drive successful outcomes in rapidly changing environments.",
+        "A Master’s in Systems Engineering with a focus on SYSEN 850: Creativity and Problem Solving uniquely equips graduates to tackle complex, interdisciplinary challenges across industries. This course hones critical thinking, innovative problem-solving, and adaptability—key skills for engineers tasked with managing dynamic projects. By mastering creative techniques, cognitive styles, and structured problem-solving approaches, graduates become proficient in viewing systems holistically, addressing interconnected issues, and driving solutions that are both effective and sustainable.",
+        "For systems engineers, these skills translate to a competitive edge in roles that require balancing technical expertise with strategic insight, such as systems architecture, project management, and technical consulting. The ability to apply creativity within structured processes and to manage cognitive diversity within teams prepares graduates to lead high-impact projects, innovate under pressure, and navigate the complexity of modern engineering environments with confidence and agility.",
+        "In the aerospace industry, the design and development of next-generation unmanned aerial vehicles (UAVs) present a complex, interdisciplinary challenge that requires systems engineers to blend technical expertise with creative problem-solving. For instance, an aerospace company tasked with meeting stringent government requirements for performance, safety, and sustainability must balance competing priorities such as fuel efficiency, payload capacity, and environmental compliance. Using structured problem-solving techniques from SYSEN 850, systems engineers can effectively tackle these challenges. Divergent and convergent thinking approaches allow the team to brainstorm innovative hybrid propulsion systems while refining ideas to ensure feasibility within the project constraints.",
+        "Managing a multidisciplinary team of mechanical engineers, software developers, and environmental scientists adds another layer of complexity. Differences in problem-solving styles and cognitive approaches can lead to inefficiencies or conflicts if not properly managed. Leveraging the tools taught in SYSEN 850, such as cognitive diversity audits and the KAI framework, the project manager can align team roles to capitalize on individual strengths. This enables seamless collaboration and ensures that adaptive and innovative thinkers contribute effectively to their respective domains, fostering a balanced and productive team dynamic.",
+        "By applying holistic systems thinking, systems engineers address the interconnected nature of UAV subsystems—propulsion, materials, navigation, and compliance—ensuring they work harmoniously without compromising performance. Techniques such as the Spiral of Change model help the team navigate evolving requirements and constraints, allowing iterative progress even under uncertainty. As a result, the UAV design not only meets but exceeds government efficiency and sustainability goals, positioning the company as a leader in the market. This real-world application underscores how SYSEN 850 equips graduates with the skills to lead high-impact projects, drive innovation, and manage complexity confidently across industries.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Cognitive function: the brain’s organization of problem solving",
+            "Links between creativity, problem solving, and decision making",
+            "Principal elements of problem solving: opportunity, motive, level, and style",
+            "The critical role of structure in problem solving",
+            "Problem solving processes and techniques",
+            "Individual assessment of problem solving style",
+            "The catalytic nature of change",
+            "The management of problem solving diversity and change",
+            "Problem solving teams and problem solving leadership (introduction)",
+            "Case studies and examples (in science, engineering, management, etc.)"
+        ],
+        [
+            "Explain how problem solving works from an individual cognitive perspective",
+            "Explain the links between problem solving, creativity, and decision making",
+            "Recognize and appreciate their own respective problem solving abilities and styles",
+            "Understand and appreciate the diverse problem solving abilities and styles of others",
+            "Describe, using real-world examples, the impact of cognitive diversity in engineering",
+            "Analyze, evaluate, and apply problem solving processes and techniques",
+            "Analyze real-world examples of scientific and technological change"
+        ],
+        [
+            "The Organization of Problem Solving",
+            "Paradigms and the Paradox of Structure",
+            "Style, Level, Process, and Technique (Part I)",
+            "Style, Level, Process, and Technique (Part II)",
+            "Links between Theory and Practice (Part I)",
+            "Links between Theory and Practice (Part II)",
+            "The Management of Diversity in the Context of Change"
+        ],
+        [
+            "Cognitive Function Schema",
+            "Techniques for Enhancing Level",
+            "Problem Solving Collaboration"
+        ],
+        [
+            "Cognitive Affect",
+            "Cognitive Effect",
+            "Cognitive Resource"
+        ],
+        [
+            "(Potential) Cognitive Level",
+            "(Preferred) Cognitive Style"
+        ],
+        [
+            "Explain how problem solving works from an individual cognitive perspective",
+            "Explain the links between problem solving, creativity, and decision making",
+            "Recognize and appreciate their own respective problem solving abilities and styles",
+            "Understand and appreciate the diverse problem solving abilities and styles of others",
+            "Describe, using real-world examples, the impact of cognitive diversity in engineering",
+            "Analyze, evaluate, and apply problem solving processes and techniques",
+            "Analyze real-world examples of scientific and technological change"
+        ],
+        [
+            "L1",
+            "L2",
+            "L3",
+            "L4",
+            "L5",
+            "L6",
+            "L7"
+        ],
+        [
+            "Introduction to Problem-Solving Fundamentals: Importance of cognitive style in shaping individual and team problem-solving dynamics.",
+            "Adaption-Innovation (A-I) Theory: Key distinctions between cognitive level (ability) and cognitive style (approach)."
+        ],
+        [
+            "Reading and Discussion: Review foundational concepts of A-I theory, focusing on cognitive function, instinct, and style distinctions.",
+            "KAI Inventory Exercise: Complete the Kirton Adaption-Innovation inventory to identify personal cognitive style."
+        ],
+        [
+            "Understanding the Paradox of Structure: How paradigms and existing frameworks shape thought processes and scientific discoveries.",
+            "Real-World Applications: Insights into the contributions of influential scientists and the role structure played in their discoveries."
+        ],
+        [
+            "Historical Case Studies: Analyze the lives and works of key scientists (e.g., Kuhn, Lightman) to see how structure influenced their groundbreaking ideas.",
+            "Personal Reflection & Synthesis Assignment: v"
+        ],
+        [
+            "Understanding Style and Level in Creativity: Definitions and distinctions between cognitive style (approach to thinking) and cognitive level (capacity or ability).",
+            "Challenges in Defining Creativity: Insights into the lack of consensus on creativity and its cognitive drivers."
+        ],
+        [
+            "Interactive Case Study: Examine a scenario where diverse styles and levels influence team problem-solving effectiveness, applying key concepts to analyze outcomes and recommend strategies.",
+            "Reading and Analysis: Engage with articles and readings that explore the dimensions of creativity, cognitive diversity, and their practical implications."
+        ],
+        [
+            "Divergent and Convergent Methods in Innovation: Understanding the balance between divergent (idea generation) and convergent (idea refinement) approaches.",
+            "Connecting Theory to Practice: Practical insights into applying A-I theory in engineering management and project development."
+        ],
+        [
+            "Interactive Problem-Solving Activity: Work on a scenario-based activity to apply divergent and convergent techniques in solving a technical design problem.",
+            "Personal Reflection & Synthesis Assignment: Continue building your reflective synthesis by connecting A-I theory concepts to practical scenarios in engineering management."
+        ],
+        [
+            "Connecting Theory to Practice: Practical insights into applying A-I theory in engineering management and project development.",
+            "Divergent and Convergent Methods in Innovation: Understanding the balance between divergent (idea generation) and convergent (idea refinement) approaches."
+        ],
+        [
+            "Collaborative Discussion Forum: Participate in a discussion with peers to analyze how process and technique influence technical problem-solving.",
+            "Interactive Problem-Solving Activity: Work on a scenario-based activity to apply divergent and convergent techniques in solving a technical design problem."
+        ],
+        [
+            "Personalized Insights from the KAI Feedback Booklet: Understand your individual problem-solving style and its practical implications in professional settings.",
+            "Preparation for Final Exam: Review the core principles of KAI theory, focusing on their application to real-world management challenges."
+        ],
+        [
+            "Scenario-Based Analysis: Work through a real-world scenario where KAI concepts are applied to address a management or design challenge.",
+            "Personalized Reflection: Reflect on how your style can be used effectively in varied professional contexts and team settings."
+        ],
+        [
+            "Kirton’s Spiral of Change Model: Learn how this model applies to navigating dynamic challenges in team and leadership settings.",
+            "The Role of Diversity in Leadership: Understand the importance of conducting diversity audits to identify strengths and address gaps in team composition."
+        ],
+        [
+            "Personal Reflection: Reflect on how cognitive diversity and the Spiral of Change model apply to your leadership or teamwork experiences.",
+            "Case Study Analysis: Analyze a case study illustrating how leaders have successfully managed diversity and navigated evolving challenges using adaptive strategies."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Adaption-Innovation in the Context of Diversity and Change",
+            "url": "https://catalog.libraries.psu.edu/catalog/21323200"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "Image if adaption innovation text for sysen 850",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/10/pf-text-for-sysen-850.jpg"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Assignment",
+                "Points Each",
+                "Quantity",
+                "Percentage of Final Grade"
+            ],
+            [
+                "Reflection & Synthesis",
+                "100 each",
+                "2",
+                "40%"
+            ],
+            [
+                "Discussion Forums",
+                "25 each",
+                "7",
+                "20%"
+            ],
+            [
+                "Midterm Exam",
+                "100",
+                "1",
+                "20%"
+            ],
+            [
+                "Final Exam",
+                "100",
+                "1",
+                "20%"
+            ]
+        ],
+        [
+            [
+                "",
+                "Stage 1",
+                "Stage 2",
+                "Stage 3"
+            ],
+            [
+                "Overarching Theme",
+                "Individual problem solver",
+                "Problem solving teams",
+                "Problem solving leadership"
+            ],
+            [
+                "Personal Insights",
+                "Me, alone(individual awareness)",
+                "Me, working with others",
+                "Me, facilitating others(managing self & others)"
+            ],
+            [
+                "Fundamental Aim",
+                "Rigorous foundation; Precision (of terms, concepts)",
+                "Efficient relationships",
+                "Mutual effective achievement"
+            ],
+            [
+                "Key Elements of Theory",
+                "Cognitive diversity;Paradox of Structure",
+                "Cognitive gap;Progression of change",
+                "Management of diversity; Management of change"
+            ],
+            [
+                "Practical Entry Points",
+                "Individual traits;Management Initiative (e.g.)",
+                "Problems A and B",
+                "Pendulum of Changevs. Spiral of Change"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"2505\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

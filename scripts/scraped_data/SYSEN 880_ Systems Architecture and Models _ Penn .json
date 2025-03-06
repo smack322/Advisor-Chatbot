@@ -1,0 +1,422 @@
+{
+    "metadata": {
+        "title": "SYSEN 880: Systems Architecture and Models – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2219"
+    },
+    "headings": {
+        "h2": "Dominare Fundamenta Incertitudinis Modulationis",
+        "h4": "Unlocking Your Potential",
+        "h5": "Required Textbook",
+        "h3": "Explora Potentiam Probabilitatis et Statisticae"
+    },
+    "paragraphs": [
+        "SYSEN 880: Advanced System Architecture and Modeling is a 3-credit course that equips students with the skills to design and analyze complex system architectures. The course covers essential concepts, advanced techniques, and methods for creating robust architectures, emphasizing the analysis of form and function to synthesize cohesive systems. Students will gain hands-on experience with Model-Based Systems Engineering (MBSE) and the Systems Modeling Language (SysML), learning to document and communicate architectural perspectives effectively. These competencies will enable students to develop and represent system architectures for complex systems using industry-standard tools.",
+        "Ideal for system engineers, architects, product design engineers, product managers, and project managers working on commercial or military engineering systems, the course provides valuable insights into system development. Key topics include mapping form to function, decomposition and reintegration methods, MBSE applications in architecture analysis, and view-based frameworks for comprehensive system documentation. SYSEN 880 prepares students to address real-world engineering challenges with practical expertise.",
+        "This course covers the fundamental concepts, techniques, and methods for creating and analyzing system architecture of complex systems. System engineers, system architects, product design engineers, product managers, and project managers working in the system development of commercial or military engineering systems will benefit from this course. Major topics to be covered include analysis of form and function, the process of mapping form to function, methods of decomposition and re-integration, application of model-based systems engineering for development and analysis of system architecture, and view-based architectural frameworks for documentation of system architecture.",
+        "After completing the course, a student will be able to:",
+        "The texbooks for this course are available for free as online resources.  Readings will be provided by your instructor and made available through links in the Course Schedule.",
+        "Chapter readings from the following books will be required.  Online versions of both books are freely available to Penn State students via the PSU Library. Links are provided for your convenience.  If you have any issues accessing the material, please contact the PSU Library.",
+        "Visual Paradigm is available for free to students. Registration requires an e-mail address. Once you provide your e-mail address, you will receive an activation code to access the Visual Paradigm program. There are two options for using Visual Paradigm:",
+        "A grade is given solely on the basis of the instructor’s judgment as to the student’s scholarly attainment (see the Penn State Graduate Degree Programs Bulletin, p. 41). The following grading system applies to graduate students:",
+        "Grades will be based on the following scale:",
+        "A = 94-100, A- = 90-93, B+ = 87-89, B = 84-86, B- = 80-83, C+ = 77-79, C = 70-76, D = 60-69, and F = Below 60.",
+        "There will be group discussion forums for you to share and discuss your individual checkpoints. You are expected to post, read, and respond to your classmates. Your instructor will participate in the discussions when it is appropriate.",
+        "Use the general discussion forum to post your questions regarding the course content. Your instructor will monitor this forum occasionally.",
+        "Hoc exemplum textus est quod in hac sectione adhibetur. Plenum est scientiae et cognitionis, quae discipulum informat. Propositum eius est adiuvari discendi processum per utilem informationem praebendam.",
+        "Hoc exemplum textus est.",
+        "Quod in hac sectione adhibetur.",
+        "Plenum est scientiae et cognitionis.",
+        "Propositum eius est adiuvari discendi.",
+        "*subject to change",
+        "This course will provide you with a thorough introduction to:",
+        "During this course you will expand your knowledge of the lesson topics each week.",
+        "This lesson will equip you with the skills and knowledge to tackle the complex world of decision-making in engineering and technology. Get ready to explore how structured approaches can transform uncertainty into opportunity, setting the foundation for smart, data-driven choices.",
+        "Dive deep into the fascinating realm of decision analysis. Through hands-on experiences and interactive learning, you’ll uncover techniques to model decisions, understand outcomes, and optimize strategies. From structuring problems to evaluating risk profiles, you’ll master the tools to navigate uncertainty with confidence.",
+        "This lesson will not only enhance your decision-making prowess but also inspire you to view uncertainty as a challenge that can be tackled with the right tools and m",
+        "Haec lectio te armabit artibus et scientia ad navigandum mundum incertitudinis in decisionibus faciendis. Para te ad explorandum quomodo probabilitas et statistica ambiguitatem in perspicientiam convertant, fundamenta iacientes pro decisionibus strategicis ex datis ductis.",
+        "Haec lectio te armabit artibus et scientia ad navigandum mundum incertitudinis in decisionibus faciendis. Para te ad explorandum quomodo probabilitas et statistica ambiguitatem in perspicientiam convertant, fundamenta iacientes pro decisionibus strategicis ex datis ductis.",
+        "Haec lectio non solum tuam facultatem ad incertitudinem efficaciter modulandam augebit, sed etiam te incitabit ut inconstantiam",
+        "Haec lectio te armabit artibus et scientia ad navigandum mundum incertitudinis in decisionibus faciendis. Para te ad explorandum quomodo probabilitas et statistica ambiguitatem in perspicientiam convertant, fundamenta iacientes pro decisionibus strategicis ex datis ductis.",
+        "Haec lectio te armabit artibus et scientia ad navigandum mundum incertitudinis in decisionibus faciendis. Para te ad explorandum quomodo probabilitas et statistica ambiguitatem in perspicientiam convertant, fundamenta iacientes pro decisionibus strategicis ex datis ductis.",
+        "Haec lectio non solum tuam facultatem ad incertitudinem efficaciter modulandam augebit, sed etiam te incitabit ut inconstantiam",
+        "We will start the lesson by",
+        "In this lesson, you will",
+        "In this lesson we will",
+        "In this lesson we will",
+        "Mastering software requirements engineering can greatly enhance your career by expanding your skill set, making you a key player in the successful delivery of software projects. You’ll be able to bridge the gap between stakeholders and technical teams, which is an invaluable skill in project management, enhancing collaboration and ensuring the developed software meets user needs and business goals. Additionally, having this expertise can open doors to senior roles like Business Analyst or Product Manager, leading to career growth and potentially higher compensation.",
+        "One real-world example of a software requirements engineering problem can be seen in the healthcare industry. A hospital wanted to implement a new Electronic Health Record (EHR) system to improve patient care and reduce manual administrative tasks. However, the stakeholders (doctors, nurses, administrators, and patients) all had different needs, and there were also strict regulations to comply with. The requirements were poorly defined and communicated, leading to a software product that did not fully meet the needs of its users, was difficult to use, and failed to comply with all necessary regulations. This caused delays in patient care, an increase in administrative tasks, and potential regulatory fines, highlighting the consequences of poorly executed software requirements engineering.",
+        "To address this, a requirements engineer was brought in to thoroughly define and communicate the system requirements. The engineer worked closely with all stakeholders to understand their unique needs, and carefully examined the regulatory standards. This led to a comprehensive and clear list of requirements that served as a guide for the software developers. With this, the EHR system was redesigned to meet all user needs, was user-friendly, and fully compliant with regulations. The successful implementation of the revised EHR system dramatically improved patient care, reduced manual tasks, and ensured regulatory compliance, illustrating the significant real-world impact of effective software requirements engineering.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Learn the significance of system architecture",
+            "Learn fundamental concepts underlying a system architecture",
+            "Learn models, methods, and tools for architecture development and analysis",
+            "Demonstrate understanding of influences on system architecture decisions",
+            "Explore architectural frameworks for documentation of system architecture"
+        ],
+        [
+            "Sangwan, Raghvinder S. (2015). Software and Systems Architecture in Action. CRC Press",
+            "Holt, J. and Perry, S. (2018). SysML for Systems Engineering: A Model-Based Approach. 3rd ed., Publisher: Stevenage"
+        ],
+        [
+            "Free Online Version of Visual Paradigm",
+            "Free Downloadable Version of Visual Paradigm (Community Edition)"
+        ],
+        [
+            "“A” (Excellent) indicates exceptional achievement.",
+            "“B” (Good) indicates substantial achievement.",
+            "“C” (Satisfactory) indicates acceptable but substandard achievement.",
+            "“D” (Poor) indicates inadequate achievement and is a failing grade for a graduate student."
+        ],
+        [
+            "requirements engineering processes and practices,",
+            "requirements elicitation techniques,",
+            "quality metrics and methods for requirements specifications,",
+            "applications of formal methods to requirements engineering,",
+            "agile software development methodologies and their use in software and systems requirements engineering,",
+            "management considerations for requirements engineering, and",
+            "a value driven approach to requirements tradeoff analysis."
+        ],
+        [
+            "L1",
+            "L2",
+            "L3",
+            "L4",
+            "L5",
+            "L6",
+            "L7"
+        ],
+        [
+            "Learning Expedition: Begin with the essentials of structuring decisions and making choices. Explore risk profiles, dominance, and sensitivity analysis to see how theory meets real-world application.",
+            "Case Study Exploration: Step into the shoes of decision-makers at Southern Electrics and Dumond International to understand how these principles shape critical business outcomes.",
+            "Automated Sensitivity Analysis: Get hands-on with “Top Rank” to see how technology automates complex decision evaluations, taking your skills to the next level."
+        ],
+        [
+            "Exploratio Discendi: Incipe a plena recensione probabilitatis et statisticae fundamentalis, deinde profundius cognosce varias distributiones probabilitatis, sicut binomialem, Poissonianam, et normalem.",
+            "Instrumenta Visualizationis et Analytica: Utere @Risk ad visualizandas probabilitatis theoricas simulationes in actione, explorans quomodo diversae distributiones in veris condicionibus se gerant.",
+            "Technicae Modulationis Datae: Perite artem aptandi data ad creandas distributiones probabilitatis, convertendo rudia data in instrumenta perspicientiae ad decisiones faciendas."
+        ],
+        [
+            "Exploratio Discendi: Incipe a plena recensione probabilitatis et statisticae fundamentalis, deinde profundius cognosce varias distributiones probabilitatis, sicut binomialem, Poissonianam, et normalem.",
+            "Instrumenta Visualizationis et Analytica: Utere @Risk ad visualizandas probabilitatis theoricas simulationes in actione, explorans quomodo diversae distributiones in veris condicionibus se gerant.",
+            "Technicae Modulationis Datae: Perite artem aptandi data ad creandas distributiones probabilitatis, convertendo rudia data in instrumenta perspicientiae ad decisiones faciendas."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Software and Systems Architecture in Action",
+            "url": "https://www-taylorfrancis-com.ezaccess.libraries.psu.edu/books/mono/10.1201/b17575/software-systems-architecture-action-raghvinder-sangwan"
+        },
+        {
+            "text": "SysML for Systems Engineering: A Model-Based Approach",
+            "url": "https://courses.worldcampus.psu.edu/canvas/master/mst-20220713105011-alm626/common/corefiles/Holt_3rd_Edition_Book.pdf"
+        },
+        {
+            "text": "Information Technology Support",
+            "url": "https://it.psu.edu/get-support"
+        },
+        {
+            "text": "Free Online Version of Visual Paradigm",
+            "url": "https://online.visual-paradigm.com/subscribe.jsp?t=diagrams"
+        },
+        {
+            "text": "Free Downloadable Version of Visual Paradigm (Community Edition)",
+            "url": "https://www.visual-paradigm.com/editions/community/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [],
+    "tables": [],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"2219\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

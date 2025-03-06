@@ -1,0 +1,571 @@
+{
+    "metadata": {
+        "title": "STS 589: Ethics and Values in Science and Technology – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=3905"
+    },
+    "headings": {
+        "h2": "Lesson 7: Ethics in International Engineering and Professionalism",
+        "h4": "Unlocking Your Potential",
+        "h3": "Course Requirements and Grading"
+    },
+    "paragraphs": [
+        "STS 589 is a dynamic 3-credit course that delves into the intricate relationships between 20th-century technological advancements and their profound impact on human values. This course offers students a comprehensive exploration of how technological progress shapes and is shaped by social, ethical, and cultural forces. By focusing on the ethical implications and societal consequences of technological change, students will critically engage with the moral dilemmas and challenges posed by innovations in fields ranging from communication to healthcare, and from environmental issues to artificial intelligence.",
+        "Through thought-provoking discussions, case studies, and interdisciplinary analysis, STS 589 equips students with the tools to navigate the complexities of technology’s role in society. Whether you are passionate about ethics, technology, or the intersection of both, this course provides invaluable insights into the evolving relationship between humans and technology, preparing you to think critically and ethically in a rapidly changing world.",
+        "This course examines the ethical issues within science and engineering from a problem-solving perspective. Fundamental concepts of preventive ethics are considered, as well as professional responsibility within the technical community. Students will learn general organizing principles and specific techniques for framing and analyzing moral problems. These principles and techniques will be applied through case studies and other class exercises within a number of technical contexts, including computing, engineer/manager relationships, and research and testing environments, to name a few.",
+        "Upon successful completion of this course, students will be able to:",
+        "You may purchase course materials from MBS Direct (the bookstore used by Penn State’s World Campus). For pricing and ordering information, please see the MBS Direct website. MBS Direct can also be contacted at 1-800-325-3252. Materials will be available at MBS Direct approximately three weeks before the course begins. Alternatively, you may obtain these texts from other favorite bookstores. (NOTE: Be sure you purchase the edition/publication date listed.)",
+        "Please remember that ALL questions about grades, course lesson content, and assignments should be directed to your course instructor. If you have any technical difficulties using the tools within this course, please contact the Penn State Helpdesk.",
+        "All course-related e-mails should go through Canvas’s course mail function (Canvas Inbox). Using Canvas to contact your instructor ensures that your message will be read, and your instructor will respond to you in a timely manner.",
+        "Many of the University Libraries’ resources can be utilized from a distance. Through the Library website, you can access magazines, journals, and articles; borrow materials and have them delivered to your doorstep; and get research help via email chat or phone from a librarian.",
+        "For more information, view the Penn State University Library",
+        "All of these course materials (except for the textbook) will be available to you through Canvas. These materials include:",
+        "Materials will be provided to you on a lesson-by-lesson basis using Web pages and documents in Microsoft Word (.doc, .docx) or Portable Document Format (PDF). Material that you submit must be uploaded into the appropriate assignment in Canvas and should be submitted as PDF files (or, in select cases, I will tell you when a Microsoft Word document is an appropriate submission format). I will not have the ability to read any other file formats, and I appreciate your cooperation with these details of the course.",
+        "Note: A grade is given solely on the basis of the instructor’s judgment as to the student’s scholarly attainment (see the Penn State Graduate Degree Programs Bulletin).",
+        "The following grading system applies to graduate students:",
+        "Students are reminded that simply meeting the minimal requirements of any assignment (both in terms of content and presentation) will result in a letter grade of “B” or less for that assignment.",
+        "*Grades will be based on the following scale:",
+        "A = 95 – 100, A- = 90 – 94, B+ = 87 – 89, B = 84 – 86, B- = 80 – 83, C+ = 77 – 79, C = 70 – 76, D = 60 – 69, and F = Below 60.",
+        "Questions will be posted in each week’s discussion forum.",
+        "Instructions for the Special Topics Paper can be found in Modules at the end of Lesson 1.",
+        "Assignments are found in the Modules at the end of each Lesson.",
+        "Each exam will be found in Modules. You will have one week to complete each exam.",
+        "Exams and projects are due on the date assigned. If you have a legitimate reason for not completing the exam or project on time, please email well in advance of the due date for the exam or project. Your final letter grade will be determined by the Grading Scale below.",
+        "There will be discussion forums most weeks. I expect the initial question to be answered by Thursday. Over the weekend you are to engage in meaningful conversation with at least two other students. Each individual student is responsible for submitting their own work. Use the general discussion forum to post your questions to me regarding the course content.",
+        "*subject to change",
+        "Ethics has been described as morality and standards of proper conduct. As a matter of fact, ethics and morality terms are used interchangeably. Professionals have a specific role that determines their morality focus while practicing their profession.",
+        "In reality, we portray many different roles in life where our focused obligation changes from role to role. Thus, role morality is the obligation associated with a specific role in life. For example, a parent has an obligation not only to not harm a child but to care for that child and help them thrive. Being professional is also an example of role morality.",
+        "We know that morality is a little more complicated than just fulfilling the obligation of our profession. It is broken down into three types of morality:",
+        "(Click the tabs to learn more)",
+        "Common morality:",
+        "Set of moral ideals shared by most members of a culture or society. Example: Do not steal.",
+        "There are three characteristics of common morality:",
+        "Personal morality:",
+        "Examples: Stem cell research, abortion. Set of one’s own ethical commitments, usually learned at a young age at home or in religious training and may be modified by later reflection.",
+        "Professional ethics:",
+        "Standards adopted by professionals. Example: specific professional code of ethics. The focus is on the issues that are important to that profession",
+        "Often people do not think about the privacy and boundary crossing of technology. Think about all of the databases that contain information about your income, purchasing habits, and political and religious affiliations. More recently with the help of social networking sites information such as your exact GPS location is posted with a simple upload of your favorite photo from your mobile phone. Are computers invading our privacy?",
+        "Types of privacy:",
+        "(Click the tabs to learn more)",
+        "Physical privacy examples:",
+        "Decisional privacy example:",
+        "Freedom form anyone making decisions about your life such as your political/religious believes. One’s beliefs can be easily exposed via technology.",
+        "Proprietary privacy example:",
+        "Controlling the use of one’s name/likeness/identity. Technology can be used to assist in this violation by facilitating identity theft.",
+        "The resources presented in this section can be thought of as a tool-kit to help solve boundary-crossing problems.",
+        "The creative middle way attempts to honor the customs and/or competing moral demands of both the host and home country in some form (as long as they don’t violate fundamental moral considerations). Basically, we are using the methods we know already to determine whether the creative middle way is ethically acceptable.",
+        "We need to avoid two extremes: Moral Laxism and Moral Rigorism.",
+        "Moral Laxism is where moral principles cannot be strictly applied, we justify in applying them loosely in that moral constraints are almost completely abandoned. A laxist allows solutions to moral problems that involve serious violations of moral standards.",
+        "Moral Rigorism is where moral principles must be strictly applied in every situation. This extreme doesn’t involve any violation of moral principles.",
+        "Upon successful completion of this course, students will be able to:",
+        "During this course you will expand your knowledge of the lesson topics each week.",
+        "In this lesson, you will be introduced to the foundational concepts of professional ethics and the role they play in guiding behavior within various fields, including technology, engineering, and business. You will examine the significance of professional codes of ethics and how they help ensure accountability and trust in professional practice. You will also explore the moral responsibilities professionals face and the ethical challenges that arise in real-world scenarios.",
+        "By the end of this lesson, you will have a foundational understanding of professional ethics and the key principles that guide ethical decision-making within various industries. You will be equipped to think critically about the role of ethics in professional life and its importance in maintaining public trust.",
+        "In this lesson, you will delve into the foundational skills needed to frame and analyze moral problems. You will explore widely recognized approaches to ethical reasoning and learn how to apply these techniques to complex, real-world dilemmas.",
+        "By the end of this lesson, you will be equipped with practical tools to analyze ethical issues systematically and develop reasoned solutions to moral problems.",
+        "In this lesson, you will explore the foundational principles of ethical reasoning and their applications in analyzing technology’s impact on society. You will examine different ways of thinking about ethics and consider the interplay between technology and societal values.",
+        "By the end of this lesson, you will have a deeper understanding of key ethical frameworks and their relevance in evaluating the societal consequences of technological advancements.",
+        "This week, you will have the opportunity to consolidate your learning from the first half of the course through a comprehensive midterm assessment. You will also provide feedback on your learning experience so far, contributing to the ongoing improvement of the course.",
+        "In this lesson, you will explore the critical roles of honesty, integrity, and reliability in ethical decision-making. Additionally, you will delve into the complexities of risk and liability in engineering, learning how to estimate and navigate potential challenges responsibly.",
+        "By the end of this lesson, you will be able to connect ethical principles with practical risk management strategies, ensuring a balanced and responsible approach to complex challenges.",
+        "In this lesson, you will examine the ethical dimensions of employee rights, management practices, and organizational loyalty. You will explore case studies and theoretical frameworks to understand how engineers and managers navigate complex workplace dynamics while upholding ethical responsibilities.",
+        "By the end of this lesson, you will have developed a nuanced understanding of professional ethics and the interplay between individual integrity and organizational responsibilities.",
+        "This lesson focuses on the ethical challenges engineers and professionals face in international contexts. You will explore the complexities of working across cultural and economic boundaries while maintaining professional integrity and ethical standards.",
+        "By the end of this lesson, you will gain an appreciation for the ethical complexities of global professional work and learn strategies to address boundary-crossing challenges with integrity and cultural sensitivity.",
+        "A course in Ethics and Values in Science and Technology equips engineering management professionals with critical skills to navigate the ethical complexities of modern industries. As technology advances and global challenges grow, engineering leaders are increasingly required to make decisions that balance innovation, societal impact, and ethical responsibility. This course provides a robust framework for identifying and addressing ethical dilemmas in areas such as risk management, employee rights, environmental impact, and cross-cultural business practices. By exploring case studies and real-world scenarios, students learn how to evaluate the long-term consequences of their decisions and develop strategies to lead with integrity.",
+        "For engineering management professionals, the career impact of this course is profound. Graduates gain the ability to foster ethical organizational cultures, mitigate risks proactively, and build trust with stakeholders, which are vital in leadership roles. Additionally, understanding global ethical standards and navigating cultural differences prepare students to excel in international projects and collaborations. With this foundation, students can drive technological and organizational advancements while upholding their professional and societal responsibilities, enhancing their reputation as ethical leaders in the field.",
+        "AI and Automation in Manufacturing: Implementing AI-driven robotics in factories is another example of a project that combines technical expertise with ethical oversight. Students might lead initiatives to enhance manufacturing efficiency while addressing concerns about job displacement. This could involve designing retraining programs for affected workers, ensuring fairness in decision-making algorithms, and adhering to safety and ethical standards throughout the automation process.",
+        "Renewable Energy Projects: Renewable energy development offers significant opportunities for graduates, such as leading solar or wind farm projects in underserved regions. These initiatives require balancing cost-efficiency with environmental and societal impacts. Students would navigate challenges like land use disputes, community engagement, and ensuring equitable energy distribution to support sustainable and ethical energy solutions.",
+        "Cybersecurity Implementation in Public Systems: Protecting critical public utilities such as water or power grids offers another impactful project opportunity. Graduates would oversee initiatives to enhance cybersecurity, ensuring ethical use of collected data, protecting user privacy, and safeguarding systems against misuse. These projects balance technological advancements with societal trust and safety.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Apply professional codes of ethics in real-world settings",
+            "Recognize impediments to responsible action",
+            "Frame and analyze problems with ethical dimensions",
+            "Resolve ethical conflicts creatively",
+            "Present and discuss different views on ethical issues in constructive ways"
+        ],
+        [
+            "Engineering Ethics: Concepts and Cases (6e); by Harris, Pritchard, James, Englehardt, Rabins; (Wadsworth/Cengage Learning; 2019), ISBN: 9781337554503."
+        ],
+        [
+            "HelpDesk Website: https://student.worldcampus.psu.edu/help-and-support/technical-supportLinks to an external site.",
+            "HelpDesk Email: techsupport@worldcampus.psu.edu",
+            "HelpDesk Phone: (800) 252-3592"
+        ],
+        [
+            "Lessons (available via the ‘Modules’ in Canvas)",
+            "Articles and other handouts",
+            "Exams (available via the ‘Modules’ in Canvas)",
+            "Written assignments (available via the ‘Modules’ in Canvas)"
+        ],
+        [
+            "“A” (Excellent) indicates exceptional achievement",
+            "“B” (Good) indicates substantial achievement",
+            "“C” (Satisfactory) indicates acceptable but substandard achievement",
+            "“D” (Poor) indicates inadequate achievement and is a failing grade for a graduate student."
+        ],
+        [
+            "Each student is required to post an answer to the question by Thursday of each week. This answer should be a critical analysis of the course content presented thus far.",
+            "During the remainder of the week, each student needs to participate in a meaningful discussion with at least two classmates. Both the quality and quantity of your answers will be assessed.",
+            "There will be a Groupthink Video you will need to watch. The link for the video can be found within the Groupthink Video Self-Study Quiz or hereLinks to an external site.. You will log in to this site by registering with your email address, supplying your name, and creating your own secure password. The user id needs to be your Penn State email address so we can verify you watched the video. You each get 6 viewings of the video in case you lose connection or need to restart it for some reason – or just want to watch it again.IMPORTANT NOTE: Penn State University is paying for each of YOU to view this video. Please do not share this URL with anyone."
+        ],
+        [
+            "Role Morality and Professional Ethics",
+            "Privacy and Social Policy",
+            "Ethical Resources"
+        ],
+        [
+            "Common Morality",
+            "Personal Morality",
+            "Professional Ethics"
+        ],
+        [
+            "Physical",
+            "Decisional",
+            "Proprietary"
+        ],
+        [
+            "Apply professional codes of ethics in real-world settings",
+            "Recognize impediments to responsible action",
+            "Frame and analyze problems with ethical dimensions",
+            "Resolve ethical conflicts creatively",
+            "Present and discuss different views on ethical issues in constructive ways"
+        ],
+        [
+            "L1",
+            "L2",
+            "L3",
+            "L4",
+            "L5",
+            "L6",
+            "L7"
+        ],
+        [
+            "Professional Ethics and Codes of Ethics: Understand the importance of ethical guidelines and codes that govern various professions.",
+            "Role Morality and Professional Ethics: Explore the distinction between personal ethics and professional responsibilities.",
+            "Preventative Ethics in Engineering: Discuss how ethics play a preventive role in engineering practices, ensuring the safety and well-being of the public."
+        ],
+        [
+            "Engaging Discussions: Participate in thought-provoking conversations with peers, exchanging ideas on the role of ethics in professional practice.",
+            "Interactive Exploration: Delve into real-world case studies and scenarios that highlight the importance of ethical decision-making across various professions.",
+            "Special Topics Paper: Begin researching and planning your special topics paper, which will provide an opportunity to dive deeper into a specific ethical issue relevant to your field of interest."
+        ],
+        [
+            "Framing and Analyzing Moral Problems: Understand the process of identifying ethical challenges and analyzing the relevant facts to construct a clear ethical question.",
+            "Methods for Moral Problem Solving: Discover structured approaches, including line-drawing and creative middle ways, to resolve ethical conflicts effectively."
+        ],
+        [
+            "Interactive Exploration: Participate in activities that help you think critically about ethical dilemmas and examine different perspectives.",
+            "Engage with Multimedia Content: Explore case studies, including a thought-provoking video on the Challenger incident, to apply moral problem-solving techniques."
+        ],
+        [
+            "Organizing Principles of Ethical Thinking: Dive into utilitarian thinking, respect for persons, and approaches to resolving ethical conflicts through convergence, divergence, and creative middle ways.",
+            "Social and Value Dimensions of Technology: Investigate the relationship between technology and society, including concepts like technological determinism and the influence of technology on human values."
+        ],
+        [
+            "Reflective Exercises: Analyze scenarios to apply ethical principles and uncover the value dimensions underlying technological developments.",
+            "Discussion Forum: Engage in a thought-provoking conversation about the societal impacts of technology, exchanging insights and perspectives with your peers."
+        ],
+        [
+            "Honesty, Integrity, and Reliability: Examine the importance of truth in ethical practices and consider its use and misuse in professional and personal contexts.",
+            "Risk and Liability Engineering: Understand the principles of assessing and managing risks, with a focus on their application in high-stakes environments."
+        ],
+        [
+            "Case Study Exploration: Reflect on ethical dilemmas from real-world scenarios, including an analysis of the Challenger incident in Part 2 of the video series.",
+            "Practical Application: Apply concepts of risk estimation and integrity in your homework assignment to reinforce your understanding of these key topics."
+        ],
+        [
+            "Legal Status of Employee Rights: Gain insight into the legal and ethical considerations surrounding employee rights in the workplace.",
+            "Engineers and Managers: Explore the roles and responsibilities of engineers and managers in ethical decision-making, referencing key studies like Jackall’s empirical research and the Hitachi Report.",
+            "Loyalty in Organizations: Delve into the concepts of uncritical versus critical loyalty and learn about responsible organizational disobedience."
+        ],
+        [
+            "Case Study Reflection: Analyze Part 3 of the Challenger video series to connect theoretical concepts with real-world ethical challenges.",
+            "Engaging Discussion: Participate in a forum exploring the balance between organizational loyalty and ethical disobedience.",
+            "Special Topics Paper: Research and present an in-depth analysis of a selected ethical topic, applying the principles and frameworks discussed throughout the course."
+        ],
+        [
+            "International Engineering Professionalism: Learn about the unique responsibilities and ethical considerations for engineers working in global environments.",
+            "Boundary-Crossing Ethical Challenges: Address issues such as economic underdevelopment, differing business practices, and cultural norms around payments and services.",
+            "Balancing Business and Friendship: Explore how personal relationships and professional responsibilities intersect in various cultural contexts."
+        ],
+        [
+            "Case-Based Reflection: Reflect on ethical dilemmas involving international business practices, considering how cultural, economic, and technical factors influence decision-making.",
+            "Optional Discussion Forum: Share your thoughts and reflections on navigating diverse business practices in an international context with peers."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "MBS Direct website",
+            "url": "http://bookstore.mbsdirect.net/psude.htm"
+        },
+        {
+            "text": "https://student.worldcampus.psu.edu/help-and-support/technical-supportLinks to an external site.",
+            "url": "https://student.worldcampus.psu.edu/help-and-support/technical-support"
+        },
+        {
+            "text": "techsupport@worldcampus.psu.edu",
+            "url": "mailto:techsupport@worldcampus.psu.edu?subject=World%20Campus%20Tech%20Support%20Inquiry"
+        },
+        {
+            "text": "Penn State University Library",
+            "url": "https://libraries.psu.edu/"
+        },
+        {
+            "text": "hereLinks to an external site.",
+            "url": "https://oblearn.com/register/Pennsylvania-State-University/baKd"
+        },
+        {
+            "text": "Common Morality",
+            "url": "#tab-commonmorality"
+        },
+        {
+            "text": "Personal Morality",
+            "url": "#tab-personalmorality"
+        },
+        {
+            "text": "Professional Ethics",
+            "url": "#tab-professionalethics"
+        },
+        {
+            "text": "Physical",
+            "url": "#tab-physical"
+        },
+        {
+            "text": "Decisional",
+            "url": "#tab-decisional"
+        },
+        {
+            "text": "Proprietary",
+            "url": "#tab-proprietary"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "Concepts-and-Cases-Engineering-Ethics textbook image",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/Concepts-and-Cases-Engineering-Ethics-238x300-1.jpg"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Assignment Category",
+                "Quantity",
+                "Weight (% of grade)"
+            ],
+            [
+                "Homework",
+                "2",
+                "20% (10%, each)"
+            ],
+            [
+                "Exams",
+                "2",
+                "40% (20%, each)"
+            ],
+            [
+                "Discussion Forums",
+                "3",
+                "15%"
+            ],
+            [
+                "Special Topics Paper",
+                "1",
+                "25%"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"3905\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

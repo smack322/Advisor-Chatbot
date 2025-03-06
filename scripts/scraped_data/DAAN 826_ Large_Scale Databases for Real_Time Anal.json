@@ -1,0 +1,858 @@
+{
+    "metadata": {
+        "title": "DAAN 826: Large-Scale Databases for Real-Time Analytics – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=5037"
+    },
+    "headings": {
+        "h2": "Course Requirements and Grading",
+        "h4": "Unlocking Your Potential",
+        "h5": "Honorlock Proctoring",
+        "h3": "Lesson 14: Example Reporting of Real-Time Data"
+    },
+    "paragraphs": [
+        "DAAN 826 is a three-credit course designed to equip students with the knowledge and skills to handle real-time big data processing. The course explores fundamental, current, and emerging concepts in big data systems, focusing on designing, developing, and implementing real-time data storage and analysis solutions. Students begin by understanding traditional databases’ limitations and big data systems’ unique properties. They will work hands-on with tools like MongoDB for batch layer storage, Apache Spark for computation and serving layer processing, Apache Kafka for queuing and stream data processing, and Cassandra for real-time layer storage. By integrating these technologies, students will learn to build and implement a lambda architecture, enabling them to collect, process, store, and analyze real-time data effectively. The course concludes with a forward-looking discussion on trends in real-time analytics.",
+        "This three-credit course deals with an exploration of fundamental, current, and emerging concepts in the area of real-time big data processing. In particular, this course investigates methods to design, develop, and implement several systems used for real-time data analysis and storage such as document databases, column-based databases, queueing systems, and real-time processing systems.",
+        "All in all, you will learn to design a wide variety of large database solutions and interconnect those systems to create a lambda architecture. Using this platform, you will collect, process, store, and report real-time data.",
+        "Hardware",
+        "Software",
+        "$$\\sigma = \\sqrt{\\frac{\\sum_{i=1}^n (r_i – \\mu)^2}{n-1}}$$",
+        "One useful feature of MathJax, Zoom Trigger, enlarges equations when you click on them or hover over them with the mouse. To set up a Zoom Trigger, please follow the steps below.",
+        "Step 1: Right-click on the equation.",
+        "​​",
+        "Step 2: Hover over “Math Settings.”",
+        "​​",
+        "Step 3: Hover over “Zoom Trigger.”",
+        "​​",
+        "Step 4: Click on your preferred Zoom Trigger option, which will allow you to zoom in on an equation with either a hover, click, or double-click.",
+        "Please remember that ALL questions about grades, course lesson content, and assignments should be directed to your course instructor. If you have any technical difficulties using the tools within this course, please contact the Penn State Helpdesk.",
+        "All course-related e-mails should go through Canvas’s course mail function (Canvas Inbox). Using Canvas to contact your instructor ensures that your message will be read, and your instructor will respond to you in a timely manner.",
+        "Navigating This Course",
+        "Ideally, you should complete each lesson’s activities in the following order:",
+        "A grade is given primarily on the basis of the instructor’s judgment as to the student’s scholarly attainment. Students are encouraged to seek the instructor’s input during the process of completing each course requirement. Students are reminded that a letter grade of A is given to students who do exceptional work in both the quality of communicating ideas/information and the level of scholarship demonstrated, not simply for completion of assignments or meeting minimal requirements set for assignments.",
+        "**Grades will be based on the following scale:",
+        "A = 93 – 100, A- = 90 – 92, B+ = 87 – 89, B = 84 – 86, B- = 80 – 83, C+ = 77 – 79, C = 70 – 76, D = 60 – 69, and F = 60 and below.",
+        "Note: A grade is given solely on the basis of the instructor’s judgment as to the student’s scholarly attainment (see the Penn State Graduate Degree Programs Bulletin). The following grading system applies to graduate students:",
+        "“A” (Excellent) indicates exceptional achievement.“B” (Good) indicates substantial achievement.“C” (Satisfactory) indicates acceptable but substandard achievement; and“D” (Poor) indicates inadequate achievement and is a failing grade for a graduate student.",
+        "Students are reminded that simply meeting the minimal requirements of any assignment (both in terms of content and presentation) will result in a letter grade of “B” or less for that assignment.",
+        "Within 7 days after you have submitted an assignment, you will be able to review your grade and any comments made by your instructor. This process is used for all homework assignments, exams, or other graded submissions. Some instructors may also send you a message informing you that the assignment has been graded. Some instructors may choose to release all the grades to all students at once; other instructors may release grades per student one at a time. To view your grades, go to Grades in the Course Navigation Menu.",
+        "There will be (6) discussion boards for students to discuss different aspects of the course. The instructor will participate in the discussions when it is appropriate. Use the discussion board to post your questions and to read the responses from your classmates.",
+        "There will be four discussions over the term of this class.",
+        "There will be several homework assignments, one project, and two exams. You are free to use any material or software package to solve the problems with adequate references unless specifically specified.",
+        "For these assignments, you are responsible for all the material covered in class as well as in the assigned readings. Assignments should be completed without collaboration with other students or individuals. Refer to the Course Schedule for lesson timeframes, due dates, and times. Your responses to each assignment must be submitted in the specified file format, either PDF, DOC, DOCX, XLS, or XLSX format, and must be placed in the appropriate assignment.",
+        "Students are free to write their responses by hand and then scan them into a PDF file. Late submissions will not be accepted unless there are mitigating circumstances, and the instructor has given permission prior to the due date.",
+        "Exams in this class are summative, not formative. They are designed for the purpose of assessment as well as benchmarking students’ performance in the course and are not intended for student learning. Answer keys to individual questions, therefore, will not be provided. However, a narrative of ways to improve will be provided upon request from the student.",
+        "*NOTE: The first exam will be due at the end of Lesson 8, and the second exam will be due on the last official scheduled day of class. No make-up exams will be given, except in cases of emergencies or with prior approval. Any questions on exams should be directed to your instructor.",
+        "The proctoring software uses your computer’s webcam or other technology to monitor and/or record your activity during exams. The proctoring software, Honorlock, may be listening to you, monitoring your computer screen, viewing you and your surroundings, and recording any activity (including visual and audio recordings) during the proctoring process. By enrolling in this course, you consent to the use of the proctoring software, including but not limited to any audio and/or visual monitoring that may be recorded. Please contact your instructor with any questions. For Honorlock resources and a practice test, see the Honorlock Information module in Canvas.",
+        "All course material is available to you through Canvas or in your textbook. Material is provided on a lesson-by-lesson basis, and is presented to you as Web pages, Microsoft Word documents (.doc), or Portable Document Format (PDF) documents. The material that you submit for the course assignments must be uploaded to the appropriate assignment in Canvas and should be submitted as indicated in the assignment.",
+        "Assignments are accepted to the appropriate Canvas Assignment without penalty if they are received by indicated date and time in the Course Schedule. Assignments will no longer be accepted after one week following the stated due date unless previously approved by me. No assignments are accepted after 5:00 PM on the final day of the course.",
+        "When submitting an assignment comprised of multiple digital files, please combine all of the pages into a single file, and upload your file to the assignment’s drop box. Each student is asked to upload only one file that contains your homework submission for the week. Please be sure that your file size is not unreasonably large for the assignment. If handwritten, please be sure that your writing is clearly legible (you may need to change your writing instrument in order to create an appropriate scan quality – write darkly). For PDF submissions, the best quality for your PDF documents comes from creating the file using the “PDF Writer” or “Print to PDF” or “Save as PDF” features on your computer.",
+        "Work submitted after one week of its original due date may not be accepted or reviewed. Exceptions may be made for extraordinary circumstances, but these are on an individual basis and must be approved in advance of the due date. Examples of extraordinary circumstances include illness and family emergencies. If your upcoming work or personal schedule may prevent you from submitting your assignment on time, I highly recommend that you attempt to submit the assignment earlier and not later.",
+        "A few basic reminders:",
+        "*Subject to change",
+        "Even if, for the MER mission, data communication was in batches due to the extreme conditions in which it happens with technology advances, communication will converge more and more towards real-time transmission. If you look around, there are many use cases where real-time data generation and consumption is feasible. There are many systems around us that are better understood and managed as a continuous stream of events, such as system normal operation heartbeats, ocean currents, machine metrics, autonomous vehicles, GPS signals. Collecting and analyzing this information as a real-time stream of data can help increase the quality of response of systems to unexpected events or to system needs.",
+        "Real-Time Systems for Data Streaming",
+        "Data streaming is a technique transferring data between two computers in a steady and continuous stream. Typically, streaming technologies are fashioned on a client-server model. For this whole process to work properly, the client must receive the data from the server and pass it to the streaming application for processing. The streaming application converts according to the rules system designed principles. An important factor in the success of this process is the ability of the client to receive data faster than the rate to which it is transited by the server as well as the rate at which it can display the information.",
+        "Definition of a Real-Time System",
+        "According to Stankovic, real-time systems are the subset of systems in which the correctness of the system depends not only on the logical result of computation, but also on the time at which the results are produced. A real time system is NOT a system that runs quickly but rather it is a system that has temporal constraints to meet.",
+        "Batch Versus Streaming",
+        "In the past, to handle data analysis at scale, data was collected and analyzed in batch. For example, in the previous class we used to process data at one days intervals. For each interval we would process a rather large batch of data. This data processing model is not appropriate for some applications such as Internet of Things (IoT). For example, a temperature sensor, powered by just 2 batteries, can have an operational lifetime of 500,000 wireless transmissions and can have a 0-year battery life. If this data is transmitted only daily in batches, it will have less relevance for some tasks such as overheat protection of a device or tool.",
+        "In general, batch processing is a good way to deal with huge amounts of distributed data, like in the example of a data warehouse or the HDFS/map-reduce framework. If the system requires an hourly summation of a series of events and an end-of-day or weekly final sum, batch processes may be a good architecture. But for many use cases, batch does not sufficiently reflect the changes in information as needed. In cases like temperature monitoring, the benefits of adopting a streaming style of handling data go much farther beyond the capabilities of a batch system. Data that was streamed through a real-time system does not need to be discarded. It can be stored in a raw format for further/different processing as data persistence pays off in a variety of ways.",
+        "(SELECT TITLES TO LEARN MORE)",
+        "In the past, in order to handle data analysis at scale, data was collected and analyzed in batch. For example, in the previous class we used to process data at one days intervals. For each interval we would process a rather large batch of data. This data processing model is not appropriate for some applications such as Internet of Things (IoT). For example, a temperature sensor, powered by just 2 batteries, can have an operational lifetime of 500,000 wireless transmissions and can have a 0-year battery life. If this data is transmitted only daily in batches, it will have less relevance for some tasks such as overheat protection of a device or tool.",
+        "In general, batch processing is a good way to deal with huge amounts of distributed data, like in the example of a data warehouse or the HDFS/map-reduce framework. If the system requires an hourly summation of a series of events and an end-of-day or weekly final sum, batch processes may be a good architecture. But for many use cases, batch does not sufficiently reflect the changes in information as needed. In cases like temperature monitoring, the benefits of adopting a streaming style of handling data go much farther beyond the capabilities of a batch system. Data that was streamed through a real-time system does not need to be discarded. It can be stored in a raw format for further/different processing as data persistence pays off in a variety of ways.",
+        "The most important property of a real-time system is its predictability. Predictability in real-time systems has two components:",
+        "For example, assuming that we develop a large and complex real-time system. For each of the subsystems we must identify critical and non-critical constrains and how the related tasks should be addressed on a scale from hard to soft real-time tasks.  In the end, all the dimensions of a real-time systems contribute to the outcome of the process simultaneously and they have to work harmoniously to achieve the system goal. If designers cannot focus on just one predominant feature of the system such as critical constraints the real-time system is likely to fail.",
+        "In such complex systems it is difficult to define and demonstrate predictability. At high data input rate, it is difficult to ensure a 100% predictability guarantee and it is likely that this guaranty must be relaxed.  In general, real-time systems need to declare guaranty to which the system requirements are met. At the system level level we need to show first that all critical tasks will always make their deadline (100% guarantee) and that all non-critical tasks meet overall requirements. As an example, these overall requirements might be stated in the following way: 97% of noncritical hard real-time tasks, and 95 % of soft real-time tasks must make their deadlines.",
+        "Cassandra supports a per-operation tradeoff between consistency and availability through a set of consistency levels. The following consistency levels are available in Table 8.1.",
+        "It is common to pick read and write consistency levels such that the replica sets overlap, resulting in all acknowledged writes being visible to subsequent reads. For example, for a replication factor of three, a QUORUM request will require responses from at least 2/3 replicas. If QUORUM is used for both writes and reads, at least one of the replicas is guaranteed to participate in both the write and the read request, which in turn guarantees that the quorums will overlap and the write will be visible to the read.",
+        "In a multi-datacenter environment, LOCAL_QUORUM can be used to provide a weaker but still useful guarantee: reads are guaranteed to see the latest write from within the same datacenter. This is often sufficient as clients homed to a single datacenter will read their own writes.",
+        "Kafka is an open-source high-performance, distributed, durable, fault-tolerant, publish-subscribe messaging system. Kafka was created at LinkedIn in 2010 to track various events, such as page views, messages from the messaging system, and logs from various services. More recently, it is used for moving messages streams in a real-time system. With Kafka, one can collect data streams for processing and storage in other components of the real-time system. Kafka uses the publish/subscribe messaging model. In this model, subscribers can register for news in several topics they are interested in and they are eventually notified by news in news in those topics in an asynchronous mode.",
+        "(SELECT TITLES TO LEARN MORE)",
+        "In a publish-subscribe messaging system, systems called publishers send streams of messages. In general, the set of publishers of the messages are called producers, since they produce the input messages. Another set of systems, called subscribers, are waiting for new messages of interest to be produced and they read those messages. In general, the set of all the subscribers are called consumers, since they consume the published messages.",
+        "A publish-subscribe messaging system, known as a message broker, moves data streams between applications and provides a loose coupling between publishers and subscribers, or producers and consumers of data. The message broker stores published messages in a queue and subscribers read them from the queue. Hence, subscribers and publishers do not have to be synchronized. This loose coupling allows subscribers and publishers to read and write at different rates. The ability of the messaging system to store messages provides fault tolerance so messages don’t get lost between the time they are produced and the time they are consumed.",
+        "Figure 11.2 shows such a publish-subscribe messaging system. This system has two producers and three subscribers. The two producers generated a number of six messages, which are in different stages of processing. Message 1 is sent to the consumers for further processing, messages 2 to 4 are waiting in a queue to be sent to the consumers as soon as they become available, while messages 5 and 6 are waiting to be queued by the messaging queue.",
+        "Streaming environments can have a wide variety of configurations. For instance, the messages can have different purposes based on their data content. These streamed messages can be grouped by their purpose or characteristics. Such groups are called topics. Consumers subscribe to topics to receive messages produced for that topic. The example in the figure below, shows a message que that contains two topics called “Topic 1” and “Topic 2”. For example, Topic 1 can queue information about sensor temperature while “Topic 2” about server logs. Messages related to each topic can be produced by multiple consumers. For example, in Figure 11.3, both producers generate messages relevant to both topics while, Producer 2 generates messages that are relevant only to Topic 2. A topic can be thought of as a feed of related data. Each message must be associated with a topic while a topic can have zero, one, or many subscribers that read data from it.",
+        "Kafka supports a publish-subscribe model that handles multiple message streams. These message streams are stored as a first-in-first-out (FIFO) queue in a fault-tolerant manner. Processes can read messages from streams at any time.",
+        "Each topic is managed as a partitioned log. In Kafka, a log is an ordered queue of message records. A partitioned log is a log that is broken up into multiple smaller logs, each of which is called a partition. A partition is an ordered, immutable sequence of messages that is continually appended to. Each message contains a sequential ID number called the offset that uniquely identifies the message in the partition. Message ordering in Kafka is per partition only. Figure 11.4 shows an example partition for Topic 2. This topic is spread across two nodes/servers. Messages are consumed from the earliest to the latest using a queue model.",
+        "Partitions allow the log to scale beyond a single server. Each partition must fit on one of the servers that hosts it … but a topic can have multiple partitions and therefore handle an arbitrary amount of data. Each server manages a set of partitions belonging to different topics. Each topic can have one or more partitions. The size (in terms of messages stored) of partitions is limited to what can fit on a single node/server. If you have more data in a topic than can fit on a single node you must increase the number of partitions. Partitions are spread across the nodes in a Kafka cluster. Partitions can have copies to increase durability and availability.  This is called the Replication Factor and can be 1 or more.",
+        "In Kafka, all messages in the log are durable, meaning they are written to disk. The messages persist for a configurable time period. After that time, they are discarded. Partitions can be replicated onto multiple servers for fault tolerance. Each partition has one server that is elected to be the leader for that partition. There can be zero or more other servers that are followers for that partition. The amount of replication can be configured at the setup of the cluster. The leader handles all read/write requests for the partition and is responsible for replicating messages to its followers. Only the leader communicates with clients. If the leader fails, one of the followers gets elected to be the new leader.",
+        "Partitions allow the log to scale beyond a single server. Each partition must fit on one of the servers that hosts it … but a topic can have multiple partitions and therefore handle an arbitrary amount of data. Each server manages a set of partitions belonging to different topics. Each topic can have one or more partitions. The size (in terms of messages stored) of partitions is limited to what can fit on a single node/server. If you have more data in a topic than can fit on a single node you must increase the number of partitions. Partitions are spread across the nodes in a Kafka cluster. Partitions can have copies to increase durability and availability.  This is called the Replication Factor and can be 1 or more.",
+        "Kafka is designed to be highly scalable. This means that Kafka can handle an increase in the volume of incoming messages from producers. An increase in the number of producers can lead to cluster load and imbalance. To balance the cluster, all the nodes should have similar load. In Kafka, each publisher process is responsible for choosing which message goes to which partition. The default for determining the partition is the round-robin distribution algorithm. Alternatively, programmers have the option to define their own partitioning function if they want to direct specific data within a topic to a certain partition. More partitions in a topic allows a message stream to be distributed among more severs, enabling the cluster to sustain a heavier load of incoming data.",
+        "Another component of scalability is that Kafka can store large queues of messages. The ability to handle queues is addressed by breaking a topic into multiple partitions. A partition is limited to a single broker, but many partitions can be managed my many systems.",
+        "Finally, Kafka allows consumers to grow to handle an increase in the volume or the processing complexity of messages. In Kafka, a consumer process is part of a consumer group. A consumer group may have one or more consumers within it. This allows you to distribute the processing of messages among multiple consumers. Each member of the consumer group gets a fair share of partitions for its subscribed topic.",
+        "Kafka relies on Apache Zookeeper for getting heartbeats from brokers, leader election, replication settings, and tracking the members of the cluster. ZooKeeper is a centralized service for maintaining configuration information, naming, providing distributed synchronization, and providing group services. All these kinds of services are used in some form or another by distributed applications. Producers contact Zookeeper to find partitions. Consumers contact Zookeeper to track the current index number of the next message in each partition.",
+        "The DAAN 826 course explores fundamental and emerging concepts in real-time big data processing. The course focuses on architectures, data collection, and analysis techniques while providing hands-on experience with key big data technologies like MongoDB, Apache Spark, Apache Kafka, and Cassandra.",
+        "After successfully completing this course, students will be able to :",
+        "Throughout this course students will gain both theoretical knowledge and practical experience, allowing them to connect real-time big data concepts with business challenges. This journey will emphasize ethical considerations, data integration, and technological advancements. By the end of the course, students will be well-equipped to design, implement, and deploy real-time big data systems that collect, process, and analyze business data efficiently to drive actionable insights.",
+        "IIn this lesson, we will explore the fundamentals of real-time big data processing, key concepts of real-time systems, and examples of real-time applications like connected vehicles and IoT. This lesson will introduce students to the architecture, data streaming, and real-time system examples relevant to big data analytics.",
+        "By the end of this lesson, students will have a foundational understanding of real-time big data processing, key concepts of data streaming, and practical applications like IoT and connected vehicles. This will prepare students for the upcoming modules and real-world big data system exploration.",
+        "In this lesson, students will learn about deployment environments and their role in executing Python scripts for big data processing. The lesson includes an overview of Docker concepts and a Python programming refresher to ensure readiness for deployment tasks and real-world data processing applications.",
+        "By the end of this lesson, students will understand deployment environments, gain familiarity with Docker, and revisit essential Python programming skills. This knowledge will build a strong foundation for executing Python scripts and preparing for future big data processing tasks.",
+        "In this lesson, students will explore the fundamentals of stream-based architecture, a critical concept in big data processing. The lesson covers real-time applications, big data layered architectures, messaging technologies, and practical examples of stream-based architectures in action.",
+        "By the end of this lesson, students will have a clear understanding of stream-based architecture, big data layered architectures, and the role of messaging technologies in real-time processing. This knowledge will provide a strong foundation for designing and analyzing stream-based big data systems.",
+        "In this lesson, students will learn the fundamentals of installing and configuring MongoDB, a widely used NoSQL database for real-time big data applications. The lesson will also cover key database concepts like the CAP Theorem and introduce MongoDB’s core database functionalities.",
+        "By the end of this lesson, students will be able to understand and apply the principles of MongoDB installation and configuration, grasp the key concepts of the CAP Theorem, and explore MongoDB’s role as a NoSQL database in real-time big data systems.",
+        "In this lesson, students will explore the core architecture of MongoDB, focusing on its storage engine, sharding capabilities, and indexing mechanisms. Understanding these foundational concepts will provide insight into how MongoDB handles large-scale real-time data processing and storage efficiently.",
+        "By the end of this lesson, students will have a comprehensive understanding of MongoDB’s architecture, including storage engines, sharding strategies, and indexing methods. These insights will strengthen students’ ability to utilize MongoDB effectively for real-time big data processing.",
+        "In this lesson, students will learn how to connect to MongoDB databases, load data into them, and execute queries. The lesson also introduces the use of Python for MongoDB interactions. Practical exercises will ensure students can confidently work with MongoDB for real-world big data use cases.",
+        "By the end of this lesson, students will understand how to connect to MongoDB using Compass, load data into databases, execute queries, and integrate Python for database interactions. These skills will prepare students to use MongoDB effectively for data analysis and real-time big data projects.",
+        "In this lesson, students will learn the essentials of installing and configuring Apache Cassandra, a highly scalable NoSQL database. The lesson will cover foundational database storage models, introduce the Apache Cassandra database, and explain its role in real-time big data processing.",
+        "By the end of this lesson, students will have a foundational understanding of Apache Cassandra, its database storage models, and key concepts related to its installation and usage. These insights will prepare students to leverage Cassandra in big data projects and real-time processing environments.",
+        "In this lesson, students will explore the architecture of Apache Cassandra, focusing on the underlying algorithms, consistent hashing for dataset partitioning, distributed clustering, and data consistency mechanisms. This lesson will provide students with a comprehensive understanding of how Cassandra achieves scalability, reliability, and fault tolerance.",
+        "By the end of this lesson, students will have a strong understanding of the Apache Cassandra architecture, key algorithms, data consistency models, and distributed failure detection methods. These insights will prepare students to work with Cassandra in real-world big data applications and distributed environments.",
+        "In this lesson, students will learn how to connect to and interact with Apache Cassandra databases. The lesson will focus on database operations using Table Plus, loading data into Cassandra, performing queries, and integrating Python for programmatic database interactions.",
+        "By the end of this lesson, students will have hands-on knowledge of connecting to Apache Cassandra using Table Plus, loading and querying data, and integrating database operations using Python. These skills will prepare students to use Cassandra effectively for real-time big data processing and analysis.",
+        "In this lesson, students will learn how to set up and configure Apache Kafka, a widely used event-streaming platform. The lesson will introduce key concepts like event streaming, the role of Kafka as a streaming system, and the process of setting up Kafka using Docker.",
+        "By the end of this lesson, students will have a solid understanding of Apache Kafka, its role as an event streaming system, and how to set it up using Docker. These skills will prepare students to work with Kafka for real-time big data streaming projects.",
+        "In this lesson, students will explore the architecture of Apache Kafka, focusing on its core components and design principles. Understanding the Kafka architecture will provide insight into how it supports high-throughput, fault-tolerant real-time data streaming for big data applications.",
+        "By the end of this lesson, students will have a clear understanding of the Apache Kafka architecture, including its key components and their roles in facilitating real-time data streaming. This knowledge will provide a strong foundation for working with Kafka in big data processing projects.",
+        "In this lesson, students will learn how to use Apache Kafka for real-time data streaming. The lesson will focus on setting up a network of containers using Docker, testing the network setup, and implementing Kafka scripts to retrieve live data from Reddit, enhancing practical knowledge of Kafka’s use in big data processing workflows.",
+        "By the end of this lesson, students will gain hands-on experience with Apache Kafka, learning how to set up and test a network of containers in Docker, and implement Kafka scripts to stream live data from Reddit. These practical activities will prepare students to work with Kafka for real-world big data streaming scenarios.",
+        "In this lesson, students will explore real-time applications of Apache Kafka by implementing streaming workflows. The lesson focuses on understanding the components of a Kafka server, processing live Reddit data using Kafka Producers and Consumers, and running Kafka streaming services to enable real-time reporting.",
+        "By the end of this lesson, students will gain practical experience in using Apache Kafka for real-time data processing and reporting. They will understand the components of a Kafka server, how to process live Reddit data with Kafka Producers and Consumers, and how to run Kafka streaming services for real-time insights.",
+        "In this lesson, students will learn how to perform real-time reporting by integrating Apache Cassandra with visualization tools. The lesson will focus on installing the Cassandra JDBC connector in Knime, running real-time data reporting, and analyzing insights through reporting workflows.",
+        "By the end of this lesson, students will have hands-on experience integrating Apache Cassandra with Knime for real-time data reporting. They will understand how to install and use the Cassandra JDBC connector, execute reports, and analyze insights from live data streams.",
+        "Understanding large-scale databases for real-time analytics equips students with in-demand skills for careers in data engineering, big data analysis, and real-time data processing. Proficiency in technologies like Apache Kafka, Apache Cassandra, and MongoDB, combined with knowledge of real-time reporting and data streaming, positions students for roles in industries such as finance, healthcare, IoT, e-commerce, and technology. Employers value expertise in designing, implementing, and managing scalable database solutions, as well as analyzing live data streams to support decision-making processes. By mastering these tools and concepts, students will have the competitive edge to pursue careers as data engineers, database administrators, data analysts, or big data architects, working on innovative solutions for real-time challenges.",
+        "One real-world example of large-scale databases for real-time analytics is fraud detection in the financial services industry. Financial institutions process millions of transactions every second, and using real-time analytics powered by databases like Apache Cassandra and Apache Kafka, they can identify fraudulent activities as they happen. For instance, a sudden pattern of transactions originating from different geographic locations within a short period may trigger fraud detection algorithms to flag the transactions. Using real-time streaming data, these systems can analyze transaction behavior patterns, detect anomalies, and alert users or financial institutions instantly to prevent financial loss. This approach depends on processing large-scale data streams quickly, highlighting the real-world application of real-time analytics for decision-making and risk management.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "The course starts with an overview of the paradigm for big data which includes an explanation of issues with traditional databases and the properties/limitations of big data systems.\n\nThe first topic is storage in the batch layer. In this course the batch layer will be implemented in MongoDB; \nThe second topic is data processing in the computation/serving layer. This is going to be implemented in Apache Spark. \nThe third topic is about queuing and stream data processing. This is going to be implemented in Apache Kafka. \nThe fourth topic is about the real-time layer. This will be implemented in Cassandra.",
+            "The first topic is storage in the batch layer. In this course the batch layer will be implemented in MongoDB;",
+            "The second topic is data processing in the computation/serving layer. This is going to be implemented in Apache Spark.",
+            "The third topic is about queuing and stream data processing. This is going to be implemented in Apache Kafka.",
+            "The fourth topic is about the real-time layer. This will be implemented in Cassandra.",
+            "The course will conclude with trends in the area of real-time data analytics.​"
+        ],
+        [
+            "The first topic is storage in the batch layer. In this course the batch layer will be implemented in MongoDB;",
+            "The second topic is data processing in the computation/serving layer. This is going to be implemented in Apache Spark.",
+            "The third topic is about queuing and stream data processing. This is going to be implemented in Apache Kafka.",
+            "The fourth topic is about the real-time layer. This will be implemented in Cassandra."
+        ],
+        [
+            "Describe architectures for real-time big data applications and analytics.",
+            "Explain how business data are collected and organized in big data systems for real-time reporting.",
+            "Explain techniques for deriving data from business data.",
+            "Demonstrate hands-on experience working with relevant big data technologies."
+        ],
+        [
+            "Big Data Principles and Best Practices of Scalable Real-Time Data Systems by Nathan Marz, James Warren, Shelter Island, NY: Manning, 2015, ISBN 978-1617290343 / 1617290343.",
+            "Big Data Analytics with Hadoop 3: Build Highly Effective Analytics Solutions to Gain Valuable Insight into Your Big Data by Alla, Sridhar, Birmingham: Packt Publishing, Limited May 2018, ISBN 9781788628846 / 1788628845 – available in the library."
+        ],
+        [
+            "Desktop/laptop Windows/Linux/Mac with at Software16 GM RAM memory, and at least 100GB disk space",
+            "Web browser",
+            "MS Word or equivalent",
+            "Pdf reader"
+        ],
+        [
+            "Docker – free",
+            "MongoDB – free – provided",
+            "MongoDB Compass – free",
+            "Apache Cassandra – free – provided",
+            "TablePlus for Cassandra – free",
+            "Apache Kafka – free – provided",
+            "Python – free – provided",
+            "Java SDK at least version 8 –free",
+            "Knime – free"
+        ],
+        [
+            "This course uses MathJax to display complex equations in an accessible way for all viewers. An example of an equation displayed using MathJax follows:σ=∑i=1n(ri−μ)2n−1"
+        ],
+        [
+            "HelpDesk Website: https://student.worldcampus.psu.edu/help-and-support/technical-supportLinks to an external site.",
+            "HelpDesk Email: techsupport@worldcampus.psu.edu",
+            "HelpDesk Phone: (800) 252-3592"
+        ],
+        [
+            "Your answers to discussion questions should be submitted by 11:59PM ET on the Friday of each lesson week.",
+            "You are expected to provide at least one answer for each discussion question.",
+            "Every student is expected to provide at least two feedback postings."
+        ],
+        [
+            "It is generally bad form to type your messages IN ALL CAPITAL LETTERS. In addition to proper capitalization (first words of sentences, proper nouns, names, etc.), a majority of online students have reported that complete sentences and punctuation make online text communication easier to read.",
+            "It is much better not to post inflammatory or accusatory remarks than it is to “get it off of your chest.” Profanity and personal attacks will have no part of this course. If you discover such remarks, please notify me immediately, and I will personally address the source of those remarks."
+        ],
+        [
+            "Data Streaming and Real-Time Systems",
+            "Data Consistency",
+            "Kafka"
+        ],
+        [
+            "Real-Time Systems",
+            "Definition",
+            "Batch Versus Streaming"
+        ],
+        [
+            "Computational tasks must be predictable: this means that a real-time system will generate the same result for the same the same input data irregardless of the time data was received.",
+            "The timing of the computational tasks must be predictable: a real-time system must enforce and guaranty temporal constraints. Example of temporary constraints are milliseconds for radar systems or connected systems, one second for human-computer interfaces, or one day for weather forecast."
+        ],
+        [
+            "Describe architectures for real-time big data applications and analytics.",
+            "Explain how business data are collected and organized in big data systems for real-time reporting.",
+            "Explain techniques for deriving data from business data.",
+            "Demonstrate hands-on experience working with relevant big data technologies."
+        ],
+        [
+            "L1,L2",
+            "L3,L4",
+            "L5,L6",
+            "L7,L8",
+            "L9,L10",
+            "L11, L12",
+            "L13, L14"
+        ],
+        [
+            "Introduction – Overview of real-time big data processing and its importance in modern business contexts.",
+            "Data Streaming and Real-Time Systems – Understanding data streaming concepts and how they power real-time analysis.",
+            "Example of Real-Time Systems: Connected Vehicles and the IoT – Exploring real-life examples like IoT devices and connected vehicles as practical applications.",
+            "Conclusion – Summarizing key concepts discussed in the lesson."
+        ],
+        [
+            "Readings – Review assigned readings to gain foundational knowledge on real-time big data concepts.",
+            "Discussion Topic – Participate in the discussion to share insights and connect theories to practical examples.",
+            "Discussion #1 – Engage with peers by responding to discussion prompts, emphasizing understanding and real-world applications."
+        ],
+        [
+            "Introduction – Understanding the role of deployment environments and how they support Python script execution.",
+            "Docker Refresher – A quick review of Docker, its purpose, and how it is used in deployment environments.",
+            "Python Programming Refresher – Revisiting key Python concepts to prepare students for executing scripts in deployment workflows.",
+            "Conclusion – Summarizing essential points from the lesson."
+        ],
+        [
+            "HW #1 – Complete the assigned hands-on homework to apply knowledge about deployment environments and Python scripting."
+        ],
+        [
+            "Introduction – Overview of stream-based architecture and its role in real-time data processing.",
+            "Single Real-Time Application – Understanding the concept of single real-time applications and their use cases.",
+            "Big Data Layered Architectures – Exploring the design and implementation of big data architectures using layered approaches.",
+            "Example of a Stream-Based Architecture – Analyzing practical examples to illustrate stream-based architecture concepts.",
+            "Messaging Technology for Big Data – Exploring the role of messaging technologies like Kafka and their importance in big data systems.",
+            "Conclusion – Summarizing the key concepts covered in the lesson."
+        ],
+        [
+            "Readings – Complete assigned readings to build foundational knowledge of stream-based architectures.",
+            "Discussion Topic – Participate in discussions to connect theoretical insights to real-world big data use cases.",
+            "Discussion #2 – Engage with peers on key topics to enhance understanding and practical application."
+        ],
+        [
+            "Introduction – Overview of MongoDB and its role in big data processing and storage.",
+            "CAP Theorem (Consistency, Availability, and Partition Tolerance) – Understanding the principles of the CAP Theorem and its impact on database design.",
+            "MongoDB Database – Exploring the structure, features, and use cases of MongoDB as a NoSQL database for real-time applications.",
+            "Conclusion – Summarizing key takeaways from the lesson."
+        ],
+        [
+            "Readings – Review assigned readings to gain foundational knowledge about MongoDB and NoSQL databases.",
+            "Assignment – Complete the hands-on assignment to practice MongoDB installation and configuration.",
+            "HW #2 – Submit the homework to apply practical knowledge of MongoDB database setup and implementation."
+        ],
+        [
+            "Introduction – Overview of MongoDB architecture and its role in big data management.",
+            "MongoDB Storage Engine – Exploring how MongoDB stores and manages data using its storage engine.",
+            "MongoDB Sharding – Understanding how MongoDB scales horizontally by distributing data using sharding.",
+            "MongoDB Indexes – Examining indexing techniques that optimize database performance and query efficiency.",
+            "Conclusion – Summarizing the key topics covered in this lesson."
+        ],
+        [
+            "Readings – Review assigned readings to build a deeper understanding of MongoDB architecture concepts.",
+            "Discussion Topic – Participate in discussions to connect theoretical knowledge with practical use cases.",
+            "Discussion #3 – Engage with peers on key architectural topics to enhance comprehension and practical application."
+        ],
+        [
+            "Introduction – Overview of MongoDB usage and its role in data management and analysis.",
+            "Connecting to the MongoDB Database in Compass – Learning how to connect and navigate MongoDB Compass to interact with MongoDB databases.",
+            "Loading Data into a MongoDB Database from MongoDB Compass – Techniques to import data into MongoDB databases using Compass.",
+            "Querying Data in MongoDB Database – Understanding how to query MongoDB for efficient data retrieval.",
+            "Loading Data from Python – Integrating Python to load and interact with MongoDB databases programmatically.",
+            "Conclusion – Summarizing key lessons and skills learned."
+        ],
+        [
+            "Readings – Review assigned readings to reinforce knowledge on MongoDB usage and practical applications.",
+            "Assignment – Complete the hands-on assignment to practice MongoDB operations.",
+            "HW #3 – Apply learned concepts by completing the exercise focused on loading and querying data in MongoDB."
+        ],
+        [
+            "Introduction – Overview of Apache Cassandra and its significance in big data applications.",
+            "Models of Database Storage – Understanding the different models of database storage and their role in data management.",
+            "Apache Cassandra Database – Exploring key features, architecture, and use cases of Apache Cassandra.",
+            "Conclusion – Summarizing key concepts discussed in the lesson."
+        ],
+        [
+            "Readings – Complete the assigned readings to build foundational knowledge of database storage models and Cassandra concepts.",
+            "Discussion Topic – Engage in discussions to connect theoretical insights to practical use cases with Cassandra.",
+            "Discussion #4 – Participate in peer discussion to explore insights and challenges in installing and using Cassandra."
+        ],
+        [
+            "Introduction – Overview of Apache Cassandra’s architecture and its role in big data processing.",
+            "Algorithms Used by Apache Cassandra – Understanding the key algorithms that drive Cassandra’s performance and scalability.",
+            "Dataset Partitioning – Consistent Hashing – Exploring how consistent hashing is used to distribute data across nodes.",
+            "Data Consistency – Understanding data consistency models in Cassandra and their importance for database operations.",
+            "Distributed Cluster Membership and Failure Detection – Analyzing how Cassandra manages cluster membership and detects failures in a distributed system.",
+            "Conclusion – Summarizing the key concepts from the lesson."
+        ],
+        [
+            "Readings – Review assigned readings to reinforce the theoretical concepts of Cassandra’s architecture.",
+            "Quiz – Complete a quiz to assess knowledge of the architectural concepts and mechanisms in Cassandra.",
+            "Exam 1 – Participate in the first exam to test comprehension of topics discussed in the previous lessons."
+        ],
+        [
+            "Introduction – Overview of Apache Cassandra’s usage and its applications in real-time big data processing.",
+            "Connecting to the Apache Cassandra Database in Table Plus – Learning how to connect to a Cassandra database using Table Plus.",
+            "Loading Data into an Apache Cassandra Database from Table Plus – Techniques to import data into Cassandra from Table Plus.",
+            "Querying Data in an Apache Cassandra Database – Performing queries to retrieve and analyze data in Cassandra.",
+            "Loading Data from Python – Using Python to load and interact with data in Apache Cassandra programmatically.",
+            "Conclusion – Summarizing key concepts and skills learned in the lesson."
+        ],
+        [
+            "Readings – Complete the assigned readings to gain foundational knowledge of Cassandra’s usage and key features.",
+            "Discussion Topic – Engage in peer discussions to connect practical use cases with theoretical learning.",
+            "Discussion #5 – Participate in the discussion to strengthen understanding of database operations in Cassandra."
+        ],
+        [
+            "Introduction – Overview of Apache Kafka and its importance in real-time big data processing.",
+            "Event Streaming – Understanding the fundamentals of event streaming and how it supports real-time data processing.",
+            "Apache Kafka as a Streaming System – Exploring how Kafka operates as a real-time streaming system for large-scale data.",
+            "Apache Kafka in Docker – Learning how to install and run Kafka using Docker for a streamlined setup process.",
+            "Conclusion – Summarizing the core topics covered in this lesson."
+        ],
+        [
+            "Readings – Review the assigned readings to strengthen foundational knowledge about Kafka.",
+            "Assignment – Complete Lesson 10: HW #4, a hands-on assignment focused on Kafka installation and initial setup."
+        ],
+        [
+            "Introduction – Overview of Apache Kafka’s architecture and its role in event streaming.",
+            "Kafka – Understanding the key components of Kafka, including Producers, Consumers, Brokers, Topics, and Partitions.",
+            "Conclusion – Summarizing the essential concepts covered in this lesson."
+        ],
+        [
+            "Readings – Complete assigned readings to build foundational knowledge of Kafka’s architecture.",
+            "Discussion Topic – Engage in peer discussion to explore real-world applications of Kafka’s architecture concepts.",
+            "Discussion #6 – Participate in discussions to deepen understanding of how Kafka operates in big data environments."
+        ],
+        [
+            "Introduction – Overview of Apache Kafka’s usage and its real-time streaming capabilities.",
+            "Creating a Network of Containers in Docker – Setting up a Kafka network environment using Docker containers.",
+            "Testing the Network – Performing network tests to ensure Kafka’s connectivity and functionality.",
+            "Combining the Scripts to Retrieve Data from Reddit – Learning how to integrate scripts with Kafka to collect live data from Reddit.",
+            "Conclusion – Summarizing the key concepts and activities covered in this lesson."
+        ],
+        [
+            "Readings – Review assigned readings to understand Kafka usage and container networking.",
+            "Assignment – Complete Lesson 12: HW #5, focusing on hands-on Kafka usage and network configuration exercises.",
+            "Course Project: Draft 2 – Submit the second draft of the course project as part of continuous assessment."
+        ],
+        [
+            "Introduction – Overview of real-time applications with Kafka and their role in big data reporting.",
+            "Components of a Kafka Server – Understanding the key components that make up a Kafka server, including Producers, Consumers, Topics, and Brokers.",
+            "Processing Reddit Data using a Kafka Producer and a Consumer – Hands-on activity using a Kafka Producer to send Reddit data and a Consumer to process it in real time.",
+            "Running the Kafka Streaming Service – Configuring and running Kafka’s streaming services for real-time data ingestion and processing.",
+            "Conclusion – Summarizing the key concepts, tools, and workflows learned in this lesson."
+        ],
+        [
+            "Readings – Complete the assigned readings to build foundational knowledge on real-time Kafka streaming and reporting techniques."
+        ],
+        [
+            "Introduction – Overview of real-time reporting and its role in big data analytics.",
+            "Installing the Apache Cassandra JDBC Connector in Knime – Step-by-step guide on setting up the connector to connect Cassandra with Knime for real-time analysis.",
+            "Run a Report on Apache Cassandra – Hands-on activity focusing on executing real-time reports from live data in Cassandra.",
+            "Conclusion – Summarizing the key takeaways and workflows covered in this lesson."
+        ],
+        [
+            "Assignment – Complete Course Project: Final Submission, integrating learnings from lessons to demonstrate applied understanding in real-time reporting.",
+            "Quiz – Take the quiz to assess comprehension of the reporting concepts and workflows.",
+            "Exam 2 – Participate in the second exam to evaluate progress and application of key concepts from the course."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Docker",
+            "url": "https://www.docker.com/products/docker-desktop"
+        },
+        {
+            "text": "MongoDB Compass",
+            "url": "https://www.mongodb.com/try/download/compass"
+        },
+        {
+            "text": "TablePlus",
+            "url": "https://tableplus.com/"
+        },
+        {
+            "text": "for Cassandra",
+            "url": "https://tableplus.com/"
+        },
+        {
+            "text": "Knime",
+            "url": "https://www.knime.com/downloads"
+        },
+        {
+            "text": "https://student.worldcampus.psu.edu/help-and-support/technical-supportLinks to an external site.",
+            "url": "https://student.worldcampus.psu.edu/help-and-support/technical-support"
+        },
+        {
+            "text": "techsupport@worldcampus.psu.edu",
+            "url": "mailto:techsupport@worldcampus.psu.edu?subject=World%20Campus%20Tech%20Support%20Inquiry"
+        },
+        {
+            "text": "Real-Time Systems",
+            "url": "#tab-strongreal-timesystemsstrong"
+        },
+        {
+            "text": "Definition",
+            "url": "#tab-strongdefinitionstrong"
+        },
+        {
+            "text": "Batch Versus Streaming",
+            "url": "#tab-strongbatchversusstreamingstrong"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "",
+            "src": "https://courses.worldcampus.psu.edu/canvas/master/mst-20220713135120-alm626//common/images/mathjax1.jpg"
+        },
+        {
+            "alt": "",
+            "src": "https://courses.worldcampus.psu.edu/canvas/master/mst-20220713135120-alm626//common/images/mathjax2.jpg"
+        },
+        {
+            "alt": "",
+            "src": "https://courses.worldcampus.psu.edu/canvas/master/mst-20220713135120-alm626//common/images/mathjax3.jpg"
+        },
+        {
+            "alt": "Diagram showing the flow of messages from producers to message queues and then to consumers",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/Fig_11.2.png"
+        },
+        {
+            "alt": "Diagram showing message flow with topics connecting producers and consumers through message queues",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/Fig_11.3.png"
+        },
+        {
+            "alt": "Diagram showing message flow with topics, partitions, and servers connecting producers to consumers",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/Fig_11.4.png"
+        },
+        {
+            "alt": "",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/Fig_11.5.png"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Assignment Category",
+                "Points",
+                "Weight (% of Final Grade)"
+            ],
+            [
+                "Project",
+                "100",
+                "30%"
+            ],
+            [
+                "Exams"
+            ],
+            [
+                "Exam #1",
+                "100",
+                "20%"
+            ],
+            [
+                "Exam #2",
+                "150",
+                "30%"
+            ],
+            [
+                "Homework",
+                "100",
+                "10%"
+            ],
+            [
+                "Discussions",
+                "100",
+                "10%"
+            ]
+        ],
+        [
+            [
+                "Level",
+                "Operation",
+                "Description",
+                "Usage"
+            ],
+            [
+                "All",
+                "Read",
+                "Returns the record after all replicas have responded. The read operation will fail if a replica does not respond.",
+                "Provides the highest consistency and the lowest availability of any other level."
+            ],
+            [
+                "Write",
+                "A write must be written on all replica nodes in the cluster for that partition."
+            ],
+            [
+                "EACH_QUORUM",
+                "Read",
+                "Not supported",
+                "Used in multiple datacenter clusters to strictly maintain consistency at the same level in each datacenter."
+            ],
+            [
+                "Write",
+                "Strong consistency. A write must be written on a quorum of replica nodes in each datacenter."
+            ],
+            [
+                "QUORUM",
+                "Read",
+                "Returns the record after a quorum of replicas from all datacenters has responded.",
+                "Used in either single or multiple datacenter clusters to maintain strong consistency across the cluster. Use if you can tolerate some level of failure."
+            ],
+            [
+                "Write",
+                "A write must be written on a quorum of replica nodes across all datacenters."
+            ],
+            [
+                "LOCAL_QUORUM",
+                "Read",
+                "Returns the record after a quorum of replicas in the current datacenter as the coordinator has reported.",
+                "Used in multiple datacenter clusters with a rack-aware replica placement strategy, such as NetworkTopologyStrategy or to Use to maintain consistency locally within the single datacenter)."
+            ],
+            [
+                "Write",
+                "Strong consistency. A write must be written on a quorum of replica nodes in the same datacenter as the coordinator."
+            ],
+            [
+                "ONE",
+                "Read",
+                "Returns a response from the closest replica.",
+                "Satisfy the needs of most users because consistency requirements are not stringent."
+            ],
+            [
+                "Write",
+                "A write must be written of at least one replica node."
+            ],
+            [
+                "TWO",
+                "Read",
+                "Returns the most recent data from two of the closest replicas."
+            ],
+            [
+                "Write",
+                "A write must be written of at least two replica node."
+            ],
+            [
+                "THREE",
+                "Read",
+                "Returns the most recent data from three of the closest replicas."
+            ],
+            [
+                "Write",
+                "A write must be written of at least three replica node."
+            ],
+            [
+                "LOCAL_ONE",
+                "Read",
+                "Returns a response from the closest replica in the local datacenter.",
+                "For security and quality reasons, you can use this consistency level in an offline datacenter to prevent automatic connection to online nodes in other datacenters if an offline node goes down."
+            ],
+            [
+                "Write",
+                "A write must be sent to, and successfully acknowledged by, at least one replica node in the local datacenter."
+            ],
+            [
+                "Write",
+                "A write must be written to at least one node."
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"5037\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

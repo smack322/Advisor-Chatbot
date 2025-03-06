@@ -1,0 +1,685 @@
+{
+    "metadata": {
+        "title": "DAAN 545: Data Mining – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=5459"
+    },
+    "headings": {
+        "h2": "Course Requirements and Grading",
+        "h4": "Unlocking Your Potential",
+        "h5": "Required Software",
+        "h3": "Lesson 14: Conclusions and Future Trends"
+    },
+    "paragraphs": [
+        "DAAN 545:  is a three-credit course in which you will explore foundational and advanced techniques for uncovering meaningful insights from data, equipping you to tackle both scientific and business challenges. The course emphasizes the practical application of data mining methods, including data preprocessing, association mining, classification and prediction, cluster analysis, and mining complex data types. By engaging with targeted readings and hands-on exercises, you will develop the skills to implement data mining solutions effectively, preparing you for real-world scenarios where extracting actionable knowledge from data is essential.",
+        "This course will introduce popular data mining methods for extracting knowledge from data. We will discuss the principles of data mining methods that students will apply to develop data mining solutions for scientific and business problems. Topics and related methods discussed in this course include: data preprocessing, association mining, classification and prediction, cluster analysis, and mining complex data types. Readings will consist of book chapters or articles relevant to each topic discussed.",
+        "Students will learn to:",
+        "There is no textbook required for this course. Each lesson will assign readings in electronic format. Each reading will be available through the Course Schedule, Library E-Reserves and/or in the Canvas course content.",
+        "Please remember that ALL questions about grades, course lesson content, and assignments should be directed to your course instructor. If you have any technical difficulties using the tools within this course, please contact the Penn State Helpdesk.",
+        "All course-related e-mails should go through Canvas’s course mail function (Canvas Inbox). Using Canvas to contact your instructor ensures that your message will be read, and your instructor will respond to you in a timely manner.",
+        "Many of the University Libraries’ resources can be utilized from a distance. Through the Library website, you can access magazines, journals, and articles; borrow materials and have them delivered to your doorstep; and get research help via email chat or phone from a librarian.",
+        "For more information, view the Penn State University Library.",
+        "The following grading system applies to graduate students:",
+        "Please refer to the University Grading Policy for Graduate Courses for additional information about University grading policies. A grade is given primarily on the basis of the instructor’s judgment as to the student’s scholarly attainment. Students are encouraged to seek the instructor’s input during the process of completing each course requirement. Students are reminded that a letter grade of A is given to students who do exceptional work in both the quality of communicating ideas/information and the level of scholarship demonstrated, not simply for completion of assignments or meeting minimal requirements set for assignments.",
+        "*Student work will be graded according to the following grading scheme:",
+        "A = 93-100, A- = 90-92, B+ 87-89, B = 84-86, B- = 80-83, C+ = 77-79, C = 70-76, D = 60-69, F = Below 60",
+        "*Grades will be based on the following scale:",
+        "A = 96 – 100, A- = 90 – 95, B+ = 87 – 89, B = 84 – 86, B- = 80 – 83, C+ = 77 – 79, C = 70 – 76, D = 60 – 69, and F = 60 and below.",
+        "There will be discussion boards for students to discuss different aspects of the course. The instructor will participate in the discussions when it is appropriate. Use the discussion board to post your questions and to read the responses from your classmates.",
+        "There will be four discussions over the term of this class.",
+        "There will be eight homework assignments.",
+        "You are free to use any material or software package to solve the problems with adequate references unless otherwise specifically noted. For these assignments, you are responsible for all the material covered in class as well as in the assigned readings.",
+        "Additional information about assignments and related topics will be posted in Canvas when appropriate. Please see the Course Schedule below for the specific due dates of each assignment.",
+        "The term project will be completed individually, and it will include two draft submissions for feedback from the course instructor.",
+        "There will be two exams. Each exam will open seven days before it is due. You will be given 120 minutes once you begin, so be sure to give yourself enough uninterrupted time to complete the exam. The last exam will be due on the last official scheduled day of class by 11:59 PM Eastern Time. No make-up exams will be given, except in cases of emergencies and/or with prior approval from the instructor. Any questions on exams should be directed to the instructor.",
+        "The proctoring software uses your computer’s webcam or other technology to monitor and/or record your activity during exams. The proctoring software, Honorlock, may be listening to you, monitoring your computer screen, viewing you and your surroundings, and recording any activity (including visual and audio recordings) during the proctoring process. By enrolling in this course, you consent to the use of the proctoring software, including but not limited to any audio and/or visual monitoring that may be recorded. Please contact your instructor with any questions. For Honorlock resources and a practice test, see the Honorlock Information module in Canvas.",
+        "*Subject to change",
+        "The data mining task is a complex process that includes, in general, three stages:",
+        "Each of these stages may involve multiple steps with some of these steps optional.",
+        "A traditional data mining architecture provides a framework for several methods of data exploration and preprocessing. Among the tasks used in data exploration we enumerate:",
+        "The model building phase involves the development of a predictive and or descriptive model based on the application of machine learning algorithms. These models are constructed to identify generalized patterns from the intrinsic patterns stored in the data.",
+        "The deployment phase involves the application of the model generated to perform decision making. This is an important phase where profiling and user modeling are then applied to life situations. Simplistic applications of data mining tend to merely employ the model to predict the likelihood of events, occurrences, based largely on past patterns. Amazon, for example, can recommend books according to a user’s profile. Similarly, network operators are able to track fraudulent activities in the usage of phone lines, by tracking deviation patterns as compared to standard usage characterization.",
+        "To mine association rules in Knime, one needs to install the “Knime Itemset Mining” Extension. To do this, click Help -> Install new software, and then search “Knime Itemset Mining”. The workflow for association rule mining is shown below:",
+        "To mine association rules in Knime, we need to have the data in a table with the following format. {Transaction, Item}",
+        "An example of input data is shown below.",
+        "To make data appropriate for rule mining, we need to convert it to a collection type data. We can do this using a “GroupBy” node with the following setting:",
+        "The result of this node will be a dataset with the following structure:",
+        "With this data format, we can generate frequent itemsets. The setting of the node is as shown below.",
+        "The resulting itemsets are as shown below:",
+        "Further, association rules can be generated with the “Association rule learner”. The resulting rules have the following form:",
+        "Distributed/Collective Data Mining",
+        "One area of data mining that is attracting a good amount of attention is that of distributed and collective data mining. Much of the data mining which is being done currently focuses on a single database, data warehouse, or storage cluster that is managed by a unique entity. However, the situation arises where information may be located in different places and be owned by multiple agents. This is known generally as distributed data mining. Therefore, the goal is to effectively mine distributed data which is located in heterogeneous sites. Examples of this include biological information, data which comes from the databases of two different companies from the related area of business, or analysis of data from different branches of a corporation. For all these examples combining data is considered an expensive and time-consuming process.",
+        "Distributed data mining is used to offer a different approach to traditional approaches analysis, by using a combination of localized data analysis tools, together with a global data model and aggregator of local results. In more specific terms, this is specified as performing local data analysis for generating partial data models, and-combining the local data models from different data sites to develop the global model. This global model combines the results of the separate analyses. Often the global model produced, especially if the data in different locations have different features or characteristics, may become incorrect or ambiguous. This problem is especially critical when the data in distributed sites are heterogeneous rather than homogeneous.",
+        "Ubiquitous Data Mining",
+        "The increased usage of laptops, tablets, cell phones, and wearable computers is making ubiquitous access to a large quantity of data possible. Advanced analysis for extracting useful knowledge from data on such devices is an obvious step in the world of ubiquitous computing. Accessing and analyzing data from a ubiquitous computing device offer many challenges. For example, ubiquitous data mining introduces additional costs due to communication, computation, security, and other factors. So one of its objectives is to mine data while minimizing the cost of ubiquitous presence.",
+        "Human-computer interaction is another challenging aspect of ubiquitous data mining. Visualizing patterns like classifiers, clusters, associations, and others, in portable devices are usually difficult. The small display areas offer serious challenges to interactive data mining environments. Data management in a mobile environment is also a challenging issue. Moreover, the sociological and psychological aspects of the integration between data mining technology and our lifestyle are yet to be explored. The key issues to consider when addressing ubiquitous data mining in into the area of algorithms customization for mobile and distributed applications, data management issues, mark-up languages and other data representation techniques, development of database applications for mobile environments, solving architectural issues, location management issues and advances in web-based applications.",
+        "Hypertext and Hypermedia Data Mining",
+        "Hypertext and hypermedia data mining include mining of text, hyperlinks, mark-ups, and various other forms of hypermedia information. It is closely related to both web mining, and multimedia mining. While the World Wide Web is substantially composed of hypertext and hypermedia elements, there are other kinds of hypertext/hypermedia data sources which are not found on the web. Examples of these include the information found in online catalogs, digital libraries, online information databases, etc. Some of the important data mining techniques used for hypertext and hypermedia data mining include classification, clustering, semi-structured learning, and social network analysis.",
+        "One application of classification is in the area of web topic directories, which can group similar sounding or spelled terms into appropriate categories so that searches will not bring up inappropriate sites and pages. The use of classification can also result in searches which are not only based on keywords, but also on category and classification attributes. Unsupervised learning could help group documents by their content which would result in more similar documents being placed closer when displayed to the end user. Semi-supervised learning and social network analysis are other methods which are important to hypermedia based data mining. Semi-supervised learning is the case where there are both labeled and unlabeled documents, and there is a need to learn from both types of documents. Social network analysis is also applicable because the web is considered a social network, which examines networks formed through collaborative association, whether it be between friends, academics doing research or service on committees, and between papers through references and citations.",
+        "Multimedia Data Mining",
+        "Multimedia Data Mining is the mining and analysis of various types of multimedia data, including images, video, audio, and animation. Multimedia data mining incorporates areas of text mining, as well as hypertext/hypermedia mining as these fields, are closely related. Multimedia information, because of its nature as a large collection of multimedia objects, must be represented differently from conventional forms of data. One approach is to create a multimedia data cube which can be used to convert multimedia-type data into a form which is suited to analysis using one of the main data mining techniques but taking into account the unique characteristics of the data. This may include the use of measures and dimensions for texture, shape, color, and related attributes. In essence, it is possible to create a multidimensional spatial database. Another developing area in multimedia data mining is that of audio data mining. The idea is basically to use audio signals to indicate the patterns of data or to represent the features of data mining results. The basic advantage of audio data mining is that while using a technique such as visual data mining may disclose interesting patterns from observing graphical displays, it does require users to concentrate on watching patterns, which can become monotonous.",
+        "Spatial and Geographic Data Mining",
+        "Spatial data mining has a unique characteristic of including extra information which is of an entirely different kind: objects are related by their spatial and geographic location. Much of this data is image-oriented and can represent a great deal of information if properly analyzed and mined. Spatial data mining involves the extraction of implicit knowledge, spatial relationships, or other patterns not explicitly stored in spatial databases. Some of the components of spatial data which differentiate it from other kinds include distance and topological information, which can be indexed using multidimensional structures, and which requires special spatial data access methods, together with spatial knowledge representation. Analyzing spatial and geographic data include tasks such as understanding and browsing spatial data, uncovering relationships between spatial data items, or analysis on spatial databases and spatial knowledge bases. The applications of these would be useful in such fields as remote sensing, medical imaging, navigation, and related uses. Some of the challenges in constructing a spatial data warehouse include the difficulties of integration of data from heterogeneous sources, and also the usage of on-line analytical processing which is not only relatively fast, but also offers some forms of flexibility.",
+        "Time Series/Sequence Data Mining",
+        "Another important area in data mining centers on the mining of time series and sequence-based data. This involves the mining of a sequence of data, which can either be referenced by time or by other means. In general, one aspect of mining time series data focuses on the goal of identifying trends or components which exist within the data. These can include long-term trend movements, seasonal variations, cyclical variations, and random variations. Another task I time series is a similarity search and tries to identify a pattern sequence that is identical or similar to a given pattern.",
+        "Constraint-Based Data Mining",
+        "Many of the current data mining techniques lack the benefit of any guidance or user control. One method of implementing some form of human interaction into data mining is in the form of constraint-based data mining. This form of data mining incorporates the use of constraints that guide the process. There are several categories of constraints that can be used, each of which has its own characteristics and purpose, such as:",
+        "Subject-Based Data Mining",
+        "Subject-based data mining is a data mining method involving the search for associations between individuals in data. It is very useful in the context of combating terrorism. Subject-based data mining uses an initiating individual or other data that is considered to be of high interest, based on some predefined information. It has the goal to determine what other persons or financial transactions or movements are related to that initiating datum.",
+        "The objective of this course is to introduce students to the principles and practical applications of data mining techniques. Students will learn to:",
+        "Throughout this program, students will gain hands-on experience and foundational knowledge to analyze data and uncover valuable insights using data mining tools and methods.",
+        "In this lesson, students will explore the fundamentals of data mining, its motivations, how it compares to other techniques, and the processes and challenges involved.",
+        "By the end of this lesson, students will have a foundational understanding of data mining, its importance, the processes involved, and the challenges faced, setting the stage for applying these concepts in real-world scenarios.",
+        "In this lesson, students will delve into the core concepts of knowledge discovery, focusing on logical structures, data understanding, and preparation, using tools like Knime.",
+        "By the end of this lesson, students will understand the fundamentals of knowledge discovery, including how to structure workflows, analyze data, and prepare it for meaningful insights using Knime.",
+        "In this lesson, students will examine statistical techniques to analyze differences of means, with a focus on hypothesis testing, t-tests, and p-value calculations, using Knime for practical applications.",
+        "By the end of this lesson, students will be able to perform t-tests, calculate p-values, and interpret their results to assess differences of means effectively, with practical experience using Knime.",
+        "In this lesson, students will explore association rule mining techniques to uncover relationships and patterns within datasets, focusing on motivation, algorithms, and efficient itemset representation.",
+        "By the end of this lesson, students will be equipped to apply association rule mining techniques to find patterns in data, leveraging algorithms and efficient itemset representations for meaningful insights.",
+        "In this lesson, students will delve into the key algorithms used in association rule mining, including Apriori and FP-Growth, and learn to apply them using Knime to mine association rules.",
+        "By the end of this lesson, students will have a strong understanding of association rule algorithms like Apriori and FP-Growth and will be able to apply these techniques in Knime to extract meaningful patterns from data.",
+        "In this lesson, students will learn how to apply association rule mining techniques for classification tasks, focusing on associative classification algorithms and their practical applications in Knime.",
+        "By the end of this lesson, students will have the skills to apply association rule mining for classification tasks, using both algorithmic approaches and practical tools like Knime to classify data based on discovered patterns.",
+        "In this lesson, students will explore sequential pattern mining, learning how to discover patterns in sequences of data, with a focus on frequent sequential patterns and their computational methods.",
+        "By the end of this lesson, students will be equipped to apply sequential pattern mining techniques to uncover meaningful sequences in data, using tools like Knime to automate the process.",
+        "In this lesson, students will learn about clustering techniques, which are used to group similar data points together based on their features, focusing on similarity measures, cluster validity, and practical applications.",
+        "By the end of this lesson, students will be able to apply clustering techniques to group data, assess the validity of clusters, and use Knime to implement and visualize clustering results.",
+        "In this lesson, students will learn about various clustering algorithms, including partitional and hierarchical clustering methods, and how to implement these algorithms using Knime for effective data grouping.",
+        "By the end of this lesson, students will be proficient in applying partitional and hierarchical clustering methods to group data, utilizing Knime to implement and visualize clustering results effectively.",
+        "In this lesson, students will learn about outlier detection techniques, specifically focusing on how to use clustering methods, such as hierarchical clustering, to identify outliers in datasets.",
+        "By the end of this lesson, students will be able to use clustering techniques, particularly hierarchical clustering, to detect outliers in datasets, employing Knime to implement and evaluate these methods.",
+        "In this lesson, students will explore dimensionality reduction techniques, with a focus on using cluster-based methods like k-medoids to reduce the number of features in large datasets while preserving essential information.",
+        "By the end of this lesson, students will be able to apply k-medoids clustering for dimensionality reduction in large datasets, using Knime to implement and evaluate the technique effectively.",
+        "In this lesson, students will explore competitive learning techniques, focusing on Self-Organizing Maps (SOM), specifically the Kohonen algorithm, and learn how to apply it for clustering and data visualization in Knime.",
+        "By the end of this lesson, students will be able to apply the Kohonen Self-Organizing Maps algorithm to cluster data, visualize the results, and use Knime to implement and evaluate SOM-based clustering techniques effectively.",
+        "In this lesson, students will delve into Gaussian models, particularly focusing on Gaussian Mixture Models (GMMs), and learn how to use the Expectation Maximization (EM) algorithm for clustering and modeling in Knime.",
+        "By the end of this lesson, students will be able to apply Gaussian Mixture Models using the Expectation Maximization algorithm to cluster data effectively, utilizing Knime to implement and evaluate these models.",
+        "In this final lesson, students will reflect on the key concepts learned throughout the course, explore current trends in data mining, and examine future directions for the field.",
+        "By the end of this lesson, students will be equipped with a solid understanding of current trends in data mining and be prepared to engage with future advancements in the field, applying the skills learned throughout the course to real-world challenges.",
+        "The Data Mining course provides students with a strong foundation in extracting actionable insights from complex datasets, which is highly valued across many industries. By learning and applying data mining techniques like clustering, classification, and association rule mining, students gain the analytical skills required to identify patterns, predict trends, and make data-driven decisions. These skills are crucial in roles such as data analyst, data scientist, business intelligence analyst, and machine learning engineer. The hands-on experience with tools like Knime further enhances employability, equipping students to work with real-world data and advanced algorithms, making them highly competitive candidates in the fast-growing data science and analytics job market.",
+        "A real-world example of data mining could involve analyzing customer purchase data for an online retailer. By applying clustering techniques, a company can segment customers into groups based on purchasing behaviors, such as frequent shoppers, seasonal buyers, or high-value customers. Using association rule mining, the company can uncover patterns like which products are often bought together, allowing them to optimize product recommendations and cross-sell strategies. Furthermore, classification algorithms could predict which customers are likely to churn, enabling the company to take proactive steps in retaining valuable clients. This type of data mining provides actionable insights that help businesses improve customer targeting, sales strategies, and operational efficiency.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Understand basic data mining techniques, how to apply them, and when they are applicable.",
+            "Be able to utilize a data mining package.",
+            "Be able to apply data mining techniques to solve problems."
+        ],
+        [
+            "This course will require the following programs: Most recent version of the KNIME software."
+        ],
+        [
+            "HelpDesk Website: https://student.worldcampus.psu.edu/help-and-support/technical-support",
+            "HelpDesk Email: techsupport@worldcampus.psu.edu",
+            "HelpDesk Phone: (800) 252-3592"
+        ],
+        [
+            "“A” (Excellent) indicates exceptional achievement;",
+            "“B” (Good) indicates substantial achievement;",
+            "“C” (Satisfactory) indicates acceptable but substandard achievement; and",
+            "“D” (Poor) indicates inadequate achievement and is a failing grade for a graduate student."
+        ],
+        [
+            "Your answers to discussion questions should be submitted by 11:59PM ET on the Friday of each lesson week.",
+            "You are expected to provide at least one answer for each discussion question.",
+            "Every student is expected to provide at least two feedback postings by the discussion due date/time noted in the Course Schedule below."
+        ],
+        [
+            "Assignments should be completed without collaboration with other students or individuals. You will have at least a week to complete each assignment, and each assignment is due at 11:59 PM Eastern Time on the date specified. Your responses to each assignment must be submitted in the specified file format, either PDF, DOC, DOCX, XLS, or XLSX format, and must be placed in the appropriate assignment in Canvas. Late submissions will not be accepted unless there are mitigating circumstances, and the instructor has given permission prior to the due date."
+        ],
+        [
+            "The Data Mining Process",
+            "Association Rule Mining in Knime",
+            "Future Trends"
+        ],
+        [
+            "Data integration is the process of combining multiple, heterogeneous sources of data into one consistent view.",
+            "Data transformation is the process of consolidating data to be suitable for visualization and model generation. Examples of data mining tasks are data reduction, aggregation, and projection.",
+            "Data cleaning is the part of the data exploration stage that addresses the handling of noisy data, missing values, or irrelevant attributes.",
+            "Data selection is the task of selecting the relevant data that is suitable for building a data mining model."
+        ],
+        [
+            "Note that Apriori and FP-growth are options for generating the itemsets. Maximal or closed frequent itemsets can be generated by choice. Also, a minimum threshold on the support can be set in either relative or absolute fashion."
+        ],
+        [
+            "Knowledge-type constraints specify the type of knowledge to be mined and is typically specified at the beginning of any data mining query.",
+            "Data constraints identify the data which is to be used in the specific data mining query.",
+            "Dimension/level constraints specify constraints related to the levels or dimensions of data to be included in the data mining task.",
+            "Interestingness constraints specify ranges of a particular variable or measures that are considered to be particularly interesting and should be included in the data mining task.",
+            "Rule constraints specify particular rules which should be applied and used for a particular data mining query or application."
+        ],
+        [
+            "Understand basic data mining techniques, their applications, and appropriate use cases.",
+            "Utilize data mining software packages effectively.",
+            "Apply data mining methods to solve real-world problems."
+        ],
+        [
+            "L1,L2",
+            "L3,L4",
+            "L5,L6",
+            "L7,L8",
+            "L9,L10",
+            "L11, L12",
+            "L13, L14"
+        ],
+        [
+            "Motivation for Data Mining: Understanding why data mining is critical in discovering patterns and insights.",
+            "Data Mining Compared to Other Techniques: Differentiating data mining from traditional statistical and machine learning methods.",
+            "Examples of Data Mining Tasks: Reviewing real-world tasks like classification, clustering, and association rule mining.",
+            "The Data Mining Process: Examining the key steps involved in executing a data mining project.",
+            "CRISP-DM Framework: Introducing the widely-used Cross-Industry Standard Process for Data Mining.",
+            "Example Data Mining Process: Exploring a practical example of how data mining is applied.",
+            "Data Mining Issues: Addressing challenges such as data quality, overfitting, and ethical concerns."
+        ],
+        [
+            "Discussion Forum: Share insights and questions about key topics in data mining.",
+            "Building Our Learning Community: Engage with peers to foster a collaborative learning environment.",
+            "Exploring Tools and References: Familiarize with external tools and resources provided for deeper learning."
+        ],
+        [
+            "Logical Data Mining Structure with Knime: Learn how to design and visualize data mining workflows using Knime Knowledge Flow.",
+            "Example of Data Mining Process: Explore a step-by-step data mining example to understand practical applications.",
+            "Knime Platform: Gain familiarity with Knime as a versatile platform for data mining and analytics.",
+            "Data Understanding: Analyze and interpret raw data to uncover meaningful patterns and insights.",
+            "Data Preparation: Prepare and preprocess data to ensure quality and suitability for analysis."
+        ],
+        [
+            "Exploring Knime Tools: Use the Knime platform and provided files, such as the iris.csv dataset, to build workflows.",
+            "Assignment: Apply knowledge discovery techniques to complete Lesson 2’s assignment.",
+            "Collaborative Learning: Share insights and questions on the logical data mining process in discussions."
+        ],
+        [
+            "Research Problem Redux: Revisit how to define and frame research problems for statistical analysis.",
+            "Mean Difference as a Measure: Understand how mean differences reveal phenotypical or group disparities.",
+            "T-test for Differences of Means: Learn the fundamentals of t-tests and their application in hypothesis testing.",
+            "Computing the P-Value: Explore how to calculate the p-value to evaluate statistical significance.",
+            "Example of P-Value Calculation: Walk through a practical example to solidify understanding of p-value computation.",
+            "Direct P-Value Calculation in Knime: Utilize Knime to automate and simplify p-value calculations.",
+            "Assumptions of the T-test: Understand the key assumptions underlying the validity of t-test results."
+        ],
+        [
+            "Knime Practice: Use the provided Knime file to compute p-values and perform t-tests on datasets.",
+            "Assignment: Apply the concepts learned to complete Lesson 3’s assignment.",
+            "Review Notes: Study the lesson notes for a deeper understanding of statistical techniques."
+        ],
+        [
+            "Motivation for Association Rule Mining: Understand the importance of finding relationships between items in large datasets, such as market basket analysis.",
+            "The Association Rule Task: Learn the key concepts involved in discovering associations between items.",
+            "Basic Algorithm for Mining Association Rules: Study algorithms like the Apriori algorithm for generating association rules.",
+            "Compact Representation of Itemsets: Discover methods for efficiently representing itemsets in association rule mining to optimize performance."
+        ],
+        [
+            "Discussion Forum: Engage in discussions on real-world applications of association rule mining and share insights.",
+            "Hands-on Practice: Use external tools to apply the association rule mining techniques to example datasets."
+        ],
+        [
+            "Apriori Algorithm: Learn the Apriori algorithm to generate frequent itemsets and discover association rules efficiently.",
+            "FP-Growth Method: Explore the FP-Growth algorithm as an alternative to Apriori, focusing on its efficiency in large datasets.",
+            "Association Rule Mining in Knime: Apply the Apriori and FP-Growth methods within the Knime platform to mine association rules.",
+            "Issues with Association Rule Mining: Understand common challenges such as computational complexity and the problem of overfitting."
+        ],
+        [
+            "Knime Practice: Use the provided Knime file to apply the Apriori and FP-Growth algorithms on a dataset.",
+            "Assignment: Complete the lesson’s assignment by analyzing the given data using association rule mining techniques.",
+            "Review Notes: Study the lesson notes for in-depth understanding and examples of algorithm applications."
+        ],
+        [
+            "Associative Classification: Understand the concept of using association rules to classify data based on patterns and relationships.",
+            "Algorithm for Associative Classification: Learn the algorithms that enable classification using association rules, including rule generation and pruning.",
+            "Example of Associative Classification: Explore a real-world example to demonstrate how associative classification works in practice.",
+            "Example of Associative Classification in Knime: Apply the techniques of associative classification in Knime with a step-by-step walkthrough."
+        ],
+        [
+            "Knime Practice: Use the provided Knime file to implement associative classification and analyze the given dataset.",
+            "Discussion Forum: Participate in discussions about the applications and challenges of using association rules for classification."
+        ],
+        [
+            "Sequential Patterns: Understand the concept of sequential patterns and how they differ from association rules, focusing on ordered data sequences.",
+            "Discovering Frequent Sequential Patterns: Learn how to identify frequent sequential patterns using computational methods.",
+            "Example of Sequential Pattern Mining: Study a practical example to understand how sequential patterns are discovered from data."
+        ],
+        [
+            "Knime Practice: Use the provided Knime file to implement sequential pattern mining on a dataset and analyze the results.",
+            "Assignment: Complete the assignment by applying sequential pattern mining techniques to the given dataset.",
+            "Review Notes: Study the lesson notes and resources to consolidate understanding and refine skills in sequential pattern mining."
+        ],
+        [
+            "Motivation for Clustering: Understand the importance of clustering in uncovering natural groupings within data.",
+            "Measures of Similarity/Dissimilarity: Learn about different measures used to quantify the similarity or dissimilarity between data points in a feature space.",
+            "Cluster Validity: Explore methods for evaluating the quality of clusters and ensuring they are meaningful."
+        ],
+        [
+            "Knime Practice: Use the provided Knime files to apply clustering techniques and evaluate the resulting clusters.",
+            "Assignment: Complete the assignment by applying clustering methods to a dataset and analyzing the results.",
+            "Quiz: Take the Honorlock practice quiz and Exam 1 to test understanding and preparation."
+        ],
+        [
+            "Partitional Clustering Methods: Learn how partitional clustering divides data into distinct, non-overlapping groups, with methods such as k-means.",
+            "Hierarchical Clustering Algorithms: Understand hierarchical clustering techniques that build nested clusters, offering more flexibility in grouping data.",
+            "Clustering in Knime: Apply partitional and hierarchical clustering methods using Knime to explore and visualize data groupings."
+        ],
+        [
+            "Knime Practice: Use the provided Knime files to implement clustering algorithms and analyze the results on datasets like iris.csv.",
+            "Assignment: Complete the assignment by applying clustering techniques and interpreting the outcomes.",
+            "Review Notes: Study the lesson notes to reinforce understanding of clustering algorithms and their applications."
+        ],
+        [
+            "Definition of Outliers: Understand what constitutes an outlier and why detecting outliers is important in data analysis.",
+            "Outlier Detection Using Hierarchical Clustering Methods: Learn how hierarchical clustering can be used to detect outliers based on cluster distances and density.",
+            "Outlier Detection in Knime: Apply hierarchical clustering techniques in Knime to detect outliers in sample datasets."
+        ],
+        [
+            "Knime Practice: Use the provided Knime file to implement hierarchical clustering and identify outliers in the dataset.",
+            "Assignment: Complete the assignment by applying cluster-based outlier detection methods and analyzing the results.",
+            "Review Notes: Study the lesson notes to consolidate understanding of outlier detection techniques and their practical applications."
+        ],
+        [
+            "Dimensionality Reduction Methods: Learn various techniques for reducing the number of variables or features in a dataset, improving analysis efficiency.",
+            "Dimensionality Reduction Using k-medoids Clustering: Understand how k-medoids, a clustering method, can be applied to reduce dimensions by grouping similar data points.",
+            "Dimensionality Reduction in Knime: Implement k-medoids clustering for dimensionality reduction in Knime and visualize the results."
+        ],
+        [
+            "Knime Practice: Use the provided Knime file to apply k-medoids clustering for dimensionality reduction on the dataset.",
+            "Assignment: Complete the assignment by applying dimensionality reduction techniques and analyzing the results.",
+            "Review Notes: Study the lesson notes to reinforce the concepts of dimensionality reduction and clustering methods."
+        ],
+        [
+            "Competitive Learning: Self-Organizing Maps Introduction: Understand the concept of competitive learning and how Self-Organizing Maps are used to map high-dimensional data to lower-dimensional grids.",
+            "Kohonen Self-Organizing Maps Algorithm: Learn how the Kohonen algorithm operates to create clusters and visualize complex data structures.",
+            "Kohonen Self-Organizing Maps in Knime: Apply the Kohonen Self-Organizing Maps algorithm in Knime to cluster data and interpret the results effectively."
+        ],
+        [
+            "Knime Practice: Use the provided Knime file to implement and visualize clustering using Kohonen Self-Organizing Maps on the dataset.",
+            "Assignment: Complete the assignment by applying Self-Organizing Maps for clustering and interpreting the results based on the given data.",
+            "Review Notes: Study the lesson notes to solidify your understanding of competitive learning and SOM clustering methods."
+        ],
+        [
+            "Gaussian Models Introduction: Understand the fundamentals of Gaussian models, including their use in probabilistic clustering and data distribution modeling.",
+            "Expectation Maximization Algorithm for Gaussian Mixture Models: Learn how the EM algorithm is applied to fit Gaussian Mixture Models and estimate the parameters of the data distribution.",
+            "Gaussian Mixture Models in Knime: Implement Gaussian Mixture Models in Knime to cluster data and visualize the results effectively."
+        ],
+        [
+            "Knime Practice: Use the provided Knime file to apply Gaussian Mixture Models and interpret the results based on the clustering of the dataset.",
+            "Discussion Forum: Participate in the discussion forum to share insights and learn from peers’ applications of Gaussian models.",
+            "Assignment: Complete the assignment by applying Gaussian Mixture Models to cluster data and analyzing the outcomes."
+        ],
+        [
+            "Conclusions and Future Trends Introduction: Understand the overall takeaways from the course and the evolving landscape of data mining and analytics.",
+            "Current Trends and Applications: Explore the latest advancements in data mining, including new techniques and real-world applications in various industries.",
+            "Future Trends: Analyze emerging trends in data mining, such as deep learning, AI integration, and the use of big data technologies."
+        ],
+        [
+            "Knime Practice: Review and reinforce the techniques learned throughout the course by applying them to the final assignment.",
+            "Discussion Forum: Engage in discussions on the current and future trends in data mining with peers.",
+            "Final Term Project: Complete the final project by applying course concepts to a real-world data mining problem."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "https://student.worldcampus.psu.edu/help-and-support/technical-support",
+            "url": "https://student.worldcampus.psu.edu/help-and-support/technical-support"
+        },
+        {
+            "text": "techsupport@worldcampus.psu.edu",
+            "url": "mailto:techsupport@worldcampus.psu.edu?subject=World%20Campus%20Tech%20Support%20Inquiry"
+        },
+        {
+            "text": "Penn State University Library.",
+            "url": "https://libraries.psu.edu/"
+        },
+        {
+            "text": "University Grading Policy for Graduate Courses",
+            "url": "https://courses.worldcampus.psu.edu/public/ID/shared/grad_grading_policy.html"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "A workflow diagram with nodes connected to represent a data mining process. The nodes include \"CSV Reader,\" \"GroupBy,\" \"Association Rule Learner (Borgelt),\" and \"Item Set Finder (Borgelt).\"",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/L5_20.png"
+        },
+        {
+            "alt": "A table with three columns: \"Row ID,\" \"Transaction,\" and \"Item,\" showing transaction data where each row represents an item purchased in a specific transaction.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/L5_21.png"
+        },
+        {
+            "alt": "Settings window for grouping and aggregating data with \"Transaction\" as the group column and \"Item\" aggregated as a list.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/L5_22.png"
+        },
+        {
+            "alt": "",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/L5_23.png"
+        },
+        {
+            "alt": "",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/L5_24.png"
+        },
+        {
+            "alt": "",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/L5_25.png"
+        },
+        {
+            "alt": "",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/L5_26.png"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Assignment Category",
+                "Quantity",
+                "Weight (% of final grade)"
+            ],
+            [
+                "Homework",
+                "8",
+                "20%"
+            ],
+            [
+                "Discussions",
+                "4",
+                "10%"
+            ],
+            [
+                "Exams",
+                "2",
+                "40%"
+            ],
+            [
+                "Project",
+                "1",
+                "30%"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"5459\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

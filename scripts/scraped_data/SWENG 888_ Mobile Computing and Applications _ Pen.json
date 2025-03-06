@@ -1,0 +1,483 @@
+{
+    "metadata": {
+        "title": "SWENG 888: Mobile Computing and Applications – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2397"
+    },
+    "headings": {
+        "h2": "Enhance User Experience with Material Design Principles",
+        "h4": "Unlocking Your Potential"
+    },
+    "paragraphs": [
+        "SWENG 888: Mobile Computing and Applications is a three-credit course focused on the advanced design and development of mobile applications and services. Students gain hands-on experience with both current and emerging mobile computing technologies, exploring how mobile applications can meet the evolving mobility needs of businesses. The course covers key topics such as mobile application and service design patterns, user interface design, animations, location-based services, mapping, and integration with enterprise systems.",
+        "Through targeted readings, lab exercises, and projects, students will develop adaptable, sustainable mobile applications that leverage operational agility and existing IT investments. By the end of the course, students will have acquired essential coding skills in mobile development environments, device emulation, data management, and enterprise solution integration, preparing them to create impactful mobile applications for real-world business challenges.",
+        "This course focuses on the fundamental design and development of mobile applications and services. The goal of this course is to explore and discuss approaches to the design and development of mobile client-side applications, which can fully leverage a variety of enterprise information systems to meet the needs of business mobility on both the service provider and the customer sides. This course will cover mobile computing platform technologies, mobile application and services design patterns, user interface, animation, location & mapping, and integration. Students will learn mobile development environments, application and service design and development, device emulators, data and mobility management, and enterprise solution-based integration. This course is lab-driven. Students will learn the fundamentals and acquire hands-on experience with mobile computing and platform technologies.",
+        "The fundamental learning objective of the course is to enable students to design and develop mobile applications that fully leverage information systems to meet the needs of business mobility by providing a comprehensive understanding of mobile computing platform technologies, mobile applications, user interface, location & mapping, and integration. This objective is achieved through hands-on experience with mobile development environments, application design and development, and device emulators, as well as through collaboration and communication skills developed in lab-driven projects and assignments. After taking this course, the students should be able to answer the following questions:",
+        "Bill Phillips, Chris Stewart, and Kristin Marsicano. 2017. Android Programming, The Big Nerd Ranch Guide (3rd ed.).",
+        "*Articles and readings will be available through the course links.",
+        "The final exam will be proctored via Honorlock (online proctoring software).",
+        "In this course, you will have different types of assignments. Please note that all deliverables in this course are on an individual basis throughout the 14-week course. The overall course grade is distributed over the different assignments as per the table below.",
+        "Grades will be based on the following scale:",
+        "A = 95 – 100, A- = 90 – 94, B+ = 87 – 89, B = 84 – 86, B- = 80 – 83, C+ = 77 – 79, C = 70 – 76, D = 60 – 69, and F = Below 60.",
+        "Students will complete five individual assignments that are worth 10 points each.",
+        "There are discussion forums in this course. Students will be evaluated based on their timely and meaningful responses to forum questions. At a minimum, each student is expected to post one direct response and two responses to other students’ postings for each forum question. Quality of interaction is always valued over quantity. In addition, students are highly encouraged to share references to additional and relevant resources with the rest of the class via posting to the appropriate forum. A numerical grade (0-100) will be assigned for class participation.",
+        "Class Participation & Forum Discussions:",
+        "Throughout the course, you will be asked to complete certain exercises from the textbook.",
+        "For your team assignments, it is crucial that you maintain a professional working and supportive relationships with your partner(s). You have been asked to develop a working relationship that is mindful of due dates, and when you and your team can get work done, give each other time to provide feedback, complete tasks, etc. Establishing those parameters early in the course, and then being consistent throughout, will lead to team success.",
+        "Peer Review Evaluation: Peer assessment is a valuable tool for me to evaluate the individual contributions of team members. While I will be able to evaluate your individual contributions primarily from observations of your postings and chats, the assessment provides additional information on what might take place outside those meetings. It is important and I urge you to take it seriously. It’s not a popularity contest. It’s a frank, honest assessment. I’m also requiring that you provide an assessment of your own contribution. Again, be honest. I’m not looking for modesty. If you feel you made the most valuable contributions to the group go ahead and evaluate it that way.",
+        "There will be one final exam that will use Honorlock Proctoring.",
+        "This course may require you to take exams using certain proctoring software that uses your computer’s webcam or other technology to monitor and/or record your activity during exams. The proctoring software, Honorlock, may be listening to you, monitoring your computer screen, viewing you and your surroundings, and recording any activity (including visual and audio recordings) during the proctoring process. By enrolling in this course, you consent to the use of the proctoring software, including but not limited to any audio and/or visual monitoring that may be recorded. Please contact your instructor with any questions. For Honorlock resources and a practice test, see the Honorlock Information module in Canvas.",
+        "*subject to change",
+        "After taking this course, the students should be able to:",
+        "During this course you will expand your knowledge of the lesson topics each week.",
+        "This lesson introduces you to the essential principles of mobile software engineering, setting the stage for a rewarding journey in app development.",
+        "Dive deep into the fascinating realm of decision analysis. Through hands-on experiences and interactive learning, you’ll uncover techniques to model decisions, understand outcomes, and optimize strategies. From structuring problems to evaluating risk profiles, you’ll master the tools to navigate uncertainty with confidence.",
+        "Prepare for hands-on development by setting up your Android development environment. This crucial step ensures you have all the necessary tools to dive into app creation, ready to bring your ideas to life.",
+        "Begin working with your classmates on a group project where you’ll plan and develop an Android app. This experience will hone your teamwork skills, providing real-world insight into the collaborative nature of app development.",
+        "By completing this lesson, you’ll establish a solid foundation in mobile software engineering and be ready to apply your skills in more advanced projects.",
+        "This lesson takes you through the core structure of Android projects, equipping you with the skills to create your first app from scratch.",
+        "Dive into the Android project framework and learn how the activity lifecycle impacts app behavior. This foundational knowledge will help you build apps that are responsive and intuitive at every stage of use.",
+        "Start designing your app’s interface with fundamental elements like TextView, EditText, Button, Toast, and Snackbar. These building blocks will enable you to create a user-friendly experience, setting the stage for engaging and interactive app design.",
+        "Bring your app to life by implementing event handling and listeners, making it responsive to user inputs. This lesson will guide you in transforming a static interface into a dynamic, interactive experience.",
+        "By completing this lesson, you’ll be prepared to build basic Android apps with engaging interfaces and interactive features, ready to take on more complex projects as you progress.",
+        "This lesson introduces you to the power of Android Intents, giving your apps the ability to interact both internally and with other applications.",
+        "Learn the differences between explicit and implicit intents, and discover how to use explicit intents to pass parameters between activities. This skill is essential for building apps with smooth, integrated user flows.",
+        "Explore how to use intent filters to enable your app to communicate with other applications and components in the Android framework. This lesson will guide you in designing strategies that make your app more versatile and connected.",
+        "Gain insights into best practices for using Intents, helping you avoid common pitfalls and ensure reliable app performance. This focus on seamless communication will enhance the usability and functionality of your applications.",
+        "By completing this lesson, you’ll have the skills to develop Android apps that interact dynamically, both within your app and across the Android ecosystem, making your applications more functional and engaging.",
+        "This lesson focuses on data handling and user notifications, providing you with the skills to create interactive and data-driven Android applications.",
+        "Learn how to implement data-sharing mechanisms between Android apps, enabling seamless inter-app communication. This will allow your applications to collaborate and share information effectively, enhancing user experience.",
+        "Discover how to create and personalize notifications, using advanced features to capture user attention and drive engagement. Notifications are key to keeping users informed and connected with your app.",
+        "Explore the functionality of SQLite in Android development, learning how to manage, query, and retrieve data efficiently. You’ll gain hands-on experience with database manipulation and learn how SQLite’s strengths support app performance.",
+        "Use RecyclerView to build user interfaces that are both dynamic and efficient. RecyclerView provides a versatile way to display large data sets, making your apps visually engaging and responsive.",
+        "By completing this lesson, you’ll be able to manage data effectively and create user-centered features, equipping your apps with powerful data and interaction capabilities.",
+        "This lesson introduces you to Firebase, a powerful suite of Google services that can take your Android app functionality to the next level.",
+        "Learn how to integrate Firebase services into your app, giving you access to tools that improve functionality, data management, and overall app performance. Firebase integration allows your app to stay dynamic and responsive.",
+        "Explore Firebase’s authentication services to provide secure, personalized user access. You’ll gain the skills needed to protect user data, an essential feature in today’s app landscape.",
+        "Develop advanced UI components like fragments and navigation drawers, enhancing the usability and aesthetic appeal of your app. This lesson will guide you in creating user-friendly layouts that look polished and professional.",
+        "Analyze how Firebase integration complements advanced UI elements, ensuring a cohesive and interactive user experience. With these tools, you’ll be able to design apps that are not only secure but also engaging.",
+        "By completing this lesson, you’ll have the expertise to build Android apps that integrate Google services seamlessly, creating secure, functional, and visually appealing applications.",
+        "This lesson explores the powerful features of Google Maps, showing you how to create location-based functionality that enriches the user experience.",
+        "Analyze the full range of Google Maps capabilities and their applications within Android apps. By integrating Google Maps, you’ll add value and functionality, transforming your app into a dynamic, location-aware tool.",
+        "Use the Google Maps API, working with MapsFragment and location services to bring interactive map features into your app. This hands-on practice will develop your skills in providing users with a location-responsive experience.",
+        "Learn how to design and personalize your app’s map with interactive elements like Markers and Polylines, crafting a visually engaging and user-friendly interface. These skills will empower you to create maps that are intuitive and enjoyable for users to navigate, making your app stand out with seamless, interactive experiences.",
+        "By completing this lesson, you’ll be able to build Android apps that leverage Google Maps, offering users a responsive, visually engaging, and location-focused experience.",
+        "This lesson immerses you in UX and Material Design, equipping you with the skills to create Android applications that are both visually appealing and user-friendly.",
+        "Analyze and apply key UX principles alongside Material Design elements to build Android apps that are not only aesthetic but also highly intuitive. You’ll learn how to create designs that focus on user needs and engagement.",
+        "Explore Material Design’s guidelines, from layout and color schemes to typography and iconography, to develop interfaces that feel cohesive and professional. These design fundamentals will allow you to create visually consistent and accessible apps.",
+        "Learn to design and integrate UI elements that drive user engagement and improve app functionality. By applying Material Design principles, you’ll make your apps more intuitive and enjoyable for users.",
+        "Refine your design skills by critically assessing and applying advanced UX strategies with the nuances of Material Design. This combination will help you build apps that excel in usability, visual appeal, and meet users’ high expectations.",
+        "By completing this lesson, you’ll gain the expertise to create Android applications that stand out for their polished, user-centered design, making your apps both engaging and impactful.",
+        "Taking SWENG 888: Mobile Computing and Applications as part of a Master’s in Software Engineering can significantly enhance your career, especially if you’re aiming to specialize in mobile development or user-centered application design. This course offers both foundational and advanced skills in Android development, Google services integration, and Material Design principles, equipping you to build functional, visually engaging, and user-friendly mobile applications. By mastering data management, integrating Firebase and Maps APIs, and applying UX best practices, you’ll gain the technical expertise and versatility highly valued in today’s tech industry.",
+        "For software engineering professionals and aspiring mobile app developers, the skills gained in SWENG 888 can open doors to diverse career pathways. Whether you plan to work at a leading tech company, focus on mobile application development, or pursue independent projects, the competencies from this course—ranging from secure data handling to seamless user experience design—provide a strong competitive edge. In an era where mobile solutions are essential, the ability to develop high-quality, responsive apps will have a lasting impact on your career trajectory and marketability.",
+        "Remote Workforce Management ToolsMobile applications to manage and support remote workforces are in high demand. These apps could integrate with GPS tracking for field teams, provide scheduling and project management features, and allow for secure document sharing and communication through Firebase. The interactive UI design ensures ease of use for diverse workforce types, from field technicians to office-based staff.",
+        "Educational and E-Learning Platforms with Interactive ContentLeveraging skills in UI/UX and Firebase, graduates could work on educational apps that deliver personalized learning experiences. These apps might use real-time data to adapt content based on student performance and location services to support virtual field trips. Material Design principles help in crafting an intuitive interface, making learning accessible and engaging.",
+        "Healthcare Mobile Applications for Patient EngagementWorking with healthcare providers or tech firms, these professionals might develop mobile applications for patient engagement, allowing users to schedule appointments, access medical records, and communicate with providers through secure channels. The integration of Firebase for authentication ensures patient data privacy, while Google Maps integration can help users locate nearby medical facilities or pharmacies.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Understand the fundamental concepts of mobile application development and the role of mobile computing platforms in the enterprise environment.",
+            "Analyze and evaluate mobile application development environments and platforms and make informed decisions regarding their use.",
+            "Design and develop mobile applications using industry-standard tools and techniques.",
+            "Implement mobile application design patterns and incorporate user interface design, animation, location, and mapping.",
+            "Integrate mobile applications and services with information systems.",
+            "Demonstrate effective collaboration and communication skills through lab-driven projects and assignments.",
+            "Develop critical thinking skills through the analysis and evaluation of mobile applications and services."
+        ],
+        [
+            "Freely accessible through Penn State Libraries using the Safari Learning Platform: Academic Edition database: https://learning.oreilly.com/library/view/android-programming-the/9780134706061/."
+        ],
+        [
+            "Timeliness (did you deliver it by the deadline?)",
+            "Completeness (did you do all that was asked?)",
+            "Responsiveness (did you do what was asked or did you deviate from the assignment?)",
+            "Thoroughness (did you answer thoughtfully and substantially, or just in a perfunctory manner?)",
+            "Professionalism (formatting, grammar, clarity)"
+        ],
+        [
+            "Disregard your general impressions and concentrate on one factor at a time.",
+            "Study carefully the definition given for each factor and the specifications for each category.",
+            "Call to mind instances that are typical of the student’s work and behavior. Do not be influenced by unusual cases that are not typical.",
+            "Determine the category that best describes the student’s accomplishments in that area and enter the number for the performance rating.",
+            "If a factor has not been observed during the rating period, enter NA for not applicable. In the comments section, explain why this factor has not been observed.",
+            "Make sure to include yourself when filling out the evaluation form."
+        ],
+        [
+            "Mobile Computing Principles and Architecture",
+            "Mobile Software Engineering – which includes techniques and frameworks for designing, developing, documenting, evaluating, testing, and deploying mobile applications",
+            "Design and Development Platforms",
+            "User Interface, Location, Mapping, Databases",
+            "Broadcast Receivers and Services",
+            "Technical Debt on Mobile Applications"
+        ],
+        [
+            "Android Devlopment",
+            "Interactive UI",
+            "UX Design Principles"
+        ],
+        [
+            "Understand the fundamental concepts of mobile application development and the role of mobile computing platforms in the enterprise environment.",
+            "Analyze and evaluate mobile application development environments and platforms and make informed decisions regarding their use.",
+            "Design and develop mobile applications using industry-standard tools and techniques.",
+            "Implement mobile application design patterns and incorporate user interface design, animation, location, and mapping.",
+            "Integrate mobile applications and services with information systems.",
+            "Demonstrate effective collaboration and communication skills through lab-driven projects and assignments.",
+            "Develop critical thinking skills through the analysis and evaluation of mobile applications and services."
+        ],
+        [
+            "L1",
+            "L2",
+            "L3",
+            "L4",
+            "L5",
+            "L6",
+            "L7"
+        ],
+        [
+            "Exploratio Discendi: Incipe a plena recensione probabilitatis et statisticae fundamentalis, deinde profundius cognosce varias distributiones probabilitatis, sicut binomialem, Poissonianam, et normalem.",
+            "Instrumenta Visualizationis et Analytica: Utere @Risk ad visualizandas probabilitatis theoricas simulationes in actione, explorans quomodo diversae distributiones in veris condicionibus se gerant.",
+            "Technicae Modulationis Datae: Perite artem aptandi data ad creandas distributiones probabilitatis, convertendo rudia data in instrumenta perspicientiae ad decisiones faciendas."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Safari Learning Platform: Academic Edition",
+            "url": "https://libraries.psu.edu/eresources/psu02110"
+        },
+        {
+            "text": "https://learning.oreilly.com/library/view/android-programming-the/9780134706061/",
+            "url": "https://learning.oreilly.com/library/view/android-programming-the/9780134706061/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "Image: Android Programming, The Big Nerd Ranch Guide (3rd ed.).",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/10/androidbook.jpg"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Assignment Category",
+                "Weight (% of Final Grade)",
+                "Points per Assignment"
+            ],
+            [
+                "Individual Assignments (5)",
+                "40%",
+                "10"
+            ],
+            [
+                "Team Project Conception",
+                "10%",
+                "10"
+            ],
+            [
+                "Team Project Implementation",
+                "20%",
+                "10"
+            ],
+            [
+                "Team Project Demo",
+                "20%",
+                "10"
+            ],
+            [
+                "Final Exam (1)",
+                "10%",
+                "10"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"2397\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

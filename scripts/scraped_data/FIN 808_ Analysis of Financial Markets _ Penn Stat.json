@@ -1,0 +1,808 @@
+{
+    "metadata": {
+        "title": "FIN 808: Analysis of Financial Markets – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=5877"
+    },
+    "headings": {
+        "h2": "Overview",
+        "h4": "Unlocking Your Potential",
+        "h3": "Lesson 7: Risk Management in Financial Institutions",
+        "h5": "Pros and Cons of Interest Rate Swap"
+    },
+    "paragraphs": [
+        "FIN 808: Analysis of Financial Markets is a three-credit course designed to equip students with an in-depth understanding of the macroeconomic and global financial market forces that shape the investing, financing, and risk-management strategies of corporate businesses and public entities. Through a focus on critical-thinking skills and managerial decision-making, the course bridges economic principles and practical applications, enabling students to analyze and respond to real-world business scenarios. By fostering a comprehensive grasp of financial markets, FIN 808 prepares students to make informed and strategic decisions in dynamic economic environments.",
+        "FIN 808 is a three (3) credit course that provides students with comprehensive knowledge of the fundamental macroeconomic and global financial market forces that influence corporate businesses and public entities’ investing, financing, and risk-management strategies. The central objective is to develop critical-thinking skills and managerial decision proficiency through the application of underlying economic principles to real-world business decision scenarios.",
+        "At the completion of the course, students should be able to accomplish the following:",
+        "The following textbook is required:",
+        "For pricing and ordering information, please see the Barnes & Noble College website. Materials will be available at Barnes & Noble College approximately three weeks before the course begins. It is very important that you purchase the correct materials. If your course requires one or more textbooks, you must have the exact text required (i.e., book edition and year).",
+        "All Penn State students have free access to Microsoft Office 365. This includes access to Word, Outlook, Excel, PowerPoint, Sway, Teams, etc. In addition, you have free access to LinkedIn Learning, which provides supplemental video resources related to finance and videos that will help you to sharpen your Excel skills.",
+        "Please remember that ALL questions about grades, course lesson content, and assignments should be directed to your course instructor. If you have any technical difficulties using the tools within this course, please contact the Penn State Helpdesk.",
+        "All course-related e-mails should go through Canvas’s course mail function (Canvas Inbox). Using Canvas to contact your instructor ensures that your message will be read, and your instructor will respond to you in a timely manner.",
+        "Many of the University Libraries’ resources can be utilized from a distance. Through the Library website, you can access magazines, journals, and articles; borrow materials and have them delivered to your doorstep; and get research help via email chat or phone from a librarian.",
+        "For more information, view the Penn State University Library.",
+        "A grade is given solely on the basis of the instructor’s judgment as to the student’s scholarly attainment (see the Penn State Graduate Degree Programs Bulletin, p. 41). The following grading system applies to graduate students:",
+        "Students are encouraged to seek the instructor’s input during the process of completing each course requirement. Students are reminded that a letter grade of A is given to students who do exceptional work in both the quality of communicating ideas/information and the level of scholarship demonstrated, not simply for completion of assignments or meeting minimal requirements set for assignments.",
+        "*Grades will be based on the following scale:",
+        "A = 95-100, A- = 90-94, B+ = 87-89, B = 84-86, B- = 80-83, C+ = 77-79, C = 70-76, D = 60-69, F = Below 60",
+        "You will be required to complete four (4) graded homework assignments. Each graded HW assignment will be available to complete starting Monday at 6 a.m. (ET) and needs to be submitted by Sunday at 11:59 pm (ET). Please check the schedule for which homework needs to be turned in (graded). Please create your own Excel file and incorporate spreadsheet output (show your work) in your submissions. Please use a formula to arrive at your intermediate calculations and final answers. Hard-coded intermediate calculations and final answers will not get any credit. Hard-coded values should only be used for input variables and placed in the input assumption sections. Please make sure to upload the correct HW file.",
+        "You may work with another student in a team of 2 (maximum).  Please choose your own teammate if you wish to work in a team of 2.  Students who work in a team of 2 stay with the same teams to complete four (4) graded homework assignments.  After your team has completed the problem set, only one member of your team should submit your completed HW file by the due date listed in the Course Syllabus.  Please remember to put the names of all team members in your file.",
+        "Note:  All graded HW assignments and two exams are to be submitted electronically. Please be advised that any submission after the due time will be subject to a 50% late submission penalty.",
+        "There will be a 3-hour Midterm Exam which consists of 30 multiple-choice questions. You will be given 3-hours to complete it, and it will be available from Wednesday at 6:00 AM (ET) and will be due by Sunday at 11:59 PM (ET) of week 4. The midterm exam will cover Lessons 1–4.",
+        "The Excel-based final exam will cover Lessons 5–7 and will be posted at 6:00 AM (ET) on Wednesday and be due by Sunday at 11:59 PM (ET) in Week 7. You will be given an Excel file where you will provide detailed steps taken to arrive at your answers.  Note that you must use a formula to arrive at your intermediate and final answers (output cells).  Hard-coded answers will not get any credit.  Hard-coded values should only be placed in the input assumption sections.  The final exam will not be timed.  Please make sure to upload the correct final exam file.",
+        "Note:   The Midterm Exam will be completed online and proctored through Honorlock. No makeup examinations will be given for any reason except for medical emergencies. Vacation plans, nonrefundable airline tickets, etc. are not acceptable excuses.",
+        "Honorlock Proctoring",
+        "The proctoring software uses your computer’s webcam or other technology to monitor and/or record your activity during exams. The proctoring software, Honorlock, may be listening to you, monitoring your computer screen, viewing you and your surroundings, and recording any activity (including visual and audio recordings) during the proctoring process. By enrolling in this course, you consent to the use of the proctoring software, including but not limited to any audio and/or visual monitoring that may be recorded. Please contact your instructor with any questions. For Honorlock resources and a practice test, see the Honorlock Information module in Canvas.",
+        "Some topics (in particular, computations) in this course may be challenging.  For this reason, Zoom sessions will be scheduled to answer questions you may have about the course materials.  These sessions are not intended as a forum to discuss upcoming graded homework assignments.  Zoom session time will be announced a few days in advance.",
+        "The Zoom sessions are optional, but I encourage you to come.  Recordings of all Zoom sessions will be available for your review.",
+        "After you have submitted an assignment, you will typically be able to review your grade and any comments made by your instructor within 7 days after the due date. This process is used for all homework assignments, exams, or other graded submissions. Some instructors may also send you a message informing you that the assignment has been graded. Some instructors may choose to release all the grades to all students at once; other instructors may release grades per student one at a time.",
+        "All course material is available to you through Canvas or in the additional resources and textbooks provided in the course.  Material is provided on a lesson-by-lesson basis, and is presented as Web pages, Microsoft Word documents (.doc), or Portable Document Format (PDF) documents. The material that you submit for the course assignments must be uploaded into the appropriate assignment in Canvas and should be submitted as Excel Files, PDF files, or Word files.",
+        "After you have submitted an assignment, you will typically be able to review your grade and any comments made by your instructor within 7 days after the due date. This process is used for all homework assignments, exams, or other graded submissions. Some instructors may also send you a message informing you that the assignment has been graded. Some instructors may choose to release all the grades to all students at once; other instructors may release grades per student one at a time.",
+        "Assignments are accepted in their appropriate assignment without penalty if they are received by 11:59 PM Eastern Time on the due date. No assignments are accepted after 11:59 PM (ET) on the final day of the course.",
+        "It is important that students maintain a good pace in this course; catching up after falling behind will be very difficult. For that reason, I expect you to submit all assignments on time. Exceptions may be made only under extreme circumstances, but these exceptions will be made on an individual basis and must be approved by me (in advance of the due date). Examples of such circumstances include serious illness and family/personal emergencies. In general, travel (whether business or pleasure) is not considered a valid reason for an exception. If you are experiencing serious difficulties in completing an assignment (for any reason), please let me know as soon as possible – I want to help you succeed.",
+        "A few basic reminders when using email or discussion forums:",
+        "This course uses MathJax to display complex equations in an accessible way for all viewers.",
+        "Example of an equation displayed using MathJax follows:",
+        "One useful feature of MathJax, Zoom Trigger, enlarges equations when you click on them or hover over them with the mouse. To set up a Zoom Trigger, please follow the steps below.",
+        "Step 1: Right-click on the equation.",
+        "Step 2: Hover over “Math Settings.”",
+        "Step 3: Hover over “Zoom Trigger.”",
+        "Step 4: Click on your preferred Zoom Trigger option, which will allow you to zoom in on an equation with either a hover, click, or double-click.",
+        "*Subject to change",
+        "Financial markets are crucial in our economy. Next, you can find a few ways how these financial markets can play a role in our economy.",
+        "We will briefly examine each of these markets, key statistics, and how we will examine them throughout this course.",
+        "(SELECT TITLES TO LEARN MORE)",
+        "First, we will look at Debt Markets & Interest Rates. Debt markets allow governments, corporations, and individuals to borrow. The borrowers will issue a security, called a bond, offering interest and principal over time. The interest rate is the cost of borrowing. Moreover, many types of market interest rates co-exist such as mortgage rates, car loan rates, credit card rates, etc. The levels of these rates are important. For example, mortgage rates in the early part of 1983 exceeded 13%. Lastly, understanding the history of interest rates is beneficial as it lets you see the fluctuation of these rates over time.",
+        "Source: Federal Reserve Bank of St. Louis, FRED database",
+        "In Lesson 2 (chapters 3 through 4), we will examine the characteristics of interest rates before examining its roles in various debt markets in the economy in Lesson 3 (chapters 5, 11 and 12).",
+        "The stock market is the market where common stock (or just stock) are traded. Companies initially sell stock (in the primary market) to raise money. After that, the stock is traded in the secondary market among investors. The stock market receives the most attention from the media. As suggested by Figure 1.2, stock prices are extremely volatile.",
+        "Source: Federal Reserve Bank of St. Louis, FRED database",
+        "Companies, not just individuals, also watch the market often to seek additional funding via seasoned equity offerings (SEOs). The success of SEOs is dependent on the company’s stock performance. We will examine the role of the stock market in the financial system while we will further look at how stock prices behave to information in the marketplace in Lesson 4 (chapters 6 and 13).",
+        "The foreign exchange market is where international currencies trade and exchange rates are set. Although most people know little about this market, as you can see in Figure 1.3, it has a daily volume around $5 trillion!",
+        "Source: Federal Reserve Bank of St. Louis, FRED database",
+        "These fluctuations matter not only to corporation, but also consumers! In recent years, consumers have found that vacationing in Europe is expensive, due to a weakening dollar relative to the Euro. When the dollar strengthens, foreign purchase of domestic goods falls.",
+        "In Lesson 5 (chapter 15 and its Appendix), we will examine how exchange rates are determined in both the short- and long-run.",
+        "In the past years, the economic environment has become more volatile than ever before and an increasingly risky place. For example, interest rates unpredictably fluctuated, stock market experienced crash and bubbles one after another in US and abroad. Foreign exchange market has not been an exception to the speculative crises. Amid financial turmoil, failure of financial institutions is not uncommon, reaching unprecedented level since the Great Depression. To avoid wild swings in profitability (and even possibly failure) resulting from this environment, financial institutions must find ways to cope with increased risks in various financial markets.",
+        "Before we look at techniques that these financial institutions use to manage unnecessary risks in Lesson 7 (Chapter 23), we will look at how these financial institutions make use of new financial derivatives, such as financial futures, options and swaps to engage in risk management in Lesson 6 (Chapter 24).",
+        "We will look at the basic reasoning behind the efficient market hypothesis (EMH). We also examine empirical evidence examining this idea. Lastly, we will look at what the EMH implies for investors.",
+        "(SELECT TITLES TO LEARN MORE)",
+        "Theoretically, the EMH tells us that current prices in a financial market will be set so that the optimal forecast of a security’s return using all available information equals the security’s equilibrium return. To put it differently, financial economists state it more simply: A security’s price fully reflects all available information in an efficient market. How could it be possible? To fully understand why the EMH makes sense, we need to understand how arbitragers can engage in an unexploited profit opportunity where they can earn arbitrage profits. We will discuss how arbitrage profits can be earned in detail later in lesson 5, but for now, let’s define the unexploited profit opportunity.",
+        "When an unexploited profit opportunity arises on a security (so-calledbecause, on average, people would be earning more than they should, given the characteristics of that security), investors will rush to buy until the price rises to the point that the returns are normal again.",
+        "If financial markets are efficient, then all unexploited profit opportunities will be eliminated instantaneously so that not every investor need be aware of every security and situation to identify whether the current price is in its equilibrium.",
+        "If a few (namely arbitragers) keep their eyes open for unexploited profit opportunities, they will eliminate the profit opportunities that appear because in so doing, they make a profit.",
+        "Let’s first look at empirical evidence supporting the market efficiency.",
+        "(SELECT EACH TAB BELOW)",
+        "Theoretically, the weak-form EMH suggests that technical analysis (which focuses on past stock price data, searching for patterns such as trends and regular cycles, suggesting rules for when to buy and sell stocks) is a waste of time because all information on past stock price data is already reflected into the current stock price.",
+        "The simplest way to understand why is to use the random-walk result that holds that past stock price data cannot help predicting changes. Therefore, technical analysis, which relies on such data to produce its forecasts, cannot successfully predict changes in stock prices because the weak-form EMH assumes that stock price will move randomly in the future. Foreign exchange (FX) rates are a good example supporting the weak form EMH. Oddly enough, empirical tests show that FX rates exhibit random walk behavior like stocks so that they are not very predictable based on past trends.",
+        "Theoretically, the semi-strong form of EMH suggests that not only past stock price data, but also all publicly available information are already reflected into the current stock price so that a positive (negative) announcement about a company will not, on average, raise (lower) the price of its stock because this information is already reflected in the stock price.",
+        "Early empirical evidence confirms: any expected favorable earnings announcements or announcements of stock splits (a division of a share of stock into multiple shares, which is usually followed by higher earnings) do not, on average, cause stock prices to rise.",
+        "Therefore, investment strategies using inside information is the only “proven method” to beat the market under the semi-strong EMH. In the U.S., it is illegal to trade on such information, but that is not true in all countries.",
+        "The strong form EMH argues that not only past stock price data and public information, but also inside information are already reflected into the current stock price so that stock price movement cannot be predicted and follows random walk behavior.",
+        "Empirical evidence supporting the strong-form EMH includes: The “Investment Dartboard” often beats investment managers; Mutual funds not only do not outperform the market on average, but when they are separated into groups according to whether they had the highest or lowest profits in a chosen period, the mutual funds that did well in the first period do not beat the market in the second period.",
+        "We will now examine some of the more recent evidence that casts some doubt on Market Efficiency. Early empirical studies are generally supporting the efficient market hypothesis, but recent studies have begun to show market anomalies which indicate the efficient market hypothesis may not always be generally applicable. Market anomalies are great challenges to the theory of efficient markets so that investors might be able to earn abnormal returns by exploiting market anomalies listed below.",
+        "Now let’s look at what implications the EMH provides to investors by considering the following questions.",
+        "(Scroll through each slide to learn more)",
+        "According to the semi-strong EMH, information in the published reports by sell-side analysts is readily available to many market players and is already reflected in the market price. Therefore, acting on this information will not allow investors to earn abnormal returns.",
+        "One question arises from this argument. If this is true, then we should not observe sell-side analysts to issue their research reports any longer. But, we have more than 3,000 sell-side analysts working in the US stock markets.",
+        "A large literature in finance and accounting documents that sell-side analysts provide value to investors through their research reports. Specifically, analyst upgrades (to earnings, price targets, recommendations) result in positive abnormal returns while downgrades result in negative abnormal returns. The literature identifies two main ways in which analysts provide value. First, analysts engage in information discovery, where they generate new signals regarding firm fundamentals by talking to the management of the firm, its competitors, suppliers etc. Second, analysts engage in information interpretation, where they quantify the value implication of information events that affect the firm, such as earnings releases or other industry or macro news. In information discovery, the analyst generates private or proprietary information, while in information interpretation, the analyst reacts to public information. (please see Daniel, Lee, and Naveen, 2019 for more information on the role of sell-side analysts)",
+        "YES. The EMH indicates that you should be skeptical of hot tips since, if the stock market is efficient, it has already priced the hot tip stock so that its expected return will equal the equilibrium return. Thus, the hot tip is not particularly valuable and will not enable you to earn an abnormally high return.",
+        "As soon as the information hits the street, the unexploited profit opportunity it creates will be quickly eliminated. The stock’s price will already reflect the information, and you should expect to realize only the equilibrium return.",
+        "NO. In an efficient market, stock prices will respond to announcements only when the information being announced is new and unexpected. So, if good news was expected (or as good as expected), there will be no stock price response. And, if good news was unexpected (or not as good as expected), there will be a stock price response.",
+        "Investors should not try to outguess the market by constantly buying and selling securities. This process does nothing but incur commissions costs on each trade.",
+        "Instead, the investor should pursue a “buy and hold” strategy—purchase stocks and hold them for long periods of time. This will lead to the same returns, on average, but the investor’s net profits will be higher because fewer brokerage commissions will have to be paid.",
+        "It is frequently a sensible strategy for a small investor, whose costs of managing a portfolio may be high relative to its size, to buy into a mutual fund rather than individual stocks. Because the EMH indicates that no mutual fund can consistently outperform the market, an investor should not buy into one that has high management fees or that pays sales commissions to brokers but rather should purchase a no-load (commission-free) mutual fund that has low management fees.",
+        "As we practiced, the change in interest rate will affect both NIM and Net worth of the First National Bank as summarized below.",
+        "What can the bank manager do to manage interest-rate risk once the manager has done the income gap analysis and duration gap analysis?",
+        "Deciding which strategy to choose to manage interest rate risk will depend on the manager’s expectation/belief about how interest rate will move in the future.",
+        "The manager may have two strategies available to choose from to hedge against possible interest rate hike in the future depending on which gap analysis the manager prefers to use.",
+        "One problem with eliminating the interest rate risk for the bank by altering the balance sheet (i.e, selling long-term assets to buy short-term assets to decrease DURASSETS) is that doing so might be very costly in the short run because the bank may be locked into assets and liabilities of particular durations because of its field of expertise.",
+        "Fortunately, recently developed financial derivatives, such as interest-rate futures/forward and interest-rate options can help the manager mitigate potential interest rate risk without rearranging its balance sheets. Next, we will discuss how an interest-rate swap can help the manager manage the interest rate risk.",
+        "Let’s first understand key attributes of a typical plain vanilla [6] interest rate swap before discussing how to use it for hedging purpose.",
+        "Suppose there are two financial institutions: Midwest Savings Bank (MSB) and Friendly Finance Company (FFC).",
+        "Midwest Savings Bank (MSB) which borrows short-term mostly from depositors in a form of deposits and lends long-term in the mortgage market has $1 million less of rate-sensitive assets (RSAs) than it has of rate-sensitive liabilities (RSLs).",
+        "As we discussed, MSB currently has negative income gap (RSAs<RSLs) by $1 million. The negative income gap suggests that if interest rate rise in the future, the rise in the cost of funds (liabilities) is greater than the rise in interest incomes it can earn on assets, more of which are fixed-rate mortgage, leading to a shrinking of MSB’s NIM (net interest margin) and a decline in its profitability.",
+        "In the meanwhile, the manager of the Friendly Finance Company (FFC) which issues long-term bonds to raise funds and uses them to make short-term loan finds that FFC is in exactly the opposite position to MSB: FFC has $1 million more of RSAs than of RSLs so that FFC has positive income gap (RSAs>RSLs) by $1 million.",
+        "The positive income gap suggests that if interest rate falls in the future, the decline in interest incomes it can earn on assets is greater than the decrease in the cost of funds (liabilities), leading to a shrinking of its NIM (net interest margin) and a decline in its profitability.",
+        "Let’s summarize interest rate risk that each financial institution currently has.",
+        "To mitigate this interest rate risk, the manager of MSB would have an incentive to convert $1 million of its fixed-rate mortgages to RSAs, thereby eliminating the income gap while the manager of FFC would have an incentive to convert $1 million of its RSAs to fixed-rate assets, thereby eliminating the income gap.",
+        "Let’s see how the plain vanilla interest swap can help both managers satisfy their hedging needs.",
+        "Suppose there is a plain vanilla interest rate swap whose NP is $1million, matures in 10 years with floating rate [7] of T-bill rate plus 1% and fixed rate of 7% available for both MSB and FFC.",
+        "Both agree to enter into the swap contract where MSB (fixed-rate payer) agrees to pay FFC a fixed rate of 5% on NP of $1 million for the next 10 years, and FFC (floating-rate payer) agrees to pay MSB the one-year T-bill rate [8] + 1% on the same NP for the next 10 years.",
+        "As illustrated in Figure 7.1 below, under the swap contract, every year MSB is obligated to pay the fixed interest payment of $50,000 (=fixed rate of 5% times $1 million) to FFC and receive variable interest payments (to be determined at (T-bill rate +1%) times $1 million) from FFC.",
+        "Therefore, as market interest rate rises in the future, the variable interest payments that MSB will receive from FFC will rise while the fixed interest payments that MSB needs to pay to FFC is fixed at $50,000, leading to higher NIM and profitability. In other words, now thanks to the interest-rate swap, MSB is now protected from interest rate risk (i.e., rate-hike) in the future.",
+        "To the contrary, under the swap contract, every year FFC is obligated to pay variable interest payments (to be determined at (T-bill rate +1%) times $1 million) to MSB and receive the fixed interest payment of $50,000 (=fixed rate of 5% times $1 million) from MSB.",
+        "Therefore, as market interest rate drops in the future, the interest payments that FFC will receive from MSB will be fixed at $50,000 while the interest payments that FFC needs to pay to MSB will decline, leading to higher NIM and profitability. In other words, now thanks to the interest-rate swap, FFC is also now protected from interest rate risk (i.e., interest rate drop) in the future.",
+        "This course covers the functioning and structures of global financial markets, focusing on financial commodity valuation, credit markets, and risk management strategies. you will learn to apply financial derivatives, manage risks, and understand the complexities of stock, debt, and foreign currency markets.",
+        "At the completion of the course, students should be able to accomplish the following:",
+        "Throughout this course you will gain valuable insights into global financial markets, learning to navigate risk management strategies, apply financial derivatives, and make informed decisions in complex market environments.",
+        "In this lesson, students will explore the importance of studying financial markets and institutions. Key concepts include the role of financial markets in the economy, the function of financial institutions, and how they contribute to the financial system. The lesson aims to provide foundational knowledge for understanding the broader financial environment.",
+        "By the end of this lesson, students will have a clear understanding of the essential functions of financial markets and institutions, laying the groundwork for more advanced study in finance.",
+        "In this lesson, students will delve into the basics of interest rates and their critical role in financial markets. Topics will cover the definition of interest rates, their impact on security valuation, and the factors influencing interest rate changes. This lesson provides a foundation for understanding how interest rates affect various financial decisions and markets.",
+        "By the end of this lesson, students will grasp the fundamental role of interest rates in financial markets and how they influence the valuation of securities and investment decisions.",
+        "In this lesson, students will gain an understanding of fixed income markets, focusing on how risk and term structure affect interest rates. Key topics include money markets, bond markets, and the factors that impact their performance. This lesson helps students build a foundation for analyzing fixed income securities and understanding their role in the broader financial system.",
+        "By the end of this lesson, students will have a comprehensive understanding of fixed income markets, including the influence of risk and term structure on interest rates, as well as the workings of money and bond markets.",
+        "In this lesson, students will explore the fundamentals of stock markets, including the concept of market efficiency and the workings of stock exchanges. Key topics will cover financial market efficiency and the structure of stock markets, providing insights into how stocks are traded and valued in the global financial system.",
+        "By the end of this lesson, students will have a solid understanding of stock markets, including the principles of market efficiency and the mechanisms of stock trading, preparing them for more advanced studies in investment strategies and market analysis.",
+        "In this lesson, students will learn about foreign exchange (FX) markets, including how exchange rates are determined and the factors that influence them. Topics include long- and short-term exchange rate movements, supply and demand analysis, and the Interest Rate Parity (IRP) condition. This lesson provides essential knowledge for understanding global currency markets and exchange rate dynamics.",
+        "By the end of this lesson, students will have a thorough understanding of foreign exchange markets, including the key drivers of exchange rates and the relationship between interest rates and currency values.",
+        "In this lesson, students will explore derivatives markets, focusing on financial instruments like options, futures, and credit derivatives. Key topics include the functions of these instruments in risk management, their market applications, and the debates surrounding their impact on the financial system.",
+        "By the end of this lesson, students will have a solid understanding of derivatives markets, their key instruments, and their significance in financial risk management, preparing them for further study of financial markets and strategies.",
+        "In this lesson, students will focus on risk management strategies in financial institutions, covering key risks such as credit risk and interest-rate risk. Topics include understanding these risks, how they are managed, and the various strategies financial institutions use to mitigate potential losses.",
+        "By the end of this lesson, students will have a comprehensive understanding of risk management practices in financial institutions, including the techniques used to manage credit and interest-rate risks, preparing them for advanced study in financial risk analysis and strategy.",
+        "Analysis of Financial Markets course provides students with a deep understanding of financial markets, equipping them with essential skills in market analysis, risk management, and investment strategies. This knowledge is highly valuable for careers in finance, banking, investment analysis, risk management, and financial consulting. Graduates of this course are well-prepared to pursue roles such as financial analysts, portfolio managers, risk analysts, or positions within financial institutions and corporations, where they can leverage their expertise in understanding market dynamics and making informed decisions to drive business growth and manage financial risks effectively.",
+        "A real-world example of the application of concepts learned in Analysis of Financial Markets can be seen in how investment firms use market analysis to make decisions about stock or bond investments. For instance, when analyzing the bond market, students can apply concepts such as interest rate risk and credit risk to assess bond prices and yield curves. In 2020, during the COVID-19 pandemic, investment firms closely monitored central bank policies, interest rates, and government stimulus measures to navigate market volatility. By using tools like the Capital Asset Pricing Model (CAPM) or risk management strategies, students will gain the knowledge to predict market movements, manage risks, and make data-driven decisions in real-world financial markets.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Understand the functioning and structures of global financial markets and assess their role in shaping corporate and institutional investing, financing, and risk-management strategies.",
+            "Value financial commodities available from various financial markets.",
+            "Understand factors affecting credit markets.",
+            "Understand why stock valuation can be more challenging than debt valuation.",
+            "Plan strategies to earn arbitrage profits by exploiting market inequilibrium such as interest rate parity.",
+            "Understand how foreign currency markets are functioning and how foreign currency exchange rates can be determined",
+            "Understand unique risks associated with various financial commodities available in the global financial markets and implement hedging strategies using financial derivatives, such as future/forward and options.",
+            "Apply financial derivatives in managing risks in financial institutions."
+        ],
+        [
+            "Mishkin, F. S., & Eakins, S. (2018). Financial markets and institutions. (9th ed). Pearson.  Digital E-book  ISBN 978-0134520421 (The 8th edition is also an acceptable alternative.)"
+        ],
+        [
+            "HelpDesk Website: https://student.worldcampus.psu.edu/help-and-support/technical-support.",
+            "HelpDesk Email: techsupport@worldcampus.psu.edu",
+            "HelpDesk Phone: (800) 252-3592"
+        ],
+        [
+            "“A” (Excellent) indicates exceptional achievement.",
+            "“B” (Good) indicates substantial achievement.",
+            "“C” (Satisfactory) indicates acceptable but substandard achievement.",
+            "“D” (Poor) indicates inadequate achievement and is a failing grade for a graduate student."
+        ],
+        [
+            "You may use your lecture notes, the textbook, or other resources (e.g., homework assignments, course reading material) while taking the exams; however, during the examination period, communication with other people (including the instructor) concerning the subject matter of the exams is prohibited.",
+            "You will only be able to access the exams on the dates specified within the course schedule."
+        ],
+        [
+            "It is generally bad form to type your messages IN ALL CAPITAL LETTERS. In addition to proper capitalization (first words of sentences, proper nouns, names, etc.), a majority of online students have reported that complete sentences and punctuation make online text communication easier to read.",
+            "It is much better not to post inflammatory or accusational remarks than it is to “get it off of your chest.” Profanity and personal attacks will have no part of this course. If you discover such remarks, please notify me immediately, and I will personally address the source of those remarks."
+        ],
+        [
+            "Financial Markets",
+            "Financial Market Efficiency",
+            "Interest-Rate Risk Strategies"
+        ],
+        [
+            "Weak Form EMH",
+            "Semi-Strong Form  (EMH)",
+            "Strong Form EMH"
+        ],
+        [
+            "Advisor Reports",
+            "Hot Tips",
+            "Stock Prices",
+            "Prescription"
+        ],
+        [
+            "An interest-rate swap is an over-the-counter (OTC) derivative contract between two parties (called counterparties) to exchange one stream of fixed cash flows against another stream of floating/variable cash flows on scheduled dates until the maturity.",
+            "The dollar amount of the interest payments exchanged is based on a predetermined dollar principal, which is called the notional principal amount (NP).",
+            "The dollar amount that each counterparty pays to the other is the agreed-upon periodic interest rate times NP. The only dollars that are exchanged between the parties are the interest payments, not the NP.",
+            "As like other financial derivative contracts, an interest-rate swap is a derivative contract whose underlying assets is floating-rate payments that float with some reference rate (floating-rate payment).",
+            "This party who agrees to receive/buy the underlying assets (floating-rate payment) and to pay the fixed-rate payment is referred to taking LONG position on the swap as the fixed-rate payer or the floating-rate receiver.",
+            "The other party, who agrees to pay the floating-rate payment and to pay the fixed-rate payment is referred to taking SHORT position on the sway as the floating-rate payer or fixed-rate receiver.",
+            "The period between the contract date and the last settlement date is called term of a swap.",
+            "The most common interest rate swaps, called plain vanilla swaps, exchange fixed rate payments for floating rate payments."
+        ],
+        [
+            "Understand the functioning and structures of global financial markets and assess their role in shaping corporate and institutional investing, financing, and risk-management strategies.",
+            "Value financial commodities available from various financial markets.",
+            "Understand factors affecting credit markets.",
+            "Understand why stock valuation can be more challenging than debt valuation.",
+            "Plan strategies to earn arbitrage profits by exploiting market inequilibrium such as interest rate parity.",
+            "Understand how foreign currency markets are functioning and how foreign currency exchange rates can be determined",
+            "Understand unique risks associated with various financial commodities available in the global financial markets and implement hedging strategies using financial derivatives, such as future/forward and options.",
+            "Apply financial derivatives in managing risks in financial institutions."
+        ],
+        [
+            "L1",
+            "L2",
+            "L3",
+            "L4",
+            "L5",
+            "L6",
+            "L7"
+        ],
+        [
+            "Why Study Financial Markets?: Learn the essential role financial markets play in the economy, including capital flow and resource allocation.",
+            "Why Study Financial Institutions?: Understand the function and importance of financial institutions in maintaining economic stability and fostering growth.",
+            "Overview of the Financial System: Gain a broad understanding of how financial systems operate, connecting markets and institutions.",
+            "Why Do Financial Institutions Exist?: Explore the necessity of financial institutions in providing services like loans, investments, and risk management."
+        ],
+        [
+            "Introduction Activity and Community Building: Engage with peers to discuss initial thoughts and build a community atmosphere for collaboration.",
+            "Discussion Topic: Participate in discussions about the significance of financial markets and institutions in today’s economy.",
+            "External Tools: Utilize online resources to further explore key concepts, enhancing understanding of financial systems."
+        ],
+        [
+            "Definition of Interest Rate and Its Role in Security Valuation: Understand how interest rates are defined and why they are essential for determining the value of securities.",
+            "Why Do Interest Rates Change?: Learn about the factors that cause fluctuations in interest rates, including economic conditions, inflation, and central bank policies."
+        ],
+        [
+            "External Tools: Use online resources to explore and visualize how interest rates influence financial markets and investments."
+        ],
+        [
+            "How Risk and Term Structure Affect Interest Rates: Learn about the relationship between risk, term structure, and interest rates, and how these factors influence fixed income markets.",
+            "The Money Markets: Explore the role of short-term debt instruments in money markets and their importance in managing liquidity.",
+            "The Bond Markets: Understand the mechanics of bond markets, including pricing, yield curves, and the factors affecting bond valuations."
+        ],
+        [
+            "The Bond Markets: Understand the mechanics of bond markets, including pricing, yield curves, and the factors affecting bond valuations."
+        ],
+        [
+            "Are Financial Markets Efficient?: Understand the concept of market efficiency and its implications for stock prices and trading strategies.",
+            "The Stock Markets: Learn about the organization and operation of stock markets, including exchanges, trading mechanisms, and factors affecting stock prices."
+        ],
+        [
+            "External Tools: Utilize online tools to analyze stock market data and trends, enhancing understanding of stock market operations.",
+            "Quiz: Participate in the Mid-Term Exam to assess knowledge gained so far in the course."
+        ],
+        [
+            "Foreign Exchange Markets: Understand the structure and operation of FX markets and their role in international trade and finance.",
+            "Exchange Rates in the Long Run: Learn how long-term economic factors, such as inflation and purchasing power parity, affect exchange rates.",
+            "Exchange Rates in the Short Run – A Supply and Demand Analysis: Examine how short-term factors, such as interest rates and speculation, influence exchange rates.",
+            "Interest Rate Parity (IRP) Condition: Understand the IRP theory and how it links interest rates and exchange rate movements in the global financial system."
+        ],
+        [
+            "External Tools: Use online resources to study and analyze real-world FX data and market trends."
+        ],
+        [
+            "Derivatives Instruments: Learn about various derivatives such as futures, options, and swaps, and their role in financial markets.",
+            "Options Contracts: Understand the mechanics of options contracts, including calls and puts, and their use in hedging and speculation.",
+            "Credit Derivatives: Explore the role of credit derivatives, like credit default swaps, in managing risk.",
+            "Are Derivatives a Time Bomb?: Examine concerns about the risks of derivatives and their potential role in financial crises."
+        ],
+        [
+            "External Tools: Use online resources to analyze real-world examples of derivatives and their applications."
+        ],
+        [
+            "Managing Credit Risk: Learn how financial institutions assess and manage credit risk, including the use of credit scoring and risk-based pricing.",
+            "Managing Interest-Rate Risk: Understand the methods for managing interest-rate risk, including duration analysis and hedging strategies.",
+            "Strategies for Managing Risk: Explore various risk management strategies, such as diversification, derivatives, and stress testing, to mitigate financial risks."
+        ],
+        [
+            "External Tools: Utilize online resources to study real-life risk management scenarios and tools used in financial institutions."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Barnes & Noble College website",
+            "url": "https://bncvirtual.com/psude"
+        },
+        {
+            "text": "Microsoft Office 365",
+            "url": "https://office365.psu.edu/"
+        },
+        {
+            "text": "LinkedIn Learning",
+            "url": "https://itld.psu.edu/training/linkedin-learning-quick-start-guide-students"
+        },
+        {
+            "text": "https://student.worldcampus.psu.edu/help-and-support/technical-support.",
+            "url": "https://student.worldcampus.psu.edu/help-and-support/technical-support"
+        },
+        {
+            "text": "techsupport@worldcampus.psu.edu",
+            "url": "mailto:techsupport@worldcampus.psu.edu?subject=World%20Campus%20Tech%20Support%20Inquiry"
+        },
+        {
+            "text": "Penn State University Library.",
+            "url": "https://libraries.psu.edu/"
+        },
+        {
+            "text": "FRED database",
+            "url": "https://fred.stlouisfed.org/series/TB3MS"
+        },
+        {
+            "text": "FRED database",
+            "url": "https://fred.stlouisfed.org/series/DJIA"
+        },
+        {
+            "text": "FRED database",
+            "url": "https://fred.stlouisfed.org/series/TWEXMMTH"
+        },
+        {
+            "text": "Weak Form EMH",
+            "url": "#tab-strongweakformemhstrong"
+        },
+        {
+            "text": "Semi-Strong Form  (EMH)",
+            "url": "#tab-strongsemi-strongformemhstrong"
+        },
+        {
+            "text": "Strong Form EMH",
+            "url": "#tab-strongstrongformemhstrong"
+        },
+        {
+            "text": "Advisor Reports",
+            "url": "#tab-strongadvisorreportsstrong"
+        },
+        {
+            "text": "Hot Tips",
+            "url": "#tab-hottips"
+        },
+        {
+            "text": "Stock Prices",
+            "url": "#tab-strongstockpricesememstrong"
+        },
+        {
+            "text": "Prescription",
+            "url": "#tab-strongprescriptionstrongemem"
+        },
+        {
+            "text": "Daniel, Lee, and Naveen, 2019",
+            "url": "http://www.apjfs.org/resource/global/cafm/2015_10_4.pdf"
+        },
+        {
+            "text": "[4]",
+            "url": "https://courses.worldcampus.psu.edu/canvas/master/mst-20220713141811-alm626/content/07_lesson/corefiles/finL7.html#gt-ref4"
+        },
+        {
+            "text": "[5]",
+            "url": "https://courses.worldcampus.psu.edu/canvas/master/mst-20220713141811-alm626/content/07_lesson/corefiles/finL7.html#gt-ref5"
+        },
+        {
+            "text": "[6]",
+            "url": "https://courses.worldcampus.psu.edu/canvas/master/mst-20220713141811-alm626/content/07_lesson/corefiles/finL7.html#gt-ref6"
+        },
+        {
+            "text": "[7]",
+            "url": "https://courses.worldcampus.psu.edu/canvas/master/mst-20220713141811-alm626/content/07_lesson/corefiles/finL7.html#gt-ref7"
+        },
+        {
+            "text": "[8]",
+            "url": "https://courses.worldcampus.psu.edu/canvas/master/mst-20220713141811-alm626/content/07_lesson/corefiles/finL7.html#gt-ref8"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/A1030.jpg"
+        },
+        {
+            "alt": "",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/mathjax1-3.jpg"
+        },
+        {
+            "alt": "",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/mathjax2-3.jpg"
+        },
+        {
+            "alt": "",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/mathjax3-3-1024x533.jpg"
+        },
+        {
+            "alt": "",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/Fig_1.1-1-1024x430.png"
+        },
+        {
+            "alt": "",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/Fig_1.2-1024x515.png"
+        },
+        {
+            "alt": "",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/Fig_1.3-1024x394.png"
+        },
+        {
+            "alt": "",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/808_7_interest_rate.png"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Assignment Category",
+                "Quantity",
+                "Weight (% of grade)"
+            ],
+            [
+                "Homework Assignments (Individual or Team)",
+                "4",
+                "30% (7.5% each)"
+            ],
+            [
+                "Midterm Exam (Individual)",
+                "1",
+                "30%"
+            ],
+            [
+                "Final Exam (Individual)",
+                "1",
+                "40%"
+            ]
+        ],
+        [
+            [
+                "",
+                "",
+                ""
+            ],
+            [
+                "Small-Firm Effect",
+                "Small firms have earned abnormally high returns over long periods of time, even when the greater risk for these firms has been considered.",
+                "Due to rebalancing of portfolios by institutional investors, tax issues, low liquidity of small-firm stocks, large information costs in evaluating small firms, or an inappropriate measurement of risk for small-firm stocks"
+            ],
+            [
+                "January Effect",
+                "The tendency of stock prices to experience an abnormal positive return in the month of January that is predictable and, hence, inconsistent with random-walk behavior",
+                "Investors have an incentive to sell stocks before the end of the year in December because they can then take capital losses on their tax return and reduce their tax liability. Then when the new year starts in January, they can repurchase the stocks, driving up their prices and producing abnormally high returns."
+            ],
+            [
+                "Market Overreaction",
+                "Stock prices may overreact to news announcements and that the pricing errors are corrected later.This violates the EMH because an investor could earn abnormally high returns, on average, by buying a stock immediately after a poor earnings announcement and then selling it after a couple of weeks when it has risen back to normal levels.",
+                "Investors who we assume are rational are not always behaving rationally and value-relevant information is slow to be incorporated into current stock prices."
+            ],
+            [
+                "Excessive Volatility",
+                "Stock market appears to display excessive volatility; that is, fluctuations in stock prices may be much greater than is warranted by fluctuations in their fundamental value.",
+                "Research finds that stock market prices appear to be driven by factors other than fundamentals."
+            ],
+            [
+                "Mean Reversion",
+                "Stocks that have done poorly in the past are more likely to do well in the future because mean reversion indicates that there will be a predictable positive change in the future price, suggesting that stock prices are not a random walk.",
+                "Newer data is less conclusive; nevertheless, mean reversion remains controversial."
+            ],
+            [
+                "Post-Announcement Drift",
+                "Although generally true, recent evidence suggests that, inconsistent with the efficient market hypothesis, stock prices do not instantaneously adjust to profit announcements.",
+                "Instead, on average stock prices continue to rise for some time after the announcement of unexpectedly high profits, and they continue to fall after surprisingly low profit announcements."
+            ]
+        ],
+        [
+            [
+                "Market interest rate",
+                "Income Gap Analysis",
+                "Duration Gap Analysis"
+            ],
+            [
+                "Move UP by 1%",
+                "Decrease of NIM by $0.175M",
+                "Decrease of Net Worth by $1.56M"
+            ],
+            [
+                "Move DOWN by 1%",
+                "Increase of NIM by $0.175M",
+                "Increase of Net Worth by $1.56M"
+            ]
+        ],
+        [
+            [
+                "Strategy",
+                "How to"
+            ],
+            [
+                "Reduction of Income Gap",
+                "Increase the amount of RSAs to $49.5M or decrease the amount of RSLs to $32M to make the income gap reduce to zero from Negative 17.5M.By doing so, the manager is able to make the bank’s NIM neutral to interest rate swings."
+            ],
+            [
+                "Reduction of Duration Gap",
+                "Decrease DURASSETS to 0.98 [4] or increase DURLIABILITY  to 2.84 [5] to make the duration gap reduce to zero from 1.72.By doing so, the manager is able to immunize the market value of the bank’s net worth completely from interest rate swings."
+            ]
+        ],
+        [
+            [
+                "Financial Institution",
+                "Income Gap",
+                "Interest rate risk to be hedged"
+            ],
+            [
+                "MSB",
+                "Negative (RSAs<RSLs)",
+                "When rate RISES, NIM and profits will decrease"
+            ],
+            [
+                "FFC",
+                "Positive (RSAs>RSLs)",
+                "When rate FALLS, NIM and profits will decrease"
+            ]
+        ],
+        [
+            [
+                "Advantages",
+                "Disadvantages"
+            ],
+            [
+                "Compared to traditional balance sheet re-arrangement, swap is less costly and effective. For example, if MSB and FFC engage in balance sheet re-arrangement by converting fixed-rate assets to RSAs to neutralize the income gap, both not only incur significant transaction costs but also lose their informational advantage which financial institution is unwilling to give up.Compared to other financial derivatives, such as interest-rate futures and options, swap can be entered into for a much longer period",
+                "Like forward contracts, swap suffers from a lack of liquidity. For example, it might not be easy for MSB to find its counterparty (i.e., FFC) who wants to enter into the swap contract with MSB.Swap contracts are subject to default/counterparty risk. However, given that NP is not exchanged under the swap contract, the default risk is limited to periodic interest rate payments to be made by each party under the swap contract.Just like forward contract, financial intermediaries such as IBs help reduce disadvantages associated with swap contract, but at a cost!."
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"5877\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

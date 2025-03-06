@@ -1,0 +1,517 @@
+{
+    "metadata": {
+        "title": "ENGMT 501: Engineering Management Science – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2737"
+    },
+    "headings": {
+        "h2": "Explore Advanced EOQ Variations to Meet Specific Needs",
+        "h4": "Unlocking Your Potential",
+        "h5": "Textbook:",
+        "h3": "Required Software"
+    },
+    "paragraphs": [
+        "ENGMT 501: Engineering Management Science is a three-credit course offering a foundational approach to quantitative decision-making within engineering management. This course equips students with powerful modeling tools to analyze and resolve complex, data-driven problems that engineering managers face daily. Through a combination of structured activities and hands-on spreadsheet modeling, students will explore methods including linear and nonlinear programming, forecasting, and simulation to address critical management issues such as production planning, inventory control, and project scheduling.",
+        "Students will gain proficiency in Program Evaluation and Review Techniques (PERT) and Critical Path Methods (CPM) to manage project timelines and costs effectively. Additionally, they’ll learn how to extract actionable insights from data, improve forecasting accuracy, and optimize inventory. This first course in the Engineering Management Program is a comprehensive introduction designed to build a strong foundation for advanced decision-making tools essential for today’s engineering leaders.",
+        "By the end of this course, students will have developed the skills needed to use mathematical models to navigate and solve real-world engineering management challenges, preparing them to lead with confidence and precision in complex environments.",
+        "This course is designed to provide students with insights into the use of modeling tools using spreadsheets to analyze quantitative problems engineering managers face on a daily basis. These tools include linear and nonlinear programming, forecasting, and simulation techniques to solve problems where randomness is a critical factor such as in production planning and inventory control. Program Evaluation Review Techniques (PERT) and Critical Path Methods (CPM) will also be used to schedule and control project costs.",
+        "This is the first course in Engineering Management Program, where students will be learning some very important quantitative decision making tools. They will learn how to get meaningful information from data. As well as the project networks and the evaluation of their completion time. We will also talk about forecasting and inventory.",
+        "After completing the course, a student will be able to:",
+        "Our bookstore is MBS Direct, a mail order textbook vendor.  You can order from MBS Direct by calling 1-800-325-3252 or by visiting their online bookstore at http://direct.mbsbooks.com/psude.htm. The item number is 1983151.",
+        "NOTE: This is the first semester that we are using the new version of the software and the new edition of the textbook. While I will do my best to avoid/minimize confusions, please let me know right away if you see any inconsistencies so that I fix/clarify things accordingly and avoid similar confusions for other students in our class.",
+        "Proctored Exams –  None",
+        "All course materials (except for the textbook) will be available through Canvas. The material will be provided to you on a lesson-by-lesson basis using Web pages and documents in Microsoft Word (.doc, .docx) or Portable Document Format (PDF).",
+        "Grades will be based on the following scale:",
+        "A = 94 – 100, A- = 90 – 93, B+ = 87 – 89, B = 83 – 86, B- = 80 – 82, C+ = 76 – 79, C = 70 – 75, D = 60 – 69, and F = Below 60.",
+        "Two take-home tests will be given: a Midterm and a Final. Students have one week to complete each exam. Late submissions for exams will not be accepted unless there are mitigating circumstances.",
+        "There will be an assignment for every week.  Due dates are specified in the course schedule.  Homework assignments constitute 35% of your final grade. Doing the homework promptly and carefully is key for learning the material.  Some homework assignments include a “case study” component.",
+        "Collaboration with fellow students is allowed and encouraged only on these case studies. However, each student must turn in his or her own written work which reflects his or her own understanding of the material.",
+        "There are discussion forums for each week where students can post questions or comments about that week’s lesson.",
+        "*subject to change",
+        "Break-even analysis is a very simple analysis that is very important to economists and financiers. A business wants to know the minimum amount they have to sell so that they will not lose money. To understand this, one needs to know the total revenue and the total costs. The volume at which the total costs equal the total revenue is the break-even point. Above that point, the company will make a profit and below that the company will lose money. The following variables need to be understood:",
+        "In practice we often encounter situations where some of the variables have to be integers and others can be fractional; they are classified as mixed integer programming. The integer requirement is easily satisfied by constraining either all the variables or the required variables to be integer in the constraint window as shown below:",
+        "A subset of integer programming problems is Binary Integer Programming (BIP). The decisions to be made are of the “Yes or No” kind. By setting 1 for Yes and 0 for No, these problems are easily handled using Excel Solver. There are many applications of BIP, ranging from the choice to build a factory in Los Angeles or San Francisco, picking appropriate projects in capital budgeting, location of warehouses, assigning a crew to a particular flight and loading an item into a container or not.",
+        "We now calculate the early start time and early finish time for each activity. The earliest start time of an activity is how soon an activity can be started. The earliest finish time is the early start time plus the duration of that activity.",
+        "We can define the early start time of an activity as equal to the largest of the earliest finish times of its immediate predecessors.",
+        "It took 8 weeks for the completion of the project. The early start and early finish times for the entire project are shown in the following figure.",
+        "Now we need to calculate the latest start and latest finish time for all the activities. To do this we move from right to left instead of left to right, as we did in the calculation of early start and early finish calculations. This is known as a backward sweep.",
+        "Latest finish is the time at which an activity has to finish. By subtracting the duration from the latest finish, we can get the latest start.",
+        "Look at all the end activities – D, E, J and K. These activities are not in the predecessor list. As long as one completes these activities in 8 weeks there will be no penalty to the completion of the project. We calculate the Latest Start = Latest Finish – Duration.",
+        "Activity D: Latest Finish = 8 Weeks; Duration = 2 Weeks; Latest Start = 6 Weeks:Activity E: Latest Finish = 8 Weeks; Duration = 3 Weeks; Latest Start = 5 Weeks:Activity J: Latest Finish = 8 Weeks; Duration = 3 Weeks; Latest Start = 5 Weeks:Activity K: Latest Finish = 8 Weeks; Duration = 4 Weeks; Latest Start = 4 Weeks:",
+        "Now look at Activity I. Its duration is 1 week. This has to be completed before J starts. However, the latest start on J is 5 Weeks. That means activity J has to start at week 5. It follows then that the Latest Finish time on I is 5 weeks, and the latest start on activity I is 5 – 1 or 4 weeks.",
+        "Now look at Activity H. Duration is 1 week. This has to be completed before activity I starts. But the latest start on I is 4 Weeks. That means activity J has to start at week 4. It follows then that the Latest Finish time on H is 4 weeks, and the latest start on activity H is 4 – 1 or 3 weeks.",
+        "Now look at activity G. This activity has to be completed before activity H begins. From above, we know activity H has to start on week 3. That means that G has to finish by week 3. The duration of activity G is 1 week and therefore the latest start on activity G is week 2.",
+        "Now look at activity F. This activity has to be completed before activity K begins. From above, we know activity K has to start on week 4. That means that F has to finish by week 4. The duration of activity F is 2 weeks and therefore the latest start on activity F is week 2.",
+        "Now look at activity C. This activity has to be completed before activities E, H and K begin. From above, we know activity E has to start on week 5, activity H has to start on week 3, and activity K has to start on week 4. That means that C has to finish by week 3. The duration of activity C is 2 weeks and therefore the latest start on activity C is week 1. The latest finish time of an activity is equal to the smallest of the latest start times of its immediate successors.",
+        "Now look at activity B. This activity has to be completed before activities C and D begin. From above, we know activity C has to start on week 1, and activity D has to start on week 6. That means that B has to finish by week 1. The duration of activity B is 1 week and therefore the latest start on activity B is week 0.  The latest finish time of an activity is equal to the smallest of the latest start times of its immediate successors.",
+        "Now look at activity A. This activity has to be completed before activities D, E, F and G begin. From above, we know activity D has to start on week 6, activity E has to start on week 5, activity F has to start on week 2 and activity G has to start on week 2. That means that A has to finish by week 2. The duration of activity A is 2 weeks and therefore the latest start on activity A is week 0.  The latest finish time of an activity is equal to the smallest of the latest start times of its immediate successors.",
+        "The latest start and latest finish times, along with early times for the entire project, are shown in the following figure.",
+        "The slack for an activity is the difference between its latest finish time and its earliest finish time.In symbols,Slack = LF – EF (Since LF – EF = LS – ES, either difference can actually be used to calculate slack.)",
+        "Each activity with zero slack is on a critical path through the project network, to the extent that any delay along this path will delay project completion. Critical path is the sequence of activities that must be completed on time for the project to be able to meet the scheduled completion. Any delay in any of these activities will extend the project completion time.",
+        "The figure below shows the activities having zero slack. This project has multiple critical paths. They are identified in the list of paths following the diagram.",
+        "After completing the course, a student will be able to:",
+        "During this course you will expand your knowledge of the lesson topics each week.",
+        "This lesson introduces you to critical business and engineering tools that support effective decision-making, focusing on cost-benefit analysis and foundational linear programming concepts.",
+        "Learn to use essential Excel tools, such as VLOOKUP, to locate data efficiently within large datasets. You’ll also explore how to use Text-to-Column and Histogram functions to organize and visualize information, making complex data more accessible.",
+        "Develop the ability to calculate and interpret break-even points to assess the financial health of projects. This technique will enable you to make informed decisions about the profitability and sustainability of various initiatives.",
+        "Explore the basics of linear programming, a powerful optimization method. You’ll learn to set up and solve basic linear programming problems, allowing you to maximize outcomes within specific constraints.",
+        "By completing this lesson, you will gain foundational skills in cost-benefit analysis and linear programming, empowering you to make data-driven decisions with confidence.",
+        "This lesson builds on your foundational knowledge, guiding you through the formulation and practical application of linear programming in real-world scenarios.",
+        "Dive into three unique shipping scenarios—Case 1: Continue Shipping by Rail, Case 2: Switch Shipping to Water, and Case 3: Ship by Either Rail or Water—to see how linear programming can inform logistical choices and optimize resources. These cases will demonstrate how different constraints and options impact overall decisions.",
+        "Learn to conduct “What-If” analyses to understand how changes to variables can alter outcomes. You’ll see how a single adjustment in constraints can influence results, helping you develop flexibility in decision-making processes.",
+        "Discover how to use the Sensitivity Report to gauge the robustness of your solutions and assess the effect of variable changes. Sensitivity analysis is essential for understanding the stability of your solution under varying conditions.",
+        "By completing this lesson, you will be able to formulate linear programming problems effectively and apply them to complex, real-life situations, enhancing your problem-solving capabilities.",
+        "In this lesson, you’ll advance your understanding of programming methods by exploring binary integer programming and nonlinear programming, two powerful techniques used in complex decision-making scenarios.",
+        "Dive into binary integer programming, where decisions are made based on binary variables (0 or 1). This technique is essential in scenarios requiring clear, yes-or-no choices, such as project selection or resource allocation. You’ll learn how binary programming can simplify complex decision-making.",
+        "Expand your skills with nonlinear programming, a method used when relationships between variables are not linear. Nonlinear programming is widely applied in fields like finance, engineering, and logistics, where optimization requires handling more intricate equations and constraints.",
+        "By completing this lesson, you will gain the skills to apply binary integer and nonlinear programming techniques, equipping you with advanced tools for sophisticated decision-making and optimization challenges.",
+        "In this lesson, you’ll delve into the essential methods of forecasting, gaining the skills to predict future trends and make informed decisions based on data.",
+        "Learn how to apply judgmental forecasting methods, which rely on expert knowledge and intuition. This approach is valuable in situations where historical data may be limited but expert insights can still provide guidance.",
+        "Discover causal forecasting methods, which examine the relationships between variables to predict outcomes. By understanding these relationships, you’ll learn to anticipate how changes in one area might impact others.",
+        "Time series forecasting allows you to make predictions based on historical patterns. You’ll explore techniques to analyze trends, seasonality, and other time-based factors, preparing you to apply these insights in real-world scenarios.",
+        "By completing this lesson, you’ll develop a strong foundation in forecasting, equipping you to make data-driven predictions that support strategic decision-making.",
+        "In this lesson, you’ll discover the power of computer simulation to model and analyze complex systems, enabling you to make more informed decisions based on simulated outcomes.",
+        "Excel offers accessible tools for creating basic simulations, allowing you to visualize and analyze data-driven scenarios. You’ll learn to set up simulations in Excel, gaining hands-on experience in building models that mimic real-world processes.",
+        "Take your simulation skills to the next level with Analytic Solver, a robust tool for more sophisticated simulations. You’ll be guided through the process of using Analytic Solver to handle complex data sets, perform what-if analyses, and generate predictive insights.",
+        "By completing this lesson, you’ll have the skills to use computer simulations effectively, equipping you to make data-driven decisions that anticipate and solve complex business and engineering challenges.",
+        "This lesson introduces you to the PERT (Program Evaluation and Review Technique) and CPM (Critical Path Method) models, essential tools for effective project management and scheduling.",
+        "Learn how to identify the critical path in project schedules, which represents the sequence of tasks that directly impacts the project’s completion time. You’ll work through calculations to determine the critical path and understand its significance in project planning.",
+        "Discover how to perform critical path calculations using Excel, making complex scheduling tasks simpler and more accessible. This skill will equip you to analyze and manage project timelines with greater ease.",
+        "Explore methods for calculating the critical path when task durations are uncertain, using PERT to incorporate variability into project scheduling. This approach helps prepare for potential delays and enhances flexibility in planning.",
+        "Learn the concept of “crashing” a project to reduce the overall timeline. By examining ways to shorten the duration of critical tasks, you’ll gain insight into balancing time and resource constraints to meet project deadlines.",
+        "By completing this lesson, you’ll be well-prepared to use PERT and CPM models to manage complex projects, ensuring efficient and effective project execution",
+        "Dive into variations of the EOQ model, including cases with planned shortages, quantity discounts, and gradual replenishment. These models allow you to tailor inventory strategies to specific operational requirements.",
+        "By the end of this lesson, you’ll be equipped with robust inventory management techniques for scenarios with known demand, setting a foundation for efficient and cost-effective operation",
+        "Taking an Engineering Management Science course has a significant career impact for engineering management majors, as it equips them with critical analytical and decision-making skills. This course emphasizes the use of quantitative methods and models to tackle complex managerial challenges, enhancing a student’s ability to make data-driven decisions. By mastering tools such as optimization, forecasting, and project scheduling, students learn to address real-world engineering and operational problems systematically.",
+        "For engineering management professionals, these skills translate into improved efficiency, cost reduction, and strategic planning abilities in the workplace. Employers highly value graduates who can approach challenges with a scientific mindset, utilizing structured frameworks to solve issues and optimize resources. This foundation in management science enables students to advance into leadership roles, where they can oversee complex projects, manage teams effectively, and contribute to the organization’s overall success through informed decision-making.",
+        "Optimizing Manufacturing Operations: An engineering management graduate might lead a project to improve a production line’s efficiency in a manufacturing plant. By applying concepts like linear programming and inventory management, they can minimize downtime, reduce waste, and ensure the optimal use of materials and labor, resulting in increased output and cost savings.",
+        "Energy Usage Optimization in Utilities: Engineering management professionals may be involved in projects that analyze energy usage patterns for utility companies. Using data analysis and modeling, they can help identify peak demand times, optimize power generation schedules, and implement cost-saving measures that support sustainable energy goals",
+        "New Product Development in Technology Companies: In technology and product management roles, a graduate might oversee the development and launch of a new product. They would use cost-benefit analysis to justify product features, simulate potential market responses, and manage project timelines to bring the product to market efficiently and effectively.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Construct spreadsheet models to predict and optimize the performance of engineering systems.",
+            "Understand the use of models in Inventory Management.",
+            "Implement solutions involving randomness into the decision-making process.",
+            "Develop various forecasting models for variables of interest and measure the accuracy of these techniques.",
+            "Understand optimization and the interpretation of the output of an optimization analysis.",
+            "Develop practical computer-implemented solutions to deterministic and stochastic problems.",
+            "Implement the above in real-world problems."
+        ],
+        [
+            "Introduction to Management Science: A Modeling and Case Studies Approach with Spreadsheets by Frederick S. Hillier and Mark S. Hillier, 6th Edition, McGraw-Hill Irwin, New York, NY, 2019."
+        ],
+        [
+            "The online material accompanying the textbook contain Excel templates for many of the models we will study. We will also use Frontline’s Analytic Solver Platform for optimization and simulation purposes. You need to download and install this Excel add-in by following the instructions that will be provided by the instructor."
+        ],
+        [
+            "Homework assignments, midterm, and final exams are individual assignments.",
+            "All assignments and exams will be available on Canvas.",
+            "Solutions to all problems and case studies should be included in the same Excel workbook. Students should submit only one Excel file with each problem on a separate worksheet."
+        ],
+        [
+            "Midterm (30%); and",
+            "Final Exam (35%)"
+        ],
+        [
+            "Inventory Management with Known Demand",
+            "Cost-Benefit Analysis & Linear Programming Concept",
+            "Formulation and Application of Linear Programming Problem",
+            "Binary Integer and Nonlinear Programming",
+            "Forecasting",
+            "Computer Simulation",
+            "PERT/CPM Models for Project Management"
+        ],
+        [
+            "Break Even Analysis",
+            "Binary Integer Programming",
+            "Critical Path Calculations"
+        ],
+        [
+            "Construct spreadsheet models to predict and optimize the performance of engineering systems.",
+            "Understand the use of models in Inventory Management.",
+            "Implement solutions involving randomness into the decision-making process.",
+            "Develop various forecasting models for variables of interest and measure the accuracy of these techniques.",
+            "Understand optimization and the interpretation of the output of an optimization analysis.",
+            "Develop practical computer-implemented solutions to deterministic and stochastic problems.",
+            "Implement the above in real-world problems."
+        ],
+        [
+            "L1",
+            "L2",
+            "L3",
+            "L4",
+            "L5",
+            "L6",
+            "L7"
+        ],
+        [
+            "VLOOKUP Practice: Apply VLOOKUP to retrieve specific data efficiently within extensive spreadsheets.",
+            "Data Organization with Text-to-Column/Histogram: Use Excel functions to split data into columns and visualize distributions.",
+            "Break-Even Analysis Calculation: Perform break-even analyses on hypothetical scenarios to understand profit margins.",
+            "Introductory Linear Programming Exercises: Solve beginner-level linear programming problems to apply optimization techniques."
+        ],
+        [
+            "Case Studies on Shipping Options: Apply linear programming concepts to evaluate and compare the outcomes of different shipping methods.",
+            "What-If Analysis Practice: Experiment with modifying constraints and observe the impacts on optimal solutions.",
+            "Sensitivity Report Application: Use the Sensitivity Report tool to analyze the strength and adaptability of your linear programming solutions."
+        ],
+        [
+            "Binary Integer Programming Practice: Work on exercises that simulate real-world scenarios requiring binary decisions to understand how to set up and solve these types of problems.",
+            "Nonlinear Programming Examples: Tackle exercises that involve nonlinear relationships to gain a deeper understanding of how nonlinear programming can optimize outcomes in complex situations."
+        ],
+        [
+            "Judgmental Techniques Exercise: Practice using judgmental methods to make informed predictions.",
+            "Causal Forecasting Analysis: Apply causal forecasting to understand and interpret variable relationships.",
+            "Time Series Forecasting Application: Conduct time-based analyses to forecast future trends."
+        ],
+        [
+            "Excel-Based Simulation Exercise: Develop a basic simulation model in Excel to analyze potential outcomes of various scenarios.",
+            "Analytic Solver Simulation Practice: Use Analytic Solver to create in-depth simulations and assess the results of complex data interactions."
+        ],
+        [
+            "Critical Path Calculations Practice: Perform calculations to identify critical paths in various project scenarios.",
+            "Excel-Based Critical Path Analysis: Use Excel to simplify and expedite critical path calculations.",
+            "PERT Analysis for Uncertain Timelines: Work on cases where task durations are variable to improve schedule reliability.",
+            "Project Crashing Exercise: Apply techniques to reduce project timeframes while managing resources effectively."
+        ],
+        [
+            "Inventory Turns and Cost Analysis Exercise: Calculate and analyze inventory metrics to understand their role in cost management.",
+            "EOQ Calculation Practice: Apply the EOQ model to determine optimal order quantities.",
+            "Sensitivity Analysis Activity: Explore how demand and cost fluctuations impact inventory strategies.",
+            "Advanced EOQ Models Application: Work with EOQ model variations for situations like planned shortages and discounts."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "http://direct.mbsbooks.com/psude.htm",
+            "url": "https://bookstore.mbsdirect.net/vbm/vb_home.php?FVCUSNO=30113&url=psude.htm"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "Image of intro to management book 6th edition",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/Intro-to-Management-Science-book.jpeg"
+        },
+        {
+            "alt": "Image showing definitions and formulas for financial terms in production: Fixed Costs, Variable Costs, Total Costs, Total Revenue, Profit, and Break-even Point, with equations for each concept.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/Screenshot_13-11-2024_123216_psu.instructure.com_.jpeg"
+        },
+        {
+            "alt": "\"Add Constraint\" dialog box in Excel Solver, showing options to set constraints on a cell reference, including equal to, less than or equal to, greater than or equal to, integer, and binary",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/add-constraint.jpg"
+        },
+        {
+            "alt": "able showing time needed per week for household chores by Eve and Steven, with tasks including marketing, cooking, dishwashing, and laundry.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/Screenshot_13-11-2024_12426_psu.instructure.com_.jpeg"
+        },
+        {
+            "alt": "A project network diagram showing tasks labeled A to K with their respective durations and Early Start (ES) and Early Finish (EF) times.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/lesson-6-1.jpg"
+        },
+        {
+            "alt": "A project network diagram showing tasks labeled A to J with Early Start (ES), Early Finish (EF), Late Start (LS), and Late Finish (LF) times for each task.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/Lesson_06-2.jpg"
+        },
+        {
+            "alt": "A project network diagram showing tasks labeled A to J with Early Start (ES), Early Finish (EF), Late Start (LS), Late Finish (LF), and Slack times.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/6_3.jpg"
+        },
+        {
+            "alt": "Table listing project paths from Start to Finish with corresponding durations in weeks, indicating critical paths.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/6.4-1.jpg"
+        }
+    ],
+    "tables": [],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"2737\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

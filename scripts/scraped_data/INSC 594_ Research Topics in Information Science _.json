@@ -1,0 +1,574 @@
+{
+    "metadata": {
+        "title": "INSC 594: Research Topics in Information Science – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=5961"
+    },
+    "headings": {
+        "h2": "Lesson 13: Data Mesh – A Decentralized Approach To Data Product Development",
+        "h4": "Unlocking Your Potential",
+        "h3": "Required Textbook"
+    },
+    "paragraphs": [
+        "INSC 594: Research Topics in Information Science is an advanced course specifically designed to engage graduate students in the dynamic field of Information Systems (IS) research. This course serves as an interactive platform for students to engage with faculty and peers, delving deep into the most pertinent topics and emerging trends within the IS discipline.",
+        "Throughout the course, through a series of meticulously selected case studies, students will critically examine the essence of a research contribution in the field of IS. The program is structured to provide hands-on experience in directed research, fostering a deeper understanding and application of research methodologies. Students will also explore the vast spectrum of sub-disciplines within IS research, gaining insights into potential future research avenues and applications.",
+        "Key components of the course include collaborative discussions, practical research assignments, and comprehensive analysis of current and futuristic IS research scenarios. By the end of the course, students will not only be familiar with the theoretical underpinnings of IS research but will also be skilled in identifying and developing significant research contributions in this ever-evolving field. This course is essential for those aspiring to thrive in academic, consulting, or industry roles within the Information Systems sector.",
+        "(3 credits) This course provides a forum for interaction among graduate students and faculty on topics of relevance to IS research and makes them familiar with current and future research directions in IS. Through a series of case studies, students will examine what constitutes a research contribution, gain hands-on experience with directed research, and explore the breadth of sub-disciplines within IS research.",
+        "You must satisfy 60% course completion of the Information Science master program to qualify for this course. Once you are qualified to take this research topic course, you are on track to complete your graduate study at Penn State.",
+        "This capstone course will provide you with a thorough understanding of:",
+        "This course offers you an opportunity of gaining culminating experience in synthesizing the knowledge and skills you have learned in your coursework and applying them to addressing real-world issues. A practical framework is adopted to facilitate your research throughout the course.",
+        "In the following 14 weeks, I am sure that you will have a lot of fun while completing your research project.",
+        "The fundamental objective of this course is to help students become better and more effective in understanding risk, opportunity, and change management, and gain insight into the practical frameworks for resolving business challenges in the domain of IS through a clear understanding of the current challenges in various IS domains such as Cybersecurity, Machine Learning, Artificial Intelligence, Smart Cities, Digital Twins, Data Analytics, Database Design, Information System Architecture, Business Process Management, and Enterprise Architecture.",
+        "Students will be required to purchase three Harvard Business Publishing Education articles listed in the course.",
+        "All other references and additional reading materials will be provided in each lesson.",
+        "Our bookstore is MBS Direct, a mail order textbook vendor.  You can order from MBS Direct by calling 1-800-325-3252 or by visiting their online bookstore at http://direct.mbsbooks.com/psude.htm.",
+        "A grade is given primarily on the basis of the instructor’s judgment as to the student’s scholarly attainment. Students are encouraged to seek the instructor’s input during the process of completing each course requirement. Students are reminded that a letter grade of A is given to students who do exceptional work in both the quality of communicating ideas/information and the level of scholarship demonstrated, not simply for completion of assignments or meeting minimal requirements set for assignments.",
+        "*Grades will be based on the following scale:",
+        "A = 93 – 100, A- = 90 – 92, B+ = 87 – 89, B = 84 – 83, B- = 80 – 82, C+ = 77 – 79, C = 70 – 76, D = 60 – 69, and F = below 60.",
+        "Raw scores may be adjusted by the instructor to calculate final grades. Final grades will be determined based on the following components:",
+        "As a capstone, this course offers you an opportunity of gaining culminating experience in synthesizing the knowledge and skills you have learned in your coursework and applying them to addressing a real cyber threat challenging issue. A practical framework is adopted to facilitate your research throughout the course.",
+        "*subject to change",
+        "A business process is a set of activities that are performed in coordination in an organizational and technical setting or environment. These activities jointly realize a business goal. A simple example of a business process is an ordering process of the reseller. This business process consists of 5 activities:  Receive Order,  Send Invoice, Receive Payment, Ship Products, and Archive Order.",
+        "All these activities can be executed in a sequence, one after another, or one or more activities can be executed in parallel [1].",
+        "The Enterprise Application Integration or EAI is the task of uniting the databases and workflows associated with business applications to ensure that the business uses the information consistently and that changes to core business data made by one application are correctly reflected in others. Round the world, EAI face challenges in integrating the complex enterprise applications in a heterogenous information technology landscape. These enterprise applications are often developed independently of each other, and they store data locally. As such they are siloed applications. For example, in an organization, siloed enterprise applications such as the Enterprise Resource Planning (ERP), Supply Chain Management (SCM) and the Customer Relationship Management (CRM) systems all exhibit data heterogeneity. However, these applications need to share data among themselves to successfully enact a business process. Therefore, it becomes necessary to integrate all these enterprise applications. To remedy the data heterogeneity issue and to ensure that all the enterprise applications can be integrated properly it is required to identify a suitable middleware solution. There are several middleware solutions including the point-to-point integration, the message-oriented middleware, the Hub-and-Spoke middleware using message brokers, the workflow management systems, and the Service-oriented architecture (SOA) using the ESB [1].",
+        "The process landscape diagram is shown in figure 2. This diagram represents the supplier-customer relationships between the different business functions of an organization. Let’s take a simple example to illustrate the information conveyed through the process landscape diagram. Consider the business function innovation process. The supplier to the innovation process business function are the stakeholders who supply the business function with the market challenges. The innovation process business function now serves as a supplier for the two other business functions namely the product planning process and the product development process by supplying the product innovation and prototype respectively. In other words, the product planning process and the product development process are the customers of the innovation process. The product planning process supplies the product specification to the product development process which in turn supplies the innovative products to the stakeholders (see figure 2). It should be noted here that the product planning process and the marketing process are both the suppliers and the customers of each other suppling the product innovation [1].",
+        "Fig. 2.14 Process landscape relating organizational business processes with stake-holders, based on Schmelzer and Sesselmann (2006) -figure adopted from [1].",
+        "Now let us discuss the components of a Typical AIOps Platform shown below in figure 1.  The AIOps platform includes the following components namely, the data layer, the AI layer, and the visualization layer. The data layer continuously observes the IT landscape. In this layer the data is being constantly obtained from different sources of the IT landscape. Data sources can include different monitoring tools, application logs, ITSM tools, etc. The AI layer is like a brain – it uses the data that is collected in the data layer and extracts actionable insights out of it. Different forms of machine learning including anomaly detection, prediction, and correlation are performed in this layer. The visualization layer offers the interface through which different stakeholders can interact with the platform that you can see in figure 1 [2].",
+        "Figure 1:Components of a AIOps platform (figure adopted from Claridge. P., 2021 [2]).",
+        "This course will provide you with a thorough introduction to:",
+        "During this course you will expand your knowledge of the lesson topics each week.",
+        "This lesson delves into the world of microservices technology, illustrating its revolutionary impact on banking and financial institutions. You’ll gain a comprehensive understanding of how microservices architecture differs from traditional enterprise architectures and enables more agile, scalable solutions.",
+        "By completing this lesson, you will enhance your understanding of how microservices technology is transforming the banking industry, equipping you with the knowledge to discuss and implement these advances effectively in real-world scenarios.",
+        "This lesson introduces you to the world of Natural Language Processing (NLP)-powered chatbots, which serve as virtual agents in various business sectors. The session begins with an overview video that outlines the key areas of focus, including the role of chatbots as interactive tools in enhancing customer service and business operations.",
+        "By completing this lesson, you will gain a comprehensive understanding of NLP-powered chatbots, their technological underpinnings, and their transformative impact on business practices. This knowledge will equip you to critically assess and implement AI solutions in various organizational contexts.",
+        "This lesson delves into the complexities of safeguarding critical infrastructure in the United States against cyber attacks. Through a comprehensive overview, you will learn about the various threats that critical infrastructure faces, emphasizing both physical and cyber vulnerabilities.",
+        "By completing this lesson, you will enhance your ability to critically assess security risks to critical infrastructure and apply effective strategies to mitigate these risks, preparing you for challenges you may face in real-world cybersecurity roles.",
+        "This lesson delves into the complexities and challenges associated with Big Data Analytics (BDA) technology within enterprise architecture. You’ll learn about the technical, organizational, and strategic hurdles that enterprises face when integrating BDA into their systems.",
+        "By completing this lesson, you will have a robust understanding of the challenges and benefits of Big Data Analytics within enterprise architecture, preparing you to effectively address and navigate the complexities associated with its adoption and implementation.",
+        "This lesson introduces the fundamental concepts of NoSQL databases, focusing on their unique architecture and capabilities. You will explore why NoSQL databases like Apache Cassandra and Aerospike are critical for handling large-scale data across distributed systems.",
+        "By completing this lesson, you will have a deeper understanding of how NoSQL databases like Apache Cassandra and Aerospike operate, their roles in modern enterprise architectures, and their impact on big data management. This knowledge will empower you to make informed decisions on database technology in various business scenarios.",
+        "This lesson introduces the fundamental concepts of NoSQL databases, focusing on their unique architecture and capabilities. You will explore why NoSQL databases like Apache Cassandra and Aerospike are critical for handling large-scale data across distributed systems.",
+        "By completing this lesson, you will have a deeper understanding of how NoSQL databases like Apache Cassandra and Aerospike operate, their roles in modern enterprise architectures, and their impact on big data management. This knowledge will empower you to make informed decisions on database technology in various business scenarios.",
+        "This lesson delves into the contrasting business models of two retail giants, Walmart and Amazon, providing you with a comprehensive understanding of their strategies and operations within the retail sector.",
+        "By completing this lesson, prospective students will be equipped to understand and analyze the complex business models of major players in the retail industry, gaining insights that are applicable to both academic studies and real-world business scenarios.",
+        "This lesson delves into the role of Artificial Intelligence in enhancing IT operations through the use of AIOps platforms. We will explore how these platforms help manage the complexity and scale of current IT systems, improving efficiency and predictive capabilities.",
+        "By completing this lesson, prospective students will gain a thorough understanding of AIOps as a critical tool for modern IT operations, equipped with knowledge to analyze its impact and apply best practices in real-world scenarios.",
+        "This lesson introduces the integration of Machine Learning (ML) into operational processes through MLOps, a methodology that combines Machine Learning Engineering, DevOps, and software development best practices to streamline and scale ML initiatives.",
+        "By completing this lesson, prospective students will be equipped to understand and articulate the complex interplay between machine learning engineering and IT operations, positioning them to effectively implement and manage MLOps in professional settings.",
+        "This lesson provides an in-depth exploration of the latest advancements in telecommunications through 5G technologies and Neutral Host Networks (NHN). You’ll gain a comprehensive understanding of how these technologies are shaping the future of connectivity and their impact on network architecture.",
+        "By completing this lesson, prospective students will be well-prepared to understand and discuss the complex dynamics of modern network technologies, particularly the integration of 5G and Neutral Host Networks, and their implications for future telecommunications infrastructure.",
+        "This lesson introduces the concept of digital twins, a pivotal technology in the realm of digital transformation. You will explore its diverse applications, benefits, and the essential capabilities needed to implement digital twins effectively.",
+        "By completing this lesson, prospective students will be well-equipped to discuss, analyze, and understand the concept of digital twins, recognizing their role in driving the future of digital transformation and their potential impact across various sectors.",
+        "This lesson focuses on the critical role of Apache Kafka within the Big Data ecosystem, particularly in supporting real-time data processing for applications such as Cyber Intelligence platforms. You’ll explore Kafka’s architecture, its operational capabilities, and its fit within the broader landscape of Big Data technologies.",
+        "By completing this lesson, prospective students will gain a solid understanding of how Apache Kafka functions within the Big Data ecosystem, equipped with the knowledge to evaluate its applications and implications in various industrial contexts.",
+        "This lesson introduces the concept of Data Mesh, an innovative data architecture framework designed to enhance data accessibility and speed up the creation of data products across enterprises. Through this exploration, you will understand how Data Mesh facilitates decentralized data ownership and governance.",
+        "By completing this lesson, prospective students will be equipped with the knowledge to understand and discuss the Data Mesh architecture, recognizing its potential to transform enterprise data management and foster a culture of innovation and agility.",
+        "Enrolling in INSC 594: Research Topics in Information Science allows students to deeply explore current trends and methodologies in the field of information science. This course equips participants with advanced research skills, enabling them to critically evaluate and contribute to developments within the discipline. By focusing on emerging topics, students not only enhance their understanding but also position themselves at the forefront of innovation, ready to address complex challenges in various professional settings.",
+        "Mastering the content of INSC 594 can significantly boost your career by expanding your expertise in information science, making you a valuable asset in roles that require deep analytical skills and strategic thinking. Professionals with this advanced knowledge are well-prepared for careers in data analysis, information architecture, and research coordination. This course is especially beneficial for those looking to pursue positions such as Data Analyst, Information Architect, or Research Coordinator. With the skills gained from INSC 594, you can expect to enhance your problem-solving capabilities, lead data-driven projects, and contribute effectively to strategic decision-making processes.",
+        "In the Public Library Digital Transformation Project, a student from INSC 594: Research Topics in Information Science could focus on revolutionizing the way public libraries serve their communities through the implementation of a digital repository. This initiative would aim to enhance accessibility and engagement by making educational and literary resources available online, catering to a more tech-savvy public and those with limited physical access to library facilities. The project would involve a thorough assessment of the existing library management systems and data cataloging processes to identify inefficiencies and gaps in service delivery. Collaboration with librarians, IT professionals, and library users would be critical to understanding the diverse needs and ensuring the system’s functionality aligns with user expectations and habits. This engagement would help tailor the digital system to provide a seamless, intuitive user experience that encourages more frequent and diverse use of library resources.",
+        "The development of this digital repository would also entail designing an interface that integrates smoothly with current library databases and management software, ensuring that the transition to digital does not disrupt existing services. Key challenges would likely include data security, maintaining user privacy, and creating a robust search engine that can handle complex queries. The student would need to apply advanced knowledge in software development, user interface design, and possibly machine learning to create intelligent features that enhance the searchability and recommendation capabilities of the digital library. Ultimately, this project would not only transform how users interact with library resources but also set a benchmark for other libraries considering similar digital transitions, showcasing the practical application and impact of advanced studies in information science.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Justify the application of current IS techniques and technologies, such as databases, communication protocols, cloud computing, data analytics, and enterprise architectures.",
+            "Calculate the risk and opportunity assessment, change management, and gain insight into the practical frameworks for resolving business challenges.",
+            "Evaluate the business needs of modern commerce, build expertise in evaluating competing solutions, and planning the deployment of emerging technologies.",
+            "Explore the current challenges in various IS domains such as Cybersecurity, Machine Learning, Artificial Intelligence, Smart Cities, Digital Twins, Data Analytics, Database Design, Information System Architecture, Business Process Management and Enterprise Architecture."
+        ],
+        [
+            "Architecture & Business Process",
+            "Supplier-Customer Relationships",
+            "AIOps Platform"
+        ],
+        [
+            "Foundational Knowledge in Information Science Research: Understand the key theories, principles, and scopes of contemporary research within the field of information science.",
+            "Advanced Research Methodologies: Gain proficiency in designing and conducting research studies using advanced methodologies specific to information science.",
+            "Critical Analysis Skills: Develop the ability to critically analyze existing research, including assessing the validity, reliability, and implications of data and studies in information science.",
+            "Innovation in Information Science: Learn to identify gaps in current knowledge and generate innovative research questions that push the boundaries of what is known in the field.",
+            "Practical Application of Research Findings: Apply research findings to real-world problems, demonstrating the practical implications and benefits of research in information science.",
+            "Communication of Research: Enhance skills in writing, presenting, and discussing complex research findings, making them accessible and actionable for both academic and practitioner audiences.",
+            "Ethical Considerations in Research: Understand and apply ethical considerations in the conduct of research, particularly in the handling of data and the dissemination of research findings."
+        ],
+        [
+            "L1-L2",
+            "L3-L4",
+            "L5-L6",
+            "L7-L8",
+            "L9-L10",
+            "L11-L12",
+            "L13"
+        ],
+        [
+            "Microservices vs. Traditional Architectures: Understand the advantages of microservices over traditional enterprise service buses (ESB).",
+            "Service-Oriented Architecture (SOA): Learn the foundational concepts of SOA and its importance in modern IT infrastructure."
+        ],
+        [
+            "Case Study Discussion: Collaborate in teams to analyze, discuss, and provide solutions to the given case study.",
+            "Reading Assignment: Study the article “Opening banking through architecture re-engineering: A microservices-based roadmap” to prepare for discussions."
+        ],
+        [
+            "NLP as a Tool for Virtual Agents: Understanding the capabilities and functions of NLP in chatbots.",
+            "Technological Foundations: Recognizing the software and algorithms that enable sophisticated chatbot interactions."
+        ],
+        [
+            "Reading Assignment: Read the article “Blackbox Chatbot: Designing Natural Language Conversations with Data” for a deep dive into practical applications and design strategies.",
+            "Case Study Discussion: Participate in team discussions to analyze a case study on chatbot implementation in a real-world scenario."
+        ],
+        [
+            "Challenges in Critical Infrastructure Security: Overview of the major challenges in protecting critical infrastructures in the United States.",
+            "Nature of Cyber Threats: Understanding the types of threats and the potential impact on national security."
+        ],
+        [
+            "Case Study Review: Engage with real-world examples to identify threats, vulnerabilities, and successful mitigation efforts.",
+            "Reflective Analysis: Document your insights and strategies developed during the lesson to build a comprehensive understanding of critical infrastructure protection."
+        ],
+        [
+            "Benefits of BDA: Identifying and discussing the advantages of adopting BDA in business operations.",
+            "Implementation Challenges: Critical analysis of the steps and hurdles in deploying BDA solutions."
+        ],
+        [
+            "Case Study Analysis: Dive deep into case studies that showcase real-world applications and challenges of BDA in enterprises.",
+            "Reading Assignment: Review the article “Roles and Capabilities of Enterprise Architecture in Big Data Analytics Technology Adoption and Implementation.”"
+        ],
+        [
+            "Challenges in NoSQL Databases: Overview of common challenges faced when implementing and maintaining NoSQL databases.",
+            "Need for NoSQL Databases: Discussion on why modern data-driven applications require NoSQL over traditional relational databases."
+        ],
+        [
+            "Case Study Discussion: Participate in discussions that focus on real-world implementations of these databases.",
+            "Feature Analysis Activity: Engage in activities to map out the features of each database and their applications."
+        ],
+        [
+            "Challenges in NoSQL Databases: Overview of common challenges faced when implementing and maintaining NoSQL databases.",
+            "Need for NoSQL Databases: Discussion on why modern data-driven applications require NoSQL over traditional relational databases."
+        ],
+        [
+            "Case Study Discussion: Participate in discussions that focus on real-world implementations of these databases.",
+            "Feature Analysis Activity: Engage in activities to map out the features of each database and their applications."
+        ],
+        [
+            "Contrasting Models: Walmart’s reliance on physical stores vs. Amazon’s focus on online platforms.",
+            "Strategic Adaptation: Both companies’ responses to the dynamic retail environment."
+        ],
+        [
+            "Read Key Articles: Start with the article “Amazon vs Walmart: Clash of Business Models” to set the foundation for understanding their strategic approaches.",
+            "Participate in Case Study Discussions: Apply your knowledge by engaging in discussions that challenge you to think critically about each company’s strategies and outcomes."
+        ],
+        [
+            "Integration of AI with IT Operations: How AI technologies are incorporated into IT systems to enhance operational efficiency.",
+            "Strategic Value of AIOps: The transformation of IT from a cost center to a strategic asset through the application of AIOps."
+        ],
+        [
+            "Read a White Paper: Dive into a detailed white paper by Hewlett Packard Enterprise on AIOps to gain a foundational understanding.",
+            "Begin Research Paper Preparation: Outline and begin gathering resources for a comprehensive analysis of AIOps as a transformative tool in IT operations."
+        ],
+        [
+            "Components of MLOps: A breakdown of the technical and process components essential for effective Machine Learning Operations.",
+            "Collaboration Between ML and IT Operations: Insights into how MLOps fosters collaboration between data scientists, ML engineers, and IT operations teams."
+        ],
+        [
+            "Participate in a Case Study Discussion: Discuss real-world applications and outcomes of MLOps, engaging with complex scenarios to better grasp its challenges and solutions.",
+            "Read a White Paper: Gain insights from “Evaluating MLOps & its aspects” by Arun Madan, to understand theoretical and practical aspects of MLOps."
+        ],
+        [
+            "Technical Innovations: Overview of the technological breakthroughs that 5G and NHN bring to the telecommunications sector.",
+            "Strategic Importance: Understanding the strategic role of NHN in broadening network coverage and capacity, especially in densely populated or underserved areas."
+        ],
+        [
+            "Read Comprehensive White Papers: Delve into the article “Enabling 5G Neutral Hosts: 5G City Architecture and Business Model” to build a solid foundation of knowledge on the subject.",
+            "Engage in Case Study Discussions: Participate in discussions that examine real-world applications of 5G and NHN, focusing on both successes and complications."
+        ],
+        [
+            "Innovative Integration: How digital twins integrate with existing systems to provide insights and predictive analytics.",
+            "Future Trends: Insights into how digital twins are expected to evolve and influence future technologies and business models."
+        ],
+        [
+            "Engage with Industry Leaders through Reading: Study the white paper “Digital Twins Will Drive the Future of Digital Transformation” to gain a foundational understanding of the impact and strategies behind digital twins.",
+            "Reflective Analysis: Engage in reflective analysis to understand the complexities and the multifaceted nature of digital twins in modern industries."
+        ],
+        [
+            "Salient Features of Kafka: Highlight the distinctive features of Kafka that support scalable and real-time data processing.",
+            "Integration with Big Data Platforms: Understand how Kafka integrates with other Big Data technologies to provide a comprehensive data processing solution."
+        ],
+        [
+            "Read Insightful White Papers: Dive into the article “IT@Intel: Building a Modern, Scalable Cyber Intelligence Platform with Apache Kafka” to grasp the practical applications and advantages of Kafka in real-world settings.",
+            "Engage in Case Study Discussions: Participate in discussions that focus on real-world implementations of Kafka, analyzing both the successes and hurdles faced."
+        ],
+        [
+            "Decentralized Data Ownership: The shift towards decentralized data ownership that empowers domain experts and enhances agility.",
+            "Innovation in Data Management: The impact of Data Mesh on speeding up the delivery of data-driven products and services."
+        ],
+        [
+            "Read Insightful Articles: Study the article “The Value of Data Virtualization in a Data Mesh” to gain a solid understanding of how virtualization technologies support the Data Mesh concept.",
+            "Participate in Case Study Discussions: Engage in discussions based on real-world applications of Data Mesh, focusing on the challenges faced and solutions implemented."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "The image is a diagram illustrating a business process flow with six steps organized in a circular format around a central title that reads \"Business Process\". Each step is represented by a pentagonal icon with a symbol and a label. From top clockwise, the steps are: \"Receive Order\" showing a hand receiving something, \"Send Invoice\" depicted with a paper invoice icon, \"Receive Payment\" symbolized by a hand holding a banknote, \"Ship Products\" indicated by a box with an arrow, \"Archive Order\" represented by a computer monitor displaying a cityscape, and back to \"Receive Order\". The icons are connected by arrows that show the flow of the process, creating a cycle of order handling in a business environment.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/INSC-594-L1-Business-Process-1024x533.png"
+        },
+        {
+            "alt": "The image is a flowchart illustrating the various business processes involved in product development and management, set between two vertical bars labeled \"Stakeholders\" on either side. The flowchart is structured horizontally with different stages of the product lifecycle linked through arrows, indicating the flow of activities. Starting from the left, the first set of arrows emanate from \"Stakeholders\" to \"Market challenge,\" \"Customer expectations,\" \"Market requirements,\" and \"Customer problem,\" leading into respective processes: \"Innovation Process,\" \"Product Planning Process,\" \"Marketing Process,\" and \"After Sales Services Process.\" These processes feed into further stages such as \"Prototype,\" \"Product innovation,\" \"Product specification,\" and \"Problem solution.\" The process culminates in the \"Product Development Process\" and \"Order Management Process,\" which then lead to \"Innovative products\" and \"Shipping,\" respectively, both directed towards the \"Stakeholders\" bar on the right. The diagram effectively demonstrates how different inputs and processes are interlinked to deliver final products and solutions to stakeholders.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/INSC-594-figure-2.14-redone-1024x514.png"
+        },
+        {
+            "alt": "Components of a AIOps platform (figure adopted from Claridge. P., 2021 [2]).",
+            "src": "https://psu.instructure.com/courses/2277667/files/148448556/preview"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Assignment Category",
+                "Quantity",
+                "(% of Final Grade)"
+            ],
+            [
+                "Group Discussion Forums",
+                "13",
+                "40%"
+            ],
+            [
+                "Research Paper",
+                "1",
+                "60%"
+            ],
+            [
+                "TOTAL",
+                "14",
+                "100%"
+            ]
+        ],
+        [
+            [
+                "Deliverables",
+                "Due",
+                "Value"
+            ],
+            [
+                "Research Paper: Preparation Assignment",
+                "Lesson 8",
+                "8 points"
+            ],
+            [
+                "Research Paper: Checkpoint One Assignment",
+                "Lesson 10",
+                "12 points"
+            ],
+            [
+                "Research Paper: Checkpoint Two Assignment",
+                "Lesson 12",
+                "10 points"
+            ],
+            [
+                "Research Paper: Checkpoint Three Assignment",
+                "Lesson 13",
+                "10 points"
+            ],
+            [
+                "Final Research Paper Submission",
+                "Lesson 14",
+                "20 points"
+            ],
+            [
+                "TOTAL",
+                "",
+                "60%"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"5961\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

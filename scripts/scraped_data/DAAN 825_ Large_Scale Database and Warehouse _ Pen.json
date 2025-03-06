@@ -1,0 +1,760 @@
+{
+    "metadata": {
+        "title": "DAAN 825: Large-Scale Database and Warehouse – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=3081"
+    },
+    "headings": {
+        "h2": "Course Requirements and Grading",
+        "h4": "Unlocking Your Potential",
+        "h5": "Neo4j",
+        "h3": "Lesson 14: Big Data Use Cases",
+        "h6": "Honorlock Proctoring"
+    },
+    "paragraphs": [
+        "DAAN 825: This course is valued at 3 credits and focuses on advanced data storage technologies essential for managing and analyzing large-scale datasets. It covers NoSQL database systems, designed for handling loosely structured or unstructured data, such as key-value stores, document databases, and graph databases, emphasizing scalability and flexibility. Additionally, the course explores data warehousing for structured, dimensional data, highlighting concepts like ETL processes, dimensional modeling, and warehouse architecture for business intelligence applications. By bridging these two areas, students gain the skills to design and implement data solutions tailored to diverse organizational needs, preparing them for roles in big data and analytics.",
+        "This course provides a broad exploration of current and emerging practices for handling large quantities of data using large-scale database systems. Data is being generated at an exponential rate and handling and analyzing such data needs highly customized tools and processes to handle data-intensive tasks. In particular, this course investigates methods to effectively design, develop, and implement the two dominant types of large-scale databases:  data warehouses for dimensional data and NoSQL databases for loosely structured data.  Students will learn to design a wide variety of large database solutions, apply extract-transform-load (ETL) strategies, maintain and evolve large-scale databases, explore the fundamentals of NoSQL systems, and understand the properties of different database technologies.",
+        "The objective of this course is to introduce the students to various issues related to managing large-scale databases for successfully storing and retrieving business-related knowledge. Several systems for managing large-scale data will be demonstrated. The students will:",
+        "The most recent version of Docker with WSL 2 backend software which can be run on every Windows machine. Users of Windows 10 Enterprise, Windows 10 Pro, or Linux can download and use the latest version of   Docker with HyperV backend. Docker will be used to install other packages such as PostgreSQL, Apache Hadoop, Apache Hive, Apache Pig, or Apache Hbase.  Students should also download and install Knime 4 and the DBeaver software.",
+        "Please remember that ALL questions about grades, course lesson content, and assignments should be directed to your course instructor. If you have any technical difficulties using the tools within this course, please contact the Penn State Helpdesk.",
+        "All course-related e-mails should go through Canvas’s course mail function (Canvas Inbox). Using Canvas to contact your instructor ensures that your message will be read, and your instructor will respond to you in a timely manner.",
+        "Many of the University Libraries’ resources can be utilized from a distance. Through the Library website, you can access magazines, journals, and articles; borrow materials and have them delivered to your doorstep; and get research help via email chat or phone from a librarian.",
+        "For more information, view the Penn State University Library",
+        "Additional information about assignments and related topics will be posted on the course site when appropriate.",
+        "*Grades will be based on the following scale:",
+        "A = 94 – 100, A- = 90 – 93, B+ = 87 – 89, B = 84 – 86, B- = 80 – 83, C+ = 77 – 79, C = 70 – 76, D = 60 – 69, and F = 60 and below.",
+        "There will be discussion boards for students to discuss among themselves different aspects of the course, and I will participate in the discussions when it is appropriate. Use the discussion board to post your questions and to read the responses from your classmates. Your answers to discussion questions should be submitted by Friday at midnight. You are expected to provide at least two answers to the discussion questions. Further discussions, comments, and feedback will be accepted up until the due date listed on the Course Schedule. Every student is expected to provide at least two feedback postings.",
+        "There will be several homework assignments, two projects, and one exam. You are free to use any material or software package to solve the problems with adequate references unless specifically specified.",
+        "For these assignments, you are responsible for all the material covered in class as well as in the assigned readings. Assignments should be completed without collaboration with other students or individuals. Refer to the Course Schedule for lesson timeframes, due dates, and times. Your responses to each assignment must be submitted in the specified file format, either PDF, DOC, DOCX, XLS, or XLSX format, and must be placed in the appropriate assignment.",
+        "Students are free to write their responses by hand and then scan them into a PDF file. Late submissions will not be accepted unless there are mitigating circumstances, and the instructor has given permission prior to the due date.",
+        "Exams in this class are summative, not formative. They are designed for the purpose of assessment as well as benchmarking students’ performance in the course and are not intended for student learning. Answer keys to individual questions, therefore, will not be provided. However, a narrative of ways to improve will be provided upon request from the student.",
+        "*NOTE: The last exam will be due on the last official scheduled day of class. No make-up exams will be given, except in cases of emergencies or with prior approval. Any questions on exams should be directed to your instructor.",
+        "The proctoring software uses your computer’s webcam or other technology to monitor and/or record your activity during exams. The proctoring software, Honorlock, may be listening to you, monitoring your computer screen, viewing you and your surroundings, and recording any activity (including visual and audio recordings) during the proctoring process. By enrolling in this course, you consent to the use of the proctoring software, including but not limited to any audio and/or visual monitoring that may be recorded. Please contact your instructor with any questions. For Honorlock resources and a practice test, see the Honorlock Information module in Canvas.",
+        "*Subject to change",
+        "The enterprise data warehousing market is very active with several leading competitors that push for innovation in this area.Innovation focus on in-memory computation, data compression, security, and integration with new technologies such as Hadoop, NoSQl, or cloud computing. Figure below shows the state of the data warehousing market as of February 2016. The quadrant on the top right shows the leaders in the market of enterprise data warehousing.",
+        "The data warehouse solutions in the figure above provide complete software systems that support and manage data in one or many file management systems. These systems can perform relational processing and support access and data availability from independent analytical tools and interfaces.",
+        "Oracle:",
+        "Oracle focuses on cloud, real-time, and big data. It offers database solutions that run completely in-memory, which results in low-latency access for transactional and analytical applications. Oracle data warehouses can be hosted on either specialized appliances, cloud, or commodity machines. They take advantage of some key Oracle database features such as agile partitioning scheme, mature cost-based query optimizer, optimized indexing, security, and high-performance support for parallelism.",
+        "Teradata:",
+        "Teradata is the most comprehensive and scalable enterprise data warehousing platform. It offers advanced solutions for in-database analytics, distributed indexing, query optimization, self-service and automation, workload management, distributed query, and security. Querying systems from Teradata can work with a number of third party data management systems such as Hadoop or Oracle.",
+        "IBM:",
+        "IBM provides data warehousing appliances that rely on the in-house DB2 database and information management solutions. IBM’s key differentiators lie in its advanced data compression, in-database analytics, real-time streaming, automated resource management, preconfigured vertical data models, virtualization, scalable appliances, and native integration with Hadoop platforms.",
+        "SAP:",
+        "SAP provides real-time data warehouse using a distributed, in-memory columnar parallel processing database engine. SAP solution is best suited for operational, analytical, and advanced analytical workloads and it is optimized for data streaming and query processing, advanced compression, cloud, and security.",
+        "Microsoft:",
+        "Microsoft has a significant presence in database management systems, online analytical processing, online transaction processing, business intelligence, and it is expanding its offering for cloud applications. Microsoft provides lower total cost of ownership, automation, skills availability, and support for hybrid platforms. The Azure SQL Data Warehouse works in the cloud and enables enterprises to scale data warehouses beyond tens of terabytes into petabyte-scale warehouses. Solutions from Microsoft provide sophisticated caching, compression, partitioning, indexing, cost-based query optimization, and workload management functionality.",
+        "The Big Data model of computation was introduced by several large companies such as Google, Yahoo, Facebook, Twitter, or LinkedIn. These companies evolved into large consumers and creators of big data technologies when faced with large volumes of data for which legacy infrastructure was incapable of properly handle. Most of these technologies were custom built to fit the needs of the specific company that developed them. This trend followed with open source organizations embracing the trend and accelerating the new technologies by providing free of charge solutions. Most of the medium-size and small companies, which need knowledge in this data, cannot afford to build custom solutions is unfeasible. They started to use out-of-the-box big data systems for their needs. With continued influx of entrepreneurial money in the space, the number of companies that provide solutions in the area of big data increases continuously. Figure below shows the big data landscape as of 2016.",
+        "Perhaps the most influential and established tool for analyzing unstructured data is Apache Hadoop. Apache Hadoop is a framework for storing and batch processing data in a large scale, and it is completely open source. Hadoop can run on commodity hardware, making it easy to use with an existing data center, or even to conduct analysis in the cloud. Hadoop is broken into four main parts:",
+        "Hadoop Common is a set of common libraries and utilities used by other Hadoop modules.",
+        "Hadoop Distributed File System (HDFS) is a distributed, scalable, and portable default storage layer for Hadoop. Data is broken down into smaller pieces and distributed throughout the cluster. In this way, the retrieval can be executed on smaller subsets of the data sets, and this provides the scalability that is needed for big data processing.",
+        "MapReduce was originally developed by Google and it was incorporated in Hadoop. It is the execution layer for a wide range of parallel analytic functions for analyzing datasets. The “Map” job distributes a query to different nodes, and the “Reduce” gathers the results and resolves them into a single value.",
+        "YARN (Yet Another Resource Negotiator) is the cluster management layer of Hadoop. It decouples resource management and scheduling capabilities from the data processing component, enabling Hadoop to support more varied processing approaches and a broader array of applications.",
+        "These four components form the basic Hadoop framework. However, the Apache big data solution includes a wide array of other components that aim to answer different information needs. Some the more well-known components include:",
+        "Spark is used on top of HDFS, and it is a fast, in-memory data processing engine that allow data processes to efficiently execute streaming, machine learning or SQL workloads that require fast iterative access to datasets. Spark is generally faster than MapReduce because of the way it processes data. While MapReduce operates in steps, Spark operates on the whole data set at once.",
+        "Hive was originally developed by Facebook and it is a data warehouse infrastructure built on top of Hadoop. Hive provides a simple, a SQL-like language, whilst maintaining full support for MapReduce. This means SQL programmers with little former experience with Hadoop can use the system easier, and provides better integration with certain analytics packages like Tableau. Hive also provides indexes, making querying faster.",
+        "HBase is a NoSQL columnar database which is designed to run on top of HDFS. It is modelled after Google’s BigTable and written in Java. It was designed to provide similar capabilities to BigTable in Hadoop, such as the columnar data storage model and storage for sparse data.",
+        "Pig is a high-level platform for creating programs that run on Apache Hadoop. It can perform all the data manipulation operations in Hadoop using a more abstract language called Pig Latin. All the Pig scripts are internally converted to Map and Reduce tasks which are ran against HDFS.",
+        "This is an open source document store NoSQL database management system designed to make it easier for organizations to develop and run applications that address performance, availability and scalability, and support a variety of data types. Instead of storing data in tables as is done in a classical relational database, MongoDB stores structured data as JSON-like documents with dynamic schemas, making integration with certain types of applications easier and faster. The document data model of MongoDB lets developers easily store and combine data of any structure, without sacrificing data access or indexing functionality. This enables database administrators to dynamically modify the schema with no downtime.",
+        "This is a graph database that provides a scalable, open source database management system for graph data. It supports ACID (atomicity, consistency, isolation and durability) properties and provides high-availability clustering for enterprise deployments. Graph databases focus on the connections among objects and provides efficient query and retrieval of these connection. They excel at managing highly connected data and complex queries and are suitable for social network analysis.",
+        "The Extract, Transform, and Load (ETL) process is one of the most important steps the analytical process on data warehouses. It is very time-consuming, and it is typically the most underestimated task in building a data warehouse. The ETL process addresses and resolves the challenges of extracting data from disparate sources, profiling data for errors, cleaning and transforming the data, and loading it into the target data warehouse. Source systems can be varied such as mainframe, relational databases, real-time systems, web pages, and/or desktop systems.",
+        "Upon completion of this lesson, you should be able to:",
+        "To summarize our discusions around Big Data and architecure patterns, take a look at the following video. Use it to refelect on your assignments and projects.",
+        "Data extraction includes the following steps:",
+        "(click the Accordion to explore each step)",
+        "The data files for this example were archived and are available for download from this link.",
+        "Save the files to a location on your computer – for example “c:\\temp\\daan825week13”.",
+        "Step 2:",
+        "To upload the data one needs to be at the Docker console :",
+        "Step 3:",
+        "To unzip the archive, execute the following:",
+        "Step 4:",
+        "To create the required folders in HDFS, run the following:",
+        "Step 5:",
+        "To upload the files in HDFS, run the following:",
+        "The objective of this course is to introduce the students to various issues related to managing large-scale databases for successfully storing and retrieving business-related knowledge. Several systems for managing large-scale data will be demonstrated. The students will:",
+        "This course gradually deepens your understanding of big data, data quality, and ethical data practices, equipping you with the skills to manage large datasets and ensure high-quality, ethical data collection and analysis.",
+        "In this lesson, students are introduced to the fundamental concepts of big data and data management. The lesson covers the evolution of data management systems, highlighting key milestones in the transition from traditional to modern tools. Students will learn about types of data (structured, unstructured, semi-structured) and the defining characteristics of big data (Volume, Velocity, Variety, Veracity, and Value). The lesson also introduces the tools for analyzing big data, including platforms like Hadoop and Spark, as well as programming languages such as Python and R.",
+        "By the end of this lesson, students will have a foundational understanding of big data, its types, and tools. The course will build on this knowledge in upcoming lessons to delve deeper into data analysis and management techniques.",
+        "In this lesson, students will be introduced to Docker, a powerful platform for developing, shipping, and running applications in containers. The lesson covers the basics of Docker, including its installation, components, and engine. Students will also learn how to work with Docker containers and images and explore key Docker concepts such as creating containers from a Docker file and speeding up Docker performance.",
+        "By the end of this Lesson, students will understand Docker’s installation, components, and how to use containers and images. Hands-on exercises will provide practical containerization experience, preparing students for advanced Docker topics in future lessons.",
+        "In this  lesson, you will explore the various models used to store and manage big data. You will learn about different types of data structures, including structured, unstructured, and key-value data, and how these models are applied in NoSQL databases and graph-based databases. This lesson will provide you with a foundational understanding of how different data models are used to store, access, and analyze large datasets in real-world applications.",
+        "By completing this lesson, you will have a solid understanding of the different data models used for big data, including structured, unstructured, key-value, column store, and graph databases. These concepts will prepare you for working with large-scale datasets and understanding how various database models are applied in big data environments.",
+        "In this lesson, you will dive into the architecture and installation of PostgreSQL, one of the most popular relational database management systems. You will learn about the key terminology used in relational databases, the different types of keys in a database table, and the differences between OLAP and OLTP. The lesson also covers how to install PostgreSQL and test your connection to the database, setting the foundation for hands-on work with this powerful database management system.",
+        "you will have a solid understanding of PostgreSQL’s architecture, installation process, and key concepts in relational databases. You will be ready to begin hands-on work with PostgreSQL, including connecting to and managing databases effectively.",
+        "In this lesson, you will explore dimensional modeling, a key concept in data warehousing and business intelligence. The lesson covers the creation and structure of data warehouses, the core principles of dimensional modeling, and how to design a warehouse schema using DBeaver. You will also learn about the advantages and disadvantages of using the dimensional model for organizing and analyzing large datasets.",
+        "By the end of this lesson,you will have a clear understanding of dimensional modeling and its role in data warehousing. You will gain practical experience in designing a data warehouse schema and learn how to effectively structure data for reporting and analysis.",
+        "In this lesson you will learn about the ETL process, a critical component of data integration and data warehousing. This lesson covers the three key stages of ETL: extraction, transformation, and loading. You will explore how data is extracted from different sources, transformed into a usable format, and loaded into a target system or database. The lesson also includes practical exercises to help you understand how to implement ETL processes in real-world scenarios.",
+        "By the end of this lesson, you will have a comprehensive understanding of the ETL process and how to implement it in real-world data integration tasks. You will gain practical experience in transforming and loading data, equipping you with essential skills for managing large datasets and preparing them for analysis.",
+        "In this lesson, you will learn how to create reports and visualizations from data stored in a data warehouse. The focus will be on using reporting tools like Knime Reports to generate insightful, interactive reports and charts that help make data actionable. By the end of this lesson, you will understand the basics of reporting in a data warehouse environment and how to effectively communicate data insights through visual tools.",
+        "By the end of this lesson, you will be able to create meaningful reports and visualizations from data in a data warehouse using Knime. You will gain valuable skills in data presentation, which will help you communicate complex data insights clearly and effectively in professional settings.",
+        "In this lesson, you will be introduced to Hadoop, a popular framework for distributed storage and processing of big data. This lesson covers Hadoop’s cluster architecture, its components, and how to set up and use Hadoop in a Docker environment. By the end of this lesson, you will have a solid understanding of how Hadoop works, including its web interfaces for managing and monitoring clusters.",
+        "By the end of this lesson, you will have a comprehensive understanding of Hadoop’s architecture, how to set up Hadoop in Docker, and how to manage clusters using Hadoop’s web interfaces. This foundational knowledge will prepare you for using Hadoop in real-world big data applications and projects.",
+        "In this lesson, you will learn how to retrieve and process data using MapReduce, a programming model used in Hadoop for distributed data processing. This lesson covers the basics of loading data, the structure of a MapReduce job, and how to use MapReduce to perform common data processing tasks like counting lines and words. By the end of the lesson, you will understand how MapReduce works and how to implement it to process large datasets efficiently.",
+        "By the end of this lesson, you will have practical experience with MapReduce, including how to load data, structure MapReduce jobs, and process large datasets. This foundational knowledge will allow you to apply MapReduce to efficiently retrieve and manipulate big data in distributed computing environments like Hadoop.",
+        "Lesson 10 provides an introduction to Apache Spark, a powerful, fast, and flexible data processing engine. You will learn about its core concepts, including execution in Spark, how to load and work with data, and how to filter results and store processed data. This lesson covers the fundamental operations in Spark that are critical for handling big data efficiently.",
+        "By the end of this lesson, you will have a solid understanding of how to use Apache Spark to process large datasets in a distributed manner. You will be familiar with key Spark operations such as loading data, transforming data, filtering results, and storing processed data, all essential skills for working with big data in real-world applications.",
+        "Lesson 11 introduces Apache Pig, a high-level platform for creating MapReduce programs used with Hadoop. You will learn how Pig simplifies data processing through its scripting language, Pig Latin, and how to execute Pig scripts in both local and distributed modes. This lesson will focus on working with data in Pig and using it for common big data processing tasks.",
+        "By the end of this lesson, you will have gained a solid understanding of Apache Pig and its capabilities for simplifying big data processing tasks. You will be able to write Pig Latin scripts, execute them in local mode, and apply these skills to real-world data processing scenarios.",
+        "This lesson introduces Apache Hive, a data warehousing tool built on top of Hadoop. Hive provides a convenient interface for querying and managing large datasets stored in Hadoop through HiveQL, a SQL-like language. In this lesson, you will learn how to use Hive to store, query, and analyze big data efficiently.",
+        "By the end of this lesson, you will be proficient in using Apache Hive to query and manage big data. You will have gained practical experience in creating tables, running HiveQL queries, and performing data analysis in a Hadoop environment, essential skills for handling large datasets in the modern data landscape.",
+        "Lesson 13 explores practical examples of data processing using Hadoop, focusing on the ETL (Extract, Transform, Load) process. You will learn how to use Hadoop tools like MapReduce and Apache Pig to extract data, transform it, and load it into systems for reporting and analysis. This lesson will cover the entire ETL pipeline with a focus on how these processes are handled in a Hadoop ecosystem.",
+        "By the end of this lesson, you will be equipped with hands-on experience in processing data with Hadoop. You will understand how to use the ETL pipeline, including extraction, transformation with MapReduce and Apache Pig, and loading data for analysis and reporting. These skills are essential for working with large datasets and generating actionable insights in a big data environment.",
+        "Lesson 14 focuses on real-world Big Data use cases, demonstrating how big data analytics is applied across various industries to solve complex problems and generate actionable insights. You will explore practical examples, such as customer segmentation, fraud detection, and the 360-degree customer view, highlighting how businesses leverage big data to improve decision-making and enhance customer experiences.",
+        "you will have a deep understanding of how big data is applied in real-world scenarios, particularly in areas like customer segmentation, fraud detection, and creating a holistic view of the customer. You will be able to identify and analyze business problems that can be solved with big data techniques, preparing you for a career in data analytics.",
+        "Becoming proficient in big data use cases, including customer segmentation, fraud detection, and creating a 360-degree customer view, can have a transformative impact on your career. As businesses increasingly rely on data-driven insights to enhance decision-making, your ability to apply big data techniques will position you as a key player in industries such as marketing, finance, healthcare, and technology. Mastering these use cases equips you with the tools to tackle complex business challenges, driving innovation and delivering actionable insights that can directly influence company strategies.",
+        "Expertise in big data use cases will also open up a wide range of career opportunities in fields like Data Analytics, Business Intelligence, and Data Science. Roles such as Data Analyst, Business Intelligence Analyst, and Data Scientist are in high demand, and those with a strong understanding of big data applications are highly sought after. The ability to translate large volumes of data into meaningful business solutions will make you an invaluable asset in any data-driven organization, positioning you for long-term career growth in the fast-evolving field of data analytics.",
+        "Degree Customer View in Healthcare",
+        "Hospitals and healthcare providers are increasingly using big data analytics to create a comprehensive 360-degree view of their patients. This involves combining data from electronic health records (EHR), wearable devices, appointment histories, lab results, and patient feedback. By aggregating all this information, healthcare providers can better understand a patient’s overall health, medical history, lifestyle, and preferences.",
+        "For example, if a patient visits a doctor for a routine check-up, the healthcare system may pull data from their recent lab tests, past medical visits, and even lifestyle data from fitness trackers to make personalized recommendations. This approach not only enhances patient care but also optimizes hospital operations, reduces readmission rates, and helps doctors make more informed decisions.",
+        "In the finance industry, clean and accurate historical stock data is crucial for making well-informed investment decisions and predicting market movements. Investment firms, financial analysts, and stockbrokers rely on data analysis to guide their trading strategies. This project simulates real-world tasks, preparing students to use data-driven methods to assess market trends and forecast future changes, which is essential in risk management and investment planning.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Develop an understanding of technologies used to develop, optimize, and deploy large databases.",
+            "Learn how large-scale data management systems work for storing, organizing, and querying large amounts of data.",
+            "Critically assess properties of high-performance database architectures.",
+            "Explore the fundamentals of NoSQL systems and big data analytics.",
+            "Integrate heterogeneous data into a single large-scale database.",
+            "Apply the acquired knowledge to business requirements and customize the database systems to business needs through hands-on projects."
+        ],
+        [
+            "Each lesson will assign readings in electronic format.",
+            "Each reading will be available through the Course Schedule and/or Library eReserves."
+        ],
+        [
+            "HelpDesk Website: https://student.worldcampus.psu.edu/help-and-support/technical-support",
+            "HelpDesk Email: techsupport@worldcampus.psu.edu",
+            "HelpDesk Phone: (800) 252-3592"
+        ],
+        [
+            "Tools for Analyzing Big Data",
+            "Extract Transform Load (ETL)",
+            "ETL – Extract"
+        ],
+        [
+            "Oracle",
+            "Teradata",
+            "IBM",
+            "SAP",
+            "Microsoft"
+        ],
+        [
+            "Hadoop Common",
+            "HDFS",
+            "MapReduce",
+            "YARN"
+        ],
+        [
+            "Spark",
+            "Hive",
+            "HBase",
+            "Pig"
+        ],
+        [
+            "By the end of this lesson, make sure you have completed the readings and activities found in the Course Schedule for Lesson 6."
+        ],
+        [
+            "Develop an understanding of technologies used to develop, optimize, and deploy large databases.",
+            "Learn how large-scale data management systems work for storing, organizing, and querying large amounts of data.",
+            "Critically assess properties of high-performance database architectures.",
+            "Explore the fundamentals of NoSQL systems and big data analytics.",
+            "Integrate heterogeneous data into a single large-scale database.",
+            "Apply the acquired knowledge to business requirements and customize the database systems to business needs through hands-on projects."
+        ],
+        [
+            "L1,L2",
+            "L3,L4",
+            "L5,L6",
+            "L7,L8",
+            "L9,L10",
+            "L11,L12",
+            "L13,L14"
+        ],
+        [
+            "Evolution of Data Management Systems: Overview of how data management has evolved, from traditional systems to modern big data tools like Hadoop and Spark.",
+            "Types of Data: Introduction to structured, unstructured, and semi-structured data, with examples of how they are used in real-world applications.",
+            "Characteristics of Big Data (V5): The five key features of big data—Volume, Velocity, Variety, Veracity, and Value—and how they impact data analysis.",
+            "Tools for Analyzing Big Data: Introduction to major tools used in big data analysis, including Hadoop, Spark, and programming languages like Python and R."
+        ],
+        [
+            "Interactive Quiz: Categorize different types of data",
+            "Case Study: Analyze how a company uses big data",
+            "Hands-On Exercise: Explore a basic data analysis tool (Excel, Python)",
+            "Discussion Topics: Share your expectations for the course and discuss big data’s impact on industries"
+        ],
+        [
+            "Introduction to Docker and Installation: Students will learn about Docker, its purpose in containerization, and the process for installing Docker on their systems.",
+            "Docker Components and Engine: Overview of Docker’s architecture, including the Docker engine and key components that power Docker containers.",
+            "An Introduction to the Linux Terminal: Introduction to the Linux terminal, an essential tool for interacting with Docker, focusing on basic commands and navigation.",
+            "Docker Containers: Understanding Docker containers, how they work, and how they provide an isolated environment for applications.",
+            "Docker Images: Explanation of Docker images, the blueprints for containers, and how to create and manage them.",
+            "Creating Containers from a Docker File: Learn how to create Docker containers from a Docker file and customize them according to project requirements.",
+            "Speeding up Docker: Techniques to optimize Docker performance and reduce build and deployment times."
+        ],
+        [
+            "Interactive Tutorial: Walkthrough of Docker installation and setup.",
+            "Video Lecture: “Docker 101: Introduction to Docker” to explain key concepts.",
+            "Hands-On Exercise: Create your first Docker container and work with Docker images.",
+            "Terminal Practice: Using basic Linux terminal commands to interact with Docker.",
+            "Discussion Topics: Discuss the advantages of containerization and how Docker simplifies software development and deployment."
+        ],
+        [
+            "Models for Big Data: Learn about the different models used to handle big data, focusing on how data is organized and accessed.",
+            "Structured Data: Understand structured data models, where data is organized in rows and columns, and learn about relational databases.",
+            "Unstructured Data: Explore unstructured data, which doesn’t fit into traditional data models, and how it’s handled in big data systems.",
+            "Key-Value Data and Document Stores: Learn about key-value stores and document-based databases, which are essential in managing semi-structured and unstructured data.",
+            "Column Store NoSQL Database: Understand column-based NoSQL databases, used for handling large-scale data in analytical processing.",
+            "Graph-Based Databases: Explore graph databases and how they are used to model complex relationships within data."
+        ],
+        [
+            "Case Study: Analyze the use of structured and unstructured data in a real-world scenario.",
+            "Hands-On Exercise: Work with a key-value store and document store to manage data.",
+            "Exploring NoSQL Databases: Practice using a column store NoSQL database for basic data retrieval and analysis.",
+            "Discussion Forum: Share experiences and insights on how different data models impact data storage and analysis."
+        ],
+        [
+            "Terminology Used in a Relational Database: Learn the basic terminology of relational databases, such as tables, rows, columns, and relationships.",
+            "Different Types of Keys in a Database Table: Explore the different types of keys used in relational databases, including primary keys, foreign keys, and composite keys.",
+            "OLAP vs. OLTP: Understand the difference between Online Analytical Processing (OLAP) and Online Transaction Processing (OLTP) systems, and how they are used in data management.",
+            "PostgreSQL Installation: Learn how to install PostgreSQL on your system and set up the necessary environment for working with databases.",
+            "Testing the PostgreSQL Connection: Practice connecting to PostgreSQL and verifying that your installation was successful."
+        ],
+        [
+            "Glossary Exercise: Review and define key relational database terminology, ensuring familiarity with database structure and organization.",
+            "Hands-On Installation: Install PostgreSQL on your computer and test the connection to ensure it works correctly.",
+            "Key Identification Exercise: Identify and create different types of keys in sample database tables.",
+            "OLAP vs. OLTP Comparison: Compare and contrast OLAP and OLTP systems through a discussion or case study."
+        ],
+        [
+            "Data Warehouse: Understand what a data warehouse is, its purpose in data management, and how it differs from transactional databases.",
+            "Dimensional Modeling: Learn the principles of dimensional modeling, including facts, dimensions, and star/snowflake schemas used to organize data for reporting and analysis.",
+            "Create Warehouse Schema with DBeaver: Gain hands-on experience creating a data warehouse schema using DBeaver, a popular database management tool.",
+            "Advantages and Disadvantages of the Dimensional Model: Explore the benefits and limitations of the dimensional model, such as ease of use and performance considerations for analytical queries."
+        ],
+        [
+            "Warehouse Schema Design: Create a simple data warehouse schema using DBeaver to practice dimensional modeling.",
+            "Case Study: Analyze the benefits and challenges of dimensional modeling in real-world data warehouse implementations.",
+            "Comparison Discussion: Participate in a discussion comparing dimensional modeling to other database modeling techniques."
+        ],
+        [
+            "ETL Process: Understand the overall ETL workflow, including the roles of extraction, transformation, and loading in the process of integrating data.",
+            "Data Transformation: Learn how data is cleaned, formatted, and transformed to fit the requirements of the target system during the ETL process.",
+            "Data Loading: Understand how transformed data is loaded into a database or data warehouse, ensuring it is ready for analysis."
+        ],
+        [
+            "ETL Workflow Exercise: Walk through the ETL process step-by-step with a sample dataset to reinforce the concepts of extraction, transformation, and loading.",
+            "Data Transformation Task: Practice transforming raw data into a usable format using common data cleaning techniques.",
+            "Hands-On Loading: Use a tool to load transformed data into a database or data warehouse for analysis.",
+            "Discussion Forum: Share insights and challenges from the ETL process, discussing best practices and potential issues that can arise during ETL."
+        ],
+        [
+            "Knime Reports: Introduction to using Knime, a popular data analytics platform, for creating automated reports and visualizations from data stored in a data warehouse.",
+            "Creating a Report and Charts: Learn how to design and create reports, including adding charts, tables, and visual elements to present data clearly and effectively."
+        ],
+        [
+            "Knime Practice Exercise: Use Knime to create a basic report from a dataset, including adding different types of charts and tables.",
+            "Visualization Techniques: Explore how to select and use various visualizations (e.g., bar charts, pie charts, line graphs) to represent different types of data insights.",
+            "Report Creation Task: Design a report using Knime to display key performance indicators (KPIs) and summarize data insights."
+        ],
+        [
+            "Introduction to Hadoop: Learn the fundamentals of Hadoop, its purpose in big data processing, and why it’s widely used for handling large datasets across distributed systems.",
+            "Hadoop Cluster Architecture: Understand the architecture of a Hadoop cluster, including the role of the NameNode, DataNode, and other components that make up the system.",
+            "Installing Hadoop in Docker: Learn how to install and configure Hadoop in a Docker environment, allowing for isolated, easy-to-manage clusters for experimentation and learning.",
+            "Using the Hadoop Web Interfaces: Explore Hadoop’s web interfaces for managing and monitoring the cluster, including features for job tracking, resource management, and performance monitoring."
+        ],
+        [
+            "Hadoop Cluster Setup: Set up a Hadoop cluster in Docker, following step-by-step instructions to get hands-on experience with Hadoop’s architecture.",
+            "Web Interface Exploration: Use the Hadoop web interfaces to explore the cluster, check the status of nodes, and monitor the processing jobs.",
+            "Cluster Management Tasks: Perform basic tasks like running jobs and managing the Hadoop cluster through the web interfaces to understand its capabilities."
+        ],
+        [
+            "Introduction and Loading Data: Learn how to load data into a Hadoop environment, preparing it for processing with MapReduce.",
+            "Anatomy of a MapReduce Job: Understand the structure of a MapReduce job, including the Map and Reduce phases, and how they interact to process data in parallel.",
+            "MapReduce Programming Model: Gain an understanding of how to write and implement a MapReduce job to process data in a distributed manner."
+        ],
+        [
+            "MapReduce Code Walkthrough: Review and analyze the provided code examples for performing common data processing tasks using MapReduce.",
+            "Hands-On MapReduce Exercise: Implement a MapReduce job to count the lines in an input file and count occurrences of words across a dataset.",
+            "Discussion Forum: Participate in a discussion about your experience with MapReduce, challenges faced, and how it can be applied to real-world data processing problems.."
+        ],
+        [
+            "Prerequisites and Background: Understand the foundational knowledge necessary for working with Apache Spark, including its architecture and how it differs from other big data processing tools like Hadoop.",
+            "Execution in Spark: Learn how Spark executes data processing tasks in parallel across clusters to improve performance and scalability.",
+            "Loading Data: Explore the various ways to load data into Spark from different sources, including CSV files, databases, and other data formats.",
+            "Working With Data: Learn how to manipulate and transform data in Spark using RDDs (Resilient Distributed Datasets) and DataFrames.",
+            "Filtering Results and Storing Data: Understand how to filter data based on certain conditions and store the processed results back into different data formats or databases."
+        ],
+        [
+            "Spark Setup Exercise: Set up a simple Spark session to load, process, and manipulate data, providing hands-on experience with Spark’s core operations.",
+            "Data Transformation Tasks: Apply Spark transformations (like map, filter, and groupBy) to process and manipulate data efficiently.",
+            "Data Filtering and Storing: Filter data based on conditions and save the results into different file formats, such as CSV or Parquet."
+        ],
+        [
+            "What is Pig? Understand the role of Apache Pig in big data processing and how it provides a simpler alternative to writing complex MapReduce programs by using Pig Latin.",
+            "Executing Pig in Local Mode: Learn how to run Pig scripts on a single machine using local mode, which is ideal for small datasets and testing purposes.",
+            "Working with Data: Gain hands-on experience with data in Pig, learning how to load, process, and store data using Pig Latin commands."
+        ],
+        [
+            "Pig Script Example: Analyze and execute a basic WordCount Pig script to understand the data flow and operations in Apache Pig.",
+            "Pig Latin Exercise: Write and run Pig Latin scripts to load data, perform transformations, and store results, simulating a real-world data processing task.",
+            "Local Mode Execution: Experiment with executing Pig scripts in local mode to observe the behavior of Pig when processing smaller datasets."
+        ],
+        [
+            "What is Hive?Learn about Apache Hive, its architecture, and its role in the Hadoop ecosystem as a data warehouse system that simplifies querying big data using HiveQL, a SQL-like language.",
+            "Using Hive:Understand how to use Hive for managing and querying large datasets. You will learn to create databases and tables, load data, and write HiveQL queries to retrieve and manipulate data."
+        ],
+        [
+            "Hive Setup and Querying:",
+            "Set up a Hive environment, practice creating tables, and perform basic data querying using HiveQL to get hands-on experience with the tool.",
+            "Querying with HiveQL:",
+            "Execute HiveQL queries to load data, manipulate tables, and retrieve insights from large datasets."
+        ],
+        [
+            "Getting Started with ETL: Understand the basics of the ETL process in Hadoop and how it is used for data processing, moving data from raw sources to a usable format for analysis.",
+            "ETL – Extract: Learn how to extract data from various sources using Hadoop tools and how to prepare the data for further transformation.",
+            "ETL – Transform Using MapReduce: Discover how to apply MapReduce for transforming data within the Hadoop framework, including filtering, aggregating, and processing large datasets.",
+            "ETL – Transform Using Apache Pig: Understand how Apache Pig simplifies data transformation tasks through its scripting language, Pig Latin, and how it complements the ETL process.",
+            "ETL – Load: Learn how to load processed data into Hadoop storage or other data stores for future use and reporting.",
+            "Reporting: Explore the reporting process in Hadoop, including how to summarize and visualize the transformed data for business intelligence and decision-making."
+        ],
+        [
+            "ETL Workflow Exercise: Work through an end-to-end ETL workflow using Hadoop tools like MapReduce and Apache Pig to extract, transform, and load data.",
+            "Reporting Example: Practice creating reports and summaries from transformed data using tools in the Hadoop ecosystem.",
+            "Hands-on Data Processing: Perform practical exercises where you use Hadoop tools to process and transform data for analysis and reporting."
+        ],
+        [
+            "Big Data Use Cases: Learn how big data is being used across industries to address business challenges and create value. Understand the importance of data-driven decision-making in today’s world.",
+            "Customer Segmentation: Discover how big data helps businesses segment their customer base for targeted marketing, personalized services, and enhanced customer engagement.",
+            "360-Degree Customer View: Understand how combining data from various sources (e.g., social media, transaction history, and CRM systems) provides a comprehensive view of customers, improving personalization and customer service.",
+            "Fraud Detection: Explore how big data analytics is used to detect fraudulent activities by analyzing patterns and anomalies in vast amounts of transaction data."
+        ],
+        [
+            "Case Study Analysis: Analyze case studies of companies using big data for customer segmentation, fraud detection, and creating a 360-degree view of their customers.",
+            "Real-World Application Exercise: Work through practical examples where you apply big data techniques to segment customers, detect fraud, and create a customer profile.",
+            "Group Discussion:Join a discussion on the potential of big data across different sectors and how it can be used to solve various industry-specific challenges."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Docker with WSL 2 backend",
+            "url": "https://docs.docker.com/docker-for-windows/install-windows-home/"
+        },
+        {
+            "text": "Docker with HyperV backend",
+            "url": "https://docs.docker.com/install/"
+        },
+        {
+            "text": "Knime 4",
+            "url": "https://www.knime.com/downloads"
+        },
+        {
+            "text": "DBeaver",
+            "url": "https://dbeaver.io/download/"
+        },
+        {
+            "text": "https://student.worldcampus.psu.edu/help-and-support/technical-support",
+            "url": "https://student.worldcampus.psu.edu/help-and-support/technical-support"
+        },
+        {
+            "text": "techsupport@worldcampus.psu.edu",
+            "url": "mailto:techsupport@worldcampus.psu.edu?subject=World%20Campus%20Tech%20Support%20Inquiry"
+        },
+        {
+            "text": "Penn State University Library",
+            "url": "https://libraries.psu.edu/"
+        },
+        {
+            "text": "Magic Quadrant for Data Warehouse and Data Management Solutions for Analytics",
+            "url": "https://www.gartner.com/doc/reprints?id=1-2ZFVZ5B&ct=160225&st=sb"
+        },
+        {
+            "text": "Oracle",
+            "url": "#tab-strongoraclestrong"
+        },
+        {
+            "text": "Teradata",
+            "url": "#tab-strongteradatastrong"
+        },
+        {
+            "text": "IBM",
+            "url": "#tab-strongibmstrong"
+        },
+        {
+            "text": "SAP",
+            "url": "#tab-strongsapstrong"
+        },
+        {
+            "text": "Microsoft",
+            "url": "#tab-strongmicrosoftstrong"
+        },
+        {
+            "text": "Is Big Data Still a Thing? (The 2016 Big Data Landscape)",
+            "url": "http://mattturck.com/2016/02/01/big-data-landscape/"
+        },
+        {
+            "text": "Hadoop Common",
+            "url": "#tab-stronghadoopcommonstrong"
+        },
+        {
+            "text": "HDFS",
+            "url": "#tab-stronghdfsstrong"
+        },
+        {
+            "text": "MapReduce",
+            "url": "#tab-strongmapreducestrong"
+        },
+        {
+            "text": "YARN",
+            "url": "#tab-strongyarnstrong"
+        },
+        {
+            "text": "Spark",
+            "url": "#tab-strongsparkstrong"
+        },
+        {
+            "text": "Hive",
+            "url": "#tab-stronghivestrong"
+        },
+        {
+            "text": "HBase",
+            "url": "#tab-stronghbasestrong"
+        },
+        {
+            "text": "Pig",
+            "url": "#tab-strongpigstrong"
+        },
+        {
+            "text": "this link",
+            "url": "https://courses.worldcampus.psu.edu/canvas/master/mst-20220713122519-alm626/content/14_lesson/corefiles/Lesson13data.zip"
+        },
+        {
+            "text": "",
+            "url": "javascript:void(0)"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "Gartner Magic Quadrant (February 2016) for data warehousing, showing Leaders, Challengers, Visionaries, and Niche Players based on execution and vision.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/Data_Warehousing.png"
+        },
+        {
+            "alt": "Visual representation of the big data ecosystem including infrastructure, analytics, applications, and interconnections.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/BigData_Landscape-1024x770.png"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Assignment Category",
+                "Weight (% of Final Grade)"
+            ],
+            [
+                "Exam",
+                "30%"
+            ],
+            [
+                "Projects",
+                "50%"
+            ],
+            [
+                "Homework",
+                "10%"
+            ],
+            [
+                "Discussions",
+                "10%"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"3081\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

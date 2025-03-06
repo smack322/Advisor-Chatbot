@@ -1,0 +1,700 @@
+{
+    "metadata": {
+        "title": "AI 572: Reinforcement Learning – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=3875"
+    },
+    "headings": {
+        "h2": "Lesson 14: Final Lesson and Project Completion",
+        "h4": "Unlocking Your Potential",
+        "h6": "***You should already have some knowledge of statistics (STAT 500 or equivalent) as well as experience with multivariate derivatives, matrices, vector operations, and preliminary programming skills in Python.",
+        "h3": "Supervised Learning",
+        "h5": "Assignment Details"
+    },
+    "paragraphs": [
+        "AI 572: Reinforcement Learning is a three-credit course and offers an in-depth exploration of RL and its transformative potential across industries. You’ll begin with an introduction to the fundamentals of RL, including Markov Decision Processes (MDPs), dynamic programming, and model-free prediction and control techniques like Q-learning and SARSA. The program also delves into advanced topics such as inverse RL, transfer learning, and the synergy between RL and deep neural networks, highlighting their successes in real-world applications.",
+        "Through hands-on projects using OpenAI Gym, you’ll develop and deploy RL algorithms, gaining practical experience in applications ranging from game playing to Natural Language Processing (NLP). You’ll also discover how RL is revolutionizing fields like medical intervention, financial trading, and autonomous driving.",
+        "Reinforcement learning, along with supervised learning and unsupervised learning, is one of the three basic types of machine learning. Applications of reinforcement learning span across medical intervention, robotics, game playing, autonomous driving, financial trading, and marketing, among many others. This course will cover the main theory and approaches of reinforcement learning, along with deep learning and common software libraries and packages.",
+        "After successfully completing this course, students will be able to demonstrate:",
+        "Reinforcement Learning: Industrial Applications of Intelligent Agents. 1st Edition. Author: Phil Winder ISBN: 978-1098114831*",
+        "(*) This textbook will be readily available through O’Reilly.com with free access for Penn State students. Students do not need to purchase a physical copy of the book. Log into O’Reilly Learning with your Penn state email address to access the textbook.",
+        "Open-Source Software:  Python, Tensorflow and OpenAI GYM.*",
+        "(*) Instructions for accessing this software will be provide in the lessons.",
+        "Penn State Provided Software:",
+        "All Penn State students have free access to Microsoft Office 365. This includes access to Word, Outlook, Excel, PowerPoint, Sway, Teams, etc.",
+        "You also have a free Adobe Creative Cloud account with access to products such as Photoshop, InDesign, Spark, Acrobat, Illustrator, and more! Please visit Penn State Adobe Support for more information.",
+        "Proctored Exams – None.",
+        "A grade is given solely on the basis of the instructor’s judgment as to the student’s scholarly attainment (see the Penn State Graduate Degree Programs Bulletin, p. 41). The following grading system applies to graduate students:",
+        "Students will be evaluated on their understanding of the course material by completing assignments that demonstrate ability to apply material contained in the lessons and activities.",
+        "Students will be expected to complete the course programming project, along with a written report and a 20-minute video presentation. Final grades will be calculated as follows:",
+        "Grades will be based on the following scale:",
+        "A = 96 – 100, A- = 90 – 95, B+ = 86 – 89, B = 83 – 85, B- = 80 – 82, C+ = 75 – 79, C = 70 – 74, D = 60 – 69, and F = 60 and below.",
+        "There are total of 7 individual discussions. Each discussion is worth 10 points. Quality discussion includes thoughtful application, applying course concepts, contributing to deeper analysis, and including evidence or logic in your submission. Discussion posts should be submitted in the Canvas only. Students are encouraged to read the posts from other students and provide constructive feedbacks (if any). Refer to the rubrics for more information on how the individual discussion posts will be graded.",
+        "In addition to the individual discussions, there will be an opportunity to participate in 7 small group discussions. Each discussion is worth 10 points.  Quality discussion includes thoughtful application, applying course concepts, contributing to deeper analysis, and including evidence or logic in your post. Student groups will be formed by the instructor before the beginning of the week and the students will be informed regarding their team number and about their team members. The team will discuss about the topic for 40-50 mins, prepare a report and submit the report for grading in Canvas. One member from the team should submit the report in Canvas. All team members should participate and contribute towards the group discussion assignment. Refer to the rubrics for more information on how the group discussion posts will be graded.",
+        "When completing group work, your team may choose any method of collaboration or communication that is most effective.  Zoom is available to all students for multi-person video meetings.  If you need any assistance using Zoom, contact the World Campus Helpdesk for support.",
+        "Students will have the opportunity to take 7 quizzes to assess and evaluate understanding throughout this course.  Each quiz will have varying number of questions.  Quizzes may have questions in the form of multiple-choice or may require you to write simple mathematical equations and perform computations.  Quiz 7 will be comprehensive, covering all lessons, and will require the student to respond to all the questions if not specified otherwise.",
+        "The state-of-the-art literature review is a research assignment related to your project. Your team will have 2 weeks in which to conduct research and write the review.  Any questions should be directed to your instructor.",
+        "By leveraging the principles and techniques of RL that you have learnt in this course, you will have to complete a course project. In order to achieve the goal of the course project we will perform the following steps:",
+        "To complete this course project students will work ALONE on their own.",
+        "There will be five (5) project deliverables throughout the course.  A link to the project template can be found on the Deliverable 1 assignment.  You will use this template throughout the course to complete each deliverable.  Due dates are noted in the Course Schedule.  Each deliverable will be reviewed by your instructor and feedback will be provided. You will then be permitted to resubmit your deliverable. Your grade for each deliverable will be based on incorporation of the feedback provided by your instructor.  The final project deliverable will be due at the end of the course; therefore, late submissions are NOT accepted. Students must submit their project to the appropriate assignment in Canvas. The final deliverable includes a video presentation demonstrating your modelling of the RL system.",
+        "The deliverables will be submitted via Canvas according to the schedule below.",
+        "*subject to change",
+        "Supervised learning uses a dataset to train the model. The training dataset has input features and their corresponding output labels. Once the model is trained, the test cases with input features are provided to the model on which the model predicts the output labels.",
+        "A number of interesting issues arise when the planning is done on-line while interacting with the environment. Additional information that is gained from the interaction may result in changing the model and also the planning process. Therefore, it is desirable to customize the planning process. This means that there is a need to customize the states or decisions that are currently under consideration or expected in the near future. If both the decision-making and the model-learning are computationally intensive processes, then there is a need for the limited computational resources to be shared equally between them. In order to explore this issue this lesson discusses bout the Dyna-Q, a simple architecture that integrates the major functions needed for an on-line planning agent. All the functions of the Dyna-Q are simple and almost trivial. This lesson will highlight some of the alternative ways of achieving each function and the trade-offs between them.",
+        "Relationships among learning, planning, and acting",
+        "AWS DeepRacer: The AWS DeepRacer platform includes several components, including:",
+        "The DeepRacer Console: The console is an online management system that allows developers to access the different components of the platform.",
+        "The DeepRacer Car: This car can be programmed to navigate a physical track using ML algorithms.",
+        "The DeepRacer Simulation Environment: This is a virtual environment that simulates the physical racetrack. Developers use this simulation environment to train and evaluate their RL and ML models.",
+        "The AWS SageMaker: The AWS SageMaker is a fully-managed service that enables developers to build, train, and deploy ML models.",
+        "This course will provide you with a thorough introduction to:",
+        "During this course you will expand your knowledge of the lesson topics each week.",
+        "This lesson introduces reinforcement learning (RL), a branch of artificial intelligence where agents interact with environments to learn optimal behaviors through rewards and penalties. Gain insights into how agents navigate state and action spaces to maximize rewards over time.",
+        "By the end of this lesson, you’ll be equipped with the knowledge and tools to approach RL problems, preparing you to tackle advanced topics in later lessons.",
+        "This lesson introduces reinforcement learning (RL), a branch of artificial intelligence where agents interact with environments to learn optimal behaviors through rewards and penalties. Gain insights into how agents navigate state and action spaces to maximize rewards over time.",
+        "By the end of this lesson, you’ll have a comprehensive understanding of MDPs, their components, and their role in solving reinforcement learning problems, equipping you for more advanced RL topics.",
+        "This lesson focuses on the Dynamic Programming (DP) approach to reinforcement learning, building on your knowledge of Markov Decision Processes (MDPs) and value iteration. You’ll learn how DP techniques optimize policies and evaluate value functions to solve RL problems efficiently.",
+        "By the end of this lesson, you’ll have a thorough understanding of Dynamic Programming’s role in reinforcement learning and practical experience applying its methods to real-world problems.",
+        "This lesson delves into model-free approaches for solving reinforcement learning prediction tasks. Learn how algorithms like Monte Carlo (MC) and Temporal Difference (TD) evaluate policies and estimate state and action values through direct interaction with the environment.",
+        "By the end of this lesson, you’ll understand the principles and applications of model-free prediction tasks in RL, preparing you to solve problems through trial-and-error learning.",
+        "This lesson focuses on model-free approaches for reinforcement learning control tasks, emphasizing how agents learn to select optimal actions to maximize cumulative rewards. Learn key methods like Monte Carlo (MC) policy evaluation and off-policy Q-learning for effective control.",
+        "By the end of this lesson, you’ll be able to apply model-free algorithms to solve reinforcement learning control tasks, enhancing your ability to design agents that learn and act effectively.",
+        "This lesson focuses on function approximation methods in reinforcement learning (RL), exploring how they enable agents to generalize across state and action spaces. Learn key algorithms like SARSA and Q-learning, and how function approximation techniques improve scalability and efficiency.",
+        "By the end of this lesson, you’ll have a thorough understanding of function approximation and its role in RL, along with hands-on experience with TD control algorithms.",
+        "This lesson introduces policy gradient methods, a cornerstone of reinforcement learning algorithms that optimize policies directly rather than estimating value functions. Learn the theoretical foundations and practical applications of these methods to solve complex RL problems.",
+        "Algorithm Comparisons: Contrast REINFORCE with Q Actor-Critic to understand their operational differences and use cases.",
+        "This lesson explores the integration of learning and planning in reinforcement learning, highlighting the benefits of combining model-based and model-free approaches. Dive into the Dyna architecture and Dyna-Q algorithm to understand how learning, planning, and acting are interwoven for efficient decision-making.",
+        "By the end of this lesson, you’ll understand the principles and applications of integrating learning and planning in RL, preparing you to tackle more complex decision-making challenges.",
+        "This lesson focuses on the exploration-exploitation trade-off, a central challenge in reinforcement learning. Learn how agents balance exploring new actions to discover potential rewards with exploiting known actions to maximize returns.",
+        "By the end of this lesson, you’ll have a thorough understanding of the exploration-exploitation trade-off and practical experience implementing strategies to manage it.",
+        "This lesson focuses on the concepts of Inverse Reinforcement Learning (IRL) and Hierarchical Reinforcement Learning (HRL), two advanced approaches in RL. Learn how IRL extracts objectives by observing behavior, while HRL addresses scalability challenges through temporal abstraction. Additionally, gain insights into Transfer Learning (TL), which facilitates knowledge sharing between agents.",
+        "By the end of this lesson, you’ll understand the principles of IRL, HRL, and TL, equipping you to apply these advanced methods to solve complex reinforcement learning problems.",
+        "This lesson introduces the intersection of deep learning and natural language processing (NLP), focusing on how advanced neural networks process and understand human language. Discover the key techniques and architectures powering modern NLP systems and their applications in real-world tasks.",
+        "By the end of this lesson, you’ll have the foundational knowledge to design and apply deep learning models for natural language processing, equipping you for further exploration in this rapidly evolving field.",
+        "This lesson introduces AWS DeepRacer, an innovative platform for developers to learn and experiment with Reinforcement Learning (RL). By using an autonomous race car and cloud-based tools, AWS DeepRacer simplifies the process of developing, training, and deploying RL models.",
+        "By the end of this lesson, you’ll understand the capabilities of AWS DeepRacer and gain hands-on experience in using this platform to explore RL concepts.",
+        "This lesson builds upon your understanding of AWS DeepRacer by focusing on evaluating trained RL models. You’ll learn how to assess model performance using simulation environments, refining your ability to design and optimize RL-driven solutions.",
+        "By the end of this lesson, you’ll be equipped to evaluate RL models effectively using AWS DeepRacer, preparing you to optimize AI-driven solutions.",
+        "This lesson marks the culmination of your reinforcement learning (RL) journey. Reflect on your achievements, finalize your project report, and create a compelling video presentation to showcase your work, from the proposed RL algorithm to the performance metrics and results.",
+        "This final lesson is a celebration of your hard work and an opportunity to showcase your RL expertise. Congratulations on reaching this milestone, and best wishes for your continued success in reinforcement learning and beyond!",
+        "Completing AI 572: Reinforcement Learning equips students with highly sought-after skills in one of the most advanced and dynamic areas of artificial intelligence. Reinforcement learning (RL) underpins breakthroughs in robotics, autonomous systems, game AI, and personalized recommendations, making it a cornerstone of innovation in both academia and industry. The course prepares graduates to design, train, and implement RL algorithms, enabling machines to learn from interaction and improve performance over time, which is critical for solving complex real-world problems.",
+        "Graduates of AI 572 can pursue roles such as Machine Learning Engineer, Data Scientist, Robotics Engineer, AI Research Scientist, and more. Industries like healthcare, finance, gaming, and autonomous vehicles actively seek professionals skilled in RL to build cutting-edge technologies. With the hands-on experience and theoretical knowledge gained in this course, students are well-positioned to make significant contributions to the rapidly evolving AI landscape.",
+        "One real-world example of a reinforcement learning problem can be found in the autonomous vehicle industry. A company developing self-driving cars needed an algorithm to navigate complex urban environments, including recognizing traffic signals, avoiding obstacles, and making decisions at intersections. Initially, the system relied on traditional rule-based approaches, but these proved inadequate for handling dynamic scenarios, such as unpredictable pedestrian behavior or varying traffic conditions. As a result, the self-driving cars struggled to operate reliably in real-world conditions, leading to safety concerns and delays in deployment.",
+        "To address this, reinforcement learning (RL) was implemented to train the self-driving system. Using a simulation environment, the RL algorithm was trained to optimize driving decisions through trial and error, receiving rewards for safe and efficient navigation and penalties for collisions or traffic violations. The system learned to adapt to complex situations by simulating millions of driving scenarios, including rare events like sudden lane changes or emergency braking.",
+        "Once deployed, the RL-trained system demonstrated significant improvements in decision-making, enabling the autonomous vehicle to safely navigate busy urban areas with enhanced efficiency. This example highlights the transformative potential of reinforcement learning in addressing real-world challenges, ensuring safer and smarter autonomous systems.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Knowledge of reinforcement learning algorithms and techniques.",
+            "The ability to identify suitable learning tasks to which these learning techniques can be applied.",
+            "Explain some of the current limitations of reinforcement learning techniques.",
+            "Formulate decision problems, set up and run computational experiments and evaluation of results, reuse common reinforcement learning libraries and packages."
+        ],
+        [
+            "“A” (Excellent) indicates exceptional achievement.",
+            "“B” (Good) indicates substantial achievement.",
+            "“C” (Satisfactory) indicates acceptable but substandard achievement.",
+            "“D” (Poor) indicates inadequate achievement and is a failing grade for a graduate student."
+        ],
+        [
+            "Reinforcement Learning in Natural Language Processing",
+            "Overview of Reinforcement Learning (RL)",
+            "Mathematics and Platform for RL",
+            "Markov Decision Processes",
+            "Planning by Dynamic Programming",
+            "Model-Free Algorithms for Prediction Tasks in RL",
+            "Model-Free Algorithms for Control Tasks in RL",
+            "Function Approximation in RL",
+            "Policy Gradient Methods for RL",
+            "Integrating Learning and Planning in RL",
+            "Exploration and Exploitation in RL",
+            "Inverse RL",
+            "Hierarchical Reinforcement Learning and Transfer Learning",
+            "Deep Reinforcement Learning"
+        ],
+        [
+            "Supervised Learning",
+            "RL – Learning & Planning",
+            "AWS: Deep Racer"
+        ],
+        [
+            "Core AI Concepts: Study foundational methods like search algorithms, knowledge representation, and reasoning.",
+            "Machine Learning: Explore supervised, unsupervised, and reinforcement learning techniques.",
+            "Natural Language Processing (NLP): Learn text processing, language models, and sentiment analysis.",
+            "Computer Vision: Understand image processing, object recognition, and deep learning applications.",
+            "AI Ethics: Examine ethical concerns, data privacy, and fairness in AI systems.",
+            "Practical AI Skills: Build, train, and evaluate models using tools like Python and TensorFlow.",
+            "AI Applications: Discover AI’s role in healthcare, finance, autonomous systems, and more."
+        ],
+        [
+            "L1-L2",
+            "L3-L4",
+            "L5-L6",
+            "L7-L8",
+            "L9-L10",
+            "L11-L12",
+            "L13-L14"
+        ],
+        [
+            "Core Concepts: Define RL and its key components, including states, actions, rewards, returns, policies, value functions, and discount factors.",
+            "Optimality Criterion: Explore the role of value functions and policy models in determining optimal actions for agents."
+        ],
+        [
+            "Hands-On Problem Modeling: Apply RL concepts to define and solve a simple decision-making problem.",
+            "Hands-On Problem Modeling: Apply RL concepts to define and solve a simple decision-making problem."
+        ],
+        [
+            "Core Readings: Study Chapter 2 from the textbook to deepen your understanding of MDPs and their applications in RL.",
+            "Algorithm Demonstration: Practice value iteration using the Bellman equation to calculate optimal policies."
+        ],
+        [
+            "MDP Framework: Understand how MDPs model decision-making with states, actions, rewards, and transition dynamics.",
+            "Practical Implementation: Train an RL environment using the MDP approach, solidifying theoretical knowledge with hands-on practice."
+        ],
+        [
+            "DP Framework: Understand how Dynamic Programming techniques optimize policies and evaluate value functions in RL.",
+            "Policy Evaluation: Learn the steps of DP-based policy evaluation to determine policy values systematically."
+        ],
+        [
+            "Visualization Exercises: Use visual tools to observe how policies and value functions evolve during policy evaluation and iteration.",
+            "Parameter Tuning: Experiment with different parameters in the FrozenLake environment to understand their impact on policy optimization."
+        ],
+        [
+            "Model-Free Framework: Understand how prediction tasks estimate the consequences of actions through interaction with the environment.",
+            "Monte Carlo Policy Evaluation: Explore how MC methods rely on episodic learning to calculate value estimates."
+        ],
+        [
+            "Comparison Exercise: Contrast Monte Carlo and Temporal Difference methods, analyzing their strengths and limitations in different scenarios.",
+            "Scenario Modeling: Apply model-free methods to design and solve custom prediction tasks in an RL environment."
+        ],
+        [
+            "Model-Free Framework: Understand how control tasks focus on action selection to maximize cumulative rewards in dynamic environments.",
+            "Off-Policy TD Control: Learn about Q-learning as a robust method for estimating action values and optimizing policies."
+        ],
+        [
+            "Scenario Design: Create and solve a custom control problem using model-free methods, applying concepts learned in the lesson.",
+            "Advanced Exploration: Investigate how Q-learning scales to larger state-action spaces and more complex environments."
+        ],
+        [
+            "On-Policy vs. Off-Policy: Understand the fundamental differences between SARSA and Q-learning in their approach to TD control.",
+            "Function Approximation: Learn how techniques like linear combinations of features enhance the scalability of RL algorithms."
+        ],
+        [
+            "Visualization of Policies: Use visual tools to observe policy updates and value functions in SARSA and Q-learning.",
+            "Comparison Exercise: Analyze the performance of SARSA and Q-learning in the Cliff Walking problem to understand their behavioral differences."
+        ],
+        [
+            "Policy Optimization: Learn how policy gradients optimize policies directly through gradient ascent.",
+            "Real-World Application: Implement and analyze policy gradient methods in the Cartpole-V1 environment."
+        ],
+        [
+            "Visualization Tools: Use visualizations to observe policy updates and performance improvements during REINFORCE training.",
+            "Algorithm Comparisons: Contrast REINFORCE with Q Actor-Critic to understand their operational differences and use cases."
+        ],
+        [
+            "Learning and Planning Relationship: Understand how learning, planning, and acting are interconnected in reinforcement learning.",
+            "Direct vs. Indirect RL: Compare the strengths and weaknesses of model-free (direct) and model-based (indirect) RL approaches."
+        ],
+        [
+            "Visualization Exercises: Use tools to visualize the Dyna-Q algorithm’s planning and learning processes in the Dyna maze environment.",
+            "Comparison Exercise: Contrast the performance of model-free and model-based RL methods to understand their respective use cases."
+        ],
+        [
+            "Core Trade-Off: Understand how exploration and exploitation influence an agent’s learning and decision-making process.",
+            "Multi-Armed Bandit Problem: Learn how this problem illustrates the exploration-exploitation dilemma in a simplified setting."
+        ],
+        [
+            "Visualization of Action Selection: Use Python to visualize how exploration and exploitation affect action selection over time.",
+            "Advanced Exploration: Investigate how exploration strategies scale to complex RL environments beyond bandit problems."
+        ],
+        [
+            "Inverse RL: Understand how IRL infers rewards and objectives by analyzing agent behavior.",
+            "Transfer Learning: Explore the benefits of transferring knowledge between agents to enhance learning efficiency."
+        ],
+        [
+            "Visualization Exercises: Use tools to visualize hierarchical decision-making and reward inference in IRL and HRL.",
+            "Scenario Design: Create a custom problem to apply HRL, leveraging temporal abstraction to manage complexity."
+        ],
+        [
+            "Deep Learning in NLP: Understand how neural networks revolutionize text analysis and language understanding.",
+            "NLP Architectures: Explore RNNs, LSTMs, and Transformers, and their applications in processing sequential data."
+        ],
+        [
+            "Core Readings: Engage with foundational materials on deep learning and NLP to establish a theoretical understanding of key concepts.",
+            "Hands-On Projects: Implement NLP models using libraries like TensorFlow or PyTorch to process and analyze text data."
+        ],
+        [
+            "Introduction to AWS DeepRacer: Understand the platform’s role in making RL experimentation accessible and engaging.",
+            "Features and Tools: Explore the simulation environments, pre-built models, and integration with Amazon SageMaker."
+        ],
+        [
+            "Programming Assignment: Develop and train RL models using AWS DeepRacer, applying theoretical concepts to practical tasks.",
+            "Project Assignment: Analyze a case study on autonomous driving to evaluate the effectiveness of AWS DeepRacer in training RL models."
+        ],
+        [
+            "Model Evaluation Techniques: Learn how to assess the performance of trained RL models in AWS DeepRacer.",
+            "Performance Metrics: Understand key metrics used to evaluate model efficiency and decision-making capabilities."
+        ],
+        [
+            "Simulation Exercises: Use AWS DeepRacer’s simulation environment to test and evaluate the performance of trained models.",
+            "Data Analysis: Analyze performance metrics to identify patterns and opportunities for improvement in RL models."
+        ],
+        [
+            "Project Report: Prepare a detailed and polished report highlighting your RL project’s problem, approach, and results.",
+            "Video Presentation: Create a clear and engaging video summarizing your RL journey and showcasing your achievements."
+        ],
+        [
+            "Peer Review: Share your project presentation with peers for constructive feedback and insights.",
+            "Portfolio Development: Include your RL project in your professional portfolio to demonstrate your expertise to potential employers or collaborators."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Reinforcement Learning: Industrial Applications of Intelligent Agents",
+            "url": "https://learning.oreilly.com/library/view/reinforcement-learning/9781492072386/?sso_link=yes&sso_link_from=pennsylvania-state-university"
+        },
+        {
+            "text": "Microsoft Office 365",
+            "url": "https://office365.psu.edu/"
+        },
+        {
+            "text": "Penn State Adobe Support",
+            "url": "https://adobe.psu.edu/account-support/"
+        },
+        {
+            "text": "World Campus Helpdesk",
+            "url": "https://student.worldcampus.psu.edu/technical-support/contact-us"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "Cover of the book \"Reinforcement Learning: Industrial Applications of Intelligent Agents\" by Phil Winder, Ph.D., published by O'Reilly. The cover features an illustration of three penguins in black and white, standing and interacting, with a clean white background. The title is displayed prominently at the top, with the subtitle emphasizing practical applications in industrial settings. The O'Reilly logo is positioned in the top-left corner.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/Reinforcement-Learning-book-229x300-1.jpg"
+        },
+        {
+            "alt": "A flow diagram illustrating the process of supervised learning. On the left, a blue rectangle labeled \"Supervised Learning\" leads with an arrow into a gray box labeled \"Training Data.\" Inside the gray box, a dark blue rectangle labeled \"All Labeled Data\" is displayed. An arrow extends from the labeled data to a blue oval on the right labeled \"Supervised Model,\" representing the output of the training process. The diagram highlights the sequence of training a supervised model using labeled data.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/supervised_learning-1024x273.png"
+        },
+        {
+            "alt": "A triangular diagram illustrating the relationships in reinforcement learning between \"Model,\" \"Value Policy,\" and \"Experience.\" The bottom corner is labeled \"Model,\" with an arrow pointing to \"Value Policy\" at the top corner, marked as \"Planning.\" Another arrow leads from \"Value Policy\" to \"Experience\" at the right corner, labeled \"Acting.\" A curved arrow labeled \"Direct RL\" connects \"Experience\" back to \"Value Policy.\" Finally, an arrow labeled \"Model Learning\" points from \"Experience\" back to \"Model,\" completing the cycle. This diagram highlights the interplay of planning, acting, and learning in reinforcement learning processes.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/rl_learning-planning-1024x559.png"
+        },
+        {
+            "alt": "A small autonomous vehicle designed for machine learning and AI experimentation, labeled with \"AWS\" (Amazon Web Services) branding on its sleek, curved body. The car features four black rubber wheels with white rims and a gray-and-black exterior. It includes two small antennas on top, indicative of sensors or cameras for navigation and data collection. The \"Intel Inside\" logo is visible on the side, highlighting its advanced processing capabilities. This car is likely used for reinforcement learning or robotics applications in AI and machine learning projects.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/aws_car.jpg"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Assignment",
+                "Points",
+                "Quantity",
+                "% of Final Grade"
+            ],
+            [
+                "Individual Discussions",
+                "70",
+                "7",
+                "5%"
+            ],
+            [
+                "Group Discussions",
+                "70",
+                "7",
+                "8%"
+            ],
+            [
+                "Project Assignments (Deliverables)",
+                "50",
+                "5",
+                "45%"
+            ],
+            [
+                "Quizzes",
+                "110",
+                "7",
+                "40%"
+            ],
+            [
+                "SEEQ Survey (formerly SRTEs)",
+                "100",
+                "1",
+                "2%"
+            ]
+        ],
+        [
+            [
+                "Assignment",
+                "Lesson",
+                "Material Covered",
+                "Value"
+            ],
+            [
+                "Quiz 1",
+                "2",
+                "Lessons 1 & 2",
+                "10 points"
+            ],
+            [
+                "Quiz 2",
+                "4",
+                "Lessons 3 & 4",
+                "10 points"
+            ],
+            [
+                "Quiz 3",
+                "6",
+                "Lessons 5 & 6",
+                "10 points"
+            ],
+            [
+                "Quiz 4",
+                "8",
+                "Lessons 7 & 8",
+                "10 points"
+            ],
+            [
+                "Quiz 5",
+                "10",
+                "Lessons 9 & 10",
+                "10 points"
+            ],
+            [
+                "Quiz 6",
+                "12",
+                "Lessons 11 & 12",
+                "10 points"
+            ],
+            [
+                "Quiz 7",
+                "14",
+                "Comprehensive (entire course)",
+                "50 points"
+            ]
+        ],
+        [
+            [
+                "Assignment",
+                "Lesson",
+                "Value"
+            ],
+            [
+                "Project Assignment 1",
+                "9",
+                "10 points"
+            ],
+            [
+                "Project Assignment 2",
+                "10",
+                "10 points"
+            ],
+            [
+                "Project Assignment 3",
+                "11",
+                "10 points"
+            ],
+            [
+                "Project Assignment 4",
+                "12",
+                "5 points"
+            ],
+            [
+                "Project Assignment 5",
+                "14",
+                "15 points"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"3875\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

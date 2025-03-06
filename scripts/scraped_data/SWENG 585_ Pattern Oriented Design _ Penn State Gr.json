@@ -1,0 +1,490 @@
+{
+    "metadata": {
+        "title": "SWENG 585: Pattern Oriented Design – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2298"
+    },
+    "headings": {
+        "h2": "Course Topics",
+        "h4": "Unlocking Your Potential",
+        "h3": "Understand the Dynamics of Software Design with Behavioral Patterns"
+    },
+    "paragraphs": [
+        "SWENG 585: Pattern-Oriented Design is a three-credit course that immerses you in the art and science of object-oriented software design. Focused on building flexible, reusable, and high-quality systems, this course covers essential principles such as Riel’s design heuristics, Martin’s class and package design principles, and the “Gang of Four” design pattern catalog. You’ll also explore techniques for refactoring and strategies for evolving software frameworks, equipping you with skills that go beyond the classroom and directly into professional practice.",
+        "Designed for hands-on learning, the course offers opportunities to tackle real-world design challenges through a collaborative project, where you will develop a comprehensive design document that reflects industry standards. By simulating real stakeholder interactions and applying proven patterns, you’ll gain valuable experience in crafting software that adapts to changing needs. Whether you’re advancing your career or aiming to master best practices in software development, SWENG 585 will empower you to design innovative solutions with confidence.",
+        "(3 credits) This course studies the heuristics, principles, and patterns of object-oriented design in the construction of extendable frameworks, reusable packages, and pluggable components.",
+        "Building upon the introductory course in object-oriented analysis and design, this class explains the issues and means in designing software systems for reuse and extension. Students will understand how to leverage the powers of object-orientation embodied in well-known heuristics, principles and patterns in the design and construction of reusable frameworks, packages and components. In general terms, the intent of this class is to introduce the initiatives, techniques and strategies that characterize the efforts made in both academia and industry to transition the software engineering discipline from an ad hoc, random-behavior, random-result “alchemy” into an established profession using repeatable practices with predictable results.",
+        "Gamma, E., Helm, R., Johnson, R. and Vlissides, J. (1995). Design Patterns: Elements of Reusable Object-Oriented Software. Addison-Wesley Longman Publishing Co., Inc., Boston, MA, USA. (ISBN: 9780201633610)",
+        "E-Book Option: There is an E-Book available for this edition of the textbook at no cost to the student. You may choose to use the E-Book as an alternative to purchasing a physical copy of the text, using your Penn State user ID to access the digital text through O’Reilly. For questions or issues, contact the University Libraries Reserve Help (UL-RESERVESHELP@LISTS.PSU.EDU).",
+        "Hoc exemplum textus est quod in hac sectione adhibetur. Plenum est scientiae et cognitionis, quae discipulum informat. Propositum eius est adiuvari discendi processum per utilem informationem praebendam.",
+        "There is one (1) exam for this course, which is proctored via Honorlock Proctoring (an online proctoring software).",
+        "A grade is given solely on the basis of the instructor’s judgment as to the student’s scholarly attainment (see the Penn State Graduate Degree Programs Bulletin, p. 41). The following grading system applies to graduate students:",
+        "Note: Students are reminded that simply meeting the minimal requirements of any assignment (both in terms of content and presentation) will result in a letter grade of “B‐” for that assignment.",
+        "Grades will be based on the following scale:",
+        "A = 94 – 100, A- = 90 – 93, B+ = 87 – 89, B = 84 – 86, B- = 80 – 83, C+ = 77 – 79, C = 70 – 76, D = 60 – 69, and F = Below 60.",
+        "There are 5 graded group discussion forums in this course (4 points each). This is a small group discussion (you will be assigned randomly to a group).",
+        "Note: There is a general discussion forum where you can ask any questions you have of me. You can email me directly about personal issues, but you should post content related questions to your group forums so that you can all learn together. If you send me email questions that I think would be useful to the class, I will post them there and answer them for all to see.",
+        "The individual homework assignments are explained at the conclusion of each lesson. These assignments are performed individually.",
+        "The final exam is administered in the final week of the course and is a timed exam that will assess your understanding of the material covered in the course. You will have to choose a period in that final week when you can devote up to 2 hours.",
+        "*subject to change",
+        "“Subclasses should be substitutable for their base classes.”",
+        "To state it another way: A user of a base class should continue to function properly if a derivative of that base class is passed to it.  Read about Liskov’s Substitution Principle.*",
+        "You might think that this is the advantage of inheritance – that a client can have a reference to any instance of any derived class of the base class it expects, but as has been mentioned several times in this course already, we don’t (usually) get type conformance by default…i.e. inheritance does not ensure substitutivity. By the way, this principle is named for Barbara Liskov and I’ve included an article of hers in the Handouts folder that you should read. It provides the formal foundation of the principle.",
+        "Consider function, foo(B& b). If I send a reference to an instance of class D derived from B to function foo the compiler will accept it and it wont create a runtime error, but it might not work as I hoped. If D causes foo to misbehave, D is fragile in the presence of foo.",
+        "To avoid that problem we might resort to run-time type information, but this still violates LSP and now also OCP.",
+        "void DrawShape(const Shape& s){if (typeid(s) == typeid(Square))DrawSquare(static_cast(s));else if (typeid(s) == typeid(Circle))DrawCircle(static_cast(s));}",
+        "As you can see from the timeline, frameworks develop from experience and start life as white-box frameworks utilizing inheritance. The persistence framework was an example of a white-box framework through its use of template and factory methods.",
+        "As the framework evolves the elements within it are decomposed, regions of variation are identified (Pree’s hotspots) and isolated, and composition and delegation are used in place of inheritance so that those fine-grained elements can be combined by the application developer as needed. Read about each pattern in detail, including the problem it solves, the rationale and context, and the solution and its implementation in the original article here.",
+        "The creational patterns are all concerned (unsurprisingly) with object creation. Most of them provide ways to create objects without knowing exactly what you’re creating beyond the interfaces supported by the created objects.",
+        "By the end of this course, students will be able to:",
+        "During this course you will expand your knowledge of the lesson topics each week.",
+        "This lesson introduces you to the core principles of object orientation, equipping you with the foundation to design flexible, maintainable software systems and understand the impact of these concepts on software development.",
+        "Dive deep into the fascinating realm of decision analysis. Through hands-on experiences and interactive learning, you’ll uncover techniques to model decisions, understand outcomes, and optimize strategies. From structuring problems to evaluating risk profiles, you’ll master the tools to navigate uncertainty with confidence",
+        "Discover common issues in software engineering, such as complexity and scalability, and how object-oriented approaches can help address them. Explore the role of composition in building sophisticated software structures and creating systems that are easier to extend and maintain.",
+        "By the end of this lesson, you will be equipped to apply object-oriented principles to software development projects, enhancing your ability to create robust and adaptable systems.",
+        "This lesson introduces essential principles of class design, helping you create high-quality software that is maintainable, extensible, and adaptable to change.",
+        "Explore foundational design principles such as the Single Responsibility Principle, Open/Closed Principle, Liskov Substitution Principle, Dependency Inversion Principle, and Interface Segregation Principle. Understand how these principles guide the creation of well-structured classes and promote modular, flexible software architectures.",
+        "Delve into the Law of Demeter to learn how minimizing dependencies can reduce code complexity and improve software reliability. Discover how applying these principles consistently helps in creating software that can adapt to new requirements while minimizing the risk of introducing errors.",
+        "By completing this lesson, you will be able to design software with classes that are easier to maintain and extend, equipping you to create systems that are well-organized and future-proof.",
+        "This lesson guides you through essential package design principles, enabling you to structure software in a way that enhances modularity, reusability, and long-term stability.",
+        "Learn about key principles such as the Reuse/Release Equivalency Principle, Common Reuse Principle, and Common Closure Principle. These guidelines will help you understand how to group classes and components within packages to optimize reusability and ease of release.",
+        "Discover how principles like the Acyclic-Dependencies Principle, Stable-Dependencies Principle, and Stable-Abstraction Principle contribute to managing dependencies and maintaining package stability. Explore techniques for organizing packages to minimize the impact of changes and ensure software resilience.",
+        "By the end of this lesson, you will have the skills to design software packages that promote long-term stability and adaptability, equipping you for advanced software development tasks.",
+        "This lesson delves into the practices of refactoring and evolving software frameworks, equipping you with the skills to improve code quality and adapt systems over time.",
+        "Explore the concept of refactoring, a process for restructuring code to enhance its readability, maintainability, and performance without changing its external behavior. Learn the reasons for refactoring and its role in ongoing software development.",
+        "Dive into specific strategies for refactoring, including design repair and the use of tools like the JUnit framework to facilitate the process. Gain insight into when and how to apply refactoring techniques for maximum impact, ensuring software remains adaptable and high-quality.",
+        "Examine how frameworks evolve over time and the importance of strategic refactoring in accommodating new requirements and technologies. Learn about the challenges and best practices for evolving frameworks while maintaining compatibility and reducing technical debt.",
+        "By the end of this lesson, you will be equipped to apply refactoring techniques and framework evolution strategies to maintain long-term software quality and adaptability, preparing you for advanced development challenges.",
+        "This lesson introduces you to creational design patterns, equipping you with techniques to create objects in a way that enhances flexibility and reuse within software applications.",
+        "Explore the key principles behind creational patterns, which focus on abstracting the process of object creation to make software more adaptable. Learn how these patterns help solve common challenges in designing complex systems by decoupling the creation process from the implementation.",
+        "Delve into specific creational patterns such as Factory Method, Abstract Factory, Builder, Prototype, and Singleton. Understand how each pattern addresses different scenarios where managing object creation is essential to maintaining clean and maintainable code.",
+        "Upon completing this lesson, you’ll have the skills to effectively apply creational patterns, enabling you to design adaptable and scalable software solutions.",
+        "This lesson introduces structural design patterns, providing you with strategies for organizing and managing relationships between objects to create flexible and efficient software systems.",
+        "Delve into popular structural patterns such as Adapter, Bridge, Composite, Decorator, Facade, Flyweight, and Proxy. Discover how each pattern addresses different structural challenges in software design, allowing for more modular and reusable code.",
+        "You will finish this lesson equipped to confidently apply structural patterns, enabling the design of adaptable and well-structured software architectures.",
+        "This lesson introduces behavioral design patterns, giving you the tools to manage object interactions and responsibilities effectively to create more dynamic and maintainable software systems.",
+        "Explore the concept of refactoring, a process for restructuring code to enhance its readability, maintainability, and performance without changing its external behavior. Learn the reasons for refactoring and its role in ongoing software development.",
+        "Understand how behavioral patterns help define communication and responsibility among objects, making it easier to design flexible and efficient systems. Learn how these patterns facilitate better management of complex behavior in software.",
+        "Explore well-known behavioral patterns such as Strategy, Observer, Command, Chain of Responsibility, Mediator, and Template Method. Discover how meta-patterns provide high-level strategies for organizing behaviors and managing relationships in software.",
+        "You will leave this lesson with a strong understanding of behavioral patterns and the ability to apply them effectively, improving the adaptability and maintainability of software designs.",
+        "Participating in SWENG 585: Pattern-Oriented Design will be a pivotal step in advancing your career in software engineering. This course gives you the skills to design software systems that are not only flexible and maintainable but also meet the highest industry standards. By mastering essential object-oriented principles and design patterns, including the well-known “Gang of Four” catalog, you’ll be equipped to solve complex software development problems and build systems that can adapt to evolving requirements with ease.",
+        "Taking SWENG 585 will set you apart in the job market, positioning you for advanced roles such as software architect, senior developer, or technical lead. Employers are constantly looking for professionals who can bring high-quality, reusable solutions to the table while minimizing maintenance costs. The expertise you’ll gain in pattern-oriented design will give you a competitive edge, preparing you to take on leadership roles and work on some of the most innovative projects in the field.",
+        "Developing Scalable E-Commerce Platforms: You could work on building or enhancing an e-commerce website that needs to handle large numbers of transactions and integrate with various payment gateways. Applying design patterns like the Strategy pattern for payment processing or the Factory Method pattern for creating product listings can help ensure the system is flexible and easily extendable as business requirements change.",
+        "Modernizing Legacy Software Systems: Many organizations face challenges with outdated software that is difficult to maintain or extend. You could lead efforts to refactor and modernize these systems using pattern-oriented approaches to gradually transition to a more modular, maintainable design. This could involve using the Facade pattern to simplify complex subsystems, or the Template Method pattern to standardize workflows across the application.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "“A” (Excellent) indicates exceptional achievement.",
+            "“B” (Good) indicates substantial achievement.",
+            "“C” (Satisfactory) indicates acceptable but substandard achievement.",
+            "“D” (Poor) indicates inadequate achievement and is a failing grade for a graduate student."
+        ],
+        [
+            "Riel’s object-oriented design heuristics",
+            "Martin’s principles of class and package design",
+            "the “Gang of Four” design pattern: catalog, refactoring, and framework evolution"
+        ],
+        [
+            "Liskov",
+            "Framework Evolution",
+            "Patterns"
+        ],
+        [
+            "Design software systems that support reuse and extension, building on foundational principles of object-oriented analysis and design.",
+            "Apply well-known heuristics, principles, and patterns to create reusable frameworks, packages, and components in software development.",
+            "Leverage object-oriented techniques to address common challenges in software design, transitioning from ad hoc methods to systematic, repeatable practices.",
+            "Evaluate and integrate approaches used in academia and industry to establish software engineering as a disciplined profession with predictable outcomes."
+        ],
+        [
+            "L1",
+            "L2",
+            "L3",
+            "L4",
+            "L5",
+            "L6",
+            "L7"
+        ],
+        [
+            "Objects and Classes Exploration: Delve deeper into objects and classes to understand their role in representing real-world scenarios within software.",
+            "Composition Practice: Learn how to combine objects to form complex structures that promote code reusability and flexibility.",
+            "Software Pitfalls Analysis: Examine what can go wrong in software development and how object-oriented design can mitigate these challenges."
+        ],
+        [
+            "Introduction: Begin with an overview of the importance of solid class design in object-oriented programming.",
+            "Explore the SOLID Principles: Understand each of the SOLID principles in depth, including real-world examples that demonstrate their application in software design.",
+            "Law of Demeter Analysis: Study how limiting dependencies between classes can enhance software maintainability.",
+            "Assignment on Principles of Class Design: Test your knowledge by applying class design principles to real-world scenarios, reinforcing the lesson’s concepts."
+        ],
+        [
+            "Introduction: Begin with an insightful overview of the significance of well-structured package design in maintaining software quality and reducing technical debt.",
+            "Deep Dive into Package Design Principles: Examine each principle closely, with practical examples that show how to implement them effectively for better software organization.",
+            "Reflective Takeaways: Analyze the impact of your package design choices and learn how to consistently apply these principles across diverse development scenarios.",
+            "Practical Assignment and discussion: Put the principles into action by organizing a software project into coherent packages, reinforcing your understanding and application of best practices."
+        ],
+        [
+            "Explore the Refactoring Process: Delve into the principles behind refactoring and strategic approaches to design repair.",
+            "Learn Refactoring with JUnit: Use the JUnit framework as a practical example of how tools can support the refactoring process.",
+            "Framework Evolution: Understand the steps involved in evolving a framework to support new functionalities while preserving core design principles.",
+            "Group Discussion: Participate in a forum to discuss the benefits and challenges of refactoring and framework evolution. Share your insights on when refactoring is most valuable and strategies for balancing code improvement with ongoing development needs."
+        ],
+        [
+            "Explore Creational Patterns: Investigate each creational pattern through examples that demonstrate their practical applications in software development.",
+            "Lesson 5 Assignment: Apply your knowledge by implementing creational patterns to solve a real-world problem, showcasing how these techniques can simplify object creation and improve code quality.",
+            "Group Discussion: Participate in a forum to share insights and challenges you faced while applying creational patterns. Discuss when and why to choose one pattern over another and learn from your peers’ experiences."
+        ],
+        [
+            "Explore Structural Patterns: Investigate each pattern through real-world examples to see how they can be used to solve structural design problems.",
+            "Lesson 6 Assignment: Design a solution for a photocopier system using structural patterns to decouple sensors from the devices they control, ensuring flexible and maintainable code.",
+            "Group Discussion: Participate in a forum to discuss your approach to applying structural patterns. Share your reasoning behind choosing specific patterns and explore how different structural challenges can be addressed."
+        ],
+        [
+            "Investigate Behavioral Patterns: Look into each pattern through practical examples to see how they can solve complex design problems.",
+            "Analyze Meta-Patterns: Understand meta-patterns and their role in providing overarching strategies for behavioral design.",
+            "Lesson 7 Assignment: Evaluate a chosen application, identify violations of design principles, and use GoF patterns to suggest improvements, ensuring better alignment with the Acyclic-Dependencies Principle and enhancing package stability.",
+            "Engage in Group Discussion: Join the forum to share insights and strategies for using behavioral patterns to improve software design. Discuss your experience with different patterns and explore their applications in solving real-world problems."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "E-Book",
+            "url": "https://ebookcentral.proquest.com/lib/pensu/detail.action?docID=6927367"
+        },
+        {
+            "text": "Substitution Principle",
+            "url": "https://courses.worldcampus.psu.edu/canvas/master/mst-20220713085757-alm626/content/02_lesson/corefiles/The_Liskov_Substitution_Principle.pdf"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "Design Patterns Book image",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/10/design-patterns.jpg"
+        },
+        {
+            "alt": "Barabara Liskov Ford Professor of Engineering at MIT",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/10/barbara-liskov.png"
+        },
+        {
+            "alt": "image appears to depict a timeline showing the evolution or progression of software design or development techniques",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/10/FrameworkPatterns.jpg"
+        },
+        {
+            "alt": "Table showing the GoF Pattern Language with three categories: Creational, Structural, and Behavioral.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/10/patterns.png"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Assignment",
+                "Quantity",
+                "Percentage of Final Grade"
+            ],
+            [
+                "Homework Assignments",
+                "1",
+                "65%"
+            ],
+            [
+                "Exam",
+                "1",
+                "15%"
+            ],
+            [
+                "Team Discussion Forums",
+                "5",
+                "20%"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"2298\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

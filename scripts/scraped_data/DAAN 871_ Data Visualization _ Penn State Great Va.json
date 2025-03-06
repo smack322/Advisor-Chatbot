@@ -1,0 +1,851 @@
+{
+    "metadata": {
+        "title": "DAAN 871: Data Visualization – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=3959"
+    },
+    "headings": {
+        "h2": "Visualizing Parts of a Whole: Pie Chart and Donut Chart",
+        "h4": "Unlocking Your Potential",
+        "h5": "Information Visualization",
+        "h3": "Lesson 14: Building a Data Visualization Pipeline",
+        "h6": "Honorlock Proctoring"
+    },
+    "paragraphs": [
+        "DAAN 871 is a three-credit course that introduces the principles, concepts, and tools of data visualization, with a focus on transforming complex, abstract datasets into visual formats that are easy to interpret and analyze. This course emphasizes the importance of visualization strategies in understanding large data sets, uncovering patterns, and supporting decision-making processes across various domains. Unlike scientific visualization, which deals with spatial or physical data representations, this course centers on how to map complex data into understandable visual forms.",
+        "Students will explore several key techniques for visualizing different types of data, such as one-dimensional (e.g., temporal data), two-dimensional (e.g., geospatial data), and multidimensional data (e.g., relational data in n-dimensional space). They will also learn methods for visualizing hierarchical data (e.g., tree structures), networks (e.g., social networks), and more. The course also emphasizes the identification of patterns, trends, and insights from visualizations in diverse fields like business, science, engineering, and social media. Additionally, students will gain practical experience using popular data visualization tools such as Tableau and Gephi, providing them with hands-on skills to apply in real-world data analysis projects.",
+        "In this course, students will learn the key principles involved in data visualization and will explore a wide range of visualization approaches that can be applied to understanding complex data across different data types. Specifically, techniques for visualizing:",
+        "Emphasis will be placed on the identification of patterns, trends, and differences in visualizations of data from a variety of domains (e.g., science, business, engineering, computer vision (CV), etc.). In addition, students will gain hands-on experience with a variety of visualization tools including Qlik and Python.",
+        "The objective of this course is to introduce students to the principles of data visualization and to provide them with hands-on experience with different tools and techniques for visualizing large complex data sets. After learning this material, students should be able to answer the following:",
+        "2. Labbe, P. (2019). Hands-on business intelligence with Qlik Sense: Implement self-service data analytics with insights and guidance from qlik sense experts. Packt Publishing.",
+        "3. Mazza, R. (2009). Introduction to information visualization. (1st ed.). Springer.",
+        "4. Qlik Sense. (2023, May). Create apps and Visualizations. QlikTech International AB.",
+        "Please remember that ALL questions about grades, course lesson content, and assignments should be directed to your course instructor. If you have any technical difficulties using the tools within this course, please contact the Penn State Helpdesk.",
+        "All course-related e-mails should go through Canvas’s course mail function (Canvas Inbox). Using Canvas to contact your instructor ensures that your message will be read, and your instructor will respond to you in a timely manner.",
+        "Many of the University Libraries’ resources can be utilized from a distance. Through the Library website, you can access magazines, journals, and articles; borrow materials and have them delivered to your doorstep; and get research help via email chat or phone from a librarian.",
+        "For more information, view the Penn State University Library.",
+        "A grade is given solely based on the instructor’s judgment as to the student’s scholarly attainment (see the Penn State Graduate Degree Programs Bulletin, p. 41). The following grading system applies to graduate students:",
+        "NOTE: Students are reminded that simply meeting the minimal requirements of any assignment (both in terms of content and presentation) will result in a letter grade of “B‐” for that assignment",
+        "*Grades will be based on the following scale:",
+        "Students will be evaluated based on their timely and meaningful responses to forum questions. Quality of interaction is always valued over quantity. In addition, students may earn participation points by sharing references to additional and relevant resources with the rest of the class via posting to the appropriate forum.",
+        "The idea behind the course project is to apply the knowledge and background you are learning this semester to a topic of broad interest and produce a high-quality, interactive visualization using good design principles and practices. Some aspects that you will be evaluated on are:",
+        "During this semester, you will be asked to work on 8 assignments. Please note that all assignments are to be finished with individual effort only. Unless otherwise noted, there is no specific format or length expectation for the assignments. Quality of answers is valued. Students will be evaluated on:",
+        "*Note: Weekly homework assignments should be submitted in one PDF file using the filename:",
+        "<Surname_FirstInitial-Homework1.PDF> (i.e., Smith_J-Homework1.pdf)",
+        "The midterm and final exams are administered in the fifth and final week of the course respectively and are timed, open-notes exams that will assess your understanding of the material covered in the course. You will have to choose a period in the exam week when you can devote up to an hour.",
+        "The exams are to be taken without collaboration with other students or other individuals. Late exams will not be accepted unless: (1) there are mitigating circumstances, and (2) you have been given permission prior to the due date of the exam.",
+        "Similar to other deliverables, you will be evaluated on:",
+        "The proctoring software uses your computer’s webcam or other technology to monitor and/or record your activity during exams. The proctoring software, Honorlock, may be listening to you, monitoring your computer screen, viewing you and your surroundings, and recording any activity (including visual and audio recordings) during the proctoring process. By enrolling in this course, you consent to the use of the proctoring software, including but not limited to any audio and/or visual monitoring that may be recorded. Please contact your instructor with any questions.",
+        "***For Honorlock resources and a practice test, see the Honorlock Information module in Canvas.",
+        "You will typically be able to review your grade and any comments made by your instructors within 3-5 days after you have submitted a deliverable to the corresponding assignment. This process is used for all assignments, discussions, and exams. Some instructors may also send you a message to your inbox informing you that the assignment has been graded. Please note that some instructors may choose to release the grades to all students at once; other instructors may release grades per student one at a time.",
+        "All assignments will be accepted up to one week late with a late penalty (10% per day). No homework is accepted after the late period.",
+        "*Subject to change",
+        "In the emerging age of big data, it is not uncommon for the terms data visualization, scientific visualization, information visualization and infographics to be used interchangeably. While there are no hard and fast rules that delineate the classification of these visualization types, let’s examine how data scientists generally view the relationship between these visualization categories.",
+        "First, data visualization is generally used as an umbrella term under which other visualization categories fall. As Stephen Few (2009) summarizes:",
+        "“I use data visualization as an umbrella term to cover all types of visual representations that support the exploration, examination, and communication of data.‘Whatever the representation, as long as it’s visual, and whatever it represents, as long as it’s information, this constitutes data visualization”.",
+        "Next, let’s consider some key sub-categories that fall under the data visualization domain including information visualization and scientific visualizations.",
+        "Stuart Card (1999) defines visualization and the sub-categories of scientific visualization vs. information visualization as follows:",
+        "Data Visualization: “The use of computer-supported, interactive, visual representations of data to amplify cognitition.” ( p. 6)",
+        "(Click the tabs to learn more)",
+        "Scientific visualizations focus on visualizing measurable scientific data or complex simulated data that can be mapped to coordinate system (e.g., statistical graphs and charts). This includes scientific data mapped onto spatial coordinates associated with real-world objects that can be used to help explain observed scientific phenomenon. Examples of such domain specific visualizations include medical imaging, business intelligence, or geographic information systems. (See Figure 1.2)",
+        "Information visualization corresponds to the visualization of more abstract data that may lack inherent spatial components. Such abstract data is ultimately processed into a more tangible form that can be readily understood by others. Examples include network analysis where relationship data is mapped to a network form so patterns and relationships in complex datasets can be readily identified. Examples include social networks, metabolic networks and internet communication. (See Figure 1.3)",
+        "In visualizing a whole, we are interested in seeing how its individual parts compare relative to each other. Since a whole represents 100% of something, all its individual parts must add up to 100%. The simplest way to visualize a whole and its parts is through a pie chart. Figure 6.2 shows a breakdown of orders that are shipped at a company (Superstore).",
+        "“How Do We Ship Our Orders?” is the question we are trying to explore here. Each wedge on the pie chart (see Figure 6.2) is labeled to indicate the type and percentage of the shipping mode. The circle represents the whole and is proportionately carved out into wedges that represent its part. Since a complete turn about a circle is 360 degrees, the percentage value of each wedge is calculated as a ratio of its angle to 360 degrees. For example, a 90-degrees wedge would represent 90/360 or 25% of the whole. All wedges add up to 360 degrees or 100%. Often times pie charts have been criticized since people have trouble judging proportions from angles of wedges. However, a simple pie chart properly labeled and not overcrowded with wedges can be quite useful.",
+        "Here the output obtained from the script provided in Table 13.2 is omitted. Students are encouraged to execute the scripts in Table 13.2 and interpret the output. Let us now visualize the selected 3D image. Here it is important to remember that many image viewers, such as matplotlib’s imshow, are only capable of displaying 2D data. To visualize the 3D image, we will fix one axis and still use the imshow function to display the grayscale 2D images using different views (see Figure 13.1). The script for viewing the different views of the 3D image is provided in Table 13.3.",
+        "As discussed above, a 3D image can be viewed as a series of 2D planes (image). Table 13.4 provides a helper function, display, to create a montage of several planes. By default, every other plane is displayed (see Figure 13.2).",
+        "In this course, you will delve into the principles and practices of data visualization, gaining practical experience in visualizing complex and large-scale datasets. By exploring a range of visualization techniques and tools, you will develop the skills to transform raw data into meaningful visual narratives, empowering them to uncover insights and communicate findings effectively.",
+        "After learning this material, students should be able to answer the following:",
+        "Through this course you will gain a solid foundation in data visualization principles and techniques. you will develop the ability to identify and address design challenges, create impactful visualizations for various types of data, and use these skills to tell compelling and insightful data stories effectively.",
+        "In this lesson, you will explore the foundational concepts of data visualization, including the purpose, tools, and principles that guide effective visual communication of data. Understanding visualization types, visual mapping, and perceptual principles will equip you with the skills needed to create insightful and clear data visualizations.",
+        "By the end of this lesson, you will have a strong understanding of data visualization principles and techniques, enabling them to analyze and create effective visualizations that communicate data insights clearly and accurately.",
+        "In this lesson, you will dive into the principles of visual design, exploring the best practices for creating effective visualizations. The lesson also covers common design problems and offers strategies for improving visual communication by identifying and addressing these issues.",
+        "By the end of this lesson, you will be able to identify common design problems in data visualizations and apply best practices to resolve them, ensuring that their visualizations are clear, accurate, and effective in communicating data insights.",
+        "In this lesson, you will be introduced to Qlik Sense, a powerful data visualization and business intelligence tool. The lesson covers how to access and use Qlik Sense, as well as the process of loading data into the platform to create interactive visualizations.",
+        "By the end of this lesson, you will have gained practical experience with Qlik Sense, learning how to access the platform, load data, and begin creating interactive visualizations for data analysis.",
+        "In this lesson, you will explore Python’s powerful data visualization libraries: Matplotlib, Seaborn, and ggplot. The lesson will guide you through creating various types of plots and visualizations to represent data in insightful and visually appealing ways.",
+        "By the end of this lesson, you will have gained hands-on experience in creating a wide variety of data visualizations using Python’s Matplotlib, Seaborn, and ggplot libraries, preparing them to effectively communicate data insights through compelling visuals.",
+        "In this lesson, you will learn how to analyze one-dimensional and time-series data using various types of charts, including box plots, histograms, line graphs, and waterfall charts. These techniques are essential for identifying trends, distributions, and changes over time in datasets.",
+        "By the end of this lesson, you will be proficient in analyzing and visualizing one-dimensional and time-series data, allowing you to uncover insights related to trends, distributions, and data changes over time.",
+        "In this lesson, you will learn how to visualize proportions and relationships within data using charts such as pie charts, donut charts, stacked bar charts, scatter plots, and bubble charts. These visualization techniques are key for representing parts of a whole and identifying correlations between variables.",
+        "By the end of this lesson, you will be able to effectively visualize proportions and relationships in data using various types of charts, gaining insights into how to represent parts of a whole and the interactions between different variables.",
+        "In this lesson, you  will explore the process of creating interactive and animated dashboards in Qlik Sense. The focus will be on understanding the differences between explanatory and exploratory dashboards, and learning how to use various features in Qlik Sense to enhance dashboard functionality.",
+        "By the end of this lesson, you will be able to create interactive and animated dashboards in Qlik Sense, understanding the key differences between explanatory and exploratory dashboards, and how to implement various features to enhance user engagement and data exploration.",
+        "In this lesson, you will gain an understanding of machine learning techniques, focusing on how to visualize and interpret models. The lesson covers essential aspects of training, validation, and testing datasets, performance measures, and hyperparameter tuning, using practical case studies to enhance learning.",
+        "By the end of this lesson, you will be equipped with the skills to visualize machine learning models, interpret their performance, and apply techniques like hyperparameter tuning to optimize model accuracy. you will also understand the critical role of training, validation, and testing datasets in building reliable models.",
+        "In this lesson, you will learn how to apply visual analytics to image and video datasets using Python libraries. you will explore techniques for manipulating and enhancing images, performing object detection, and analyzing video files, which are essential for working with multimedia data in various applications.",
+        "By the end of this lesson, you will have developed the skills necessary to analyze and manipulate image and video datasets, perform object detection, and enhance multimedia files using Python. These skills are crucial for various applications in fields such as computer vision, media analysis, and content creation.",
+        "In this lesson, you will explore advanced visualization techniques for multimodal and multi-dimensional data. you will learn how to choose appropriate visualization methods for complex data, construct heatmaps, and apply effective visualization techniques to multi-dimensional datasets for deeper analysis.",
+        "By the end of this lesson, you will be proficient in selecting and applying visualization techniques for multimodal and multi-dimensional data. you will be able to create customized heatmaps, scatter plots, parallel coordinates, and 3D visualizations, enhancing your ability to analyze and interpret complex data sets.",
+        "In this lesson, you will delve deeper into advanced visualization techniques for multimodal data, with a focus on geospatial data. you will learn how to plot geographical data, manipulate dimensions, and create unique visualizations like Voronoi diagrams and lollipop charts to enhance data interpretation.",
+        "By the end of this lesson, you will have mastered advanced visualization techniques for multimodal and geospatial data. you will be able to effectively visualize geospatial dimensions, create complex diagrams like Voronoi and lollipop charts, and apply these skills to analyze real-world data sets, such as Covid-19 cases.",
+        "In this lesson, you will explore techniques for visualizing massive and large-scale datasets, with a focus on hierarchical and tree-based data visualizations. you will learn how to effectively display complex data structures, including node-link trees and space-filling treemaps, to represent large datasets.",
+        "By the end of this lesson, you will have a comprehensive understanding of advanced visualization techniques for large-scale datasets, particularly hierarchical and tree-based visualizations. you will be able to create and compare different visualization methods, including node-link trees and treemaps, and apply these techniques to analyze complex data structures.",
+        "In this lesson, you  will learn how to load, visualize, and manipulate domain-specific 3D images. you will explore techniques to adjust the contrast of 3D images and interact with slices of data for deeper analysis, using tools like Jupyter widgets to improve their visualization.",
+        "By the end of this lesson, you will be proficient in visualizing and adjusting domain-specific 3D images, using advanced techniques to improve contrast and interactively explore slices of the images. you will also have gained experience in applying these techniques to their course project and providing valuable feedback on their learning journey.",
+        "In this lesson, you will learn how to build a data visualization pipeline, exploring both batch processing and streaming pipelines. The lesson will focus on applying these concepts in Qlik Sense, where you will engage in video tutorials to build practical data pipeline projects.",
+        "By the end of this lesson, you will have a comprehensive understanding of building data visualization pipelines using both batch and streaming methods. you will be able to apply these techniques in Qlik Sense and complete a final project that demonstrates your ability to manage and visualize data pipelines effectively.",
+        "Data Visualization course equips students with critical skills in visualizing and analyzing complex datasets, a vital competency in today’s data-driven job market. By learning the principles of effective data visualization, students can transform raw data into actionable insights, making them valuable assets to industries such as healthcare, finance, marketing, and technology. With a deep understanding of visualization tools, techniques, and the ethical considerations in data analysis, graduates of this course are prepared to create compelling visual stories that guide decision-making processes and support strategic goals.",
+        "As organizations increasingly rely on data to inform decisions, professionals with data visualization expertise are in high demand. This course not only enhances technical skills, including proficiency in popular visualization tools like Tableau and Gephi, but also fosters critical thinking, problem-solving, and communication abilities. Students can pursue roles such as data analysts, business intelligence specialists, and data scientists, where they will be responsible for creating impactful dashboards, reports, and presentations that help companies make data-driven decisions with clarity and precision.",
+        "Imagine you are working for a healthcare organization, and your team is tasked with analyzing patient data to improve healthcare outcomes. The organization has collected vast amounts of data on patient demographics, treatment plans, recovery rates, and hospital performance. However, this data is complex and difficult to interpret in its raw form. As a data visualization expert, you would use the skills learned in DAAN 871 to create intuitive dashboards and visualizations that highlight key trends and insights, such as the correlation between treatment types and recovery rates, or identifying areas where patient care can be improved.",
+        "By visualizing this data effectively, you would be able to present complex findings in an accessible format, helping medical professionals, administrators, and decision-makers understand the patterns and take action. For example, a heat map could show hospital performance across different regions, while a line graph might track recovery rates over time for different patient groups. These visualizations could lead to data-driven decisions that optimize hospital resources, improve patient outcomes, and ultimately enhance the efficiency of healthcare services.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "one-dimensional data (e.g., temporal data)",
+            "two-dimensional data (e.g., geospatial data)",
+            "multidimensional data (e.g., mapping relational data in n-dimensional space)",
+            "hierarchies and graphs (e.g., tree structures)",
+            "Visual analytics for images and video datasets",
+            "Visualization techniques for massive and large-scale datasets",
+            "Building a data visualization pipeline",
+            "Multimodal visualization techniques",
+            "Domain-specific 3D image visualization techniques."
+        ],
+        [
+            "What are the fundamental principles and concepts for data visualization of complex datasets?",
+            "What criteria should be used to identify design problems in visualizations?",
+            "What are some of the major temporal, geospatial, and topical visualization techniques?",
+            "What techniques are helpful in visualizing one-dimensional, two-dimensional, or multidimensional data?",
+            "What visualization techniques are effective for multimodal visualizations?",
+            "What techniques are effective for visualizing massive and large-scale datasets?",
+            "How are design decisions linked to the visualization design process?",
+            "How can visualizations be used to guide effective data storytelling?"
+        ],
+        [
+            "ISBN: 9780262526197",
+            "E-Book Option:  There is an E-Book available for this edition of the textbook, but with limited licenses, at no cost as a Penn State Library E-Book. You can access the E-Book through the Library Resources link on the course navigation. You may choose to use the E-Book as an alternative to purchasing a physical copy of the text. For questions or issues, contact the University Libraries Reserve Help (UL-RESERVESHELP@LISTS.PSU.EDU).  ***If you are using the E-Book, please be sure to close down and log out of the site when you are finished. Not doing so will prohibit other students from viewing the E-Book.\n\nAccess the E-Book via PSU Libraries",
+            "Access the E-Book via PSU Libraries"
+        ],
+        [
+            "Access the E-Book via PSU Libraries"
+        ],
+        [
+            "ISBN: 9781789800944"
+        ],
+        [
+            "E-Book Option:  There is an E-Book available for this edition of the textbook, but with limited licenses, at no cost as a Penn State Library E-Book. You can access the E-Book through the Library Resources link on the course navigation. You may choose to use the E-Book as an alternative to purchasing a physical copy of the text. For questions or issues, contact the University Libraries Reserve Help (UL-RESERVESHELP@LISTS.PSU.EDU).  ***If you are using the E-Book, please be sure to close down and log out of the site when you are finished. Not doing so will prohibit other students from viewing the E-Book.\n\nAccess the E-Book via PSU Libraries",
+            "Access the E-Book via PSU Libraries"
+        ],
+        [
+            "Access the E-Book via PSU Libraries"
+        ],
+        [
+            "ISBN: 9781848002197",
+            "E-Book Option:  There is an E-Book available for this edition of the textbook, but with limited licenses, at no cost as a Penn State Library E-Book. You can access the E-Book through the Library Resources link on the course navigation. You may choose to use the E-Book as an alternative to purchasing a physical copy of the text. For questions or issues, contact the University Libraries Reserve Help (UL-RESERVESHELP@LISTS.PSU.EDU).  ***If you are using the E-Book, please be sure to close down and log out of the site when you are finished. Not doing so will prohibit other students from viewing the E-Book.\n\nAccess the E-Book via PSU Libraries",
+            "Access the E-Book via PSU Libraries"
+        ],
+        [
+            "Access the E-Book via PSU Libraries"
+        ],
+        [
+            "Available at no cost to you via Qlik.com"
+        ],
+        [
+            "HelpDesk Website: https://student.worldcampus.psu.edu/help-and-support/technical-support.",
+            "HelpDesk Email: techsupport@worldcampus.psu.edu",
+            "HelpDesk Phone: (800) 252-3592"
+        ],
+        [
+            "“A” (Excellent) indicates exceptional achievement;",
+            "“B” (Good) indicates substantial achievement;",
+            "“C” (Satisfactory) indicates acceptable but substandard achievement; and",
+            "“D” (Poor) indicates inadequate achievement and is a failing grade for a graduate student."
+        ],
+        [
+            "Clarity of the purpose of the interactive visualization.",
+            "The analytic questions/queries a person should be able to answer using the interactive visualization.",
+            "The rationale behind the design principles and techniques used in creating the interactive visualization."
+        ],
+        [
+            "timeliness (did you deliver it by the deadline?)",
+            "completeness (did you do all that was asked?)",
+            "responsiveness (did you do what was asked or did you deviate from the assignment?)",
+            "thoroughness (did you answer thoughtfully and substantially, or just in a perfunctory manner?)",
+            "professionalism (formatting, grammar, clarity)"
+        ],
+        [
+            "timeliness (did you deliver it by the deadline?)",
+            "completeness (did you do all that was asked?)",
+            "responsiveness (did you do what was asked or did you deviate from the assignment?)",
+            "thoroughness (did you answer thoughtfully and substantially, or just in a perfunctory manner?)",
+            "professionalism (formatting, grammar, clarity)"
+        ],
+        [
+            "Classifications of Visualization",
+            "Parts of a Whole",
+            "Visualizing the 3D Image"
+        ],
+        [
+            "Scientific Visualization: “The use of interactive, visual representations of scientific data, typically physically based, to amplify cognitition.” (p. 7)",
+            "Information Visualization: “The use of interactive, visual representations of abstract nonphysically based data to amplify cognitition.” ~(p. 7)"
+        ],
+        [
+            "Scientific Visualization",
+            "Information Visualization"
+        ],
+        [
+            "What are the fundamental principles and concepts for data visualization of complex datasets?",
+            "What criteria should be used to identify design problems in visualizations?",
+            "What are some of the major temporal, geospatial, and topical visualization techniques?",
+            "What techniques are helpful in visualizing one-dimensional, two-dimensional, or multidimensional data?",
+            "What visualization techniques are effective for multimodal visualizations?",
+            "What techniques are effective for visualizing massive and large-scale datasets?",
+            "How are design decisions linked to the visualization design process?",
+            "How can visualizations be used to guide effective data storytelling?"
+        ],
+        [
+            "L1,L2",
+            "L3,L4",
+            "L5,L6",
+            "L7,L8",
+            "L9,L10",
+            "L11, L12",
+            "L13, L14"
+        ],
+        [
+            "Why Visualize?: Understanding the purpose of data visualization, such as simplifying complex data and enhancing insights.",
+            "Classifications of Visualization: Differentiating between various types of visualizations, including graphs, charts, and tables.",
+            "Exploratory vs. Explanatory Visualization: Understanding the two modes of visualization: exploratory (data discovery) and explanatory (data communication).",
+            "Historic Examples of Graphical Excellence: Studying influential historical visualizations to learn best practices.",
+            "Visualizing Diverse Data: Introduction to different types of visualizations suited for various data types.",
+            "Types of Analysis vs. Levels of Analysis: Exploring how different analysis types require specific visualizations for accurate representation.",
+            "Process Model for Mapping Data to Visual Form: Learning the steps involved in transforming raw data into visual formats.",
+            "Visual Mapping Concepts and Principles: Understanding how to map data to visual elements, including design considerations.",
+            "Principles of Visual Perception: Studying how humans perceive visual information and the role of perception in designing effective visualizations.",
+            "Gestalt Principles: Learning how the Gestalt principles of perception can guide effective visual design."
+        ],
+        [
+            "Introduction Activity and Community Building: Engage with peers to discuss initial thoughts on data visualization and its relevance.",
+            "Discussion Topic: Reflect on the importance of clear and accurate visual representation in data communication.",
+            "Assignment: Analyzing a Data Visualization: Analyze a data visualization example, focusing on its design, effectiveness, and adherence to the principles learned."
+        ],
+        [
+            "Introduction to Visual Design Principles: Learning key design principles from experts like Edward Tufte and Stephen Few, who emphasize clarity, simplicity, and accuracy in visual design.",
+            "Edward Tufte’s Design Principles: Exploring Tufte’s emphasis on data density, minimalism, and the avoidance of “chartjunk.",
+            "“Stephen Few’s Design Principles: Understanding Few’s principles, which focus on maximizing the data-to-ink ratio and prioritizing clarity.",
+            "Weighing Design Considerations: Balancing design elements to ensure effectiveness and visual appeal while avoiding distractions.",
+            "Taxonomy of Design Problems: Categorizing common design issues into stages, types, and causes to better identify and address visual problems.",
+            "Problem Stages and Types: Recognizing the stages of design problems and the specific types of issues that arise during visualization creation.",
+            "Examples of Problematic Visual Designs: Studying common issues in visual design, such as chart mismatches, color mapping problems, and cluttered visualizations.",
+            "Redesign Strategies: Learning how to resolve design problems by applying strategies that improve clarity and effectiveness.",
+            "Consequences of Design Problems: Understanding the potential negative impact of poor design, including confusion, misinterpretation, and communication breakdowns.",
+            "Design Trade-Offs: Balancing competing design priorities to create effective and functional visualizations."
+        ],
+        [
+            "Discussion: Critiquing Visual Design: Critically analyze a visual design in the context of best practices and design principles, providing constructive feedback and suggesting improvements."
+        ],
+        [
+            "Introduction to Qlik Sense: Learning the basics of Qlik Sense, including its interface, features, and capabilities for creating data visualizations.",
+            "Obtaining Access to Qlik Sense via the Qlik Sense Academic Program: Understanding how to gain access to Qlik Sense through the academic program, providing students with the tools needed to practice and develop their skills.",
+            "Data Loading into Qlik Sense: Exploring how to load data into Qlik Sense, from different data sources, and preparing it for visualization and analysis."
+        ],
+        [
+            "Assignment: Introduction to Qlik Sense: An assignment that guides students through the process of accessing Qlik Sense, loading data, and creating basic visualizations to familiarize themselves with the platform."
+        ],
+        [
+            "Introduction to the Matplotlib API Primer: Learning the basics of the Matplotlib API, including how to create and customize different types of plots such as line, bar, scatter, and histogram plots.",
+            "Demonstrating the MATLAB API: Understanding how Matplotlib’s syntax and structure compare to the MATLAB API for visualization.",
+            "Axis and Line Formatting: Customizing plot axes and line formats to improve the clarity and aesthetics of visualizations.",
+            "Comparing Multiple Plots: Learning how to compare multiple datasets through various plot types like scatter and line plots.",
+            "Seaborn for Data Visualization: Introducing Seaborn, a Python visualization library, and creating advanced plots such as box plots, violin plots, and KDE plots.",
+            "ggplot in Python: Exploring the Grammar of Graphics for creating visually attractive plots with ggplot, applying statistical transformations, and customizing plot themes and coordinates."
+        ],
+        [
+            "Assignment: Exploring US Airline Flights from 2010 and 2011: An assignment that asks students to explore and visualize U.S. airline flight data using the different plotting techniques taught in this lesson, such as histograms, scatter plots, and line plots."
+        ],
+        [
+            "Box Plots: Understanding how to create and interpret box plots, including adding dimensions and measures to visualize the spread and outliers in the data.",
+            "Creating and Customizing Box Plots: Learning how to build box plots and customize them using the properties panel for effective data visualization.",
+            "Histograms: Exploring histograms to analyze the distribution of data and learn how to add fields, adjust settings, and customize the appearance of histograms.",
+            "Trends Over Time Using Line Graphs: Creating line charts to visualize time-series data and identify trends or patterns over a specified period.",
+            "Waterfall Charts: Understanding how to use waterfall charts to visualize cumulative data, such as changes in values over time or different stages of a process."
+        ],
+        [
+            "Assignment: Revisiting US Airline Flights from 2010 and 2011: An assignment that encourages students to apply their knowledge by visualizing trends, distributions, and time-series data from the US airline flight dataset using box plots, histograms, line graphs, and waterfall charts."
+        ],
+        [
+            "Visualizing Parts of a Whole: Pie Chart and Donut Chart: Learning how to create pie and donut charts to visualize proportions of a whole and understand their strengths and limitations.",
+            "Creating Stacked Bar Charts: Exploring stacked bar charts as a way to display part-to-whole relationships across categories, and how to create and customize them for effective communication.",
+            "Proportions Over Time: Stacked Area Chart: Using stacked area charts to display proportions over time and visualize cumulative data trends.",
+            "Visualizing Relationships: Understanding how to represent relationships between variables using scatter plots and bubble charts, including how to interpret correlations and patterns.",
+            "Scatterplot Matrix: Exploring scatterplot matrices as a way to visualize multiple relationships between variables in one compact view.",
+            "Bubble Charts: Learning how bubble charts can show the relationship between three variables, with data points represented as bubbles of varying sizes.",
+            "Pros and Cons of Scatter Plots: Evaluating the advantages and limitations of scatter plots for visualizing relationships between two variables."
+        ],
+        [
+            "Assignment: Super Drugs: An assignment that tasks students with creating and interpreting visualizations using pie charts, stacked bar charts, scatter plots, and bubble charts, applied to a dataset on super drugs to understand proportions and relationships."
+        ],
+        [
+            "Introduction to Dashboards in Qlik Sense: Understanding the concept of dashboards in Qlik Sense and how they are used to display key data insights.",
+            "Explanatory vs. Exploratory Dashboards: Discussing the differences between explanatory dashboards (designed to tell a specific story) and exploratory dashboards (designed for users to interact with and explore data).",
+            "Dashboard Categories: Exploring different types of dashboards and their purposes, such as operational, analytical, and strategic dashboards.",
+            "Creating Exploratory (Animating) Dashboards: Learning how to create dashboards that allow for dynamic exploration, including using animations to reveal insights interactively.",
+            "Creating a New Sheet and Calculated Fields: Understanding how to set up new sheets in Qlik Sense and create calculated fields to derive new insights from data.",
+            "Adding Buttons and Scatter Plots: Adding interactive elements such as buttons for user interaction, and incorporating scatter plots to enhance data visualization within the dashboard."
+        ],
+        [
+            "Discussion: Exploratory vs. Explanatory Dashboards: Participate in a discussion about the strengths and applications of exploratory and explanatory dashboards, and the role of interactivity and animation in data visualization."
+        ],
+        [
+            "Introduction to Machine Learning: Learning the fundamentals of machine learning, including its applications, types, and the importance of model visualization in understanding machine learning models.",
+            "Machine Learning Techniques: Exploring various machine learning techniques, such as supervised and unsupervised learning, and their use in building predictive models.",
+            "Datasets – Training, Validation, and Testing: Understanding the importance of different datasets (training, validation, and testing) in the model development process and how they contribute to accurate predictions.",
+            "Performance Measures and Hyperparameter Tuning: Discussing how to evaluate model performance using metrics like accuracy, precision, and recall, and the role of hyperparameter tuning in optimizing model performance.",
+            "Video Tutorial – Customer Cancellations Case Study: Viewing a case study on customer cancellations to apply machine learning concepts and visualize model performance."
+        ],
+        [
+            "Course Project: Overview: Reviewing the course project, which involves applying machine learning techniques to a real-world dataset, with a focus on model visualization and performance evaluation.",
+            "Midterm Exam (Proctored): Preparing for the midterm exam, which will assess students’ understanding of machine learning concepts, model visualization, and dataset handling."
+        ],
+        [
+            "Introduction to Visual Analytics on Image and Video Datasets: Understanding the basics of visual analytics for image and video data, and how it differs from traditional data analytics.",
+            "Python Libraries: Exploring the Python libraries used for image and video analytics, such as OpenCV and Pillow, and their applications in visual data analysis.",
+            "Visual Analysis of Image Files: Learning how to read, write, and manipulate image files in Python, as well as techniques for enhancing image quality.",
+            "Feature Extraction and Object Detection: Using machine learning techniques to extract features from images and detect objects within them.",
+            "Counting Objects in Images: Understanding how to count objects in images and analyze them for further insights.",
+            "Visual Analysis of Video Files: Learning how to analyze video files, including trimming videos, adding text overlays, adding music, and applying custom effects for enhanced presentation."
+        ],
+        [
+            "Assignment: Visual Analytics: An assignment that involves applying visual analytics techniques to image and video data, including object detection, image manipulation, and video editing.",
+            "Course Project Part 1: Goal, Queries & Sources: Students will define the goals of their course project, create queries, and identify sources for their visual analytics project."
+        ],
+        [
+            "Visualization Techniques for Multimodal Data: Understanding the challenges of visualizing multimodal data and how to select the right techniques for effective data representation.",
+            "Constructing Heatmaps to Visualize Multimodal Data: Learning how to create heatmaps in Python to visualize complex relationships in multimodal datasets, and customizing them to meet specific analysis needs.",
+            "Effective Visualizing Techniques for Multi-dimensional Data: Exploring methods for visualizing multi-dimensional data, including pair-wise correlation matrices, pair-wise scatter plots, and parallel coordinates.",
+            "Pair-wise Correlation Matrix Heatmap: Understanding how to create heatmaps to represent the correlations between multiple variables in a dataset.",
+            "Pair-wise Scatter Plots: Using scatter plots to visualize relationships between pairs of variables in multi-dimensional datasets.",
+            "Parallel Coordinates: Learning how parallel coordinates can be used to visualize multi-dimensional data, making it easier to identify patterns and relationships.",
+            "Visualizing Attributes and Multivariate Data: Techniques for visualizing multiple attributes within datasets and using multivariate visualizations to reveal complex data relationships.",
+            "Time as a Dimension: Exploring how to visualize time as an additional dimension in data visualizations for trend analysis.",
+            "3-D Visualizations: Creating 3D visualizations to represent multi-dimensional data, offering a more interactive and comprehensive view of the dataset."
+        ],
+        [
+            "Discussion: Treemaps: Participating in a discussion about the use of treemaps for visualizing hierarchical data, comparing them to other visualization techniques like heatmaps and scatter plots.",
+            "Course Project Part 2: Identify the Dataset: Identifying and selecting a dataset for the course project, where students will apply the visualization techniques learned in the lesson."
+        ],
+        [
+            "Getting Ready: Reviewing the essential terminologies and concepts necessary for effectively visualizing geospatial and multimodal data.",
+            "Loading and Visualizing Geospatial Data: Understanding the processes involved in loading and visualizing geospatial data, including plotting geographical features and mapping spatial relationships.",
+            "Plotting a Shape: Learning how to plot geometric shapes and geographical features, such as regions or countries, within a geospatial dataset.",
+            "Scale as a Dimension: Exploring how scale can represent different dimensions in geospatial visualizations, helping to analyze variations in data.",
+            "Hues as a Dimension: Using color hues as a visual dimension in geospatial visualizations to represent different data values or categories.",
+            "Contours as a Dimension: Visualizing contours in data, providing a way to represent 3D data or elevation data in a 2D space.",
+            "Performing a Join: Learning how to perform spatial joins to combine different datasets and analyze relationships between data points.",
+            "Constructing a Voronoi Diagram: Understanding and constructing Voronoi diagrams to partition a space into regions based on proximity to a set of points, useful in geospatial analysis.",
+            "Creating Lollipop Charts: Learning how to create lollipop charts, a variation of bar charts, for visualizing individual data points along a continuous scale."
+        ],
+        [
+            "Assignment: Visualizing Covid-19 Cases: An assignment focused on visualizing Covid-19 case data using the techniques learned in the lesson, specifically targeting geospatial and multimodal visualizations.",
+            "Course Project Part 3: Purpose of Dashboard: In this part of the course project, students will define the purpose and objectives of their dashboard, applying the concepts learned in both lessons of multimodal data visualization."
+        ],
+        [
+            "Introduction to Visualization Techniques for Large-scale Datasets: Understanding the challenges of visualizing large-scale datasets and the importance of selecting appropriate visualization techniques to represent complex data.",
+            "Overview of Hierarchical Data Visualization: Learning about different methods for visualizing hierarchical data structures, which help to represent relationships and containment within data.",
+            "Graph Visualization Methods: Exploring methods to visualize graph data, including various layouts and techniques for representing relationships in large datasets.",
+            "Visualizing Hierarchical Data: Applying principles of hierarchy to visualize data in ways that highlight the relationships and containment of data elements.",
+            "Principles of Relationship and Containment: Understanding the core principles behind visualizing data relationships and containment within a hierarchy.",
+            "Strategies for Displaying Complex Tree Data: Developing strategies for effectively displaying large and complex tree data, making it easier to interpret and analyze.",
+            "Node-Link Tree Visualization Approaches: Exploring traditional node-link tree diagrams, dendrograms, radial tree layouts, and other tree-based visualizations to represent hierarchical data.",
+            "Traditional Node-link Tree Diagrams: Creating standard node-link tree diagrams for displaying hierarchical structures.",
+            "Dendrograms and Radial Tree Layouts: Understanding how to use dendrograms and radial tree layouts for visualizing tree structures and their relationships.",
+            "Space-Filling Tree Visualization Approaches: Treemapping Techniques: Introducing space-filling techniques like treemaps to display hierarchical data in a compact, easy-to-understand format.",
+            "Classic Treemaps: Learning how to create classic treemaps to visualize hierarchical data based on area.",
+            "Best Uses of Treemapping Technique: Identifying when and how treemaps are most effective for visualizing complex datasets.",
+            "Other Space-Filling Tree Visualization Approaches: Exploring alternative space-filling tree approaches, such as Cushion Treemaps and Newsmap, for better data representation.",
+            "Pros and Cons of Node-link vs. Space-filling Layouts: Comparing node-link and space-filling layouts to determine their strengths and weaknesses in visualizing large-scale datasets."
+        ],
+        [
+            "Discussion: Node-link Tree Visualization: Engaging in a discussion about the different node-link tree visualization methods, their applications, and advantages in displaying hierarchical data.",
+            "Course Project Part 4: Visualizations Rationale: Students will provide a rationale for their choice of visualizations in the course project, explaining how their selected methods represent the data effectively."
+        ],
+        [
+            "Loading and Visualizing Domain-Specific 3D Images: Learning how to load and visualize 3D images in a domain-specific context, such as medical or scientific imaging.",
+            "Visualizing the 3D Image: Understanding the process of visualizing complex 3D data, focusing on both static and dynamic views.",
+            "Jupyter Widgets: Using Jupyter widgets to interactively adjust and manipulate 3D image visualizations.",
+            "Adjusting the Contrast: Techniques for enhancing the visibility of details in 3D images by adjusting their contrast.",
+            "Using Histogram Equalization to Improve Contrast: Applying histogram equalization methods to improve the contrast of 3D images, making key features more apparent.",
+            "Effects of Improving Contrast: Observing the impact of contrast adjustments on the clarity and quality of 3D image data.",
+            "Clipping Pixels to Improve Contrast: Understanding how clipping pixel values can be used to further improve the contrast and emphasize certain features of 3D images.",
+            "Interactive Viewing of a Slice: Learning to interactively view different slices of 3D images, allowing for a more detailed exploration of the data from multiple angles."
+        ],
+        [
+            "Course Project Part 5: Final Submission: The final submission of the course project, where students apply all the concepts learned throughout the course, particularly those related to 3D image visualization, contrast adjustment, and interactive viewing techniques."
+        ],
+        [
+            "What is a Data Visualization Pipeline: Understanding the concept of a data pipeline, focusing on the flow of data from raw input to final visualization output.",
+            "Batch Processing: Learning how batch processing works in a data visualization pipeline, where data is processed in chunks or batches for visualization.",
+            "Streaming Pipelines: Exploring streaming pipelines, where data is processed in real time as it is generated, ideal for real-time data visualizations.",
+            "Data Pipeline Projects in Qlik Sense: Applying the concepts of data pipelines to Qlik Sense, creating projects that integrate data and visualizations.",
+            "Video Tutorials for Building Data Pipeline Projects in Qlik Sense: Engaging with video tutorials to build and understand how to manage data pipelines within Qlik Sense, focusing on practical skills and project development."
+        ],
+        [
+            "Final Exam (Proctored): A proctored exam that tests students’ understanding of all course concepts, with a particular focus on building and managing data pipelines.",
+            "Data Pipeline Project: Students will apply their learning by working on a data pipeline project in Qlik Sense, integrating batch and streaming processing methods to create effective data visualizations."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Access the E-Book via PSU Libraries",
+            "url": "http://ezaccess.libraries.psu.edu/login?url=http://site.ebrary.com/lib/pennstate/detail.action?docID=10829849"
+        },
+        {
+            "text": "Access the E-Book via PSU Libraries",
+            "url": "https://learning.oreilly.com/library/view/hands-on-business-intelligence/9781789800944/?sso_link=yes&sso_link_from=pennsylvania-state-university"
+        },
+        {
+            "text": "Access the E-Book via PSU Libraries",
+            "url": "https://link-springer-com.ezaccess.libraries.psu.edu/book/10.1007/978-1-84800-219-7"
+        },
+        {
+            "text": "Create apps and Visualizations",
+            "url": "https://help.qlik.com/en-US/sense/May2023/pdf/Create%20apps%20and%20visualizations.pdf"
+        },
+        {
+            "text": "https://student.worldcampus.psu.edu/help-and-support/technical-support.",
+            "url": "https://student.worldcampus.psu.edu/help-and-support/technical-support"
+        },
+        {
+            "text": "techsupport@worldcampus.psu.edu",
+            "url": "mailto:techsupport@worldcampus.psu.edu?subject=World%20Campus%20Tech%20Support%20Inquiry"
+        },
+        {
+            "text": "Penn State University Library.",
+            "url": "https://libraries.psu.edu/"
+        },
+        {
+            "text": "Scientific Visualization",
+            "url": "#tab-strongscientificvisualizationstrong"
+        },
+        {
+            "text": "Information Visualization",
+            "url": "#tab-stronginformationvisualizationstrong"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "\"Visual Insights\" book cover featuring a map background with text by Katy Börner and David E. Polley",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/visual-insights-book-cover-250x300-1.png"
+        },
+        {
+            "alt": "Introduction to Information Visualization book cover by Riccardo Mazza, featuring a gradient background with abstract data visual elements.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/41aZCHhhaCL._SX331_BO1204203200_-200x300-1.jpg"
+        },
+        {
+            "alt": "A heat map showing rainfall data over the Pacific Ocean and surrounding regions from June 23 to July 4, 2004, with hurricane tracks indicated.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/L1_Pic3-1.png"
+        },
+        {
+            "alt": "Satellite image showing hurricane activity across the United States, with surface wind speeds, and NASA-observed data for individual storms.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/L1_Pic3-2.png"
+        },
+        {
+            "alt": "A colorful network graph showing interconnected nodes of varying sizes, representing relationships and clusters.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/L1_Pic4-1.png"
+        },
+        {
+            "alt": "A complex, colorful visualization of a network graph with interconnected lines and nodes, resembling a cosmic web, with an inset zooming in on detailed connections.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/L1_Pic4-2.jpg"
+        },
+        {
+            "alt": "Pie chart showing the distribution of shipping modes: Regular Air, Delivery Truck, and Express Air.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/6.2.png"
+        },
+        {
+            "alt": "",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/13.1-1024x336.png"
+        },
+        {
+            "alt": "",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/13.2-1024x855.png"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Letter Grade",
+                "Grade Percentage (%)"
+            ],
+            [
+                "A",
+                "95.0-100"
+            ],
+            [
+                "A-",
+                "90.0-94.9"
+            ],
+            [
+                "B+",
+                "87.0-89.9"
+            ],
+            [
+                "B",
+                "84.0-86.9"
+            ],
+            [
+                "B-",
+                "80.0-83.9"
+            ],
+            [
+                "C+",
+                "77.0-79.9"
+            ],
+            [
+                "C",
+                "70.0-76.9"
+            ],
+            [
+                "D",
+                "60.0-69.9"
+            ],
+            [
+                "F",
+                "Below 60.0"
+            ]
+        ],
+        [
+            [
+                "Assignment Category",
+                "Quantity",
+                "Weight (% of Final Grade)"
+            ],
+            [
+                "Individual Assignments",
+                "6",
+                "20%"
+            ],
+            [
+                "Discussion Forums",
+                "5",
+                "10%"
+            ],
+            [
+                "Course Project",
+                "1",
+                "30%"
+            ],
+            [
+                "Midterm Exam",
+                "1",
+                "20%"
+            ],
+            [
+                "Final Exam",
+                "1",
+                "20%"
+            ],
+            [
+                "Total",
+                "12",
+                "100%"
+            ]
+        ],
+        [
+            [
+                "Table 13.3. Python script to view a 3D image as separate 2D images."
+            ],
+            [
+                "Table 13.3. Python script to view a 3D image as separate 2D images.def show_plane(ax, plane, cmap=”gray”, title=None):    ax.imshow(plane, cmap=cmap)    ax.set_axis_off()    if title:        ax.set_title(title)(n_plane, n_row, n_col) = data.shape_, (a, b, c) = plt.subplots(ncols=3, figsize=(15, 5))show_plane(a, data[n_plane // 2], title=f’Plane = {n_plane // 2}’)show_plane(b, data[:, n_row // 2, :], title=f’Row = {n_row // 2}’)show_plane(c, data[:, :, n_col // 2], title=f’Column = {n_col // 2}’)"
+            ]
+        ],
+        [
+            [
+                "Table 13.4. Python script of a helper function to create a montage of several planes ."
+            ],
+            [
+                "def display(im3d, cmap=’gray’, step=2):    data_montage = util.montage(im3d[::step], padding_width=4, fill=np.nan)    _, ax = plt.subplots(figsize=(16, 14))    ax.imshow(data_montage, cmap=cmap)    ax.set_axis_off()display(data)"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"3959\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

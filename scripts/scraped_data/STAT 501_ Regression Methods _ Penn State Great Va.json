@@ -1,0 +1,693 @@
+{
+    "metadata": {
+        "title": "STAT 501: Regression Methods – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4292"
+    },
+    "headings": {
+        "h2": "Lesson 14: Final Examination",
+        "h4": "Unlocking Your Potential",
+        "h3": "Model Building"
+    },
+    "paragraphs": [
+        "STAT 501: Regression Methods is a three-credit course designed to provide a practical, hands-on introduction to applied linear regression techniques. This course emphasizes not only the technical aspects of regression modeling but also the critical skills of data analysis and interpretation.",
+        "Regression methods are a powerful statistical toolkit for understanding the relationships between a response variable (dependent variable) and one or more explanatory variables (predictor variables). By the end of this course, you will gain valuable experience in constructing, analyzing, and interpreting regression models, preparing you to apply these techniques effectively in real-world scenarios.",
+        "Analysis of research data through simple and multiple regression and correlation; polynomial models; indicator variables; step-wise, piece-wise, and logistic regression. This course is cohort-based, which means that there is an established start and end date, and that you will interact with other students and the instructor throughout the course.",
+        "STAT 501 is an applied linear regression course that emphasizes data analysis and interpretation. Generally, statistical regression is a collection of methods for determining and using models that explain how a response variable (dependent variable) relates to one or more explanatory variables (predictor variables).",
+        "Stat 500 or equivalent; matrix algebra. Students enrolling for this course should have taken at least one other statistics course and should be conversant with the basic fundamentals of statistical testing and estimation. You also should have a rudimentary knowledge of matrices. Students who do not meet these prerequisites after being informed in writing by the instructor may be dis-enrolled during the first 10-day free add-drop period. If you have not completed the listed prerequisites, then promptly consult with the instructor if you have not done so already.",
+        "Students who do not meet these prerequisites after being informed in writing by the instructor may be dis-enrolled during the first 10-day free add-drop period. If you have not completed the listed prerequisites, then promptly consult with the instructor if you have not done so already.",
+        "The textbook is required, and either of the two editions below is acceptable. Here are the two options for the required textbook for this course. Students may use either:",
+        "The larger",
+        "OR the smaller",
+        "The first half of the larger Applied Linear Statistical Models contains sections on regression models, the second half on analysis of variance and experimental design. This first half of the 5th edition text is available published as Applied Linear Regression Models by Kutner, Nachtsheim, and Neter (4th edition).",
+        "Students may use either textbook listed as they are identical.",
+        "The larger Applied Linear Statistical Models also includes 16 chapters on analysis of variance and experimental design not covered in this course, however, these topics are covered in STAT 502 where these chapters are required. Students may consider purchasing the larger text if they are taking both courses.",
+        "To obtain the textbook, click on the “view course materials” link in Lion Path. That will take you to the World Campus materials page for the course which will have a link to the online bookstore.",
+        "You will need Minitab statistical software to replicate examples from the notes and textbook and to be able to do the lesson assignments. Further details are available on the STAT Online Statistical Software pageLinks to an external site.. No support is provided in this course for other software such as R, but if you have extensive experience with other software, you may use this if you would prefer.",
+        "Please review the Technical Requirement of Online Courses. on the department’s online courses website. For whom to contact with technical issues please visit Support and Technical Help on the Department of Statistics website.",
+        "Honorlock will proctor your exams this semester. Honorlock is an online proctoring service that allows you to take your exam from the comfort of your home. You DO NOT need to create an account or schedule an appointment in advance. Honorlock is available 24/7, and all that is required is a computer, a working webcam/microphone, your ID, and a stable internet connection.",
+        "This course will be conducted entirely online. There will be no set class meeting times, but you will be required to complete weekly lesson assignments with specific due dates as well as two midterm exams, a project, and a final exam. The assessments are open for multiple days, so it is your responsibility to complete the work early if you plan to travel or participate in national holidays, religious observances or University approved activities. If you need to request an exception due to a personal or medical emergency, contact me directly as soon as you are able. Such requests will be considered on a case-by-case basis.",
+        "The lesson assignments are a way for you to practice and receive feedback on the concepts covered in the lessons. Lesson assignments are to be submitted online by 11:59 pm Eastern Time on Sundays. Please note that the last lesson assignment is due on a Saturday. The assignments may span one or two lessons. The lesson assignments are worth 30% of your overall grade.",
+        "Exams 1 and 2 are proctored using Honorlock and have to be completed within a 2-hour time period that you have pre-scheduled during the exam period. Each exam is worth 20% of your overall grade. One thing to remember is that the 2-hour time limit begins when you start the exam. You can’t start it in the morning and get to it in the afternoon! The timer starts as soon as you click the “Start” button, so don’t click it until you’re ready. Even if you close the internet browser the clock will keep running. Canvas will report how long it took to complete the exam. After 2 hours the quiz will close and you will no longer be able to submit. You will only have one attempt to take the exam.",
+        "The project is to be submitted online by 11:59pm Eastern Time on the project due date listed in the Course Schedule. You will have 3 weeks to complete the project. The project is worth 10% of your overall grade.",
+        "The final exam is to be submitted online by 11:59pm Eastern Time on Thursday of the final exam period. The final exam is proctored using Honorlock and has to be completed within a 2-hour time period that you have pre-scheduled during the exam period. The final exam is worth 20% of your overall grade.",
+        "This course requires you to take exams using certain proctoring software that uses your computer’s webcam or other technology to monitor and/or record your activity during exams. The proctoring software may be listening to you, monitoring your computer screen, and viewing you and your surroundings. By enrolling in this course, you consent to the use of the proctoring software selected by your instructor, including but not limited to any audio and/or visual monitoring which may be recorded.",
+        "You are allowed to have bathroom breaks, drink on desk. All exams are closed-book exams. You are not allowed to access any online material during the exam. You will be allowed to have a calculator that does not have internet capabilities, stationary and scratch papers, and two sheets (8.5 by 11 inches) of double-sided handwritten/ printed notes.  You do not need to use statistical software and will not be allowed by the proctoring system.",
+        "The final letter grade will follow the guidelines as shown in the table below. All grades will be available in the Canvas grade book. Final grade totals will not be rounded (e.g., 89.9% is a B+).",
+        "*subject to change",
+        "imple linear regression",
+        "A statistical method that allows us to summarize and study relationships between two continuous (quantitative) variables:",
+        "Because the other terms are used less frequently today, we’ll use the “predictor” and “response” terms to refer to the variables encountered in this course. The other terms are mentioned only to make you aware of them should you encounter them in other arenas. Simple linear regression gets its adjective “simple,” because it concerns the study of only one predictor variable. In contrast, multiple linear regression, which we study later in this course, gets its adjective “multiple,” because it concerns the study of two or more predictor variables.",
+        "efore proceeding, we must clarify what types of relationships we won’t study in this course, namely, deterministic (or functional) relationships. Here is an example of a deterministic relationship.",
+        "When conducting a residual analysis, a “residuals versus fits plot” is the most frequently created plot. It is a scatter plot of residuals on the y-axis and fitted values (estimated responses) on the x-axis. The plot is used to detect non-linearity, unequal error variances, and outliers.",
+        "Let’s look at an example to see what a “well-behaved” residual plot looks like. Some researchers (Urbano-Marquez, et al., 1989) were interested in determining whether or not alcohol consumption was linearly related to muscle strength. The researchers measured the total lifetime consumption of alcohol (x) on a random sample of n = 50 alcoholic men. They also measured the strength (y) of the deltoid muscle in each person’s non-dominant arm. A fitted line plot of the resulting data, (Alcohol Arm data), looks like this:",
+        "The plot suggests that there is a decreasing linear relationship between alcohol and arm strength. It also suggests that there are no unusual data points in the data set. And, it illustrates that the variation around the estimated regression line is constantly suggesting that the assumption of equal error variances is reasonable.",
+        "First, we will illustrate Minitab’s “Best Subsets” procedure and a “by hand” calculation of the information criteria from earlier. Recall from Lesson 6 that this dataset consists of variables possibly relating to blood pressures of n = 39 Peruvians who have moved from rural high-altitude areas to urban lower-altitude areas (Peru dataset). The variables in this dataset (where we have omitted the calf skinfold variable from the first time we used this example) are:",
+        "Again, follow Stat > Regression > Regression > Best Subsets in Minitab. The results of this procedure are presented below.",
+        "To interpret the results, we start by noting that the lowest Cp value (= 5.5) occurs for the five-variable model that includes the variables Age, Years, fraclife, Weight, and Chin.",
+        "By the end of this course, students will be able to (SWBAT):",
+        "During this course you will expand your knowledge of the lesson topics each week.",
+        "In this lesson, you will explore the fundamentals of simple linear regression, a foundational concept in data analysis. You’ll learn how to model relationships between two variables, interpret regression outputs, and assess the reliability of your findings. By delving into key principles and examples, you’ll gain a strong foundation for applying regression techniques to real-world problems.",
+        "By the end of this lesson, you will have a clear grasp of simple linear regression, its practical applications, and the statistical measures that ensure its reliability. This knowledge will lay the groundwork for more complex analytical techniques in future lessons.",
+        "In this lesson, you will delve into the evaluation of simple linear regression (SLR) models. You’ll learn how to assess the quality and accuracy of regression models using statistical methods, analyze variance components, and conduct hypothesis tests. Through detailed examples and concepts, you’ll gain insights into interpreting regression results with confidence.",
+        "By the end of this lesson, you will have a thorough understanding of how to evaluate the fit and reliability of simple linear regression models. This foundational skill will enhance your ability to apply regression techniques effectively in various analytical contexts.",
+        "In this lesson, you will focus on applying a simple linear regression (SLR) model to answer key research questions about estimation and prediction. Building on previous lessons, you’ll learn how to use regression models to estimate average responses and predict new outcomes. These concepts are essential for understanding how to draw meaningful conclusions from regression analysis.",
+        "By the end of this lesson, you will be equipped to estimate mean responses and predict individual outcomes with confidence, providing a powerful tool for analyzing and interpreting data in real-world contexts.",
+        "In this lesson, you will learn the importance of evaluating the assumptions underlying a simple linear regression (SLR) model. Understanding and checking these assumptions is crucial to ensuring that your model provides reliable results. You’ll focus on graphical residual analysis to detect potential issues and explore strategies for addressing assumption violations.",
+        "By the end of this lesson, you will have a strong understanding of how to assess the assumptions of simple linear regression models. These skills will empower you to ensure the accuracy and reliability of your analyses, building a foundation for more advanced modeling techniques.",
+        "In this lesson, you’ll take a significant step forward by moving from simple linear regression (SLR) to multiple linear regression (MLR). With MLR, you’ll explore models that include two or more predictors, allowing for a more comprehensive analysis of relationships between variables. This lesson introduces key concepts, such as interpreting coefficients, understanding assumptions, and using advanced statistical measures like adjusted R².",
+        "By the end of this lesson, you will have a solid foundation in multiple linear regression, equipping you to analyze complex relationships in data with confidence. These skills will expand your analytical capabilities, preparing you for more sophisticated modeling techniques later in the course.",
+        "In this lesson, you will focus on evaluating multiple linear regression (MLR) models through various hypothesis tests. By performing these tests, you’ll assess the significance of predictors and understand how they contribute to the overall model. Along the way, you’ll explore key concepts like sequential sums of squares and the general linear F-test, which are essential for advanced regression analysis.",
+        "By the end of this lesson, you will be proficient in evaluating multiple linear regression models using advanced hypothesis tests. These skills will enhance your ability to assess and refine models, ensuring they meet the demands of complex analytical tasks.",
+        "In this lesson, you will build on concepts from Lessons 3 and 4, applying estimation, prediction, and model assumption evaluation to the context of multiple linear regression (MLR). You’ll explore how to estimate average responses, predict individual outcomes, and assess whether a model meets key assumptions. This comprehensive approach ensures that your regression analyses are both accurate and reliable.",
+        "By the end of this lesson, you will be equipped to use multiple linear regression models to estimate, predict, and evaluate assumptions effectively. These skills will enhance your ability to conduct robust and insightful data analyses in various contexts.",
+        "In this lesson, you will explore how to incorporate categorical predictors into multiple linear regression (MLR) models using indicator variables. You will also examine interactions between categorical and quantitative predictors and learn how to model complex relationships through techniques like piecewise linear regression. These skills will enhance your ability to handle diverse types of data in regression analysis.",
+        "By the end of this lesson, you will be able to effectively incorporate categorical predictors into multiple linear regression models and interpret their impacts. You will also be equipped to model interactions and handle complex relationships, enhancing your analytical toolkit for real-world data scenarios.",
+        "In this lesson, you will explore data transformations as a method to address common issues in regression models. By transforming predictor and/or response variables, you can remedy problems such as non-linearity, unequal error variances, and outliers. This lesson focuses on understanding when and how to apply transformations, guiding you toward building more accurate and reliable regression models.",
+        "By the end of this lesson, you will have the skills to use data transformations to build robust regression models that address real-world complexities. You will also gain a deeper appreciation for the art and science of data analysis, enabling you to make informed decisions about model formulation and use.",
+        "In this lesson, you will learn the art and science of model building in regression analysis. Unlike earlier lessons where predictors were predefined, this lesson focuses on selecting the most appropriate predictors from a larger set. You will explore variable selection methods, such as stepwise regression and best subsets regression, to create models that are both simple and effective.",
+        "By the end of this lesson, you will be equipped to build regression models that strike a balance between simplicity and predictive power. These skills will empower you to handle complex datasets effectively, ensuring your models provide meaningful and actionable insights.",
+        "In this lesson, you will learn how certain data points can exert undue influence on regression models. You will explore the distinction between outliers, which have unusual response values, and high-leverage points, which have unusual predictor values. This lesson focuses on identifying and evaluating influential points to ensure that your regression models are accurate and reliable.",
+        "By the end of this lesson, you will be equipped to identify and manage influential data points in regression analysis. These skills will enhance your ability to build accurate and reliable models, even when faced with challenging datasets.",
+        "In this lesson, you will confront one of the most common challenges in regression analysis: multicollinearity. When predictors are highly correlated, it can distort your model and undermine the reliability of your results. You’ll learn how to detect and address multicollinearity and explore other pitfalls in regression analysis, such as extrapolation, nonconstant variance, and overfitting. These insights will help you build stronger, more accurate models.",
+        "By the end of this lesson, you will be able to identify and manage multicollinearity while avoiding other common pitfalls in regression analysis. These skills will enable you to build models that are not only statistically sound but also practical and insightful for decision-making.",
+        "In this lesson, you will explore two significant extensions of the standard linear regression model. First, you’ll learn about weighted least squares, a technique for handling regression models when nonconstant variance (heteroscedasticity) is present. Then, you’ll delve into logistic regression, a powerful method for modeling binary response variables, expanding your ability to analyze a broader range of data scenarios.",
+        "By the end of this lesson, you will have a solid foundation in multiple linear regression, equipping you to analyze complex relationships in data with confidence. These skills will expand your analytical capabilities, preparing you for more sophisticated modeling techniques later in the course.",
+        "In this final lesson, you will bring together everything you’ve learned throughout the course to demonstrate your mastery of regression analysis. The final exam is designed to assess your ability to apply key concepts, evaluate models, and solve complex data problems using the techniques and tools you’ve studied. From simple linear regression to advanced topics like multicollinearity and logistic regression, the exam will challenge you to integrate your knowledge and showcase your analytical skills. This is your opportunity to reflect on your progress and prove your readiness to apply regression methods to real-world scenarios confidently.",
+        "For data analytics professionals, proficiency in regression methods is a game-changing skill that enhances their ability to extract actionable insights from complex datasets. Regression techniques empower analysts to identify patterns, predict outcomes, and model relationships between variables, providing critical support for data-driven decision-making in industries like finance, healthcare, marketing, and technology. By mastering concepts such as multiple regression, categorical predictors, and logistic regression, data analytics majors can strengthen their analytical toolkit, making them highly sought-after candidates for roles such as data scientists, business analysts, and predictive modelers. This course ensures that graduates can confidently tackle real-world challenges, from forecasting sales trends to optimizing resource allocation.",
+        "For systems engineers, understanding regression methods is essential for designing and optimizing complex systems. Regression analysis allows engineers to model and predict system performance, identify key factors influencing outcomes, and evaluate the impact of design modifications. Skills gained in this course are invaluable in fields such as aerospace, manufacturing, energy, and IT, where data-driven decisions are critical for efficiency and innovation. By mastering regression techniques, systems engineers can improve their ability to integrate analytical rigor into system design, troubleshoot operational challenges, and enhance predictive capabilities, positioning them as leaders in their field.",
+        "Data Analytics Major Taking Regression Methods",
+        "Customer Behavior Analysis: A data analytics student could work on a project using multiple regression to predict customer purchase likelihood based on demographic data, browsing history, and previous purchases. This type of project is valuable in marketing, where companies aim to optimize personalized promotions.",
+        "Healthcare Outcome Prediction: Another project might involve building a regression model to analyze how patient demographics and medical history influence recovery times, helping healthcare providers improve treatment plans.",
+        "Systems Engineering Major Taking Regression Methods",
+        "Transportation Network Efficiency: A project could involve modeling traffic flow and delays based on factors like road conditions, time of day, and vehicle density, providing insights for city planners to enhance infrastructure.",
+        "Production Optimization in Manufacturing: Students might apply regression analysis to evaluate how process variables, such as temperature, pressure, and machine calibration, influence defect rates, enabling manufacturers to optimize operations.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Applied Linear Statistical Models by Kutner, Nachtsheim, and Neter (5th edition)"
+        ],
+        [
+            "Applied Linear Regression Models by the same authors, Kutner, Nachtsheim, and Neter (4th edition)."
+        ],
+        [
+            "STAT 501 Online Notes",
+            "Minitab Web App"
+        ],
+        [
+            "Follow the ‘To-Do’ List for each Lesson in Canvas.",
+            "Start as early as possible in the week. Lessons are available during the weekend before the Lesson starts on Monday, allowing you to make an early start if you want.",
+            "Work through the online notes and textbook readings and replicate examples using Minitab.",
+            "Post questions to the Lesson Discussion Forum in Canvas and answer other students’questions when possible.",
+            "Work through the Lesson Practice Problems in Canvas.",
+            "Complete and submit each Lesson Assignment by 11:59pm on Sunday at the end of the Lesson (Note: the last lesson assignment is due on Friday the last day of class).",
+            "The grader will mark and provide feedback on Lesson Assignments by Wednesday of the following week.",
+            "Lesson Assignment Solutions will be released on Wednesday of the following week."
+        ],
+        [
+            "Understand that the responsibility is on you in regard to the value of an education. Grades are earned and not given.",
+            "Participate weekly. Not participating in an online course via discussion forums, email, etc. is equivalent to being absent in a traditional classroom.",
+            "Be aware of the time required for this course. Students should expect to spend on average between 9-12 hours per week on this 3-credit course. Your course activity will be monitored.",
+            "Seek help through the instructor, the teaching assistant, peers, tutors, etc. as soon as you experience difficulties. Help is available!",
+            "Pay attention to details. Refer to the syllabus and schedule as needed. Read and understand the online notes and textbook. Check course announcements and emails regularly to keep up to date.",
+            "Stay positive! This course is challenging, but if you communicate and study when in a positive frame of mind, you will be more successful than otherwise.",
+            "Respect the academic environment of the online classroom as well as each other.",
+            "Abide by the academic integrity policy. Copying solutions to previous assessments is strictly forbidden. Although a question may look similar to one from a previous assessment, it will differ in such a way that it will be obvious if you have copied a previous solution. In such circumstances, an academic integrity report will be filed and a sanction of failing the course recommended.",
+            "Respect copyright laws."
+        ],
+        [
+            "Simple Linear Regression",
+            "Residual Plot",
+            "Model Building"
+        ],
+        [
+            "One variable, denoted x, is regarded as the predictor, explanatory, or independent variable.",
+            "The other variable, denoted y, is regarded as the response, outcome, or dependent variable."
+        ],
+        [
+            "Analyze and interpret data using applied linear regression techniques.",
+            "Construct regression models to explain how a response variable relates to one or more predictor variables.",
+            "Evaluate and validate regression models to ensure accuracy and reliability.",
+            "Apply statistical regression methods to solve real-world problems involving data relationships.",
+            "Communicate findings from regression analyses effectively to both technical and non-technical audiences."
+        ],
+        [
+            "L1-L2",
+            "L3-L4",
+            "L5-L6",
+            "L7-L8",
+            "L9-L10",
+            "L11-L12",
+            "L13-L14"
+        ],
+        [
+            "Introduction to Simple Linear Regression: Understand the concept of regression and its role in modeling relationships between a dependent and an independent variable.",
+            "The “Best Fitting Line”: Learn how to determine and interpret the line that best represents data trends.",
+            "Model Components: Examine the simple linear regression model, the common error variance, and key statistical measures such as the coefficient of determination and correlation coefficient",
+            "Practical Examples and Cautions: Review examples of regression applications and common pitfalls to avoid.",
+            "Hypothesis Testing: Explore hypothesis tests for the population correlation coefficient to validate your findings."
+        ],
+        [
+            "Dive into Course Materials: Explore lesson notes, textbook chapters, and video resources to build your understanding of regression concepts.",
+            "Reflect on Real-World Applications: Think critically about how regression is used in various industries and consider its practical implications.",
+            "Engage in Collaborative Discussions: Participate in forums to share insights and perspectives with classmates, enriching your learning experience."
+        ],
+        [
+            "Inference for Model Parameters: Understand how to make statistical inferences about the intercept and slope in a regression model.",
+            "Analysis of Variance (ANOVA): Learn the role of ANOVA in assessing model significance and evaluating overall model fit.",
+            "Lack of Fit Tests: Explore how to test whether your regression model sufficiently explains the data or if adjustments are needed."
+        ],
+        [
+            "Deepen Understanding of Model Evaluation: Explore the provided notes, textbook chapters, and video resources to strengthen your grasp of key concepts.",
+            "Practice Applying Methods: Work through practice problems to apply statistical evaluation techniques to real-world examples.",
+            "Engage with Peers: Participate in discussions to share insights and learn from classmates’ perspectives."
+        ],
+        [
+            "Confidence Intervals for Estimation: Learn how to calculate and interpret confidence intervals to estimate the mean response for a given predictor value.",
+            "Prediction Intervals for New Observations: Understand prediction intervals and how they differ from confidence intervals when forecasting individual responses",
+            ".Factors Influencing Intervals: Explore how sample size, error distribution, and predictor values impact the width and reliability of intervals."
+        ],
+        [
+            "Master Interval Techniques: Study lesson notes, videos, and readings to deepen your understanding of confidence and prediction intervals.",
+            "Practice Analytical Skills: Apply estimation and prediction methods through practice problems and real-world scenarios.",
+            "Collaborate and Reflect: Join discussions to share insights, clarify concepts, and explore practical applications of SLR estimation and prediction."
+        ],
+        [
+            "Understanding Model Assumptions: Learn why it’s essential to verify assumptions and how they impact the validity of regression results.",
+            "Graphical Residual Analysis: Explore key tools like residuals vs. fits plots, residuals vs. predictor plots, and normal probability plots to assess model fit and identify problems.",
+            "Detecting Model Issues: Identify common problems such as non-normal error terms, dependent errors, or violations of linearity assumptions."
+        ],
+        [
+            "Analyze Residuals: Use course resources to practice graphical methods for evaluating regression assumptions.",
+            "Identify and Address Issues: Explore strategies to detect and interpret problems in model assumptions.",
+            "Engage in Critical Discussions: Participate in discussions to share findings and insights about residual analysis and model evaluation."
+        ],
+        [
+            "Expanding to Multiple Predictors: Learn how to extend regression models to include two or more predictors and understand their combined effects on the response variable.",
+            "Interpreting Coefficients: Understand how to calculate and interpret slope parameters, taking into account the influence of multiple predictors.",
+            "Advanced Model Metrics: Explore the calculation and interpretation of R² and adjusted R² to assess the goodness of fit in MLR."
+        ],
+        [
+            "Explore Core Concepts: Study lesson notes, video materials, and the provided Matrix Algebra Review to strengthen your understanding of MLR fundamentals.",
+            "Practice Interpretation: Apply MLR concepts to example datasets, interpreting coefficients and evaluating model fit.",
+            "Collaborate and Discuss: Engage in discussions to share insights and clarify concepts related to multiple regression models."
+        ],
+        [
+            "Hypothesis Testing for Predictors: Learn how to test the significance of individual, all, or subsets of predictors in an MLR model.",
+            "General Linear F-Test: Understand the theory and application of the general linear F-test in evaluating regression models.",
+            "Sequential Sums of Squares: Explore how to calculate and interpret sequential sums of squares to understand the contribution of predictors."
+        ],
+        [
+            "Master Evaluation Techniques: Study lesson notes, videos, and Minitab resources to practice hypothesis testing and model evaluation.",
+            "Interpret Outputs: Work through examples to draw conclusions from statistical outputs, including t-tests, F-tests, and partial sums of squares.",
+            "Collaborate in Discussions: Share insights and clarify concepts with peers in discussion forums to deepen your understanding of model evaluation."
+        ],
+        [
+            "Estimation and Prediction: Learn how to calculate confidence intervals for mean responses and prediction intervals for new observations using multiple predictors.",
+            "Factors Influencing Intervals: Understand why prediction intervals are wider than confidence intervals and how error distribution affects interval calculation.",
+            "Evaluating Model Assumptions: Explore residual analysis, including residuals vs. fits plots and normal probability plots, to identify potential issues in model assumptions."
+        ],
+        [
+            "Apply Estimation Techniques: Use course materials to practice constructing confidence and prediction intervals in the MLR setting.",
+            "Analyze Residuals: Explore graphical and numerical methods for evaluating model assumptions and detecting potential violations.",
+            "Engage in Discussions: Share insights and interpretations with peers to deepen your understanding of MLR estimation, prediction, and assumption evaluation."
+        ],
+        [
+            "Using Categorical Predictors: Learn to code qualitative predictors with indicator variables and integrate them into regression models.",
+            "Modeling Interaction Effects: Explore how interactions between categorical and quantitative predictors influence the response variable.",
+            "Piecewise Linear Regression: Understand how to use interaction terms to model relationships with multiple linear segments."
+        ],
+        [
+            "Code and Analyze Categorical Data: Practice coding categorical variables and incorporating them into MLR models.",
+            "Explore Interaction Effects: Use lesson resources to study how interactions and additive effects impact regression outcomes.",
+            "Engage in Discussions: Collaborate with peers to discuss the implications of categorical predictors and interaction terms in regression models."
+        ],
+        [
+            "Identifying When to Transform: Learn to recognize issues such as non-linearity, unequal variances, and outliers that may require data transformation.",
+            "Applying Transformations: Explore techniques for transforming predictor and response variables, including logarithmic and polynomial transformations.",
+            "Evaluating Transformation Effectiveness: Use residual plots and model evaluation techniques to assess the success of transformations in improving model fit."
+        ],
+        [
+            "Experiment with Transformations: Practice applying various transformations to predictors and response variables to address identified model issues.",
+            "Refine Models Through Iteration: Engage in a trial-and-error approach to refine your models until they meet linear regression conditions.",
+            "Collaborate and Reflect: Participate in discussions to share experiences and insights about the challenges and benefits of data transformation."
+        ],
+        [
+            "Understanding Model Types: Learn about the implications of underspecified, overspecified, and correctly specified models with or without extraneous predictors.",
+            "Variable Selection Methods: Explore stepwise regression and best subsets regression to identify optimal predictors for your model.",
+            "Evaluating Model Quality: Use metrics such as adjusted R², MSE, and Mallows’ Cp to assess and choose the best regression model."
+        ],
+        [
+            "Compare Model Performance: Use evaluation metrics to compare different models and identify the most effective one.",
+            "Engage in Strategy Discussions: Participate in collaborative discussions to explore strategies for building simple, accurate, and insightful models.",
+            "Analyze a Complex Dataset: Engage in a hands-on project to build and refine a multiple linear regression model, practicing advanced data analysis techniques and predictor coding strategies."
+        ],
+        [
+            "Outliers vs. High-Leverage Points: Understand the difference between outliers (unusual yyy-values) and high-leverage points (unusual xxx-values) and their potential impact on regression models.",
+            "Measures of Influence: Learn to identify influential points using tools such as studentized residuals, leverage values, DFFITS, and Cook’s distance.",
+            "Evaluating Influence: Assess whether influential points significantly affect the regression model and decide how to handle them appropriately."
+        ],
+        [
+            "Explore Key Metrics: Use lesson resources to analyze measures like residuals, leverage, and Cook’s distance to detect and evaluate influential points.",
+            "Practice with Real-World Data: Apply these methods to identify and assess influential points in sample datasets.",
+            "Engage in Collaborative Analysis: Discuss strategies with peers for addressing influential data points to maintain robust regression models."
+        ],
+        [
+            "Understanding Multicollinearity: Learn what multicollinearity is, its effects on regression coefficients, and how it can limit the conclusions of your analysis.",
+            "Detecting and Addressing Multicollinearity: Use variance inflation factors (VIFs) and other techniques to identify and reduce multicollinearity.",
+            "Navigating Other Regression Pitfalls: Explore strategies for managing challenges like extrapolation, missing data, nonconstant variance, and overfitting to ensure robust analyses."
+        ],
+        [
+            "Analyze Multicollinearity: Use course materials to study examples of multicollinearity and practice calculating variance inflation factors to detect it.",
+            "Apply Remedies: Explore methods such as centering predictors and reducing redundant variables to minimize multicollinearity’s effects.",
+            "Engage in Discussions: Collaborate with peers to share insights and strategies for addressing multicollinearity and other regression challenges."
+        ],
+        [
+            "Weighted Least Squares (WLS): Understand the concept and application of WLS in regression models with heteroscedasticity to improve parameter estimates.",
+            "Logistic Regression: Learn how to model and analyze datasets with binary response variables using logistic regression.",
+            "Practical Applications: Explore how these techniques enhance the versatility and accuracy of regression analyses."
+        ],
+        [
+            "Explore Advanced Techniques: Study the lesson materials to understand the theory and practical implementation of weighted least squares and logistic regression.",
+            "Apply New Methods: Work on example datasets to practice handling nonconstant variance with WLS and modeling binary outcomes with logistic regression.",
+            "Engage in Collaborative Learning: Participate in discussions to share insights and learn how peers approach these advanced regression challenges."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "STAT Online Statistical Software pageLinks to an external site.",
+            "url": "https://online.stat.psu.edu/statprogram/tutorials/statistical-software"
+        },
+        {
+            "text": "STAT 501 Online Notes",
+            "url": "https://online.stat.psu.edu/stat501/"
+        },
+        {
+            "text": "Minitab Web App",
+            "url": "https://app.minitab.com/"
+        },
+        {
+            "text": "Technical Requirement of Online Courses.",
+            "url": "https://online.stat.psu.edu/statprogram/orientation/technology/specs"
+        },
+        {
+            "text": "Support and Technical Help",
+            "url": "https://science.psu.edu/stat/education/help"
+        },
+        {
+            "text": "",
+            "url": "https://online.stat.psu.edu/stat501/lesson/1/1.1#paragraph--618"
+        },
+        {
+            "text": "",
+            "url": "https://online.stat.psu.edu/stat501/lesson/1/1.1#paragraph--618"
+        },
+        {
+            "text": "Alcohol Arm data",
+            "url": "https://online.stat.psu.edu/onlinecourses/sites/stat501/files/data/alcoholarm.txt"
+        },
+        {
+            "text": "Peru dataset",
+            "url": "https://online.stat.psu.edu/onlinecourses/sites/stat501/files/data/peru.txt"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "fahrenheit vs celsius plot",
+            "src": "https://online.stat.psu.edu/onlinecourses/sites/stat501/files/01simple/temps.jpeg"
+        },
+        {
+            "alt": "Regression plot showing a negative relationship between alcohol and strength, with a trend line (strength = 26.37 - 0.2959 alcohol) and R-squared of 41.17%.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/stat-501-plot.png"
+        },
+        {
+            "alt": "image of matchu pitchu in peru",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/machu_pichu_peru_0.jpg"
+        },
+        {
+            "alt": "Variables used in a regression model for predicting systolic blood pressure (Y) with predictors such as age, urban life factors, weight, height, skinfold measurements, and pulse rate.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/stat-501-variables.png"
+        },
+        {
+            "alt": "",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/stat-501-systol.png"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Assignment Category",
+                "Weight"
+            ],
+            [
+                "Lesson Assignments",
+                "30%"
+            ],
+            [
+                "Exams 1 & 2",
+                "40%"
+            ],
+            [
+                "Project",
+                "10%"
+            ],
+            [
+                "Final Exam",
+                "20%"
+            ]
+        ],
+        [
+            [
+                "Letter Grade",
+                "Minimum Percentage"
+            ],
+            [
+                "A",
+                "93%"
+            ],
+            [
+                "A-",
+                "90%"
+            ],
+            [
+                "B+",
+                "87%"
+            ],
+            [
+                "B",
+                "83%"
+            ],
+            [
+                "B-",
+                "80%"
+            ],
+            [
+                "C+",
+                "77%"
+            ],
+            [
+                "C",
+                "70%"
+            ],
+            [
+                "D",
+                "60%"
+            ],
+            [
+                "F",
+                "0%"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"4292\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

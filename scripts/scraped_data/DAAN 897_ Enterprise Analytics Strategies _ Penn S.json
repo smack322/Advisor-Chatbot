@@ -1,0 +1,626 @@
+{
+    "metadata": {
+        "title": "DAAN 897: Enterprise Analytics Strategies – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=3836"
+    },
+    "headings": {
+        "h2": "Social Media & Passenger Data Mining",
+        "h4": "Unlocking Your Potential",
+        "h5": "Disability Statement",
+        "h3": "Lesson 7 : Ethics and Values in Big Data"
+    },
+    "paragraphs": [
+        "DAAN 897 introduces prospective students to the transformative power of Big Data and Business Intelligence in shaping modern businesses. The course explores real-world applications across industries like Engineering, Science, Agriculture, and Finance, demonstrating how data-driven strategies drive innovation and success. Additionally, it emphasizes ethical considerations, such as privacy and identity, preparing students to navigate the challenges of Big Data while making a meaningful impact in their future careers.",
+        "The course will examine Enterprise Analytics Strategies and Business Intelligence in the era of Big Data. Emphasis will be on the successful implementation of Big Data in large and small corporations that delivered extraordinary results. The course will explore what is Big Data and Business Intelligence. Then we will address Big Data in various industries: Engineering, Science, Environmental, Agricultural, and Finance. We will also cover the ethics of Big Data and explain why enterprises may need to reconsider business decisions concerning privacy and identity.",
+        "By completing this course, students will gain knowledge in:",
+        "E-Book Option: You can access free digital versions of the books listed above.  If you have any questions, please contact the Penn State University Library system. For questions or issues, contact the University Libraries Reserve Help (UL RESERVESHELP@LISTS.PSU.EDU).",
+        "Please remember that ALL questions about grades, course lesson content, and assignments should be directed to your course instructor. If you have any technical difficulties using the tools within this course, please contact the Penn State Helpdesk.",
+        "All course-related e-mails should go through Canvas’s course mail function (Canvas Inbox). Using Canvas to contact your instructor ensures that your message will be read, and your instructor will respond to you in a timely manner.",
+        "Many of the University Libraries’ resources can be utilized from a distance. Through the Library website, you can access magazines, journals, and articles; borrow materials and have them delivered to your doorstep; and get research help via email chat or phone from a librarian.",
+        "For more information, view the Penn State University Library. website.",
+        "A grade is given primarily on the basis of the instructor’s judgment as to the student’s scholarly attainment. Students are encouraged to seek the instructor’s input during the process of completing each course requirement. Students are reminded that a letter grade of A is given to students who do exceptional work in both the quality of communicating ideas/information and the level of scholarship demonstrated, not simply for completion of assignments or meeting minimal requirements set for assignments.",
+        "*Student work will be graded according to the following grading scheme:",
+        "A = 93-100, A- = 90-92, B+ = 87-89, B = 83-86, B- = 80-82, C+ = 77-79, C = 70-76, F = Below 70",
+        "There will also be seven (7) weeks of discussion boards for which case studies will be posted online, with a discussion board relating to it, and with 4-5 questions relating to each case study. Each student will be required to respond (by post) to at least two (2) of the questions per case study by 11:59pm ET each Thursday night and then respond to a fellow student’s post by 11:59pm ET the following Sunday. Each week will be worth 5% [35% total].",
+        "A major course project is to be written and to be carried out in groups of three (3), four (4), or five (5).",
+        "***An outline of your topic and plan of action will be required to be turned in mid-semester to make sure you are on track (one page).",
+        "Students will have to answer 3 essay questions (each answer should be 2-3 pages in length) based on the lessons from the course.",
+        "After you have submitted an assignment, you will typically be able to review your grade and any comments made by your instructor within 7 days after the due date. This process is used for all homework assignments, exams, or other graded submissions. Some instructors may also send you a message informing you that the assignment has been graded. Some instructors may choose to release all the grades to all students at once; other instructors may release grades per student one at a time.",
+        "No late work will be accepted. Computer problems that arise during submission will not be accepted as an excuse for late work. All work must be completed and submitted by the designated time as stated in this syllabus or you will not receive credit for the assignment.",
+        "“Academic integrity is the pursuit of scholarly activity free from fraud and deception and is an educational objective of this institution.  Academic dishonesty includes, but is not limited to, cheating, plagiarizing, fabricating of information or citations, facilitating acts of academic dishonesty by others, having unauthorized possession of examinations, submitting work of another person or work previously used without informing the instructor, or tampering with the academic work of other students. At the beginning of each course it is the responsibility of the instructor to provide a statement clarifying the application of academic integrity to that course”.  (Policies and Rules.  A handbook for students)",
+        "My statement on academic integrity is: Academic dishonesty is a serious offense; accordingly, students found to be in violation of these policies will be severely penalized.",
+        "The use of A.I. technologies to generate text is not allowed and will be treated as an academic integrity violation.",
+        "“The Pennsylvania State University encourages qualified persons with disabilities to participate in its programs and activities.  If you anticipate needing any type of accommodation or have questions about the physical access provided, please contact JoAnn Kelly at 610-648-3315 or via email at jek2@psu.edu in advance of your participation or visit”.",
+        "*Subject to change",
+        "Business executives and managers and analysts have wrestled for many years with the problem understanding how to leverage data to improve business results. For a good part of that time, we’ve used business intelligence, which is an umbrella term describing a family of business analysis techniques ranging from standard reports to highly sophisticated advanced statistics. Recently we’ve heard terms like Big Data and cognitive business. As we look at this closer, we realize that this terminology is still the same thing as what BI (Business Intelligence) has been trying to do all along – looking at and analyzing vast amounts of data that we generate and then look at how we can improve top and bottom lines and be competitive.",
+        "So no matter what we call it, Big Data, BI, cognitive business, or even data mining, the challenge that businesses are facing is realizing the value of information that they have.Therefore we need to look at helping business executives, managers and analysts sort through this confusing array of terminology to understand what is real, what is hype and how to leverage this data to improve the top or bottom line or both. We also need to ensure that we have alignment between business strategies and to help manage the complex organizational factors that determine how BI applications are developed and affectively they are adopted within these business processes to increase the top or bottom line or both.So as we should define some of these are the terms:",
+        "(Click the tabs to learn more)",
+        "Business intelligence (BI) is an umbrella term that combines architectures, tools, databases, analytical tools, applications, scorecards, dashboards, and methodologies to increase the top or bottom line or both.",
+        "Analytics is a subset of business intelligence and an umbrella term that encompasses provision of relevant statistical analyses, forecasts, models and/or simulations to business users for use in increasing increase the top or bottom line or both.",
+        "Big Data is large amounts of rapidly generated pictures, video clips, geospatial data, sensor data, text messages, document images, weblogs, and machine data captured in use by social media and Internet based businesses.",
+        "Big Data Analytics is the analysis of stored Big Data content of various kinds to supplement your BI and traditional analytics for use in increasing the top or bottom line or both.",
+        "Cognitive Business is the use of structured and unstructured data and highly sophisticated analytical techniques to identify, evaluate and recommend businesses courses of actions.",
+        "Data Warehouse is a specialized database used to store important business information about transactions, products, customers, channels, financial results, performance metrics and other business information.",
+        "Ultimately, all forms of BI deliver business information for decision-makers to use to analyze past performance and it’s root causes, model and analyze various courses of action, predict future results and analyze economic impacts and make decisions that are formed by underlying data and sound analytical techniques.",
+        "The amount of information of social media is getting larger and larger every day and if the airlines can utilize their resources reasonably, they can provide better services to the passengers, retain old customers and develop new customers.",
+        "Currently we have three primary models for evaluating the social media customer value:",
+        "Weibo data mining (is a Chinese microblogging website. Akin to a hybrid of Twitter and Facebook.)",
+        "Klout Scoring",
+        "Klout scores website users based on a set of data mining algorithms and according to the indexes such as if a user has social media accounts or not, his/her number of fans, his/her update frequency, if his/her content is praised by others, his/her number of comments, his/her number forwarding, etc. Klout score social media users with 100 as the standard. Its specific scoring mode is: if the customer has an account on Twitter or another social media website, and their messages can be seen by others, they were to get certain scores.  Based on this, Klout will score you according to the index such as your number of fans, frequency of your information update, Klout scores of your friends and fans, number people who like your things, number replies, number of forwarding etc.",
+        "The Klout scoring model has three main factors:",
+        "Kred Scoring",
+        "The main source of Kred is Twitter and it established a scoring model based on surrounding followers, likes or shares with others. The final score consists of two parts:",
+        "Influence score reflects the breadth of the user’s influence and the external connection score reflects the influence depth. The influence score measures the ability of a user to motivate others from 1 to 1000, which depends on the number of the user’s Twitter messages forwarded, the number of new followers and the number of replies of the user.",
+        "The main difference between Kred and Klout is that the transparency of Kred is comparatively high which will display how a user gets the final score, even the value of a specific forwarding.",
+        "Weibo Data Mining",
+        "The user scoring of micro data mainly inspects factors in three aspects:",
+        "Influence = activity + spreading capacity + reach",
+        "Activity refers to the number of valid posts of posting forwarding and commenting Weibos.",
+        "Spreading capacity refers to the number of valid posts and a number valid people forwarding and commenting posts.",
+        "Reach refers to the number of active fans.",
+        "As these examples show, an impact of Big Data is that actions have greater consequences, at a more accelerated pace and direct repercussions for company’s brand quality, customer relationships and revenue.",
+        "For both individuals and organizations, there are 4 common elements of what can be considered a framework for Big Data ethics:",
+        "What is the relationship between our off-line and our on-line identity?",
+        "Who should control access to data?",
+        "Who owns data? Can rights to it be transferred? What are the obligations of people who generate and use that data?",
+        "How can we determine what data is trustworthy, whether about ourselves, others or anything else? Big Data exponentially increases the amount of information ways we can interact with it. This phenomenon increases the complexity of managing how we are perceived and judged.",
+        "Both individuals and organizations have legitimate interests in understanding how data is being handled, which means this has the potential to inform both the benefits Big Data provides and the potential risks from unintended consequences for a truly staggering number of people. The direct impact of failing to understand the complexities and nuance of the relationships between Big Data technologies and the people who use them could lead to dire consequences.",
+        "You may be asking why not just any data. Big Data is data too big to be handled by traditional database protocols. In this sense, size is just one aspect of these new technologies. The risk and ethical considerations also come from a few related factors.",
+        "Volume, variety and velocity of available information exponentially increases the complexity of information that companies need to manage, and these factors generate questions that haven’t been previously encountered in the course of doing business. The volume which new data is being generated is staggering. We live in an age where the amount of data we expect to be generated is measured in exabytes and zettabytes. By the year 2025, the forecast is that the Internet will exceed the brain capacity of everyone living on the entire planet.",
+        "While business innovators are excited about the potential benefits they can create from the design and development of a wide range of new products and services based on Big Data technologies, the size, variety and velocity of information available raises new questions. Some of these questions are about the implications of the acquisition, storage and use of large quantities of data about people’s attributes, behavior, preferences, relationships and locations.",
+        "Fundamentally these questions are ethical. They relate to your values and how we play them while creating products and services.Society, government and the legal system have not yet adapted to the coming age of Big Data impacts such as transparency, correlation and aggregation. There was a time when it could be fairly easy to drop ‘off the grid’ and disappear within the continental United States. Today, it would be nearly impossible for a person to do much of anything without generating a data trail that a reasonably knowledgeable and modestly equipped investigator could follow to its end.",
+        "The objective of DAAN 897 is to explore the integration of Enterprise Analytics Strategies and Business Intelligence with Big Data, focusing on practical applications and ethical considerations. Students will learn how data-driven strategies transform industries and gain insights into implementing Big Data solutions that deliver impactful results.",
+        "After successfully completing this course, students will be able to:",
+        "In this course you will gain a comprehensive understanding of how Big Data and Business Intelligence drive innovation and success across industries. You’ll also learn to navigate the ethical complexities of Big Data, preparing you to create impactful and responsible data-driven solutions.",
+        "In this lesson, you will explore the foundations of Enterprise Analytics Strategies and Business Intelligence (BI) in the era of Big Data. You’ll gain insights into the role of BI in transforming businesses and understand what drives BI success from various organizational perspectives.",
+        "By the end of this lesson, you will have a solid understanding of enterprise analytics strategies and the transformative potential of Business Intelligence in the age of Big Data. You will also appreciate the diverse perspectives within an organization that contribute to BI success, setting the stage for more in-depth exploration in subsequent lessons.",
+        "In this lesson, you will dive into the diverse viewpoints of key organizational leaders and their expectations of Business Intelligence (BI) and analytics. Understanding these perspectives will help you grasp how BI strategies align with business goals across different roles and departments.",
+        "By the end of this lesson, you will understand how BI and analytics align with the goals of organizational leaders across diverse roles. This knowledge will provide a comprehensive foundation for By the end of this lesson, you will understand how BI and analytics align with the goals of organizational leaders across diverse roles. This knowledge will provide a comprehensive foundation for developing effective, role-specific BI strategies in real-world settings.",
+        "In this lesson, you will explore the transformative role of Big Data in engineering, science, and related fields. By examining advanced use cases such as weather forecasting, space exploration, and telecommunications, you’ll gain insights into how data-driven approaches solve complex problems and drive innovation.",
+        "By the end of this lesson, you will understand how Big Data empowers engineering and science to address complex challenges, drive innovation, and improve outcomes across diverse applications. These insights will prepare you to approach data challenges in these fields with a creative and analytical mindset.",
+        "In this lesson, you will delve into the world of Geospatial Big Data, exploring its frameworks, standards, and real-world applications in environmental and agricultural services. You will learn how geospatial data is analyzed and leveraged to solve pressing challenges and drive innovation in these critical sectors.",
+        "By the end of this lesson, you will understand how geospatial Big Data is transforming industries by providing actionable insights into environmental and agricultural challenges. Equipped with knowledge of frameworks and standards, you will be prepared to explore innovative applications of geospatial analytics.",
+        "In this lesson, you will explore the application of Big Data in financial markets, focusing on the opportunities and challenges it presents. From understanding the 3 V’s of Big Data to addressing adoption hurdles, this lesson provides a comprehensive view of how financial institutions leverage Big Data for growth and innovation.",
+        "By the end of this lesson, you will have a solid understanding of how Big Data is transforming financial markets and the factors influencing its adoption. Equipped with this knowledge, you will be prepared to address the unique challenges and opportunities of Big Data in the financial sector.",
+        "This lesson explores the transformative role of Big Data in the airline industry. You will learn how airlines leverage advanced analytics to optimize operations, improve customer experiences, and address unique industry challenges, with a focus on social media and passenger data mining.",
+        "By the end of this lesson, you will understand how Big Data is reshaping the airline industry, from streamlining operations to enhancing customer relationships. This knowledge equips you to explore data-driven strategies to address challenges unique to the aviation sector.",
+        "In this lesson, students delve into the ethical dimensions of Big Data, exploring its potential impacts and the importance of aligning data practices with ethical principles. You will gain insight into how values and actions shape data-driven decision-making and understand the role of ethical inquiry in creating responsible analytics strategies.",
+        "By the end of this lesson, students will grasp the critical importance of ethics in Big Data and be equipped to identify and address ethical challenges in analytics projects. This understanding prepares you to implement responsible and impactful data strategies in your professional career.",
+        "In the evolving landscape of data-driven industries, DAAN 897 equips students with the skills and knowledge to excel in roles at the forefront of business intelligence and enterprise analytics. By exploring the integration of Big Data strategies in industries such as engineering, finance, and agriculture, this course provides a comprehensive understanding of how organizations harness data for strategic decision-making. Students learn to implement analytics frameworks, evaluate business outcomes, and address ethical considerations, making them valuable contributors to any data-focused team.Graduates of this course are prepared for roles like Data Analyst, Business Intelligence Specialist, and Big Data Strategist. The hands-on projects and industry-focused lessons provide real-world insights, enabling students to translate data into actionable strategies. Whether working in large corporations, startups, or consulting firms, students gain a competitive edge by mastering the tools and methodologies needed to drive innovation and improve organizational efficiency in the era of Big Data.",
+        "Optimizing Operations in the Airline Industry",
+        "A major airline company faces challenges in optimizing flight schedules, pricing, and customer experience. By applying the concepts learned in DAAN 897, the airline can analyze vast amounts of data from flight operations, customer behavior, weather patterns, and market trends. Through Big Data strategies and business intelligence tools, students gain the skills to help the airline identify inefficiencies, optimize seat pricing, forecast demand, and enhance the overall customer journey. For instance, the airline could use predictive analytics to anticipate peak travel times and adjust flight schedules, reducing delays and improving profitability. This real-world application demonstrates how Big Data can drive operational improvements and create competitive advantages in industries like aviation.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Ideas for improving the enterprise business performance of one’s company or enterprise functions.",
+            "Analyze real examples of world-class Big Data implementations.",
+            "Gain road-tested advice about formulating Big Data strategies to transform enterprise strategies.",
+            "Gain an understanding of the ethics of utilizing Big Data."
+        ],
+        [
+            "(Book 1)  Williams, Business Intelligence Strategy and Big Data Analytics, 1st Edition, 2016. Publisher:Morgan Kaufmann",
+            "(Book 2) Bernard Marr, Big Data in Practice, 2016. Publisher: Wiley",
+            "(Book 3) Yu & Guo Editors, Big Data Concepts, Theories, and Applications, 2016.Publisher: Springer",
+            "(Book 4) K. Davis, Patterson, Ethics of Big Data-Balancing Risk and Innovation, 2012. Publisher: O’Reilly Media"
+        ],
+        [
+            "(None)"
+        ],
+        [
+            "HelpDesk Website: https://student.worldcampus.psu.edu/help-and-support/technical-support.",
+            "HelpDesk Email: techsupport@worldcampus.psu.edu",
+            "HelpDesk Phone: (800) 252-3592"
+        ],
+        [
+            "Students will identify a real-life business problem and develop a business intelligence/big data solution/application for the problem.",
+            "Develop a presentation with audio narration of 15-20 slides.",
+            "You should include the following in your presentation as separate sections:\n\n\nIntroduction\nBusiness Problem\nProposed Solution\nScope\nObjectives\nRequirements\nAny Assumptions\nAny Constraints\nCost Benefits Analysis\nLessons Learned\nReferences by your group.",
+            "Introduction",
+            "Business Problem",
+            "Proposed Solution",
+            "Scope",
+            "Objectives",
+            "Requirements",
+            "Any Assumptions",
+            "Any Constraints",
+            "Cost Benefits Analysis",
+            "Lessons Learned",
+            "References by your group."
+        ],
+        [
+            "Introduction",
+            "Business Problem",
+            "Proposed Solution",
+            "Scope",
+            "Objectives",
+            "Requirements",
+            "Any Assumptions",
+            "Any Constraints",
+            "Cost Benefits Analysis",
+            "Lessons Learned",
+            "References by your group."
+        ],
+        [
+            "Business Intelligence",
+            "Social Media & Passenger Data Mining",
+            "Big Data, Big Impact"
+        ],
+        [
+            "Klout",
+            "Kred",
+            "Weibo"
+        ],
+        [
+            "True reach – refers to the number people that a user has influenced.",
+            "Amplification – basically refers to the number people who forwarded your post and frequency impact.",
+            "Network impact – refers to the network impact of a user."
+        ],
+        [
+            "Influence score",
+            "External connection score"
+        ],
+        [
+            "A user’s activity",
+            "Spreading capacity and reach",
+            "Specific scoring algorithm (see formula below)"
+        ],
+        [
+            "Ideas for improving the enterprise business performance of one’s company or enterprise functions.",
+            "Analyze real examples of world-class Big Data implementations.",
+            "Gain road-tested advice about formulating Big Data strategies to transform enterprise strategies.",
+            "Gain an understanding of the ethics of utilizing Big Data."
+        ],
+        [
+            "L1",
+            "L2",
+            "L3",
+            "L4",
+            "L5",
+            "L6",
+            "L7"
+        ],
+        [
+            "Introduction to Enterprise Analytics Strategies : Learn the importance of analytics strategies in helping businesses leverage data to gain competitive advantages. Understand the key components that make up effective enterprise analytics strategies.",
+            "Business Intelligence in the Era of Big Data and Cognitive Business : Discover how Big Data and cognitive technologies are revolutionizing Business Intelligence, enabling organizations to predict trends, optimize processes, and improve decision-making.",
+            "What BI Success Looks Like : Explore real-world examples of successful BI implementations and the measurable outcomes they deliver, such as improved efficiency, better decision-making, and increased profitability.",
+            "Job Function Views of BI Success : Examine how different roles within an organization, from executives to analysts, perceive and contribute to BI success, highlighting its broad impact on business operations."
+        ],
+        [
+            "Participate in a group discussion on the importance of analytics strategies and BI in real-world scenarios.",
+            "Analyze case studies of successful BI implementations to identify key factors contributing to their success.",
+            "Collaborate on a group project to outline a basic BI strategy for a hypothetical company."
+        ],
+        [
+            "The COO’s View focuses on operational efficiency and process optimization. BI tools provide insights that help streamline workflows, reduce costs, and enhance productivity across departments.",
+            "The CMO’s View relies on BI for customer insights and campaign effectiveness. Learn how analytics supports targeted marketing, customer segmentation, and ROI measurement.",
+            "The CSO’s View Chief Sales Officers depend on BI to optimize sales pipelines and forecast revenue. Analytics empowers sales strategies by identifying opportunities, improving lead conversions, and enhancing client relationships.",
+            "The CFO’s View uses BI to ensure financial accountability and risk management. Discover how data analytics supports budgeting, cost control, and compliance within organizations.",
+            "The CIO’s View focuses on the technological backbone of BI systems, ensuring data security, scalability, and integration with existing IT infrastructure. Learn the critical role technology plays in delivering actionable insights."
+        ],
+        [
+            "Participate in group discussions analyzing the priorities of different C-suite roles and their reliance on BI tools.",
+            "Conduct a case study on a company’s BI implementation and evaluate its effectiveness from multiple leadership perspectives.",
+            "Draft an outline for a group project showcasing how BI strategies align with the objectives of various C-suite roles."
+        ],
+        [
+            "Big Data Advances in Engineering and Science: Discover how Big Data enables groundbreaking research and innovation, solving intricate challenges in engineering and science through advanced analytics and computational power.",
+            "Weather Forecasting: Learn how Big Data is revolutionizing weather prediction by integrating satellite data, simulations, and real-time analytics, resulting in more accurate forecasts that enhance public safety.",
+            "Big Data in the Universe: Explore how astrophysicists leverage Big Data technologies to analyze massive datasets from telescopes and space missions, uncovering the mysteries of the cosmos.",
+            "Hadoop & Data Management for Engineering and Science: Understand the role of Hadoop and similar tools in managing and analyzing massive datasets, offering scalable solutions for engineering and scientific research.",
+            "Clinical Decision Support: Examine how Big Data improves healthcare through clinical decision support systems, enabling personalized treatment plans and predictive diagnostics.",
+            "Telecommunications: Learn how telecommunications companies use Big Data to enhance network performance, predict outages, and optimize customer experiences through real-time data analysis."
+        ],
+        [
+            "Participate in a discussion on the most impactful applications of Big Data in engineering and science.",
+            "Explore case studies on weather forecasting and space exploration to analyze the role of advanced analytics in these fields.",
+            "Collaborate on a group discussion project focusing on innovative uses of Big Data in engineering or scientific domains."
+        ],
+        [
+            "Geospatial Big Data: Explore how massive geospatial datasets are collected, managed, and analyzed to uncover patterns and insights that inform decision-making across industries.",
+            "Open Geospatial Standards: Learn about the frameworks and protocols that ensure interoperability and consistency when working with geospatial data from diverse sources.",
+            "Geospatial Big Data Frameworks: Understand the tools and systems used to process and analyze geospatial data, enabling large-scale applications and efficient management of location-based information.",
+            "Geospatial Environmental and Agricultural Services: Examine how geospatial data is applied to monitor environmental changes, optimize agricultural practices, and address sustainability challenges."
+        ],
+        [
+            "Participate in a discussion on the ethical and practical considerations of using geospatial data in environmental and agricultural contexts.",
+            "Analyze case studies showcasing the impact of geospatial Big Data frameworks on solving real-world problems."
+        ],
+        [
+            "The 3 V’s in Financial Markets: Discover how Volume, Velocity, and Variety define Big Data’s role in financial markets, enabling institutions to process vast amounts of data in real-time for decision-making.",
+            "Trends Shaping Big Data Initiatives: Examine the emerging technologies and strategies driving the adoption of Big Data, such as AI integration and enhanced data visualization techniques.",
+            "Retail Banking: Learn how retail banks utilize Big Data to improve customer experience, enhance fraud detection, and optimize personalized financial products.",
+            "Hurdles to Adopting Big Data: Understand the challenges institutions face, including data security concerns, regulatory constraints, and the cost of implementing scalable solutions."
+        ],
+        [
+            "Engage in a discussion about how the 3 V’s are shaping the future of financial data analysis.",
+            "Analyze case studies highlighting successful Big Data initiatives in retail banking and explore potential solutions to common adoption challenges."
+        ],
+        [
+            "Big Data Challenges in the Airline Industry: Understand the complexities airlines face, including operational efficiency, real-time decision-making, and the integration of diverse data sources for seamless operations.",
+            "Social Media and Passenger Data Mining: Explore how airlines analyze social media and passenger feedback to personalize services, enhance customer satisfaction, and predict travel trends.",
+            "WebTrends Analysis: Learn about the use of web analytics to identify market trends, optimize booking platforms, and enhance online engagement with travelers."
+        ],
+        [
+            "Participate in a discussion exploring innovative applications of Big Data in improving airline operations and customer engagement.",
+            "Analyze case studies that showcase successful uses of social media data and WebTrends in enhancing passenger experience and operational strategies."
+        ],
+        [
+            "Big Data, Big Impact: Examine the far-reaching influence of Big Data across industries and its ability to drive innovation, while considering unintended societal consequences.",
+            "Big Data is Ethically Neutral: Discuss the notion that Big Data itself is neutral, with its ethical implications determined by how it is used by individuals and organizations.",
+            "Concepts and Terms: Learn foundational ethical principles and key terminology essential for discussing and evaluating the ethical challenges of Big Data.",
+            "Values and Actions: Explore how values influence the application of Big Data, ensuring practices that promote equity, privacy, and fairness.",
+            "Benefits of Ethical Inquiry: Understand how ethical inquiry can enhance decision-making, mitigate risks, and foster trust in data-driven systems."
+        ],
+        [
+            "Engage in discussions about real-world ethical dilemmas in Big Data, analyzing diverse perspectives and proposing solutions.",
+            "Collaborate on group projects to develop ethical guidelines for a data-driven initiative, incorporating values and actions that reflect responsible data practices."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Business Intelligence Strategy and Big Data Analytics",
+            "url": "https://catalog.libraries.psu.edu/catalog/29275160"
+        },
+        {
+            "text": "Big Data in Practice",
+            "url": "https://catalog.libraries.psu.edu/catalog/23790321"
+        },
+        {
+            "text": "Big Data Concepts, Theories, and Applications",
+            "url": "https://catalog.libraries.psu.edu/catalog/17284410"
+        },
+        {
+            "text": "Ethics of Big Data-Balancing Risk and Innovation,",
+            "url": "https://catalog.libraries.psu.edu/catalog/29282276"
+        },
+        {
+            "text": "Penn State University Library system",
+            "url": "https://libraries.psu.edu/"
+        },
+        {
+            "text": "RESERVESHELP@LISTS.PSU.EDU)",
+            "url": "mailto:RESERVESHELP@LISTS.PSU.EDU)"
+        },
+        {
+            "text": "https://student.worldcampus.psu.edu/help-and-support/technical-support.",
+            "url": "https://student.worldcampus.psu.edu/help-and-support/technical-support"
+        },
+        {
+            "text": "techsupport@worldcampus.psu.edu",
+            "url": "mailto:techsupport@worldcampus.psu.edu?subject=World%20Campus%20Tech%20Support%20Inquiry"
+        },
+        {
+            "text": "Penn State University Library.",
+            "url": "https://libraries.psu.edu/"
+        },
+        {
+            "text": "Klout",
+            "url": "#tab-strongkloutstrong"
+        },
+        {
+            "text": "Kred",
+            "url": "#tab-strongkredstrong"
+        },
+        {
+            "text": "Weibo",
+            "url": "#tab-strongweibostrong"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [],
+    "tables": [
+        [
+            [
+                "Assignment Category",
+                "Points"
+            ],
+            [
+                "Group Project",
+                "30%"
+            ],
+            [
+                "Final Exam (Essay)",
+                "35%"
+            ],
+            [
+                "Discussion Posts (7 weeks total: 5% per week)",
+                "35%"
+            ],
+            [
+                "Total",
+                "100%"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"3836\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

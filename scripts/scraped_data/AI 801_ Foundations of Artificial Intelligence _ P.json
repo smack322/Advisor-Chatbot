@@ -1,0 +1,606 @@
+{
+    "metadata": {
+        "title": "AI 801: Foundations of Artificial Intelligence – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=3287"
+    },
+    "headings": {
+        "h2": "Lesson 14: Final Lesson",
+        "h4": "Unlocking Your Potential",
+        "h3": "Imperfect Information"
+    },
+    "paragraphs": [
+        "AI 801: Foundations of Artificial Intelligence is a three-credit fourteen-week course where students will Dive into the exciting world of Artificial Intelligence in this dynamic and interactive course! You’ll gain hands-on experience implementing cutting-edge AI techniques, moving beyond theory to practical applications that include designing games and implementing reinforcement learning procedures. Through carefully crafted assignments, you’ll develop a strong foundation in AI principles while sharpening your problem-solving skills in real-world scenarios.",
+        "Throughout this course, you will learn to implement AI techniques presented in each lesson, ranging from design of games to implement reinforcement learning procedures via hands-on assignments. You will also have the opportunity to prove your skills by building small projects using AI libraries. This course is a pre-requisite for AI 574: Natural Language Processing.",
+        "The objective of this course is to provide theoretical foundations and hands-on experience in deep learning.  After successfully completing this course, students will be able to:",
+        "Russell, S., Norvig, P. (2021). Artificial Intelligence: A Modern Approach. 4th ed.  Pearson Education. ​(ISBN-13: 978-0-13-461099-3)",
+        "OR",
+        "Russell, S., Norvig, P. (2010). Artificial Intelligence: A Modern Approach. 3rd ed.  Pearson Education. ​(ISBN-13: 978-0-13-604259-4)",
+        "A free PDF version of the 3rd edition is available via Github.  Select this link to access and download a digital copy: Artificial Intelligence: A Modern Approach, 3rd ed.  If you’d prefer a physical copy, you may purchase the textbook from a vendor of your choice.",
+        "Instructions on how to access the required software will be provided in Lesson 2.",
+        "Proctored Exams- None",
+        "Grades will be based on the following scale:",
+        "A = 94 – 100, A- = 90 – 93, B+ = 87 – 89, B = 84 – 86, B- = 80 – 83, C+ = 77 – 79, C = 70 – 76, D = 60 – 69, and F = 60 and below.",
+        "Throughout this course you will complete 12 assignments. Each assignment consists of several problems that will assess your understanding of the material presented thus far in the course. Please be sure to complete all parts of each question and upload your completed file to the assignment by the due date indicated in the Course Syllabus..",
+        "There are 12 quizzes related to Python programming. Starting with Lesson 2, each lesson will provide an opportunity to take a quiz to demonstrate your Python skills.  The quizzes are untimed and you’ll have unlimited attempts to take each quiz.  Canvas will keep your highest score regardless of how many times you take the quiz.",
+        "The state of the art literature review is a research assignment related to your project. Your team will have 2 weeks in which to conduct research and write the review.  Any questions should be directed to your instructor.",
+        "Throughout this course you will work in teams of 2-3 students to create an Artificial Intelligence Project. Please read the Project Description provided in the Student Resources module thoroughly.  Do not hesitate to contact your instructor if you need additional guidance or support.",
+        "Please contact your group members and begin discussing the project within the first two weeks of the course. To locate your group, select People from the course navigation menu and click on the Groups tab. Join your assigned group and visit the group homepage. On your group homepage click the People tab to see the names of students in your group.",
+        "A Project Proposal and Preliminary Write-Up for your project will be due in Week 5.  Your team will prepare a project proposal and preliminary write-up in a MS Word document (2-3 pages)",
+        "The final project will be due at the end of the course and will consist of the deliverables outlined on the Project Description page. Your instructor will create team folders on OneDrive for each group to submit their deliverables.",
+        "*subject to change",
+        "An AI based system deals with the study and analysis of the behavior of rational entities and the environment they work on. Rational entities can be termed as agents which can discern the environment via sensors and deliver actions on their environment through actuators.  An AI agent can be programmed to acquire the behavioral properties e.g., knowledge, belief, intention, etc.",
+        "An Agent runs in a sequence of sensing, believing, and acting. An agent can be:",
+        "We segregate the game playing strategy into two categories based on the information accessed by the agents.",
+        "A game with the perfect information is one in which the agents can see the whole environment or state space. Agents have all the information about the search space and the moves or actions of the opponents.",
+        "Example of such games are Tic-Tac-Toe, Chess, Checkers, etc.",
+        "Imperfect information is when the agents in an adversarial environment do not have access the full information about the game in terms of action-states pairs, though the environment is fully visible. This type of game is called the imperfect information game.",
+        "The examples of imperfect information games are Battleship, blind, Bridge, etc.",
+        "Building Decision Trees",
+        "Decision trees belong to a class of recursive partitioning algorithms that are simple to describe and implement.",
+        "The determination of the “best” can be made in many ways, but regardless of the metric, they all provide a measure of purity of class distribution. Every input variable is a candidate for every split, so that the same variable can be used for every split in the decision tree.",
+        "Decision trees are non-linear predictors. It means that decision boundary between target variable classes is non-linear. The extent of non-linearities depends on the number of splits in the tree as each split is a piecewise constant separator as shown in figure 2. As the tree becomes more complex, the depth increases, and more piecewise constant separators are built into the decision boundary providing the non-linear separation.",
+        "This course will provide you with a thorough introduction to:",
+        "During this course you will expand your knowledge of the lesson topics each week.",
+        "This lesson serves as your gateway to the fascinating world of Artificial Intelligence (AI). We will introduce you to the foundational concepts, terminology, and historical context of AI, setting the stage for the more advanced topics you’ll encounter later in the course. You’ll explore how AI intersects with fields like mathematics, linguistics, and computer science, providing a broad yet cohesive understanding of this transformative technology.",
+        "By the end of this lesson, you will have a clear understanding of Artificial Intelligence’s historical significance, its interdisciplinary connections, and the foundational principles that guide the design and operation of intelligent agents in various environments. You’ll be equipped with the knowledge to identify AI applications and discuss their impact on technology and society.",
+        "This lesson introduces you to Python, one of the most popular programming languages in the field of artificial intelligence and beyond. You’ll learn how Python is used for various tasks, from machine learning to web development, and explore why it is the language of choice for AI practitioners.",
+        "By the end of this lesson, you will have a clear understanding of how to download, install, and configure Python and Anaconda, along with their key features and functionality. You’ll be equipped with the skills to effectively use tools like Jupyter Notebook, Jupyter Lab, and Python IDEs, building a strong foundation for navigating Python confidently in AI development tasks.",
+        "In this lesson, we delve into the concept of goal-based agents and their role in problem-solving, a critical component of artificial intelligence. You’ll learn how these agents operate to transition from a current state to a desired goal state through systematic methods.",
+        "By the end of this lesson, you will have a clear understanding of the role of problem-solving agents in artificial intelligence, the distinctions between different types of agents, and the fundamental principles of uninformed search methods. You’ll be equipped to analyze and apply these concepts to real-world AI challenges.",
+        "In this lesson, we will explore informed search strategies, which utilize additional information to navigate complex problems more efficiently than uninformed searches. These algorithms are pivotal in solving real-world challenges, such as route optimization in Google Maps, by delivering precise results in real time. By the end of this session, you’ll have a solid understanding of how these advanced techniques work and where they can be applied effectively.",
+        "At the end of this lesson, prospective students will have a strong grasp of how informed search algorithms operate and their practical applications. You’ll not only understand the theoretical underpinnings of Best First Search, Greedy Best First Search, and A* Search but also gain confidence in applying these methods to solve complex, real-world problems. This foundational knowledge will prepare you to tackle challenges requiring precise decision-making and efficient navigation through large datasets or search spaces.",
+        "This lesson introduces you to game playing in multi-agent environments, where intelligent agents compete within a shared space. You’ll learn how these scenarios differ from single-agent searches and explore strategies for navigating adversarial conditions.",
+        "By completing this lesson, you will gain the ability to navigate competitive environments, analyze adversarial interactions, and implement efficient strategies to achieve your objectives.",
+        "This lesson introduces you to knowledge-based agents, a flexible approach to problem-solving in AI. Learn how these agents leverage a knowledge base to reason, make decisions, and adapt to complex environments. Explore how logical assertions about the world are represented and used to guide intelligent behavior.",
+        "By the end of this lesson, you will have a comprehensive understanding of knowledge representation, logical reasoning, and how knowledge-based agents operate effectively in complex environments.",
+        "This lesson explores adversarial search, emphasizing the dynamics of multi-agent environments where agents compete for conflicting goals. Students will learn how game trees model decision-making processes and how Alpha-Beta pruning optimizes those decisions.",
+        "By the end of this lesson, you’ll understand how First Order Logic (FOL) enhances propositional logic to represent complex relationships and natural language. You’ll explore quantifiers, generalized modus ponens, and the process of converting FOL statements into Conjunctive Normal Form (CNF). Additionally, you’ll learn to construct resolution graphs and differentiate between forward and backward chaining, equipping you with essential reasoning tools for solving real-world AI problems.",
+        "This lesson explores the foundational principles of knowledge representation, focusing on how agents can perceive, interpret, and respond to complex environments. Students will learn how ontological representation structures knowledge about events, time, and physical objects to enable reasoning and action in real-world scenarios.",
+        "By the end of this lesson, you will understand how knowledge representation enables agents to perceive and respond to complex environments. You’ll explore the principles of ontological representation, including how categories, events, and time are modeled. Additionally, you’ll gain insights into the role of mental objects and modal logic in reasoning, while mastering tools like semantic networks and description logic to organize and apply structured knowledge effectively. These skills will equip you to create intelligent systems capable of reasoning and decision-making in dynamic scenarios.",
+        "This lesson explores the foundational concept of learning from observation, emphasizing how agents—whether human or machine—can improve performance through repeated exposure to their environment. Students will learn about the basics of machine learning, where computers create hypotheses based on observed data to make predictions about unseen scenarios.",
+        "By the end of this lesson, you will understand the principles of learning from observation and how decision tree learning can be used for classification and regression tasks. You’ll gain insights into selecting models using the bias-variance tradeoff, preventing overfitting, and applying cross-validation techniques to evaluate model performance. These skills will enable you to build reliable and effective machine learning models.",
+        "This lesson introduces the concept of uncertainty in artificial intelligence, exploring how incomplete or imperfect information affects decision-making. Students will learn the causes of uncertainty and how probabilistic reasoning provides a framework to manage it.",
+        "By the end of this lesson, you will understand how uncertainty impacts AI systems and how probabilistic reasoning addresses it. You’ll explore foundational probability concepts, including axioms, distributions, and conditional probabilities, as well as advanced topics like joint probability, independence, and Bayes rule. Additionally, you’ll learn to apply the Naïve Bayes model for classification, equipping you with practical tools for reasoning under uncertainty.",
+        "This lesson introduces Bayesian networks as a powerful tool for representing probabilistic dependencies between variables. Students will explore how these networks model both conditionally dependent and independent relationships, enabling efficient computation of joint probability distributions.",
+        "By the end of this lesson, you will understand how Bayesian networks model probabilistic relationships and support reasoning under uncertainty. You’ll learn to create belief networks, identify the Markov blanket, and apply exact inference techniques. Additionally, you’ll explore variable elimination as a method to simplify computations, equipping you with tools to handle complex probabilistic problems effectively.",
+        "This lesson introduces the foundational concept of the Markov property, which forms the basis of Markov processes. Students will learn how these processes model systems where the future state depends only on the current state, providing the groundwork for understanding Markov Decision Processes (MDPs).",
+        "By the end of this lesson, you will understand the Markov property and how it forms the foundation for representing decision-making problems using Markov Decision Processes (MDPs). You’ll learn to model systems with randomness and control, represent MDPs mathematically, and solve them using algorithms like value iteration and policy iteration. Additionally, you’ll be able to derive optimal policies and rewards, equipping you with the skills to tackle complex decision-making challenges in uncertain environments.",
+        "This lesson introduces the foundational concepts of Reinforcement Learning (RL), a key branch of Artificial Intelligence. Students will explore how agents learn to make decisions by interacting with an environment and receiving rewards. The objective is to understand the principles of RL and its goal of finding optimal policies to solve tasks.",
+        "By the end of this lesson, you will understand the core concepts of Reinforcement Learning, including how agents interact with environments to maximize rewards. You’ll distinguish between model-based and model-free learning, explore on-policy and off-policy strategies, and learn to apply the epsilon-greedy algorithm. Additionally, you’ll gain the skills to solve both passive and active reinforcement learning problems, preparing you to implement RL in dynamic and practical scenarios.",
+        "This week is dedicated to completing and showcasing your final project. Each team will deliver a recorded presentation of their project using Zoom, share it with the class, and provide constructive peer feedback. This is your opportunity to demonstrate your understanding of artificial intelligence concepts and apply them to a real-world problem.",
+        "By the end of this lesson, you will have demonstrated your ability to apply artificial intelligence concepts to a real-world problem through your final project. You will have enhanced your presentation skills, provided constructive feedback to peers, and engaged in collaborative discussions to deepen your understanding of AI applications. Additionally, you’ll reflect on the knowledge gained throughout the course and its practical implications.",
+        "AI801: Foundations of Artificial Intelligence provides a solid base for understanding and applying AI concepts across various industries. By mastering core topics like machine learning, reinforcement learning, probabilistic reasoning, and decision-making processes, students are well-prepared to pursue roles in AI development, data science, robotics, and intelligent systems. This course emphasizes both theoretical knowledge and practical implementation, making graduates versatile in tackling real-world AI challenges.",
+        "The skills gained in this course are highly sought after by employers in technology, healthcare, finance, manufacturing, and more. Graduates often pursue roles such as AI Engineer, Machine Learning Specialist, Data Scientist, Research Scientist, and AI Product Manager. The demand for professionals with AI expertise continues to grow as businesses increasingly adopt AI technologies to drive innovation and efficiency, providing diverse career opportunities for students of AI801.",
+        "One real-world example of applying concepts from AI801: Foundations of Artificial Intelligence can be seen in the transportation industry. A major city aimed to implement an AI-driven traffic management system to reduce congestion, improve road safety, and lower emissions. However, initial attempts were unsuccessful due to a lack of understanding of AI principles and poor integration of data sources. The system struggled to process the vast amounts of traffic data in real-time, and the predictive models it used were inaccurate, leading to mismanagement of traffic signals and ineffective rerouting suggestions. This resulted in increased traffic delays, frustration among commuters, and wasted resources.",
+        "To address this issue, a team with expertise in AI principles—similar to those taught in AI801—was brought in. Using foundational knowledge of reinforcement learning and probabilistic reasoning, they developed an intelligent traffic system that dynamically adjusted signals based on real-time traffic data and predicted congestion patterns. They incorporated robust machine learning algorithms to analyze historical and live traffic data, ensuring accurate predictions and timely responses. As a result, the new system significantly reduced congestion, improved traffic flow, and enhanced commuter satisfaction. This example highlights the real-world impact of applying AI foundations to design effective and intelligent systems for complex problems.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Demonstrate knowledge of artificial intelligence concepts and techniques.",
+            "Identify suitable learning tasks to which these learning techniques can be applied.",
+            "Demonstrate understanding of some of the current limitations of artificial intelligence techniques.",
+            "Formulate artificial intelligence problems, set up and run computational experiments and evalute results",
+            "Reuse common artificial intelligence libraries and packages."
+        ],
+        [
+            "Anaconda: https://www.anaconda.com/download/",
+            "Jupyter as the web based interactive shell.",
+            "PyCharm: As the IDE"
+        ],
+        [
+            "Reinforcement Learning",
+            "Introduction to Artificial Intelligence",
+            "Python",
+            "Problem Solving and Uninformed Search",
+            "Informed Searches",
+            "Game Playing",
+            "Knowledge Based Agents and Propositional Logic",
+            "First Order Logic",
+            "Knowledge Representation",
+            "Uncertainty handling, Probability and Bayes Rule",
+            "Learning from Observation and Decision Trees",
+            "Markov Decision Process",
+            "Bayesian Belief Network"
+        ],
+        [
+            "AI Agents",
+            "AI in Games",
+            "Decision Trees"
+        ],
+        [
+            "Human Agent: A human agent has organs for vision and hearing (sensory organs), while hands, arms, legs, vocal tract act as actuators to deliver actions.",
+            "Robotic Agent: A robotic agent possesses cameras, infrared camera, NLP as sensors, and various motors, shafts, cranks as actuators to deliver actions.",
+            "Software Agent: Software agent uses keyboard, mouse, file contents, app-click as sensors and activate those inputs to display output on the monitor and/or printer that work as actuators."
+        ],
+        [
+            "Demonstrate knowledge of artificial intelligence concepts and techniques.",
+            "Identify suitable learning tasks to which these learning techniques can be applied.",
+            "Demonstrate an understanding of some of the current limitations of artificial intelligence techniques.",
+            "Formulate artificial intelligence problems, set up and run computational experiments, and evaluate results",
+            "Reuse common artificial intelligence libraries and packages."
+        ],
+        [
+            "L1-L2",
+            "L3-L4",
+            "L5-L6",
+            "L7-L8",
+            "L9-L10",
+            "L11-L12",
+            "L13-L14"
+        ],
+        [
+            "Interactive Lecture: Gain insights into the history and evolution of AI, including landmark achievements and cultural milestones.",
+            "Real-World Applications: Investigate examples of AI systems in various environments, from robotics to natural language processing."
+        ],
+        [
+            "Group Discussion: Explore how AI integrates concepts from mathematics, linguistics, and computer science through real-world examples.",
+            "Intelligent Agent Exploration: Analyze case studies to identify the components of intelligent agents and the environments they operate in."
+        ],
+        [
+            "Introduction to Python: Learn why Python is widely used in artificial intelligence and its applications in various domains.",
+            "Essential Tools for AI: Familiarize yourself with key programming tools, including Jupyter Notebook, Jupyter Lab, and Python IDEs like Spyder and PyCharm."
+        ],
+        [
+            "Practice Tasks: Complete exercises to learn Python syntax, basic data structures, and simple programming concepts.",
+            "Assignment: Apply what you’ve learned to a programming task, solidifying your understanding of Python tools and their applications."
+        ],
+        [
+            "Introduction to Problem-Solving Agents: Learn the concept of goal-based agents and how they function to transition from a current state to a defined goal state.",
+            "Problem-Solving Concepts: Understand how problem-solving serves as the foundation for many AI applications by breaking down complex tasks into achievable goals."
+        ],
+        [
+            "Concept Mapping: Create a visual map to compare and contrast different types of agents, highlighting the role and functionality of problem-solving agents.",
+            "Programming Exercise: Implement a simple uninformed search algorithm in Python, such as breadth-first search, and test it with a sample problem."
+        ],
+        [
+            "Informed searches utilize additional data to navigate complex problems with precision, outperforming uninformed methods.",
+            "Real-world applications include route optimization (e.g., Google Maps), where informed algorithms consider real-time factors like traffic and shortest paths."
+        ],
+        [
+            "Lesson Content Review: Engage with detailed materials on the Best First Search, Greedy Best First Search, and A* algorithms.",
+            "Portfolio Development: Document your learning and reflect on potential real-world applications of informed search techniques."
+        ],
+        [
+            "Introduction to Adversarial Search: Understand how agents navigate multi-agent environments with conflicting goals.",
+            "Game Trees: Explore how decision-making processes are modeled and analyzed in competitive scenarios."
+        ],
+        [
+            "Discussion and Reflection: Share insights and strategies with peers to deepen understanding of adversarial search principles.",
+            "Interactive Simulations: Participate in role-playing exercises where you act as an agent in a competitive environment."
+        ],
+        [
+            "Introduction to Knowledge-Based Agents: Learn how agents use a knowledge base (KB) to make informed and flexible decisions.",
+            "TELL, ASK, and INFORM Processes: Examine how agents interact with the KB to perceive, plan, and act."
+        ],
+        [
+            "Logical Problem-Solving: Solve exercises using propositional logic to reinforce key concepts.",
+            "Interactive Discussions: Collaborate with peers to analyze how knowledge-based agents operate in various environments."
+        ],
+        [
+            "Introduction to First Order Logic (FOL): Understand how FOL extends propositional logic to represent more complex relationships and natural language.",
+            "Resolution Graphs: Study how resolution graphs are used to visualize and solve logical problems."
+        ],
+        [
+            "Reasoning Challenges: Apply forward and backward chaining to solve logical puzzles and scenarios.",
+            "Quantifier Practice: Create and analyze logical statements using existential and universal quantifiers"
+        ],
+        [
+            "Introduction to Ontological Representation: Understand how abstract concepts like events, time, and beliefs are represented to enable reasoning.",
+            "Semantic Networks: Discover how relationships between concepts are organized for efficient knowledge retrieval."
+        ],
+        [
+            "Ontological Modeling: Create representations of real-world scenarios using unary and binary predicates.",
+            "Description Logic Problems: Solve practical problems using description logic to enhance reasoning skills."
+        ],
+        [
+            "Machine Learning Basics: Explore how machines build hypotheses and create models from observed data.",
+            "Overfitting and Underfitting: Identify and address common challenges in model training."
+        ],
+        [
+            "Decision Tree Construction: Build and analyze decision trees from sample datasets to understand their structure and function.",
+            "Case Study Discussions: Analyze real-world applications of decision tree learning and model validation techniques."
+        ],
+        [
+            "Understanding Uncertainty: Learn how uncertainty arises in AI due to incomplete or imperfect information and unreliable data sources.",
+            "Probabilistic Reasoning: Explore how probability provides a framework for managing uncertainty in AI systems."
+        ],
+        [
+            "Exploring Uncertainty: Identify and discuss examples of uncertainty in real-world AI systems.",
+            "Joint Probability Exercises: Create and evaluate full joint probability distributions for given scenarios."
+        ],
+        [
+            "Bayesian Networks Overview: Learn how Bayesian networks represent probabilistic relationships using nodes and directed edges.",
+            "Exact Inference: Discover techniques for calculating exact probabilities using Bayesian networks."
+        ],
+        [
+            "Bayesian Network Construction: Practice building Bayesian networks with nodes and directed edges to represent probabilistic relationships.",
+            "Variable Elimination Application: Apply the variable elimination technique to simplify computations and solve probabilistic queries."
+        ],
+        [
+            "Markov Property: Understand how the future state of a system depends only on its current state, not the history.",
+            "Algorithms for Solving MDPs: Study dynamic programming techniques, including value iteration and policy iteration, for computing optimal solutions."
+        ],
+        [
+            "Markov Property Exploration: Analyze real-world scenarios to identify systems that satisfy the Markov property.",
+            "Case Studies: Examine practical applications of MDPs in AI, such as robotics, game theory, and resource optimization."
+        ],
+        [
+            "Reinforcement Learning Overview: Understand how agents learn through interactions with an environment by maximizing cumulative rewards.",
+            "Model-Based vs. Model-Free Learning: Learn the differences between these two RL approaches and their applications."
+        ],
+        [
+            "Agent-Environment Interaction Mapping: Diagram the interaction process of agents with states, actions, and rewards in RL systems.",
+            "Problem-Solving Exercises: Solve tasks using passive and active RL methods to understand their practical applications."
+        ],
+        [
+            "Presentation Delivery: Create a clear and concise presentation that explains your project’s goals, methodology, results, and conclusions.",
+            "Reflection: Reflect on the course material and how it has been applied in your final project."
+        ],
+        [
+            "Presentation Delivery: Create a clear and concise presentation that explains your project’s goals, methodology, results, and conclusions.",
+            "Peer Evaluation: Provide thoughtful feedback by identifying three strengths and three areas for improvement in your assigned team’s project."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Artificial Intelligence: A Modern Approach, 3rd ed",
+            "url": "https://raw.githubusercontent.com/yanshengjia/ml-road/master/resources/Artificial%20Intelligence%20-%20A%20Modern%20Approach%20(3rd%20Edition).pdf"
+        },
+        {
+            "text": "https://www.anaconda.com/download/",
+            "url": "https://www.anaconda.com/download/"
+        },
+        {
+            "text": "geeeksforgeeks.com)",
+            "url": "https://www.geeksforgeeks.org/agents-artificial-intelligence/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "Python for Data Analysis (Optional): Free E-Book available for Penn State students through O'Reilly Learning. Includes instructions to access the book with a Penn State email. ISBN: 9781491957660.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/ai801_book-256x300-2.jpeg"
+        },
+        {
+            "alt": "The image shows a box labeled \"agent\" connected to a surrounding \"environment\" through two pathways: \"sensors\" and \"actuators.\"",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/801.1_agent.png"
+        },
+        {
+            "alt": "A filled out tic tac toe board",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/tic-tac.jpg"
+        },
+        {
+            "alt": "Four ace cards",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/deck_of_cards-1024x452.jpg"
+        },
+        {
+            "alt": "This image illustrates the relationship between a domain partition and its corresponding decision tree topology",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/domain_tree-1024x532.jpg"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Assignment",
+                "Points Each",
+                "Quantity",
+                "Percentage of Final Grade"
+            ],
+            [
+                "Assignments",
+                "100",
+                "12",
+                "48%"
+            ],
+            [
+                "SEEQ Survey (formerly SRTEs)",
+                "100",
+                "1",
+                "2%"
+            ],
+            [
+                "Literature Review",
+                "100",
+                "1",
+                "10%"
+            ],
+            [
+                "Final Project",
+                "110",
+                "1",
+                "40%"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"3287\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

@@ -1,0 +1,581 @@
+{
+    "metadata": {
+        "title": "BADM 834: Portfolio Management – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=5381"
+    },
+    "headings": {
+        "h2": "Lesson 7: Portfolio Performance Evaluation",
+        "h4": "Unlocking Your Potential",
+        "h3": "Costs of Investing in Mutual Funds"
+    },
+    "paragraphs": [
+        "BADM 834 is a three-credit course designed to provide an in-depth exploration of financial and investment analysis. This course offers a comprehensive study of asset valuation tools and portfolio management techniques, preparing students to make strategic investment decisions in a dynamic financial landscape.",
+        "Through a combination of targeted readings and practical activities, students will delve into the core concepts of security analysis, including financial statement analysis, quantitative techniques, and economic principles. The course emphasizes portfolio management fundamentals, guiding students through the creation of an investment policy statement, asset allocation strategies, optimal portfolio selection, and the evaluation of equity, debt, and alternative assets.",
+        "A unique feature of this course is the opportunity for students to apply these principles to the management of their own virtual $100,000 investment portfolio. This hands-on project enhances practical understanding and provides real-world context to the theoretical foundations.",
+        "Upon completing BADM 834, students will possess the knowledge and skills to analyze a wide range of financial assets, develop effective investment strategies, and manage portfolios with confidence in a professional setting. This course is ideal for individuals with a foundational understanding of finance, gained through prior coursework or professional experience, looking to elevate their expertise in the field.",
+        "This is an advanced finance course that covers topics in investment/portfolio management. The primary focus is on the design of stock portfolios, rather than the details of the pricing of financial instruments or the identification of arbitrage opportunities. That is, this is not a course about stock picking (stock valuation and selection). Only limited time will be devoted to such issues. The course is applied in the sense that various ideas and approaches are subjected to real-world financial data. Instead of describing the institutional details of current investment practice, the course strives to provide a framework that enables students to view investment management in a changing investment environment.",
+        "By the end of the course, students will be able to:",
+        "The following textbooks are required and may be purchased from MBS Direct:",
+        "For pricing and ordering information, please see the Barnes & Noble College website.",
+        "Materials will be available at Barnes & Noble College approximately three weeks before the course begins. It is very important that you purchase the correct materials. If your course requires one or more textbooks, you must have exactly the correct text required (edition and year).",
+        "The following articles can be accessed from the Penn State Libraries’ website:",
+        "*Note: You can access these articles by going to the University Libraries website, clicking on the Course Reserves tab at the top, and searching for “BADM 834”.",
+        "A grade is given primarily on the basis of the instructor’s judgment as to the student’s scholarly attainment. Students are encouraged to seek the instructor’s input during the process of completing each course requirement. Students are reminded that a letter grade of A is given to students who do exceptional work in both the quality of communicating ideas/information and the level of scholarship demonstrated, not simply for completion of assignments or meeting minimal requirements set for assignments.",
+        "*Student work will be graded according to the following grading scheme:",
+        "A = 95-100, A- = 90-94, B+ = 87-89, B = 84-86, B- = 80-83, C+ = 77-79, C = 70-76, D = 65-69, F = Below 65",
+        "Proctored Exams – None.",
+        "*Grades will be based on the following scale:",
+        "A = 95-100, A- = 90-94, B+ = 87-89, B = 84-86, B- = 80-83, C+ = 77-79, C = 70-76, D = 65-69, F = Below 65",
+        "Students will be asked to participate in ongoing online discussion activities. Please refer to the course schedule for discussion due dates. The discussion activities will be graded collectively from Weeks 1-4, resulting in a midterm grade for the discussion activities. Then, another grade will be assigned for Weeks 5-7 at the end of the semester.",
+        "Additionally, discussions will be graded based on the criteria listed in the Class Participation Grading Rubric.",
+        "There will be several homework problems assigned at the end of each lesson (which will include concept check problems, end-of-chapter problems, and/or CFA problems which are found either within or at the end of the assigned chapter reading. Check the course schedule to view the assigned problems.",
+        "Note: There is nothing to hand in with this assignment. However, it is very important that you complete the homework problems assigned, in order to master the materials, keep up with the course schedule, and do well on the quizzes and exams. Solutions will be provided for your review, although you should try to solve the problems without looking at the solutions first.",
+        "There will be two (2) online quizzes that will be administered during the term covering lesson content, assigned textbook readings, and associated problem assignments.",
+        "Note: You will only be able to access the quizzes during the week they are due. Please refer to the course schedule for due dates. Quiz solutions will be available for student review a day after the due date. The solutions will be posted for one week.",
+        "Students will be asked to create several stock portfolios and utilize data from the portfolios to form efficient frontiers using Portfolio Visualizer.",
+        "There will be a midterm exam and a final exam, which will be completed online.",
+        "You may use your lecture notes, the textbook, or other resources while taking the exams; however, during the examination period, communication with other people concerning the subject matter of the exams is prohibited.",
+        "Note: You will only be able to access the midterm exam and final exam on the dates specified within the course schedule. Exam solutions will be available for student review a day after the due date. The solutions will be posted for one week.",
+        "*subject to change",
+        "One of the most important factors in investment analysis is the level of interest rates.  Although difficult to predict, there are three basic determinants of interest rates.",
+        "The three basic determinants of interest rates are:",
+        "The supply of funds, is determined primarily by the total households’ savings.",
+        "Demand for funds, comes from businesses who need funds to invest in plant, equipment, and inventories.",
+        "The actions of the government and the Federal Reserve Bank also have an impact on interest rates.",
+        "Although the vast majority of investors can be assumed to be risk-averse, it is possible for some investors to be risk-neutral.",
+        "Risk neutrality implies that the investor does not take into account the level of risk. In other words, the coefficient of risk aversion, A, for a risk-neutral investor is zero. Risk-neutral investors make decisions solely based on the expected return.",
+        "There are also risk-lovers who derive more utility from taking additional risk. A risk lover adjusts the expected return upward when confronting more risk. In other words, these risk lovers enjoy taking risk. Not only do they not penalize the expected return for the risk they take, they even obtain satisfaction from more risk. For these risk lovers, the coefficient of risk aversion is less than zero.",
+        "Video: Trade-Off Between Risk and Return",
+        "Before investing in mutual funds, investors should be aware of their management fees and other expenses.",
+        "Operating expenses: Operating expenses are incurred by the mutual fund through its normal operations and include administrative expenses and advisory fees paid to the investment manager. Operating expenses are typically expressed as a percentage of total assets and may range from 0.2% to 2%. These expenses are deducted from the assets of the fund.",
+        "Front-end load: A front-end load is assessed when you purchase the shares, usually to pay the brokers who sell the funds. Loads reduce the money invested. For instance, when an investor invests $1,000 in a fund with a front-end load fee of 6%, $60 is taken out as the sales charge and only $940 is invested.",
+        "Back-end load: A back-end load is a redemption fee assessed when investors sell the shares. Usually, back-end loads start at 5%–6% and decline by 1% for each year the funds are left invested. These fees are also referred to as “contingent deferred sales charges.”",
+        "12b-1 charges: The 12b-1 charges cover the fund distribution costs such as advertising, promotional literature, including annual reports and prospectuses, and commissions paid to brokers who sell the fund to investors. The 12b-1 fees are added to operating expenses to obtain the true annual expense ratio of the fund. The 12b-1 fees cannot be more than 1% of a fund’s average net assets per year. The name “12b-1” is derived from the SEC rule that allows the fund to charge these fees.",
+        "This course will provide you with a thorough introduction to:",
+        "During this course you will expand your knowledge of the lesson topics each week.",
+        "This lesson introduces the foundational concepts of risk and return, critical to effective portfolio design and investment analysis. By exploring how risk and return are measured, students will learn to evaluate potential investments and analyze historical data for informed decision-making.",
+        "By completing this lesson, you will have a strong grasp of risk and return fundamentals, setting the stage for advanced portfolio management concepts in subsequent lessons.",
+        "This lesson delves into the critical concepts of risk aversion, utility, and the allocation of assets across risky and risk-free investments. Students will learn to assess risk tolerance and make informed decisions about portfolio construction based on their unique risk preferences.",
+        "By the end of this lesson, you’ll have a firm grasp of how to assess risk tolerance and allocate assets effectively, laying the groundwork for advanced portfolio management strategies.",
+        "This lesson explores the principles of diversification and its role in reducing portfolio risk. Students will learn to differentiate between market risk and firm-specific risk, calculate the risk and return of two-security portfolios, and identify the minimum variance portfolio (MVP), which minimizes risk in a diversified portfolio.",
+        "By completing this lesson, you’ll be equipped with the knowledge and tools to analyze and optimize portfolio risk through diversification, paving the way for advanced investment strategies.",
+        "This lesson focuses on the process of identifying and constructing the optimal risky portfolio (ORP), the portfolio with the highest Sharpe ratio. Students will explore advanced topics such as the Markowitz Portfolio Selection Model, the Separation Theory of Portfolio Construction, and the use of bordered covariance matrices. The lesson also demonstrates how to link the ORP with the risk-free rate to create the capital allocation line (CAL) and utilize Portfolio Visualizer for portfolio analysis.",
+        "By the end of this lesson, you’ll have the skills and tools to construct optimal risky portfolios, analyze their performance, and integrate them with risk-free assets to achieve desired investment outcomes.",
+        "This lesson focuses on the structure and functionality of investment companies, including mutual funds and exchange-traded funds (ETFs). Students will gain a detailed understanding of the costs, returns, and performance metrics associated with these investment vehicles and explore how fees can impact overall returns.",
+        "By completing this lesson, you will gain the knowledge and analytical skills needed to evaluate mutual funds and ETFs effectively, empowering you to make informed investment decisions and optimize portfolio performance.",
+        "This lesson introduces the Capital Asset Pricing Model (CAPM) and other prominent asset pricing models, alongside an exploration of market efficiency and behavioral finance. Students will learn about the Efficient Market Hypothesis (EMH) in its various forms, the computation of portfolio beta, and the implications of behavioral finance for portfolio management.",
+        "By the end of this lesson, you’ll have a deep understanding of asset pricing models, the concept of market efficiency, and the role of behavioral finance, equipping you to apply these insights to advanced portfolio management strategies.",
+        "This lesson focuses on evaluating portfolio performance using various return measures and risk-adjusted metrics. Students will learn to calculate these measures, understand the M2 measure, and explore the concept of style analysis. Contemporary and emerging issues in portfolio management are also discussed, providing insights into modern challenges and practices in the field.",
+        "By completing this lesson, you’ll be equipped to evaluate portfolio performance effectively, apply advanced metrics, and navigate emerging issues in portfolio management, preparing you for success in investment analysis and financial decision-making.",
+        "BADM 834: Portfolio Management provides students with a comprehensive understanding of investment strategies, asset allocation, and risk management techniques. This course is designed to prepare students for careers in investment management, financial analysis, and wealth advisory services. By mastering the principles of portfolio construction, optimization, and performance evaluation, graduates are equipped to design investment strategies that align with client goals, market conditions, and regulatory requirements.",
+        "Professionals with expertise in portfolio management are in high demand across industries such as asset management, private banking, and financial consulting. BADM 834 serves as a foundation for roles such as Portfolio Manager, Investment Analyst, Financial Planner, and Risk Analyst. The hands-on experience gained through virtual portfolio projects and real-world case studies ensures students are prepared to excel in competitive and dynamic financial environments.",
+        "A real-world example of portfolio management challenges can be seen in the financial advisory industry. A mid-sized investment firm was managing a high-net-worth client’s portfolio with a goal of achieving steady growth while minimizing risk. However, the portfolio was poorly diversified, with an over-concentration in technology stocks that had performed well in recent years. When market conditions shifted, the portfolio experienced significant volatility, and the client’s returns suffered during a tech sector downturn.",
+        "To address this, a portfolio manager was brought in to reassess the investment strategy using principles learned in BADM 834. The manager conducted a thorough analysis of the portfolio’s risk-return profile, rebalancing it to include a mix of equities, bonds, and alternative assets. Using the Capital Asset Pricing Model (CAPM) and other risk-adjusted measures, the manager identified assets with favorable risk-return characteristics. Additionally, they created a capital allocation line (CAL) to help the client visualize the impact of adding risk-free assets to the portfolio.",
+        "The revised portfolio was better aligned with the client’s risk tolerance and investment objectives, resulting in reduced volatility and improved long-term performance. This example highlights the critical role of portfolio management techniques, such as diversification, risk assessment, and optimization, in achieving sustainable investment success and client satisfaction.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "analyze the properties of, and issues behind, risk and “optimal portfolios”;",
+            "understand the issues and use the tools underlying portfolio management; and",
+            "evaluate the performance of a portfolio."
+        ],
+        [
+            "Bodie, Z., Kane, A., & Marcus, A. (2014). Investments. (11th ed.) New York, NY.: McGraw-Hill/Irwin series in finance, insurance and real estate. ISBN#: 978-1259277177.",
+            "Benninga, S. (2018). Principles of finance with Excel. (3rd ed.) Oxford University Press. ISBN-13: 9780-190296384"
+        ],
+        [
+            "Malkiel, B. G. (1995). Returns from investing in equity mutual funds. The Journal of Finance.",
+            "Statman, M. (1987). How many stocks make a diversified portfolio? Journal of Financial and Quantitative Analysis."
+        ],
+        [
+            "Microsoft Excel will be the software package used for this course.\n\nRefer to the technical specifications listed in the course syllabus for version requirements.\nThe Pennsylvania State University. (2011). Free online software training Lynda.com Microsoft Training and Tutorials. Retrieved from http://www.lynda.psu.edu/. Use the tutorial from the online training library at . (Note: You will need to be logged in to the “lynda.psu.edu” site first and you will be prompted to do so if necessary. click on Browse the library, and then click on Software. From the list scroll down and select Microsoft from the menu and select Excel. Then select the version of Excel that is on your computer.)",
+            "Refer to the technical specifications listed in the course syllabus for version requirements.",
+            "The Pennsylvania State University. (2011). Free online software training Lynda.com Microsoft Training and Tutorials. Retrieved from http://www.lynda.psu.edu/. Use the tutorial from the online training library at . (Note: You will need to be logged in to the “lynda.psu.edu” site first and you will be prompted to do so if necessary. click on Browse the library, and then click on Software. From the list scroll down and select Microsoft from the menu and select Excel. Then select the version of Excel that is on your computer.)",
+            "You will be utilizing Portfolio Visualizer in this course."
+        ],
+        [
+            "Refer to the technical specifications listed in the course syllabus for version requirements.",
+            "The Pennsylvania State University. (2011). Free online software training Lynda.com Microsoft Training and Tutorials. Retrieved from http://www.lynda.psu.edu/. Use the tutorial from the online training library at . (Note: You will need to be logged in to the “lynda.psu.edu” site first and you will be prompted to do so if necessary. click on Browse the library, and then click on Software. From the list scroll down and select Microsoft from the menu and select Excel. Then select the version of Excel that is on your computer.)"
+        ],
+        [
+            "Gaining a critical thinking perspective and sharing your thoughts, taking the risk of getting critiqued, and developing a willingness to change your positioning in a typical managerial decision-making scenario.",
+            "Developing communication skills and confidence to express yourself.",
+            "Contributing to your own learning and that of other colleagues.",
+            "Facilitating a better evaluation of your performance in the course."
+        ],
+        [
+            "Quiz 1 will cover the material covered in Lessons 1 and 2.",
+            "Quiz 2 will cover material covered in Lessons 5 and 6."
+        ],
+        [
+            "The midterm exam will cover material learned in Lessons 1 through 4.",
+            "The final exam will cover material learned in Lessons 5 through 7."
+        ],
+        [
+            "Portfolio Performance Evaluation and Final Exam",
+            "Introduction to Risk, Return, and Historical Record",
+            "Risk Aversion and Captial Allocation to Risky Assets",
+            "Optimal Risky Portfolios",
+            "Optimal Risky Portfolios and Midterm",
+            "Mutual Funds and Other Investment Companies",
+            "CAPM, Asset Pricing Models, and Market Efficiency"
+        ],
+        [
+            "Interest Rates",
+            "Risk Aversion",
+            "Costs of Mutual Funds"
+        ],
+        [
+            "portfolio management principles and their application to asset allocation and diversification,",
+            "the relationship between risk and return and methods for assessing portfolio performance,",
+            "investment strategies that optimize portfolio performance based on client objectives,",
+            "the use of models like CAPM and risk-adjusted measures for evaluating assets,",
+            "contemporary challenges in portfolio management, including market efficiency and behavioral finance,",
+            "tools and techniques for constructing, analyzing, and rebalancing portfolios, and",
+            "practical application of portfolio management through hands-on projects and simulations."
+        ],
+        [
+            "L1",
+            "L2",
+            "L3",
+            "L4",
+            "L5",
+            "L6",
+            "L7"
+        ],
+        [
+            "Explore Risk and Return Concepts: Understand the definitions and significance of risk and return in investment analysis.",
+            "Measure Interest Rates: Differentiate between real and nominal interest rates and identify their key determinants."
+        ],
+        [
+            "Course Introduction: Familiarize yourself with the syllabus, course schedule, and expectations for the lesson.",
+            "CFA Problems: Work through specialized CFA problems to apply risk and return measures to real-world scenarios."
+        ],
+        [
+            "Understand Risk Aversion and Utility: Learn how individuals’ risk preferences influence their investment decisions.",
+            "Estimate Utility Functions: Apply the concept of risk aversion to develop and interpret utility functions."
+        ],
+        [
+            "Comprehensive Reading: Study the textbook chapter on risk aversion and utility, focusing on the foundational principles.",
+            "Discussion Forum Participation: Engage with peers in the Risk Tolerance Discussion Forum to exchange insights and perspectives."
+        ],
+        [
+            "Understand Risk Types: Differentiate between market risk (systematic risk) and firm-specific risk (unsystematic risk) and their implications for portfolio construction.",
+            "Calculate Portfolio Metrics: Learn to compute the standard deviation and expected return of a portfolio with two securities."
+        ],
+        [
+            "Targeted Readings: Study textbook sections on portfolio risk, return, and diversification to deepen your theoretical understanding.",
+            "Problem Solving: Complete concept checks and problems from Chapter 7 to practice calculating portfolio metrics and identifying the MVP."
+        ],
+        [
+            "Identify the Optimal Risky Portfolio (ORP): Learn to determine the ORP with the highest Sharpe ratio for maximizing returns relative to risk.",
+            "Understand Portfolio Theory: Explore the Markowitz Portfolio Selection Model and the Separation Theory to develop a deeper understanding of portfolio construction."
+        ],
+        [
+            "Interactive Tools: Use Portfolio Visualizer to conduct portfolio analysis and explore efficient frontier construction.",
+            "Exam Preparation: Prepare for the Midterm Exam by reviewing key concepts and applying them to practice scenarios."
+        ],
+        [
+            "Differentiate Between Investment Companies: Learn the distinctions between open-end and closed-end investment companies and their respective characteristics.",
+            "Analyze Mutual Fund Expenses: Understand the costs, such as management fees and loads, associated with mutual fund investments."
+        ],
+        [
+            "Problem Solving: Complete selected end-of-chapter problems to apply your understanding of mutual fund costs, returns, and performance metrics.",
+            "Portfolio Assignment Progress: Continue working on the Portfolio Assignment to apply concepts learned in this and previous lessons."
+        ],
+        [
+            "Understand Market Efficiency: Explore the Efficient Market Hypothesis (EMH) and its three forms—weak, semi-strong, and strong efficiency.",
+            "Learn CAPM Fundamentals: Study the Capital Asset Pricing Model, its assumptions, and the significance of beta in portfolio analysis."
+        ],
+        [
+            "Beta Calculation Practice: Learn to compute the beta of a portfolio and analyze its implications for risk and return.",
+            "Discussion Forum Participation: Engage in the Market Efficiency Discussion to share insights on EMH and behavioral finance."
+        ],
+        [
+            "Evaluate Portfolio Performance: Learn to calculate and interpret risk-adjusted return measures for assessing investment performance.",
+            "Understand the M2 Measure: Explore the Modigliani and Modigliani (M2) measure for comparing portfolio performance relative to benchmarks."
+        ],
+        [
+            "Comprehensive Reading: Study textbook sections and key journal articles to deepen your understanding of portfolio evaluation techniques.",
+            "Problem Solving: Complete selected chapter and CFA problems to practice calculating performance metrics and applying them to real-world scenarios."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Barnes & Noble College website",
+            "url": "https://bncvirtual.com/psude"
+        },
+        {
+            "text": "Malkiel, B. G. (1995). Returns from investing in equity mutual funds. The Journal of Finance",
+            "url": "http://indeksirahastot.fi/resource/malkiel.pdf"
+        },
+        {
+            "text": "Statman, M. (1987). How many stocks make a diversified portfolio? Journal of Financial and Quantitative Analysis.",
+            "url": "https://www.wiso.uni-hamburg.de/fileadmin/sozialoekonomie/bwl/bassen/Lehre/International_Finance_I/Lectures/20080506_Number_of_stocks_in_a_diversified_portfolio.pdf"
+        },
+        {
+            "text": "University Libraries website",
+            "url": "http://www.libraries.psu.edu/psul.html"
+        },
+        {
+            "text": "Free online software training Lynda.com Microsoft Training and Tutorials",
+            "url": "http://www.lynda.psu.edu/"
+        },
+        {
+            "text": "Portfolio Visualizer",
+            "url": "https://www.portfoliovisualizer.com/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "",
+            "src": "https://psu.instructure.com/courses/2313134/files/155323036/preview"
+        },
+        {
+            "alt": "",
+            "src": "https://psu.instructure.com/courses/2313134/files/155322934/preview"
+        },
+        {
+            "alt": "Icon of a bank building with a dollar sign and arrows symbolizing financial transactions or net supply.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/net_supply_icon.png"
+        },
+        {
+            "alt": "risk averse is low, risk neutral is balanced, risk taking is high risk",
+            "src": "https://psu.instructure.com/courses/2313134/files/155639946/preview"
+        },
+        {
+            "alt": "movie icon",
+            "src": "https://psu.instructure.com/courses/2313134/files/155686845/preview"
+        },
+        {
+            "alt": "Illustration of a desk with financial documents, charts, a calculator, money, a coffee cup, and a magnifying glass highlighting the text 'Fund Cost' on a clipboard.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/mutual_fund_costs.png"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Assignment Category",
+                "% Weight of Final Grade",
+                "Timeframe"
+            ],
+            [
+                "Discussion Activities",
+                "20%",
+                "At the end of each lesson:Discussions for Weeks 1-4 will account for 10%Discussions for Weeks 5-7 will account for 10%"
+            ],
+            [
+                "Quizzes",
+                "20%",
+                "Lesson 2 and Lesson 6 (10% each)"
+            ],
+            [
+                "Portfolio Assignment",
+                "20%",
+                "Lesson 4 through Lesson 6"
+            ],
+            [
+                "Midterm Exam",
+                "20%",
+                "Lesson 4"
+            ],
+            [
+                "Final Exam",
+                "20%",
+                "Lesson 7"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"5381\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

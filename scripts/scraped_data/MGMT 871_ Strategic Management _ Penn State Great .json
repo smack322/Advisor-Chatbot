@@ -1,0 +1,777 @@
+{
+    "metadata": {
+        "title": "MGMT 871: Strategic Management – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=6012"
+    },
+    "headings": {
+        "h2": "Overview",
+        "h4": "Unlocking Your Potential",
+        "h3": "Lesson 7: Finalizing CAPSIM Results and Preparing Team Presentations"
+    },
+    "paragraphs": [
+        "Strategic Management is the capstone course for MBA students, designed to integrate knowledge from various functional areas such as marketing, finance, accounting, and management. This course emphasizes a strategic, big-picture approach to business, focusing on the creation and implementation of long-term competitive strategies. Students engage in a strategic management simulation, where they act as top management teams running their own companies, making critical decisions, and competing in a dynamic business environment. Additionally, real-world case studies provide insights into successful and unsuccessful strategies, enhancing practical decision-making and problem-solving skills essential for top-level management roles.",
+        "As the culminating experience of the MBA program, this capstone course shifts focus from functional expertise to a strategic, top-management perspective. Students learn to create and implement long-term strategies while integrating knowledge from areas such as marketing, finance, and management. Through a dynamic strategic management simulation and analysis of real-world business cases, participants gain practical experience in decision-making, problem-solving, and navigating competitive markets. This hands-on approach prepares students to lead effectively, emphasizing the interplay of business operations and the importance of strategic vision in achieving organizational success.",
+        "After successful completion of this course, students should be able to:",
+        "The textbook is available for purchase at the Penn State Great Valley bookstore. The Capsim Code isavailable from the instructor and the software is obtained directly from the company.IMPORTANT: The textbook is meant to supplement (and serving as a background reference) ratherthan replace the in-class case discussions. The flow of class discussions may not follow the exactstructure and content of the text chapters. Given that this is a seven-week course, the text chapterswill provide a foundation for classroom discussions which will focus on the Cases in the chapters.Remember this is a capstone course. You already have a large body of knowledge gathered to handlethis integrative course. The text chapters are fascinating, intuitive, and self-explanatory and buildupon the courses you have taken.",
+        "The Wall Street Journal, Financial Times, Forbes, Fortune, and Business Week publications.",
+        "Penn State’s LMS, Canvas, supports most recent versions of Microsoft Windows and Apple Mac operating systems.To determine if your operating system is supported, please review the Canvas Computer Specifications.",
+        "For a list of required computer hardware specifications and internet speed, please review the Canvas Computer Specifications.",
+        "Canvas supports the last two versions of every major browser release. We highly recommend updating to the newest version of whatever browser you are using.",
+        "To determine if your browser is supported, please review the list of Canvas Supported Browsers.",
+        "Please note that due to Instructure’s reduction of support for Internet Explorer, students and instructors should choose another browser to use such as Firefox, Chrome, Edge, or Safari. Generally, Canvas will work best in Chrome or Firefox.",
+        "Note: Cookies must be enabled, and pop-up blockers should be configured to permit new windows from Penn State websites.",
+        "All Penn State students have access to Microsoft Office 365, including Microsoft Office applications such as Word, Excel, and PowerPoint.Students may need Adobe Acrobat, available through Adobe Creative Cloud.",
+        "Sound Card, Microphone, and Speakers are required. Webcams may be required.",
+        "Capable of at least 1024 x 768 resolution",
+        "The Canvas mobile app is available for versions of iOS and Android. To determine if your device is capable of using the Canvas Mobile App, please review the Canvas Mobile App Requirements.",
+        "Access to a reliable Internet connection is required for this course. If you experience problems with your Internet connection while working on this course, it is your responsibility to find an alternative Internet access point.",
+        "Find more information about technology at Penn State, please visit our Student Technology Guide.",
+        "If you need technical assistance at any point during the course, please contact the ITS Help Desk.",
+        "All course-related e-mails should go through Canvas’s course mail function (Canvas Inbox). Using Canvas to contact your instructor ensures that your message will be read, and your instructor will respond to you in a timely manner.",
+        "Many of the University Libraries’ resources can be utilized from a distance. Through the Library website, you can access magazines, journals, and articles; borrow materials and have them delivered to your doorstep; and get research help via email chat or phone from a librarian.",
+        "For more information, view the Penn State University Library.",
+        "Grade Components and Requirements Table",
+        "Measurement of Learning Outcomes and Course Requirements",
+        "The requirements for the course include graded assignments and participation. There are differentrequirements for obtaining an A, B, or C.A – Excellent – consistent in exceptional performance. High participation.B – Good – consistent substantial achievement. Modest participation.C – Satisfactory – acceptable, yet substandard achievement for graduate schoolD – Poor – inadequate achievementF – Failure – work unworthy of credit for the course",
+        "Plus / minus grading will also be used.Approximate Letter Grade Spreads (may be subject to curve)",
+        "This course emphasizes active participation (10%) in face-to-face or Zoom discussions, requiring students to prepare readings, share insights, and analyze strategic moves with relevant articles. Peer evaluations (1.5%) assess team contributions in the Capsim simulation, while the EBI survey (1.5%) gathers feedback on the MBA program. A 2-page case analysis paper (15%) focuses on real-world strategy, financial impacts, and industry implications. Strategy quizzes (12%) test knowledge of key concepts like Porter’s models and competitive analysis.",
+        "Students will be divided into teams, and each team will be responsible for developing and executinga strategy for their company in the simulation. Note: students may receive different grades on teamassignments based on their contributions as indicated by the peer evaluations.",
+        "Attendance:",
+        "Participation:",
+        "Classroom Etiquette:",
+        "Online Classes:",
+        "Assignments are due by 11:59 pm or sooner on the due date. They should be uploaded to theappropriate box in Canvas. After that they are considered late.",
+        "Students will be notified of changes in class assignments, syllabus, etc., via email or electronicbulletin board as necessary, although such changes are not common. Class will only be cancelledwhen weather conditions are extremely hazardous. Check local radio stations (e.g. KYW 1060 am)and the web site for updates.",
+        "*Subject to change",
+        "An integrative approach to managing a diverse set of stakeholders to gain and sustain competitive advantage.",
+        "Stakeholder management benefits firm performance:",
+        "Stakeholder Impact Analysis helps to recognize, prioritize and address stakeholder needs.",
+        "Three important stakeholder attributes: power, legitimacy, and urgency:",
+        "Effectively managing the strategy process is the result of:",
+        "This framework:",
+        "A voluntary arrangement between firms",
+        "Involves the sharing of:",
+        "To develop:",
+        "1.TLimited liability for investors.",
+        "2.ransferability of investor ownership through stock.",
+        "3.Legal personality, with rights and obligations.",
+        "4.Separation of legal ownership and management control.",
+        "After successful completion of this course, students should be able to:",
+        "In this lesson, you will familiarize yourself with the CAPSIM Capstone Simulation platform, register for access, and complete foundational activities to prepare for the upcoming simulation rounds.",
+        "By the end of this lesson, you will have successfully registered for the CAPSIM platform, completed initial training, and developed foundational strategies and skills for engaging effectively in the Capstone Simulation.",
+        "In this lesson, you will prepare for Round 1 of the CAPSIM simulation, submit your inputs by the deadline, and engage in discussions to develop a competitive strategy. You will also submit your Capstone Preliminary Strategy Paper and continue building on strategic concepts.",
+        "By the end of this lesson, you will be prepared for Round 1 of the CAPSIM simulation, have submitted your strategy paper, and gained deeper insights into competitive advantage and industry dynamics.",
+        "In this lesson, you will focus on preparing for Round 2 of the CAPSIM simulation and submit your inputs by the deadline. You will also engage in discussions about competitive advantage, company strategic announcements, and analyze significant competitors in various industries.",
+        "By the end of this lesson, you will be well-prepared for Round 2 of the CAPSIM simulation, have gained a deeper understanding of competitive advantage, and developed insights into how to improve your strategic decisions based on Round 1 results.",
+        "In this lesson, you will focus on preparing for Round 3 of the CAPSIM simulation, submitting your inputs by the deadline, and participating in discussions on advanced competitive advantage strategies. You will also review the results from Round 2 and explore further strategic concepts from the textbook.",
+        "By the end of this lesson, you will be prepared for Round 3 of the CAPSIM simulation, having refined your strategic approach and learned advanced concepts of competitive advantage. You will also have a clear understanding of the adjustments needed based on the Round 2 results.",
+        "In this lesson, you will focus on preparing for Round 4 of the CAPSIM simulation, submitting your inputs by the deadline, and engaging in discussions about competitive advantage and company strategies. You will also analyze the results from Round 3 and finalize your Case Analysis paper.",
+        "By the end of this lesson, you will be fully prepared for Round 4 of the CAPSIM simulation, having refined your strategy based on the lessons from Round 3. You will also gain a deeper understanding of competitive advantage and submit your Case Analysis paper, demonstrating your strategic thinking and analysis skills.",
+        "In this lesson, you will focus on preparing for Round 5 of the CAPSIM simulation, submitting your inputs by the deadline, and analyzing key strategic insights from the textbook. Your goal is to fine-tune your approach for the next round of competition while continuing to strengthen your strategic management skills.",
+        "By the end of this lesson, you will be well-prepared for Round 5 of the CAPSIM simulation, having enhanced your strategic insights from Chapter 12 and your experiences from previous rounds. You will continue to refine your competitive strategies and strengthen your approach for effective decision-making in a competitive market.",
+        "In this lesson, you will meet with your team to review the results from Round 5 of the CAPSIM simulation, finalize your team presentation and paper, and complete your peer evaluations and intra-team assessments. The team presentation and paper will provide an opportunity to summarize the simulation results and the lessons learned throughout the process. The final submission and evaluation activities are crucial for the course’s conclusion.",
+        "By the end of this lesson, you will have reviewed and analyzed the results from Round 5, collaborated with your team to finalize your presentation, and completed the necessary evaluations and assessments. The team presentation and paper will serve as a comprehensive summary of your experience and key takeaways from the CAPSIM simulation.",
+        "Strategic Management can have a profound career impact by equipping you with the essential skills to analyze, formulate, and implement strategies that drive organizational success. This course provides practical experience in understanding competitive dynamics, leveraging core competencies, and applying strategic tools such as Porter’s Five Forces and other models. You’ll develop a robust understanding of corporate culture, structure, and their influence on performance, preparing you for leadership roles that demand strategic thinking and decision-making. Whether you aspire to manage a department, lead a company, or consult on business strategy, MGMT 871 will empower you to navigate complex business environments effectively and position yourself as a valuable asset in the professional world.",
+        "In MGMT 871: Strategic Management, you will explore real-world cases that illustrate the application of strategic principles in dynamic business environments. For example, you might evaluate how Tesla disrupts traditional automotive markets with its innovation-driven strategies or analyze Amazon’s approach to market expansion through diversification and vertical integration. These examples provide a tangible understanding of how companies develop and execute strategies to gain and sustain competitive advantages. By studying these scenarios, you’ll build the analytical and decision-making skills needed to address complex challenges in various industries.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Compare and contrast the theoretical concepts of strategicmanagement.",
+            "Create competitive advantage through the integration of the various functional businessdisciplines.",
+            "Understand the impact of corporate culture and structure on the firm’s strategic performance.",
+            "Understand the interrelationships between the firm and its environment.",
+            "Differentiate the strategic process appropriate at each level of theorganization.",
+            "Identify the appropriate application of strategic managementtools.",
+            "Develop effective strategies leveraging core competencies to capitalize on strategic opportunities or solve strategic problems.",
+            "Understand the complexities and difficulties associated with strategic implementation"
+        ],
+        [
+            "Frank Rothaermel, Strategic Management, 5e, McGraw-Hill, 2021",
+            "Capsim Simulation. Access Code required for the software (from instructor)."
+        ],
+        [
+            "Attendance is mandatory, and absences negatively affect grades.\n\n1-2 missed classes: Participation grade reduced proportionally.\n3 missed classes: Half-grade penalty (e.g., B to B-).\n4 missed classes: Full-grade penalty (e.g., B+ to C+).\nMore than 4 missed classes: Results in an “F.”",
+            "1-2 missed classes: Participation grade reduced proportionally.",
+            "3 missed classes: Half-grade penalty (e.g., B to B-).",
+            "4 missed classes: Full-grade penalty (e.g., B+ to C+).",
+            "More than 4 missed classes: Results in an “F.”",
+            "Tardiness (20+ minutes late more than twice) incurs penalties or withdrawal."
+        ],
+        [
+            "1-2 missed classes: Participation grade reduced proportionally.",
+            "3 missed classes: Half-grade penalty (e.g., B to B-).",
+            "4 missed classes: Full-grade penalty (e.g., B+ to C+).",
+            "More than 4 missed classes: Results in an “F.”"
+        ],
+        [
+            "Participation requires quality engagement, frequent contributions, and active involvement.",
+            "Attendance alone does not qualify as participation."
+        ],
+        [
+            "Cell phones must be off, and laptops should remain closed unless used for note-taking."
+        ],
+        [
+            "Synchronous: Requires full real-time participation (e.g., 3 hours); missing results in a “0” score.",
+            "Asynchronous: Deadlines for discussions and project posts must be met. Late submissions are penalized, affecting overall grades."
+        ],
+        [
+            "Stakeholder Strategy",
+            "Strategic Alliances",
+            "Public Stock Company"
+        ],
+        [
+            "Cooperative stakeholders reveal important information.",
+            "Increased trust lowers business transaction cost.",
+            "Can lead to greater adaptability and flexibility.",
+            "More predictable and stable returns.",
+            "Stronger reputation."
+        ],
+        [
+            "A Decision Tool for Stakeholder Strategy",
+            "Stakeholder Impact Analysis"
+        ],
+        [
+            "Power: when the stakeholder can get the company to do something that it would not otherwise do.",
+            "Legitimate claims: perceived to be legally valid or otherwise appropriate.",
+            "Urgent claims: require a company’s immediate attention and response."
+        ],
+        [
+            "Analysis (A).",
+            "Formulation (F).",
+            "Implementation (I)."
+        ],
+        [
+            "Explains and predicts differences in firm performance.",
+            "Helps leaders formulate and implement a strategy that can result in superior performance."
+        ],
+        [
+            "What are Strategic Alliances?",
+            "Why Do Firms Enter Strategic Alliances?"
+        ],
+        [
+            "Knowledge.",
+            "Resources.",
+            "Capabilities."
+        ],
+        [
+            "Processes, products, services."
+        ],
+        [
+            "Strengthen competitive position.",
+            "Enter new markets.",
+            "Hedge against uncertainty.",
+            "Access critical complementary assets.",
+            "Learn new capabilities."
+        ],
+        [
+            "Benefits",
+            "Hierarchy of Authority"
+        ],
+        [
+            "Compare and contrast the theoretical concepts of strategicmanagement.",
+            "Create competitive advantage through the integration of the various functional businessdisciplines.",
+            "Understand the impact of corporate culture and structure on the firm’s strategic performance.",
+            "Understand the interrelationships between the firm and its environment.",
+            "Differentiate the strategic process appropriate at each level of theorganization.",
+            "Identify the appropriate application of strategic managementtools.",
+            "Develop effective strategies leveraging core competencies to capitalize on strategic opportunities or solve strategic problems.",
+            "Understand the complexities and difficulties associated with strategic implementation"
+        ],
+        [
+            "L1",
+            "L2",
+            "L3",
+            "L4",
+            "L5",
+            "L6",
+            "L7"
+        ],
+        [
+            "CAPSIM Setup: Review the CAPSIM website, register using the course code, and explore the Capstone Simulation interface.",
+            "CAPSIM Learning: Study the Capstone workbook and handouts, complete the online CAPSIM training, and prepare for the practice round.",
+            "CAPSIM Practice Round: Submit practice round inputs by the specified deadline.",
+            "Team Collaboration: Formulate team strategies for the Capstone Simulation and begin drafting the Capstone Preliminary Strategy Paper.",
+            "Readings: Read Chapters 1-3 in the textbook to build foundational knowledge."
+        ],
+        [
+            "Website Review: Explore www.capsim.com to understand the simulation’s structure and features.",
+            "Registration: Register on the platform using the provided course code.",
+            "Training: Complete the online CAPSIM training modules to gain hands-on familiarity with the simulation.",
+            "Team Meetings: Collaborate with team members to strategize and begin drafting the preliminary strategy paper.",
+            "Textbook Study: Read assigned chapters to support simulation decision-making."
+        ],
+        [
+            "CAPSIM Restart: CAPSIM simulation restarts on 3/22, and you will begin preparing for Round 1.",
+            "Round 1 Submission: Submit your input for Round 1.",
+            "Capstone Workbook: Review the Capstone workbook and handouts to guide your preparation.",
+            "Competitive Advantage Discussion: Explore the concept of competitive advantage and how it impacts strategy development.",
+            "Porter’s Five Forces: Discuss Porter’s Five Forces Industry Model to understand competitive pressures.",
+            "Company Strategic Announcements: Analyze and discuss current company announcements in the context of strategy.",
+            "Capstone Practice Round Results: Review and discuss the results from the practice round in class.",
+            "Preliminary Strategy Paper: Submit your Capstone Preliminary Strategy Paper.",
+            "Reading: Read Chapter 4 in the textbook to deepen your understanding of strategic concepts"
+        ],
+        [
+            "Preparation for Round 1: Analyze your company’s performance and prepare input for Round 1 based on insights from the Capstone workbook.",
+            "Class Discussions: Participate in discussions on competitive advantage, Porter’s Five Forces, and company announcements.",
+            "Strategy Paper: Finalize and submit your Capstone Preliminary Strategy Paper by the due date.",
+            "Textbook Study: Review Chapter 4 to reinforce strategic management concepts."
+        ],
+        [
+            "Prep for Round 2: Begin preparing for Round 2 and submit your input.",
+            "Textbook Reading: Read Chapters 5-7 in the textbook to gain insights into strategic management principles.",
+            "Capstone Workbook: Continue to review the Capstone workbook and handouts to guide your decision-making process.",
+            "Food for Thought: Discuss major competitors and their rivalries, such as Coke vs. Pepsi, BMW vs. Mercedes vs. Audi, and McDonald’s vs. Burger King, to understand the competitive landscape.",
+            "Competitive Advantage-2: Delve deeper into the concept of competitive advantage and its impact on strategic decisions.",
+            "Company Strategic Announcements: Analyze and discuss current company strategic moves and their implications.",
+            "Round 1 Results: Review and discuss the results from Round 1 in class, assessing what worked and what needs improvement."
+        ],
+        [
+            "Round 2 Preparation: Prepare and submit your strategic input for Round 2 based on insights from the textbook and workbook.",
+            "Class Discussions: Participate in discussions on competitive advantage and significant industry rivalries.",
+            "Strategy Reflection: Reflect on Round 1 results and make adjustments to your strategy for Round 2.",
+            "Textbook Study: Review Chapters 5-7 to understand deeper aspects of competitive strategy and management."
+        ],
+        [
+            "Prep for Round 3: Begin preparing for Round 3 and submit your input .",
+            "Textbook Reading: Read Chapters 8-9 in the textbook to deepen your understanding of advanced strategy topics.",
+            "Capstone Workbook: Continue to review the Capstone workbook and handouts to enhance your simulation strategy.",
+            "Competitive Advantage-3: Dive deeper into the concept of competitive advantage and its implications for long-term success.",
+            "Company Strategic Announcements: Discuss current company strategies and how they impact the market and competition.",
+            "Round 2 Results: Analyze and discuss the results from Round 2 in class, making adjustments to your strategy as needed."
+        ],
+        [
+            "Round 3 Preparation: Prepare and submit your strategic input for Round 3 using insights from the textbook and workbook.",
+            "Class Discussions: Engage in discussions on competitive advantage, company strategic moves, and lessons from Round 2.",
+            "Strategy Adjustment: Based on Round 2 results, refine and adjust your strategy for Round 3.",
+            "Textbook Study: Review Chapters 8-9 to enhance your understanding of advanced strategic management concepts."
+        ],
+        [
+            "Prep for Round 4: Begin preparing for Round 4 and submit your input .",
+            "Textbook Reading: Read Chapters 10-11 in the textbook to further develop your understanding of strategic management concepts.",
+            "Capstone Workbook: Continue to review the Capstone workbook and handouts to refine your strategy for Round 4.",
+            "Competitive Advantage-4: Explore advanced strategies related to competitive advantage and their impact on long-term success.",
+            "Company Strategic Announcements: Discuss current company strategies and their impact on competition and market dynamics.",
+            "Round 3 Results: Analyze and discuss the results from Round 3 in class to refine your approach for Round 4."
+        ],
+        [
+            "Round 4 Preparation: Prepare and submit your strategic input for Round 4 based on insights from the textbook and workbook.",
+            "Class Discussions: Engage in discussions on competitive advantage, company strategies, and lessons learned from Round 3.",
+            "Case Analysis Paper: Complete and submit the Case Analysis paper , synthesizing your understanding of strategic concepts.",
+            "Textbook Study: Review Chapters 10-11 to deepen your understanding of advanced strategy and implementation."
+        ],
+        [
+            "Prep for Round 5: Prepare for Round 5 and submit your input.",
+            "Textbook Reading: Read Chapter 12 in the textbook to build on your understanding of advanced strategic management concepts.",
+            "Capstone Workbook: Continue reviewing the Capstone workbook and handouts to ensure a well-prepared strategy for Round 5.",
+            "Competitive Advantage-5: Discuss the evolving strategies for maintaining competitive advantage in a dynamic business environment.",
+            "Company Strategic Announcements: Evaluate how recent company strategies have influenced market position and competitiveness."
+        ],
+        [
+            "Round 5 Preparation: Develop and submit your strategic inputs for Round 5, applying insights gained from the textbook and previous rounds.",
+            "Class Discussions: Participate in discussions about competitive advantage, strategic announcements, and lessons learned from previous rounds.",
+            "Textbook Study: Review Chapter 12 to reinforce your understanding of strategic execution and competitive positioning."
+        ],
+        [
+            "Teams Meet to Discuss Round 5 Results: Collaborate with your team to analyze the outcomes of Round 5, finalize your team’s presentation, and prepare the Capstone paper based on these results.",
+            "Capsim Peer Evaluations: Complete and submit peer evaluations for your team members, assessing their contributions to the simulation project.",
+            "Intra-Team Assessments : Submit your intra-team assessments via Canvas to provide feedback on team collaboration and individual performance.",
+            "Team Presentations on Results: Present your team’s findings from the CAPSIM simulation, discussing the strategies employed, results achieved, and lessons learned during the process.",
+            "Final Team Capstone Paper : Submit your final team paper, summarizing your team’s strategic approach, simulation outcomes, and key insights."
+        ],
+        [
+            "Team Discussions: Meet with your team to analyze Round 5 results, finalize your presentation, and complete the Capstone paper.",
+            "Peer Evaluations: Complete and submit the peer evaluations for your teammates, reflecting their individual contributions to the team project.",
+            "Intra-Team Assessments: Submit your assessments of team collaboration and individual contributions, helping evaluate the team dynamic.",
+            "Team Presentations: Present the results of your simulation strategy, discussing what worked, what didn’t, and what lessons you’ve learned.",
+            "Final Paper Submission: Finalize and submit your team’s Capstone paper, outlining your strategies and lessons learned throughout the simulation."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Canvas Computer Specifications",
+            "url": "https://nam01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcommunity.canvaslms.com%2Fdocs%2FDOC-10721&data=02%7C01%7Cews3%40psu.edu%7C57c349d0553747986ce308d8394f322d%7C7cf48d453ddb4389a9c1c115526eb52e%7C0%7C0%7C637322359595236123&sdata=Wk8DoAbieSAB0Bf89eeNcrMCHHgte%2Fwl5jkR%2BIYA%2FZg%3D&reserved=0"
+        },
+        {
+            "text": "Canvas Computer Specifications",
+            "url": "https://nam01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcommunity.canvaslms.com%2Fdocs%2FDOC-10721&data=02%7C01%7Cews3%40psu.edu%7C57c349d0553747986ce308d8394f322d%7C7cf48d453ddb4389a9c1c115526eb52e%7C0%7C0%7C637322359595246117&sdata=PbVl4Gimtz5fL5yx9PpgstvkjJs9R3ZG0D9naB40qbY%3D&reserved=0"
+        },
+        {
+            "text": "Canvas Supported Browsers",
+            "url": "https://nam01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcommunity.canvaslms.com%2Fdocs%2FDOC-10720&data=02%7C01%7Cews3%40psu.edu%7C57c349d0553747986ce308d8394f322d%7C7cf48d453ddb4389a9c1c115526eb52e%7C0%7C0%7C637322359595246117&sdata=FpMEdysIrKNLDOn3Z9f6lxjgTT5uI1SNGmTVA7JaX2U%3D&reserved=0"
+        },
+        {
+            "text": "Microsoft Office 365",
+            "url": "https://student.worldcampus.psu.edu/a-z-index/office-365"
+        },
+        {
+            "text": "Adobe Creative Cloud",
+            "url": "https://softwarerequest.psu.edu/Home/Index"
+        },
+        {
+            "text": "Canvas Mobile App Requirements",
+            "url": "https://nam01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcommunity.canvaslms.com%2Fdocs%2FDOC-10567&data=02%7C01%7Cews3%40psu.edu%7C57c349d0553747986ce308d8394f322d%7C7cf48d453ddb4389a9c1c115526eb52e%7C0%7C0%7C637322359595256110&sdata=%2B%2Bw13dHCXIc6HCCJMqwNyw2XytIoTkWFRDkyAsM%2B8Ho%3D&reserved=0"
+        },
+        {
+            "text": "Student Technology Guide",
+            "url": "https://connecttotech.psu.edu/"
+        },
+        {
+            "text": "ITS Help Desk",
+            "url": "https://pennstate.service-now.com/sp"
+        },
+        {
+            "text": "Penn State University Library.",
+            "url": "https://libraries.psu.edu/"
+        },
+        {
+            "text": "A Decision Tool for Stakeholder Strategy",
+            "url": "#tab-strongadecisiontoolforstakeholderstrategystrong"
+        },
+        {
+            "text": "Stakeholder Impact Analysis",
+            "url": "#tab-strongstakeholderimpactanalysisstrong"
+        },
+        {
+            "text": "What are Strategic Alliances?",
+            "url": "#tab-strongwhatarestrategicalliancesstrong"
+        },
+        {
+            "text": "Why Do Firms Enter Strategic Alliances?",
+            "url": "#tab-strongwhydofirmsenterstrategicalliancesstrong"
+        },
+        {
+            "text": "Benefits",
+            "url": "#tab-strongbenefitsstrong"
+        },
+        {
+            "text": "Hierarchy of Authority",
+            "url": "#tab-stronghierarchyofauthoritystrong"
+        },
+        {
+            "text": "www.capsim.com",
+            "url": "http://www.capsim.com"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2025/01/image-1024x452.png"
+        },
+        {
+            "alt": "",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2025/01/image-1-1024x580.png"
+        },
+        {
+            "alt": "",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2025/01/image-2-1024x658.png"
+        },
+        {
+            "alt": "",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2025/01/image-4.png"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Requirement",
+                "%",
+                "Notes"
+            ],
+            [
+                "Individual",
+                "",
+                ""
+            ],
+            [
+                "Participation and Engagement in F2F/Zoom Classes",
+                "10",
+                ""
+            ],
+            [
+                "Completion of Peer Evaluation for Simulation",
+                "1.5",
+                ""
+            ],
+            [
+                "Completion of EBI Survey",
+                "1.5",
+                ""
+            ],
+            [
+                "Case Analysis Executive Summary Paper",
+                "15",
+                "2 pages + tables, figures, or exhibits"
+            ],
+            [
+                "Strategy Topics Quizzes",
+                "12",
+                "Multiple choice"
+            ],
+            [
+                "Team",
+                "",
+                ""
+            ],
+            [
+                "Paper – Preliminary Strategy for Simulation",
+                "10",
+                "3 pages + tables, figures, or exhibits"
+            ],
+            [
+                "Final Paper – Analysis of Simulation",
+                "25",
+                "15 pages + tables, figures, or exhibits"
+            ],
+            [
+                "Results of Simulation (rank order)",
+                "5",
+                ""
+            ],
+            [
+                "Presentation – Analysis of Simulation",
+                "20",
+                "PowerPoint"
+            ],
+            [
+                "TOTAL",
+                "100%",
+                ""
+            ]
+        ],
+        [
+            [
+                "Grade",
+                "Percentage Range"
+            ],
+            [
+                "A",
+                "93-100%"
+            ],
+            [
+                "A-",
+                "91-92.5%"
+            ],
+            [
+                "B+",
+                "88-90.5%"
+            ],
+            [
+                "B",
+                "85-87%"
+            ],
+            [
+                "B-",
+                "82-84%"
+            ],
+            [
+                "C+",
+                "78-81%"
+            ],
+            [
+                "C",
+                "70-77%"
+            ],
+            [
+                "D",
+                "65-69%"
+            ],
+            [
+                "F",
+                "64% or below"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"6012\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

@@ -1,0 +1,539 @@
+{
+    "metadata": {
+        "title": "ENGMT 520: Master Systems Optimization – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4241"
+    },
+    "headings": {
+        "h2": "Lesson 7: Numerical Methods for Optimum Design",
+        "h4": "Unlocking Your Potential",
+        "h5": "2. Excel Software",
+        "h6": "A = 95-100, A- = 90-94, B+ = 87-89, B = 84-86, B- = 80-83, C+ = 77-79, C = 70-76, D = 65-69, F = 64 and Below",
+        "h3": "Lagrange Multiplier Method"
+    },
+    "paragraphs": [
+        "ENGMT 520: Master Systems Optimization is a three-credit, seven-week course providing a comprehensive introduction to optimization techniques in systems engineering. This course equips students with the tools and methodologies to identify and implement optimal solutions for complex engineering problems, considering both constrained and unconstrained scenarios",
+        "Through selected readings, interactive lectures, and hands-on exercises, the course explores the foundational concepts of optimization, including defining objectives, decision variables, and constraints. Students will delve into optimization methods, such as optimality criteria and search techniques, to solve real-world engineering challenges. A particular emphasis is placed on linear programming and the application of the Simplex algorithm to efficiently handle problems with linear constraints and objectives.",
+        "Practical skills will be developed using industry-standard tools like MATLAB’s Optimization Toolbox and Excel Solver. These platforms enable students to solve both theoretical and practical optimization problems, from simple graphical methods for two-variable systems to complex multi-variable, nonlinear problems encountered in modern engineering.",
+        "The primary course deliverables include problem-solving exercises using advanced optimization techniques and software, as well as comprehensive projects that integrate theoretical concepts with real-world applications. Upon completing this course, students will be proficient in designing and implementing optimization solutions that address the complexities of systems engineering.",
+        "Engineers face problems involving making decisions. They have to pick the “best” from a list of alternatives. This requires a clear definition of the objective and the ability to clearly express it in terms of the decision variables. A thorough understanding of the problem and a detailed description are necessary to define the performance parameters that are needed to specify the objective function. The design variables can be either controllable or uncontrollable. We set the uncontrollable variables to meaningful values and write the objective function in terms of controllable variables. Lastly, we need to define the constraints. They could be the equality or the inequality types. Having clearly defined the optimization task, we solve the problem and determine the design variables that will yield the optimum solution.",
+        "Finding the best solution to a problem is a basic human desire. In this process, one may or may not encounter problems with restrictions or constraints which makes them either constrained or unconstrained sets, respectively. There are two basic approaches scientists use to solve these problems: optimality criteria methods and search methods. In the optimality criteria approach, a set of conditions has to be satisfied at the optimal point. In the search technique, a solution set, say a design, is hypothesized and improved upon until an optimum set is found that satisfies any optimality criteria. In this course, we will address both of these methodologies.",
+        "When the number of variables is two, graphical methods are possible to obtain the optimum design variables. In practice, engineers face situations that involve hundreds of design variables, and the objective function and the constraint equations are generally nonlinear in nature. With the advent of powerful computers and sophisticated computer programs like Matlab and Excel, it is possible to solve practical problems without making a lot of simplifying assumptions. The optimization toolbox available in Matlab provides a very user-friendly graphical user interface (GUI) and makes the solution process much easier.",
+        "We will start with unconstrained optimization in which there are no constraints and extend the concepts to constrained optimization. The optimality conditions assume that we are at an optimum point and at that point these conditions are to be satisfied. Some of the conditions are necessary and some of the conditions are sufficient. We will discuss situations when they are necessary and sufficient.",
+        "Linear Programming problems are a class of problems in which the objective function and all the constraints are linear. This is a very popular and practical approach that is applicable to many real-world problems. The Simplex algorithm developed by George Dantzig in 1947 is a very popular and powerful algorithm for linear programming problems. We will learn the detailed procedure for both the one-phase and the two-phase Simplex algorithm.",
+        "The optimization toolbox is available in Matlab and will be used extensively throughout the course. We will also use the solver capabilities in Excel.",
+        "*Note: All students are expected to have a working knowledge of Matlab and Excel and an understanding of mathematics at the undergraduate engineering level. The mathematics needed for the course will be quite basic and will be reviewed as needed. You will also be expected to use our online discussion forums, chat rooms, and electronic mail on a regular basis. The most important prerequisite of all, however, is your interest in the course, motivation, and commitment to learning.",
+        "*SYSEN 520 or instructor’s permission",
+        "After completing the course, a student will be able to:",
+        "In this course, we will use MATLAB, which is available for free via Penn State WebLabs.  Instructions for accessing MATLAB can be found in the course modules.",
+        "***If you have any issues accessing GlobalProtect or PSU WebLabs, please contact the  IT Service Desk for assistance.",
+        "A variety of MATLAB and Simulink Tutorials are available at MathWorks.com",
+        "All Penn State students have free access to Microsoft Office 365, which includes Excel.",
+        "Proctored Exams – None",
+        "Note: A grade is given solely on the basis of the instructor’s judgment as to the student’s scholarly attainment (see the Penn State Graduate Degree Programs Bulletin).",
+        "The following grading system applies to graduate students:",
+        "Students are reminded that simply meeting the minimal requirements of any assignment (both in terms of content and presentation) will result in a letter grade of “B” or less for that assignment.",
+        "There will be discussion forums for students to discuss among themselves different aspects of the course, and the instructor will participate in the discussions when it is appropriate. You are encouraged to work together on homework assignments. Use these discussion forums to post your questions and to read the responses from your classmates.",
+        "You will be assigned homework problems every week. It is very important that you complete and submit all the homework assigned in order to master the materials and keep up with the course schedule.",
+        "All assignments (homework, exams) for each week must be submitted to the appropriate assignment in Canvas before 11:59 PM EST on the following Sunday (see Course Schedule below for exact dates) for the submission to be considered on time.",
+        "There will be two exams (one midterm exam and one final). Exams are on an individual basis. Any questions on exams should be directed to the instructor, who will add information to the exams if many students are experiencing particular problems.",
+        "*subject to change",
+        "The definition of optimization, according to Dictionary.com is:",
+        "— Dictionary .com",
+        "Performance maximization and lowering costs are among the reasons for a business to seek optimization. Optimization should not be done as an afterthought but it should be integrated into every phase of the design process. If not done properly it could have a detrimental effect on the performance parameters.Extreme caution should be taken before drastically changing the design variables. We will discuss this in detail throughout this course. First, we will review some of the necessary mathematics.",
+        "This procedure involves multiplying the constraints by vivi ; the Lagrange multiplier and adding it to the objective function.",
+        "In addition to taking first derivative of the function with respect to the design variables, the procedure involves taking the first derivative with respect to the Lagrange multiplier and set them to zero.",
+        "This is a way of converting the constrained problem into one that we already know how to solve. Mathematically, we can write the problem as follows:",
+        "Minimize f(x)f(x) , subject to hi(x)=0,i=1hi(x)=0, i=1 to p.",
+        "Next, we construct the Lagrange function L(x,v)=f(x)+∑pj=1vjhj(x)=f(x)+vTh(x)L(x, v)=f(x)+∑j=1pvjhj(x)=f(x)+vTh(x) .",
+        "At (x*,v*)(x*,v*) , the gradient of L is 0, or ∇L(x,v)=0∇L(x,v)=0 evaluated at (x*,v*)(x*,v*) .",
+        "Differentiating L with respect to v, will recover the constraint equations.",
+        "Let us illustrate the use of Lagrange mulitplier using the following example.",
+        "Minimize f(x)=x12+x22f(x)=x12+x22 subject to h1(x)=2×1+x2−2=0h1(x)=2×1+x2−2=0",
+        "The Lagrange function L(x,v)=x12+x22+v(2×1+x2−2)L(x,v)=x12+x22+v(2×1+x2−2)",
+        "∇L(x,v)=⎡⎣⎢⎢⎢⎢∂f(x)∂x1∂f(x)∂x2∂f(x)∂v⎤⎦⎥⎥⎥⎥=⎡⎣⎢⎢⎢2×1+2v2x2+v2x1+x2−2⎤⎦⎥⎥⎥=0∇L(x,v)=[∂f(x)∂x1∂f(x)∂x2∂f(x)∂v]=[2×1+2v2x2+v2x1+x2−2]=0",
+        "This results in three equations in 3 unknowns. x1=−v;x2=−v/2;x1=−v; x2=−v/2; and −2v−v/2=2−2v−v/2=2 or v=−4/5v=−4/5 . This leads to x1=4/5×1=4/5 and x2=2/5×2=2/5 and f(x)=(4/5)2+(2/5)2=4/5",
+        "In general the objective function can be either maximized or minimized. The constraints can be combinations of greater than, equal, or less than types. The standard form can be assumed in different ways. In this course we take the objective function to be of the minimization type and the constraints are all of the equality type. Further, the design variables are all non-negative. This is convenient and is used to describe the Simplex method which will used to solve the linear programming problems. The standard form can then be written as:",
+        "Minimize f(x)=∑ni=1cixif(x)=∑i=1ncixi subject to ∑ki=1aijxj=bi∑i=1kaijxj=bi ; bi≥0bi≥0 , i=1 to m and xj≥0xj≥0 , h=1 to n.",
+        "In the matrix form: Minimize f(x)=cTxf(x)=cTx , subject to Ax=b; b≥0b≥0 and x≥0x≥0 .",
+        "This course will provide you with a thorough introduction to:",
+        "During this course you will expand your knowledge of the lesson topics each week.",
+        "This lesson introduces the foundational concepts of decision-making and optimization, emphasizing their relevance to solving complex engineering problems. Through a mix of real-world examples and interactive discussions, you’ll explore how optimization techniques can be applied to maximize efficiency and achieve better outcomes.",
+        "By completing this lesson, you’ll gain a strong foundation in decision-making and optimization, preparing you to tackle complex systems engineering challenges with confidence and precision.",
+        "This lesson introduces graphical methods for solving optimization problems with two design variables, focusing on defining objectives, identifying variables, and establishing constraints. Using Excel and MATLAB, you’ll gain practical experience in visualizing and solving optimization problems.",
+        "By completing this lesson, you’ll gain hands-on experience in solving optimization problems using graphical methods, equipping you with practical tools and techniques to approach real-world challenges effectively.",
+        "This lesson delves into the mathematical foundations of optimization, starting with unconstrained problems and extending to constrained scenarios. Through real-world examples and hands-on exercises, you’ll learn how necessary and sufficient conditions are used to identify optimal solutions.",
+        "By completing this lesson, you’ll develop a solid understanding of the mathematical principles of optimization and their applications in real-world scenarios, equipping you to solve increasingly complex problems with confidence.",
+        "This lesson introduces the Excel Solver tool, a powerful feature for solving optimization problems. Students will learn how to configure Solver for various objectives, set design variables, and apply constraints to real-world scenarios.",
+        "By completing this lesson, you will gain hands-on experience using Excel Solver to solve a variety of optimization problems, equipping you with practical tools for tackling real-world challenges efficiently.",
+        "This lesson introduces the powerful features of MATLAB’s Optimization Toolbox, a tool designed for solving both unconstrained and constrained optimization problems. Through hands-on examples, you’ll explore how to leverage MATLAB’s capabilities to tackle complex challenges effectively.",
+        "By completing this lesson, you’ll gain practical experience with MATLAB’s Optimization Toolbox, enhancing your ability to solve diverse optimization problems in engineering and beyond.",
+        "This lesson introduces Linear Programming (LP) methods, a widely used optimization technique for problems where the objective function and constraints are linear. Students will explore how LP applies to real-world challenges across engineering, finance, and logistics, leveraging tools like Excel and MATLAB.",
+        "By completing this lesson, you’ll be equipped to solve linear programming problems using Excel and MATLAB, applying these techniques to a wide range of real-world scenarios with confidence and precision.",
+        "This lesson delves into numerical techniques for solving unconstrained optimization problems, focusing on gradient-based and direct search methods. You’ll learn how to apply these approaches using advanced tools like MATLAB, LINDO, and Excel.",
+        "By completing this lesson, you’ll be equipped with foundational knowledge of numerical optimization techniques, enabling you to solve unconstrained problems and extend these methods to constrained scenarios. These skills will prepare you for tackling complex optimization challenges in real-world settings.",
+        "ENGMT 520 equips students with advanced skills in optimization techniques that are critical for designing, analyzing, and improving complex systems in various industries. The course prepares professionals to tackle real-world challenges by leveraging mathematical modeling, numerical methods, and cutting-edge tools like MATLAB and Excel to develop optimal solutions. With a focus on both constrained and unconstrained optimization problems, students gain the ability to make data-driven decisions that maximize efficiency, minimize costs, and optimize resources.",
+        "This course opens doors to career opportunities in engineering, operations research, logistics, finance, and supply chain management. Graduates of ENGMT 520 often find roles such as optimization specialist, systems engineer, operations analyst, and data scientist. These positions are in high demand across industries that rely on optimization to improve performance and profitability. By mastering systems optimization, students gain a competitive edge in the job market and are well-equipped to lead impactful projects.",
+        "A global logistics company faced significant challenges in optimizing its supply chain operations. With hundreds of distribution centers, thousands of delivery routes, and fluctuating customer demands, the company struggled to reduce costs while maintaining on-time delivery and high customer satisfaction. The existing system lacked the sophistication to handle dynamic constraints, such as vehicle capacities, delivery time windows, and fuel consumption, leading to inefficiencies and rising operational costs.",
+        "To address these issues, a systems optimization specialist was brought in to analyze the entire supply chain and identify areas for improvement. Using optimization techniques taught in ENGMT 520, the specialist modeled the company’s operations, defining key design variables like route assignments, delivery schedules, and inventory levels. The objective function aimed to minimize costs while satisfying constraints such as delivery deadlines and warehouse capacities.",
+        "By leveraging advanced optimization tools such as MATLAB and Excel Solver, the specialist implemented a linear programming model combined with heuristic algorithms for route optimization. This approach allowed the company to reconfigure its delivery network, improve load balancing across vehicles, and reduce redundant routes. As a result, the company achieved a 15% reduction in transportation costs, improved delivery times, and enhanced overall supply chain efficiency.",
+        "This example demonstrates the real-world impact of mastering systems optimization techniques, showcasing how they can solve complex logistical challenges and deliver measurable business benefits.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Understand the theoretical and conceptual basis of setting up and solving optimization problems.",
+            "Understand the mathematics of linear and nonlinear programming.",
+            "Appreciate the use of software like Matlab and Excel to be able to solve optimization problems.",
+            "Acquire skills to analyze practical problems and the ability to convey the results."
+        ],
+        [
+            "Introduction to Optimum Design by Jasbir S. Arora, Academic Press 4th Edition, 2017. (Free E-book option available). ISBN 978-0-12-800806-5L\n\nE-Book Option: An online version of your text is available at no cost as a Penn State Library E-Book. You can access the E-Book through the Library Resources link on the course navigation. You may choose to use the E-Book as an alternative to purchasing a physical copy of the text. For questions or issues, contact the University Libraries Reserve Help (UL-RESERVESHELP@LISTS.PSU.EDU).\nYou may choose to use the E-Book as an alternative to purchasing a physical copy of the text. For questions or issues, you can contact the University Libraries Reserve Help (UL-RESERVESHELP@LISTS.PSU.EDU).",
+            "E-Book Option: An online version of your text is available at no cost as a Penn State Library E-Book. You can access the E-Book through the Library Resources link on the course navigation. You may choose to use the E-Book as an alternative to purchasing a physical copy of the text. For questions or issues, contact the University Libraries Reserve Help (UL-RESERVESHELP@LISTS.PSU.EDU).",
+            "You may choose to use the E-Book as an alternative to purchasing a physical copy of the text. For questions or issues, you can contact the University Libraries Reserve Help (UL-RESERVESHELP@LISTS.PSU.EDU)."
+        ],
+        [
+            "E-Book Option: An online version of your text is available at no cost as a Penn State Library E-Book. You can access the E-Book through the Library Resources link on the course navigation. You may choose to use the E-Book as an alternative to purchasing a physical copy of the text. For questions or issues, contact the University Libraries Reserve Help (UL-RESERVESHELP@LISTS.PSU.EDU).",
+            "You may choose to use the E-Book as an alternative to purchasing a physical copy of the text. For questions or issues, you can contact the University Libraries Reserve Help (UL-RESERVESHELP@LISTS.PSU.EDU)."
+        ],
+        [
+            "In order to access MATLAB via WebLabs, you will first need to be connected through GlobalProtect VPN.  View the instructions on how to connect to the GlobalProtect VPN.",
+            "Once you are connected to the VPN, you can access PSU WebLabs and launch Mathworks MATLAB R2022a."
+        ],
+        [
+            "“A” (Excellent) indicates exceptional achievement;",
+            "“B” (Good) indicates substantial achievement;",
+            "“C” (Satisfactory) indicates acceptable but substandard achievement; and",
+            "“D” (Poor) indicates inadequate achievement and is a failing grade for a graduate student."
+        ],
+        [
+            "You may collaborate on homework assignments through the discussion forums, but the midterm and final exams are individual assignments.",
+            "Homework may require Excel, Matlab, Word, handwritten, or graphical solutions. Word, handwritten, or graphical solutions should be converted to PDF files."
+        ],
+        [
+            "Numerical Methods for Optimum Design",
+            "Optimization – The Basics",
+            "Graphical Optimization Excel & Matlab",
+            "Optimality Conditions",
+            "Optimum Design with Excel Solver",
+            "Optimum Design with Matlab",
+            "Linear Programming Methods"
+        ],
+        [
+            "Optimization",
+            "Lagrange Multipler",
+            "Standard LP Form"
+        ],
+        [
+            "Optimization Techniques: Core concepts and methods for solving constrained and unconstrained optimization problems, including linear and nonlinear programming.",
+            "Modeling and Problem-Solving: Skills to define objective functions, identify design variables, and establish constraints for real-world optimization problems.",
+            "Numerical Methods: Application of gradient-based and direct search techniques to optimize complex systems effectively.",
+            "Software Proficiency: Proficiency in using tools like MATLAB, Excel Solver, and other optimization software to solve large-scale problems with precision.",
+            "Linear Programming (LP): Understanding the fundamentals of LP, its applications in engineering and finance, and techniques like the Simplex method for solving LP problems.",
+            "Practical Applications: Insight into applying optimization techniques to diverse fields, such as supply chain management, transportation logistics, production scheduling, and resource allocation.",
+            "Decision-Making: Development of data-driven decision-making skills to enhance efficiency, minimize costs, and optimize system performance."
+        ],
+        [
+            "L1",
+            "L2",
+            "L3",
+            "L4",
+            "L5",
+            "L6",
+            "L7"
+        ],
+        [
+            "Importance of Decision-Making: Understand the role of effective decision-making in everyday life and complex engineering problems.",
+            "Common Challenges: Identify common pitfalls in decision-making, such as unclear objectives or undefined constraints, and how optimization addresses these issues."
+        ],
+        [
+            "Case Study Exploration: Analyze real-world optimization problems from industries like airlines or automotive to understand their objectives and constraints.",
+            "Decision-Making Reflection: Reflect on personal decision-making processes and identify areas where structured optimization techniques could improve outcomes."
+        ],
+        [
+            "Core Components of Optimization: Learn to identify design variables, define objective functions, and establish constraints for optimization problems.",
+            "Practical Tools: Gain experience using Excel and MATLAB for optimization, leveraging their capabilities for visualization and computation."
+        ],
+        [
+            "Excel Plotting Exercise: Practice creating plots in Excel to visualize objective functions and constraints.",
+            "Problem Definition Activity: Define variables, objectives, and constraints for a sample optimization problem to solidify understanding of the process."
+        ],
+        [
+            "Unconstrained vs. Constrained Optimization: Learn the differences between optimization problems with and without constraints.",
+            "Necessary vs. Sufficient Conditions: Understand the roles of necessary and sufficient conditions in determining optimal solutions."
+        ],
+        [
+            "Gradient and Hessian Analysis: Work through examples of multi-variable optimization to set gradient vectors to zero and analyze Hessian definiteness.",
+            "Derivative Calculation Exercises: Practice solving single-variable optimization problems by analyzing first and second derivatives."
+        ],
+        [
+            "Objective Function Setup: Understand how to set objectives for maximization, minimization, or specific target values.",
+            "Excel Solver Overview: Learn how to enable and configure the Solver tool in Excel to solve optimization problems."
+        ],
+        [
+            "Method Exploration Activity: Solve a problem using GRG Nonlinear, LP Simplex, and Evolutionary methods to compare outcomes and performance.",
+            "Case-Based Problem Solving: Apply Solver to solve a real-world optimization problem, demonstrating its functionality and versatility."
+        ],
+        [
+            "Introduction to MATLAB Optimization Toolbox: Learn the features and capabilities of MATLAB’s Optimization Toolbox for solving optimization problems.",
+            "Unconstrained Optimization: Explore methods for solving problems without constraints using MATLAB’s tools."
+        ],
+        [
+            "Unconstrained Problem Solving: Solve an optimization problem without constraints using MATLAB’s tools and techniques.",
+            "Comparison Task: Analyze the differences between MATLAB’s Optimization Toolbox and Excel Solver, focusing on use cases and strengths."
+        ],
+        [
+            "Introduction to Linear Programming (LP): Understand the structure of LP problems, including linear objective functions and constraints.",
+            "Connection to Nonlinear Optimization: Learn how nonlinear problems are approximated and solved using sequential linear programming techniques."
+        ],
+        [
+            "Excel Solver Exercise: Use Excel Solver to model and solve linear programming scenarios, interpreting the solutions effectively.",
+            "MATLAB LP Workshop: Apply MATLAB’s optimization toolbox to solve LP problems and compare results with Excel Solver."
+        ],
+        [
+            "Numerical Optimization Overview: Understand the basics of solving optimization problems using numerical methods.",
+            "Direct Search Techniques: Explore optimization methods that do not require derivatives, suitable for complex or non-smooth problems."
+        ],
+        [
+            "Software Application Practice: Use tools like MATLAB or LINDO to model and solve numerical optimization problems, exploring different methodologies.",
+            "Scalability Exploration: Experiment with multi-variable optimization problems to understand how software tools scale to handle complexity."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "GlobalProtect VPN",
+            "url": "https://pennstate.service-now.com/sp?id=kb_article_view&sys_kb_id=ff42464e47b929503c7a9362736d4363"
+        },
+        {
+            "text": "PSU WebLabs",
+            "url": "https://weblabs.psu.edu/"
+        },
+        {
+            "text": "IT Service Desk",
+            "url": "https://www.it.psu.edu/support"
+        },
+        {
+            "text": "MathWorks.com",
+            "url": "https://www.mathworks.com/support/learn-with-matlab-tutorials.html"
+        },
+        {
+            "text": "Dictionary.com",
+            "url": "http://www.dictionary.com/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [],
+    "tables": [
+        [
+            [
+                "Assignment Category",
+                "Quantity",
+                "% of Final Grade"
+            ],
+            [
+                "Weekly Homework Sets (Individual)",
+                "6",
+                "20%"
+            ],
+            [
+                "Midterm Exam (Individual)",
+                "1",
+                "40%"
+            ],
+            [
+                "Final Exam (Individual)",
+                "1",
+                "40%"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"4241\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

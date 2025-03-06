@@ -1,0 +1,779 @@
+{
+    "metadata": {
+        "title": "SYSEN 555: Invention & Creative Design – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=5265"
+    },
+    "headings": {
+        "h2": "Course Requirements and Grading",
+        "h4": "Unlocking Your Potential",
+        "h5": "Grading Procedures",
+        "h3": "Lesson 7: Final Assessment and Closing"
+    },
+    "paragraphs": [
+        "SYSEN 555 Invention & Creative Design: is a three-credit course that examines invention and design as integral aspects of technical problem-solving through a systems perspective, focusing on “design as a system.” The course is structured around four key elements—Problem, Process, People, and Product—which are explored both individually and in combination to provide a comprehensive framework for understanding design. Students delve into the fundamentals of invention, including topics like patents, while also studying key principles, models, and research findings related to design. Through case studies of designers and inventors, their methods, and the artifacts they create, the course provides an in-depth look at how innovation occurs and is applied in practice.",
+        "This course explores invention and design as examples of technical problem-solving from a systems perspective (i.e., design as a system). A framework of four elements (Problem, Process, People, and Product) is used to provide an underlying structure for the course, with the elements investigated separately and in combination. In addition to basic knowledge about invention (e.g., patents), students will study key principles, models, and research findings related to design, as well as case studies of designers and inventors, their methods, and the artifacts they create.",
+        "Upon completion of this course, students will be able to:",
+        "Design Thinking, 2nd edition, N. Cross, Bloomsbury Academic, 2023. ISBN: 9781350305069",
+        "Invention by Design, H. Petroski, Harvard University Press, 2000. ISBN: 0-674-46368-4",
+        "You may purchase the textbooks from Barnes & Noble College (the bookstore used by Penn State’s World Campus). For pricing and ordering information, please see the Barnes & Noble College website.  Alternatively, you may obtain the textbook from a vendor of your choice.",
+        "Please remember that ALL questions about grades, course lesson content, and assignments should be directed to your course instructor. If you have any technical difficulties using the tools within this course, please contact the Penn State Helpdesk.",
+        "All course-related e-mails should go through Canvas’s course mail function (Canvas Inbox). Using Canvas to contact your instructor ensures that your message will be read, and your instructor will respond to you in a timely manner.",
+        "Many of the University Libraries’ resources can be utilized from a distance. Through the Library website, you can access magazines, journals, and articles; borrow materials and have them delivered to your doorstep; and get research help via email chat or phone from a librarian.",
+        "For more information, view the Penn State University Library.",
+        "Navigating This Course:",
+        "Ideally, you should complete each lesson’s activities in the following order:",
+        "A grade is given primarily on the basis of the instructor’s judgment as to the student’s scholarly attainment. Students are encouraged to seek the instructor’s input during the process of completing each course requirement. Students are reminded that a letter grade of A is given to students who do exceptional work in both the quality of communicating ideas/information and the level of scholarship demonstrated, not simply for completion of assignments or meeting minimal requirements set for assignments. Student work will be assessed as follows:",
+        "***Note: A grade is given solely on the basis of the instructor’s judgment as to the student’s scholarly attainment (see the Penn State Graduate Degree Programs Bulletin).",
+        "The following grading system applies to graduate students:",
+        "NOTE: Students are reminded that simply meeting the minimal requirements of any assignment (both in terms of content and presentation) will result in a letter grade of “B-” for that assignment.",
+        "*Grades for this course will be based on the following scale:",
+        "A = 95–100, A- = 90–94, B+ = 87–89, B = 84–86, B- = 80–83, C+ = 77– 79, C = 70–76, D = 60– 69, and F = 59 and below.",
+        "Readings are assigned every week. These readings will include selections from the required texts, as well as other sources (e.g., articles, scholarly papers, etc.). All readings are required (unless noted as optional) and contain material that will be covered on the exams. You may be asked to participate in online discussion forums based on these readings as part of your graded coursework; see Assignments and Activities below.",
+        "There will be one (1) course project assigned in this course that focuses on the redesign of an existing product. It is an individual project, although you may discuss it with your classmates as you work on it. The purpose of this project is to help you synthesize, integrate, and apply the material covered in class and from the readings. Full project details will be provided separately.",
+        "Various assignments and activities will be available or assigned throughout the course. Some will be graded (e.g., discussion forums), while others – although not graded – are still recommended to supplement your learning (e.g., “test your knowledge” quizzes). The typical turnaround time for assignments will be seven (7) days after assignments are submitted.",
+        "Within 7 days after you have submitted an assignment, you will be able to review your grade and any comments made by your instructor. This process is used for all homework assignments, exams, or other graded submissions. Some instructors may also send you a message informing you that the assignment has been graded. Some instructors may choose to release all the grades to all students at once; other instructors may release grades per student one at a time.",
+        "*Subject to change",
+        "While invention and design have always been with us in some form, patents are relatively new in the span of human history. In this section, you will learn some basic facts about the “invention” of patents and the legal systems created around them. You will also learn how to distinguish among the basic types of intellectual property protection commonly used today – i.e., copyrights, trademarks, trade secrets, and patents – with a chance to test your knowledge at the end of the section. In learning about patents, you will be introduced to the three kinds of patents found in the U.S. patent system, along with the five statutory classes of subject matter considered patentable and the three essential qualities every patentable invention must meet.",
+        "(SELECT TITLES TO LEARN MORE)",
+        "The history of invention is both extensive and fascinating, full of many interesting anecdotes and amazing advancements; we could spend an entire course on the historical background of invention alone. For our purposes here, we will satisfy ourselves with just a few key facts that will set the stage for understanding how inventions are protected in the United States. We begin in the 15th century, when the practice of granting exclusive rights to an inventor for a limited time first occurred (as far as we know). The first patent law was established in Venice, Italy, in 1474, where it was utilized by Galileo for an irrigation pump. Other European nations also granted patents in a similar way; the practice was a way for a ruler to reward his (occasionally her) friends for political and/or financial favors. The British Parliament curtailed these abuses in 1624 and defined specific conditions for granting patents to inventors (i.e., the owner and duration of the patent).",
+        "Like so many of our regulatory mechanisms, the U.S. patent system was inspired by the British patent system, although no general patent law appeared in the U.S.. until 1790. Prior to the adoption of the U.S. Constitution, individual colonies granted patents. Then, within its structure, the authors of the U.S. Constitution placed a clause that granted Congress the authority to establish a patent system, although they did not specifically use that term:",
+        "U.S. Constitution, Article I, Section 8, Clause 8: “The Congress shall have the power to promote the progress of science and useful arts, by securing for limited times to authors and inventors the exclusive rights to their respective writings and discoveries.”",
+        "Generally speaking, the original purpose and philosophy of the U.S. patent system was to provide a stimulus to industry and to support the development of a budding nation. The subject matter covered by that system was stated to be “any useful art, manufacture, engine, machine, or device, or any improvement thereon not before known or used”. Moreover, applicants who were interested in applying for a patent were to provide a patent specification and drawing, and if possible, a working model. Figure 1.1. shows a patent granted to Samuel Hopkins of Philadelphia, PA on July 31, 1790. Mr. Hopkins received the first U.S. patent on record for his improvement in “the making of Pot ash and Pearl ash by a new Apparatus and Process”.",
+        "Protecting one’s intellectual property is a bit of a paradoxical challenge: How can a person openly put an idea to use and still retain exclusive rights to the idea? In the United States, intellectual property laws were designed to protect the rights arising from the creative mental work of individuals. Intellectual property refers to products of the mind, which can be protected by the following mechanisms:",
+        "(SELECT TABS TO LEARN MORE)",
+        "Copyrights:",
+        "Copyrights protect an author’s creative works (e.g., literary, musical, dramatic, pictorial, movies, computer programs, etc.) from unauthorized copying. It’s important to note that copyrights protect the manner of expression of an idea, not the underlying idea itself. So, for example, two different people can write books about the life of Henry Ford, but they cannot use the same collection of words and artwork in the same arrangement.",
+        "Here are a few other things you should know concerning copyrights:",
+        "Trademarks:",
+        "Trademarks are distinctive words, phrases, names, symbols, or devices used to identify the source of goods in commerce. A trademark is not used to identify the product itself – only the source of the product. So, for example, anyone can manufacture and sell soft drinks (using their own recipe), but only the Coca-Cola® company can put their trademark on a bottle or can. Moreover, trademarks remain in force indefinitely (with renewal every 20 years), provided the mark has not been retired. To register your trademark, you must apply to the U.S. Patent and Trademark Office (USPTO), which is located in Alexandria, Virginia.",
+        "Trade Secrets:",
+        "Trade Secrets are confidential information held by industry that are protected under the body of common law (“trade secret law”) governed by the individual states. More importantly, there is no universal agreement on what constitutes a trade secret. Some general examples would be processes, formulas, patterns, devices, or customer lists – anything that gives a company a competitive advantage over another.",
+        "Patents:",
+        "Now we come to the “main meal” of this lesson: understanding patents. Our key resource for information on patents will be the U.S.. Patent and Trademark Office (USPTO). Make yourself familiar with the USPTO web site: www.uspto.gov. It is an excellent resource for learning about intellectual property, even if you never intend to file for a patent or trademark yourself – and you will use it in completing your course project as well!",
+        "A U.S.. patent is granted by the Federal government to an inventor, giving her/him the right to exclude others from making, using, or selling her/his invention in the U.S. for a limited period of time. The key here is the word “exclude”: a patent does not give a person the right to use/sell/practice his or her invention, only to exclude others from doing so. In terms of timeframe, a patent is granted for a period of time that begins on the date of issue and ends 20 years from the date the patent application was filed. Patent applications come not only from individuals, but also from teams and corporations. In fact, only around 15% of U.S. patent applications currently come from independent inventors. This can be attributed to changes in the technical problem solving environment (including the cost of patent applications) and the importance of teams in invention.",
+        "Three Types of Patents",
+        "There are three types of patentable inventions, leading to three types of patents: utility patents, design patents, and plant patents. The tabbed sections below describe these types and provide examples. In addition to the USPTO web site, you can also search for all three types of patents using the Google patent search web site: patents.google.com.",
+        "(SELECT ARROWS TO LEARN MORE)",
+        "Utility Patents",
+        "As you might expect, utility patents protect “inventions of utility”, where the emphasis is on the functionality of the invention (what does it do). This is the most common type of patent, making up 90% of those granted by the USPTO. An example of a device covered by a utility patent would be a security document with specially encoded data (U.S. Patent #6,546,112 B1) or a machine to produce stamped cookie cutters.",
+        "Design Patents",
+        "With design patents, the emphasis is on the appearance or aesthetic properties of the invention, rather than its functionality. This is the second most common type of patent granted by the USPTO. An example of an invention covered by a design patent would be a chair supported by a unique type of pedestal rather than four legs or a powder compact for make-up (U.S. Design Patent #D407,853).",
+        "Plant Patents",
+        "Finally, certain types of plants are covered by plant patents – specifically, plants that are reproduced asexually (i.e., reproduced by means other than from seeds, cuttings, tuber propagation, or grafting). This is the least common type of patent and would cover (for example) specially bred roses or peach trees (U.S. Plant Patent #PP10,872).",
+        "Five Classes of Subject Matter",
+        "Furthermore, a patentable invention must meet several specific requirements: (1) it must be of a suitable subject matter, and (2) it must exhibit three essential qualities. When it comes to utility patents, there are five statutory classes of subject matter considered patentable, as follows:",
+        "Three Essential Qualities",
+        "In addition, patentable inventions must exhibit three essential qualities: Novelty, Utility, and Non-Obviousness.",
+        "Novelty: To meet the novelty criterion, an invention must not be published or patented anywhere in the world or used/sold in the U.S. more than one year prior to the date of application for a patent. In essence, then, proving novelty means you must show that your idea is sufficiently different from those that came before it. This is done by showing that the product has not appeared in any previously published literature or public distribution setting; demonstrating this is known as searching the prior art.",
+        "Utility: To meet the utility requirement, the invention must be useful (serve a useful purpose or function), even if its only function or use is amusement. The assessment of utility is definitely subjective; some patent functions can seem downright silly, like an electronic snore depressor (U.S. Patent #3,480,010A).",
+        "Non-Obviousness: To meet the non-obviousness criterion, an invention must not be obvious to people with ordinary skill in the domain of the invention. The assessment here is a bit abstract and subjective, and definitely requires a technical background and familiarity with the prior art. For example, minor changes in material or form are not patentable due to their obviousness.",
+        "Non-Patentable Things",
+        "Based on the three essential qualities described above, the USPTO has identified several categories of things that cannot be patented. Table 1.3 shows examples of things that are not patentable, along with the relevant reasons.",
+        "A Few More Patent Facts",
+        "In general, patent systems fall into two categories: first-to-invent and first-to-file. In first-to-invent systems, the first person to invent or “reduce a device to practice” has precedence over anyone else filing a patent application for the same device. In such a system, it is the responsibility of the inventor to prove that he/she created an invention before anyone else – a good reason to keep detailed and dated invention notebooks! In first-to-file systems, the first person to file a patent application for a particular device has precedence. Until 2013, the U.S. patent system was a first-to-invent system. The “America Invents Act”, signed by President Barack Obama on September 16, 2011, switched the U.S. patent system from a first-to-invent system to a first-to-file system for patent applications filed on or after March 16, 2013.",
+        "In your second reading for this week – Petroski, Ch. 5 (Aluminum Cans and Failure) – you will consider the different kinds of failure that occur in design and invention, and how they influence the resultant emerging patterns of solution development. Many kinds of failure are relevant in our engineering practice, including technical and conceptual failure, among others.",
+        "(SELECT TABS TO LEARN MORE)",
+        "Technical Failure:",
+        "Technical failure is the fundamental failure (technological breakdown or malfunction) of a material, device, process, or program. Technical failures can be unintended, leading to an unplanned loss of function in a design or invention (e.g., the collapse of a beam under a heavy load; a programming error). Such unintended technical failures are destructive; we manage these known sources of potential failure within the design process through various mechanisms, including safety factors and scheduled maintenance checks. Interestingly, technical failures can also be purposeful – i.e., they can actually be designed into a product or system as part of its intended technical functionality, such as the physical separation of the metal tab on an aluminum can or the perforated section of a packaging envelope. We might even call this “failure by design”.",
+        "Conceptual Failure:",
+        "Conceptual failure is the failure of a concept or idea to deliver the desired or promised results, even when the concept is realized perfectly (i.e., an idea doesn’t work out the way we thought it would and/or factors or implementation issues are overlooked). An example would be a new auto body design that promises to be more aerodynamic than a previous model, but upon testing, we find that it is not. Or we may believe that a new toothpaste container will be a huge success in the market, only to find that customers don’t like it once we put it on the grocery store shelves. Or the environmental side effects of a product make it impossible to support, even though it is a technical success.",
+        "In closing this section – and this lesson – it is important to consider how failures of any kind impact your own design or invention work. In addition to the obvious technical need to correct any failures that lead to negative consequences, it is also important to consider our psychological and emotional responses to failure in general. If we examine the lives of famous designers and inventors, including Thomas Edison (who once stated: “I have not failed. I have found 10,000 ways that won’t work”), Stephanie Kwolek (inventor of Kevlar), Gordon Murray, and Kenneth Grange, we see that these individuals experienced failure (both technical and conceptual) as much as any other designer/inventor – possibly more so, if Edison’s quote is any indication. We (and they) might say that their success was at least partly a result of their response to those failures: i.e., rather than giving up, they examined their failures closely and then “got back on the horse”, revising their concepts and designs and trying again.",
+        "As a final bit of humorous inspiration to help you persist in the face of failure, check out this brief video (“The Roses of Success”) from the famous MGM film, “Chitty Chitty Bang Bang”. In it, the kidnaped father of an inventor has been asked to invent a car that will float; his comrades remind him that “from the ashes of disaster grow the roses of success”. Enjoy!",
+        "In Lesson 5, you were introduced to different research methods for studying individual designers and inventors, including historical studies and in situ protocol studies. You might now ask yourself: do these same methods apply to studying design teams as well? The answer is ‘yes’, and you will soon see several examples from different sources, including your textbook (Cross) and the review of a recent design research study taken from the scholarly literature.",
+        "(SELECT TITLES TO LEARN MORE)",
+        "In Chapter 5 of your textbook (Cross), you observed a lone, highly experienced designer (Victor Scheinman) applying his expert knowledge to the design of a bike rack in a think-aloud protocol study. In the first part of this week’s readings (Cross, Chapter 6), you will observe a team of three experienced designers attacking exactly the same design problem (i.e., designing a new bike rack) – but in this case, rather than a think-aloud experiment, all of the team’s actions and natural conversation were recorded and analyzed closely in a variety of ways. In particular, the roles and relationships of the team members were examined, as well as their approach to planning and changing activities, gathering and sharing information, generating and adopting concepts, and avoiding and resolving conflicts. Among other results, this study confirmed that teams of designers engage in both a technical process and a social process, so their interactions, personal roles, and relationships cannot be ignored as they pursue their scientific solutions. Finally, in the last part of this week’s readings (Cross, Chapter 7), you will explore a comparison of these two studies (i.e., Scheinman vs. the design team) that includes a fascinating analysis of how much time Scheinman and the team, respectively, spent in the principal phases of their design processes (clarifying the task, searching for concepts, and fixing their final concept). As you read through these chapters, reflect on your experiences in designing things – both alone and with others – and look for insights into how your experiences were similar and different from these studies.",
+        "We move now to a more recent research study involving design teams. Our aims here are twofold: (1) to add depth to your experience with design team research in general; and (2) to explore a study that integrates some of the topics you have learned in this and other courses in your degree program. The research we will briefly examine grew out of a collaborative project between Penn State University and Stanford University researchers. The work was sponsored by the National Science Foundation (NSF) and focused on mapping the high performance design team “genome” – i.e., identifying key factors that lead to design team success by exploring the relationships between individual designer characteristics, team interaction behavior, and design performance outcomes (see Figure 6.4).",
+        "Several scholarly references related to this project can be found at the end of this lesson; each one is a typical example of design team research that takes a mixed methods approach (i.e., both quantitative and qualitative analyses). While you are not required to read any of these articles for this course, you may find them interesting as a supplement to your studies. Here, we’ll review just a few details taken from the first of the listed references (Jablokow, et al., 2019, ASEE), separating our review into three sections:",
+        "(SELECT TABS TO LEARN MORE)",
+        "Research Aims and Methods",
+        "To provide some context for this brief review, all of the design teams under observation were existing teams at the time of the study. These particular teams were enrolled in an entrepreneurship program that aimed to helped design teams move their design concepts beyond prototyping and into actual practice by applying a user-centered design approach. Each team was fairly multidisciplinary (i.e., different types of engineering or science, with some business background) and contained both students and faculty members from the same mid-Western university. Each team also included a senior mentor, who was assigned by the program organizers to help guide the team as it worked through the entrepreneurial design process.",
+        "Within this context, the underlying research aims for the study were focused on making the teams more effective, improving the assignment process for mentors, and enhancing each team’s activities throughout the design process through a better understanding of the individual cognitive characteristics and dynamic interactions of the teams. To this end, the research team collected data from the design teams via a 1-day workshop; the flow of the workshop is shown in Figure 6.5.",
+        "The workshop began with a brief background presentation about the research study; each participant also signed a consent form prior to further participation. At the end of the background presentation, each individual completed the KAI inventory (the same one you completed in SYSEN 550). Following these introductory activities, all design teams were presented with the same real-world design challenge focused on the development of an inexpensive water pump for a developing country and given one hour to complete their work. Team deliverables included two prototypes made of simple craft materials: (1) a Best Fit prototype (readily seen to meet the design specifications) and (2) a Dark Horse prototype (a potentially riskier solution that might not be feasible), as well as a brief presentation.",
+        "The research team video-recorded each design team’s interactions as they developed and presented their solutions; the KAIs were scored as they worked. Following the first design challenge, each participant completed an individual debrief document. Next, the research team described how the videos would be analyzed (i.e., via IDN – the Interaction Dynamics Notation) and delivered a short KAI feedback session, in which each person received his/her KAI results. This presentation was followed by a second design challenge focused on addressing the social isolation experienced by some children in hospitals. Once again, two prototyped solutions (Best Fit and Dark Horse) were requested, each team’s interactions and presentations were recorded, and the same debrief document was administered at the end of the experience.",
+        "As a quick aside, the method for analyzing the videos involved the application of the Interaction Dynamics Notation (IDN), which was developed at Stanford University by one of the authors of this paper (N. Sonalkar) based on cognitive semiotics and improvisational theater. Using IDN, researchers can record the interpersonal interactions of team members and map those interactions to specific IDN symbols and sequences, as shown in Figures 6.6 and 6.7. Those interaction sequences can then be analyzed using statistical techniques, data mining, and other methods. In addition to IDN sequences, this research team also analyzed the ideation utterances for each design team (i.e., number of ideas, number of unique ideas).",
+        "Design team outcomes were observed and analyzed in a number of ways. The outcome data collected by the research team included the design prototypes of each team (Best Fit and Dark Horse solutions), individual reflections on the design experiences, and individual perceptions of both personal and team performance. See Figure 6.8 for examples taken from the debrief survey of one participant.",
+        "Findings from the Study",
+        "Now let’s look at a few of the findings from this study (full details can be found in the referenced conference paper).",
+        "(SELECT ARROWS TO LEARN MORE)",
+        "Finding #1:",
+        "All of the design teams showed high cognitive style diversity, with innovative style means. This finding is not surprising for a self-proclaimed “entrepreneurship” program in which teams self-select to participate. Other studies related to KAI have shown that entrepreneurs (as a population) tend to have more innovative cognitive styles on average, although more adaptive individuals can clearly succeed as entrepreneurs as well. Interestingly, this research team also found that coping behavior was low across all of the design teams, despite their high cognitive diversity.",
+        "Finding #2:The most successful design teams in this study all contained well-positioned “bridgers” in terms of cognitive style. In other words, the teams who exhibited the best design results (e.g., most ideas generated, most proactive in engaging with users) had at least one team member who was “mid-way” (approximately) between the most adaptive and most innovative members of the team. Team reflections indicate that this bridging team member often served as a moderator for the team (even when they were not the team’s formal mentor).",
+        "Finding #3:",
+        "Variations in individual team members’ perceptions of their team outcomes were unrelated to cognitive style (KAI). Here, the finding refers to how individual team members evaluated the novelty, usefulness, and feasibility of their Best Fit and Dark Horse solutions (see Figure 6.9). One might hypothesize that the more adaptive and more innovative participants in the study would rate their Best Fit and Dark Horse solutions differently in terms of these three metrics, but the results of the study show otherwise. In general, as you can see in the figure, the Best Fit solutions of all the teams were generally evaluated as less novel but more feasible and more useful than the Dark Horse solutions.",
+        "Implications of the StudyThe research we have briefly reviewed here has implications for both design practitioners and engineering educators. Among other things, it shows that cognitive characteristics can be used in composing teams to enable the “bridging effect” within the team and to improve the mentor matching process. It also shows that design teamwork can be explicitly investigated and understood using KAI and IDN. And finally, it confirms that the awareness of team interaction patterns and cognitive styles can help design teams identify sequences and behaviors that lead to more design ideas and to better regulation of their own performance.",
+        "This course aims to help students understand the key factors influencing designers and inventors, compare their problem-solving approaches, apply design thinking to redesign products, and analyze patents as technical literature.",
+        "Upon completion of this course, students will be able to:",
+        "Throughout this course students will gain the skills to identify key factors affecting designers and inventors, compare their problem-solving methods, apply design thinking, and analyze patents, preparing them to tackle real-world challenges effectively.",
+        "This lesson introduces students to the framework guiding design and invention processes. It explores key concepts such as the history of invention, the importance of patents, and their role as technical literature.",
+        "By the end of this lesson, students will have a foundational understanding of the guiding framework for design and invention, including the role of patents as technical literature and their historical significance in the innovation process.",
+        "This lesson focuses on the key aspects of the design and invention process, with an emphasis on revisiting the guiding framework and exploring design models. Students will learn about human-centered design, user-centered needs analysis, and how designers and inventors approach problem-solving.",
+        "By the end of this lesson, students will have a deeper understanding of the design and invention process, particularly the human-centered approach to design, and how to analyze user needs to inform problem-solving.",
+        "This lesson delves into the latter stages of the design and invention process, covering ideation, prototyping, user testing, and the development phase. Students will also explore the critical role of failure in the iterative process of innovation.",
+        "By the end of this lesson, students will have a thorough understanding of the prototyping and testing phases of the design process, the importance of user feedback, and how failure contributes to successful innovation.",
+        "This lesson focuses on applying the knowledge gained so far to the course project, where students will ideate, prototype, and test their designs. It also includes preparation for the upcoming mid-term exam, which will assess their understanding of key concepts.",
+        "By the end of this lesson, students will have completed the ideation, prototyping, and testing stages of their course project and will be well-prepared for the mid-term exam, consolidating their understanding of the design and invention process.",
+        "This lesson explores the cognitive processes behind design and invention, focusing on how individual designers think and approach problems. Students will also learn about design research methods used with designers and inventors to understand their decision-making and creative processes.",
+        "By the end of this lesson, students will have a clearer understanding of how designers and inventors think, the cognitive processes that drive their creativity, and how to apply design research methods to study these processes.",
+        "This lesson builds on the cognitive processes explored in Part 1, focusing on designing and inventing in teams. Students will examine team dynamics, the development of design expertise, and the role of novices and experts in the design process.",
+        "By the end of this lesson, students will have a deeper understanding of how design expertise develops, the dynamics of designing in teams, and the research that supports effective team collaboration in the design and invention process.",
+        "This lesson focuses on wrapping up the course and preparing for the final assessment. Students will complete the final part of their course project and review key concepts to prepare for the final exam.",
+        "By the end of this lesson, students will have completed their course project and will be fully prepared for the final exam, having synthesized the knowledge and skills gained throughout the course.",
+        "The SYSEN 555: Invention & Creative Design course provides students with a comprehensive foundation in invention and creative problem-solving, critical for advancing careers in industries driven by innovation, such as technology, manufacturing, and design. The course’s focus on ideation, prototyping, and iterative testing equips students with practical experience that directly applies to real-world product development. By learning to think creatively and work collaboratively, students improve their problem-solving and critical thinking skills, enhancing their potential to work in roles like product manager, industrial designer, innovation consultant, or development engineer. Furthermore, the course’s attention to patenting and intellectual property opens doors for careers in patent law and product protection.",
+        "A real-world example of how the SYSEN 555: Invention & Creative Design course applies to industry can be seen in the development of innovative consumer products, like the creation of the Fitbit. The process of designing and developing the Fitbit required extensive research, ideation, prototyping, and testing—key concepts taught in the course. Designers and engineers worked together in teams to understand the user’s needs (empathize), define the problem (define), brainstorm ideas (ideate), and create prototypes that could be tested with real users. Throughout this process, they iterated on their design based on user feedback and market trends, much like the design thinking approach students learn in this course. By learning these skills in SYSEN 555, students gain the practical knowledge needed to contribute to similar product development projects, whether in consumer technology, healthcare devices, or other industries where creative design and innovation are essential.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Identify key factors that influence the behavior and outcomes of designers and inventors",
+            "Compare and contrast inventors and designers as problem solvers",
+            "Employ models and theories related to the design/invention process",
+            "Apply design thinking to the redesign of an existing product/device",
+            "Analyze patents in their role as technical literature"
+        ],
+        [
+            "Note: Previous editions of this book are acceptable."
+        ],
+        [
+            "E-Book Option: An online version of this text (Invention by Design) is available at no cost as a Penn State Library E-Book. You can access the E-Book through the Library Resources link in the course menu. You may choose to use the E-Book as an alternative to purchasing a physical copy of the text. For questions or issues, you can contact the University Libraries Reserve Help (UL-RESERVESHELP@LISTS.PSU.EDU)."
+        ],
+        [
+            "HelpDesk Website: https://student.worldcampus.psu.edu/help-and-support/technical-support.",
+            "HelpDesk Email: techsupport@worldcampus.psu.edu",
+            "HelpDesk Phone: (800) 252-3592"
+        ],
+        [
+            "“A” (Excellent) indicates exceptional achievement;",
+            "“B” (Good) indicates substantial achievement;",
+            "“C” (Satisfactory) indicates acceptable but substandard achievement; and",
+            "“D” (Poor) indicates inadequate achievement and is a failing grade for a graduate student."
+        ],
+        [
+            "Midterm Exam: There will be one mid-term exam, which will assess your understanding and retention of all material covered up to the date on which it is given. The format for the exam will be open book and notes and will feature open-ended questions.",
+            "Final Exam: The final exam will be comprehensive, covering all material presented, discussed, and assigned during the entire course. The format and delivery will be similar to that of the mid-term exam."
+        ],
+        [
+            "If you have not received your grade, comments, or any updates after seven (7) days, please be sure to contact your instructor.",
+            "To view your grades, go to ‘Grades’ in the Course Navigation Menu."
+        ],
+        [
+            "Understanding Patents",
+            "The Role of Failure",
+            "Exploring Design Team Research"
+        ],
+        [
+            "Copyrights",
+            "Trademarks",
+            "Trade secrets",
+            "Patents"
+        ],
+        [
+            "Copyrights",
+            "Trademarks",
+            "Trade Secrets",
+            "Patents"
+        ],
+        [
+            "The Copyrights Office is located in the Library of Congress in Washington, D.C., which is where copyrights are registered.",
+            "The term of a registered copyright is the life of the author plus an additional fifty years.",
+            "There is no need to formally register for a copyright to receive protection, because copyright is secured automatically when a work is created (e.g., a master’s thesis). But when monetary gain may be involved (e.g., a book or song you want to sell), registering your copyright is a good idea."
+        ],
+        [
+            "Utility Patents",
+            "Design Patents",
+            "Plant Patents"
+        ],
+        [
+            "Technical Failure",
+            "Conceptual Failure"
+        ],
+        [
+            "Research Aims and Methods",
+            "Findings from the Study",
+            "Implications of the Study"
+        ],
+        [
+            "Research Aims and Methods",
+            "Findings",
+            "Implications"
+        ],
+        [
+            "Finding #1",
+            "Finding #2",
+            "Finding #3"
+        ],
+        [
+            "Identify key factors that influence the behavior and outcomes of designers and inventors",
+            "Compare and contrast inventors and designers as problem solvers",
+            "Employ models and theories related to the design/invention process",
+            "Apply design thinking to the redesign of an existing product/device",
+            "Analyze patents in their role as technical literature"
+        ],
+        [
+            "L1",
+            "L2",
+            "L3",
+            "L4",
+            "L5",
+            "L6",
+            "L7"
+        ],
+        [
+            "Course Introduction: Overview of the syllabus, course schedule, and expectations.",
+            "A Guiding Framework: Introduction to the fundamental principles of design and invention.",
+            "History of Invention and Design: Exploration of significant historical milestones in design and invention.",
+            "Understanding Patents: Examination of patents, their structure, and significance in intellectual property.",
+            "Patents as Technical Literature: Analysis of how patents serve as a technical resource for inventors and designers."
+        ],
+        [
+            "Building Our Learning Community: Students engage in an introductory activity to foster collaboration and set the tone for the course.",
+            "Test Your Knowledge: A quiz to assess students’ understanding of patent structures.",
+            "Course Project, Part 1: Students choose a product and conduct an analysis of its related patent."
+        ],
+        [
+            "Revisiting Our Guiding Framework: A refresher on the principles and structure that guide the design and invention process.",
+            "Design Process Models: Introduction to different models used in design and invention to structure problem-solving.",
+            "Human-Centered Design: Overview of the human-centered approach to design, focusing on empathy and user needs.",
+            "User-Centered Needs Analysis (Empathize and Define): Exploration of how understanding user needs is central to the design process.",
+            "Studying Designers and Inventors: An introductory look at how designers and inventors approach challenges differently and how these methods can be applied."
+        ],
+        [
+            "Empathize and Define: Students apply the empathize and define phases of the design process to a project, identifying user needs and defining the problem.",
+            "Reflection Questions for Tim Brown’s Article: Students reflect on key concepts from Tim Brown’s article to deepen their understanding of human-centered design.",
+            "Course Project, Part 2: Students move forward with their course project by applying the “Empathize and Define” steps to their chosen product."
+        ],
+        [
+            "From Design Concept to User Feedback: Understanding the transition from initial design ideas to gathering user feedback for refinement.",
+            "Design Ideation: Exploring creative brainstorming techniques to generate and evaluate multiple design solutions.",
+            "Prototyping and User Testing: The importance of building prototypes and conducting user testing to validate design ideas and improve functionality.",
+            "Design and Development: The iterative process of refining designs and preparing for the final stages of development.",
+            "The Role of Failure in Design and Invention: Analyzing how failure plays a critical role in learning and improving designs during the invention process."
+        ],
+        [
+            "Course Project, Part 2: Students apply their learnings from the ideation and prototyping stages to develop their design concept and refine it through feedback.",
+            "Class Discussion (Petroski: Chapters 4 & 5): Engage in class discussions around key insights from Petroski’s chapters on design and invention, focusing on the iterative process and the lessons learned from failure."
+        ],
+        [
+            "Course Project, Part 3 (Ideate, Prototype, and Test): Students will move forward with their project by generating ideas, creating prototypes, and testing them to validate their concepts.",
+            "Mid-Term Exam Preparation: An overview of key topics covered in the course so far, with a focus on preparing for the mid-term exam."
+        ],
+        [
+            "Course Project, Part 3: Students will apply the ideation, prototyping, and testing phases to their chosen design project, working through real-world challenges and refining their solutions.",
+            "Mid-Term Exam Review: Review of the material covered up until this point, with opportunities to ask questions and clarify key concepts before the exam."
+        ],
+        [
+            "Revisiting Our Guiding Framework: A review of the principles that inform the design and invention process, setting the context for cognitive approaches in design.",
+            "Design Cognition – How Do Individual Designers Think?: Examining the mental processes of designers and how they approach problem-solving and innovation.",
+            "Design Research with Designers and Inventors: Methods for researching and understanding how designers and inventors think, including techniques for studying their processes and decisions."
+        ],
+        [
+            "Quiz (Matching Activity): A quiz where students match more adaptive people with more innovative people to explore the cognitive traits associated with creative and innovative individuals.",
+            "Course Project, Part 3: Students continue to develop their course projects, applying ideation, prototyping, and testing phases.",
+            "Reflection Questions for Gorman & Carlson’s Article: Students reflect on key concepts from Gorman & Carlson’s article to deepen their understanding of designer cognition."
+        ],
+        [
+            "Revisiting Our Guiding Framework (Part 2): A continuation of the framework that informs collaborative design and invention, focusing on team-based processes.",
+            "Designing and Inventing in Teams: Exploring how teams work together to create and innovate, and the dynamics that influence team success.",
+            "Exploring Design Team Research: Studying research on how design teams collaborate, communicate, and solve problems collectively.",
+            "Novices and Experts – Developing Design Expertise: Understanding the progression from novice to expert in design and how expertise impacts problem-solving and innovation."
+        ],
+        [
+            "Course Project, Part 4 (Prototype Presentation – VoiceThread Assignment): Students present their prototypes through VoiceThread, showcasing their design and testing processes.",
+            "Reading & Discussion (Cross: Chapters 6, 7, & 8): Engaging in class discussions on the readings from Cross, focusing on teamwork, expertise, and design problem-solving.",
+            "Student Educational Experience Questionnaire (SEEQ): Students complete a survey to provide feedback on their learning experience."
+        ],
+        [
+            "Closing Out The Course: Reflecting on the key learning outcomes and concepts covered throughout the course, and preparing for the transition to the final exam and project submission.",
+            "Course Project, Part 5 (Project Report): Students finalize and submit their project report, summarizing their design, testing, and results.",
+            "Final Exam Preparation: A review of the material covered in the course, with a focus on key concepts and application of knowledge for the final exam."
+        ],
+        [
+            "Course Project, Part 5 (Final Report): Students complete and submit their final project report, consolidating all stages of their design and invention process.",
+            "Final Exam Review: A final review session where students can ask questions and clarify concepts in preparation for the final exam."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Design Thinking, 2nd edition",
+            "url": "https://www.bloomsbury.com/us/design-thinking-9781350305069/"
+        },
+        {
+            "text": "Invention by Design",
+            "url": "https://www-jstor-org.ezaccess.libraries.psu.edu/stable/j.ctv1pncnzm"
+        },
+        {
+            "text": "Barnes & Noble College website",
+            "url": "https://bncvirtual.com/psude"
+        },
+        {
+            "text": "https://student.worldcampus.psu.edu/help-and-support/technical-support.",
+            "url": "https://student.worldcampus.psu.edu/help-and-support/technical-support"
+        },
+        {
+            "text": "techsupport@worldcampus.psu.edu",
+            "url": "mailto:techsupport@worldcampus.psu.edu?subject=World%20Campus%20Tech%20Support%20Inquiry"
+        },
+        {
+            "text": "Penn State University Library.",
+            "url": "https://libraries.psu.edu/"
+        },
+        {
+            "text": "Copyrights",
+            "url": "#tab-strongcopyrightsstrong"
+        },
+        {
+            "text": "Trademarks",
+            "url": "#tab-strongtrademarksstrong"
+        },
+        {
+            "text": "Trade Secrets",
+            "url": "#tab-strongtradesecretsstrong"
+        },
+        {
+            "text": "Patents",
+            "url": "#tab-strongpatentsstrong"
+        },
+        {
+            "text": "www.uspto.gov",
+            "url": "https://www.uspto.gov/"
+        },
+        {
+            "text": "patents.google.com",
+            "url": "https://patents.google.com/"
+        },
+        {
+            "text": "Utility Patents",
+            "url": "#tab-strongutilitypatentsstrong"
+        },
+        {
+            "text": "Design Patents",
+            "url": "#tab-strongdesignpatentsstrong"
+        },
+        {
+            "text": "Plant Patents",
+            "url": "#tab-strongplantpatentsstrong"
+        },
+        {
+            "text": "Technical Failure",
+            "url": "#tab-strongtechnicalfailurestrong"
+        },
+        {
+            "text": "Conceptual Failure",
+            "url": "#tab-strongconceptualfailurestrong"
+        },
+        {
+            "text": "National Science Foundation (NSF)",
+            "url": "https://www.nsf.gov/"
+        },
+        {
+            "text": "Research Aims and Methods",
+            "url": "#tab-strongresearchaimsandmethodsstrong"
+        },
+        {
+            "text": "Findings",
+            "url": "#tab-strongfindingsstrong"
+        },
+        {
+            "text": "Implications",
+            "url": "#tab-strongimplicationsstrong"
+        },
+        {
+            "text": "Finding #1",
+            "url": "#tab-strongfinding1strong"
+        },
+        {
+            "text": "Finding #2",
+            "url": "#tab-strongfindingstrong2"
+        },
+        {
+            "text": "Finding #3",
+            "url": "#tab-strongfinding3strong"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "image of design thinking text book",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/mktg-812-book-654x1024.jpg"
+        },
+        {
+            "alt": "An image of the first U.S. patent issued on July 31, 1790, featuring an ornate handwritten document with an official seal in the top left corner.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/First_U.S._Patent.jpg"
+        },
+        {
+            "alt": "Vintage ad promoting copyright and patent protection services.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/Copyright.jpg"
+        },
+        {
+            "alt": "Wingstop logo with green wings and the slogan \"The Wing Experts.\"",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/wingstop_trademark-1024x576.jpg"
+        },
+        {
+            "alt": "",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/Protect_Trade_Secret-_Table_1.2-1-1024x683.jpeg"
+        },
+        {
+            "alt": "",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/Patent_Preview_2.jpg"
+        },
+        {
+            "alt": "The image depicts a conceptual diagram highlighting the connections between individual characteristics, team interaction behaviors, and design performance outcomes.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/Fig_6.4.png"
+        },
+        {
+            "alt": "The image depicts a conceptual diagram highlighting the connections between individual characteristics, team interaction behaviors, and design performance outcomes.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/Fig_6.5-1024x262.png"
+        },
+        {
+            "alt": "The image shows a visual representation of a response-based notation system that captures the principal dynamics of team interaction. The system converts these interactions into structured data for deeper analytics.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/IDN_.png"
+        },
+        {
+            "alt": "The image shows two parts - on the left, a photograph of people sitting around a table, and on the right, a graphical representation of the interpersonal interactions between them.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/Dynamic_Team_Interactions_.png"
+        },
+        {
+            "alt": "The image contains various diagrams, graphs, and illustrations related to design innovation and emotional states.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/Reflection_Surveys_.png"
+        },
+        {
+            "alt": "The image features several triangular plots depicting designs and team compositions in the context of design innovation.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/Fig_6.9.png"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Assignment Category",
+                "Points",
+                "Weight (% of grade)"
+            ],
+            [
+                "Course Project",
+                "500",
+                "50%"
+            ],
+            [
+                "Assignments & Activities",
+                "200",
+                "10%"
+            ],
+            [
+                "Midterm Exam",
+                "100",
+                "20%"
+            ],
+            [
+                "Final Exam",
+                "100",
+                "20%"
+            ]
+        ],
+        [
+            [
+                "Things that are obvious",
+                "Things for which there are no exclusive rights",
+                "Things that are copyright protected",
+                "Things that have no utility",
+                "Things that are socially  unacceptable"
+            ],
+            [
+                "Replacing an inferior material with a superior oneChange in size, form, or shapeMere adjustability or aggregation Decreasing the number of (or omitting) parts",
+                "Laws of naturePhysical phenomenaAbstract ideas",
+                "Literary, dramatic, musical, and artistic works",
+                "Inventions which claim to defeat the laws of nature (e.g., perpetual motion machines)",
+                "Inventions whose only use is for illegal purposes (e.g., torture devices)"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"5265\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

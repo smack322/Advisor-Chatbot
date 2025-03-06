@@ -1,0 +1,489 @@
+{
+    "metadata": {
+        "title": "SWENG 881: Software Testing – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2348"
+    },
+    "headings": {
+        "h2": "Advanced Topics in Software Testing",
+        "h4": "Unlocking Your Potential"
+    },
+    "paragraphs": [
+        "SWENG 881: Software Testing is a three-credit course that provides a rigorous framework for understanding and applying software testing across the software lifecycle. While the course focuses on testing software-intensive systems, the techniques are equally relevant for hardware or hybrid hardware/software systems. Through selected readings and hands-on activities, SWENG 881 immerses you in all aspects of software testing, from initial planning through execution, documentation, and validation. Students will engage in exercises covering object-oriented and non-object-oriented software testing, utilizing formal testing methodologies and strategies for robust documentation.",
+        "The main course deliverable will be a comprehensive testing report and documentation set for your chosen project, equipping students with the skills to produce high-quality, professional testing documentation. Upon completing this course, students will be capable of executing rigorous testing processes and delivering reliable testing artifacts suitable for industry standards",
+        "(3 credits) This course provides a rigorous formal framework and practical information on the testing of software throughout its life cycle. Emphasis will be placed on software testing activities throughout the software lifecycle, testing of object-oriented and non-object-oriented software, and formal methodologies for software testing. Documentation of software testing activities will also be covered.",
+        "Upon successfully completing this course you should be able to:",
+        "A grade is given solely on the basis of the instructor’s judgment as to the student’s scholarly attainment (see the Penn State Graduate Degree Programs Bulletin, p. 41). The following grading system applies to graduate students:",
+        "*Grades will be based on the following scale:",
+        "A = 95-100, A- = 90-94, B+ = 87 – 89, B = 84- 86, B- = 80-83, C+ = 77-79, C = 70-76, D = 60-69, and F = 60 and below.",
+        "There will be a total of three (3) homework assignments that you must complete individually.  This will be worth 10% of your grade.",
+        "There are seven (7) discussion forums in this course. Students will be evaluated based on their timely and meaningful responses to forum questions. At a minimum, each student is expected to post one direct response and two responses to other students’ postings for each forum question. The initial direct response should be posted no later than Friday of each week. Quality of interaction is always valued over quantity. In addition, students are highly encouraged to share references to additional and relevant resources with the rest of the class via posting to the appropriate forum. A numerical grade (0-100) will be assigned for class participation.",
+        "There will be two (2) exams in this course (1 Midterm, and 1 Final). You will be asked to take the Midterm Exam online during Week 4 and the Final Exam during Week 7.  More instructions about the exams will be sent by the instructor during the semester, and closer to the time of the exams.",
+        "The objective of the software testing course project is for you to collaborate with your team members to evaluate the quality of an open-source software application of your team’s choice.  As part of the project, you are required to:",
+        "By the conclusion of this project, each team is required to submit a comprehensive testing report by the end of Week 6. This report will encompass the testing strategy employed and present the findings of the testing process.",
+        "The mid-term and final exams will be proctored via Honorlock (online proctoring software). The proctoring software uses your computer’s webcam or other technology to monitor and/or record your activity during exams. The proctoring software, Honorlock, may be listening to you, monitoring your computer screen, viewing you and your surroundings, and recording any activity (including visual and audio recordings) during the proctoring process. By enrolling in this course, you consent to the use of the proctoring software, including but not limited to any audio and/or visual monitoring that may be recorded.",
+        "*subject to change",
+        "Upon successfully completing this course you should be able to:",
+        "During this course you will expand your knowledge of the lesson topics each week.",
+        "This lesson sets the stage for your journey into software testing, establishing the core principles and foundational knowledge essential for success.",
+        "Start by familiarizing yourself with key testing methodologies and the role of testing across various software development models. Through a focused review of foundational texts and recent research on software testing careers, you’ll gain valuable insights into the skills and knowledge that make a proficient software tester.",
+        "Discover the diverse profiles and specializations within the software testing field, exploring industry expectations and emerging trends. Learn how different testing roles contribute to quality assurance and the development lifecycle.",
+        "By the end of this lesson, you’ll have a firm foundation in software testing principles and be well-prepared for the collaborative and hands-on learning ahead.",
+        "This lesson propels you into the world of criteria-based test design, equipping you with powerful tools to create effective, structured test cases.",
+        "Dive into key strategies for breaking down input spaces, a crucial skill in creating comprehensive tests that cover all possible scenarios. Chapters 4, 5, and 6 of Introduction to Software Testing will guide you through partitioning methods to ensure efficient and thorough testing.",
+        "Learn how to define and apply specific criteria that ensure tests are meaningful and reliable. You’ll gain practical insights into setting up and implementing tests that maximize coverage and minimize redundancy, leading to more robust software quality assurance.",
+        "By completing this lesson, you’ll enhance your ability to create comprehensive test cases using criteria-based design, a skill that will elevate your effectiveness in any software testing role.",
+        "This lesson introduces you to graph coverage techniques, a vital component of criteria-based test design, enabling you to analyze and cover complex program structures systematically.",
+        "Delve into Chapter 7 of Introduction to Software Testing, where you’ll learn how to represent software paths using graphs and how graph coverage criteria can lead to more exhaustive testing. Discover methods to ensure that all critical nodes and edges within software paths are accounted for, enhancing the thoroughness of your test cases.",
+        "With a focus on graph-based methodologies, you’ll develop the skills needed to evaluate and design tests that address both individual and interconnected components of a program’s structure. This knowledge will empower you to identify potential gaps in coverage and achieve a higher level of test precision.",
+        "Completing this lesson will elevate your test design abilities, empowering you to leverage graph coverage for comprehensive and precise software testing practices.",
+        "This lesson dives into the dynamic fields of exploratory and system testing, equipping you with practical skills to enhance flexibility, creativity, and depth in testing complex systems.",
+        "Through foundational readings, including James Bach’s Exploratory Testing Explained, you’ll explore the principles and techniques of exploratory testing, where simultaneous learning, test design, and execution lead to rapid insights and uncovering hidden issues. Learn how exploratory testing complements structured testing approaches by allowing you to adapt in real-time and respond to evolving requirements.",
+        "In addition to exploratory testing, delve into the broader scope of system testing as outlined in Software Testing and Quality Assurance: Theory and Practice and Introduction to Software Testing. You’ll focus on testing the system as a whole, ensuring that all components work seamlessly together to deliver expected functionality and performance.",
+        "By the end of this lesson, you’ll be able to confidently approach testing from both structured and adaptive perspectives, making you a versatile tester equipped for complex software environments.",
+        "This lesson provides a strategic approach to system test planning, giving you the tools to design and execute effective test plans that cover all essential aspects of the system under test.",
+        "Through Chapter 12 of Software Testing and Quality Assurance: Theory and Practice, you’ll explore critical components of planning system tests, including identifying objectives, selecting test criteria, and leveraging automation for efficiency. These skills will prepare you to handle complex testing scenarios and ensure that every functionality is thoroughly validated.",
+        "Dive into Elcock and Laplante’s innovative approach of using development artifacts to create test cases, even when traditional requirements are unavailable. This method empowers you to devise reliable tests in real-world situations where specifications might be limited or evolving.",
+        "In this lesson, you’ll move from planning to action, diving into the process of system test execution to bring your testing strategies to life and capture valuable insights.",
+        "You’ll learn how to implement your test plan with precision, navigate potential execution challenges, and document outcomes systematically. This phase will empower you to validate functionality, performance, and reliability under real-world conditions.",
+        "Gain hands-on experience in executing tests that uncover critical insights and verify that the system meets quality standards. Emphasis will be placed on tracking results, analyzing unexpected behaviors, and optimizing future test cases based on real-time feedback.",
+        "This lesson explores cutting-edge advancements in software testing, providing insights into mobile app testing, IoT systems, and emerging testing tools. Dive deep into these specialized areas to expand your testing knowledge and adaptability in a fast-evolving tech landscape.",
+        "Through IEEE Software’s analysis of mobile app user complaints, you’ll uncover common issues that users face and learn how targeted testing can enhance user satisfaction. This knowledge will empower you to prioritize critical areas in mobile app testing and improve end-user experience.",
+        "Examine the unique challenges and tools for testing Internet-of-Things (IoT) systems as presented in recent IEEE studies. With IoT becoming an integral part of modern technology, this knowledge will enable you to navigate and apply testing methodologies for interconnected devices and systems effectively.",
+        "Learn about the latest testing tools tailored for mobile and IoT applications, equipping you with practical resources to enhance testing efficiency and accuracy. From automation options to IoT-specific tools, you’ll gain valuable resources to stay ahead in advanced software testing environments.",
+        "By completing this lesson, you’ll be prepared to apply advanced testing strategies to diverse software systems, positioning yourself as a forward-thinking professional in the software testing field.",
+        "Mastering software testing in SWENG 881 can significantly advance your career as a software engineering major by equipping you with critical skills to ensure software reliability and quality. Expertise in software testing enhances your ability to identify, analyze, and resolve issues throughout the development lifecycle, positioning you as a valuable asset in any development team. This proficiency not only strengthens your technical foundation but also makes you an advocate for quality assurance—an increasingly crucial role in today’s competitive software industry.",
+        "Additionally, with in-depth knowledge of software testing methodologies, you’ll be well-prepared for roles like Quality Assurance Engineer, Software Test Engineer, or Test Automation Specialist, which are in high demand across tech sectors. As you build a reputation for delivering robust, defect-free software, you’ll be poised for career advancement and opportunities to take on leadership roles in quality assurance, potentially leading to higher compensation and more specialized career paths.",
+        "Healthcare Application Quality Assurance: Healthcare applications require rigorous testing due to the sensitive nature of patient data and the need for compliance with regulations like HIPAA. As a tester, you’d develop test cases for scenarios such as patient data entry, appointment scheduling, and secure data storage, using both functional and non-functional testing techniques to ensure compliance and reliability.",
+        "Banking and Financial Software Testing: Banking applications must be highly secure and reliable to handle transactions and sensitive financial data. You might work on projects testing real-time transaction processing, mobile banking interfaces, fraud detection systems, and integration with third-party financial services. This project would also involve performance testing to ensure the system can handle high transaction volumes without errors.",
+        "Automated Testing for Social Media Platforms: In a project testing a social media platform, you’d focus on testing features like user interactions, content uploads, and live streaming capabilities. Automation scripts could be developed to test the platform’s scalability and responsiveness under varying user loads, ensuring that new features can be rolled out quickly without impacting performance.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Analyze and evaluate various software testing methodologies and techniques, in order to select appropriate methods for a given software testing scenario.",
+            "Create effective test cases and test plans, utilizing software testing principles and best practices, to ensure software quality and meet business requirements.",
+            "Apply advanced automation for testing software systems, in order to improve efficiency and effectiveness of software testing.",
+            "Analyze, interpret, and communicate test results and identify defects and potential issues, in order to improve software quality and mitigate risks."
+        ],
+        [
+            "Ammann, P., & Offutt, J. (2016). Introduction to software testing. 2nd edition. Cambridge University Press.\n\nISBN: 9781107172012 Ammann, P., & Offutt, J. (2016).\nhttps://www.cambridge.org/highereducation/books/introduction-to-software-testing/95E57CCADEA697EC8594F03729F47311#overview",
+            "ISBN: 9781107172012 Ammann, P., & Offutt, J. (2016).",
+            "https://www.cambridge.org/highereducation/books/introduction-to-software-testing/95E57CCADEA697EC8594F03729F47311#overview",
+            "Naik and Tripathy, “Software Testing and Quality Assurance: Theory and Practice“, 2008, John Wiley & Sons (students purchase from BNC, 905002)\n\nISBN: 978-0471789116\nE-Book Option: An online version of your text is available at no cost as a Penn State Library E-Book. Some E-Books will only be available online, while others will be available to download in full or in part.  You may choose to use the E-Book as an alternative to purchasing a physical copy of the text. For questions or issues, you can contact the University Libraries Reserve Help (UL-RESERVESHELP@LISTS.PSU.EDU)This textbook is readily available through the Penn State Libraries E-Book program at no cost to the student. Students do not need to purchase a physical copy of the book.",
+            "ISBN: 978-0471789116",
+            "E-Book Option: An online version of your text is available at no cost as a Penn State Library E-Book. Some E-Books will only be available online, while others will be available to download in full or in part.  You may choose to use the E-Book as an alternative to purchasing a physical copy of the text. For questions or issues, you can contact the University Libraries Reserve Help (UL-RESERVESHELP@LISTS.PSU.EDU)This textbook is readily available through the Penn State Libraries E-Book program at no cost to the student. Students do not need to purchase a physical copy of the book."
+        ],
+        [
+            "ISBN: 9781107172012 Ammann, P., & Offutt, J. (2016).",
+            "https://www.cambridge.org/highereducation/books/introduction-to-software-testing/95E57CCADEA697EC8594F03729F47311#overview"
+        ],
+        [
+            "ISBN: 978-0471789116",
+            "E-Book Option: An online version of your text is available at no cost as a Penn State Library E-Book. Some E-Books will only be available online, while others will be available to download in full or in part.  You may choose to use the E-Book as an alternative to purchasing a physical copy of the text. For questions or issues, you can contact the University Libraries Reserve Help (UL-RESERVESHELP@LISTS.PSU.EDU)This textbook is readily available through the Penn State Libraries E-Book program at no cost to the student. Students do not need to purchase a physical copy of the book."
+        ],
+        [
+            "“A” (Excellent) indicates exceptional achievement.",
+            "“B” (Good) indicates substantial achievement.",
+            "“C” (Satisfactory) indicates acceptable but substandard achievement.",
+            "“D” (Poor) indicates inadequate achievement and is a failing grade for a graduate student."
+        ],
+        [
+            "Establish a set of software quality criteria.",
+            "Develop a comprehensive testing strategy for the software.",
+            "Conduct thorough testing of the application to assess its quality.",
+            "Analyze the results and make recommendations regarding the software’s overall quality.",
+            "Communicate the results"
+        ],
+        [
+            "Introduction to Software Testing, Building a Solid Testing Foundation",
+            "Criteria-Based Test Design, Input Space Partitioning",
+            "Criteria-Based Test Design, Graph Coverage",
+            "Essentials of Exploratory and System Testing, A Comprehensive Overview",
+            "System Test Planning",
+            "System Test Execution",
+            "Advanced Topics on Software Testing"
+        ],
+        [
+            "Analyze, interpret, and communicate test results and identify defects and potential issues, in order to improve software quality and mitigate risks.",
+            "Analyze and evaluate various software testing methodologies and techniques, in order to select appropriate methods for a given software testing scenario.",
+            "Create effective test cases and test plans, utilizing software testing principles and best practices, to ensure software quality and meet business requirements.",
+            "Apply advanced automation for testing software systems, in order to improve efficiency and effectiveness of software testing."
+        ],
+        [
+            "L1",
+            "L2",
+            "L3",
+            "L4",
+            "L5",
+            "L6",
+            "L7"
+        ],
+        [
+            "Team Formation: Begin building your collaborative network by forming teams for the Group Course Project, setting the groundwork for teamwork and collective learning.",
+            "Academic Integrity Commitment: Ensure a strong start to your learning journey by completing the Academic Integrity Form, a prerequisite to accessing course materials.",
+            "Discussion Forum: Join your peers in analyzing initial concepts of software testing, sharing perspectives, and discussing course readings.",
+            "Individual Assignment: Test your understanding by completing the first assignment, applying foundational concepts in a practical exercise."
+        ],
+        [
+            "Discussion Forum: Collaborate with peers to explore challenges and solutions in criteria-based test design. This is an opportunity to compare strategies and gather diverse insights.",
+            "Individual Assignment: Put theory into practice with a targeted assignment designed to apply input space partitioning techniques.",
+            "Course Project: Progress to Step 2 of the project with your group, laying the groundwork for future integration and analysis."
+        ],
+        [
+            "Discussion Forum: Participate in this week’s forum to exchange insights on the applications and challenges of graph coverage. Share and refine approaches with peers for practical insights.",
+            "Individual Assignment: Complete a targeted assignment where you’ll apply graph coverage principles to real-world testing scenarios.",
+            "Course Project Collaboration: Work with your team to advance your project activities, carefully documenting progress to incorporate feedback effectively."
+        ],
+        [
+            "Discussion Forum: Participate in this week’s forum to discuss your experiences with exploratory and system testing, share techniques, and gain feedback from your peers.",
+            "Midterm Exam: Test your understanding of concepts covered so far, with an exam that will challenge your knowledge and reinforce key principles.",
+            "Course Project Collaboration: Collaborate with your team to advance your project, focusing on applying exploratory and system testing techniques to your work."
+        ],
+        [
+            "Course Project Collaboration: Work closely with your team to incorporate test planning strategies into your project. Document all findings and decisions as you progress, ensuring you have a well-organized approach to system testing that will support your final report and assessments.",
+            "Discussion Forum: Share your insights and strategies for effective test planning and automation, discussing how to adapt plans in diverse project contexts."
+        ],
+        [
+            "Final Testing Report Submission: Collaborate with your team to compile a comprehensive Final Testing Report, detailing your test execution process, findings, and recommendations.",
+            "Discussion Forum: Connect with peers to share experiences, discuss obstacles faced during test execution, and exchange solutions to enhance testing effectiveness."
+        ],
+        [
+            "Discussion Forum: Join your peers to discuss insights from this week’s advanced topics, sharing perspectives on how to approach testing in rapidly changing tech sectors.",
+            "Final Exam: Assess your understanding of core and advanced testing concepts through the final exam, covering knowledge from the entire course and solidifying your expertise in software testing."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "https://www.cambridge.org/highereducation/books/introduction-to-software-testing/95E57CCADEA697EC8594F03729F47311#overview",
+            "url": "https://www.cambridge.org/highereducation/books/introduction-to-software-testing/95E57CCADEA697EC8594F03729F47311#overview"
+        },
+        {
+            "text": "Software Testing and Quality Assurance: Theory and Practice",
+            "url": "https://onlinelibrary-wiley-com.ezaccess.libraries.psu.edu/doi/epdf/10.1002/9780470382844"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [],
+    "tables": [
+        [
+            [
+                "Assignment",
+                "Percentage of Final Grade"
+            ],
+            [
+                "Homework Assignments (3)",
+                "10%"
+            ],
+            [
+                "Discussion Forums (7)",
+                "10%"
+            ],
+            [
+                "Midterm Exam (1)",
+                "25%"
+            ],
+            [
+                "Final Exam (1)",
+                "25%"
+            ],
+            [
+                "Group Project (1)",
+                "25%"
+            ],
+            [
+                "Peer Evaluations (2)",
+                "5%"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"2348\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

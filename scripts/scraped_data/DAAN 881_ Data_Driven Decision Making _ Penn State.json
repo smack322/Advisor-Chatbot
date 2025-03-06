@@ -1,0 +1,879 @@
+{
+    "metadata": {
+        "title": "DAAN 881: Data-Driven Decision Making – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=3303"
+    },
+    "headings": {
+        "h2": "University Policies and Resources",
+        "h4": "Unlocking Your Potential",
+        "h5": "What is Fast Data?",
+        "h3": "Lesson 14: Market Basket Analysis and Recommendation Engines"
+    },
+    "paragraphs": [
+        "DAAN 881 is a three-credit course focused on the application and interpretation of advanced analytics tools for real-life decision-making. Students will explore techniques such as Principal Component Analysis (PCA) for simplifying complex data, cluster analysis for grouping large datasets, logistic regression for categorical outcome modeling, regression tree analysis for partitioning decision spaces, and Partial Least Square (PLS) regression for addressing multicollinearity. Through projects and case studies using public datasets from healthcare, transportation, and finance, the course emphasizes the practical application of these tools to uncover patterns, group data, and derive actionable insights. Students will gain hands-on experience in selecting and applying these methods to solve real-world problems and interpret the results effectively.",
+        "This course presents a comprehensive understanding of data-driven decision-making.  We will concentrate on using analytical techniques, including end-to-end data analysis, regression, descriptive, and perspective analytics techniques, to extract information from data and to help people make better decisions.",
+        "This course focuses on mining a large amount of data and generating interpretative results to assist in the decision-making process.",
+        "In this course, you will:",
+        "Two software applications, R and Python, need to be installed on students’ computers. These applications are freely available on the web. Instructions will be provided in Lesson 1.",
+        "Please remember that ALL questions about grades, course lesson content, and assignments should be directed to your course instructor. If you have any technical difficulties using the tools within this course, please contact the Penn State Helpdesk.",
+        "All course-related e-mails should go through Canvas’s course mail function (Canvas Inbox). Using Canvas to contact your instructor ensures that your message will be read, and your instructor will respond to you in a timely manner.",
+        "Many of the University Libraries’ resources can be utilized from a distance. Through the Library website, you can access magazines, journals, and articles; borrow materials and have them delivered to your doorstep; and get research help via email chat or phone from a librarian.",
+        "For more information, view the Penn State University Library.",
+        "A grade is given solely on the basis of the instructor’s judgment as to the student’s scholarly attainment (see the Penn State Graduate Degree Programs Bulletin, p. 41). The following grading system applies to graduate students:",
+        "Students will be evaluated on their understanding of the course material by completing assignments that demonstrate their ability to apply the material contained in the lessons and activities.",
+        "*Grades will be based on the following scale:",
+        "A = 96 – 100, A- = 90 – 95, B+ = 86 – 89, B = 83 – 85, B- = 80 – 82, C+ = 75 – 79, C = 70 – 74, D = 60 – 69, and F = Below 60",
+        "There are a total of 7 class discussions. Each discussion is worth 10 points. Quality discussion includes thoughtful application, applying course concepts, contributing to deeper analysis, collaboration, building upon the comments of your classmates, and including evidence or logic in your post. Participation is measured by posting on 3 different days. You should make a minimum of 3 postings in total: one new thread and at least two thoughtful responses to different members.  Your instructor may participate in discussions when it is appropriate.",
+        "Students will have the opportunity to take 7 quizzes to assess and evaluate understanding throughout this course. The quizzes will be worth varying points as noted in the table below. Quizzes 1-6 are multiple-choice. Quiz 7 will be comprehensive, covering all lessons, and will require the student to respond to questions and upload a Word document or PDF for submission.",
+        "The course project focuses on a decision-making situation and is a reasonably large assignment that will take weeks to complete during the course. You will be assigned to a team to complete this group project.",
+        "When completing group work, your team may choose any method of collaboration or communication that is most effective. Zoom is available to all students for multi-person video meetings. If you need any assistance using Zoom, refer to the Conferencing and Media Management page or contact the World Campus Helpdesk for support.",
+        "There will be seven (7) project deliverables throughout the course. A link to the project template can be found on the Home page as well as in the Deliverable 1 assignment. You will use this template throughout the course to complete each deliverable. Due dates are noted in the Course Schedule. Each deliverable will be reviewed by your instructor and feedback will be provided. You will then be permitted to resubmit your deliverable. Your grade for each deliverable will be based on the incorporation of the feedback provided by your instructor. The final project deliverable will be due at the end of the course; therefore, late submissions are NOT accepted. Students must submit their projects to the appropriate assignment in Canvas. If you are working in teams, delegate one member of the team to submit the file.  The final deliverable includes a video presentation demonstrating your design. The presentation should include PowerPoint slides and a video demonstration. You can use Zoom or any other interactive video recording method you prefer.",
+        "The deliverables will be submitted via Canvas according to the schedule below.  Please note each deliverable is worth 90 points, with the exception of the final deliverable which is worth 110 points.",
+        "All course material is available to you through Canvas or in other resources provided. Material is provided on a lesson-by-lesson basis, and is presented to you as Web pages, Microsoft Word documents (.doc), or Portable Document Format (PDF) documents. Material that you submit for the course assignments must be uploaded into the appropriate assignment in Canvas and should be submitted as PDF files.",
+        "Use the general discussion forum to post your questions regarding the course content. I will monitor this forum occasionally.",
+        "After you have submitted an assignment, you will typically be able to review your grade and any comments made by your instructor within 7 days after the due date. This process is used for all graded submissions. Some instructors may also send you a message informing you that the assignment has been graded. Some instructors may choose to release all the grades to all students at once; others may release grades per student one at a time.",
+        "Assignments are accepted in their appropriate assignment without penalty if they are received by 11:59 PM Eastern Time on the due date. No assignments are accepted after 11:59 PM on the final day of the course.",
+        "When submitting an assignment comprised of multiple digital files, please combine all of the pages into a single PDF file, and upload your PDF file to the assignment.",
+        "It is important that students maintain a good pace in this course; catching up after falling behind will be very difficult. For that reason, please submit all assignments on time. Exceptions may be made under extreme circumstances, but these exceptions will be made on an individual basis and must be approved by your instructor (in advance of the due date).",
+        "A few basic reminders:",
+        "After you have submitted an assignment, you will typically be able to review your grade and any comments made by your instructor within 7 days after the due date. This process is used for all homework assignments, exams, or other graded submissions. Some instructors may also send you a message informing you that the assignment has been graded. Some instructors may choose to release all the grades to all students at once; other instructors may release grades per student one at a time.s may release grades per student one at a time.",
+        "Be sure to review the University Policies and Resources. which include important information regarding academic integrity, student disability resources, educational equity, counseling services, and technical requirements.",
+        "*Subject to change",
+        "Data-Driven Decision Making refers to the practice of basing decisions on the data analysis rather than purely on intuition, experience, and domain knowledge. Data analysis is the process of examining data to find facts, relationships, patterns, insights and/or trends. The overall goal of data analysis is to support better decision-making. Before we discuss in more detail, let us have an overview of basic data mining concepts.",
+        "Data is a collection of facts or information, such as numbers, words, text, measurements, observations or descriptions of things. A dataset is a collection or group of related data. Each group and its members have the same set of attributes (variables) as others in the same dataset. Some examples of datasets include:",
+        "Data is everywhere. Across a broad range of applications, data is being collected at an unprecedented rate. In the past, decisions were made purely based on guesswork, expert opinions, or on painstakingly constructed models of reality. But nowadays, decisions can be solely based on the data itself. Big Data has the potentiality to revolutionize different aspects of modern society including scientific research, financial services, retail manufacturing, biological and physical sciences, healthcare, transportation, environmental modeling, energy saving, homeland security, and social network analysis.",
+        "For instance, consider the field of biological sciences where there is a tradition of creating public repositories and depositing scientific data into these public repositories. The amounts of data that are being produced and deposited into these public repositories are exponential. Once the data are recorded in these repositories by the scientists, the next step is to curate and analyze these data. Thus, emerged the discipline Bioinformatics, which is largely devoted to curating and analyzing the data in the public repositories. In this field the Bioinformaticians, data scientists with knowledge in computation and biological sciences, play a major role. They are largely faced with a daunting task of dealing with a large volume of both structured and unstructured data.",
+        "Click on each heading below to learn more",
+        "The potentiality of Big Data is unimaginable. In the education sector it is quite evident that the collected data related to the academic performance of every student can be used as a guide for delivering future instruction. It is well-known in the healthcare sector that Information Technology (IT) can reduce the cost of the healthcare while improving its quality by making care more preventive and personalized. With the advent of Big Data and IT, savings in the healthcare sector is estimated to be close to 300 billion dollars in US alone. Big Data can help also in other sectors, such as:",
+        "While the potential benefits are real and significant, and some initial success has been achieved, there remain many technical challenges that need to be addressed to completely realize its potential.",
+        "But there are also other dimensions to it. In addition to Volume are the dimensions of Variety, Velocity, Variability and complexity.",
+        "Volume: This dimension refers to the amount of data; Example– it may be the email you send, Twitter, Facebook, or other social media, or it can just be all the videos, pictures, SMS messages, call records, and data from varied devices and sensors. We have scaled up the data–measuring metrics to terabytes, zettabytes and Yottabytes – they are all humongous figures. Look at Facebook alone; it’s like ~10 billion messages on a day, consolidated across all users. We have ~5 billion likes a day and around ~400 million photographs are uploaded each day.",
+        "Velocity: This refers to the data generation speed, or the rate at which data is being generated. In today’s world, where we mentioned that the volume of data has undergone a tremendous surge, this aspect is not lagging. We have loads of data because we are able to generate it so fast. Look at social media; things are circulated in seconds and they become viral, and the insight from social media is analyzed in milliseconds by stock traders, and that can trigger lots of activity in terms of buying or selling.",
+        "Variety: This dimension tackles the fact that the data can be unstructured. In the traditional database world, and even before that, we were used to having a very structured form of data that fitted neatly into tables. Today, more than 80% of data is unstructured – quotable examples are photos, video clips, social media updates, data from variety of sensors, voice recordings, and chat conversations.",
+        "Veracity: It’s all about validity and correctness of data. How accurate and usable is the data? Not everything out of millions and zillions of data records is corrected, accurate, and referable. That’s what actual veracity is: how trustworthy the data is and what the quality of the data is. Examples of data with veracity include Facebook and Twitter posts with nonstandard acronyms or typos. Big data has brought the ability to run analytics on this kind of data to the table.",
+        "Value: This is what the name suggests: the value that the data actually holds. It is unarguably the most important V or dimension of big data. The only motivation for going towards big data for processing super large data sets is to derive some valuable insight from it. In the end, it’s all about cost and benefits.",
+        "The rectangular region formed from the intersections of the regions of the circles corresponding to the 3V’s of Big Data namely “Volume”, “Velocity” and “Variety” is coined as Fast Data.",
+        "SEM is a form of structural models where there is a very complex relationship between the latent constructs. The latent constructs may influence one another in different ways. The concept related to latent variables and manifest variables were introduced in Lesson 10 when we discussed Exploratory Factor Analysis (EFA) and Confirmatory Factor Analysis (CFA).",
+        "In this lesson we will look into a model for repeat purchase intention. In this model, the cost of a product is associated with both perception of value and intent to repurchase, while perception of quality relates to both perceived value and satisfaction, which is then associated with repurchase.",
+        "To validate this model, we would collect data from the customer using a customer satisfaction ratings survey instrument. In this lesson, we will explore the dataset that contains the responses of 200 customers who took the customer satisfaction rating survey. All the customers who took this survey responded to the 15 satisfaction Items (manifest variables) in the survey, where there were three items for each of the five Factors of Quality, Cost (fair pricing), Value, Customer Satisfaction (CSat), and Repeat purchase intention. Table below lists the 15-item survey instrument for purchase satisfaction, perceived value, and repurchase intent. For each question in the survey, the customer responds on Likert scale score of 1-7, where 1 indicates least and 7 indicates most.",
+        "Once we have collected the consumer data from the survey, our goal would be to initially ascertain whether our proposed model of influence — for example, that perception of cost is associated with both perception of value and intent to repurchase. Finally, if the model fits the data well, then we would try to address the following questions:",
+        "MB analysis is a data mining technique that has the purpose of finding the optimal combination of products or services and allows marketers to exploit this knowledge to provide recommendations, optimize product placement, or develop marketing programs that take advantage of cross-selling. In short, the idea is to identify which items go well together, and profit from it.",
+        "You can think of the results of the analysis as an if…then statement. If a customer buys an airplane ticket, then there is a 46 percent probability that they will buy a hotel room, and if they go on to buy a hotel room, then there is a 33 percent probability that they will rent a car.",
+        "There are some terminologies associated with the MB type of analysis.  Select each term below to become familiar with the terminology.",
+        "The objective of this course is to provide practical experience with the application and interpretation of advanced analytics tools for real-world decision-making.",
+        "After successfully completing this course, students will be able to :",
+        "Throughout this course you will be equipped with the skills to effectively analyze, interpret, and apply data-driven solutions across various industries, making you proficient in modern decision-making techniques.",
+        "This lesson introduces the fundamentals of data mining and its application to data-driven decision-making. Students will gain an understanding of the data mining cycle, statistical basics, and programming in R and Python.",
+        "By the end of this lesson, you will grasp the basics of data mining, programming, and statistical foundations, preparing you for deeper exploration of data-driven decision-making.",
+        "Lesson 2 focuses on the key concepts of data processing and linear regression analysis. Students will learn how to handle missing values and outliers, perform data transformations, and apply linear regression techniques to analyze data.",
+        "By the end of this lesson, you will be proficient in handling missing data, detecting outliers, and performing linear regression analysis, equipping you with practical skills for effective data processing and modeling.",
+        "this lessonlesson introducesintroduces logistic regression, a powerful statistical method used for predicting binary outcomes. Students will learn how to apply logistic regression models, manage collinearity issues, and understand their real-world applications in data analysis.",
+        "By the end of this lesson, you will have a solid understanding of logistic regression, be able to handle collinearity in your models, and apply logistic regression to real-world data analysis tasks.",
+        "In Lesson 4, students will explore regularization techniques used in linear regression to improve model performance. The lesson covers predictive analytics terms, as well as ridge, lasso, and elastic net regression methods, essential for building robust predictive models.",
+        "By the end of this lesson, you will be equipped with essential regularization methods for linear regression, allowing you to build more accurate and interpretable predictive models while addressing overfitting and feature selection challenges.",
+        "Lesson 5 focuses on techniques for reducing data complexity, including Principal Component Analysis (PCA) and Random Forest (RF). Students will learn how to use PCA to simplify datasets and apply RF to feature selection, all while exploring practical applications for real-world data.",
+        "By the end of this lesson, you will be able to effectively reduce data complexity using PCA and Random Forest, helping you simplify large datasets while retaining essential information for analysis and modeling.",
+        "Lesson 6 focuses on applying Principal Component Analysis (PCA) in the context of sports analytics. Students will learn how to use PCA to analyze sports data and extract meaningful insights for decision-making, utilizing tools like the Factoextra package.",
+        "By the end of this lesson, you will have hands-on experience applying PCA to sports analytics, enabling you to reduce data complexity and uncover key insights in sports performance data.",
+        "this lesson introduces Natural Language Processing (NLP), a key technique for analyzing and understanding human language using computational methods. Students will learn how to apply NLP for tasks like sentiment and emotion classification using tools like NLTK.",
+        "By the end of this lesson, you will have a strong understanding of Natural Language Processing techniques, enabling you to apply NLP methods for analyzing text data and performing tasks like sentiment and emotion classification.",
+        "this lesson focuses on time series data, a critical component in analyzing trends, patterns, and forecasting. Students will learn how to model and analyze time series data, which is widely used in fields like finance, economics, and healthcare.",
+        "By the end of this lesson, you will be equipped with the knowledge and skills to analyze and model time series data, helping you identify trends and make data-driven predictions in various domains.",
+        "this lesson focuses on applying time series analysis in the context of risk analysis. Students will explore real-world case studies to understand how time series data can be used to assess and manage risks in various industries.",
+        "By the end of this lesson, you will be able to apply time series analysis for risk assessment, using case studies to demonstrate how forecasting and trend analysis can help in decision-making and risk management.",
+        "This lesson introduces factor analysis, a technique used to identify underlying relationships between variables in large datasets. Students will learn both exploratory and confirmatory factor analysis methods for reducing data complexity and revealing latent structures.",
+        "By the end of this lesson, you will be proficient in using factor analysis to uncover latent variables and simplify complex datasets, providing insights for more effective data modeling and decision-making.",
+        "This lesson introduces Structural Equation Modeling (SEM), a powerful technique for analyzing complex relationships between variables. Students will explore both covariance-based SEM and partial least squares SEM to model and test relationships in data.",
+        "By the end of this lesson, you will be equipped with the knowledge and skills to apply Structural Equation Modeling techniques, enabling you to model complex data relationships and perform sophisticated analyses in various domains.",
+        "This lesson covers segmentation techniques using clustering methods, essential for grouping data based on similarities. Students will explore hierarchical segmentation and K-means clustering to identify patterns and clusters within datasets.",
+        "By the end of this lesson, you will be proficient in using clustering methods for data segmentation, allowing you to group data effectively and uncover hidden patterns in various domains.",
+        "This lesson focuses on using classification techniques for segmentation, an essential approach for categorizing data into distinct classes. Students will learn how to apply Random Forest classifiers to segment data and analyze classification models.",
+        "By the end of this lesson, you will be able to effectively apply classification techniques to segment data, using methods like Random Forest to enhance your data analysis and model building skills for real-world problems.",
+        "This final lesson introduces Market Basket Analysis and Recommendation Engines, key techniques for uncovering customer purchasing patterns and creating personalized recommendations. Students will learn how to apply these methods to analyze consumer behavior and improve business strategies.",
+        "By the end of this lesson, you will be equipped to apply Market Basket Analysis and Recommendation Engines to real-world data, helping businesses optimize product offerings and personalize customer experiences.",
+        "Application & Interpretation of Analytics for Decision Making course provides students with valuable skills in applying quantitative decision-making tools to real-life scenarios, equipping them with a strong foundation in data-driven decision-making. By gaining hands-on experience with techniques like Principal Component Analysis (PCA), Cluster Analysis, Logistic Regression, and Regression Tree Analysis, students are prepared to tackle complex challenges in industries such as healthcare, transportation, and finance. The course also emphasizes the importance of data interpretation and visualization, which are crucial for effectively communicating analytical results to stakeholders.",
+        "For those pursuing a career in Data Analytics, the skills developed in DAAN 881 will open doors to roles such as data analyst, business intelligence analyst, data scientist, or operations research analyst. With the ability to analyze large datasets, uncover patterns, and provide actionable insights, students will be well-equipped to contribute to decision-making processes across various sectors, driving business growth, optimizing operations, and supporting strategic initiatives. The practical applications and real-world case studies featured in the course provide students with the tools needed to excel in data-driven environments.",
+        "In DAAN 881 Students learn practical skills to apply analytics in various industries. For instance, in the finance sector, banks use regression tree analysis to predict loan default risks based on customer data like credit scores, income, and transaction history. By leveraging tools like Logistic Regression and PCA, financial institutions can improve decision-making processes, assess creditworthiness, and manage risk more effectively. Similarly, in the transportation industry, companies may use clustering and PCA to analyze traffic patterns and optimize routes, reducing fuel consumption and improving delivery times. These hands-on applications of analytics prepare students to use data-driven methods to solve complex business problems, making them valuable assets in roles such as data analysts, business consultants, and financial analysts.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Review and learn statistical concepts and regression techniques for predictive modeling on a large amount of data to make better decisions.",
+            "Learn dimension-reduction techniques, i.e., Principle Component Analysis (PCA), Exploratory Factor Analysis (EFA), Confirmatory Factor Analysis (CFA), and structural modeling to help decision-makers reduce the model complexity making it easier to understand the model abstraction.",
+            "Utilize statistical performance indicators across different applications/domains for better decision-making.",
+            "Use R and Python, and their packages to apply the models and/or algorithms to solve real-world decision-making problems.",
+            "Complete a data-driven decision-making project."
+        ],
+        [
+            "If required, reading materials will be provided by the instructor in this course. Such reading materials will be made available to students as a digital copy in the Canvas modules."
+        ],
+        [
+            "HelpDesk Website: https://student.worldcampus.psu.edu/help-and-support/technical-support.",
+            "HelpDesk Email: techsupport@worldcampus.psu.edu",
+            "HelpDesk Phone: (800) 252-3592"
+        ],
+        [
+            "“A” (Excellent) indicates exceptional achievement.",
+            "“B” (Good) indicates substantial achievement.",
+            "“C” (Satisfactory) indicates acceptable but substandard achievement.",
+            "“D” (Poor) indicates inadequate achievement and is a failing grade for a graduate student."
+        ],
+        [
+            "It is generally bad form to type your messages IN ALL CAPITAL LETTERS. In addition to proper capitalization (first words of sentences, proper nouns, names, etc.), a majority of online students have reported that complete sentences and punctuation make online text communication easier to read.",
+            "It is much better not to post inflammatory or accusational remarks than it is to “get it off of your chest.” Profanity and personal attacks will have no part of this course. If you discover such remarks, please notify me immediately, and I will personally address the source of those remarks."
+        ],
+        [
+            "Driven Decision Making",
+            "Structural Equation Modeling",
+            "Market Basket Analysis"
+        ],
+        [
+            "Tweets stored in a flat file",
+            "A collection of image files in a directory",
+            "An extract of rows from a database table stored in a CSV formatted file",
+            "Historical weather observations stored as XML files."
+        ],
+        [
+            "urban planning through the fusion of high-fidelity of geographical data",
+            "build intelligent transportation system through visualizing and analyzing of live and detailed road network data",
+            "aid in environmental modelling through sensor networks ubiquitously collecting data",
+            "realize energy saving through unveiling pattern of use",
+            "predict financial systemic risk through integrated analysis of a web of contracts to find dependencies between financial entities",
+            "aid in homeland security through analysis of social networks and financial transactions of possible terrorists",
+            "enhance computer security through analysis of logged information and other events"
+        ],
+        [
+            "A very well-known challenge of Big Data is the sheer size (Volume) of data that needs to be processed and analyzed. The rate at which the data is being collected is enormous ranging from terabytes to petabytes and up."
+        ],
+        [
+            "Variety refers to the heterogeneity of data types, representation and semantic interpretation. The collected data can be of type structured (numeric, relational model), and unstructured (non-numeric, text type, video, audio).",
+            "The Velocity dimension not only means the rate at which the data arrive over time (every second, every minute, hourly, daily etc.) but also accounts for the time within which the data has to be acted upon.",
+            "The fourth dimension is the Variability. The data flow rate may at times be inconsistent with periodic peaks.",
+            "The fifth and final dimension is the Complexity. Related data being stored at different entities in different formats needs to be correlated and shared for decision making"
+        ],
+        [
+            "Volume",
+            "Velocity",
+            "Variety",
+            "Veracity",
+            "Value"
+        ],
+        [
+            "How much does perception of quality relate to satisfaction?",
+            "Is quality more important than perceived value?",
+            "What is the largest determinant of stated intent to purchase again? And so forth."
+        ],
+        [
+            "Itemset  is a collection of one or more items in the dataset.",
+            "Support  refers to the proportion of the transactions in the data that contain an itemset of interest.",
+            "Confidence  is the conditional probability that if a person purchases or does x, they will purchase or do y; the act of doing x is referred to as the antecedent or Left-Hand Side (LHS), and y is the consequence or Right-Hand Side (RHS).",
+            "Lift  is the ratio of the support of x occurring together with y, divided by the probability that x and y occur if they are independent. It is the probability of x intersection y divided by the probability of x times the probability of y.   For example, say that we have the probability of x and y occurring together as 10 percent and the probability of x is 20 percent and y is 30 percent, then the lift would be 1.67.   Solution: .10/(.20 x .30) = 1.67"
+        ],
+        [
+            "Review and learn statistical concepts and regression techniques for predictive modeling on a large amount of data to make better decisions.",
+            "Learn dimension-reduction techniques, i.e., Principle Component Analysis (PCA), Exploratory Factor Analysis (EFA), Confirmatory Factor Analysis (CFA) and structural modeling to help decision-makers reduce the model complexity making it easier to understand the model abstraction.",
+            "Utilize statistical performance indicators across different applications/domains for better decision-making.",
+            "Use R and Python, and their packages to apply the models and/or algorithms to solve real-world decision-making problems.",
+            "Complete a data-driven decision-making project."
+        ],
+        [
+            "L1,L2",
+            "L3,L4",
+            "L5,L6",
+            "L7,L8",
+            "L9,L10",
+            "L11, L12",
+            "L13, L14"
+        ],
+        [
+            "Data Mining Cycle: Learn the steps involved in extracting insights from data.",
+            "Programming in R and Python: Gain hands-on experience with essential programming tools.",
+            "Statistical Background: Review core statistical concepts for data analysis."
+        ],
+        [
+            "Discussion Forum: Engage in community-building and share ideas.",
+            "Interactive Tools: Explore data mining concepts and methodologies.",
+            "Programming Practice: Apply concepts using R and Python exercises.",
+            "Knowledge Check: Test your understanding with quizzes and activities"
+        ],
+        [
+            "Missing Values: Understand how to identify and handle missing data.",
+            "Outliers: Learn methods for detecting and addressing outliers in datasets.",
+            "Data Transformation: Explore techniques for transforming data to improve model accuracy.",
+            "Linear Regression Analysis: Gain insight into applying linear regression for predictive analysis.",
+            "Assumptions of Linear Regression: Understand the key assumptions behind linear regression models."
+        ],
+        [
+            "External Tools: Use tools to explore and address missing values, outliers, and data transformation.",
+            "Case Studies: Work through examples for evaluating linear regression assumptions."
+        ],
+        [
+            "Logistic Regression: Learn the basics of logistic regression and how to apply it to binary classification problems.",
+            "Remediating Collinearity: Understand how to detect and address collinearity in logistic regression models."
+        ],
+        [
+            "External Tools: Explore interactive tools to practice logistic regression modeling.",
+            "Discussion Forum: Engage with peers in a discussion on logistic regression applications and challenges."
+        ],
+        [
+            "Predictive Analytics Terms: Understand key terms in predictive analytics for better model interpretation.",
+            "Ridge Regression: Learn how ridge regression penalizes large coefficients to prevent overfitting.",
+            "Lasso Regression: Explore lasso regression and its ability to shrink coefficients for feature selection.",
+            "ElasticNet Regression: Understand the combination of ridge and lasso through ElasticNet regression."
+        ],
+        [
+            "External Tools: Practice applying ridge, lasso, and elastic net regression using interactive tools."
+        ],
+        [
+            "Principal Component Analysis (PCA): Understand how PCA reduces the dimensionality of data while preserving its variance.",
+            "PCA Tips and Procedure: Learn key tips for implementing PCA and the step-by-step process.",
+            "Bi-plot Interpretation: Interpret PCA results through bi-plots to visualize data reduction.",
+            "Random Forest (RF): Explore how RF can be used for feature selection and handling high-dimensional data.",
+            "Boruta: Learn how to apply Boruta for determining important features in a dataset."
+        ],
+        [
+            "External Tools: Utilize tools to practice PCA and Random Forest techniques on real datasets.",
+            "Discussion Forum: Participate in discussions about PCA, RF, and feature selection techniques."
+        ],
+        [
+            "Install Factoextra Package: Learn how to install and use the Factoextra package for PCA visualization in R.",
+            "Exploring the Dataset: Gain experience working with sports-related datasets for PCA application.",
+            "Exploring Factoextra: Understand how to use Factoextra to interpret PCA results and visualize the data."
+        ],
+        [
+            "External Tools: Use tools to practice PCA on sports datasets and visualize the results using Factoextra.",
+            "Dataset Exploration: Analyze sports analytics datasets to identify patterns and reduce dimensionality."
+        ],
+        [
+            "Installing NLTK: Learn how to install and set up the Natural Language Toolkit (NLTK) for NLP tasks.",
+            "NLP Task Examples: Explore different NLP tasks such as text classification and named entity recognition.",
+            "Sentiment and Emotion Classification: Understand how to classify text based on sentiment and emotions.",
+            "Types of Classifiers: Gain insights into different classifiers used for NLP, such as Naive Bayes and Support Vector Machines."
+        ],
+        [
+            "External Tools: Use NLTK to implement various NLP tasks and classifiers.",
+            "Dataset Exploration: Analyze real-world text datasets for sentiment and emotion classification."
+        ],
+        [
+            "Time Series: Understand the characteristics and components of time series data.",
+            "Time Series Modeling: Learn methods for modeling time series data, including trend analysis and forecasting techniques."
+        ],
+        [
+            "External Tools: Use tools to practice time series analysis and build forecasting models.",
+            "Dataset Exploration: Apply time series modeling techniques on real-world datasets."
+        ],
+        [
+            "Time Series Case Study: Analyze a case study that demonstrates the use of time series data in forecasting and trend analysis.",
+            "Risk Analysis Case Study: Learn how to apply time series analysis to assess and mitigate risks in business, finance, or other sectors."
+        ],
+        [
+            "External Tools: Utilize tools to explore time series and risk analysis methods through case studies.",
+            "Discussion Forum: Participate in discussions about applying time series and risk analysis techniques to real-world problems."
+        ],
+        [
+            "Factor Analysis: Understand the basics of factor analysis and its applications in data reduction.",
+            "Exploratory Factor Analysis (EFA): Learn how to use EFA to identify potential underlying factors in a dataset.",
+            "Confirmatory Factor Analysis (CFA): Explore how CFA can be used to test hypothesized relationships between variables."
+        ],
+        [
+            "External Tools: Apply factor analysis techniques using interactive tools for EFA and CFA.",
+            "Dataset Exploration: Use real-world datasets to practice both exploratory and confirmatory factor analysis."
+        ],
+        [
+            "Structural Equation Modeling (SEM): Understand the fundamentals of SEM and its applications in modeling relationships between observed and latent variables.",
+            "Covariance-Based (CB) SEM: Learn how to apply CB-SEM for modeling and testing complex causal relationships.",
+            "Partial Least Square (PLS) SEM: Explore PLS-SEM as a method for analyzing predictive relationships and handling smaller sample sizes."
+        ],
+        [
+            "External Tools: Use SEM tools to practice building and testing SEM models with real-world datasets.",
+            "Dataset Exploration: Apply both CB-SEM and PLS-SEM methods to explore and model relationships within datasets."
+        ],
+        [
+            "Segmentation: Understand how segmentation divides data into distinct groups based on similarities.",
+            "Hierarchical Segmentation: Learn how to apply hierarchical clustering to form a tree of nested clusters.",
+            "K-means Clustering: Explore K-means clustering to partition data into a predefined number of clusters based on similarity."
+        ],
+        [
+            "External Tools: Use clustering tools to apply segmentation techniques, including hierarchical and K-means clustering.",
+            "Dataset Exploration: Practice segmentation on real-world datasets to identify meaningful groups and patterns."
+        ],
+        [
+            "Segmentation as Classification: Understand how classification techniques can be applied to segment data into predefined categories.",
+            "Random Forest Classifier: Learn how to use the Random Forest algorithm for classifying data based on features and segmenting it into relevant classes."
+        ],
+        [
+            "External Tools: Practice classification and segmentation techniques using Random Forest classifiers.",
+            "Discussion Forum: Engage in discussions on using classification methods for segmentation in real-world datasets.",
+            "Context Module: Explore the PSU Student Educational Experience Questionnaire (SEEQ) to apply segmentation as classification."
+        ],
+        [
+            "Market Basket Analysis: Understand how to use association rule mining to discover relationships between items purchased together.",
+            "Recommendation Engines: Explore how recommendation systems suggest products or services to users based on their preferences and past behaviors."
+        ],
+        [
+            "External Tools: Use tools to apply Market Basket Analysis and build recommendation engines.",
+            "Discussion Forum: Present your project and engage in discussions on implementing recommendation systems and analysis."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "R Software for Statistical Computing,",
+            "url": "https://www.r-project.org/"
+        },
+        {
+            "text": "Python",
+            "url": "https://www.ics.uci.edu/~pattis/common/handouts/pythoneclipsejava/python.html"
+        },
+        {
+            "text": "https://student.worldcampus.psu.edu/help-and-support/technical-support.",
+            "url": "https://student.worldcampus.psu.edu/help-and-support/technical-support"
+        },
+        {
+            "text": "techsupport@worldcampus.psu.edu",
+            "url": "mailto:techsupport@worldcampus.psu.edu?subject=World%20Campus%20Tech%20Support%20Inquiry"
+        },
+        {
+            "text": "Penn State University Library",
+            "url": "https://libraries.psu.edu/"
+        },
+        {
+            "text": "general discussion forum",
+            "url": "https://psu.instructure.com/courses/2219959/discussion_topics/14737445"
+        },
+        {
+            "text": "University Policies and Resources.",
+            "url": "https://sites.psu.edu/gvwc/course/penn-state-university-policies-and-resources/"
+        },
+        {
+            "text": "Driven Decision Making",
+            "url": "https://psu.instructure.com/courses/2219959/modules/items/35801903"
+        },
+        {
+            "text": "Volume",
+            "url": "#tab-strongvolumestrong"
+        },
+        {
+            "text": "Velocity",
+            "url": "#tab-strongvelocitystrong"
+        },
+        {
+            "text": "Variety",
+            "url": "#tab-strongvarietystrong"
+        },
+        {
+            "text": "Veracity",
+            "url": "#tab-strongveracitystrong"
+        },
+        {
+            "text": "Value",
+            "url": "#tab-strongvaluestrong"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "Infographic illustrating Big Data Challenges with graphs for complexity, velocity, variety, and volume across data types such as archives, docs, business apps, media, social networks, public web, data storages, machine log data, and sensor data. Icons and descriptions for each data type are also included.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/fig_1.1.png"
+        },
+        {
+            "alt": "Diagram representing the five key characteristics of Big Data: Volume, Velocity, Variety, Veracity, and Value, arranged around a central circle labeled 'Big Data",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/Big_Data.png"
+        },
+        {
+            "alt": "",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/fig11.1.jpg"
+        },
+        {
+            "alt": "Venn diagram highlighting the intersection of Volume, Velocity, and Variety in Big Data, labeled as 'Fast Data,' with examples like social networks, blog posts, logs, and sensors.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/Fast_Data.jpg"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Assignment Category",
+                "Points",
+                "Weight (% of Final Grade)"
+            ],
+            [
+                "Discussion Forums",
+                "7",
+                "7%"
+            ],
+            [
+                "Project Deliverables",
+                "7",
+                "65%"
+            ],
+            [
+                "Quizzes",
+                "7",
+                "28%"
+            ]
+        ],
+        [
+            [
+                "Assignment Category",
+                "Lesson",
+                "Material Covered",
+                "Value"
+            ],
+            [
+                "Quiz 1",
+                "2",
+                "Lessons 1 & 2",
+                "30 points"
+            ],
+            [
+                "Quiz 2",
+                "4",
+                "Lessons 3 & 4",
+                "30 points"
+            ],
+            [
+                "Quiz 3",
+                "6",
+                "Lessons 5 & 6",
+                "30 points"
+            ],
+            [
+                "Quiz 4",
+                "8",
+                "Lessons 7 & 8",
+                "30 points"
+            ],
+            [
+                "Quiz 5",
+                "10",
+                "Lessons 9 & 10",
+                "40 points"
+            ],
+            [
+                "Quiz 6",
+                "12",
+                "Lessons 11 & 12",
+                "40 points"
+            ],
+            [
+                "Quiz 7 (Final Quiz)",
+                "14",
+                "Comprehensive (entire course)",
+                "80 points"
+            ]
+        ],
+        [
+            [
+                "Deliverable",
+                "Due",
+                "Value"
+            ],
+            [
+                "Deliverable 1",
+                "Lesson 2",
+                "90 points"
+            ],
+            [
+                "Deliverable 2",
+                "Lesson 4",
+                "90 points"
+            ],
+            [
+                "Deliverable 3",
+                "Lesson 6",
+                "90 points"
+            ],
+            [
+                "Deliverable 4",
+                "Lesson 8",
+                "90 points"
+            ],
+            [
+                "Deliverable 5",
+                "Lesson 10",
+                "90 points"
+            ],
+            [
+                "Deliverable 6",
+                "Lesson12",
+                "90 points"
+            ],
+            [
+                "Deliverable 7",
+                "End of Course",
+                "110 points"
+            ]
+        ],
+        [
+            [
+                "Factor",
+                "Item",
+                "Text"
+            ],
+            [
+                "Quality",
+                "q1",
+                "The quality of the HP printer I bought is excellent"
+            ],
+            [
+                "Quality",
+                "q2",
+                "HP printers are known to be highly reliable"
+            ],
+            [
+                "Quality",
+                "q3",
+                "I’m sure my HP printer will last a long time"
+            ],
+            [
+                "Cost",
+                "c1",
+                "The HP printer was reasonably priced"
+            ],
+            [
+                "Cost",
+                "c2",
+                "HP sets fair prices for its products"
+            ],
+            [
+                "Cost",
+                "c3",
+                "The HP printers are no more expensive than others"
+            ],
+            [
+                "Value",
+                "v1",
+                "I feel like I got a good value for this purchase"
+            ],
+            [
+                "Value",
+                "v2",
+                "The quality of the printer is worth its cost"
+            ],
+            [
+                "Value",
+                "v3",
+                "I could tell my boss this purchase was good value"
+            ],
+            [
+                "CSat",
+                "cs1",
+                "I am very satisfied with my newly purchased HP printer"
+            ],
+            [
+                "CSat",
+                "cs2",
+                "My printer is better than I expected it would be"
+            ],
+            [
+                "CSat",
+                "cs3",
+                "I have no regrets about having bought this printer"
+            ],
+            [
+                "Repeat",
+                "r1",
+                "I would buy another HP if I had to buy another printer"
+            ],
+            [
+                "Repeat",
+                "r2",
+                "I would buy other HP products"
+            ],
+            [
+                "Repeat",
+                "r3",
+                "I would tell my friend and coworkers to buy HPs"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"3303\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

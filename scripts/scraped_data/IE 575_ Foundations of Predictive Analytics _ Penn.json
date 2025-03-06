@@ -1,0 +1,572 @@
+{
+    "metadata": {
+        "title": "IE 575: Foundations of Predictive Analytics – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=3877"
+    },
+    "headings": {
+        "h2": "Lesson 14: Ensemble Methods",
+        "h4": "Unlocking Your Potential",
+        "h5": "Estimation of Coefficients",
+        "h3": "Linear Regression for Predictive Modeling"
+    },
+    "paragraphs": [
+        "IE 575: Predictive Analytics is a comprehensive introduction to predictive data analytics, offering students the opportunity to explore and apply fundamental techniques in real-world scenarios. Using the R statistical system, students will develop practical skills in analyzing and predicting outcomes based on data, with applications spanning marketing, healthcare, engineering, and web analytics.",
+        "Through a combination of curated readings and hands-on projects, students will gain exposure to key methods, including linear regression, classification, tree-based models, dimensionality reduction, and clustering. Additionally, the course introduces advanced topics such as predictive modeling based on text and network data, offering a well-rounded foundation in analytics.",
+        "The primary deliverable for this course will be a complete analytical project that applies these methods to a realistic dataset. By the end of the course, students will be equipped to utilize predictive analytics techniques to solve complex problems and make informed decisions in data-driven environments.",
+        "(3 credits) This is a survey course on the various aspects of predictive data analytics. Students will learn methods associated with data analytics techniques and apply them to real examples using the R statistical system. The key survey topics will include linear regression models, classification methods, tree-based methods, dimensionality reduction, and clustering. The focus will be on providing a basic understanding of the fundamentals of these techniques with realistic applications in marketing, healthcare, engineering, and web-based data. An introduction to predictive models based on text and network data will be provided.",
+        "Upon successful completion of the course, students should be able to:",
+        "There are currently no proctored exams in this course.",
+        "Grades will be based on the following scale:",
+        "A = 96 – 100, A- = 90 – 95, B+ = 87 – 89, B = 84 – 86, B- = 80 – 83, C+ = 77 – 79, C = 70 – 76, D = 60 – 69, and F = Below 60",
+        "Homework assignments will be given periodically. Due dates are specified in the course syllabus. Homework will constitute 50% of your final grade. Doing the homework promptly and carefully is necessary for learning the material. Collaboration with fellow students is allowed and encouraged on homework. However, each student must turn in his or her own written work which reflects his or her own understanding of the material.",
+        "Two exams will be given. You will have up to 5 days to complete each exam. You are expected to work alone on the exams, and are free to use whatever material that you have at your disposal. Late exams will not be accepted unless there are mitigating circumstances.  Exams are worth 50% of your grade.",
+        "*subject to change",
+        "As part of data exploration, we frequently use graphs to visualize data to better understand and interpret the data on hand. In lesson 2, we tried some basic graphs in R. We will learn and exercise much more techniques employed in R, including imported libraries supports.",
+        "Let’s start with the simplest plot function, plot(x,y) can draw a scatter plot, where x-axis represents x value in order and y-axis represents y values. We continue to use the dataset from a telecommunication organization. After loading the Customers.xlsx, for example, plot(Customers$Age, Customers$Est_Income) will create the following scatterplot (Fig. 3.1.1).",
+        "The Regression Model is a statistical methodology that studies the relationships between different variables so that we can predict one variable from other variables. In linear regression, the output variable (also termed as dependent variable, outcome, or response) is predicted by a linearly weighted combination of input variables (also termed as independent variables, features, or predictors). Here is an example of a simple linear model:",
+        "yˆ=β1x+β0y^=β1x+β0",
+        "ŷ is the estimated output, which is calculated from a linear function of a single predictor variable or feature x. β are the parameters of the model and are usually termed as regression coefficients. The number of β changes with the number of features of a model. We always have an extra coefficient termed as intercept β0, which is the value when all features are valued at zero. The other β coefficients can be interpreted as the expected change in ŷ due to per unit increase of a corresponding feature.",
+        "The linear regression model tries to find the best β to minimize sum of square error.",
+        "Tree-based Methods",
+        "As one of supervised learning algorithms, tree-based methods are mostly used in classification problems. By relying on greedy strategies, tree-based methods essentially consist of a series of rules that can be generated using a tree structure (Fig. 7.1.1 and Fig. 7.1.2). Tree-based methods are easily used for predictions applicable for both categorical and continuous input and output variables. In general, if the output variable is categorical, we use a decision tree to handle classification problems (Fig. 7.1.1). If the output variable is continuous or numerical, we then use it to tackle regression problems (Fig. 7.1.2).",
+        "This course will provide you with a thorough introduction to:",
+        "During this course you will expand your knowledge of the lesson topics each week.",
+        "In this lesson, you will dive into the critical role data plays in understanding business lifecycles and market dynamics. Learn how advancements in digitization, computing, and networking have transformed the ways we gather, process, and act on data insights.",
+        "By the end of this lesson, you’ll have a clear understanding of how big data and analytics can drive meaningful improvements in business performance.",
+        "This lesson introduces you to R, one of the most widely used statistical programming languages in the world. You’ll also become familiar with RStudio, the integrated development environment that makes working with R efficient and accessible.",
+        "By the end of this lesson, you’ll have the foundational skills to navigate R and RStudio confidently, laying the groundwork for advanced analytics and modeling throughout the course.",
+        "This lesson builds on your foundational knowledge of R by introducing its powerful graphical capabilities. Learn how R supports data visualization to help you uncover patterns, trends, and insights from your datasets.",
+        "By completing this lesson, you will develop confidence in using R’s visualization tools to transform raw data into meaningful visual insights.",
+        "This lesson introduces the CRISP-DM framework (Cross-Industry Standard Process for Data Mining), a widely adopted methodology in the analytics industry. Gain an understanding of its phases and how it guides successful analytics projects from start to finish.",
+        "By the end of this lesson, you’ll have the knowledge to apply a structured approach to data mining and evaluate your analytics models with confidence and precision.",
+        "This lesson marks the beginning of exploring predictive models, focusing on linear regression—a foundational algorithm for predicting numeric output variables. Gain a clear understanding of how regression models form the basis of data-driven predictions.",
+        "By completing this lesson, you’ll have the tools and knowledge to create and evaluate linear regression models, setting the stage for more advanced predictive analytics techniques.",
+        "This lesson begins by introducing classification modeling, a crucial technique for predicting categorical outcomes. You will learn how classification problems differ from regression problems and why logistic regression is a popular solution.",
+        "By completing this lesson, you will gain the knowledge and skills to confidently build and assess logistic regression models, preparing you for advanced classification techniques in analytics.",
+        "This lesson introduces tree-based predictive modeling, focusing on its role in classification and regression tasks. You will explore how decision trees structure data-driven predictions through simple, interpretable rules.",
+        "By completing this lesson, you will develop the ability to create effective decision trees using CART, setting the stage for more advanced tree-based methods in subsequent lessons.",
+        "This lesson builds upon your understanding of tree-based methods by focusing on C5.0, an advanced algorithm tailored for classification problems with categorical target variables. Learn how this method enhances decision-making through multiple splits at each node.",
+        "By the end of this lesson, you will have the skills to effectively utilize the C5.0 algorithm for classification tasks, enhancing your proficiency with tree-based predictive methods.",
+        "This lesson introduces the foundational concepts of artificial neural networks (ANNs), focusing on the mechanics of artificial neurons. Learn how these structures mimic biological neurons to solve complex computational problems.",
+        "By completing this lesson, you’ll acquire foundational knowledge of neural networks and learn how to implement these powerful models for predictive analytics.",
+        "This lesson takes a hands-on approach, using examples from the textbook to deepen your understanding of neural network (NN) models. Through these exercises, you’ll work with three powerful R packages: neuralnet, nnet, and RSNNS.",
+        "By completing this lesson, you’ll gain practical experience with NN packages and learn how to effectively apply them to solve real-world problems.",
+        "This lesson introduces the Naïve Bayes (NB) classifier, a probabilistic model that simplifies complex classification tasks by assuming independence between features. Learn its foundational concepts and how it applies to real-world problems.",
+        "By completing this lesson, you’ll be equipped to use Bayesian methods to solve classification problems and uncover probabilistic relationships in data.",
+        "This lesson introduces the Naïve Bayes (NB) classifier, a probabilistic model that simplifies complex classification tasks by assuming independence between features. Learn its foundational concepts and how it applies to real-world problems.",
+        "By completing this lesson, you’ll be equipped to use Bayesian methods to solve classification problems and uncover probabilistic relationships in data.",
+        "In this lesson, we will dive deeper into the field of time series forecasting by exploring the Autoregressive Integrated Moving Average (ARIMA) model, a powerful tool for handling complex time-dependent data. You’ll learn how to construct ARIMA models step by step, from understanding the components of autoregression, differencing, and moving averages, to selecting optimal parameters for accurate predictions.",
+        "By completing this lesson, you will master ARIMA modeling and evaluation techniques, equipping you to handle real-world forecasting tasks with confidence.",
+        "This lesson introduces ensemble methods, a powerful approach to improving predictive performance by combining the strengths of multiple models. Discover how techniques like Bagging, Boosting, and Stacking leverage cross-validation and variance reduction to produce superior results.",
+        "By completing this final lesson, you’ll have a comprehensive understanding of how to create ensemble models, enabling you to achieve improved performance beyond the capabilities of individual predictive algorithms.",
+        "IE 575 Predictive Analytics equips students with in-demand skills that are highly valued across industries. This course focuses on data-driven decision-making, teaching techniques such as regression modeling, classification, time series analysis, and ensemble methods. By mastering these tools, students gain the ability to uncover actionable insights from complex datasets, a capability sought after in fields such as finance, healthcare, marketing, manufacturing, and technology.",
+        "Graduates who excel in predictive analytics often pursue roles such as Data Scientist, Predictive Modeler, Business Analyst, and Operations Research Analyst. These positions require a strong foundation in analytics methodologies, as taught in this course, and offer opportunities to shape business strategies, optimize processes, and forecast trends. With predictive analytics playing a critical role in organizational success, completing IE 575 positions students for dynamic and rewarding career paths.",
+        "A retail chain faced a significant challenge in managing its inventory and optimizing stock levels across its stores. Products were either overstocked, leading to high storage costs and wasted goods, or understocked, resulting in missed sales and dissatisfied customers. The company lacked a clear understanding of customer purchasing patterns and was unable to predict demand effectively. This inefficiency led to revenue losses and reduced customer satisfaction, highlighting the critical need for a predictive analytics solution.",
+        "To address the issue, the company employed a predictive analytics team to develop a demand forecasting model. The team collected historical sales data, promotional schedules, weather patterns, and regional demographics to train a machine learning model. Using algorithms such as time series analysis and regression models, they created a system capable of accurately predicting demand for each product at individual store locations.",
+        "With the predictive model in place, the company was able to optimize inventory levels, ensuring that popular items were always available while reducing excess stock of slower-moving products. This resulted in increased sales, lower storage costs, and improved customer satisfaction. The successful application of predictive analytics not only streamlined inventory management but also demonstrated the profound impact of data-driven decision-making on operational efficiency and business outcomes.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Mastering Predictive Analytics with R, by Rui Miguel Forte. ISBN – 13: 978 – 1783982806, ISBN – 10: 1783982802, Packt Publishing (June 17, 2015)\n\nA digital version of this textbook is available through the Penn State University Libraries E-Book program at no cost to the student. Students do not need to purchase a physical copy of the book.",
+            "A digital version of this textbook is available through the Penn State University Libraries E-Book program at no cost to the student. Students do not need to purchase a physical copy of the book."
+        ],
+        [
+            "A digital version of this textbook is available through the Penn State University Libraries E-Book program at no cost to the student. Students do not need to purchase a physical copy of the book."
+        ],
+        [
+            "Predictive Modeling",
+            "Predictive Modeling",
+            "R and RStudio Basics",
+            "Data Visualization in R",
+            "Linear Regression",
+            "Logistic Regression",
+            "Tree-based Method",
+            "Neural Networks",
+            "Bayesian Networks",
+            "Time-Series Models",
+            "Ensemble Methods"
+        ],
+        [
+            "Scatterplots",
+            "Linear Regression",
+            "Tree Based Methods"
+        ],
+        [
+            "Predictive analytics processes and practices, including data preparation, modeling, and evaluation.",
+            "Exploratory data analysis techniques, helping you uncover trends and patterns within data.",
+            "Fundamental predictive modeling algorithms, such as regression, classification, and time series forecasting.",
+            "Advanced methods like neural networks, ensemble techniques, and Bayesian networks.",
+            "Performance evaluation metrics, ensuring accurate and reliable model assessments.",
+            "Practical applications of predictive analytics, with real-world examples in industries such as marketing, healthcare, and finance.",
+            "Data-driven decision-making strategies, enabling organizations to enhance operations and uncover new opportunities."
+        ],
+        [
+            "L1-L2",
+            "L3-L4",
+            "L5-L6",
+            "L7-L8",
+            "L9-L10",
+            "L11-L12",
+            "L13-L14"
+        ],
+        [
+            "Introduce the three types of analytics: descriptive, predictive, and prescriptive—and their distinct roles in business problem-solving.",
+            "Learn about the challenges of handling semi-structured and unstructured data and the limitations of conventional tools."
+        ],
+        [
+            "Discussion Prompt: Reflect on how data analytics has transformed industries you interact with daily, such as retail, healthcare, or transportation.",
+            "Case Study Analysis: Review a real-world example of how businesses use big data to improve customer experiences or operational efficiency."
+        ],
+        [
+            "Learn the basics of R, a powerful statistical programming language widely used in data analytics and modeling.",
+            "Get familiar with RStudio, an integrated development environment designed to enhance your productivity with R."
+        ],
+        [
+            "Hands-On Command Practice: Execute basic R commands in RStudio, such as loading data, manipulating variables, and calculating summary statistics.",
+            "Exploratory Analysis Task: Use R to perform basic data exploration, including calculating means, medians, and identifying missing values in a sample dataset."
+        ],
+        [
+            "Understand the importance of data visualization in discovering insights and presenting data effectively.",
+            "Develop troubleshooting skills by exploring R’s help system and learning how to resolve common coding issues."
+        ],
+        [
+            "Visualization Basics Exercise: Use R’s built-in functions to create basic visualizations such as bar charts, scatterplots, and histograms.",
+            "Library Exploration Activity: Install and explore an external visualization library like ggplot2 to create more complex and polished graphs."
+        ],
+        [
+            "Explore how metrics such as accuracy, precision, recall, and F1 score help assess model performance.",
+            "Understand the importance of evaluating models to improve outcomes and refine predictive capabilities."
+        ],
+        [
+            "Case Study Discussion: Review a case study where the CRISP-DM framework was applied successfully, and discuss its impact on the project outcome.",
+            "Framework Exploration Exercise: Break down the phases of the CRISP-DM framework and identify how they apply to real-world analytics projects."
+        ],
+        [
+            "Learn the difference between simple and multiple linear regression and their use cases.",
+            "Explore key performance metrics, such as R-squared and residual analysis, to evaluate model quality."
+        ],
+        [
+            "Modeling Basics Exercise: Use a sample dataset to build and fit a simple linear regression model in R.",
+            "Exploratory Data Analysis (EDA): Perform EDA on a dataset to identify relationships between predictors and output variables before modeling."
+        ],
+        [
+            "Understand the basics of classification modeling and its role in predicting categorical outcomes.",
+            "Learn the mathematical foundation of logistic regression, including the logistic function and log-odds."
+        ],
+        [
+            "Binary Logistic Regression Exercise: Build and interpret a binary logistic regression model in R using a real-world dataset.",
+            "Multinomial Logistic Regression Practice: Extend your skills by creating a multinomial logistic regression model and evaluating its predictive power."
+        ],
+        [
+            "Gain proficiency in using R to develop and analyze CART decision trees with practical, real-world datasets.",
+            "Understand the role of tree-based methods in predictive modeling and their advantages for interpretable results."
+        ],
+        [
+            "Visualization Challenge: Create and visualize decision trees in R to enhance your understanding of how CART represents data relationships.",
+            "CART Basics Exercise: Develop a simple CART decision tree in R using a sample dataset."
+        ],
+        [
+            "Understand how to evaluate the strengths and limitations of C5.0 compared to other tree-based algorithms like CART.",
+            "Learn how C5.0 handles categorical targets and allows multiple splits at decision nodes for improved accuracy."
+        ],
+        [
+            "C5.0 Implementation Exercise: Develop a C5.0 decision tree in R using a real-world dataset with a categorical target variable.",
+            "Multiple Split Analysis: Examine how C5.0’s multiple split feature enhances the decision-making process at each node."
+        ],
+        [
+            "Understand the concept of an artificial neuron and how it forms the building block of neural networks.",
+            "Learn the basics of artificial neural networks (ANNs) and their application to real-world datasets."
+        ],
+        [
+            "Perceptron Exercise: Implement a perceptron in R to classify simple datasets, observing how it learns through training.",
+            "Neural Network Development: Build a basic neural network model in R using a real-life classification dataset."
+        ],
+        [
+            "Work with neuralnet, nnet, and RSNNS packages to build and evaluate neural network models.",
+            "Gain insights into the structure and functioning of NN models, building on foundational concepts from the previous lesson."
+        ],
+        [
+            "Model Performance Analysis: Evaluate the accuracy and reliability of NN models using appropriate metrics and identify signs of overfitting.",
+            "Overfitting Mitigation Task: Experiment with techniques such as regularization or dropout to minimize overfitting in your models."
+        ],
+        [
+            "Learn the principles and applications of the Naïve Bayes classifier for classification tasks.",
+            "Understand the strengths and limitations of Bayesian methods in real-world applications."
+        ],
+        [
+            "Naïve Bayes Exercise: Develop a simple Naïve Bayes classifier in R using a categorical dataset and evaluate its performance.",
+            "Bayesian Network Practice: Build a Bayesian Network model in R and explore the relationships between features."
+        ],
+        [
+            "Learn the principles and applications of the Naïve Bayes classifier for classification tasks.",
+            "Explore Bayesian Networks and their ability to model relationships between features for more nuanced analysis."
+        ],
+        [
+            "Probabilistic Dependencies Analysis: Analyze the conditional probabilities in your Bayesian Network to gain insights into feature relationships.",
+            "Naïve Bayes Exercise: Develop a simple Naïve Bayes classifier in R using a categorical dataset and evaluate its performance."
+        ],
+        [
+            "Learn the principles and structure of the ARIMA model, including autoregression, differencing, and moving averages.",
+            "Understand how to build and optimize ARIMA models for effective forecasting."
+        ],
+        [
+            "ARIMA Basics Exercise: Use a sample dataset to identify trends and apply ARIMA modeling techniques in R.",
+            "Parameter Selection Practice: Experiment with ARIMA parameters (p, d, q) to fine-tune model performance and compare results."
+        ],
+        [
+            "Learn how Bagging, Boosting, and Stacking work to enhance model accuracy and reduce overfitting.",
+            "Explore the role of cross-validation and variance reduction in creating robust ensemble models."
+        ],
+        [
+            "Bagging Exercise: Use R to implement a Bagging technique such as Random Forest and evaluate its performance.",
+            "Boosting Practice: Apply a Boosting method, such as Gradient Boosting or XGBoost, to a dataset and analyze the results."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "STAT 500,",
+            "url": "https://bulletins.psu.edu/search/?P=STAT%20500"
+        },
+        {
+            "text": "Penn State University Libraries",
+            "url": "https://libraries.psu.edu/"
+        },
+        {
+            "text": "https://www.r-project.org/",
+            "url": "https://www.r-project.org/"
+        },
+        {
+            "text": "http://www.rstudio.com",
+            "url": "http://www.rstudio.com/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "Book cover for 'Mastering Predictive Analytics with R' by Rui Miguel Forte. The cover features a photograph of ancient ruins with stone columns and a temple under a clear blue sky. The subtitle reads, 'Master the craft of predictive modeling by developing strategy, intuition, and a solid foundation in essential concepts.' The publisher's logo 'Packt Open Source' is displayed at the bottom right.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/Mastering-Predictive-Analytics-with-R-book-cover.png"
+        },
+        {
+            "alt": "A scatter plot depicting the relationship between customers' age (x-axis) and their estimated income (y-axis). The x-axis ranges from 10 to 70, representing age, while the y-axis ranges from 0 to 100,000, representing estimated income. The plot shows a broad distribution of data points, with no clear pattern or correlation between age and income.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/scatter_plot.jpeg"
+        },
+        {
+            "alt": "A decision tree diagram illustrating a classification process. The root node splits based on the condition x2 < 30, leading to two branches labeled 'yes' and 'no.' Each branch further splits based on conditions involving x1, such as x1 <= 100, 100 < x1 < 180, x1 >= 180, and others. The terminal nodes (leaves) are labeled as c1, c2, c3, c4, and c5, representing different classification outcomes.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/tree_7.1.1.jpeg"
+        },
+        {
+            "alt": "A decision tree diagram used for predictive analysis. The root node splits based on the condition x2 < 30, branching into 'yes' and 'no' paths. Subsequent splits are based on conditions involving x1, such as x1 <= 100, 100 < x1 < 180, x1 >= 180, x1 <= 140, and more. The leaf nodes at the bottom represent numerical outcomes, including values like 20.4, 23.2, 26.6, 25.8, and 28.6, corresponding to the conditions leading to those endpoints.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/tree_7.1.2.jpeg"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Assignment Type",
+                "Points",
+                "% of Final Grade"
+            ],
+            [
+                "10 Assignments/Exercises",
+                "1000 (100 points each)",
+                "50%"
+            ],
+            [
+                "2 Exams (midterm and final)",
+                "200 (100 points each)",
+                "50%"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"3877\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

@@ -1,0 +1,550 @@
+{
+    "metadata": {
+        "title": "INSC 539: Emerging Topics in Information Systems – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4013"
+    },
+    "headings": {
+        "h2": "Lesson 7: Enterprise Systems Transformation",
+        "h4": "Unlocking Your Potential",
+        "h3": "Required Textbook"
+    },
+    "paragraphs": [
+        "INSC 539: Emerging Topics in Information Systems is a dynamic 3-credit course designed to prepare students for the rapidly evolving landscape of enterprise technology. As computing and network technologies advance, businesses must adapt to maintain efficiency and competitiveness. This course equips students with the knowledge and skills to leverage cutting-edge innovations such as cloud computing, mobile applications, the Internet of Things (IoT), blockchain, machine learning, and artificial intelligence. By exploring these technologies, students will learn how to address the limitations of legacy enterprise systems and optimize systems already employing these advancements.",
+        "Through engaging online content, targeted readings, interactive discussions, and hands-on projects, students will develop the expertise to assess, integrate, and implement emerging technologies in real-world settings. By the end of the course, students will be positioned as forward-thinking leaders, ready to drive technological innovation and transformation within enterprise systems. INSC 539 offers an invaluable opportunity to master the tools and strategies shaping the future of information science while enhancing business operations and management.",
+        "(3 credits)  Computing and network technologies are constantly changing and we need to adopt the changes to help transform enterprise information systems to better support business operations and management. This course will explore various emerging theories and technologies in information science, including at least cloud computing, mobile application, Internet of thing, blockchain, machine learning, and artificial intelligence. Through lectures, class discussions, and hands-on designs and implementations, students will learn how the emerging theories and technologies can be applied to addressing the weakness of legacy enterprise information systems in which the emerging technologies are not employed yet or leverage them better in cases where they are already employed.",
+        "Upon completion of this course students be able to:",
+        "There is no textbook required for this course.  Readings are presented throughout the course as links to external articles or texts. The readings are available via the internet.  Please note, for some readings you may need to be logged in with your Penn State User ID to access the reading.",
+        "A grade is given on the basis of the instructor’s judgment as to the student’s scholarly attainment (see the Penn State Graduate Degree Programs Bulletin, p. 41). The following grading system applies to graduate students:",
+        "Grades will be based on the following scale:",
+        "A = 94-100, A- = 90 – 93, B+ = 87 – 89, B = 84 – 86, B- = 80 – 83, C+ = 77 – 79, C = 70 – 76, D = 60 – 69, and F = 60 and below.",
+        "There are seven private group discussions. You will participate in small group discussions with your team as you work on your project.  Your team will have a private group discussion forum to communicate with one another, share information, build knowledge, and gain feedback.  These discussion forums will allow you to come to consensus on how to complete each activity as it relates to the overall Course Project.  Your instructor will be monitoring the discussions and will participate or comment as needed.",
+        "There are seven shared group discussion forums.  These forums allow your team to share your work with the other teams.  By sharing your team’s work, you will get the benefit of additional feedback from everyone in the course.  Your team will delegate one member to create a post to share your work with the rest of the class.  All members of each team must read and respond to each team’s post.  Your instructor will be reading these discussions and may provided comments or questions as needed.",
+        "Throughout this course, you will work on a group project in which you will apply the various topics of emerging technologies to a project of your team’s choosing. Your team will select a business problem or improvement idea in which you will develop solutions using the emerging technologies presented in this course. You will work with your team to develop solutions that demonstrate your understanding of the learning materials and your ability to apply the knowledge to address issues in information systems. The group project consists of four (4) deliverables:",
+        "In addition, each student will submit an Individual Reflection at the end of the course.",
+        "To see specifics about the project, please view the Group Project Guidelines in Canvas. If you have any questions about the Group Project, please do not hesitate to ask.  There will be an opportunity to take a short quiz at the beginning of the course to show that you have read the Syllabus and understand the Course Project.  Having a full understanding of course expectations will ensure that you’ll do well in this class.  Points earned on the Syllabus Quiz will be added as extra credit to your Course Project.",
+        "*subject to change",
+        "In this section we will provide a non-exhaustive list of the newest trends in Mobile computing and IoT, and suggestions on how to support business operations and management.",
+        "Select each header below:",
+        "The main concept of mobile computing involves mobile communication, mobile hardware (such as portable laptops, smartphones, tablets) and mobile software (programs that run on mobile devices).",
+        "Take some time to explore the Mobile Computing Overview tutorial  (https://www.tutorialspoint.com)",
+        "The smsgroup.com claims that companies like Blockbuster, Kodak, Amazon and Ford prove that taking advantage of technological advances can make or break a business and provide pros and cons of integrating mobile computing into businesses.",
+        "IoT blurs the lines between technology and management, facilitating new business models built upon the concepts, methods and tools of the digital environment.",
+        "Similar to what smsgroup.com identified as pros and cons of Mobile computing, we could say that there are pros and cons of IoT.",
+        "internetofbusiness.com does find improved business insights and customer experience through connected equipment and creation of more data streams and analytics potential. Cost and downtime reduction is seen through a reduction in operational expenditure and downtime. By connecting a business’ key processes, leaders can more easily identify ways to boost efficiency and productivity. Additional benefits in comparison to what has been identified for Mobile computing by smsgroup.com, internetofbusiness.com is the drive to reduce waste using asset tracking. Maybe the biggest benefit is the opportunity to create new business models as IoT provides them with information about their customers and how they use their products.",
+        "Explore some of these emerging trends related to mobile computing and IoT",
+        "Upon completion of this course students be able to:",
+        "During this course you will expand your knowledge of the lesson topics each week.",
+        "Embark on an exciting journey into the world of emerging technology, where innovation drives transformation across industries. This topic introduces you to the cutting-edge tools and systems shaping the future of information systems. As a prospective graduate student, you will discover how these advancements are revolutionizing the way organizations operate, making it essential for future leaders like you to understand and leverage their potential.",
+        "By the end of this topic, you’ll have gained valuable insights into the potential and challenges of emerging technologies, equipping you with the knowledge and skills to lead in a rapidly evolving digital landscape. This is your first step toward mastering the future of innovation and making a meaningful impact in the tech-driven world.",
+        "Delve into the transformative power of cloud computing and its ability to revolutionize enterprise systems. In this topic, you’ll explore the fundamental characteristics of cloud technology and how it enhances the scalability, flexibility, and efficiency of business operations. Prospective graduate students will gain a deeper understanding of how cloud computing drives innovation and optimizes enterprise systems to stay competitive in a digital-first world.",
+        "By the end of this lesson, you will have a solid foundation in cloud computing principles and their application to enterprise systems, positioning you as a forward-thinking leader ready to harness the power of the cloud for organizational success.",
+        "Discover how mobile computing and the Internet of Things (IoT) are revolutionizing the way businesses operate and interact with their environments. In this topic, you’ll explore the latest trends in mobile technologies and IoT, as well as their potential to streamline processes, improve efficiency, and drive innovation in various industries. As a prospective graduate student, this is your opportunity to understand how these advancements are shaping the future of enterprise systems.",
+        "By the end of this topic, you will have a solid grasp of how mobile computing and IoT are transforming industries, preparing you to implement these technologies strategically in future projects and professional endeavors.",
+        "Explore the critical role of cybersecurity and blockchain technology in safeguarding data and ensuring trust in digital systems. In this topic, you will delve into the latest trends and strategies for addressing cybersecurity challenges while discovering how blockchain technology enhances transparency, security, and efficiency across various industries. This lesson provides valuable insights for prospective students eager to become leaders in digital security and innovative technology solutions.",
+        "By the end of this topic, you will have a well-rounded understanding of the intersection between cybersecurity and blockchain, preparing you to implement robust, innovative solutions that address today’s most pressing digital security concerns.",
+        "Discover how Machine Learning (ML) and Artificial Intelligence (AI) are transforming industries, revolutionizing decision-making, and reshaping the future of enterprise systems. In this topic, you will explore the foundational concepts of AI and ML, the latest trends driving their adoption, and practical ways to implement these technologies in real-world scenarios. For prospective students, this is an exciting opportunity to dive into the innovations powering tomorrow’s solutions.",
+        "By the end of this topic, you will have a clear grasp of AI and ML concepts, their practical applications, and the tools to implement them effectively in real-world situations. This knowledge will position you as a forward-thinking professional ready to lead in AI and ML-driven innovations.",
+        "Discover how analytics empowers organizations to make smarter, more informed decisions. In this topic, you’ll learn how data can be transformed into actionable insights, helping businesses solve challenges and drive success. By exploring key concepts and hands-on applications, you’ll see firsthand how analytics shapes the future of decision-making.",
+        "By the end of this lesson, you’ll have a solid foundation in using analytics to guide decision-making, giving you a competitive edge in any industry. This is your chance to see how data transforms strategy and prepares you to lead in the data-driven world.",
+        "In this lesson, you will explore the process of Enterprise Systems Transformation, focusing on how organizations evolve their systems to stay competitive in a digital-first world. From understanding key concepts to addressing challenges in digital transformation, this lesson equips you with the skills to navigate and lead system-wide changes in complex environments.",
+        "By the end of this lesson, you’ll have the knowledge and confidence to lead enterprise system transformations, tackling complex challenges with innovative solutions. This lesson marks the culmination of your learning experience, equipping you to make a meaningful impact in the evolving landscape of enterprise systems.",
+        "The Master of Information Science coursework in Emerging Topics in Information Systems equips graduates with cutting-edge knowledge and skills to thrive in an ever-evolving technological landscape. By exploring innovations such as cloud computing, artificial intelligence, blockchain, and the Internet of Things, students gain the ability to address complex challenges and drive digital transformation in diverse industries. This comprehensive understanding positions graduates as leaders capable of leveraging emerging technologies to optimize enterprise systems and improve organizational efficiency.",
+        "Professionals who complete this program are well-prepared for high-demand roles such as systems analysts, enterprise architects, data scientists, and IT managers. These roles require a blend of technical expertise, strategic thinking, and adaptability—qualities this program cultivates through its dynamic, real-world-focused curriculum. Whether aspiring to shape the future of technology in a global corporation or lead innovative projects in a fast-paced startup, graduates of this program are equipped to make a lasting impact in the field of information systems.",
+        "Furthermore, the in-depth knowledge of these technologies enables a professional to bridge the gap between legacy systems and modern solutions, which is an invaluable skill in many industries seeking digital transformation. By addressing the weaknesses and vulnerabilities of older systems and effectively integrating them with the latest technological advances, one becomes indispensable in roles centered on systems upgrading, strategic planning, and tech consultancy. This expertise can pave the way for leadership roles, allowing one to influence organizational direction and strategy, and ensuring long-term career growth and sustainability in an ever-evolving tech landscape.",
+        "Transforming Legacy Systems with Cloud ComputingA student could lead a project to migrate an organization’s on-premises IT infrastructure to a cloud-based solution. For example, they might work with a manufacturing company to implement scalable cloud services, reducing costs and improving system reliability. By applying knowledge from the course, the student would evaluate different cloud platforms, design a migration strategy, and ensure minimal disruption to business operations during the transition.",
+        "Blockchain for Supply Chain TransparencyA student could develop a blockchain-based solution for a global logistics company to enhance transparency and accountability in supply chain operations. This project might include creating a secure, distributed ledger to track shipments, verify authenticity, and improve communication among stakeholders. With insights from the course, they would tackle challenges related to scalability, adoption, and compliance with industry standards.",
+        "Cybersecurity Framework for a Financial InstitutionA student might design and implement a comprehensive cybersecurity framework for a bank or credit union. This project could involve developing a risk management strategy, deploying advanced security tools, and using blockchain to secure sensitive transactions. Drawing on knowledge from the course, the student would address issues like regulatory compliance, emerging threats, and secure system integration.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Understand emerging theories and technologies in the computing and information science domain",
+            "Identify and design solutions to address issues in enterprise information systems.",
+            "Know the potentials and limitations of different approaches based on the emerging technologies",
+            "Acquire background knowledge in aspects of ethical implications of emerging technologies",
+            "Improve teamwork and professional communication in context of emerging technologies"
+        ],
+        [
+            "“A” (Excellent) indicates exceptional achievement.",
+            "“B” (Good) indicates substantial achievement.",
+            "“C” (Satisfactory) indicates acceptable but substandard achievement.",
+            "“D” (Poor) indicates inadequate achievement and is a failing grade for a graduate student."
+        ],
+        [
+            "Enterprise Systems Transformation",
+            "Emerging Technology",
+            "Cloud Computing",
+            "Mobile Computing and Internet of Things",
+            "Cybersecurity and Blockchain",
+            "Artificial Intelligence and Machine Learning",
+            "Analytics and Data-Driven Decision Making"
+        ],
+        [
+            "Cloud Computing Characteristics",
+            "Emerging Interaction",
+            "Trends in Mobile Computing"
+        ],
+        [
+            "Among the pros are reduced costs by minimizing costly calls and automating error-prone processes, improved efficiency, and responsiveness by optimizing logistics and processes. They also find smarter customer service through real-time quotes and insights from the right information for customer service and sales support. Greater communication, security and data-based decisions are also considered as benefits of mobile computing.",
+            "As cons they address ever changing environment, lack of know-how and high cost which they pose as being outweighed by increased competitiveness."
+        ],
+        [
+            "A good overview of IoT is provided here:  What is the Internet of Things (IoT)?",
+            "IoT and big data as enablers for business strategies: Internet of Things and Big Data as enablers for business digitalization strategies"
+        ],
+        [
+            "Resource Allocation and Task Scheduling in Fog Computing and Internet of Everything Environments: A Taxonomy, Review, and Future Directions speaks about the convergence of the digital and physical world to make this world smarter with intelligence, cognition, and connectivity and merges mobile computing and internet of things into internet of everything.",
+            "MIT technology review sees the need for compute everywhere future.",
+            "Bernard Marr from linkedin and Forbs, speaks about the trends in manufacturing which could be used to support business operations and management:",
+            "InfoQ provides the newest trends in Mobile and IOT Trends Report 2022: https://www.infoq.com/articles/mobile-and-iot-trends-2022/"
+        ],
+        [
+            "Understand emerging theories and technologies in the computing and information science domain",
+            "Identify and design solutions to address issues in enterprise information systems.",
+            "Know the potentials and limitations of different approaches based on the emerging technologies",
+            "Acquire background knowledge in aspects of ethical implications of emerging technologies",
+            "Improve teamwork and professional communication in the context of emerging technologies"
+        ],
+        [
+            "L1",
+            "L2",
+            "L3",
+            "L4",
+            "L5",
+            "L6",
+            "L7"
+        ],
+        [
+            "Emerging Technology Fundamentals: Uncover the breakthrough technologies like IoT, cloud computing, and AI that are defining our digital age.",
+            "Key Considerations: Learn to evaluate the feasibility, risks, and strategic value of implementing these technologies.",
+            "Practical Applications: Explore real-world examples of how businesses and organizations use emerging tech to stay ahead."
+        ],
+        [
+            "Private Group Brainstorming Session: Work in small groups to develop innovative project ideas, exchanging insights and perspectives.",
+            "Shared Group Discussion: Present your ideas to the larger group, receiving constructive feedback to refine your project proposal.",
+            "Project Proposal: Create a compelling proposal that showcases your strategic and creative thinking, applying emerging technologies to address real-world challenges."
+        ],
+        [
+            "Cloud Computing Characteristics: Understand the core features of cloud computing, including scalability, resource pooling, and on-demand services.",
+            "Enhancing Enterprise Systems: Learn how organizations are leveraging cloud computing to improve operations, reduce costs, and enable seamless collaboration."
+        ],
+        [
+            "Introduction Activity: Kick off with a collaborative activity to discuss your understanding of cloud computing and connect with peers.",
+            "Private Group Discussion: Work in small groups to explore the potential applications and benefits of cloud computing for enterprise systems.",
+            "Shared Group Discussion: Share insights and analyze real-world examples of cloud computing in action, refining your understanding through peer feedback."
+        ],
+        [
+            "Trends in Mobile Computing: Examine cutting-edge developments in mobile technology and their implications for businesses and consumers.",
+            "Mobile Computing and IoT for Businesses: Learn how organizations are leveraging mobile devices and interconnected IoT systems to enhance operations and customer experiences."
+        ],
+        [
+            "Interactive Introduction: Engage in a discussion to connect with classmates and share insights on the significance of mobile computing and IoT.",
+            "Collaborative Exploration: Work with peers to brainstorm ideas and analyze examples of mobile computing and IoT in action.",
+            "Group Reflection: Participate in a group discussion to exchange perspectives and deepen your understanding of the potential applications of these technologies."
+        ],
+        [
+            "Cyber Security and Blockchain Considerations: Understand the principles and challenges of securing digital systems and how blockchain strengthens data integrity.",
+            "Cyber Security and Blockchain Trends: Examine emerging developments and their potential to reshape the security landscape.",
+            "Addressing Cyber Security and Blockchain Issues: Learn practical approaches to managing threats and deploying blockchain solutions in enterprise environments."
+        ],
+        [
+            "Introduction Engagement: Discuss key concepts of cybersecurity and blockchain with peers, setting the stage for collaborative learning.",
+            "Collaborative Brainstorming: Analyze case studies or scenarios with your group to explore how cybersecurity measures and blockchain can solve real-world challenges.",
+            "Group Exchange: Share findings and reflections with classmates to broaden perspectives and refine understanding of these critical topics."
+        ],
+        [
+            "What is AI and ML?: Understand the fundamental principles of AI and ML, and how they differentiate from traditional computing methods.",
+            "AI and ML Trends: Examine cutting-edge developments in AI and ML technologies and their impact on industries.",
+            "AI and ML Adoption: Explore how businesses integrate AI and ML to solve problems, improve efficiency, and gain a competitive edge.",
+            "How to Apply AI and ML?: Learn practical strategies for leveraging AI and ML in enterprise systems to address complex challenges."
+        ],
+        [
+            "Concept Introduction: Collaborate with peers to discuss your understanding of AI and ML and share real-world examples.",
+            "Collaborative Exploration: Brainstorm innovative ways to apply AI and ML in various industries, working together to identify opportunities and challenges.",
+            "Interactive Group Discussion: Reflect on group findings and participate in an engaging exchange of ideas to refine your knowledge of AI and ML applications."
+        ],
+        [
+            "Analytics and Data-Driven Decision Making: Understand how businesses use data to make impactful, evidence-based decisions.",
+            "Prescriptive Questions and Solutions: Learn to identify challenges and develop data-backed strategies to address them effectively."
+        ],
+        [
+            "Introduction and Exploration: Engage in a discussion to share examples of how organizations use analytics in industries like healthcare, finance, or retail, and explore how data informs critical decisions.",
+            "Case Study Analysis: Work with your team to analyze a provided case study, identifying the role of analytics in solving specific business challenges and developing data-driven recommendations.",
+            "Group Feedback Session: Present your findings to the larger group, receive constructive feedback, and refine your understanding of how to apply prescriptive analytics effectively."
+        ],
+        [
+            "Enterprise Systems Transformation: Learn the strategies and processes organizations use to modernize their enterprise systems for improved efficiency and adaptability.",
+            "Issues to Consider in Digital Transformation: Delve into common challenges, such as resistance to change, integration complexities, and ensuring business continuity during transformation."
+        ],
+        [
+            "Case Study Analysis: Collaborate with peers to analyze a provided case study. Identify specific issues in the transformation process and propose actionable strategies to address them effectively.",
+            "Final Report Development: Work on your final report where you will synthesize insights from the course to analyze a comprehensive transformation scenario. Detail your proposed strategies, the steps required for implementation, and how to measure success."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Mobile Computing Overview tutorial",
+            "url": "https://www.tutorialspoint.com/mobile_computing/mobile_computing_overview.htm"
+        },
+        {
+            "text": "What is the Internet of Things (IoT)?",
+            "url": "https://www.techtarget.com/iotagenda/definition/Internet-of-Things-IoT"
+        },
+        {
+            "text": "Internet of Things and Big Data as enablers for business digitalization strategies",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7417898/"
+        },
+        {
+            "text": "Resource Allocation and Task Scheduling in Fog Computing and Internet of Everything Environments: A Taxonomy, Review, and Future Directions",
+            "url": "https://dl.acm.org/doi/pdf/10.1145/3513002"
+        },
+        {
+            "text": "MIT technology review",
+            "url": "https://www.technologyreview.com/2021/12/14/1041961/embracing-the-promise-of-a-compute-everywhere-future/"
+        },
+        {
+            "text": "Bernard Marr",
+            "url": "https://www.linkedin.com/pulse/10-biggest-future-trends-manufacturing-bernard-marr"
+        },
+        {
+            "text": "InfoQ",
+            "url": "https://www.infoq.com/articles/mobile-and-iot-trends-2022/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [],
+    "tables": [
+        [
+            [
+                "Assignment",
+                "Quantity",
+                "Percentage of Final Grade"
+            ],
+            [
+                "Private Group Discussions",
+                "7",
+                "25%"
+            ],
+            [
+                "Shared Group Discussions",
+                "7",
+                "25%"
+            ],
+            [
+                "Project Proposal",
+                "1",
+                "10%"
+            ],
+            [
+                "Progress Report",
+                "1",
+                "10%"
+            ],
+            [
+                "Presentation",
+                "1",
+                "10%"
+            ],
+            [
+                "Final Report",
+                "1",
+                "10%"
+            ],
+            [
+                "Individual Reflection",
+                "1",
+                "10%"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"4013\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

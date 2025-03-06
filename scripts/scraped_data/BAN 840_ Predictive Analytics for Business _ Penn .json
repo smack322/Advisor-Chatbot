@@ -1,0 +1,583 @@
+{
+    "metadata": {
+        "title": "BAN 840: Predictive Analytics for Business – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=5164"
+    },
+    "headings": {
+        "h2": "Lesson 6: Time Series Forecasting",
+        "h4": "Unlocking Your Potential",
+        "h3": "Discrete-Event Simulation Modeling"
+    },
+    "paragraphs": [
+        "BAN 840: Predictive Analytics for Business is an in-depth exploration into predictive analytics (PA). This course is designed to help students build a strong foundation in PA techniques, fostering an understanding of the core principles that remain consistent across various methods",
+        "In this course, students will apply predictive analytics tools and techniques to address a wide range of real-world business scenarios and challenges. Combining theoretical insights with hands-on practice, the curriculum emphasizes the importance of understanding statistical concepts to ensure the accurate design, analysis, and interpretation of PA models. The R programming language, a powerful tool for statistical analysis, will be utilized extensively throughout the course to implement techniques and develop predictive models.",
+        "By engaging in this course, students will gain practical skills in predictive analytics while enhancing their ability to think critically about data-driven business problems. Whether you aim to forecast trends, optimize operations, or support strategic decision-making, BAN 840 equips you with the knowledge and tools to drive results in any industry.",
+        "BAN 840: Predictive Analytics for Business is the second course in the graduate-level Business Analytics sequence. It builds on the principles introduced in BAN 830: Descriptive Analytics and prepares students for the advanced concepts in BAN 550: Prescriptive Analytics. This course focuses on predictive techniques to address the question, “What might happen in the future?”",
+        "Students will explore theoretical concepts alongside practical applications, using the R programming language for hands-on learning. The course emphasizes the importance of understanding statistical principles to avoid common pitfalls in predictive analytics, such as flawed model designs or incorrect interpretations of results.",
+        "Upon completion of this course, students will be able to:",
+        "In addition to mastering content, students will:",
+        "Late Submission Policy:",
+        "Grading Scale:",
+        "Communication: Use discussion boards for general questions and email the instructional team for personal matters.",
+        "Academic Integrity: Collaboration on concepts is encouraged, but sharing solutions or using unauthorized resources is prohibited.",
+        "*subject to change",
+        "the study of the relationship between variables. It is also defined as group of techniques to measure the association between two variables.",
+        "Variables that are correlated do NOT vary independently: the probability distribution of one variable depends on the observed value of the other variable. Below, the probability distribution of Y depends on the value of x.",
+        "(nonzero slope of line says mean of Y changes Depending on observed x)",
+        "A broad term for the huge collection of computer-based predictive models. It includes regression models of many sorts, classification and clustering methods of many types, and time series models.",
+        "Predicting which movies you will enjoy watching based on your previous choices and people who made previous choices like yours (NETFLIX). This is a clustering and classification machine learning problem.",
+        "Our focus in Part I of the course is on regression (red box). For Part II we focus on classification (blue). We will cover the highlighted boxes.",
+        "Upon completion of this course, students will be able to:",
+        "In addition to mastering content, students will:",
+        "During this course you will expand your knowledge of the lesson topics each week.",
+        "This lesson combines the foundational principles of predictive analytics with an introduction to the analytics process and R programming. You will explore how predictive analytics is applied to real-world business scenarios, understand the process model that underpins analytics projects, and begin using R, a powerful tool for data analysis.",
+        "This  lesson sets a strong foundation for understanding the concepts and tools needed for predictive analytics. By the end of the week, you will be equipped with a clear understanding of business use cases, analytics workflows, and R programming basics, enabling you to confidently approach the challenges ahead.",
+        "In this lesson, you will delve into the process of understanding and preparing data for analysis in R, as well as explore various visualization techniques to uncover relationships and trends. These foundational skills will allow you to assess and manipulate data effectively, setting the stage for more advanced analytics in the coming weeks.",
+        "By the end of this lesson, you will have gained practical experience in understanding and preparing data and visualizing its relationships. These skills will be essential as you begin tackling real-world business challenges through predictive analytics.",
+        "This lesson introduces the fundamentals of linear regression, a powerful predictive analytics technique used to model relationships between variables. You will learn how to run simple linear regression models, interpret the results, and apply them to make predictions and calculate confidence and prediction intervals. These skills are essential for uncovering trends and making data-driven decisions.",
+        "By the end of this lesson, you will have a thorough understanding of simple linear regression and its applications in predictive analytics, enabling you to analyze data and make informed predictions effectively.",
+        "Building on the foundation of simple linear regression, this lesson delves into multiple linear regression, allowing you to analyze the relationship between a dependent variable and multiple predictors. You will also explore essential topics such as multicollinearity, variable selection, model comparison, and regression assumptions to refine and validate your models for real-world applications.",
+        "Through this lesson, you will develop the skills to build, interpret, and validate sophisticated regression models, empowering you to tackle complex data challenges with precision and confidence.",
+        "This lesson expands your understanding of regression analysis by incorporating categorical independent variables and interaction terms. You will explore the distinctions between explanation and prediction, the importance of out-of-sample testing, and apply these concepts through comprehensive real-world examples.",
+        "By the end of this lesson, you will be equipped with advanced regression techniques that allow you to analyze complex datasets, validate model performance, and derive actionable insights for diverse business challenges.",
+        "This lesson introduces you to the concepts and techniques of time series forecasting, which is essential for predicting trends and patterns over time. You will explore methods for evaluating forecast performance and learn how to forecast stationary time series using various approaches. These skills are crucial for making informed decisions in dynamic and time-sensitive environments.",
+        "Upon completion of this lesson, you will have developed the ability to forecast time-dependent data and assess the performance of your models, preparing you to handle complex forecasting challenges with confidence.",
+        "This lesson introduces you to the concepts and techniques of time series forecasting, which is essential for predicting trends and patterns over time. You will explore methods for evaluating forecast performance and learn how to forecast stationary time series using various approaches. These skills are crucial for making informed decisions in dynamic and time-sensitive environments.",
+        "By the end of this lesson, you will be well-equipped to handle time series data with trends and seasonal components, making accurate predictions and validating their reliability in real-world contexts.",
+        "A course like Predictive Analytics for Business equips graduates of the Master of Data Analytics program, specializing in the Business Analytics option, with the ability to forecast future trends and make data-informed decisions. By leveraging predictive models, such as regression analysis and machine learning techniques, graduates can identify patterns and predict outcomes, enabling businesses to stay ahead in competitive markets.",
+        "This skill set is invaluable across industries such as finance, healthcare, retail, and technology, where understanding future trends is critical for decision-making. Graduates with expertise in predictive analytics can optimize marketing campaigns, enhance customer experiences, and improve operational efficiency, making them indispensable assets for organizations aiming to leverage data for strategic growth.",
+        "Demand Forecasting for Retail: Use historical sales data and external factors like seasonality or market trends to predict future product demand. This project helps optimize inventory management and supply chain logistics.",
+        "Fraud Detection in Financial Transactions: Create a machine learning model to identify suspicious transactions, helping financial institutions reduce fraudulent activities and improve security.",
+        "Employee Turnover Analysis: Analyze HR data to predict employee turnover, allowing organizations to implement proactive retention strategies and improve workplace satisfaction.",
+        "Healthcare Readmission Predictions: Analyze patient data to predict the likelihood of hospital readmissions, allowing healthcare providers to implement interventions to improve patient outcomes and reduce costs.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Develop critical thinking and problem-solving skills.",
+            "Work collaboratively in teams to tackle complex analytics problems.",
+            "Enhance their ability to communicate results effectively."
+        ],
+        [
+            "Homework: Submit assignments via Canvas. The highest of two attempts is recorded.",
+            "Discussions: Actively participate in at least 10 discussion forums.",
+            "Case Studies: Team-based assignments graded on quality and peer evaluation of contributions."
+        ],
+        [
+            "20% penalty per day (up to 48 hours). Submissions beyond 48 hours are not accepted."
+        ],
+        [
+            "Allocate 8–12 hours per week for coursework.",
+            "Engage with Canvas regularly to stay updated.",
+            "Begin assignments early to avoid falling behind."
+        ],
+        [
+            "Nature of Regression Models",
+            "Machine Learning",
+            "Discrete-Event Simulation Modeling"
+        ],
+        [
+            "Define predictive analytics and its key applications.",
+            "Explain core principles and techniques underlying predictive analytics.",
+            "Use R to analyze data and build predictive models.",
+            "Identify suitable predictive tools for specific business contexts.",
+            "Interpret and communicate model results to technical and non-technical audiences."
+        ],
+        [
+            "Enhance their ability to communicate results effectively.",
+            "Develop critical thinking and problem-solving skills.",
+            "Work collaboratively in teams to tackle complex analytics problems."
+        ],
+        [
+            "L1",
+            "L2",
+            "L3",
+            "L4",
+            "L5",
+            "L6",
+            "L7"
+        ],
+        [
+            "Introduction to Predictive Analytics: Understand the role of predictive analytics in business and explore key use cases for descriptive, predictive, and prescriptive analytics.",
+            "Fundamental Concepts: Delve into foundational principles that drive predictive analytics techniques and applications.",
+            "The Analytics Process Model: Learn the structured sequence of activities in analytics projects, from data preparation to generating actionable insights.",
+            "Getting Started with R: Familiarize yourself with R programming, including installation, basic functions, variables, data types, vectors, and organizing data.",
+            "Data Importing and Exporting: Learn how to retrieve, store, and manage data effectively using RStudio."
+        ],
+        [
+            "Read and Watch: Review Module 1 and Module 2 overviews, lessons, and assigned readings, including “The Analytics Journey” and Chapter 10 of Applied Predictive Analytics.",
+            "Hands-On Practice: Install R and RStudio and complete exercises covering variables, vectors, and data manipulation.",
+            "Discussion Forums: Introduce yourself in the “Introduce Yourself to the Class” forum and participate in the Week 1 discussion by sharing questions or insights."
+        ],
+        [
+            "Data Understanding and Preparation: Learn techniques for summarizing, exploring, and preparing data for analysis, using concepts outlined in Chapter 2 of the Jaggia text.",
+            "Visualization Techniques: Explore methods for visualizing data, including histograms for numerical variables and scatterplots to reveal relationships between two numerical variables.",
+            "Critical Visualization Practices: Understand the importance of caution when constructing and interpreting charts or graphs, ensuring accuracy and clarity in your visualizations."
+        ],
+        [
+            "Read and Watch: Review Chapters 2, 3, and 4 of the Jaggia text, including introductory cases and key sections (2.2–2.6, 4.1, 4.2, and 3.3).",
+            "Practice in R: Use R to summarize, prepare, and visualize data, focusing on histograms and scatterplots to analyze numerical variables.",
+            "Discussion Forums: Participate in the Week 2 discussion by posting insights or responding to your peers’ reflections."
+        ],
+        [
+            "Running the Regression Model: Learn how to set up and execute a simple linear regression model in R.",
+            "Interpreting Results: Explore methods to analyze and interpret the outputs of a regression model, such as coefficients and significance levels.",
+            "Predictions and Intervals: Understand how to make predictions using the model and calculate confidence and prediction intervals to estimate accuracy."
+        ],
+        [
+            "Interactive Lessons: Engage with course lessons that guide you through running regression models, interpreting their results, and applying prediction intervals.",
+            "Practice in R: Apply simple linear regression techniques using R to model relationships and generate predictions.",
+            "Discussion Forum: Participate in the Week 3 discussion to share insights or seek clarification on regression concepts."
+        ],
+        [
+            "Running a Multiple Linear Regression Model: Learn to execute and interpret multiple regression models, which analyze relationships involving several predictor variables.",
+            "Interpreting Results: Discover how to evaluate outputs such as coefficients and statistical significance to gain meaningful insights.",
+            "Multicollinearity: Understand the impact of correlated predictors on model accuracy and learn how to address this challenge.",
+            "Variable Selection: Explore techniques to identify the most relevant predictors, enhancing model performance and reliability.",
+            "Comparing Regression Models: Gain insights into evaluating and selecting the best model to address complex business problems.",
+            "Regression Assumptions: Review critical assumptions that ensure the validity of regression analysis and improve decision-making."
+        ],
+        [
+            "Explore Advanced Techniques: Engage with lessons and readings that introduce advanced regression topics, such as multicollinearity, variable selection, and model comparison.",
+            "Hands-On Practice: Apply your knowledge to build multiple regression models, assess their assumptions, and refine them for optimal results.",
+            "Discussion Forum: Participate in this week’s discussion to exchange insights, share experiences, and seek feedback from peers and instructors.",
+            "Practical Application: Work on an assigned task that challenges you to use multiple regression techniques to analyze data and derive actionable insights."
+        ],
+        [
+            "Categorical Independent Variables: Learn how to incorporate categorical variables into regression models and handle variables with multiple categories.",
+            "Interaction Terms: Understand how to model and interpret the effects of interactions between variables within a regression framework.",
+            "Explanation vs. Prediction: Differentiate between using models for understanding relationships versus forecasting outcomes.",
+            "Out-of-Sample Testing: Explore techniques for validating models with data not used in model training to assess accuracy and reliability.",
+            "Comprehensive Examples: Apply your knowledge to practical scenarios, such as predicting car mileage and assessing wine quality, using real-world data."
+        ],
+        [
+            "Engage with Case Studies: Review practical examples that illustrate advanced regression applications, such as predicting car performance and evaluating wine vintages.",
+            "Hands-On Practice: Work on exercises that involve building and refining regression models with categorical predictors and interaction terms.",
+            "Discussion Forum: Participate in the weekly discussion to share insights, ask questions, and engage with your peers and instructors on this week’s topics.",
+            "Apply Your Knowledge: Complete an assignment focused on integrating categorical variables, testing interaction terms, and validating models with new data."
+        ],
+        [
+            "Measuring Forecast Performance: Learn how to evaluate forecast accuracy using performance metrics and model selection criteria.",
+            "Stationary Time Series Forecasting: Explore techniques for forecasting stationary time series, including historical averages, moving averages, and simple exponential smoothing.",
+            "Optimizing Parameters: Discover how to fine-tune model parameters for better accuracy and reliability in forecasting."
+        ],
+        [
+            "Hands-On Practice: Use tools and techniques to apply historical averages, moving averages, and exponential smoothing to forecasting problems.",
+            "Discussion Forum: Participate in this week’s discussion to share your thoughts, ask questions, and learn from your peers’ approaches to forecasting.",
+            "Practical Application: Complete an assignment focused on implementing time series forecasting methods and evaluating their performance in real-world scenarios."
+        ],
+        [
+            "Forecasting Time Series with Trend: Learn the limitations of stationary techniques and explore methods like simple linear regression and double exponential smoothing (Holt’s Model) for trend forecasting.",
+            "Forecasting Time Series with Seasonality: Understand the fundamentals of seasonal forecasting using multiple linear regression and triple exponential smoothing (Holt-Winters Model).",
+            "Prediction Intervals: Gain insights into calculating prediction intervals to estimate the accuracy of your forecasts.",
+            "Out-of-Sample Testing: Learn to validate forecasting models using data not included in the initial model training.",
+            "Forecast Characteristics: Discover key attributes of effective forecasts and how to apply them in practical scenarios."
+        ],
+        [
+            "Hands-On Practice: Apply techniques such as Holt’s and Holt-Winters Models to real-world datasets, forecasting trends and seasonal patterns.",
+            "Discussion Forum: Participate in the weekly discussion to share insights, ask questions, and learn from your peers’ approaches to forecasting challenges.",
+            "Practical Application: Complete an assignment where you implement forecasting methods for time series with trends and seasonality, and validate your models using prediction intervals."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "Graph illustrating regression equations with Y-intercept and slope across multiple X variables with error margins.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/ban-840-1.png"
+        },
+        {
+            "alt": "Diagram differentiating machine learning regression and classification with examples of supervised and unsupervised models.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/ban-840-machine-learning.png"
+        },
+        {
+            "alt": "Diagram of the Jansen Potash operation illustrating production (mining, processing) and logistics (rail, shipping).",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/ban-840.png"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Type",
+                "Details"
+            ],
+            [
+                "Textbook",
+                "Jaggia et al. (2021). Business Analytics (1st ed.). McGraw Hill. (ISBN: 9781260785005)"
+            ],
+            [
+                "Software",
+                "R programming language and RStudio for implementing predictive analytics techniques. Installation instructions are available on Canvas."
+            ],
+            [
+                "Additional Resources",
+                "Readings, videos, and supplementary materials will be provided via Canvas and LinkedIn Learning."
+            ],
+            [
+                "Recommended Reads",
+                "– Siegel, E. (2016). Predictive Analytics: The Power to Predict Who Will Click, Buy, Lie, or Die."
+            ]
+        ],
+        [
+            [
+                "Assessment Type",
+                "Points per Assessment",
+                "Number of Assessments",
+                "Total Points"
+            ],
+            [
+                "Homework (Individual)",
+                "60",
+                "10",
+                "600"
+            ],
+            [
+                "Discussions (Individual)",
+                "10",
+                "10",
+                "100"
+            ],
+            [
+                "Case Studies (Team)",
+                "150",
+                "2",
+                "300"
+            ],
+            [
+                "Total",
+                "",
+                "",
+                "1000"
+            ]
+        ],
+        [
+            [
+                "Grade",
+                "Cutoff Points"
+            ],
+            [
+                "A",
+                "930"
+            ],
+            [
+                "A-",
+                "900"
+            ],
+            [
+                "B+",
+                "870"
+            ],
+            [
+                "B",
+                "830"
+            ],
+            [
+                "B-",
+                "800"
+            ],
+            [
+                "C+",
+                "770"
+            ],
+            [
+                "C",
+                "700"
+            ],
+            [
+                "D",
+                "600"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"5164\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

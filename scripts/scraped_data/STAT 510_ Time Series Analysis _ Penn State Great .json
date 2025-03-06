@@ -1,0 +1,672 @@
+{
+    "metadata": {
+        "title": "STAT 510: Time Series Analysis – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4472"
+    },
+    "headings": {
+        "h2": "Lesson 14: Course Review",
+        "h4": "Unlocking Your Potential",
+        "h3": "Lesson 2: MA Models, Partial Autocorrelation, and Notational Conventions"
+    },
+    "paragraphs": [
+        "STAT 510 offers an engaging and practical approach to time series analysis, equipping students with the skills to analyze and interpret patterns in complex, noisy datasets. Designed for those looking to deepen their understanding of statistical forecasting, the course builds progressively, ensuring a solid foundation as you explore advanced topics.",
+        "Over the first four weeks, you’ll focus on constructing ARIMA models, both with and without seasonality, mastering this cornerstone method through a step-by-step approach. Beyond ARIMA, the course dives into forecasting techniques, smoothing methods, and analyzing relationships between multiple time series. Additional topics include modeling variation, repeated measures models, and an introduction to periodic series, giving you a comprehensive toolkit for real-world data challenges.",
+        "By the end of STAT 510, you’ll view noisy data through a sharper lens, uncovering meaningful patterns and insights that drive better decision-making. Whether you’re forecasting trends, modeling system behavior, or analyzing repeated measurements, this course prepares you to tackle the complexities of time series data with confidence.",
+        "This course covers statistical methods for the analysis of data that have been observed over time.  Measurements that are close in time often exhibit high correlation.",
+        "Stat 462 or Stat 501 or Stat 511",
+        "Students who do not meet these prerequisites after being informed in writing by the instructor may be dis-enrolled during the first 10-day free add-drop period. If you have not completed the listed prerequisites, then promptly consult with the instructor if you have not done so already.",
+        "Time Series and Its Applications With R Examples, 4th Ed., by R. Shumway and D. Stoffer",
+        "**Penn State Library has an electronic version of our textbook freely available for download. You may choose to use the E-Book as an alternative to purchasing a physical copy of the text. You can access the E-Book by selecting the Library Resources link on the course navigation, and then selecting the E-Reserves link. For questions or issues, you can contact the University Libraries Reserve Help (UL- RESERVESHELP@LISTS.PSU.EDU). You may also search for Shumway and Stoffer and download the pdf files at http://link.springer.com.ezaccess.libraries.psu.edu, however the page numbers might not match the course notes.",
+        "R: Go to The Comprehensive R Archive Network to download R for free. There are also a few R GUI’s available that may be of interest if you are new to R, R Studio for example. Knowledge of R is not a prerequisite for our course.  If you are unfamiliar with R (or need to brush up), please take time to follow through the Introduction to R.  Alternative software, Minitab and SAS, instructions are provided, while the main support given in the class notes and assignments is in R. Please perform your coursework in R.",
+        "Online Notes",
+        "LMS Canvas: https://psu.instructure.com",
+        "Please review the Technical Requirement of Online Courses on the department’s online courses website. For who to contact with technical issues please visit the Support and Technical Help page on the Department of Statistics website. For who to contact with technical issues please visit the Support and Technical Help on the Department of Statistics website.",
+        "This course is conducted entirely online and so you must log on regularly throughout the week.  Students are expected to participate in a professional and timely manner on discussion forums and over e-mail.",
+        "There will be 13 applications for each lesson weekly. Each Monday, the following week’s module will post within the Canvas Modules, giving you the option to stay a little ahead of schedule. The lesson module will provide a link to the online notes and the week’s assignment. The course notes are publicly available online and contain your reading assignment, an overview of the week’s lesson, the week’s learning objectives, and course notes.",
+        "Answers to the application assignment will be due 6 days later, on the following Sunday by midnight Eastern Time. You will upload answers (in a Word or pdf document) to the designated Canvas Drop box in the Lesson Module. Handwritten work is not acceptable. This procedure will also hold for the two midterms. (Late assignments will not be accepted without a proper University approved excuse and your lowest application grade will be dropped.  12/13 HW assignments count.)",
+        "My teaching assistant will grade the application assignments.  In order to receive full credit, all responses must include how an answer is obtained, not just the numeric solution.  Please write professionally and identify or highlight relevant output.  If you weave in answers to the application assignment, please bold or highlight your response to help your answer stand out from the rest of the document.  You will receive an e-mail when your score and comments are available for review in Canvas. You may view grades and comments by returning to the appropriate module and clicking on your submission.",
+        "There will be a short lesson quiz each week over the current material. The questions are similar to application questions without data analysis. The quizzes are limited to 3 hours and are only available during the lesson week. You must take the quiz within the lesson week by the due date. Late quizzes are not accepted and your lowest quiz grade will be dropped (11/12 quizzes count).",
+        "There are two equally weighted exams, (22.5% each).  The exams do not require a proctor.  They are similar to the weekly applications or mini data analysis projects for which you cannot get help.  You will be given 6 or so days to complete the work on an exam.  Late exams will not be accepted without a proper University approved excuse.",
+        "The final letter grade will follow the guidelines as shown in the table below. All grades will be available in the Canvas grade book.",
+        "This course will be conducted entirely online. There will be no set class meeting times, but you will be required to complete weekly assignments with specific due dates. Many of the assignments are open for multiple days, so it is your responsibility to complete the work early if you plan to travel or participate in national holidays, religious observances or University approved activities.",
+        "*subject to change",
+        "The following plot is a time series plot of the annual number of earthquakes in the world with seismic magnitude over 7.0, for 99 consecutive years. By a time series plot, we simply mean that the variable is plotted against time.",
+        "Some features of the plot:",
+        "Any time series can be expressed as a combination of cosine and sine waves with differing periods (how long it takes to complete a full cycle) and amplitudes (maximum/minimum value during the cycle). This fact can be utilized to examine the periodic (cyclical) behavior in a time series.",
+        "A periodogram is used to identify the dominant periods (or frequencies) of a time series. This can be a helpful tool for identifying the dominant cyclical behavior in a series, particularly when the cycles are not related to the commonly encountered monthly or quarterly seasonality",
+        "A time series plot follows. We see a regularly repeating pattern that seems to repeat about every 30 or so time periods. This may not be surprising. The stimulus was applied for 16 time periods (of 2 seconds) and not applied for another 16 time periods (of 2 seconds). So, we might expect a repeating pattern every 16+16 = 32 time periods.",
+        "The series is n = 128 values of brain cortex activity, measured every 2 seconds for 256 seconds. A stimulus, brushing of the back of the hand, was applied for 32 seconds and then was stopped for 32 seconds. This pattern was repeated for a total of 256 seconds. The series is actually the average of this process for five different subjects.",
+        "The periodogram shows a dominant spike at a low frequency –",
+        "It’s hard to judge the exact location of the peak. It would help to print out the first few values of the periodogram and the frequencies. The first 16 scaled periodogram values and frequencies follow. The peak value of periodogram is the fifth value, and that corresponds to a frequency of 0.0312500. The period for this value = 1/0.0312500 = 32. That is, it takes 32 time periods for a complete cycle. This is what we expected!",
+        "Threshold models are used in several different areas of statistics, not just time series. The general idea is that a process may behave differently when the values of a variable exceed a certain threshold. That is, a different model may apply when values are greater than a threshold than when they are below the threshold. In drug toxicology applications, for example, it may be that all doses below a threshold amount are safe whereas there is increasing toxicity as the dose is increased above the threshold amount. Or, in an animal population abundance study, the population may slowly increase up to a threshold size but then may rapidly decrease (due to limited food) once the population exceeds a certain size.",
+        "Section 5.4 of the text covers threshold models and includes a nice example. In this lesson, we’ll discuss the example and provide the R code. The series for the example is monthly rates of deaths due to flu in the United States for 11 years (n = 132). Due to the epidemic nature of the flu, the behavior of the series is quite different when the rates go above some threshold value than when it’s below the value.",
+        "The first step (always) is to plot the data. Following is the time series plot of the data.",
+        "Note!The period of steep increase (and decrease). The authors also note a slight downward trend so examined first differences.  Following is the time series plot of first differences.",
+        "Consistent with the original data, we see sharp increases and decreases in certain periods. After some experimentation the authors decided to use separate AR(4) models for two regions: data following a first difference greater than or equal to .05 and data following a first difference less than .05. The model fit well, as evidence by the following plots – the ACF and PACF of the residuals and a plot comparing actual first difference to predicted first differences.  In the plot comparing actual and predicted values, the predicted values are along the red dashed line.",
+        "This course will provide you with the skills to:",
+        "During this course you will expand your knowledge of the lesson topics each week.",
+        "In this lesson, you will be introduced to the foundational concepts of time series data and their unique characteristics. You’ll learn how to identify patterns in time series plots, work with basic modeling techniques like the AR (1) model, and interpret autocorrelation functions (ACF). This lesson sets the stage for deeper exploration of time series analysis by helping you understand the essential building blocks of the field.",
+        "By completing this lesson, you will gain the skills to analyze and interpret the fundamental features of time series data. This understanding will prepare you for more advanced modeling techniques in the lessons ahead, equipping you to tackle complex time series challenges with confidence.",
+        "In this lesson, you will expand your understanding of time series analysis by exploring Moving Average (MA) models, partial autocorrelation functions (PACF), and the conventions used in time series notation. These foundational concepts will prepare you for building and analyzing ARIMA models in the upcoming weeks. Through engaging activities, you’ll learn to distinguish between different components of time series data and effectively interpret their patterns.",
+        "After completing this lesson, you’ll have a deeper understanding of the structure and components of time series data. This knowledge will enable you to distinguish between AR and MA terms, interpret PACF, and prepare for more advanced modeling in future lessons.",
+        "In this lesson, you will focus on identifying and estimating non-seasonal ARIMA models and learn how to use them for forecasting future values. ARIMA models are a cornerstone of time series analysis, offering robust methods for understanding patterns and making predictions. You will explore techniques to determine appropriate models, analyze residuals, and create forecasts with prediction intervals. This lesson lays the groundwork for seasonal ARIMA models and other advanced forecasting methods covered later in the course.",
+        "By the end of this lesson, you will have the skills to identify, estimate, and forecast with non-seasonal ARIMA models. This foundational understanding will empower you to analyze time series data and make informed predictions, setting the stage for exploring seasonal models in the next lesson.",
+        "This lesson introduces you to the concepts and techniques for analyzing seasonal time series data. Building on your understanding of non-seasonal models, you will learn how to identify and interpret seasonal ARIMA models, as well as manage data with trend and seasonality. Additionally, this lesson will focus on diagnostic plots to assess the accuracy and validity of your models. These skills are critical for analyzing data that follows periodic patterns, such as sales, weather, or production metrics.",
+        "By completing this lesson, you will be equipped to analyze seasonal time series data effectively, applying ARIMA models to uncover and forecast periodic trends. This understanding will deepen your expertise in handling complex time series challenges.",
+        "In this lesson, you will expand your knowledge of time series analysis by exploring smoothing techniques and decomposition methods, alongside continued practice with ARIMA models. Smoothing helps reduce noise in data, making underlying patterns more visible, while decomposition separates a time series into components like trend, seasonality, and residuals. These tools are essential for better understanding and modeling complex datasets.",
+        "This lesson will develop valuable skills for identifying patterns in noisy data and breaking down time series into meaningful components. This expertise will enhance your ability to model, interpret, and forecast time series data effectively.",
+        "In this lesson, you will explore the periodogram, a powerful tool for analyzing the frequency components of time series data. The periodogram helps identify dominant cycles or periodicities within a dataset, providing insights into the recurring patterns that drive time series behavior. As an essential introduction to spectral analysis, this lesson equips you with skills to study the frequency domain and complements your understanding of time series patterns in the time domain.",
+        "By the conclusion of this lesson, you will have the ability to analyze and interpret periodograms, enhancing your skills in identifying and understanding periodic behavior in time series data. This foundational knowledge in spectral analysis will be instrumental as you continue to explore advanced time series methods.",
+        "This week, you will demonstrate your mastery of the concepts and techniques covered in the first six lessons through your first exam. The exam will assess your ability to analyze time series data, apply ARIMA models, utilize smoothing and decomposition methods, and interpret periodograms. It is an opportunity to showcase your understanding of both the theoretical and practical aspects of time series analysis.",
+        "As you prepare for the exam, review key topics such as AR and MA models, ACF and PACF interpretation, trend and seasonality adjustments, and frequency analysis. Use this time to revisit assignments, quizzes, and discussions to solidify your grasp of the material. This exam serves as a milestone, ensuring you are well-equipped to tackle the more advanced topics in the lessons to come. Good luck!",
+        "In this lesson, you will explore methods for analyzing relationships between two time series. Building on your foundational knowledge of ARIMA models, you will learn how to adjust for time series residual structures, interpret cross-correlation functions (CCFs), and work with transfer function models. These skills are essential for identifying and quantifying the influence one time series has on another, offering deeper insights into dynamic relationships.",
+        "By the end of this lesson, you will have the skills to analyze and interpret relationships between time series, equipping you to explore causality, influence, and predictive relationships in dynamic systems. This lesson provides critical tools for tackling advanced time series challenges in real-world scenarios.",
+        "In this lesson, you will delve into two specialized topics in time series analysis: prewhitening and intervention analysis. Prewhitening is a technique used to refine cross-correlation function (CCF) analysis by removing auto-correlation from time series, helping to identify predictive lags. Intervention analysis focuses on evaluating the impact of external events or interventions on a time series, allowing you to assess how changes or disruptions influence patterns over time.",
+        "In this lesson you will gain valuable skills in refining time series predictions and evaluating the impact of external events. These techniques are essential for understanding complex time series behaviors and designing interventions to influence outcomes effectively.",
+        "In this lesson, you will explore the principles and techniques for analyzing repeated measures designs, often referred to as longitudinal data analysis. This approach is vital for studying changes over time within the same subjects and comparing treatment groups across short time series. Through practical applications and theoretical insights, you’ll learn how to interpret interactions, model repeated measures, and analyze correlation structures.",
+        "By completing this lesson, you will develop expertise in analyzing longitudinal data and repeated measures, equipping you to evaluate treatment effects and temporal patterns effectively. These skills are invaluable for addressing real-world research questions and designing data-driven solutions.",
+        "In this lesson, you will explore two advanced topics in time series analysis: ARCH (Autoregressive Conditional Heteroskedasticity) models and VAR (Vector Autoregressive) models. ARCH models are essential for understanding and modeling time series with volatile variances, such as financial data. VAR models, on the other hand, provide a framework for analyzing multivariate time series, where variables influence each other through their past values. These techniques are widely used in fields like finance, economics, and environmental science.",
+        "Upon completing this lesson, you will have developed essential skills for analyzing time series data with fluctuating variances and modeling interactions between multiple variables. These capabilities are crucial for addressing intricate time series problems across various fields, including finance, economics, and environmental studies.",
+        "In this lesson, you will dive into spectral analysis, focusing on estimating the spectral density of time series data. Spectral density provides a detailed view of how the variance of a time series is distributed across different frequencies, offering insights into the periodic components of the data. You will learn both non-parametric and parametric methods for spectral density estimation and how to interpret critical parameters like bandwidth.",
+        "By the end of this lesson, you will be able to estimate and interpret spectral density, equipping you with powerful tools to analyze the frequency domain of time series data. This advanced understanding will enhance your ability to uncover and interpret periodic patterns across a wide range of applications.",
+        "In this lesson, you will explore advanced variations of ARIMA models: fractional differencing for long memory processes and threshold models for regime-switching dynamics. Fractional differencing allows you to model long-term dependencies in time series data, providing a nuanced approach to differencing. Threshold models enable the application of different models within distinct intervals of a time series, making them effective for capturing changes in behavior or dynamics over time.",
+        "By completing this lesson, you will develop specialized skills for modeling complex time series patterns, including long memory and regime-switching behaviors. These advanced techniques will expand your ability to analyze and interpret diverse time series datasets effectively.",
+        "In this final lesson, you will consolidate your knowledge of the concepts and techniques explored throughout the course. By revisiting key topics and applying your skills to new datasets, you will ensure a thorough understanding of time series analysis, from foundational models to advanced methods. This review provides an opportunity to reflect on your learning journey and prepare for applying these methods in real-world scenarios.",
+        "By the conclusion of this lesson, you will have a comprehensive grasp of time series analysis and the confidence to tackle complex data challenges. This final review ensures you are well-prepared to apply your knowledge in professional or research settings.",
+        "For a data analytics major, completing a course in Applied Time Series Analysis opens significant opportunities in fields where understanding temporal data is essential. Industries like finance, healthcare, supply chain, and climate science rely heavily on time series analysis to forecast trends, manage risks, and optimize operations. This course equips students with the skills to build predictive models, analyze patterns, and interpret complex time-dependent datasets, making them valuable assets in these data-driven domains.",
+        "Time series analysis also bridges the gap between theoretical knowledge and practical application. Whether predicting stock prices, analyzing patient health metrics, forecasting demand in logistics, or modeling climate variations, the techniques learned in this course prepare students for roles such as data scientist, quantitative analyst, and business intelligence specialist. By mastering tools like ARIMA, spectral analysis, and regression models, students position themselves as key contributors to decision-making processes in their chosen careers.",
+        "Climate Data Analysis:Analyzing temperature or precipitation data, a student might use spectral analysis to identify dominant periodic patterns in climate behavior, contributing to long-term environmental planning or disaster management strategies.",
+        "Social Media Trend Prediction:Leveraging social media engagement data, a student could forecast trends in user activity or sentiment over time, helping businesses optimize their marketing strategies based on predicted behaviors.",
+        "Transportation Traffic Modeling:A project could involve analyzing daily or hourly traffic flow data to identify peak usage times and predict future congestion patterns, aiding city planners and transportation authorities in optimizing traffic management systems.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Model univariate time series data with Autoregressive and Moving Average Models",
+            "Assess the suitability of the model.",
+            "Forecast and prediction intervals for forecasts.",
+            "Smoothing",
+            "Relationships between time series variables",
+            "Intervention Analysis",
+            "Repeated Measures Models",
+            "Vector Autoregressive Models for Multivariate Time Series",
+            "ARCH Models",
+            "Analyzing the frequency domain"
+        ],
+        [
+            "Time Series",
+            "The Periodogram",
+            "Threshold Models"
+        ],
+        [
+            "There is no consistent trend (upward or downward) over the entire time span. The series appears to slowly wander up and down. The horizontal line drawn at quakes = 20.2 indicates the mean of the series. Notice that the series tends to stay on the same side of the mean (above or below) for a while and then wanders to the other side.",
+            "Almost by definition, there is no seasonality as the data are annual data.",
+            "There are no obvious outliers.",
+            "It’s difficult to judge whether the variance is constant or not."
+        ],
+        [
+            "Model univariate time series data with Autoregressive and Moving Average Models",
+            "Assess the suitability of the model.",
+            "Forecast and prediction intervals for forecasts.",
+            "Smoothing",
+            "Relationships between time series variables",
+            "Intervention Analysis",
+            "Repeated Measures Models",
+            "Vector Autoregressive Models for Multivariate Time Series",
+            "ARCH Models",
+            "Analyzing the frequency domain"
+        ],
+        [
+            "L1-L2",
+            "L3-L4",
+            "L5-L6",
+            "L7-L8",
+            "L9-L10",
+            "L11-L12",
+            "L13-L14"
+        ],
+        [
+            "Understanding Time Series Plots: Learn how to identify key features and patterns in time series data, such as trends and seasonality.",
+            "Introduction to AR(1) Models: Explore first-order autoregressive models, their interpretation, and applications in time series analysis.",
+            "Autocorrelation Functions (ACF): Understand how to interpret and use the ACF to analyze dependencies in time series data."
+        ],
+        [
+            "Engage with the Material: Study the course text and online notes to build a strong foundation in time series concepts.",
+            "Analyze Real-World Data: Work with datasets such as quakes to practice identifying time series patterns and applying AR(1) models.",
+            "Participate in Discussions: Use the discussion forum to ask questions, clarify concepts, and share insights with peers."
+        ],
+        [
+            "MA Models: Learn to identify and interpret Moving Average (MA) models and distinguish their terms using the autocorrelation function (ACF).",
+            "Partial Autocorrelation: Explore the PACF and understand how it differs from the ACF, as well as its role in time series analysis.",
+            "AR, MA, and ARMA Notation: Gain proficiency in recognizing and writing the polynomials that represent AR, MA, and ARMA models."
+        ],
+        [
+            "Dive into Core Concepts: Read the course text and online notes to build a clear understanding of MA models and PACF.",
+            "Apply Your Knowledge: Complete lesson assignments that involve analyzing ACF and PACF plots to distinguish between AR and MA terms.",
+            "Collaborate and Clarify: Use the discussion forum to pose questions, discuss challenges, and share insights with classmates."
+        ],
+        [
+            "Non-Seasonal ARIMA Models: Learn to identify and interpret ARIMA models by examining ACF and PACF plots.",
+            "Residual Analysis: Discover how to test residual autocorrelations to ensure model accuracy and reliability.",
+            "Forecasting Basics: Explore how to forecast future values using ARIMA models and create prediction intervals to quantify uncertainty."
+        ],
+        [
+            "Engage with Core Concepts: Read the course text and online notes, focusing on sections about ARIMA model building, residual analysis, and forecasting.",
+            "Hands-On Practice: Work with real-world datasets, such as eriedata, sheep, and sim318week3, to estimate ARIMA models and produce forecasts.",
+            "Collaborate and Discuss: Participate in discussion forums to clarify concepts, ask questions, and share insights with classmates."
+        ],
+        [
+            "Differencing for Trend and Seasonality: Learn techniques to adjust data for trends and seasonal effects, ensuring stationarity in your time series.",
+            "Seasonal ARIMA Models: Identify and interpret seasonal ARIMA components using ACF and PACF plots.",
+            "Diagnostic Plots: Create and analyze diagnostic plots to evaluate the performance and appropriateness of your models."
+        ],
+        [
+            "Explore Seasonal Concepts: Read the course text and notes to understand the nuances of seasonal modeling and its practical applications.",
+            "Work with Real Data: Use datasets such as beer production and Colorado river flow to practice identifying seasonal patterns and estimating seasonal ARIMA models.",
+            "Engage in Collaborative Learning: Participate in discussion forums to address questions and share insights related to seasonal time series analysis."
+        ],
+        [
+            "Decomposition Techniques: Learn to identify and interpret additive and multiplicative decompositions and how to decompose time series data into its key components.",
+            "Smoothing Methods: Explore various smoothing techniques, including moving averages, lowess smoothing, and single exponential smoothing, to uncover trends in noisy data.",
+            "Advanced ARIMA Practice: Strengthen your ARIMA modeling skills by applying them to new datasets and scenarios."
+        ],
+        [
+            "Study Core Concepts: Review the course text and notes to deepen your understanding of decomposition and smoothing methods.",
+            "Hands-On Data Analysis: Work with datasets such as beer production, oil, milk, and flour to apply decomposition techniques and smoothing methods.",
+            "Collaborate and Clarify: Use the discussion forum to ask questions, share insights, and refine your understanding of decomposition and smoothing."
+        ],
+        [
+            "Introduction to Periodograms: Learn to create periodograms in R and interpret their key features to identify dominant frequencies in a time series.",
+            "Frequency Analysis: Understand how to pinpoint dominant periods and analyze cyclic behavior in time series data.",
+            "Application to Real-World Data: Apply periodograms to real-world datasets, exploring examples such as sunspots and cortex activity."
+        ],
+        [
+            "Study the Fundamentals: Read the course text and online notes to build a strong conceptual understanding of the periodogram and spectral analysis.",
+            "Analyze Data in R: Use provided datasets, including sunspots, cortex, and simulated time series, to practice generating and interpreting periodograms.",
+            "Engage in Discussion: Participate in forums to discuss concepts, clarify questions, and share insights with your peers."
+        ],
+        [
+            "Regression with Time Series Residuals: Learn when and how to adjust regression models for residuals with time series structures, and estimate the adjusted intercept and slope.",
+            "Cross-Correlation Functions (CCF): Understand how to calculate and interpret the CCF to measure relationships between two time series.",
+            "Transfer Function Models: Explore how transfer function models are constructed and used to analyze causal relationships in time series data."
+        ],
+        [
+            "Explore Relationships in Data: Use datasets such as econpredictor, econmeasure, and tundra to practice identifying time series relationships and adjusting for residual structures.",
+            "Engage with Core Concepts: Read the course text and notes, focusing on examples and sections related to cross-correlation and transfer function models.",
+            "Collaborate and Clarify: Participate in the discussion forum to ask questions, discuss challenges, and share insights about relationships between time series."
+        ],
+        [
+            "Prewhitening for CCF Analysis: Learn when and how to apply prewhitening to improve the interpretation of cross-correlation functions and identify significant predictive lags.",
+            "Intervention Analysis: Explore methods for analyzing the effects of interventions on a time series and understand how to estimate and interpret these impacts.",
+            "Practical Applications: Use real-world data to evaluate interventions and refine CCF interpretations."
+        ],
+        [
+            "Engage with Core Concepts: Read the course text and notes, focusing on examples and sections related to prewhitening and intervention analysis.",
+            "Apply Techniques to Data: Work with datasets and assess the effects of interventions.",
+            "Collaborate and Discuss: Use the discussion forum to clarify questions, share approaches, and explore the practical implications of these techniques."
+        ],
+        [
+            "Repeated Measures Designs: Understand the experimental design for longitudinal data and how to analyze treatment effects over time.",
+            "Modeling Approaches: Learn to apply repeated measures ANOVA and compare Generalized Least Squares (GLS) models with different correlation structures.",
+            "Polynomial Effects and Interactions: Explore methods for estimating polynomial effects and interpreting interaction terms in longitudinal data."
+        ],
+        [
+            "Study Core Concepts: Review online notes to understand the foundations of repeated measures and longitudinal analysis.",
+            "Apply Techniques to Data: Work with datasets such as phlebitis, zumba, and leadexp to practice modeling repeated measures and exploring correlation structures.",
+            "Engage in Collaborative Learning: Participate in the discussion forum to clarify concepts, ask questions, and share strategies with peers."
+        ],
+        [
+            "ARCH Models: Learn to identify and model periods of volatile variance in time series data, and understand their significance in applications like financial market analysis.",
+            "VAR Models: Discover how to simultaneously model multiple time series variables, analyzing how they influence one another through lagged relationships.",
+            "Advanced Applications: Explore real-world scenarios where ARCH and VAR models are applied, such as forecasting economic indicators or modeling climate systems."
+        ],
+        [
+            "Study the Fundamentals: Review the course text and online notes, focusing on examples and sections related to ARCH and VAR models.",
+            "Analyze Real-World Data: Use datasets to practice identifying volatile variances and modeling multivariate relationships.",
+            "Collaborate and Discuss: Engage in discussion forums to clarify concepts, address challenges, and share insights about applying ARCH and VAR models."
+        ],
+        [
+            "Non-Parametric Estimation: Understand how to estimate spectral density using methods like the Daniell kernel and the modified Daniell kernel.",
+            "Bandwidth Interpretation: Learn the role of bandwidth in spectral analysis and its effect on the estimation process.",
+            "Parametric Estimation: Explore techniques for parametric estimation of spectral density and their application in time series analysis."
+        ],
+        [
+            "Engage with Core Concepts: Read the course text and online notes to develop a strong understanding of spectral density estimation methods.",
+            "Analyze Real-World Data: Use datasets like recruit and temp to practice applying non-parametric and parametric spectral density estimation techniques.",
+            "Collaborate in Discussions: Participate in the discussion forum to ask questions, clarify concepts, and share your approaches to spectral analysis challenges."
+        ],
+        [
+            "Fractional Differencing: Learn how to identify and interpret fractionally differenced models and distinguish between cases where first or fractional differences are most appropriate.",
+            "ARFIMA Models: Explore the application of ARFIMA (AutoRegressive Fractionally Integrated Moving Average) models for long memory processes.",
+            "Threshold Models: Understand how to apply different models within specific intervals of a time series, enabling the analysis of regime-switching dynamics."
+        ],
+        [
+            "Study Core Concepts: Read the course text and online notes to gain a comprehensive understanding of fractional differencing and threshold modeling techniques.",
+            "Apply Techniques to Data: Use datasets like varve, flu, and sunspots to practice identifying and modeling long memory and threshold dynamics in time series data.",
+            "Collaborate and Discuss: Participate in the discussion forum to ask questions, clarify concepts, and share insights about advanced ARIMA modeling techniques."
+        ],
+        [
+            "Revisiting Core Concepts: Reinforce your understanding of foundational topics like ARIMA models, spectral analysis, and regression with time series data.",
+            "Consolidating Advanced Skills: Reflect on techniques such as fractional differencing, threshold models, and intervention analysis to strengthen your analytical toolkit.",
+            "Applying Knowledge: Practice with datasets to demonstrate your ability to analyze diverse time series data."
+        ],
+        [
+            "Review Key Materials: Revisit online notes and assignments to refresh your understanding of critical concepts and methods.",
+            "Engage with Final Applications: Work through the Lesson 14 application to synthesize your skills and apply them to new datasets.",
+            "Collaborate and Clarify: Participate in the discussion forum to address lingering questions, share insights, and review solutions with peers."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "http://link.springer.com.ezaccess.libraries.psu.edu",
+            "url": "http://link.springer.com.ezaccess.libraries.psu.edu/"
+        },
+        {
+            "text": "The Comprehensive R Archive Network",
+            "url": "https://cran.r-project.org/"
+        },
+        {
+            "text": "Introduction to R",
+            "url": "https://onlinecourses.science.psu.edu/statprogram/tutorials/statistical-software/r"
+        },
+        {
+            "text": "Online Notes",
+            "url": "https://online.stat.psu.edu/stat510/"
+        },
+        {
+            "text": "https://psu.instructure.com",
+            "url": "https://psu.instructure.com/"
+        },
+        {
+            "text": "Technical Requirement of Online Courses",
+            "url": "https://online.stat.psu.edu/statprogram/orientation/technology/specs"
+        },
+        {
+            "text": "Support and Technical Help",
+            "url": "https://science.psu.edu/stat/education/help"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "Time series plot displaying the number of quakes over an index, with red points connected by blue lines and an average line at 20.2.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/stat-510-time-series-plot.gif"
+        },
+        {
+            "alt": "Time series plot showing cortex activity over a time index, with data points connected by lines, illustrating periodic fluctuations.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/stat-510-periodgram.gif"
+        },
+        {
+            "alt": "Plot showing spectral density \\( P(f; t) \\) against frequency \\( f \\), with a sharp peak near \\( f = 0.05 \\) and smaller variations as \\( f \\) increases.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/stat-510-periodgram-2.gif"
+        },
+        {
+            "alt": "Time series plot showing flu data over time, with periodic spikes and scatter points connected by lines, illustrating fluctuations in flu activity",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/image.png"
+        },
+        {
+            "alt": "**Alt Text:** Time series plot showing variable \\( x0 \\) over time, with periodic oscillations and scattered data points connected by lines, indicating recurring patterns.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/stat-510-1.gif"
+        },
+        {
+            "alt": "Two plots showing ACF (top) and PACF (bottom) for a residual series. The ACF and PACF display lags on the x-axis with confidence bounds marked by dashed blue lines.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/stat-510-pllot-2.gif"
+        },
+        {
+            "alt": "Time series plot of variable 𝑦 y over time, showing periodic fluctuations with observed data points connected by black lines and a red overlay indicating a model or trend.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/stat-510-pllot-3.gif"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Assignment Category",
+                "Weight"
+            ],
+            [
+                "Application",
+                "35"
+            ],
+            [
+                "Quiz",
+                "20"
+            ],
+            [
+                "Exam",
+                "45"
+            ]
+        ],
+        [
+            [
+                "Letter Grade",
+                "Minimum Percentage"
+            ],
+            [
+                "A",
+                "93%"
+            ],
+            [
+                "A-",
+                "90%"
+            ],
+            [
+                "B+",
+                "87%"
+            ],
+            [
+                "B",
+                "83%"
+            ],
+            [
+                "B-",
+                "80%"
+            ],
+            [
+                "C+",
+                "77%"
+            ],
+            [
+                "C",
+                "70%"
+            ],
+            [
+                "D",
+                "60%"
+            ],
+            [
+                "F",
+                "0%"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"4472\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

@@ -1,0 +1,648 @@
+{
+    "metadata": {
+        "title": "STAT 500: Applied Statistics – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=3072"
+    },
+    "headings": {
+        "h2": "Lesson 10: Introduction to ANOVA",
+        "h4": "Unlocking Your Potential",
+        "h3": "Grading Scale"
+    },
+    "paragraphs": [
+        "STAT 500: Applied Statistics is a foundational 3-credit graduate course designed to provide students with the essential tools for data analysis and interpretation. This course focuses on equipping you with practical statistical skills that can be applied across various fields. Through engaging lessons and hands-on practice, you’ll learn how to summarize data with numerical and graphical techniques, understand probability principles, and explore key distributions like binomial and normal. You’ll also master core statistical methods, including confidence intervals, hypothesis testing, Chi-square tests, simple linear regression, and One-Way ANOVA.",
+        "By the end of this course, you’ll not only understand the vital role of statistics in your field but also develop the ability to apply statistical methods to real-world scenarios. You’ll learn how to analyze and interpret data effectively using Minitab, preparing you to present findings confidently in academic research or professional projects. Whether you’re pursuing advanced studies or aiming to enhance your career, STAT 500 provides the statistical foundation to succeed in your chosen path.",
+        "This is a 3-credit graduate-level course that emphasizes describing data using numerical and graphical summaries, basic rules of probability, common distributions such as binomial and normal distributions, confidence intervals, hypothesis testing, Chi-square test for association, basics of simple linear regression and an introduction to One-Way ANOVA.",
+        "Upon the successful completion of this course, students should be able to…",
+        "This course is intended for graduate students who had at least one undergraduate statistics course and wish to review the fundamentals before taking more advanced 500-level statistics courses. Students enrolled in this class are expected to have basic knowledge of algebra such as order of operation, taking the square root, summations, factorials, etc.",
+        "Students who do not meet these prerequisites after being informed in writing by the instructor may be dis-enrolled during the first 10-day free add-drop period. If you have not completed the listed prerequisites, then promptly consult with the instructor if you have not done so already.",
+        "NOTE: Once you log in to the Canvas course page you will find a “To Do List” for each lesson. This To Do List will point you to our online notes and the recommended textbook sections corresponding to each lesson. We recommend you have the current version of the textbook. However, you may use older versions of the textbook at your own responsibility.",
+        "We will be using MINITAB cloud version as the statistical software for this course. MINITAB cloud version for educational purposes is available at no cost from software@pennstate. Look for MINITAB under “Available Software.”",
+        "Please review the Technical Requirement of Online Courses page on the department’s online courses website. For who to contact with technical issues please visit the Support and Technical Help page on the Department of Statistics website. For who to contact with technical issues please visit the Support and Technical Help page on the Department of Statistics website.",
+        "In this class, you will take your exams remotely and they will be proctored by a service called Honorlock®. Please see here for more information about proctored exams with Honorlock.",
+        "If you have any questions or concerns, contact Honorlock technical support team 24/7 via email at support@honorlock.com or phone at (844) 243-2500.",
+        "Each lesson will have a MANDATORY discussion forum component (Titled “Lesson X Graded Discussion Forum”). Every week I will post some discussion questions related to the corresponding lesson, and I expect you to provide your responses/thoughts to them. You won’t be able to see peer responses until you post your responses to these questions. Your participation in the mandatory discussion forums will be graded as STRICT credit/no credit grading policy. That is, your responses will be graded for participation, not for accuracy. However, you are supposed to make an honest attempt to explain your approach to each problem I post. Simple “YES, NO, I agree” responses, or responses that show poor effort would not be sufficient, and will result in a zero grade. Mandatory discussion forums are usually due on Saturdays (you will find the exact deadlines in the Course schedule). I will summarize your thoughts and post my feedback as a single response in an announcement to the entire class after the due date.",
+        "You will have 11 homework assignments and they are usually due by 11.55 pm ET on Mondays (See the Course schedule for exact due dates). Assigned homework problems for each lesson can be found under the modules tab in CANVAS.",
+        "The lowest homework score will be dropped. Doing the homework promptly and carefully is necessary for learning the material. You are encouraged to ask questions and help each other via HELP discussion forums.  However, each student must turn in his or her own written work which reflects his or her own understanding of the material. Some of the homework problems may need hand calculations and some may involve MINITAB along with proper interpretations of the outputs. Remember to attach the MINITAB outputs where it’s needed. Your instructor will make the solutions to the homework problems available after the due date. NO LATE HOMEWORK WILL BE ACCEPTED.",
+        "You will also find some additional practice problems under each lesson (see To-Do List for each lesson). These are not graded but will be helpful for you to understand the class material. You will be able to view the solutions soon after you submit your work.",
+        "Each lesson will have a MANDATORY discussion forum component (Titled “Lesson X Graded Discussion Forum”). Every week I will post some discussion questions related to the corresponding lesson, and I expect you to provide your responses/thoughts to them. You won’t be able to see peer responses until you post your responses to these questions.",
+        "Your participation in the mandatory discussion forums will be graded as STRICT credit/no credit grading policy. Your responses will be graded for participation, not for accuracy. However, you are supposed to make an honest attempt to explain your approach to each problem I post. Simple “YES, NO, I agree” responses, or responses that show poor effort would not be sufficient and will result in a 0 grade.",
+        "Mandatory discussion forums are due on Saturdays (you will find the exact due dates in the Course Schedule). I will summarize your thoughts and post my thoughts as a single response to the entire class after the due date.",
+        "There will be three midterms throughout the semester. Midterms 1 and 2 will be proctored through Honorlock. You will have 2 hours to complete and submit the exam. From the moment you click on a midterm, a clock will start ticking on the top-right corner of the CANVAS quiz page. Make sure to open the midterm in a place with a reliable Internet connection, as you will get only one attempt. I will not ask you to attach any MINITAB outputs. However, I may provide MINITAB outputs and ask questions from them.  Exams will be due by 11:55 PM ET of their due date.",
+        "The final exam is cumulative and proctored through Honorlock. The Honorlock process for the final exam is similar to midterms 1 and 2. You will have 2 hours to complete and submit the exam. I will not ask you to use MINITAB in the final exam. However, I may include some MINITAB outputs and ask questions from them. Make sure to take the final exam in a place with a reliable Internet connection, as you will get only one attempt once the exam is unlocked for you.",
+        "For each proctored exam you will be allowed to bring a calculator, pen, or pencil and two pages of handwritten notes on standard 8.5 x 11 inch (letter size) paper. Please note that a calculator on a device with Internet capabilities (e.g. cell phone) will NOT be permitted. You may use MINITAB during the exam.",
+        "This course requires you to take exams using certain proctoring software that uses your computer’s webcam or other technology to monitor and/or record your activity during exams. The proctoring software may be listening to you, monitoring your computer screen, and viewing you and your surroundings. By enrolling in this course, you consent to the use of the proctoring software selected by your instructor, including but not limited to any audio and/or visual monitoring which may be recorded.",
+        "Please keep in mind that NO late homework or make-up exams will be allowed. See the Course Schedule for the due dates of all the assignments.  All assignments must be submitted by 11:55 PM ET on the date it is due.",
+        "The final letter grade will follow the guidelines as shown in the table below. All grades will be available in the Canvas grade book. Final grade totals will not be rounded (e.g., 89.9% is a B+).",
+        "*subject to change",
+        "How can one graph qualitative variables? Two common choices are the pie chart and the bar chart.",
+        "each sector of the circle represents the percentage of that category",
+        "The height of the bar for each category is equal to the frequency (number of observations) in the category. Leave space in between the bars to emphasize that there is no ordering in the classes.",
+        "An estimate for a parameter that is one numerical value. An example of a point estimate is the sample mean or the sample proportion.",
+        "Interval estimates give an interval as the estimate for a parameter. This is a new concept which is the focus of this lesson. Such intervals are built around point estimates which is why understanding point estimates is important to understanding interval estimates.",
+        "An interval of values computed from sample data that is likely to cover the true parameter of interest.",
+        "There are many estimators for population parameters. For example, if we want to know the “center” of a distribution, why use the mean? Could we use the median? How about using the middle value, i.e. (max+min)/2? We choose particular estimators for various reasons with information based on their sampling distributions. Here are some properties of “good” estimators.",
+        "The primary method for displaying the summarization of categorical variables is called a contingency table. When we have two measurements on our subjects that are both categorical, the contingency table is sometimes referred to as a two-way table.",
+        "This terminology is derived because the summarized table consists of rows and columns (i.e., the data display goes two ways).",
+        "The size of a contingency table is defined by the number of rows times the number of columns associated with the levels of the two categorical variables. The size is notated r×c, where r is the number of rows of the table and c is the number of columns. A cell displays the count for the intersection of a row and column. Thus the size of a contingency table also gives the number of cells for that table. For example, if we have a 2×2 table, then we have 2(2)=4 cells.",
+        "As we will see, these contingency tables usually include a ‘total’ row and a ‘total’ column which represent the marginal totals, i.e., the total count in each row and the total count in each column. This total row and total column are NOT included in the size of the table. The size refers to the number of levels to the actual categorical variables in the study.",
+        "Upon the successful completion of this course, students should be able to:",
+        "During this course you will expand your knowledge of the lesson topics each week.",
+        "This lesson introduces you to the foundational techniques for collecting, organizing, and summarizing data, enabling you to lay the groundwork for effective statistical analysis.",
+        "By the end of this lesson, you’ll be equipped to collect, organize, and summarize data effectively, providing a strong foundation for advanced statistical analysis in future lessons.",
+        "This lesson introduces you to probability distributions, enabling you to model and analyze random variables systematically to draw meaningful insights for data analysis and decision-making.",
+        "By the end of this lesson, you will have a clear understanding of big data’s role in modern society and the ethical principles that guide responsible data collection.",
+        "This lesson introduces you to sampling distributions, a fundamental concept that connects probability and statistical inference. By understanding how sample data behaves, you’ll gain the tools to make predictions and analyze populations effectively.",
+        "By engaging with these activities, you’ll develop a deeper appreciation of how sampling distributions and the Central Limit Theorem play a vital role in statistical analysis.",
+        "This lesson introduces confidence intervals as a fundamental tool for estimating population parameters. By learning how to construct and interpret confidence intervals, you’ll gain the ability to make informed predictions and quantify uncertainty in data analysis.",
+        "By completing this lesson, you’ll be equipped to confidently apply confidence intervals in various statistical contexts, laying the groundwork for more advanced topics in the course.",
+        "This lesson introduces the principles of hypothesis testing, enabling you to assess claims about population parameters using statistical methods. You’ll develop the ability to make informed decisions based on data analysis, an essential skill for real-world problem-solving.",
+        "By completing this lesson, you’ll be equipped to confidently apply confidence intervals in various statistical contexts, laying the groundwork for more adv",
+        "This lesson expands your understanding of data analysis by introducing bivariate data, where two measurements are taken for each sampling unit. You’ll learn to distinguish between the response variable, which is the outcome of interest, and the explanatory variable, which provides context or determines the population group. This foundation prepares you to analyze relationships between two variables effectively.",
+        "By completing this lesson, you’ll gain the skills to analyze and interpret relationships between two variables, enabling you to uncover meaningful insights from bivariate data. These techniques are essential for making informed decisions based on comparative data analysis.",
+        "This lesson focuses on the Chi-Square Test for Independence, a powerful statistical tool used to analyze the relationships between two categorical variables. You’ll learn how to use contingency tables to summarize and interpret data, providing insights into associations across multiple levels of variables.",
+        "By completing this lesson, you’ll be able to analyze relationships between categorical variables confidently and understand the nuances of association in data, preparing you for more advanced topics like regression and ANOVA in subsequent lessons.",
+        "This lesson introduces the fundamentals of regression analysis, starting with the Simple Linear Regression (SLR) model and the correlation coefficient. You’ll learn how to use regression to analyze relationships between variables, including predicting a response variable based on one or more predictors. This foundational knowledge sets the stage for more advanced statistical modeling.",
+        "By completing this lesson, you’ll have the skills to analyze linear relationships, interpret regression models, and use these tools to make informed predictions and decisions in diverse contexts.",
+        "This lesson introduces you to ANOVA, a statistical method used to compare means across more than two populations. You’ll learn how ANOVA analyzes variances to identify significant differences, focusing on cases where the response variable is quantitative and the explanatory variable is categorical with more than two levels, referred to as the factor.",
+        "By completing this lesson, you’ll develop the skills to conduct and interpret ANOVA, enabling you to analyze and compare data from complex experiments confidently.",
+        "STAT 500: Applied Statistics lays a vital foundation for careers in data science, analytics, and decision-making roles across industries. By mastering statistical concepts such as probability, distributions, confidence intervals, hypothesis testing, and regression, students gain the analytical skills needed to extract insights from complex data. These skills are highly sought after in roles such as data analysts, statisticians, and business intelligence specialists.",
+        "Graduates who have taken STAT 500 are well-equipped to tackle challenges in industries like healthcare, finance, technology, and marketing. For example, they can analyze patient data to improve healthcare outcomes, optimize investment portfolios, or evaluate customer behavior for targeted marketing campaigns. The course’s emphasis on using statistical software like Minitab ensures that students not only understand theory but can also apply it effectively in practical, real-world scenarios, giving them a competitive edge in the job market.",
+        "Healthcare Analytics: Improving Patient Outcomes",
+        "A student could analyze patient data from electronic health records (EHR) to identify trends in hospital readmissions. Using regression models and hypothesis testing, they might evaluate the effectiveness of a new treatment protocol and provide recommendations to improve patient care and reduce costs.",
+        "Financial Risk Assessment",
+        "In the finance industry, a student might use statistical methods to assess investment risk. By applying confidence intervals and probability distributions, they can estimate the potential returns of a portfolio under different market conditions, enabling better risk management for financial institutions.",
+        "Marketing Campaign Effectiveness",
+        "A marketing team might engage a student to analyze customer response data from an ad campaign. Using hypothesis testing, they could determine whether targeted ads led to increased sales and provide actionable insights to optimize future marketing strategies.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Appreciate and understand the role of statistics in your own field of study.",
+            "Develop an ability to apply appropriate statistical methods to summarize and analyze data for some of the more routine experimental settings.",
+            "Make sense of data and be able to report the results in an appropriate table or statistical terms for inclusion in your thesis or paper.",
+            "Use Minitab to perform appropriate statistical analysis and interpret the results."
+        ],
+        [
+            "You will find the link to our online notes in Canvas.",
+            "Software at Penn State: https://www.software.psu.edu/",
+            "WebFiles: https://labs.psu.edu/webfiles/",
+            "Honorlock: https://online.stat.psu.edu/statprogram/orientation/proctored-exams",
+            "PSU Statistics Online: https://online.stat.psu.edu/statprogram/"
+        ],
+        [
+            "Make it a habit to log in to Canvas at least once a day.",
+            "Follow the To-Do List for each Lesson in Canvas.",
+            "Work through the online notes and textbook readings and replicate examples using MINITAB.",
+            "Post any clarification questions in HELP Forum in Canvas and answer other students’ questions when possible.",
+            "Attend weekly Q&A sessions when possible and come with questions.",
+            "Complete and submit all the graded work by the due dates provided in the course schedule."
+        ],
+        [
+            "Understand that the responsibility is on you in regard to the value of an education. Grades are earned and not given.",
+            "Not participating in an online course via discussion forums, email, etc. is equivalent to being absent in a traditional classroom.",
+            "Be aware of the time required for this course. Students should expect to spend on average between 10-13 hours per week on this 3-credit course. Your course activity will be monitored.",
+            "It is your responsibility to reach out to your instructor if you having trouble understanding any concepts we cover in the class.",
+            "Pay attention to details. Refer to the syllabus and schedule as needed. Read and understand the online notes and textbook. Check course announcements and emails regularly to keep up to date.",
+            "This course is challenging, but if we communicate and study when in a positive frame of mind, we will be more successful than otherwise.",
+            "Respect the academic environment of the online classroom as well as each other.",
+            "Abide by the academic integrity policy and respect copyright laws."
+        ],
+        [
+            "Graphing One Qualitative Variable",
+            "Confidence Intervals",
+            "Chi-Square Test"
+        ],
+        [
+            "Pie Chart",
+            "Bar Chart"
+        ],
+        [
+            "Pie charts may not be suitable for too many categories. Thus, if there are too many categories, you can either combine some categories or use a bar chart to represent the data. What is mean by “too many”? There is no clear cutoff, more of just a judgment on the appearance.",
+            "Readers may find the pie chart more useful if the percentages are arranged in a descending or ascending order."
+        ],
+        [
+            "Please pay attention that even though histogram (shown in section 1.4) also have bars sticking up, they are used to describe the frequency for quantitative variables; bar chart is reserved to describe graphs that show frequency of categorical variables."
+        ],
+        [
+            "Appreciate and understand the role of statistics in your own field of study.",
+            "Develop an ability to apply appropriate statistical methods to summarize and analyze data for some of the more routine experimental settings.",
+            "Make sense of data and be able to report the results in an appropriate table or statistical terms for inclusion in your thesis or paper.",
+            "Use Minitab to perform appropriate statistical analysis and interpret the results."
+        ],
+        [
+            "L1-L2",
+            "L3-L4",
+            "L5-L6",
+            "L7",
+            "L8",
+            "L9",
+            "L10"
+        ],
+        [
+            "Discover the Foundations of Data Collection and Analysis: You’ll explore the core concepts of data collection and summarization, learning how to effectively organize and present data for meaningful insights. These essential skills serve as the backbone of statistical analysis.",
+            "Learn to Classify and Visualize Data for Better Understanding: Gain the ability to classify data into qualitative and quantitative categories. You’ll also learn techniques to summarize and visualize data using graphs and numerical summaries, making complex datasets accessible and easy to interpret."
+        ],
+        [
+            "Collecting and Classifying Data: Learn how to gather data accurately and categorize it into qualitative and quantitative types.",
+            "Summarizing and Graphing Variables: Practice summarizing both qualitative and quantitative variables using numerical measures and graphical representations."
+        ],
+        [
+            "Learn to Differentiate and Utilize Key Probability Distributions: Develop the ability to distinguish between discrete and continuous random variables. You’ll explore how to compute probabilities, means, and variances for discrete variables, while mastering the properties and applications of critical distributions like the binomial and normal distributions.",
+            "Explore Practical Applications to Enhance Your Analytical Skills: Expand your toolkit by learning to calculate probabilities and percentiles, applying concepts like the Empirical Rule to interpret data effectively. These skills will prepare you to work confidently with probability distributions in various real-world scenarios."
+        ],
+        [
+            "Random Variable Analysis: Identify and compute key metrics for discrete and continuous random variables.",
+            "Binomial Distribution Practice: Explore the characteristics of binomial random variables and calculate their probabilities.",
+            "Normal Distribution Application: Understand the properties of normal distributions and apply them to find probabilities and percentiles."
+        ],
+        [
+            "Learn the Importance of the Central Limit Theorem: Explore the Central Limit Theorem (CLT), a powerful principle that explains how sample means tend to form a normal distribution as sample size increases. This concept is essential for applying inferential statistics in real-world scenarios.",
+            "Expand Your Statistical Toolkit with Practical Applications: Master techniques to compute and interpret sampling distributions and understand how the Central Limit Theorem supports accurate predictions and decision-making."
+        ],
+        [
+            "Explore Foundational Concepts: Dive into the material to gain a strong understanding of sampling distributions and the Central Limit Theorem through guided notes and accessible resources.",
+            "Connect Theory to Practice: Apply what you’ve learned to real-world scenarios that demonstrate the importance of sampling distributions in predicting outcomes.",
+            "Engage with Discussions: Share your insights and explore diverse perspectives in a collaborative forum with peers."
+        ],
+        [
+            "Learn to Apply Confidence Intervals Across Different Scenarios: Discover how confidence intervals are used to estimate population means and proportions. You’ll explore how varying confidence levels and sample sizes influence the accuracy and reliability of these intervals, preparing you to use them effectively in real-world applications."
+        ],
+        [
+            "Explore Foundational Ideas: Dive into the concept of confidence intervals and understand their role in estimating population parameters through engaging and accessible materials.",
+            "Connect Theory to Real-World Applications: Learn how to interpret confidence intervals and apply them to meaningful data scenarios, bridging theoretical knowledge with practical use.",
+            "Collaborate with Peers: Participate in discussions to gain diverse perspectives and refine your understanding of confidence intervals in a supportive learning environment."
+        ],
+        [
+            "Build Confidence in Data-Driven Analysis: Explore the concepts of p-values and rejection regions, learning how to interpret statistical results effectively. You’ll gain insights into the conditions under which hypotheses are accepted or rejected, empowering you to analyze data with precision and confidence.",
+            "Strengthen Conclusions with Confidence Intervals: Learn to use confidence intervals as a complementary tool for hypothesis testing. You’ll discover how confidence intervals provide additional context for decision-making, reinforcing your ability to draw meaningful conclusions from statistical analysis."
+        ],
+        [
+            "Develop Core Skills: Learn to perform hypothesis tests step by step, from setting up null and alternative hypotheses to evaluating test results. Understand how factors such as sample size, standard deviation, and level of significance influence your conclusions.",
+            "Analyze Practical Scenarios: Dive into real-world examples, such as quality control in manufacturing or evaluating the effectiveness of treatments in medical research. These scenarios highlight the relevance and versatility of hypothesis testing across industries.",
+            "Collaborate and Reflect: Engage in graded discussion forums to collaborate with peers, discuss different approaches to hypothesis testing, and refine your understanding of the material."
+        ],
+        [
+            "Understand Methods for Analyzing Differences: Learn how to evaluate the difference between two independent normal variables, providing insights into relationships and variability across distinct populations. This foundational skill is crucial for understanding statistical comparisons in diverse scenarios.",
+            "Compare Proportions, Means, and Variances: Explore techniques to compare population proportions, means, and variances. By mastering these methods, you’ll be able to assess differences between groups effectively and interpret the results in practical, real-world contexts."
+        ],
+        [
+            "Understand the Basics of Bivariate Data: Learn how to identify response and explanatory variables and their roles in analysis.",
+            "Analyze Population Comparisons: Explore techniques for comparing proportions, means, and variances to evaluate relationships and differences between populations.",
+            "Build Practical Insights: Apply these concepts to real-world situations, such as comparing test scores across groups or analyzing success rates in experiments."
+        ],
+        [
+            "Analyze Categorical Data with More Than Two Levels: Learn how the Chi-Square Test is used to evaluate relationships between two categorical variables, particularly in cases where one or both variables have more than two levels. This approach helps uncover associations across complex datasets.",
+            "Connect the Chi-Square Test to Proportion Comparisons: Discover the connection between the Chi-Square Test for independence and the z-test for two independent proportions. This relationship becomes particularly relevant when both variables have only two levels, providing a deeper understanding of how these tests complement each other."
+        ],
+        [
+            "Learn the Basics of Contingency Tables: Understand how to construct and interpret two-way tables to summarize categorical data.",
+            "Apply the Chi-Square Test: Perform the Chi-Square Test to identify associations between categorical variables and interpret the significance of results.",
+            "Explore Risk and Odds Ratios: Delve into concepts like risk, relative risk, and odds ratios to quantify relationships between categorical variables.",
+            "Compare to Proportions Testing: See the relationship between the Chi-Square Test for independence and the z-test for two independent proportions for cases with two levels per variable."
+        ],
+        [
+            "Understand the Role of Response and Predictor Variables: Learn to distinguish between response variables (dependent variables) and predictor variables (independent variables). These roles are critical for understanding how one variable influences another, forming the foundation of regression analysis. You’ll gain clarity on how these variables interact and are represented in statistical models.",
+            "Construct and Interpret Regression Models: Explore the process of constructing regression equations and interpreting their results. You’ll learn to perform hypothesis tests for correlation to assess the strength of relationships and estimate population slopes with confidence intervals. Additionally, you’ll be introduced to multiple regression models, where multiple predictors enhance the depth and accuracy of analysis."
+        ],
+        [
+            "Visualize Relationships Through Dynamic Plots: Use intuitive graphing tools to explore the connections between response and predictor variables. Identify patterns and trends that reveal meaningful insights.",
+            "Build and Test Regression Models: Develop your own regression equations and test hypotheses using real-world datasets. Interpret your findings to uncover relationships between variables.",
+            "Apply Regression to Practical Scenarios: Work with scenarios such as predicting weight based on height or analyzing the impact of marketing spend on sales to see how regression applies to everyday challenges."
+        ],
+        [
+            "Explore the Logic Behind ANOVA: Develop a deep understanding of the principles that underpin Analysis of Variance (ANOVA). Learn how variance analysis helps determine whether differences exist between population means when dealing with multiple groups. This foundational knowledge is essential for understanding the methodology and purpose of ANOVA.",
+            "Master ANOVA Techniques and Their Applications: Discover how to set up and interpret one-way and two-way ANOVA tests, including the use of ANOVA tables. Additionally, gain proficiency in performing multiple comparisons to evaluate specific differences between group means. These skills will prepare you to analyze data from complex studies with confidence and precision."
+        ],
+        [
+            "Understand the Logic of ANOVA: Explore the principles of variance analysis and how it is used to test for differences in population means.",
+            "Apply One-Way and Two-Way ANOVA: Learn how to perform one-way ANOVA and interpret results from ANOVA tables, then expand your skills to include two-way ANOVA for more complex analyses.",
+            "Conduct Multiple Comparisons: Use multiple comparison techniques to assess differences between group means and draw meaningful conclusions.",
+            "Analyze Real-World Scenarios: Work with practical datasets to apply ANOVA methods in contexts such as comparing treatment effects, product performance, or survey responses."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "https://www.software.psu.edu/",
+            "url": "https://www.software.psu.edu/"
+        },
+        {
+            "text": "https://labs.psu.edu/webfiles/",
+            "url": "https://labs.psu.edu/webfiles/"
+        },
+        {
+            "text": "https://online.stat.psu.edu/statprogram/orientation/proctored-exams",
+            "url": "https://online.stat.psu.edu/statprogram/orientation/proctored-exams"
+        },
+        {
+            "text": "https://online.stat.psu.edu/statprogram/",
+            "url": "https://online.stat.psu.edu/statprogram/"
+        },
+        {
+            "text": "Technical Requirement of Online Courses page",
+            "url": "https://online.stat.psu.edu/statprogram/orientation/technology/specs"
+        },
+        {
+            "text": "Support and Technical Help page",
+            "url": "https://science.psu.edu/stat/education/help"
+        },
+        {
+            "text": "here",
+            "url": "https://psu.instructure.com/courses/2351738/pages/proctored-exams-with-honorlock"
+        },
+        {
+            "text": "support@honorlock.com",
+            "url": "mailto:support@honorlock.com"
+        },
+        {
+            "text": "Pie Chart",
+            "url": "#tab-piechartbrahrefhttpsonlinestatpsuedustat500lesson221paragraph--2919a"
+        },
+        {
+            "text": "",
+            "url": "https://online.stat.psu.edu/stat500/lesson/2/2.1#paragraph--2919"
+        },
+        {
+            "text": "Bar Chart",
+            "url": "#tab-barchart"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "A pie chart showing the distribution of eye colors among a group of individuals, labeled with percentages.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/stat500-pie.jpeg"
+        },
+        {
+            "alt": "A bar chart displaying the count of individuals with different eye colors.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/stat500-bar-edited.jpeg"
+        },
+        {
+            "alt": "example of confidence interval",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/conf-int.png"
+        },
+        {
+            "alt": "",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/Screenshot_18-11-2024_91420_online.stat_.psu_.edu_.jpeg"
+        },
+        {
+            "alt": "Alt Text:\nA screenshot of an example titled \"Political Affiliation and Opinion,\" showing a contingency table and explanatory text.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/stat-500-chi.png"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Assignment Category",
+                "Weight"
+            ],
+            [
+                "Homework",
+                "15%"
+            ],
+            [
+                "Participation",
+                "5%"
+            ],
+            [
+                "Midterms",
+                "60%"
+            ],
+            [
+                "Final Exam (Cumulative)",
+                "20%"
+            ]
+        ],
+        [
+            [
+                "Letter Grade",
+                "Minimum Percentage"
+            ],
+            [
+                "A",
+                "93%"
+            ],
+            [
+                "A-",
+                "90%"
+            ],
+            [
+                "B+",
+                "87%"
+            ],
+            [
+                "B",
+                "83%"
+            ],
+            [
+                "B-",
+                "80%"
+            ],
+            [
+                "C+",
+                "77%"
+            ],
+            [
+                "C",
+                "70%"
+            ],
+            [
+                "D",
+                "60%"
+            ],
+            [
+                "F",
+                "0%"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"3072\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

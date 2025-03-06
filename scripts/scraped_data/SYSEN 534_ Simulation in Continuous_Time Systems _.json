@@ -1,0 +1,518 @@
+{
+    "metadata": {
+        "title": "SYSEN 534: Simulation in Continuous-Time Systems – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2013"
+    },
+    "headings": {
+        "h2": "Lesson 6: Decision Rules and Formulations",
+        "h4": "Unlocking Your Potential",
+        "h3": "Lesson 7: Verification and Validation"
+    },
+    "paragraphs": [
+        "Discover the power of System Dynamics (SD) as a vital tool for understanding and addressing the challenges of complex systems in SYSEN 534: System Dynamics and Simulation in Systems Engineering. This course offers an interdisciplinary exploration of modeling techniques applied to diverse fields such as supply-demand systems, electromechanical networks, biological processes, and hybrid renewable energy systems. You’ll gain the theoretical foundations and technical expertise to conceptualize complex systems, formulate simulation models, and analyze system behaviors to develop effective, evidence-based policy interventions. Leveraging cutting-edge simulation software, this course provides hands-on experience in model development, verification, and sensitivity analysis, equipping you to address contemporary issues in systems engineering.",
+        "The curriculum progresses from foundational principles to advanced applications, covering key topics like SD tools and software, dynamic model formulation, decision rules, and simulation-based optimization. Special emphasis is placed on modeling interdependent infrastructure systems and socio-economic dynamics, offering valuable insights into their practical applications. By the end of the course, students will possess a robust skill set to tackle real-world engineering challenges with confidence, making SYSEN 534 an essential component of your journey to mastering systems engineering.",
+        "The fundamental objective of this course is to help students become better problem-solvers through a clear understanding of the cognitive processes involved in individual problem-solving and creative activity. Students who complete this course successfully will be able to:",
+        "M. J. Kirton, Adaption-Innovation in the Context of Diversity and Change, Routledge, 2006 (reprint edition).",
+        "A grade is given solely on the basis of the instructor’s judgment as to the student’s scholarly attainment (see the Penn State Graduate Degree Programs Bulletin, p. 41). The following grading system applies to graduate students:",
+        "Grades will be based on the following scale:",
+        "A = 95 – 100, A- = 90 – 94, B+ = 87 – 89, B = 84- 86, B- = 80 – 83, C+ = 77 – 79, C = 70 – 76, D = 60 – 69, and F = below 60.",
+        "There will be two written assignments during the course: Reflection & Synthesis (R&S) #1 and #2. These are due at the end of Lessons 2 and 5, respectively. The purpose of these assignments is to help you reflect upon, analyze, synthesize, and apply the material covered in this course. You are welcome to work together in the early stages of these assignments (e.g., discussing your ideas, pondering approaches, recommending references), but the final product must be entirely your own individual work.",
+        "There will be discussion forums associated with each lesson. You are required to log on to every discussion forum and to post at least one original response related to the assigned topic as well as a minimum of two substantive responses (in general) to your classmates’ postings. The specific posting requirements will be included along with the discussion topic for each forum. You are not required to follow threads from previous lessons, but you are always welcome to post comments that relate to any previous discussion if they also relate to the current theme in some way.",
+        "There will be two exams: one midterm exam (20% of course grade) and one final exam (20% of course grade). The purpose of these exams is to ensure your ready recall of fundamental concepts and key points covered in this course; they will not focus on minute details (e.g., no dates). In terms of format, all exams will be primarily (if not completely) multiple choice, with the possibility of a few short answer questions.",
+        "The Exams may be proctored online using proctoring software that uses your computer’s webcam or other technology to monitor and/or record your activity during exams. The proctoring software may be listening to you, monitoring your computer screen, viewing you and your surroundings, and recording any activity (including visual and audio recordings) during the proctoring process.",
+        "Be sure to review the University Policies and Resources  which include important information regarding academic integrity, student disability resources, educational equity, counseling services, and technical requirements.",
+        "*Syllabus subject to change",
+        "Let’s take a look at Wallas’ model for the thinking process.",
+        "This model may be familiar to you already, with its four stages: preparation, incubation, illumination, and verification.",
+        "There are many engineering design methodologies taught and used in academia and industry. Each one is a process aimed at solving problems of design and invention.  Let’s look at the example shown below and begin an analysis.",
+        "The design methodology shown here was originally developed for hardware design, but the general template can be adapted for any engineered system. Note, too (as mentioned in the excerpt below the figure), that even this fairly detailed diagram (like all processes) is an idealization; in actual implementation, engineers using this design methodology may skip stages or operate using a less formal structure, particularly in small companies.",
+        "In the first case (recognition of need), we can expect a person’s level (knowledge, experience, etc.) to have a direct effect on the opportunities (needs) that person perceives to be important – so, for example, an expert may focus on more complex or advanced gaps in technology than a novice in the field. Likewise, in terms of style, we might expect a more innovative engineer to find opportunities that span several technical domains to be of greater interest, while a more adaptive colleague prefers to focus on critical gaps within a single domain. And so on.",
+        "In the case of proposal evaluation, one’s level will impact how deeply and accurately one can evaluate another person’s work, and one’s style is bound to impact one’s judgment of the proposed solution. So, for example, a more adaptive evaluator may find a particular proposal to be lacking in detail, while a more innovative reviewer finds the detail provided in the same proposal stifling! Once again, these variations represent only a small sampling of the cognitive diversity we can expect to see, but they should be enough to get you started on a deeper investigation.",
+        "In this lesson we explore problem-solving leadership, and here, all the concepts and issues that underlie our understanding of the individual problem solver and problem solving teams must be revisited, but from a new perspective: the problem solving leader. The focus is the leadership of all, one’s social role within the team (“me, facilitating others”), and the responsibilities inherent in managing oneself and others (obligation vs. reward – or “right to be in the team”). In dealing with problem solving leadership, we must move beyond an understanding of the management of change to a teaching program for how to do it.",
+        "When leadership is the focus, our fundamental aim is mutual effective achievement. Our main element of theory here is the management of diversity as the foundation for the management of change, as well as the dangers of success (an outcome of the catalytic nature of change and our escalating expectations and demands for success). Finally, our practical entry points are the Pendulum of Change and (in contrast to) the Spiral of Change, two particular patterns for the progression of change. The first (the Pendulum) represents what hap­pens when change is managed poorly (a pendulum swinging between extremes with little forward motion), and the second describes change managed well (a catalytic spiral of upward progress) – both in the context of the team and leadership.",
+        "This course will provide you with a thorough introduction to software design, including:",
+        "During this course you will expand your knowledge of the lesson topics each week.",
+        "In this lesson, you will explore the foundational concepts of system dynamics, a methodology used to understand and analyze complex systems. You will delve into the principles of systems thinking, simulation, and modeling, which are essential for making informed decisions in dynamic environments. By the end of this lesson, you will have a solid foundation to build upon as you advance in understanding and applying system dynamics.",
+        "By the end of this lesson, you will understand the critical role system dynamics plays in analyzing and solving complex problems, setting the stage for deeper exploration in future lessons.",
+        "In this lesson, you will dive deeper into the practice of system dynamics by learning how to construct models that represent real-world systems. You’ll explore critical concepts such as causal loop diagrams, stocks and flows, and mathematical representations that form the foundation of effective modeling. This lesson emphasizes the development of dynamic hypotheses and hands-on modeling techniques to analyze system behavior.",
+        "By the end of this lesson, you will have a hands-on understanding of system dynamics modeling techniques, and the tools needed to start analyzing complex systems effectively.",
+        "In this lesson, you will analyze the relationship between the structure of dynamic systems and their behavior over time. You’ll explore key behavioral patterns such as exponential growth, goal-seeking processes, and S-shaped growth, gaining a deeper understanding of how these behaviors emerge from system structures. Through hands-on activities, you will begin to see how theoretical concepts translate into real-world applications.",
+        "By the end of this lesson, you will understand how the structure of a system influences its behavior, equipping you with the tools to analyze and model complex systems effectively.",
+        "In this lesson, you will learn how to construct dynamic models to represent and analyze real-world systems. You’ll explore concepts like delays (material and information), aging chains, and coflows to deepen your understanding of how systems evolve over time. This lesson focuses on building models that accurately capture system structures, enabling you to predict and influence behavior effectively.",
+        "By the end of this lesson, you will have gained practical skills in formulating dynamic models, equipping you to tackle complex system behaviors with confidence and precision.",
+        "In this lesson, you will explore more intricate modes of behavior in dynamic systems, including oscillation, S-shaped growth with overshoot, and expectation formation. By analyzing these patterns, you’ll deepen your understanding of how complex interactions and feedback loops drive system behavior, preparing you to tackle advanced modeling challenges.",
+        "By the end of this lesson, you will have a clear grasp of how complex dynamic behaviors emerge and how to model them effectively, enhancing your ability to analyze and predict intricate system patterns.",
+        "In this lesson, you will delve into the principles of decision-making within dynamic systems. By exploring decision rules, formulation fundamentals, and nonlinear relationships, you will learn how to design models that reflect complex decision-making processes. This lesson emphasizes the practical application of these concepts through modeling and analysis techniques, further enhancing your ability to address real-world problems.",
+        "By the end of this lesson, you will have a stronger grasp of decision rules and model formulations, empowering you to design more accurate and effective dynamic models that reflect complex decision-making scenarios.",
+        "In this final lesson, you will focus on the critical processes of verifying and validating dynamic system models. These steps ensure that models are accurate representations of real-world systems and behave as expected under various conditions. You will also explore methods for testing models and using statistical tools to assess their fit, preparing you to deliver reliable and robust solutions.",
+        "By the end of this lesson, you will be equipped with the skills to ensure the accuracy and reliability of dynamic system models, culminating in the successful completion of your final exam and group assignment.",
+        "Studying systems engineering can significantly enhance your career by equipping you with the skills to tackle complex, interdisciplinary problems. This field combines technical expertise with analytical thinking, enabling you to design and manage intricate systems across various industries, including aerospace, defense, healthcare, and IT.",
+        "Below are some real-world examples of projects that an individual with Systems Engineering experience might work on:",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Explain how problem-solving works from an individual cognitive perspective",
+            "Explain the links between problem-solving, creativity, and decision-making",
+            "Recognize and appreciate their respective problem-solving abilities and styles",
+            "Understand and appreciate the diverse problem-solving abilities and styles of others",
+            "Describe, using real-world examples, the impact of cognitive diversity in engineering",
+            "Analyze, evaluate, and apply problem-solving processes and techniques",
+            "Analyze real-world examples of scientific and technological change"
+        ],
+        [
+            "ISBN-13: 978-0415298513 or ISBN-10: 0415298512 (paperback)",
+            "Free E-Book Option Available: An online version of your text is available at no cost as a Penn State Library E-Book. You can access the E-Book through the Library Resources link on the course navigation."
+        ],
+        [
+            "“A” (Excellent) indicates exceptional achievement.",
+            "“B” (Good) indicates substantial achievement.",
+            "“C” (Satisfactory) indicates acceptable but substandard achievement.",
+            "“D” (Poor) indicates inadequate achievement and is a failing grade for a graduate student."
+        ],
+        [
+            "Problem-Solving Processes",
+            "Engineering Design Process",
+            "Problem-Solving Leadership"
+        ],
+        [
+            "In the first stage (preparation), the problem solver focuses on defining the problem and gathering information about it.",
+            "Incubation and illumination refer to solution processing, including the search for and rumination over multiple options (incubation)",
+            "and the insight achieved in identifying a choice from amongst them (illumination). Here it is useful to note the critical sequence of these stages (incubation leading to illumination) and the fact that any weakness or error in an earlier stage will impact the later stages.",
+            "In the verification stage, the problem solver tests the chosen solution against the problem definition to see if the original constraints have been met – in effect, checking to see if the process has worked (this time) to get what was intended at the beginning."
+        ],
+        [
+            "Organization of Problem-Solving",
+            "Systems Design and Development Process",
+            "System Design and Architecture",
+            "Evaluating Design Alternatives",
+            "Systems Engineering Management",
+            "Reliability and Usability",
+            "Maintainability and Supportability"
+        ],
+        [
+            "L1",
+            "L2",
+            "L3",
+            "L4",
+            "L5",
+            "L6",
+            "L7"
+        ],
+        [
+            "Understanding Systems: Learn about the components, interactions, and behaviors that define complex systems.",
+            "Systems Thinking: Explore how to approach problems holistically, focusing on interconnections rather than isolated parts.",
+            "Modeling Processes: Gain insights into the steps involved in developing and utilizing system dynamics models for simulation and analysis."
+        ],
+        [
+            "Connect and Collaborate: Participate in an engaging activity designed to foster a sense of community and collaboration among learners, setting the stage for a supportive and dynamic learning experience.",
+            "Explore Key Concepts: Reflect on thought-provoking questions and share your perspectives with peers in a guided discussion, encouraging diverse viewpoints and meaningful conversations."
+        ],
+        [
+            "Dynamic Hypothesis Development: Understand how to propose hypotheses that explain system behaviors over time.",
+            "Causal Loop Diagrams: Learn to visualize feedback loops and interconnections within systems.",
+            "Stocks and Flows: Explore the structures that underpin system dynamics models and how they interact."
+        ],
+        [
+            "Engage with Your Learning Community: Connect with fellow students in a collaborative activity to share perspectives and build a foundation for interactive discussions throughout the course.",
+            "Explore Core Concepts: Reflect on the week’s topics and exchange ideas with classmates in an open-ended discussion designed to deepen understanding and encourage diverse viewpoints."
+        ],
+        [
+            "Modes of Behavior: Discover how dynamic systems exhibit patterns such as growth, decline, and equilibrium.",
+            "Exponential Growth: Examine systems where growth accelerates over time, driven by reinforcing feedback loops.",
+            "Goal-Seeking and S-shaped Growth: Learn about systems that adjust toward equilibrium or exhibit constrained growth due to balancing feedback loops."
+        ],
+        [
+            "Reflect on key concepts and engage with your peers to share perspectives on how system structures influence their behavior.",
+            "Experiment with interactive models to observe how different feedback loops affect system dynamics.",
+            "Continue collaborating on your group assignment, applying the principles of dynamic systems to real-world examples."
+        ],
+        [
+            "Understanding Delays: Learn about material and information delays and their impact on system performance.",
+            "Aging Chains: Explore how populations or resources transition through stages over time.",
+            "Coflows: Examine the simultaneous flow of related elements in dynamic systems."
+        ],
+        [
+            "Engage with peers in reflective discussions to share ideas and applications of dynamic modeling techniques.",
+            "Work through interactive content to practice constructing and analyzing dynamic models.",
+            "Apply your knowledge to group assignments and exam preparation,"
+        ],
+        [
+            "Oscillation: Understand how feedback loops create cyclical patterns within dynamic systems.",
+            "S-Shaped Growth with Overshoot: Examine growth processes that exceed limits before stabilizing or declining.",
+            "Modeling Expectation Formation: Explore how trends and expectations influence system behaviors over time."
+        ],
+        [
+            "Collaborate with peers to discuss the implications of complicated modes of behavior on real-world systems.",
+            "Engage with interactive tools and examples to model behaviors such as oscillation and overshoot, gaining hands-on experience.",
+            "Apply the week’s concepts to your group assignment and refine your modeling techniques for homework exercises."
+        ],
+        [
+            "Modeling Decision Making: Learn how decision rules influence the behavior of dynamic systems.",
+            "Formulation Fundamentals: Understand the building blocks of model formulations and their significance.",
+            "Nonlinear Relationships: Explore how nonlinear functions and table-based relationships impact system dynamics."
+        ],
+        [
+            "Reflect on key concepts with peers, discussing how decision-making processes are modeled and their relevance in complex systems.",
+            "Engage with demonstrations and examples to practice creating nonlinear functions and utilizing table functions in models.",
+            "Apply your knowledge through group assignments and homework exercises to reinforce key ideas and refine your skills."
+        ],
+        [
+            "Verification and Validation: Learn the differences between these processes and why both are essential for reliable modeling.",
+            "Model Testing: Discover techniques to evaluate model accuracy and performance.",
+            "Statistics for Model Fit: Explore statistical methods to measure how well a model aligns with real-world data."
+        ],
+        [
+            "Collaborate with peers to discuss approaches for verifying and validating models, sharing insights and best practices.",
+            "Engage with practical examples to apply verification and validation techniques, refining your ability to assess model quality.",
+            "Synthesize your learning through the group project and individual report, demonstrating your ability to evaluate models in a comprehensive and systematic manner."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Manufacturing Process Optimization: Imagine Company XYZ, a leading manufacturing firm. They were grappling with delays, cost overruns, and inconsistent product quality. Systems engineers stepped in and applied techniques like Value Stream Mapping (VSM). By visualizing the entire production process—from raw material to finished product—they identified areas of waste, inefficiency, and redundancy.",
+            "Autonomous Vehicles: The development of autonomous vehicles relies heavily on systems engineering principles. Think about it: these vehicles are complex systems with interconnected components—sensors, actuators, control algorithms, and communication networks. Systems engineers ensure that these components work seamlessly together to achieve safe and reliable self-driving capabilities",
+            "Energy and Environment Projects: Systems engineers contribute to projects like designing wind and solar power charging stations. These involve integrating renewable energy sources into existing power grids while ensuring reliability and efficiency.",
+            "Infrastructure and Construction: When designing large-scale structures like dams, reservoirs, and aqueducts, systems engineers play a critical role. They consider factors such as load-bearing capacity, safety, and environmental impact.",
+            "Real-Time Data Engineering: Systems engineers often work on projects related to handling and processing real-time data. For instance, they might design systems that process streaming data from sensors, social media feeds, or financial markets."
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Adaption-Innovation in the Context of Diversity and Change",
+            "url": "https://catalog.libraries.psu.edu/catalog/21323200"
+        },
+        {
+            "text": "University Policies and Resources",
+            "url": "https://sites.psu.edu/gvwc/course/penn-state-university-policies-and-resources/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/07/wallas.webp"
+        },
+        {
+            "alt": "",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/07/Screenshot-2024-07-15-110957-1.jpg"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Assignment",
+                "Quantity",
+                "Percentage of Final Grade"
+            ],
+            [
+                "Reflection and Synthesis",
+                "2",
+                "40%"
+            ],
+            [
+                "Discussions",
+                "7",
+                "20%"
+            ],
+            [
+                "Midterm Exam",
+                "1",
+                "20%"
+            ],
+            [
+                "Final Exam",
+                "1",
+                "20%"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"2013\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

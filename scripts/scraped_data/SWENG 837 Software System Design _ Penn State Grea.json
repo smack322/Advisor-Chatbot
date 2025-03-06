@@ -1,0 +1,477 @@
+{
+    "metadata": {
+        "title": "SWENG 837 Software System Design – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1748"
+    },
+    "headings": {
+        "h2": "Deepening Your Understanding of Patterns",
+        "h4": "Unlocking Your Potential"
+    },
+    "paragraphs": [
+        "This course delves into the application of engineering best practices in developing large-scale software-centric systems. Students will learn various techniques and methodologies to effectively analyze requirements and design software systems.  Key topics covered include software modeling techniques and object-oriented analysis and design (OOAD).  Practical application of theoretical knowledge will be applied through individual assignments, student collaboration, and a course project.  This approach will ensure that students gain practical experience in software design.",
+        "This course equips students with the knowledge and skills necessary to tackle the challenges of designing and managing complex software systems effectively!",
+        "As software systems become large and complex so do their visual models. Techniques will be discussed to how best manage this complexity.  At the completion of this course, students will have an understanding of:",
+        "Larman, C. (2005). Applying UML and Patterns: Introduction to Object-Oriented Analysis and Design and Iterative Development, 3rd Ed. Prentice Hall.",
+        "ISBN: 9780131489066",
+        "A grade is given solely on the basis of the instructor’s judgment as to the student’s scholarly attainment (see the Penn State Graduate Degree Programs Bulletin, p. 41). The following grading system applies to graduate students:",
+        "Grades will be based on the following scale:",
+        "A = 95 – 100, A- = 90 – 94, B+ = 87 – 89, B = 84- 86, B- = 80 – 83, C+ = 77 – 79, C = 70 – 76, D = 60 – 69, and F = below 60.",
+        "There will be a total of four (4) homework assignments that you must complete individually. These assignments are described in each of the associated weekly lessons and are to be submitted no later than the following Monday of the lesson for which they are assigned.",
+        "You will participate in a total of four (4) Group Discussion Forums starting in the third week of this course. For this requirement, you will post your individual homework solutions that you already submitted for the previous week’s lesson into your assigned Group Discussion Forum. You will then review each other’s solutions and reach a consensus as to which pieces from each member’s individual work should be used for your group’s final document submission. Deadlines for these group submissions are specified in the Group Discussion Forums and in the Course Schedule. Please note that the best way to participate in these group discussions is to subscribe to the discussion forums so that you are notified as soon as someone from your team posts to the forum.",
+        "Each group member will be graded on:",
+        "You will have the opportunity to create a software design project to showcase a your understanding of fundamental software design principles and techniques. The project entails proposing, specifying and designing a software system.  It will include Use Case Models, Domain Models, Interaction and Class Diagrams, as well as a final comprehensive report.",
+        "There will be one (1) exam to be taken within Canvas.  The examination is to be taken without collaboration with other students or other individuals.  You should consider the exam conditions to be closed book, the same as any in-class exam. You will have until 11:59 PM Eastern Time on the date specified so please make sure you start the exam by 10:00 PM EST on the date specified.",
+        "The final exam may be proctored via Honorlock (online proctoring software). The proctoring software uses your computer’s webcam or other technology to monitor and/or record your activity during exams. The proctoring software, Honorlock, may be listening to you, monitoring your computer screen, viewing you and your surroundings, and recording any activity (including visual and audio recordings) during the proctoring process. By enrolling in this course, you consent to the use of the proctoring software, including but not limited to any audio and/or visual monitoring which may be recorded.Please contact your instructor with any questions. For Honorlock resources and a practice test, see the Honorlock Information module in Canvas.",
+        "Be sure to review the University Policies and Resources Links to an external site. which include important information regarding academic integrity, student disability resources, educational equity, counseling services,  and technical requirements.",
+        "*Syllabus subject to change",
+        "The use case technique is used in software and systems engineering to capture the functional requirements of a system. A use case is a text story that is a group of related scenarios that provide value to the user of a system. A scenario is one of many paths or a specific sequence within a use case, as shown in the example below.",
+        "We will explore various design patterns, illuminating their significance in software design and development.",
+        "Software design is the process of creating a blueprint for a software system before the actual coding begins. Think of it as designing the architecture of a house before the builders start constructing it. In software, it’s about planning how all the different parts of the system will work together to achieve a specific goal.",
+        "This course will provide you with a thorough introduction to software design, including:",
+        "During this course you will expand your knowledge of the lesson topics each week.",
+        "In this foundational lesson, you’ll dive into the course layout and objectives, laying the groundwork for understanding software systems design. You’ll start by exploring key object-oriented concepts that will guide your approach to structuring and developing robust software solutions.",
+        "Learn about the essential principles of object-oriented design, which provide a systematic approach to organizing and analyzing software systems. These concepts are fundamental to creating maintainable and scalable designs in real-world applications.",
+        "Form your project teams and embark on the initial steps of your group project. This collaborative assignment will allow you to apply course concepts in a practical, team-oriented environment, simulating real-world software development scenarios.",
+        "By the end of this lesson, you’ll be well-equipped with the foundational knowledge and team alignment needed to succeed in your software design journey.",
+        "This lesson introduces you to use case analysis, a powerful technique to clarify and specify software requirements. You’ll explore how to design use cases that accurately represent user interactions, laying the foundation for effective software design.",
+        "Gain hands-on experience with domain modeling, which helps you identify and organize key elements within your system. This skill will enable you to visualize the relationships and interactions between different components, creating a clear path from requirements to design.",
+        "You’ll apply your knowledge to individual homework assignments that solidify your understanding of use cases and domain modeling. Additionally, you’ll work on Checkpoint 2: Use Case Analysis, where you’ll independently analyze user needs and map them into structured designs.",
+        "By the end of this lesson, you’ll be well-equipped to use both use cases and domain models, essential tools for translating user requirements into functional software designs.",
+        "This lesson introduces GRASP (General Responsibility Assignment Software Patterns), which provides practical guidelines for assigning responsibilities within software systems. You’ll learn how these patterns help create organized, maintainable designs that stand up to real-world challenges.",
+        "With GRASP patterns, you’ll discover how to make informed decisions when designing classes and their interactions, supporting robust and scalable software development. This lesson empowers you to apply these patterns to your project, bringing structure and clarity to complex systems.",
+        "Through this lesson, you’ll gain valuable tools for structuring software designs with GRASP, giving you the confidence to tackle complex projects with a professional, organized approach.",
+        "In this lesson, you’ll dive into developing a design model that represents the architecture and behavior of a software system. You’ll learn how to bridge the gap between requirements and a functional design by leveraging design principles and structured modeling techniques.",
+        "Explore interaction diagrams, powerful tools for mapping the interactions between system components. You’ll discover how to create clear and effective representations of object interactions, which is essential for understanding and refining system behaviors.",
+        "By the end of this lesson, you’ll be able to create a detailed design model and use interaction diagrams effectively, equipping you with essential skills for developing well-structured, behavior-driven software systems.",
+        "This lesson focuses on essential class design principles, equipping you with tools to create organized, efficient, and scalable classes. You’ll discover how to make strategic design decisions that lead to robust and maintainable software.",
+        "Learn to create class diagrams that bring clarity and precision to your designs. By visualizing class structures and relationships, you’ll be able to better organize complex systems and communicate your design approach effectively.",
+        "In this lesson, you’ll explore foundational design patterns that enable you to create flexible, reusable, and maintainable software. By understanding these patterns, you’ll gain a powerful toolkit for solving common design challenges with proven solutions.",
+        "Learn how to incorporate patterns into your projects, giving structure to complex systems and ensuring they adapt to future needs. Mastering these patterns will enhance your ability to design software that is both scalable and efficient.",
+        "This lesson brings together everything you’ve learned, empowering you to apply patterns that add depth and resilience to your software designs, setting you on a path toward professional-level development.",
+        "Building on your previous work with patterns, this lesson dives deeper into advanced design concepts that enhance the flexibility and adaptability of your software systems. You’ll learn to approach complex design challenges with proven, reusable solutions, setting the stage for professional-level development.",
+        "This week, you’ll uncover meta-patterns that capture the essence of reusable design, broadening your perspective on object-oriented software development. These principles will empower you to create systems that are both resilient and adaptable to change.",
+        "Showcase Your Mastery: Put your knowledge to the test in a comprehensive final assessment, where you’ll demonstrate critical thinking and the ability to apply design concepts effectively.",
+        "Insightful Reading: Dive into carefully selected resources that offer a broad perspective on advanced design patterns and meta-patterns, equipping you with cutting-edge knowledge from industry experts.",
+        "Practical Application: Strengthen your design skills with hands-on assignments that challenge you to apply sophisticated design principles, preparing you for complex real-world projects.",
+        "This lesson provides an in-depth exploration of advanced patterns, preparing you to handle complex design scenarios with confidence and a well-rounded approach to software architecture.",
+        "By studying software systems design, you can gain skills that are in high demand in the software development industry and can lead to career opportunities in roles such as software architect, software designer, software developer, project manager, and consultant.  Opportunities exists across many industries, including technology, finance, healthcare, and government.  Understanding software systems design course can have a significant impact on an individual’s career by providing them with the knowledge and skills necessary to design and develop complex software systems, opening up new career opportunities, and increasing their value and effectiveness in software development teams.",
+        "Below are some real-world examples of projects that an individual with Software Systems Design experience might work on:",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "UML, a visual modeling language for creating analysis and design models",
+            "Unified Process, a methodology for managing the activities during software development lifecycle",
+            "Analysis and design patterns for building the software design model"
+        ],
+        [
+            "“A” (Excellent) indicates exceptional achievement.",
+            "“B” (Good) indicates substantial achievement.",
+            "“C” (Satisfactory) indicates acceptable but substandard achievement.",
+            "“D” (Poor) indicates inadequate achievement and is a failing grade for a graduate student."
+        ],
+        [
+            "Participation",
+            "Quality of Contributions",
+            "Postback Consensus"
+        ],
+        [
+            "Software Design Strategies",
+            "Design Patterns",
+            "Software Design"
+        ],
+        [
+            "Object-oriented concepts",
+            "Unified Modeling Language (UML)",
+            "Use Cases",
+            "Domain Modeling",
+            "GRASP Patterns",
+            "Design Patterns"
+        ],
+        [
+            "L1",
+            "L2",
+            "L3",
+            "L4",
+            "L5",
+            "L6",
+            "L7"
+        ],
+        [
+            "Course Orientation: Start off strong by diving into the welcome message, syllabus, schedule, and project description. This essential first step gives you a clear roadmap and helps you know exactly what to expect as you embark on this transformative course.",
+            "Textbook Reading: Explore Chapters 1-3, where you’ll gain a solid understanding of object-oriented fundamentals. These chapters lay the groundwork for everything you’ll design and build, making it easy to get into the flow of software systems design.",
+            "Project Preparation: Jump into teamwork mode by forming your project groups and submitting your team’s Project Proposal for Checkpoint 1. This collaborative experience sets the stage for real-world software design projects and primes you for success.",
+            "Optional Tool Exploration: Curious about professional design tools? Install and explore “Microsoft Visio Professional 2016” to start building your technical toolkit with software that industry leaders rely on."
+        ],
+        [
+            "Essential Reading: Immerse yourself in Lesson 2 content where you’ll master use cases and domain modeling—core skills that bring clarity and structure to software design.",
+            "Practical Homework Assignments: Tackle individual assignments that allow you to apply object-oriented design concepts directly. Each task reinforces your understanding and builds your confidence in key software development skills.",
+            "Real-World Use Case Analysis: Showcase your analytical abilities in this case analysis where you’ll perform a detailed use case analysis. This practical exercise sharpens your capacity to identify and organize user requirements, simulating the real-world demands of software engineering."
+        ],
+        [
+            "In-Depth Reading: Explore Lesson 3 content in your textbook to build a thorough understanding of GRASP principles.",
+            "Hands-On Homework: Complete individual assignments that allow you to apply GRASP patterns, solidifying your ability to design cohesive, functional systems.",
+            "Domain Model: Submit a detailed domain model demonstrating your ability to apply GRASP in structuring system elements effectively.",
+            "Group Discussion: Participate actively in the Group Discussion Forum by sharing your individual homework solutions, collaborating with your team to post final group solutions."
+        ],
+        [
+            "Immersive Reading: Dive into course content that explores advanced design modeling techniques, enhancing your ability to create structured, behavior-driven software systems.",
+            "Hands-On Homework: Tackle individual assignments where you’ll apply design modeling principles to real-world scenarios, building your confidence and skill in crafting effective software designs.",
+            "Interactive Modeling Practice: Develop and submit an interaction diagram, giving you practical experience in visualizing system component behavior and refining your design approach.",
+            "Collaborative Problem Solving: Share your insights and solutions in the Group Discussion Forum, then work with peers to develop collective solutions. This collaboration hones both your individual and team-based skills, mirroring the dynamics of professional software design teams.",
+            "Peer Feedback and Reflection: Participate in a mid-course peer evaluation to offer and receive valuable feedback, enhancing your collaboration and fostering a supportive learning environment."
+        ],
+        [
+            "Insightful Readings: Dive into curated content that deepens your understanding of class design principles and their role in creating efficient software architectures. These readings provide a strong foundation for making strategic design choices.",
+            "Hands-On Practice: Tackle individual assignments that encourage you to experiment with class design, allowing you to apply theoretical concepts in practical, real-world scenarios.",
+            "Design Modeling: Create a class diagram that brings structure and clarity to your design approach. This exercise enhances your ability to organize and communicate complex systems effectively.",
+            "Collaborative Problem-Solving: Share and discuss your ideas and solutions with peers in an interactive forum, then collaborate to develop refined group solutions. This teamwork simulates professional design settings, building both your technical and collaborative skills."
+        ],
+        [
+            "Insightful Readings: Delve into essential resources that reveal the power of design patterns, helping you integrate effective solutions into your software design toolkit.",
+            "Hands-On Practice: Apply what you’ve learned through assignments that challenge you to incorporate patterns into your designs, reinforcing your understanding with real-world application.",
+            "Collaborative Problem Solving: Join interactive discussions with peers to share insights and work together on polished, group solutions. This teamwork develops both your technical skills and your ability to collaborate on complex design projects.",
+            "Final Project Showcase: Wrap up with a culminating project report that demonstrates your growth and mastery in software design. Working with your team, you’ll present a comprehensive solution that reflects the principles and patterns explored throughout the course."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Designing and developing a distributed software system for a large e-commerce company that can handle millions of transactions per day.",
+            "Creating a mobile application for a healthcare provider that integrates with electronic health records and provides patients with personalized health recommendations.",
+            "Designing and implementing a software system for a manufacturing company that automates and optimizes the production process.",
+            "Creating a virtual reality software system for an entertainment company that provides users with immersive and interactive experiences.",
+            "Designing and developing a software system for a transportation company that optimizes routes and schedules for a fleet of vehicles.",
+            "Implementing a machine learning system for a technology company that analyzes customer data to provide personalized product recommendations."
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "University Policies and Resources Links to an external site.",
+            "url": "https://sites.psu.edu/gvwc/course/penn-state-university-policies-and-resources/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/03/Capture2.png"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Assignment",
+                "Quantity",
+                "Percentage of Final Grade"
+            ],
+            [
+                "Individual Homework Assignments",
+                "4",
+                "40%"
+            ],
+            [
+                "Group Discussions",
+                "4",
+                "10%"
+            ],
+            [
+                "Course Project",
+                "1",
+                "30%"
+            ],
+            [
+                "Final Exam",
+                "1",
+                "30%"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"1748\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

@@ -1,0 +1,521 @@
+{
+    "metadata": {
+        "title": "SYSEN 532: Discrete-Time Simulation in Systems Engineering – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4214"
+    },
+    "headings": {
+        "h2": "Lesson 7: Hybrid Simulation",
+        "h4": "Unlocking Your Potential",
+        "h3": "Optional Texts and Other Resources"
+    },
+    "paragraphs": [
+        "SYSEN 532: Discrete-Time Simulation in Systems Engineering provides a comprehensive introduction to modeling and simulation for systems engineering. It focuses on the use of stochastic simulation techniques to address the inherent uncertainties in complex systems and instills confidence in stakeholders that proposed solutions will perform as intended upon deployment.",
+        "Through a combination of selected readings, interactive lectures, and hands-on activities, the course explores the fundamental concepts, methods, and applications of modeling and simulation in systems engineering. Students will learn to model interconnected heterogeneous systems using hybrid simulation approaches, combining Monte Carlo and discrete event simulations for robust analysis and optimization.",
+        "The course begins with an introduction to various types of systems and models, examining sources of randomness and uncertainty, and reviewing foundational principles of computer simulation. Students will gain practical skills in input modeling, experimentation, output analysis, model verification and validation, and simulation-based optimization. Advanced topics include the development and application of hybrid simulations, enabling students to address complex systems engineering challenges.",
+        "The primary course deliverable will be a hybrid simulation model addressing a real-world systems engineering problem. Upon completing this course, students will have the knowledge and skills to apply integrated modeling and simulation techniques to design, analyze, and optimize complex systems with confidence.",
+        "The scale and cost of typical systems engineering projects mandate that proposed solutions are explored through integrated models and simulations that appropriately account for uncertainties such that stakeholders are confident that the system will work as intended upon deployment.  In this course, we examine the use of stochastic simulation approaches to these integrated models and their application to systems engineering. The course covers fundamental concepts, methods, and applications of modeling and simulation as well as modeling systems of interconnected heterogeneous systems using hybrid simulation. The course begins with an overview of different types of systems and models, sources of randomness and uncertainty, and reviews basic concepts related to computer simulation. Students are given an overview of two types of stochastic simulation, namely Monte Carlo simulation and discrete event simulation. Basic concepts related to input modeling, experimentation, output analysis, model verification and validation, and simulation-based optimization are covered. Students will then learn how to combine the two simulation techniques to develop hybrid simulations.",
+        "The course has no formal prerequisites. However, recommended preparation includes basic:",
+        "The most important prerequisite of all is your motivation and commitment to learning.",
+        "After successful completion of this course, the student will be able to:",
+        "E-Book Option: A free online version is available for this textbook at https://textbook.simio.com/SASMAA/index.html",
+        "Grades will be based on the following scale:",
+        "A = 95 – 100, A- = 90 – 94, B+ = 87 – 89, B = 84 – 86, B- = 80 – 83, C+ = 77 – 79, C = 70 – 76, D = 65 – 69, and F = 65 and below.",
+        "There are six weekly assignments (one for each of the weeks 1-6). The assignment for each week will be released at the beginning of the week and must be submitted to the appropriate Canvas assignment before 11:59 PM EST on Sunday in that week for the submission to be considered “on-time” (see the course schedule for exact due dates). Details for assignment are as follows:",
+        "There will be one final exam given in Week 7. The exam is released at the beginning of Week 7 and is due at 11:59 PM EST on Sunday of that week. There will be no separate homework assignment for week 7 due to the final exam.",
+        "*subject to change",
+        "The general steps in a simulation study are summarized in Figure 1.2. These steps and related methods are discussed in detail in future lessons. Figure 1.2 only provides a brief description of each step to give you a general idea about what a simulation project involves:",
+        "The approaches presented in this lesson rely on the assumption that the sample data are independent and identically distributed (IID) which requires the following two characteristics:",
+        "Data collected from a real system may not be IID.  For example, consecutive waiting times in a queue for customers at a restaurant are NOT INDEPENDENT since a long waiting time for customer ii means it is highly likely that customer i+1i+1 also has a long waiting time in queue. Such observations are said to be correlated.  As another example, suppose that X1,X2, …X1,X2, … represent hourly temperatures in a certain city starting at noon on a particular day. We would not expect these data to be independent, since hourly temperatures close together in time should be positively correlated.",
+        "Here, we focus on the “independence” component of the IID requirement and present a simple approach to assess independence of the collected data. In the “Recommended Supplementary Material” for this lesson, you can find a video module that describes a situation related to a non-stationary arrival process with a time-varying arrival rate, where the samples collected from different time intervals may not be identically distributed.",
+        "A simple graphical method for assessing correlation in the data is by using the scatter diagram of the observations X1,X2, …,XnX1,X2, …,Xn from a stochastic process. This is essentially a plot of the pairs (Xi,Xi+1)Xi,Xi+1 for i=1,2, …, n−1i=1,2, …, n-1. If Xi’sXi’s are independent, one would expect the points (Xi,Xi+1)Xi,Xi+1 to be scattered randomly throughout the (Xi,Xi+1)Xi,Xi+1 plane. Figure 4.1 provides sample scatter diagrams for independent and correlated data.",
+        "The assembly process is a serial production line consisting of four stages (shown in Figure 7.2) with fixed-capacity buffers between the stations (total of 20 buffer slots). The line operates 24/7 and the raw material inventory is managed so that it is guaranteed that there is always raw material available to be processed. The line is also perfectly balanced meaning that the processing time distribution is the same for all four stages and follows an exponential distribution with a mean 10 minutes. Therefore, this production line represents the situation we analyzed in section 4 of Lesson 5. Please go back to that section for a review before you continue.",
+        "This course will provide you with a thorough introduction to:",
+        "During this course you will expand your knowledge of the lesson topics each week.",
+        "This lesson introduces you to the principles of discrete-time simulation, a vital tool for analyzing and improving systems with dynamic interactions and uncertainties. You’ll learn how simulations can enhance decision-making in systems engineering.",
+        "By the end of this lesson, you will be equipped to define the steps in a simulation study, analyze uncertainty in systems, and solve queueing problems using discrete-event simulation techniques. This foundational knowledge will prepare you to effectively use simulation tools throughout the course and beyond.",
+        "This lesson introduces two primary simulation approaches: Monte Carlo simulation and discrete-event simulation. Discover when and why each method is used to analyze and optimize system performance.",
+        "By completing this lesson, you will be able to select the appropriate simulation technique for various systems, analyze performance through discrete-event simulation, and address biases to ensure accurate results. This lesson lays the foundation for deeper exploration of simulation analysis and applications.",
+        "This lesson introduces techniques for analyzing the output data generated from simulation experiments, helping you evaluate system performance and compare alternative configurations.",
+        "By completing this lesson, you will have the skills to analyze simulation output, compare alternatives using statistical methods, and verify simulation models. These capabilities will enhance your ability to tackle complex systems and develop reliable solutions.",
+        "This lesson introduces the general process of input modeling and analysis, focusing on techniques for accurately representing real-world stochastic processes in simulation models.",
+        "By completing this lesson, you will have the skills to hypothesize, evaluate, and select input models for simulation, ensuring that your models accurately reflect the behavior of real-world systems. These skills are essential for creating credible and reliable simulation analyses.",
+        "This lesson introduces the principles and methodologies of simulation-based optimization, providing a framework for solving complex optimization problems in dynamic systems.",
+        "By completing this lesson, you will be able to define, analyze, and solve simulation-based optimization problems. These skills will prepare you to enhance the performance of complex systems in various professional contexts.",
+        "This lesson delves into simulation meta modeling, focusing on regression-based approaches and their role in analyzing and improving simulation models. You’ll also explore how to quantify and address input uncertainty in simulation analysis.",
+        "By completing this lesson, you’ll be able to design and evaluate simulation meta models, quantify input uncertainty, and implement custom performance measures, equipping you with advanced tools to tackle complex simulation challenges effectively.",
+        "This lesson explores the need for hybrid simulation models to analyze complex integrated systems that cannot be addressed using a single modeling technique. You will learn to combine simulation approaches for more robust analysis and problem-solving.",
+        "By completing this lesson, you will be equipped to design and implement hybrid simulation models, combining techniques like discrete-event and Monte Carlo simulation, to tackle complex challenges in integrated systems.",
+        "SYSEN 532 equips students with in-demand skills in simulation modeling and analysis, preparing them for roles that require advanced problem-solving capabilities in complex systems. By mastering techniques such as discrete-event simulation, Monte Carlo methods, and hybrid simulation frameworks, students can tackle challenges in industries like manufacturing, logistics, healthcare, aerospace, and defense. These industries rely on professionals who can design, optimize, and validate integrated systems using data-driven approaches.",
+        "This course enhances career prospects for positions such as systems engineer, simulation analyst, operations research analyst, or industrial engineer. Employers seek individuals with expertise in simulation tools like Simio and a strong foundation in statistical and optimization techniques. The practical and theoretical knowledge gained from SYSEN 532 is directly applicable to job roles that involve analyzing system performance, optimizing operations, and supporting strategic decision-making.",
+        "A manufacturing company sought to improve its assembly line operations to increase efficiency and reduce production costs. The current system faced challenges such as bottlenecks at certain workstations, inconsistent product flow, and resource allocation issues. Traditional analytical methods were insufficient to capture the dynamic interactions and variability within the system, leading to suboptimal solutions.",
+        "To address this, the company enlisted a systems engineer trained in discrete-time simulation to analyze the assembly line. Using discrete-event simulation techniques, the engineer modeled the entire production process, incorporating key variables such as machine processing times, resource availability, and product demand fluctuations. The simulation revealed critical bottlenecks and identified scenarios where resource allocation could be improved.",
+        "The engineer then used simulation-optimization techniques to test various configurations, such as reallocating workers, adjusting machine schedules, and redesigning workflows. A hybrid simulation model combining discrete-event and Monte Carlo methods was employed to assess the impact of uncertainty in product demand and machine reliability. This approach allowed the team to evaluate the short-term and long-term effects of proposed changes under different conditions.",
+        "As a result, the company implemented an optimized assembly line configuration that reduced bottlenecks, improved throughput, and minimized operational costs. This example highlights the real-world value of discrete-time simulation in systems engineering for solving complex, integrated system challenges.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Mathematics",
+            "Knowledge of probability and statistics (e.g, undergraduate statistics equivalent to STAT 200)",
+            "Use of Excel",
+            "Coding (in any programming language or generic tool/package such as MATLAB)"
+        ],
+        [
+            "Determine an appropriate type of simulation model to properly account for stochasticity and uncertainty in a system.",
+            "Build and apply Monte Carlo Simulation (MCS), Discrete-Event Simulation (DES), and hybrid MCS-DES models to solve systems engineering problems.",
+            "Use real-world data to estimate and model input parameters of stochastic simulation models.",
+            "Estimate and interpret different types of output statistics generated by simulation models and make statistically valid decisions.",
+            "Develop and apply simulation-based optimization techniques and metamodels to find near-optimal solutions for large-scale stochastic optimization problems."
+        ],
+        [
+            "Simio and Simulation: Modeling, Analysis, Applications, 6th Edition (2023) by Jeffrey S. Smith, David T. Sturrock, and W. David Kelton.(ISBN: 978-1-938207-03-7 (E-book) ISBN: 979-8-802969-55-7 (Printed book)"
+        ],
+        [
+            "Simio Simulation Software – Instructions for downloading and activating student licenses will be provided by the instructor (the instructor will be point of contact for all software-related issues).",
+            "Microsoft Office Suite (Excel and Word)",
+            "Minitab (see instructions in the Modules tab on how to get access to Minitab)"
+        ],
+        [
+            "Banks, J., J. S. Carson, B. L. Nelson, and D. M. Nicol, Discrete-Event System Simulation, 4th Edition, Prentice Hall, Upper Saddle River, NJ, 2005. ISBN 13: 9780131446793",
+            "Law, A. M., Simulation Modeling and Analysis, 4th Edition, McGraw-Hill, Boston, MA, 2007. ASIN: B011DBA1YO",
+            "Seila, A. F., V. Ceric, and P. Tadikamalla, Applied Simulation Modeling, Duxbury – Brooks/Cole, Belmont, CA, 2003. ISBN 13: 9780534381592",
+            "Nelson, B. L., Foundations and Methods of Stochastic Simulation: A First Course, Springer Science & Business Media, 2013. ISBN 13: 978-1461461593"
+        ],
+        [
+            "All homework assignments are individual assignments.",
+            "Most assignments involve one or two video labs. The video labs are an important part of learning in this class. The video labs focus on learning and implementation of models in the simulation software that we use in this class. The lessons, on the other hand, don’t teach you the software, but rather focus on the concepts/theories.",
+            "Each video lab involves watching a set of videos that walk you through the steps for developing and analyzing a simulation model.",
+            "Detailed submission instructions (number and type of files to submit, formatting, etc.) are provided in each assignment’s page on Canvas.",
+            "It is crucial that you start working on the video labs/assignments early. If you wait until Sunday to start working on your assignment, it is highly likely that you will not able to finish your assignments before the deadline."
+        ],
+        [
+            "Hybrid Simulation",
+            "Introduction to Simulation, Random Variables, and Queueing Theory",
+            "Monte Carlo and Discrete Event Simulation",
+            "Output Analysis and Decision-Making",
+            "Input Modeling and Analysis",
+            "Simulation-Based Optimization",
+            "Advanced Topics – Simulation Metamodeling and Input Uncertainty"
+        ],
+        [
+            "Simulation",
+            "Sample Independence",
+            "Event Simulation"
+        ],
+        [
+            "All of the observations are probabilistically independent of one another.",
+            "All of the observations follow the same probability distribution, thus are said to be identically distributed."
+        ],
+        [
+            "Simulation Fundamentals: Core concepts and applications of discrete-event and Monte Carlo simulation.",
+            "Input Modeling: Techniques for analyzing and modeling input data for simulations.",
+            "Optimization: Methods for solving simulation-based optimization problems.",
+            "Hybrid Frameworks: Designing and implementing hybrid simulation models.",
+            "Statistical Analysis: Analyzing outputs and addressing risk and uncertainty.Verification and Validation: Ensuring model accuracy and reliability.",
+            "Simulation Software: Proficiency in using Simio for model development and analysis.",
+            "Meta modeling: Developing regression-based meta models and quantifying input uncertainty."
+        ],
+        [
+            "L1",
+            "L2",
+            "L3",
+            "L4",
+            "L5",
+            "L6",
+            "L7"
+        ],
+        [
+            "Introduction to Simulation Modeling: Learn the foundational concepts and primary applications of simulation in analyzing and improving complex systems.",
+            "Steps in a Simulation Study: Understand the key phases of a simulation project, including problem definition, data collection, modeling, experimentation, and result interpretation."
+        ],
+        [
+            "Simio Software Introduction: Get familiar with Simio, a leading discrete-event simulation software, through guided video labs.",
+            "Modeling Lab Assignment: Build your first simulation model and explore how theory connects to real-world applications."
+        ],
+        [
+            "Understanding Transient Bias: Discover the impact of transient bias on steady-state estimates and learn techniques to minimize its effects.",
+            "Advantages and Disadvantages: Compare the benefits and limitations of discrete-event simulation and queueing theory to select the right tool for different situations."
+        ],
+        [
+            "Simio Modeling Lab: Build and analyze simulation models using Simio, a leading discrete-event simulation software, to apply theoretical concepts in a practical context.",
+            "Performance Analysis Workshop: Use Simio to explore system performance metrics and analyze steady-state behavior."
+        ],
+        [
+            "Mathematical Problem Solving: Reinforce your understanding of statistical techniques by solving simulation-based math problems.",
+            "Assessing Risk and Error: Understand measures of risk and error in simulation results and learn techniques to minimize their impact."
+        ],
+        [
+            "Mathematical Problem Assignment: Apply statistical concepts to solve a simulation-based math problem and reinforce your learning.",
+            "Simio Video Lab: Build and analyze simulation models using Simio software to deepen your understanding of output data analysis and comparison techniques."
+        ],
+        [
+            "Input Modeling Overview: Understand the general process of input modeling and analysis for simulation.",
+            "Parameter Estimation: Learn techniques to estimate parameters for hypothesized probability distributions."
+        ],
+        [
+            "Input Analysis Problem: Solve a practical problem involving the assessment of sample independence and the fitting of probability distributions.",
+            "Goodness-of-Fit Testing: Perform statistical goodness-of-fit tests to validate the suitability of selected input models."
+        ],
+        [
+            "Introduction to Simulation-Based Optimization: Understand the general process of optimization via simulation and its application in complex systems.",
+            "Problem Formulation: Learn to define a simulation optimization problem by specifying objectives, constraints, and performance measures."
+        ],
+        [
+            "Algorithm Comparison Exercise: Evaluate the effectiveness of different optimization approaches—iterative simulation, integrated search, and ranking and selection—on a practical problem.",
+            "Constraint Analysis Activity: Define and analyze constraints for a given optimization problem to ensure feasible and effective solutions."
+        ],
+        [
+            "Linear Regression Meta models: Learn to develop and validate linear regression meta models for simulation models using experimental design.",
+            "Quantifying Input Uncertainty: Understand the significance of input uncertainty and learn methods to measure its effect on simulation outputs."
+        ],
+        [
+            "Simulation Meta modeling Problem: Develop and validate a linear regression meta model to enhance your understanding of meta modeling techniques.",
+            "Sensitivity Analysis Task: Perform a sensitivity analysis to evaluate the influence of input distributions on simulation outputs."
+        ],
+        [
+            "Need for Hybrid Simulation Models: Understand why hybrid simulation models are essential for analyzing complex integrated systems that cannot be effectively modeled with a single technique.",
+            "Integration Levels: Explore different levels of integration when combining multiple simulation techniques, ensuring seamless and effective model functionality."
+        ],
+        [
+            "Framework Design Example: Work through an example of designing and implementing a hybrid simulation framework for an integrated system.",
+            "Integration Level Analysis: Evaluate and compare different integration levels for combining simulation techniques to determine the most appropriate approach."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Simio and Simulation: Modeling, Analysis, Applications",
+            "url": "https://textbook.simio.com/SASMAA/index.html"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "The cover of the book titled \"Simio and Simulation: Modeling, Analysis, Applications\" (6th Edition) by Jeffrey S. Smith and David T. Sturrock. The design features three images: an aerial view of an airport with airplanes and terminals, a shipping dock with cargo containers and cranes, and an automotive assembly line with car doors being assembled. The Simio logo and the tagline \"Forward Thinking\" are displayed in the bottom left corner on a blue background.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/simio-book-675x1024.jpg"
+        },
+        {
+            "alt": "The image illustrates a simulation modeling process, divided into three main components: Inputs, Simulation Model, and Outputs.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/simulation-1024x395.png"
+        },
+        {
+            "alt": "The image shows two scatter diagrams demonstrating the difference between independent and correlated data",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/sample_independence.png"
+        },
+        {
+            "alt": "The image illustrates a simulation model for a process flow involving four servers, showing both pie charts summarizing server utilization and a diagram of the system with buffer sizes labeled.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/event_simulation.png"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Assignment",
+                "Points Each",
+                "Quantity",
+                "Percentage of Final Grade"
+            ],
+            [
+                "Weekly Assignments",
+                "100 each",
+                "6",
+                "72%"
+            ],
+            [
+                "Final Exam",
+                "100",
+                "1",
+                "28%"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"4214\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

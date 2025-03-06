@@ -1,0 +1,585 @@
+{
+    "metadata": {
+        "title": "ENGMT 510: Economics and Financial Studies for Engineers – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=3542"
+    },
+    "headings": {
+        "h2": "Lesson 7: Financial Statements & Ratios",
+        "h4": "Unlocking Your Potential",
+        "h5": "Example",
+        "h6": "A = 95-100, A- = 90-94, B+ = 87-89, B = 84-86, B- = 80-83, C+ = 77-79, C = 70-76, D = 65-69, F = 64 and Below"
+    },
+    "paragraphs": [
+        "ENGMT 510 is a 3-credit course designed to provide engineering students with the financial and economic tools necessary to evaluate and fund capital projects. This course focuses on essential topics such as project budgets, return on investment, supply and demand, estimation techniques, and earned value management. By mastering these concepts, students gain the ability to assess the economic feasibility of engineering projects, systems, and products, ensuring they are both cost-effective and sustainable.",
+        "Through practical analysis and real-world case studies, students will learn to evaluate engineering proposals critically and calculate their worth and cost. The course emphasizes the application of fundamental financial principles to engineering scenarios, preparing students to navigate the economic complexities of project management. With a focus on hands-on learning and tools like Excel, ENGMT 510 bridges the gap between engineering and financial decision-making, empowering students to lead confidently in their future careers.",
+        "This course is designed to provide engineering students with a comprehensive understanding of the various concepts in Economics and Finance as applied to the evaluation and funding of capital projects. An essential prerequisite of successful engineering application is economic feasibility. This course presents analysis useful in evaluating the economic feasibility of systems, products, and services. The objective is to understand the significance of the economic aspects of engineering and become proficient in evaluating engineering proposals in terms of worth and cost. This skill is crucial since the economic feasibility of projects becomes a prime consideration of any project.",
+        "After completing the course, a student will be able to:",
+        "Proctored Exams – None",
+        "The instructor will remind you throughout the course what is available and what you should be working on. Material is provided on a lesson-by-lesson basis, and is presented to you as Web pages, Microsoft Word documents (.doc), and/or Portable Document Format (PDF) documents. Material that you submit for the course assignments should be submitted as a single Excel file with each problem on a separate worksheet.",
+        "Note: A grade is given solely on the basis of the instructor’s judgment as to the student’s scholarly attainment (see the Penn State Graduate Degree Programs Bulletin).",
+        "The following grading system applies to graduate students:",
+        "Students are reminded that simply meeting the minimal requirements of any assignment (both in terms of content and presentation) will result in a letter grade of “B” or less for that assignment.",
+        "Students can use the discussion forums to discuss different aspects of the course with other students. However, it should not be used for homework problems, midterm exam, and/or final exam. These are individual assignments. The instructor will participate in the discussions as needed. Use the discussion forums to post questions and see the responses from classmates. Any questions related to the exams or homework assignments should be directed to the instructor directly, who will send an announcement to the class if many students are experiencing the same doubt/question.",
+        "All assignments (homework, exams) for each week must be submitted to the appropriate Canvas assignment before 11:59 PM EST on Sunday in that week for the submission to be considered “on time” (exact dates due dates are listed in the Course Schedule, found in the Canvas course).",
+        "Assignments are due by 11:59 PM Eastern Time on the due date. The homework is essential to mastering the material of this course and it is essential that students maintain the proper pace. They will be graded and account for 30% of the total grade.",
+        "For all homework assignments and exams, you should submit a single Excel file with each problem on a separate worksheet.",
+        "There will be two untimed, take-home exams (one midterm exam, and one final exam). Students will have one week to complete and submit each of the tests on Canvas.",
+        "*Note: All homework, midterm exam, and final exam are individual assignments.",
+        "Financial Statements & Ratios",
+        "Time Value of Money",
+        "Borrowing, Lending, Investing & Establishing Planning Horizon",
+        "Present, Future, and Annual Worth Analysis",
+        "Rate of Return & Depreciation",
+        "Capital Budgeting",
+        "Replacement Analysis & Inflation Effects",
+        "*subject to change",
+        "Cash flow is the movement of money that flows in and out of a system and the cash flow diagram is the pictorial depiction of the movement. Money flowing out is normally considered as negative and money coming in is considered as positive cash flow. The cash flow diagram will look opposite if we draw the diagram from the borrower or lender’s point of view. It is easier to solve the problem, if we actually see the cash flow.",
+        "An outflow or an investment of $1000 at the beginning of year 1 (at the end of year 0) and an inflow or return of $2000 at the end of year 5 is shown by the following Cash Flow Diagram (CFD).",
+        "The initial expenditure of $4000, followed by the receipt of $5000, followed by an expenditure of $3000, followed by a second receipt of $5000, followed by a final expenditure of $2000, followed by a final receipt of $5000 can be shown as below.",
+        "In a single investment option the main concern is how much money I will have at the end of the planning horizon, or if I need to have X dollars at what interest rate I should invest.",
+        "Cells K4 thru K12 contain the cash flow sequence for end of year 10 thru 18. Cell L4 thru L12 contain the future value of the cash flow. Thus $1000*(1+5%)^(18-10) = $1477.46 and so on. The sum is $15,985.04 and it is the future value of the cash flow. This is the amount of money that will be available for college.",
+        "Next, we should calculate the uniform amount that needs to be deposited each year to get the same future value. To accomplish this we could use the payment function available in Excel: =PMT(5%,9,,-15985.04) =$1,449.68.",
+        "If a uniform deposit of $1,449.68 was made for 9 years, the same amount will be realized at the end of the planning horizon. We can also use in combination with Goal Seek to get this value. We will start with $1,000 per year and calculate the future value. Then we use Goal Seek to get the correct amount.",
+        "The formulas in the Excel spreadsheet area are shown below for further clarification.",
+        "If we want to find the uniform deposit for 18 years to obtain the same future value of $15,985.04, this can be easily accomplished using the PMT function =PMT(5%,18,,-15985.04) =$568.21.",
+        "Let us look at a problem where a decision has to be made between Vendor A and Vendor B.",
+        "Vendor A costs $380,000 and an increase in revenue of $125,000. Vendor B costs $280,000 and an increase in revenue of $95,000. The planning horizon is 4 years and MARR is 10%.",
+        "The Excel spreadsheet calculates the future values of Vendor A and Vendor B. The net Cash flow is the sum of the positive and negative cash flows. With cash flow and MARR, the future worth can be calculated. Thus $125,000*(1+10%)^(4-1) = $166,375.00, which is given in cell M6. The future worth of Vendor B is greater than Vendor A and the decision is based on the highest FW. Thus Vendor B should be preferred.",
+        "We can also use the incremental analysis to obtain the future worth. However, the results will be the same as the ranking method based on FW",
+        "Cash Flow Statement indicates how much revenue, from any sources, the company has taken in over a given time. It is a good gauge of how liquid the company is and how effectively they manage their cash flow. It describes how money moves in and out of the business and is a quick window for deciding whether the company will be able to pay their bills and how liquid they really are. From this you can see how able the company will be to generate cash.",
+        "This statement deals only with cash and cash equivalents. This include cash on hand, short-term investments that are less than 3 months, bank accounts and demand deposits. Only highly liquid investments are considered. The International Accounting Standard (IAS 7) requires reporting of these changes in cash and cash equivalents. It is portioned into three main categories, namely cash flow from operations, cash flow from investment, and cash flow from financing. Money coming in is called cash inflow and cash going out of the business is called cash outflow with positive and negative signs, respectively.",
+        "Operating Activities:",
+        "Operating activities refers to the ability of a company to generate cash, based on its own revenue generating activities as opposed to financing or investing. Operating activities include production, sales and delivery of products or services. Examples of operating activities include: cash from sale of goods or services, royalty fees, commissions, and other revenue such as cash payments to suppliers for material or service, cash for insurance premium, annuities and other policy benefits, and cash payment to employees.",
+        "The Apple Inc. cash flow statements are grouped under depreciation, adjustments to net income, changes in accounts receivables, changes in liabilities, changes in inventories and changes in other operating activities. For the year ending September 2016, the total cash flow from operating activities for Apple is $65.82 billion dollars. This is cash inflow – cash coming into the business.",
+        "Investing Activities:",
+        "Investing activities are acquisition and disposal of property, land, equipment and other long term assets. It deals with the cash payment. These also includes loans made to suppliers or received from the customers. For Apple Inc., they are grouped under Capital Expenditures, Investments and other cash flows from investing activities. For the year ending September 2016, the total cash flow from investing activities for Apple is -$45.98 billion dollars. This is cash outflow – cash going out of the business.",
+        "Financing Activities:",
+        "Financing activities include cash inflows from investors, banks and shareholders as well as the cash outflow to the shareholders as dividends. Examples include: dividend payments; repurchasing company shares; capital loses and repayment of debt. For Apple Inc., they are grouped under Dividends paid, Purchase of stocks, Net borrowing and other cash flows from financing activities. For the year ending September 2016, the total cash flow from financing activities for Apple is -$20.48 billion dollars. This is cash outflow – cash going out from the business.",
+        "Thus, the total cash inflow from operating activities for Apple is $65.82 billion dollars and the cash outflow from investing activities for Apple is -$45.98 billion dollars and the cash outflow from financing activities is -$20.48 billion dollars. In other words, $65.82 billion dollars came into the system and $66.46 billion dollars went out of the system. The change in the cash flow for the year 2016 is a negative $0.66 billion dollars. During the year 2015 the change in the cash flow was positive $7.28 billion. This is due to the fact there was more than a 15 billion cash inflow from the operating activities due to change in liabilities. Debt consolidation, refinancing and other changes in liabilities provide significant cash flow into the system.",
+        "After completing the course, a student will be able to:",
+        "During this course you will expand your knowledge of the lesson topics each week.",
+        "This lesson introduces the essential concept of the time value of money, a cornerstone of financial decision-making. You’ll explore how the value of money changes over time due to interest and how this concept influences financial decisions. The lesson focuses on understanding cash flows, cash flow diagrams, and the calculations of future and present values.",
+        "By completing this lesson, you’ll develop a foundational understanding of the time value of money and its application in real-world financial decision-making, preparing you for more advanced topics in economics and engineering finance.",
+        "This lesson delves into the essential concepts of borrowing, lending, and investing, helping you understand how financial strategies align with personal and organizational goals. You’ll explore how to evaluate opportunities and constraints when making financial decisions while establishing a planning horizon to guide long-term strategies.",
+        "By completing this lesson, you’ll gain the skills to make informed borrowing, lending, and investment decisions, along with the ability to establish and measure planning horizons effectively in both personal and professional financial contexts.",
+        "This lesson introduces the fundamental concepts of present, future, and annual worth analysis, key tools for evaluating the economic feasibility of projects and investments. By focusing on methods like Present Worth (PW), Future Worth (FW), and Annual Worth (AW), you’ll learn how to compare single and multiple alternatives effectively, ensuring financial decisions align with long-term goals.",
+        "By completing this lesson, you’ll gain the ability to conduct thorough financial worth analyses, empowering you to make strategic decisions that maximize the value of investments and projects.",
+        "This lesson introduces two critical financial concepts: Rate of Return (ROR) and Depreciation. You’ll learn how to evaluate the profitability of investments and projects by calculating ROR and understand the impact of asset depreciation on financial statements. These foundational skills are essential for making informed decisions about resource allocation and investment strategies.",
+        "By completing this lesson, you’ll develop the ability to assess financial performance and manage asset valuation effectively, equipping you with the tools needed to succeed in financial decision-making and project evaluation.",
+        "This lesson introduces capital budgeting, a vital process for evaluating and prioritizing investments in projects and assets. You’ll explore techniques to assess the financial feasibility of indivisible, divisible, and independent investments, enabling you to make informed decisions that align with long-term organizational goals.",
+        "By completing this lesson, you’ll gain the skills to assess and prioritize capital investments confidently, equipping you to make decisions that maximize financial and strategic outcomes.",
+        "This lesson explores replacement analysis, a critical process for determining when and how to replace existing assets to maximize financial efficiency. You’ll learn to evaluate the costs and benefits of replacement decisions, ensuring resources are allocated effectively to minimize costs and improve operational performance.",
+        "By completing this lesson, you’ll develop the skills to make informed asset replacement decisions and account for inflation in financial planning, preparing you to manage resources effectively in dynamic economic conditions.",
+        "This lesson introduces the key components of financial statements, including the balance sheet, income statement, and cash flow statement. You’ll learn how these documents provide insights into an organization’s financial health, performance, and cash management.",
+        "This lesson introduces the fundamental concepts of present, future, and annual worth analysis, key tools for evaluating the economic feasibility of projects and investments. By focusing on methods like Present Worth (PW), Future Worth (FW), and Annual Worth (AW), you’ll learn how to compare single and multiple alternatives effectively, ensuring financial decisions align with long-term goals.",
+        "Mastering economics and financial studies can greatly enhance your career by equipping you with the tools to evaluate and manage the economic aspects of engineering projects effectively. You’ll gain the ability to analyze budgets, assess project feasibility, and make data-driven financial decisions, making you a valuable asset in project management and operational roles. This expertise bridges the gap between technical teams and financial decision-makers, ensuring that projects are both innovative and economically viable.",
+        "Having a solid foundation in engineering economics can open doors to advanced roles like Project Manager, Operations Analyst, or Financial Consultant, where these skills are in high demand. By mastering these concepts, you’ll position yourself for career advancement, allowing you to lead high-impact projects while contributing to the financial health and strategic success of your organization.",
+        "Evaluating the Feasibility of Renewable Energy ProjectsA student might analyze the economic feasibility of implementing a solar energy farm. This involves creating project budgets, estimating return on investment, and conducting sensitivity analyses to account for fluctuating energy prices and demand.",
+        "Developing a Cost-Benefit Analysis for a Manufacturing UpgradeIn a manufacturing setting, the student could assess whether upgrading to automated machinery is cost-effective. This includes evaluating initial investment costs, operational savings, and payback periods, while considering earned value management to track progress.",
+        "Optimizing Resource Allocation for Infrastructure DevelopmentA student might be involved in a project to allocate resources for building a transportation hub. This includes analyzing supply and demand for transportation services, estimating construction costs, and projecting long-term economic benefits.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Understand the theoretical and conceptual basis of evaluation and funding of capital projects.",
+            "Appreciate the difficulty, complexity, and risks involved in investment decisions.",
+            "Make informed financial decisions when participating as a team member in a project or when leading the project as a technical manager.",
+            "Acquire skills to analyze practical problems, and the ability to convey the results.",
+            "Understand the time value of money and its application in the decision-making process.",
+            "Perform various economic and financial analyses using appropriate tools and techniques"
+        ],
+        [
+            "Our bookstore is MBS Direct, a mail-order textbook vendor.  You can order from MBS Direct by calling 1-800-325-3252 or by visiting their online bookstore at http://direct.mbsbooks.com/psude.htm."
+        ],
+        [
+            "Fundamentals of Engineering Economics by Chan S. Park, Second Edition, Pearson/Prentice Hall Publishing, 2009 ISBN: 9780131354579",
+            "Contemporary Engineering Economics by Chan S. Park, Fourth Edition, Pearson/Prentice Hall Publishing, 2007 ISBN: 9780132436540",
+            "Engineering Economy and the Decision Making Process by Joseph C. Hartman, Pearson/Prentice Hall Publishing, 2007 ISBN: 9780131424012",
+            "Finance for Engineers – Evaluation and Funding of Capital Projects by F. K. Crundwell, Springer-Verlog London Limited, 2008. ISBN-978-1-84800-032-2",
+            "Engineering Economy by W. G. Sullivan, E. M. Wicks and C. P. Koelling, Pearson/Prentice Hall, 14th Edition, 2009. ISBN-978-0-13-614297-3"
+        ],
+        [
+            "“A” (Excellent) indicates exceptional achievement;",
+            "“B” (Good) indicates substantial achievement;",
+            "“C” (Satisfactory) indicates acceptable but substandard achievement; and",
+            "“D” (Poor) indicates inadequate achievement and is a failing grade for a graduate student."
+        ],
+        [
+            "Case Study",
+            "Future Worth (FW) Analysis",
+            "Cash Flow Statement"
+        ],
+        [
+            "Operatinig Activties",
+            "Investing Activities",
+            "Financing"
+        ],
+        [
+            "Understand the theoretical and conceptual basis of evaluation and funding of capital projects.",
+            "Appreciate the difficulty, complexity, and risks involved in investment decisions.",
+            "Make informed financial decisions when participating as a team member in a project or when leading the project as a technical manager.",
+            "Acquire skills to analyze practical problems, and the ability to convey the results.",
+            "Understand the time value of money and its application in the decision-making process.",
+            "Perform various economic and financial analyses using appropriate tools and techniques"
+        ],
+        [
+            "L1",
+            "L2",
+            "L3",
+            "L4",
+            "L5",
+            "L6",
+            "L7"
+        ],
+        [
+            "Core Concepts of Time Value of Money: Understand how the value of money changes over time due to interest, and learn to represent cash flows using cash flow diagrams.",
+            "Practical Financial Calculations: Master simple and compound interest calculations, as well as using Excel functions like Future Value (FV) and Present Value (PV) for streamlined financial analysis."
+        ],
+        [
+            "Practice Core Calculations: Gain hands-on experience by solving interest calculations and working with financial data.",
+            "Explore Excel Functions: Learn to use Excel for calculating future and present values, streamlining your financial analysis.",
+            "Collaborate and Discuss: Participate in discussion forums to share insights and clarify concepts with your peers.",
+            "Watch and Learn: Dive into curated video resources that simplify complex topics and enhance your learning experience."
+        ],
+        [
+            "Core Financial Strategies: Learn the fundamentals of borrowing, lending, and investing, and how they influence financial outcomes.",
+            "Planning for the Future: Understand how to establish a planning horizon to align financial decisions with long-term goals.",
+            "Applying MARR Principles: Master the concept of the Minimum Attractive Rate of Return (MARR) to evaluate the viability of investments effectively"
+        ],
+        [
+            "Explore Real-World Scenarios: Analyze practical examples of borrowing, lending, and investing to see how these financial strategies are applied in both personal and organizational contexts.",
+            "Plan for Long-Term Success: Work on creating a planning horizon that aligns with financial objectives, fostering strategic thinking and goal-setting.",
+            "Develop Analytical Skills: Learn to evaluate investment opportunities using the Minimum Attractive Rate of Return (MARR), gaining insights into financial feasibility.",
+            "Engage with Dynamic Resources: Access engaging video content and interactive materials that simplify complex financial concepts.",
+            "Collaborate with Peers: Participate in discussions to exchange ideas, clarify concepts, and learn from diverse perspectives."
+        ],
+        [
+            "Master Financial Worth Methods: Learn how to calculate present, future, and annual worth for single and multiple project alternatives.",
+            "Apply Worth Analysis to Diverse Scenarios: Evaluate financial decisions using techniques such as payback periods, capitalized worth, and capital recovery costs.",
+            "Develop Strategic Decision-Making Skills: Build confidence in assessing the long-term economic impact of projects, ensuring sustainable and informed financial decisions."
+        ],
+        [
+            "Learn Core Analysis Techniques: Understand how to compute present, future, and annual worth for single and multiple alternatives.",
+            "Evaluate Real-World Investments: Apply methods such as payback periods and capitalized worth to real-world financial and project scenarios.",
+            "Watch and Practice: Access curated video tutorials that break down complex topics and guide you through key calculations step-by-step.",
+            "Collaborate and Reflect: Engage with peers in discussion forums to clarify concepts, share insights, and build confidence in your understanding."
+        ],
+        [
+            "Understand Financial Viability: Learn to calculate the Rate of Return (ROR) to evaluate and compare the profitability of projects and investments.",
+            "Master Depreciation Methods: Gain proficiency in calculating depreciation and understanding its effects on financial statements and tax planning.",
+            "Apply to Real-World Financial Analysis: Use practical scenarios to build confidence in evaluating financial performance and making strategic decisions."
+        ],
+        [
+            "Discover Depreciation Techniques: Explore methods to calculate depreciation and evaluate its impact on asset valuation and financial reporting.",
+            "Apply Concepts to Real Scenarios: Use practical examples and case studies to analyze the financial viability of investments and understand asset management strategies.",
+            "Access Dynamic Video Content: Watch curated tutorials that simplify complex concepts and provide step-by-step guidance for calculations.",
+            "Collaborate with Peers: Participate in discussion forums to clarify key topics, share insights, and build a deeper understanding of financial performance metrics."
+        ],
+        [
+            "Evaluate Investment Opportunities: Understand how to assess indivisible, divisible, and independent investments for financial feasibility.",
+            "Develop Strategic Budgeting Skills: Learn to allocate resources effectively to achieve maximum financial and organizational impact.",
+            "Apply Capital Budgeting to Real-World Scenarios: Build confidence in using budgeting principles to prioritize and evaluate competing projects."
+        ],
+        [
+            "Apply Budgeting Principles: Use real-world scenarios to practice making strategic decisions about resource allocation and project prioritization.",
+            "Watch and Reflect: Access engaging video content that breaks down complex budgeting concepts into clear, actionable steps.",
+            "Collaborate and Share Insights: Participate in discussion forums to refine your understanding of capital budgeting strategies and learn from your peers.",
+            "Complete Targeted Exercises: Reinforce your knowledge through homework assignments that apply budgeting concepts to practical investment scenarios."
+        ],
+        [
+            "Evaluate Asset Replacement Decisions: Learn to conduct replacement analysis to determine when and how to replace existing assets for maximum financial efficiency.",
+            "Understand Inflation’s Financial Impact: Gain insights into how inflation affects long-term financial planning and investment strategies.",
+            "Apply Concepts to Real-World Financial Scenarios: Build confidence in using replacement and inflation analysis to improve decision-making in professional contexts."
+        ],
+        [
+            "Analyze Inflation Trends: Understand how inflation influences financial decisions and long-term investment strategies.",
+            "Apply Insights to Real-Life Scenarios: Work on examples that demonstrate the practical application of replacement analysis and inflation effects.",
+            "Engage with Interactive Resources: Watch video tutorials and explore dynamic tools that simplify key concepts and calculations.",
+            "Collaborate in Discussions: Participate in forums to exchange ideas, ask questions, and gain new perspectives on asset management and inflation planning."
+        ],
+        [
+            "Master Financial Statement Analysis: Learn to interpret balance sheets, income statements, and cash flow statements for insights into financial health.",
+            "Understand Financial Ratios: Calculate and analyze ratios to evaluate profitability, liquidity, efficiency, and solvency."
+        ],
+        [
+            "Apply Financial Ratios to Evaluate Success: Explore key ratios such as profitability, liquidity, and efficiency, and use them to assess a company’s financial health.",
+            "Analyze Real-World Examples: Study a detailed case of Walmart’s financial performance to connect theoretical concepts to practical applications.",
+            "Engage with Video Tutorials: Access clear, engaging videos that guide you through financial statement analysis and ratio calculations.",
+            "Collaborate with Peers: Share insights and clarify concepts in discussion forums to deepen your understanding of financial reporting and analysis."
+        ],
+        [
+            "Master Financial Worth Methods: Learn how to calculate present, future, and annual worth for single and multiple project alternatives.",
+            "Apply Worth Analysis to Diverse Scenarios: Evaluate financial decisions using techniques such as payback periods, capitalized worth, and capital recovery costs.",
+            "Develop Strategic Decision-Making Skills: Build confidence in assessing the long-term economic impact of projects, ensuring sustainable and informed financial decisions."
+        ],
+        [
+            "Learn Core Analysis Techniques: Understand how to compute present, future, and annual worth for single and multiple alternatives.",
+            "Evaluate Real-World Investments: Apply methods such as payback periods and capitalized worth to real-world financial and project scenarios.",
+            "Watch and Practice: Access curated video tutorials that break down complex topics and guide you through key calculations step-by-step.",
+            "Collaborate and Reflect: Engage with peers in discussion forums to clarify concepts, share insights, and build confidence in your understanding."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "http://direct.mbsbooks.com/psude.htm",
+            "url": "http://direct.mbsbooks.com/psude.htm"
+        },
+        {
+            "text": "Operatinig Activties",
+            "url": "#tab-operatinigactivties"
+        },
+        {
+            "text": "Investing Activities",
+            "url": "#tab-investingactivities"
+        },
+        {
+            "text": "Financing",
+            "url": "#tab-financing"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "A cash flow diagram showing a $1,000 expense at time 0 and a $2,000 income at time 5.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/ENGMT-510-cash-flow.gif"
+        },
+        {
+            "alt": "A cash flow diagram showing multiple cash inflows and outflows over five time periods.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/image-2.png"
+        },
+        {
+            "alt": "A table showing end-of-year (EOY) cash flows for years 10 through 18, including both positive and negative values.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/image-3.png"
+        },
+        {
+            "alt": "A table showing cash flows and their future worth calculations at a 5% interest rate for various end-of-year periods.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/image-4.png"
+        },
+        {
+            "alt": "**Alt Text:** A table showing cash flows and their future worth calculations at a 5% interest rate for end-of-year periods 10 through 18, with a total sum of $11,026.56.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/image-5.png"
+        },
+        {
+            "alt": "A table displaying end-of-year cash flows and future worth calculations using formulas with a 5% interest rate for periods 10 through 18.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/image-6.png"
+        },
+        {
+            "alt": "A table comparing cash flows, net cash flows, and future worth for Vendor A and Vendor B software projects at a 10% minimum acceptable rate of return (MARR), concluding that Vendor B is the better choice based on the highest future worth.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/image-7.png"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Assignment Category",
+                "Quantity",
+                "% of Final Grade"
+            ],
+            [
+                "Weekly Individual Homeworks",
+                "5",
+                "30%"
+            ],
+            [
+                "Midterm Exam",
+                "1",
+                "30%"
+            ],
+            [
+                "Final Exam",
+                "1",
+                "40%"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"3542\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

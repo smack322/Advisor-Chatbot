@@ -1,0 +1,666 @@
+{
+    "metadata": {
+        "title": "BUSAD 885: Research in Security Valuation – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=5222"
+    },
+    "headings": {
+        "h2": "Lesson 7: Final Project Report and Presentation",
+        "h4": "Unlocking Your Potential",
+        "h5": "Course Structure",
+        "h3": "Framework for Forecasting Performance"
+    },
+    "paragraphs": [
+        "BUSAD 885 is a comprehensive course designed to immerse students in the analysis and valuation of equity investments, emphasizing the use of fundamental analysis. This three-credit course prepares students to evaluate a firm’s equity securities within the financial markets, providing a solid foundation in valuation techniques suited to diverse scenarios such as financial distress, private enterprises, and start-ups with limited earnings.",
+        "Through a combination of in-depth readings and hands-on activities, this course integrates key concepts from accounting, financial analysis, and quantitative methods. Students will explore the interplay between financial statements, monetary policy, and market operations, gaining a holistic perspective on how these factors influence equity valuation. The course also delves into managerial effectiveness, risk management strategies, and global market operations—essential elements in assessing firm value.",
+        "The primary deliverables for BUSAD 885 include comprehensive equity valuation analyses using real-world scenarios and case studies. By the end of the course, students will have developed the skills to apply advanced valuation techniques, interpret the implications of market regulations, and identify strategies that enhance value creation.",
+        "Upon completion, students will be well-equipped to produce high-quality equity valuation reports, empowering them to make informed investment decisions and pursue advanced roles in finance and equity analysis.",
+        "BUSAD 585 focuses on the analysis and valuation of a firm’s equity securities in the financial market using fundamental and market multiples analyses. The course integrates topics discussed in previous finance courses to help students develop their analytical ability to identify corporate strategies that enhance value creation. The philosophical basis for this topical integration is that the valuation of a firm’s securities requires one to know not only the accounting issues involved in the preparation of financial statements and how to analyze financial statements but also to understand the impact of monetary policy, as well as the operation and regulation of financial markets on the value of the firm’s equity securities. Moreover, because firm value depends on how well the company is managed, a good understanding of its operations in the global markets, its internal control, and risk management strategy is also essential. Finally, because valuation is also based on quantitative models, knowledge of quantitative methods is paramount.",
+        "Completion of all core courses in the Master of Finance program",
+        "After completing this course, you should be able to:",
+        "The following textbook is required and may be purchased from the Barnes and Noble College website:",
+        "For pricing and ordering information, please see the Barnes & Noble College website.",
+        "Materials will be available at Barnes & Noble College approximately three weeks before the course begins. It is very important that students purchase the correct materials. If your course requires one or more textbooks, you must have exactly the correct text required (edition and year).",
+        "Harvard Business Review (HBR) Articles: The following materials can be purchased from the Harvard Business Review (HBR) website.",
+        "To Access Harvard Business Review Articles: Access the HBR Coursepack Readings from the HBR website and make sure to register so you can access your course readings. (You will need to register, but you do NOT need to subscribe.) You will need to purchase your HBR readings using your credit card. The approximate cost is $8.  To read PDF articles, make sure you have Adobe Reader, which you can download for free from the Adobe.com website. For technical assistance contact Harvard Business School Publishing at 1-800-810-8858.",
+        "The following materials are good to have for those seeking a CFA ®designation.",
+        "Proctored Exams – None.",
+        "The instructor will present the relevant theory or framework and some examples to illustrate the use of valuation techniques. Students’ prior exposure to accounting, economics, quantitative methods, and Excel modeling will be instrumental in learning the material in this course. Familiarity with business strategy is also useful. The motto in this course is “learning by doing,” not “learning by watching.” Most of the learning in this course occurs through the application of the methodology in class discussions, case analyses, and the final project. To this end, the instructor will serve mostly as a facilitator and will be available to provide general guidance.",
+        "A grade is given primarily on the basis of the instructor’s judgment as to the student’s scholarly attainment. Students are encouraged to seek the instructor’s input during the process of completing each course requirement. Students are reminded that a letter grade of A is given to students who do exceptional work in both the quality of communicating ideas/information and the level of scholarship demonstrated, not simply for completion of assignments or meeting minimal requirements set for assignments.",
+        "*Student work will be graded according to the following grading scheme:",
+        "A = 94-100, A- = 90-93.99, B+ = 87-89.99B = 84-86.99, B- = 80-83.99, C+ = 77-79.99, C = 70-76.99, D = 60-69.99, F = Below 60",
+        "Note: The Scholarship and Research Integrity (SARI) Ethics Assignment is ungraded. Even though this assignment is not graded, the submission of this assignment is still mandatory for final grade release.",
+        "The maximum possible total score earned in the course is 150. At the end of the course, the total course score is determined as a percentage of the maximum possible total score of 150. Decimal points for this percentage score will follow the normal convention of rounding up or down. For example, a percentage score of 93.3% will be rounded down to 93%. Then, the letter grade will be determined by converting your percentage score above using the scale below.",
+        "Students will be asked to participate in ongoing online activities and discussions. Students should refer to the course schedule to view the required deadlines for discussion forums, which will be graded based on the criteria listed in the course rubrics.",
+        "Even though this assignment is not graded, the submission of this assignment is mandatory for final grade release.",
+        "The purpose of this assignment is two-fold. First, it is intended to familiarize students with the Chartered Finance Analyst (CFA) Institute Code of Ethics and Standards of Ethical Conduct, in particular those standards that are relevant to preparing, presenting, and disseminating information related to investment analysis and recommendations. This ethical training further complements the University’s Scholarship and Research Integrity (SARI) requirements. The second objective is to refresh your skills in using YouSeeU in preparation for the final project presentation.",
+        "For the SARI Ethics assignment, your group will select a topic from the Chartered Finance Analyst (CFA) Institute Code of Ethics and Standards of Ethical Conduct. There are four parts to this project, including:",
+        "*Additional instructions for the SARI Ethics Assignment can be found within the corresponding lesson material (Lessons 4 and 5).",
+        "There will be a total of five (5) homework assignments that are required to be completed as individual work. Please check the course schedule to see when the homework assignments are due and which exercises are required to be completed for each homework assignment. You need to complete these assignments using Excel. Additionally, your work will be graded based on the criteria listed in the course rubrics.",
+        "It is very important that you complete and submit all the homework assignments in order to master the materials, keep up with the course progress, and do well in the course.",
+        "The objective of this project is to analyze a firm’s historical performance, to identify, recognize, analyze, and understand the firm’s strategies that lead to shareholder value creation or destruction, and to place an economic value on the shareholders’ claim in the publicly-traded company of your choice using the valuation techniques developed in class. The guidelines for this project are divided into two parts: Historical Performance Analysis and Company/Stock Valuation, which are discussed in more detail in the Specific Guidelines section found in the course modules.",
+        "The project will be completed in groups and is due at the end of Week 6 of the course (please check the course schedule for the due date). Please form a group of three (3) or four (4) members, including yourself. Please select your group members and notify the instructor of your selection of group work and group members by the end of the first week. For group work, each group member will be required to submit a peer evaluation form to evaluate her/his groupmates, but not herself/himself. Although the project is not due until the end of Week 6, a suggested timeline is provided for your groups to follow that will assist you with time management, but it is up to your group to decide on a final approach.",
+        "In general, any manufacturing and retail publicly traded company listed on the NYSE, ASE, or NASDAQ is eligible. Companies discussed in previous classes (e.g., Walmart. Target, Costco) are not to be chosen. Each group must choose a different company. Avoid financial services (e.g., banks, insurance) and multi-divisional companies (e.g., GE) at this time. Valuing these types of firms is conceptually more difficult.",
+        "As a start, your group may want to look at a company in which you have great interest (maybe you own its stock, work in the company, and have stock options, or whatever). Alternatively, you may want to look at a company that is doing very well or very poorly.",
+        "Your group will need to choose a company by no later than the end of Week 2 and inform the course instructor.",
+        "Reports will be evaluated on both the quality of the analysis as well as the effectiveness of the communication. Constructive use of tables and graphs is encouraged; extensive sensitivity analysis or Monte-Carlo simulation without a concrete interpretation is not encouraged. The report should not exceed 20 double-spaced typewritten pages, including tables or graphs. You should use a 12-point font and 1-inch margins on each side. There is a format suggestion draft document as well as the principles that the report should conform to available to students in the course. Additionally, students can also refer to the Specific Guidelines document in the course, as it will provide information in regards to how your analysis should be conducted and how the report will be graded. The report is due at the end of Week 6.",
+        "To assist students with group discussions, a group discussion forum will be set up so that only the members of each group can access their group discussion forum as a means to communicate. Feel free to use the forum as often as you need to when completing the final project. You can also use other means of communication with your group, such as Collaborate, Skype, e-mail, phone, etc., whichever communication tool works best for your group.",
+        "Each group is to present its analysis and findings associated with the Company/Stock Valuation by the end of Week 6 so class reviewing can be completed in Week 7 (please check the course schedule for the due date). The presentation should not be technical or too detail-oriented.",
+        "The idea is to highlight the company’s overall strategy and how it relates to firm value. Your classmates and the instructor will view and evaluate your presentation. Treat your classmates as fellow equity research analysts or portfolio managers, who are eager to hear what you have to say about the company that you cover. The presentation should not take more than 30 minutes. Each group will complete one presentation and it should be submitted using YouSeeU. As a reminder, all students will need to access the YouSeeU site to be automatically enrolled in the BUSAD 585 YouSeeU course space.",
+        "Each group member will then complete their video recording of their assigned section using YouSeeU. Once the video is completed, you will then need to sync your PowerPoint slides with your video recording. Note: Each group member will be able to see each member’s presentation and accompanying slides for each section of the presentation. Once all group members’ videos and slides have been uploaded, any of the group members can designate the order of the videos. Presentations are due by the end of Week 6 so class viewing may begin in Week 7. Presentations will also be viewed via YouSeeU.",
+        "group presentations will be graded based on the completion of the presentation evaluations and the peer evaluations of group members. See each of those sections for more information.",
+        "Finally, after your group has completed the Final Project Report and Presentation, each member will need to complete a peer evaluation each group member. The grading criteria for the Final Project Peer Review can be found in the grading section.",
+        "Each student is required to view and evaluate each of the recorded group presentations other than their own using the Final Project Presentation Evaluation form in the course. The recorded group presentations will be viewed through YouSeeU and will include PowerPoint slides.",
+        "Your participation in viewing and evaluating the group presentations will count towards the individual final project presentation evaluation grade. Please keep in mind that since there are no assigned readings or lecture notes for Week 7, the review, evaluation, and discussion of group presentations will serve as the lesson for the last week of class. The evaluations are due at the end of Week 7. Individual student ratings for the group presentations will not be disclosed by the instructor to any other students in the course. Please Note: Each student needs to submit this presentation evaluation form, evaluating each group presentation, and an entry response is required for ALL fields on the form.",
+        "The score from each presentation evaluation form will then be averaged to indicate the peer review of the presenting group by the non-presenting students. The final presentation evaluation score for the presenting group will be based on the weighted average of the student peer review/evaluation (80%) and the instructor’s evaluation (20%). Please make sure you add the name of the presenting group and/or company being evaluated in the evaluation form.",
+        "Group Assignment (Reviewing Team)",
+        "Please keep in mind that since there are no assigned readings or lecture notes for Week 7, the group presentation review, discussion, and evaluation will serve as the lesson for this last week of class.",
+        "Each group will be assigned one group that they need to review by 3 a.m. Wednesday. After the reviewing group has completed their review of the assigned presenting group, the reviewing group will also need to compose a question for the assigned presenting group and post it to the discussion forum by creating a new thread by 3 a.m. Wednesday.",
+        "Please see the table in the Final Project description page found on the Canvas Syllabus page for the group assignments. Note: The schedule may need to be modified after the instructor finalizes group selections at the end of Week 1. Any changes will be communicated to students as soon as they are finalized. After the non-presenting group has completed their review of the presenting group and composed their question, one member from the non-presenting group should post the question to a new thread within the discussion forum by 3 a.m. Wednesday.",
+        "Group Assignment (Presenting Team)",
+        "The presenting group will then need to post a response to the reviewing group’s question by 3 a.m. Friday. After the presenting group has answered the question of the reviewing group, one member from the presenting group should post the answer to the thread in the discussion forum.",
+        "The group discussions will be graded based on the criteria listed in the Final Project Discussion Grading Rubric.",
+        "Individual Assignment (Optional)",
+        "Students will be able to review all questions posted by reviewing groups and the responses posted to the questions by the presenting groups in the Final Project Discussion Forum. Students are encouraged but are not required to individually participate in the discussion after the presenting groups have posted their responses. *Note: This is an ungraded assignment.",
+        "*subject to change",
+        "Let’s take a look at another use of ratio analysis: assessing the likelihood of bankruptcy.",
+        "To assess the likelihood that a firm will go bankrupt, we can use the methodology developed by Altman (1968). [23] In his paper, Altman constructed a composite score called the Z­-Score as follows:",
+        "Equation 1.1.:",
+        "The value in front of each ratio on the right-hand side of the Z-Score above represents each ratio’s weight (coefficient) in the formula.  Note that the first four ratios on the right-hand side of the Z-Score equation need to be expressed as a percentage, not a decimal number. For example, if the Working Capital to Total Assets ratio is 0.257, it has to be stated as 25.7. The last ratio, Sales to Total Assets, is expressed as a decimal. For example, Sales to Total Assets ratio of 1.45 is stated as 1.45, not 145. Note also that other publicly searchable sources may show different weights than those in the above formula. You should not be alarmed by the difference as it has to do only with the switch between percentage and decimal. For example, other sources may use 1.2 as the weight for Working Capital to Total Assets ratio. When this is the case, the ratio should be expressed as a decimal number.",
+        "Although several of the five ratios that make up the Z-Score formula may not look familiar to you, they are related to the ratios discussed in ACCTG 512. For example take a look at each of the ratios and their meanings in the table below.",
+        "Except for the market value of equity, other variables that make up the Z-Score can be extracted from the company’s financial statements in any given year.  The calculation of Z-Score, given the definition of five ratios contained therein, is straightforward.",
+        "How do we use the Z-Score formula to assess the likelihood of bankruptcy? To help with this task, we can use the following criteria:",
+        "Example: Enron",
+        "Now, let’s apply the above criteria to an actual company, Enron.  As everyone knows, Enron filed for bankruptcy in 2001.  For each year over the 1995 – 2000 period, Enron’s Z-Score is given below. [24]",
+        "Note that in each year from 1995 through 1998, Enron’s Z-Score was below 1.81. There was an improvement in Z-Score for 1999 and 2000, but it was still below what could be considered a respectable score.",
+        "In relative valuation, we use price multiples to estimate the value of an asset. In the case of stocks, price multiples are simply ratios of stock price to a standardized measure of value such as earnings per share, book value of equity per share, or sales per share. Because relative valuation involves estimating the market price of an asset by using information available for comparable (similar) assets, the valuation process requires us to do the following tasks (see Damodaran’s notes cited in the readings list for this lesson):",
+        "The straightforward part of task a) above is obtaining market values. As we are dealing with stocks of publicly traded companies, we can get the stock prices from the Wall Street Journal, Value Line, Yahoo Finance, Google Finance, or other sources. Identifying the comparable assets is trickier. How should an analyst identify comparable companies? Should the companies be chosen from the same industry as the company being analyzed? Even if companies from the same industry have been chosen, many companies have several lines of businesses. In this case, should the analyst look at the line of business based on the highest revenue generated, the greatest investment in asset, or the highest profits? One could also argue that defining comparable companies using industry or line of business classification is too narrow because companies with similar growth, cash flow, and risk characteristics could be considered comparable companies as well. There is no clear-cut solution to this problem.  Nevertheless, analysts typically use industry or sector classification.",
+        "Task b) is accomplished by dividing market price with a common variable across comparable assets, such as earnings, book value of equity, revenues, cash flows, or some other industry-specific variable. Creating price multiples requires that both the numerator and denominator are variables for the same claim holders in the firm. This requirement implies that if the numerator is the price of common stock, then the denominator must be a variable that is directly related to the common stockholders. Also, because stock price is stated on a per share basis, the common denominator must be stated on a per share basis as well. For example, P/E ratio is the ratio of the market price of common stock to earnings per share (EPS). It is also important to note that the common denominator variable must be measured in the same way. Take EPS as an example, should we measure it based on the most recent EPS, or future (expected) EPS? What if the company has no net income (hence, zero EPS or negative EPS in the case of net loss)? In addition, what about the effect of accounting practice used by the firm on EPS (e.g., the effect of FIFO versus LIFO on EPS)? The key here is to be consistent in the measurement of the variables used in the ratios.",
+        "Once tasks a) and b) have been completed, we need to make a judgment about the asset’s over or undervaluation by comparing its price multiple with the price multiples of comparable assets. Making a comparison without controlling for any possible firm-specific differences would be naïve. For example, suppose the P/E ratio of firm A’s stock is 30, while that of firm B’s stock is 10. Can we tell which stock is “expensive” or “cheap” by simply comparing their P/E ratios without controlling for firm-specific differences?",
+        "Thus, task c) requires us to understand the drivers of the price multiples so that justifiable comparison can be made.",
+        "When forecasting a company’s performance, a financial analyst needs to develop a set of assumptions about the company’s future outlook. Developing a reasonable set of assumptions requires one to assess the firm’s historical performance within the context of its industry and economic environments. This task represents the most critical and challenging part of any valuation exercise because the future is unlikely to be the same as the past. When performing this task, it is important to remember that:",
+        "As such, conducting a valuation analysis requires one to ask the following questions:",
+        "The Discounted Cash Flow (DCF) valuation (see BUSAD 826 or Lesson 4) requires you to compute the asset’s (i.e., stock or firm) value as:",
+        "Equation 3.1.",
+        "This course will provide you with a thorough introduction to:",
+        "During this course you will expand your knowledge of the lesson topics each week.",
+        "This lesson serves as the cornerstone for the course, focusing on the foundational link between a company’s strategic decisions, its financial performance, and the valuation of its equity. By exploring these interconnections, you’ll gain a clearer understanding of how businesses create or destroy value.",
+        "By the end of this lesson, you will have established a strategic lens for evaluating how a company’s decisions affect its performance and market valuation. This foundational knowledge will set the stage for applying valuation techniques in later lessons.",
+        "This lesson explores the “method of comparables,” a widely-used approach to asset valuation that leverages the pricing of similar assets in the market. You’ll delve into the fundamentals of relative valuation, focusing on popular tools such as price multiples and enterprise value multiples, with special emphasis on the Price to Earnings (P/E), Price to Book (P/B), and Price to Sales (P/S) ratios.",
+        "By the end of this lesson, you will have the confidence to apply relative valuation techniques and integrate them into broader valuation frameworks, equipping you to make strategic investment decisions.",
+        "This lesson focuses on forecasting a firm’s future performance by analyzing past successes and failures, incorporating insights from industry trends, and considering the dynamic nature of economic environments. You’ll build a foundation for pro-forma financial statements and prepare for the Discounted Cash Flow (DCF) valuation techniques covered in a future lesson.",
+        "By the end of this lesson, you will have a deeper understanding of how to thoughtfully analyze a company’s future trajectory and translate these insights into actionable financial forecasts. This knowledge will be crucial for mastering advanced valuation techniques.",
+        "This lesson dives into the practical application of the Discounted Cash Flow (DCF) valuation approach using eVal, while also introducing the Residual Income (RI) Valuation method as an alternative technique. Additionally, you’ll explore the ethical responsibilities of financial investment professionals, focusing on standards relevant to securities research and the responsible use of information.",
+        "By the end of this lesson, you’ll have a robust understanding of advanced valuation techniques and the ethical considerations that underpin professional financial practices, equipping you for practical application in the field.",
+        "This final lesson introduces advanced techniques to refine your valuation analysis, including sensitivity and scenario analyses, as well as Monte Carlo Simulation. Additionally, you’ll learn how to effectively interpret and present your valuation findings, equipping you to deliver impactful and data-driven conclusions.",
+        "By completing this lesson, you’ll master the skills to elevate your valuation analysis with robust techniques and communicate your results effectively, preparing you for real-world applications in finance and investment.",
+        "This lesson focuses on synthesizing your learning from previous lessons to conduct a comprehensive valuation analysis of a publicly traded company. Working in groups, you’ll evaluate historical performance, perform detailed valuations, and present your findings through a report and recorded presentation. You’ll also engage in peer reviews and discussions to enhance your understanding and collaboration skills.",
+        "By the end of this lesson, you’ll have completed a full-scale valuation analysis and honed your ability to work in teams, communicate results, and apply ethical practices to financial research. These skills will prepare you for real-world challenges in equity analysis and investment decision-making.",
+        "This lesson emphasizes the critical evaluation of team presentations, providing an opportunity to reflect on diverse approaches to valuation analysis. Through structured peer review, you’ll refine your analytical skills and gain new insights into valuation techniques and presentation strategies.",
+        "By the end of this lesson, you’ll have strengthened your ability to evaluate financial analysis critically and communicate constructive feedback effectively. These experiences will sharpen your skills for professional collaboration and leadership in financial decision-making.",
+        "BUSAD 885: Research in Security Valuation equips students with advanced analytical and valuation skills that are essential for careers in finance, investment analysis, and corporate strategy. By mastering techniques such as Discounted Cash Flow (DCF) analysis, Relative Valuation, and Monte Carlo simulations, graduates are prepared to tackle complex challenges in equity research, portfolio management, and financial consulting. The course’s emphasis on ethical standards, strategic frameworks, and data-driven decision-making ensures that students develop a well-rounded skill set that is highly valued in the industry.",
+        "Graduates who have completed this course often pursue roles such as Equity Research Analyst, Financial Analyst, Valuation Consultant, and Portfolio Manager. The comprehensive approach to security valuation combined with hands-on applications makes BUSAD 885 an excellent steppingstone for professionals aspiring to work at investment firms, financial advisory companies, or corporate finance departments.",
+        "A real-world example of a security valuation challenge can be seen in the retail industry. A private equity firm was evaluating a publicly traded retail company for potential acquisition. The company appeared undervalued in the market, but its historical performance was inconsistent due to shifting consumer trends and supply chain disruptions. The firm needed to determine whether the company’s current market price reflected its intrinsic value or if it was a worthwhile investment opportunity.",
+        "Initially, the valuation relied heavily on basic market multiples, which failed to account for the company’s evolving business strategy and external economic factors. This resulted in an incomplete analysis that undervalued potential growth opportunities, such as expansion into e-commerce and partnerships with third-party logistics providers. Recognizing the limitations, the firm enlisted a valuation expert trained in techniques such as Discounted Cash Flow (DCF) and Residual Income (RI) analysis.",
+        "The expert conducted a detailed historical performance analysis, identifying key drivers of value creation, such as the company’s competitive pricing strategy and strong customer loyalty. They integrated sensitivity and scenario analyses to account for uncertainties in market conditions, using Monte Carlo simulations to test various growth and risk scenarios. Additionally, the valuation incorporated qualitative assessments of industry trends and economic forecasts to refine assumptions.",
+        "This thorough approach revealed that the company’s intrinsic value was significantly higher than its current market price, supported by robust growth prospects in e-commerce and operational efficiencies. The firm successfully acquired the company, and within two years, the investment yielded substantial returns, driven by strategic growth initiatives. This example underscores the critical role of effective security valuation techniques, as taught in BUSAD 885, in making informed investment decisions and maximizing shareholder value.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Analyze the firm’s financial statements and compare them to industry and key competitors;",
+            "Recognize, analyze, and understand the firm’s competitive advantage within the domestic and global markets, as well as corporate strategies aimed at the creation, transfer, and destruction of shareholder value;",
+            "Develop financial projections consistent with the firm’s core competence and strategies within its operating environment; and",
+            "Provide an integrated perspective of the firm’s valuation in the marketplace."
+        ],
+        [
+            "Lundholm, R., & Sloan, R. (2019). Equity Valuation and Analysis, Fifth Edition. CreateSpace Independent Publishing Platform. ISBN#: 978-1079983357\n\nWe will also access the eVal software, which accompanies the textbook. See the Lundholm & Sloan text for detailed information about how to use the software.",
+            "We will also access the eVal software, which accompanies the textbook. See the Lundholm & Sloan text for detailed information about how to use the software.",
+            "(Decision Tools Suite – Version 7) @Risk software and Guide to Using @RISK – Risk Analysis and Simulation\n\nNote: A link to the Decision Tools Suite (@RISK) software is provided in the Student Resources Module.",
+            "Note: A link to the Decision Tools Suite (@RISK) software is provided in the Student Resources Module."
+        ],
+        [
+            "We will also access the eVal software, which accompanies the textbook. See the Lundholm & Sloan text for detailed information about how to use the software."
+        ],
+        [
+            "Note: A link to the Decision Tools Suite (@RISK) software is provided in the Student Resources Module."
+        ],
+        [
+            "Porter, M. E. (2008). The five competitive forces that shape strategy. (Harvard Business Review)",
+            "Schill, Michael J. (2005). The thoughtful forecaster. (Darden Business Publishing via Harvard Business Review)"
+        ],
+        [
+            "Larrabee, D. & Voss, J., Editors. (2013). Valuation Techniques: Discounted Cash Flows, Earnings Quality, Measures of Value Added, and Real Options. John Wiley & Sons. (Within the course we may refer to this text as LV) ISBN#: 978-1-1183-9743-5.",
+            "McKinsey & Company, Inc., Koller, T., Goedhart, M., & Wessels, D. (2010). Valuation: Measuring and Managing the Value of Companies. Fifth Edition. John Wiley & Sons. ISBN#: 978-0470424650.",
+            "Pinto, J., Henry, E., Robinson, T., Stowe, J. & Wilcox, S.  (2020). Equity Asset Valuation. Second Edition. John Wiley & Sons. (Within the course we may refer to this text as PHRS) ISBN#: 978-1-62810-1 (Hardcover)"
+        ],
+        [
+            "Microsoft Excel will be used extensively in this course, and at the minimum, students are expected to have an introductory level of skills in Excel by the end of the first week. If you feel your Excel proficiency is lacking, please go to PSU’s Software page to access self-paced video tutorials"
+        ],
+        [
+            "Optional activity: Students are encouraged but are not required to individually participate in the discussion after the takeaways have been posted. This is individual-based and optional."
+        ],
+        [
+            "Calculating, Interpreting, and Communicating Valuation Results",
+            "Strategy-Performance-Valuation Relationship",
+            "Relative Valuation",
+            "Forecasting, Equity Risk Definition and Measurement, Cost of Capital",
+            "Discounted Cash Flow (DCF) Valuation, Residual Income, and Ethics"
+        ],
+        [
+            "Likelihood of Bankruptcy",
+            "Relative Valuation",
+            "Forecasting Performance"
+        ],
+        [
+            "Z-Score < 1.81: a company with a Z-Score below 1.81 is bankrupt or very likely to go bankrupt",
+            "Z-Score > 2.99: a company with a Z-Score above 2.99 is non-bankrupt or not likely to go bankrupt",
+            "Z-Score between 1.81 and 2.99: a company with a Z-Score within this range falls in the gray area."
+        ],
+        [
+            "The principles and techniques of equity valuation, including Discounted Cash Flow (DCF) and Relative Valuation methods.",
+            "Strategies for analyzing a firm’s historical performance and identifying value creation or destruction.",
+            "Approaches to integrating qualitative and quantitative data into valuation models.",
+            "The application of sensitivity, scenario, and Monte Carlo analyses to enhance valuation accuracy.",
+            "Ethical standards and their relevance to securities research and valuation practices.",
+            "Effective communication of valuation results through professional reporting and presentations."
+        ],
+        [
+            "L1",
+            "L2",
+            "L3",
+            "L4",
+            "L5",
+            "L6",
+            "L7"
+        ],
+        [
+            "Explore Strategy and Performance: Examine how corporate strategies impact a company’s financial outcomes and overall value creation.",
+            "Differentiate Value Creation and Destruction: Analyze examples of strategies that either enhance or diminish a firm’s value in the marketplace."
+        ],
+        [
+            "Case Study Analysis: Examine real-world examples of strategic decisions and their impact on firm valuation.",
+            "Strategic Framework Exercise: Begin developing a framework to systematically evaluate a company’s stock."
+        ],
+        [
+            "Understand Relative Valuation: Learn the purpose and popularity of relative valuation and why it’s a go-to method for practitioners.",
+            "Explore Key Ratios: Study the P/E, P/B, and P/S ratios and their applications in assessing a company’s stock value."
+        ],
+        [
+            "Ratio Analysis Exercise: Perform hands-on calculations using P/E, P/B, and P/S ratios for selected companies.",
+            "Case Study Application: Evaluate a real-world company using relative valuation and compare findings to market pricing."
+        ],
+        [
+            "Establish a Forecasting Framework: Build a structured approach to predict future performance, drawing from historical data and industry dynamics.",
+            "Incorporate Market Insights: Use economic forecasts and analyst perspectives to refine assumptions for pro-forma financial statements."
+        ],
+        [
+            "Assumption Development Workshop: Collaborate with peers to create realistic assumptions for pro-forma financial statements using historical data.",
+            "Cost of Capital Estimation: Perform hands-on calculations to estimate the weighted average cost of capital (WACC) for a selected firm."
+        ],
+        [
+            "Perform DCF Valuation in Practice: Learn how to execute the DCF valuation method step-by-step using eVal, applying previously developed financial assumptions.",
+            "Explore Residual Income Valuation: Understand how RI differs from cash flow-based methods while delivering consistent valuation results."
+        ],
+        [
+            "Residual Income Calculation: Apply the RI Valuation approach to assess its outcomes and consistency with cash flow-based results.",
+            "Ethics Case Study: Analyze scenarios related to securities research and ethical challenges, applying the CFA Standards to resolve dilemmas."
+        ],
+        [
+            "Refine Valuation with Advanced Analyses: Integrate sensitivity analysis, scenario analysis, and Monte Carlo Simulation to explore different valuation outcomes.",
+            "Summarize and Interpret Results: Develop the ability to synthesize valuation data into actionable insights for strategic decision-making."
+        ],
+        [
+            "Scenario Analysis Workshop: Collaborate with peers to evaluate how changes in key assumptions impact valuation outcomes.",
+            "Monte Carlo Simulation Exercise: Apply simulation techniques to explore probabilistic scenarios and their implications for valuation."
+        ],
+        [
+            "Analyze Historical Performance: Evaluate a company’s past financial performance and identify strategies that influenced shareholder value.",
+            "Conduct Comprehensive Valuations: Apply techniques such as Relative Valuation, DCF Analysis, and sensitivity analysis to estimate the economic value of the company."
+        ],
+        [
+            "Group Collaboration: Form teams, select a company for analysis, and divide responsibilities for completing the project milestones.",
+            "Report Preparation Workshop: Draft a professional report with constructive use of tables and graphs to communicate findings effectively."
+        ],
+        [
+            "Develop Analytical Skills: Learn to critically assess valuation techniques, presentation clarity, and the effectiveness of financial communication.",
+            "Gain Diverse Perspectives: Explore different approaches to company valuation through peer presentations, broadening your understanding of methodologies."
+        ],
+        [
+            "Peer Presentation Review: Watch recorded team presentations, focusing on how valuation techniques are applied and communicated.",
+            "Structured Evaluation: Complete the Final Project Presentation Evaluation form for each presentation, offering constructive and actionable feedback."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "eVal software",
+            "url": "http://www.lundholmandsloan.com/"
+        },
+        {
+            "text": "Student Resources Module",
+            "url": "https://psu.instructure.com/courses/2219949/modules/4885476"
+        },
+        {
+            "text": "Barnes & Noble College website",
+            "url": "https://bncvirtual.com/psude"
+        },
+        {
+            "text": "PSU’s Software page",
+            "url": "https://student.worldcampus.psu.edu/course-work-and-success/technology-and-software/software"
+        },
+        {
+            "text": "CFA Standards of Practice Handbook Topics list",
+            "url": "https://courses.worldcampus.psu.edu/canvas/master/mst-20220713134813-alm626/common/corefiles/cfa_topics.html"
+        },
+        {
+            "text": "Standards of Practice Handbook, 10th edition, CFA Institute",
+            "url": "http://www.cfapubs.org/doi/pdf/10.2469/ccb.v2010.n2.1"
+        },
+        {
+            "text": "[23]",
+            "url": "https://courses.worldcampus.psu.edu/canvas/master/mst-20220713134813-alm626/content/01_lesson/20_page.html#_ftn23"
+        },
+        {
+            "text": "[24]",
+            "url": "https://courses.worldcampus.psu.edu/canvas/master/mst-20220713134813-alm626/content/01_lesson/20_page.html#_ftn24"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "Z-Score Formula",
+            "src": "https://courses.worldcampus.psu.edu/canvas/master/mst-20220713134813-alm626/content/01_lesson/images/image1_1_zscore_formula.jpg"
+        },
+        {
+            "alt": "Discounted Cash Flow",
+            "src": "https://courses.worldcampus.psu.edu/canvas/master/mst-20220713134813-alm626/content/03_lesson/images/l3_equation_3_1_discounted_cash_flow.jpg"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Assignment Category",
+                "Nature of Work",
+                "Max Score (Points)",
+                "Source"
+            ],
+            [
+                "Homework Assignments(Total of 5; each worth 6 points)",
+                "Individual",
+                "30",
+                "Lessons 1-3"
+            ],
+            [
+                "Discussion Forum Participation(Total of 3; each worth 3 points)",
+                "Individual",
+                "9",
+                "Lessons 1-3"
+            ],
+            [
+                "SARI Ethics Assignment",
+                "Group/Individual",
+                "N/A",
+                "Lessons 4-5"
+            ],
+            [
+                "Final Project Report",
+                "Group",
+                "80",
+                "Lesson 6"
+            ],
+            [
+                "Final Project Peer Review of Group Members",
+                "Individual",
+                "10",
+                "Lesson 7"
+            ],
+            [
+                "Final Project Presentation Evaluation",
+                "Individual",
+                "15",
+                "Lesson 7"
+            ],
+            [
+                "Final Project Discussion Forum",
+                "Group",
+                "6",
+                "Lesson 7"
+            ]
+        ],
+        [
+            [
+                "Ratios",
+                "Definitions"
+            ],
+            [
+                "Working Capital to Total Assets",
+                "This ratio can be thought of as a measure of short-term liquidity (expressed in terms of Total Assets) because Working Capital is short-term in nature."
+            ],
+            [
+                "Retained Earnings to Total Assets",
+                "This ratio is a measure of cumulative profitability because net income after taxes (a measure of net profit) retained over time is cumulated in the retained earnings account."
+            ],
+            [
+                "EBIT to Total Assets",
+                "This ratio is a profitability measure because Earnings Before Interest and Taxes (EBIT) is a measure of (operating) profitability."
+            ],
+            [
+                "Leverage (solvency)",
+                "This ratio is is represented by the Market Value of Equity to Book Value of Debt ratio. Unlike the usual definition of solvency ratio is ACCTG 512, the Z-Score uses a market value measure for equity. Market value of equity is simply the product of stock price per share and the number of outstanding shares. Moreover, debt is measured in terms of total debt."
+            ],
+            [
+                "Sales to Total Assets",
+                "This ratio is simply the Total Asset Turnover ratio."
+            ]
+        ],
+        [
+            [
+                "Year",
+                "1995",
+                "1996",
+                "1997",
+                "1998",
+                "1999",
+                "2000"
+            ],
+            [
+                "Z-Score",
+                "1.6",
+                "1.7",
+                "1.5",
+                "1.8",
+                "2.2",
+                "2.4"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"5222\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

@@ -1,0 +1,654 @@
+{
+    "metadata": {
+        "title": "FIN 805 : Multinational Managerial Finance – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=5968"
+    },
+    "headings": {
+        "h2": "Overview",
+        "h4": "Unlocking Your Potential",
+        "h3": "Lesson 7: Financing in International Markets",
+        "h5": "Late Policy"
+    },
+    "paragraphs": [
+        "FIN 805 prepares students for careers in multinational corporate financial management by equipping them with the knowledge and skills needed to navigate global financial markets. The course focuses on understanding the strategic motivations and decision-making processes behind multinational corporations’ financial strategies, emphasizing their impact on valuation and long-term success. Students will develop the ability to plan, execute, and assess value-creating strategies in investment, financing, and risk management while addressing the unique opportunities and challenges posed by global business environments. This comprehensive approach ensures graduates are well-prepared to thrive in dynamic international financial settings.",
+        "This course aims to prepare students for a career in multinational corporate financial management in a global setting. It helps students appreciate the strategic motivations, decision processes, and valuation consequences of the global financial strategies of multinational corporations. The course facilitates the development of the ability to plan, implement, and evaluate value-adding investing, investment, finance, and risk management strategies in the context of unique opportunities and risks in the global business and financial markets.",
+        "At the completion of the course, you should be able to accomplish the following:",
+        "The following textbook is required.",
+        "Additional Readings and Case Package",
+        "The following materials can be purchased from the Harvard Business Review (HBR) website:",
+        "To access Harvard Business Review articles: Go to the Harvard Business Review (HBR) website and register so you can access your course readings. (You will need to register, but you do NOT need to subscribe.) You will need to purchase your HBR readings using your credit card.  (Each article is discounted at a price of approximately $4.95). For technical assistance, contact Harvard Business School Publishing at 1-800-810-8858.",
+        "Your custom course materials published by Harvard Business Review contain required readings that have been carefully selected for this course. To succeed in this course, it is important that you read and understand these cases.",
+        "Additional Recommended Material",
+        "Please remember that ALL questions about grades, course lesson content, and assignments should be directed to your course instructor. If you have any technical difficulties using the tools within this course, please contact the Penn State Helpdesk.",
+        "All course-related e-mails should go through Canvas’s course mail function (Canvas Inbox). Using Canvas to contact your instructor ensures that your message will be read, and your instructor will respond to you in a timely manner.",
+        "Many of the University Libraries’ resources can be utilized from a distance. Through the Library website, you can access magazines, journals, and articles; borrow materials and have them delivered to your doorstep; and get research help via email chat or phone from a librarian.",
+        "For more information, view the Penn State University Library.",
+        "A grade is given primarily on the basis of the instructor’s judgment as to the student’s scholarly attainment. Students are encouraged to seek the instructor’s input during the process of completing each course requirement. Students are reminded that a letter grade of A is given to students who do exceptional work in both the quality of communicating ideas/information and the level of scholarship demonstrated, not simply for completion of assignments or meeting minimal requirements set for assignments.",
+        "*Student work will be graded according to the following grading scheme:",
+        "A = 95-100, A- = 90-94, B+ = 87-89, B = 84-86, B- = 80-83, C+=77-79, C = 70-76, D=60-69, F = Below 60",
+        "There will be one (1) discussion forum where the instructor will initiate discussion related to the cases. All students are expected to actively participate on an individual basis in the online case discussion in module 5. Students should also be conversant with current finance news from The Wall Street Journal and Financial Times as they relate to course topics; be prepared to discuss them. Students will be required to use the Internet to access financial data for class discussions as well.",
+        "The case discussion will account for 20% of the final grade. Please refer to the Case Discussion Grading Rubric to view grading components and values for this part of the assignment.",
+        "There will be a number of financial model-building exercises covered in the class using Excel. These exercises will be included in the homework assignments, case assignments, and exams so you have sufficient practice in strengthening your model-building skills. We will complete several exercises to gain sufficient practice applying the tools and concepts to actual managerial decision scenarios. Please sharpen your Excel skills quickly to ensure that you do not hinder your ability to learn finance and economics.",
+        "Please carefully read the summary of deliverables, grading weight, grading rubric, and the due dates for each deliverable to plan ahead and efficiently allocate your time throughout the semester. Academic dishonesty will be dealt with in accordance with the Penn State University provisions.",
+        "You will be required to complete seven (7) homework problem sets. The homework problem sets will consist of end-of-chapter problems from the course text. Please refer to the course schedule to view the assigned problems (subject to change) and due dates. Use Excel and incorporate spreadsheet output (show your work) in your submissions. Submission is mandatory for the final grade release.",
+        "You have an opportunity to take a knowledge-check quiz at the end of most lessons.  This is a timed quiz and you will have two chances to take the quiz. Only your highest score will be recorded.",
+        "The midterm exam will consist of 20 multiple-choice problems.  The exam is open-book and you are permitted to view the Canvas course material as well. You are also permitted to use Excel, calculators, scratch paper, and notes. The Midterm Exam will cover Weeks 1–4. Partial credit will be given only if a relevant reason for your answer is provided.  The exam is timed; you will have four (4) hours to complete it.",
+        "The final exam will consist of 20 multiple-choice problems.  The exam is open-book and you are permitted to view the Canvas course material as well. You are also permitted to use Excel, calculators, scratch paper, and notes. The Final Exam will cover Weeks 5–7. Partial credit will be given only if a relevant reason for your answer is provided.  The exam is timed; you will have four (4) hours to complete it.",
+        "Note:  During both exams, communication with other people concerning the subject matter of the exam is prohibited. ​ No makeup examinations will be given for any reason except for medical emergencies. Vacation plans, nonrefundable airline tickets, etc. are not acceptable excuses.",
+        "Honorlock Proctoring",
+        "The proctoring software uses your computer’s webcam or other technology to monitor and/or record your activity during exams. The proctoring software, Honorlock, may be listening to you, monitoring your computer screen, viewing you and your surroundings, and recording any activity (including visual and audio recordings) during the proctoring process. By enrolling in this course, you consent to the use of the proctoring software, including but not limited to any audio and/or visual monitoring that may be recorded. Please contact your instructor with any questions. For Honorlock resources and a practice test, see the Honorlock Information module in Canvas.",
+        "After you have submitted an assignment, you will typically be able to review your grade and any comments made by your instructor within 7 days after the due date. This process is used for all homework assignments, exams, or other graded submissions. Some instructors may also send you a message informing you that the assignment has been graded. Some instructors may choose to release all the grades to all students at once; other instructors may release grades per student one at a time.",
+        "The course schedule is strictly adhered to. Late assignments/discussion participation, and the exam will be accepted ONLY if the instructor is notified prior to the due date of a special circumstance that cannot be avoided. Students will receive a zero for late work without an acceptable reason.",
+        "*Subject to change",
+        "Fundamental financing decisions that all financial managers must make—whether they are in a domestic or multinational corporation—are categorized as:",
+        "Investing decisions",
+        "Financing decisions",
+        "Risk management decisions",
+        "Payout Policy decisions",
+        "Multinational and domestic corporations use similar financing decisions, but their financing strategies may differ.",
+        "In this section, we will see how hedging can be used as an instrument to assist managers with financial risks. The two types of hedging that we will review are:",
+        "Financial hedging involves using financial instruments or financial contracts to offset unexpected fluctuations in the exchange rates.",
+        "The three types of financial heading instruments are:",
+        "We will direct our attention to forwards and futures and options, as these instruments will be beneficial from a multinational perspective. Swaps will be covered in another course in the program.",
+        "The fundamental difference between a forward future contract and an option is that forward future contracts are obligations you must satisfy the contract at maturity. For options, you do not have the obligation.  Rather you have the right to exercise if it is favorable to you, or not exercise if you can get a better treatment in the market.  Click on the plus icons (+) in the image below for an example.",
+        "As mentioned previously, the goal of a corporation is to maximize value while minimizing risk. A company must take into consideration the benefits of interest expense tax deductions as well as the costs of bankruptcy to determine a mixture of debt and equity that minimizes the firm’s cost of capital.",
+        "When companies mix and match various sources of funding, there becomes a possibility of reaching a combination which is optimal. The Value Max (Vmax) corresponds to the WACC Min. WACC is a function of how much debt you have.  But what proportion of funding should come from debt and how much should come from equity?  That will lead to variations in the cost of capital.",
+        "As shown in the image below, as your cost of equity goes up, your cost of debt goes up, and your WACC goes up.",
+        "Initially, your WACC goes down when you increase debt, because you’re getting taxation benefits of interest tax deductibility on debt. But as you continue to increase debt, it goes back up. So that brings you closer towards bankruptcy. That makes it riskier.",
+        "We also see, as you increase debt, your cost of equity starts going up. Because your beta, the variability of your stock return to that of the market return, goes up as well. So your asset beta goes up. Hence, your cost of equity goes up, as we increase debt.",
+        "So, you see that with increasing debt, your Ke goes up , your WACC goes up , and your Kd goes up .",
+        "Optimal Level",
+        "The optimal for the WACC is the point where your WACC is at the minimum level. In the image above, it’s shown at the point of WACC Min.",
+        "Correspondingly, the point where your WACC is at the minimum, is the point at which your Value is maximized (Max Val).  So a company should mix and match, to find an optimality.",
+        "Kd and Ke can be choice variables to find optimality. These choice variables include:",
+        "So given these two factors, multinationals are unique because they have an opportunity to find geography and find financially engineered instruments, as to where to list and what to list.",
+        "Unique Characteristics Faced by MNCs",
+        "According to the textbook, the four unique characteristic variables Multinational Enterprises (MNEs) must handle when going abroad are:",
+        "Select each header below for more information:",
+        "Multinationals have a larger investor base in addition to the ability to list in a more liquid market where source of funding is cheaper.  When they go abroad, they have a broader investor base that they have access to.",
+        "Their sourcing of funding can be done at a cheaper rate, because there are more investors supplying the funds. Also, there is more liquid market. Not only is the investor base larger, but the trading activity, the liquidity might be better. Hence, going abroad might provide two simultaneous benefits of larger investor base and listing in a more liquid market, resulting in lower cost of capital.",
+        "Multinationals can create value through international diversification. The revenue sources of multinational corporations are broad and diverse — they can get their revenue from China, from India, from Bangladesh, from Switzerland, from Pakistan, from Russia. Due to the fact that the cash flows or revenues are coming from many different markets, that means they are diversified.",
+        "The fluctuations in one country’s revenues will be offset by the fluctuations in the other. So the dampening effect would be that the riskiness or the volatility of the cash flow will be lower. That would mean that for a multinational corporation with a diversified source of revenue, multinational corporations will have less risky source of revenue/cash flows. Hence, they may have a little better treatment at the hands of investors trying to invest their money in that company, because the company is less risky.",
+        "However, MNCs do have additional risks. In particular, the foreign exchange risk. That will increase your cost of capital. So this might potentially decrease your WACC.",
+        "Depending upon where you are listing abroad, the portfolio diversification theory does work in favor of MNCs. Because if greater number of companies are listing abroad, greater number of international investors have access to different company stocks and debts. So those expectations of more diversified portfolio from global investor perspective will have a bearing on whether a multinational is received positively or negatively, depending upon what the global investors have in terms of their expected risk, expected return, and their access to market instruments.",
+        "So given the demand side of your portfolio, international portfolio investor expectations would also play a role. And in this sense, the WACC can go up or down depending upon various factors.",
+        "At the completion of the course, you should be able to accomplish the following:",
+        "In this lesson, you will explore the foundations of globalization and its impact on multinational enterprises (MNEs), focusing on how they create value, manage finances, and navigate their path toward global expansion.",
+        "By the end of this lesson, you will have a solid understanding of how globalization shapes the operations of multinational enterprises, equipping you with foundational knowledge to analyze their financial and strategic decisions.",
+        "In this lesson, you will delve into the fundamentals of foreign exchange markets, understanding their structure, key participants, and the types of transactions that occur. You will also explore how foreign currency quotes are represented and interpreted in practice.",
+        "By the end of this lesson, you will have a thorough understanding of the mechanics of foreign exchange markets, the roles of participants, and the practical application of currency quotes, preparing you for deeper insights into global financial operations.",
+        "In this lesson, you will explore the foundational theories of Parity Conditions, focusing on purchasing power parity (PPP) and interest rate parity, along with their real-world implications in currency markets.",
+        "By the end of this lesson, you should have a solid understanding of how parity conditions affect exchange rates, price levels, and the behavior of international financial markets.",
+        "In this lesson, you will learn about the various strategies and financial instruments used to hedge currency risk, focusing on how corporations manage their exposure to fluctuations in exchange rates.",
+        "By the end of this lesson, you should have a clear understanding of how companies use financial instruments like forwards, futures, and options to manage currency risk and protect against exchange rate volatility.",
+        "In this lesson, you will explore the different types of currency exposure faced by businesses, including transaction, operating, and translation exposures, and understand how these exposures impact financial decision-making.",
+        "By the end of this lesson, you should have a comprehensive understanding of transaction, operating, and translation exposures, and how businesses manage these risks to protect their financial interests in the global market.",
+        "In this lesson, you will explore key concepts in cross-border investing, including global financial strategy, risk management, and how international capital markets influence investment decisions.",
+        "By the end of this lesson, you will have a deeper understanding of how businesses and investors navigate the complexities of cross-border investments, manage risks, and apply financial models to global markets.",
+        "In this lesson, you will examine the financing strategies used by businesses in international markets, focusing on optimal financial structures, managing foreign subsidiaries, and options for foreign equity listings.",
+        "By the end of this lesson, students will have a comprehensive understanding of risk management practices in financial institutions, including the techniques used to manage credit and interest-rate risks, preparing them for advanced study in financial risk analysis and strategy.",
+        "Multinational Managerial Finance offers prospective students a valuable opportunity to develop expertise in the financial management of global businesses. This course covers key concepts such as currency risk management, international capital budgeting, and the financing of multinational corporations, all of which are crucial for success in today’s interconnected economy. By understanding how financial markets operate across borders and how multinational firms manage their capital structures and investments, students will be well-prepared for careers in international banking, corporate finance, and consulting. Graduates of this course will have the analytical skills to make strategic financial decisions that drive growth and stability in global business environments.",
+        "A real-world example of how the concepts learned in Multinational Managerial Finance can be applied is seen in the strategic decisions of multinational corporations like Coca-Cola. When Coca-Cola expanded into emerging markets, it had to navigate currency fluctuations, adjust its financial structure for subsidiaries, and optimize its capital investments in different countries. By applying the principles of multinational finance, Coca-Cola managed transaction and operating exposure, used hedging strategies to mitigate currency risks, and made decisions on financing foreign operations using a mix of debt and equity. This real-world application of concepts such as international capital budgeting, risk management, and financing strategies highlights the direct impact that the knowledge gained in FIN 805 can have on making effective financial decisions in global markets.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Develop an analytical framework (by integrating international market structures, government exchange rate policy regimes, corporate stakeholder preferences, and value maximization goals) for planning, implementing, and evaluating multinational financial strategies.",
+            "Understand the functions and structures of global financial markets and assess their role in shaping corporate investing, financing, and risk management strategies among multinational corporations.",
+            "Estimate various measures of foreign exchange risks and design and implement hedging strategies.",
+            "Utilize the risk-return tradeoff framework, and understand the investing and financing decisions made in multinational firms while incorporating an appreciation of the unique decision-making dimensions brought by involvement in the global market.",
+            "Estimate the cost of capital for multinational firms and apply this concept in financial decision-making, including project selection and capital budgeting.",
+            "Conceptualize, design, implement, and evaluate various methods of raising financial capital in global markets.",
+            "Assess political risks in international markets and plan strategies to minimize their adverse impact on corporate performance."
+        ],
+        [
+            "Moffett, M., Stonehill, A., & Eiteman, D. (2018). Fundamentals of multinational finance (6th ed.). Pearson-Prentice Hall.\n\nISBN-13: ISBN-13: 9780134623405 \nYou can rent this eTextbook from Pearson. or purchase from Penn State’s Barnes and Noble Connect bookstore..",
+            "ISBN-13: ISBN-13: 9780134623405",
+            "You can rent this eTextbook from Pearson. or purchase from Penn State’s Barnes and Noble Connect bookstore.."
+        ],
+        [
+            "ISBN-13: ISBN-13: 9780134623405",
+            "You can rent this eTextbook from Pearson. or purchase from Penn State’s Barnes and Noble Connect bookstore.."
+        ],
+        [
+            "(Required) Mahir, D. A., Sjoman, A., & Dessain, V. (2007). Hedging currency risks at AIFS",
+            "(Optional) Mahir, D. A., et al. (2006). Nestle and Alcon – The value of a listing",
+            "(Optional) Mahir, D. A., et al. (2003) Globalizing the Cost of Capital at AES"
+        ],
+        [
+            "The Wall Street Journal, Financial Times, and Business Week publications",
+            "NewsBank Access World News will be beneficial in assisting you with gathering data and completing research."
+        ],
+        [
+            "HelpDesk Website: https://student.worldcampus.psu.edu/help-and-support/technical-support.",
+            "HelpDesk Email: techsupport@worldcampus.psu.edu",
+            "HelpDesk Phone: (800) 252-3592"
+        ],
+        [
+            "Financial Management Differences",
+            "Hedging",
+            "Optimal Financial Structure"
+        ],
+        [
+            "Financial hedging (this will be the focus of our discussion for this section)",
+            "Natural and operating hedging (we will cover this topic at a later time in the course)."
+        ],
+        [
+            "Forwards and Futures",
+            "Options (call and put options) and",
+            "Swaps (interest rate swaps and currency swaps)."
+        ],
+        [
+            "Where to raise the capital (in a market that is deep, broad, and liquid)",
+            "What to list (financial engineering instruments)"
+        ],
+        [
+            "Develop an analytical framework (by integrating international market structures, government exchange rate policy regimes, corporate stakeholder preferences, and value maximization goals) for planning, implementing, and evaluating multinational financial strategies.",
+            "Understand the functions and structures of global financial markets and assess their role in shaping corporate investing, financing, and risk management strategies among multinational corporations.",
+            "Estimate various measures of foreign exchange risks and design and implement hedging strategies.",
+            "Utilize the risk-return tradeoff framework, and understand the investing and financing decisions made in multinational firms while incorporating an appreciation of the unique decision-making dimensions brought by involvement in the global market.",
+            "Estimate the cost of capital for multinational firms and apply this concept in financial decision-making, including project selection and capital budgeting.",
+            "Conceptualize, design, implement, and evaluate various methods of raising financial capital in global markets.",
+            "Assess political risks in international markets and plan strategies to minimize their adverse impact on corporate performance."
+        ],
+        [
+            "L1",
+            "L2",
+            "L3",
+            "L4",
+            "L5",
+            "L6",
+            "L7"
+        ],
+        [
+            "Value Maximizing Framework: Introduction to the framework that guides financial decision-making in MNEs.",
+            "Corporate Valuation—The MNE Model: Explanation of valuation methods tailored for multinational enterprises.",
+            "How Do MNEs Create Value: Overview of strategies MNEs use to enhance shareholder value.",
+            "MNEs and the Path to Globalization: Examination of the stages and strategies MNEs adopt to expand globally.",
+            "Financial Management Differences: Analysis of the unique financial challenges faced by MNEs compared to domestic firms."
+        ],
+        [
+            "Introduction Activity: Participate in a discussion to share perspectives on globalization and its role in modern business.",
+            "Homework Assignment 1: Apply the concepts of value creation and globalization strategies through assigned tasks.",
+            "Knowledge Check Quiz: Test your understanding of the key concepts covered in this lesson."
+        ],
+        [
+            "Foreign Exchange Markets: Overview of the structure and functions of the foreign exchange market.",
+            "Participants in Foreign Exchange Markets: Identification of key players, including central banks, corporations, and speculators.",
+            "Foreign Exchange Market Transactions: Explanation of the main transaction types, such as spot, forward, and swaps.",
+            "Foreign Currency Quotes: Understanding the concepts of direct and indirect currency quotes.",
+            "Currency Quotes in Practice: Practical examples of interpreting and using currency quotes in financial decisions."
+        ],
+        [
+            "Homework Assignment 2: Apply your knowledge of foreign exchange transactions and currency quotes through problem-solving tasks.",
+            "Knowledge Check Quiz: Assess your understanding of foreign exchange market concepts with a short quiz."
+        ],
+        [
+            "Parity Conditions: The concept that exchange rates and prices between countries are linked by specific theories, primarily PPP and interest rate parity.",
+            "Absolute Purchasing Power Parity (PPP) Theory: States that in the absence of transportation costs, the price of identical goods should be the same in different countries when expressed in a common currency.",
+            "Relative Purchasing Power Parity (PPP) Theory: Suggests that changes in exchange rates over time are related to changes in relative price levels between two countries.",
+            "Pass Through: Refers to the extent to which changes in exchange rates affect domestic prices of imported goods.",
+            "Interest Rate Parity Theory: Argues that the difference in interest rates between two countries is reflected in the forward exchange rates between their currencies.",
+            "Forward Rate and Forward Premium: Describes the agreed-upon future exchange rate and the premium or discount it carries compared to the spot rate.",
+            "Forward Rate as an Unbiased Predictor of Spot Rate: Explores whether the forward rate accurately predicts the future spot rate.",
+            "Summary of Interest Rate Parity: Recaps the key insights from interest rate parity theory, focusing on how exchange rates are influenced by interest rate differentials."
+        ],
+        [
+            "Homework Assignment 3: This assignment will help reinforce concepts discussed in the lesson.",
+            "Quiz: The quiz will assess your understanding of parity conditions and their application."
+        ],
+        [
+            "Corporate Value and Risk: Understanding how currency risk affects corporate value and financial stability, and how companies can manage this risk to protect their assets.",
+            "Hedging: The process of using financial instruments to reduce the impact of adverse currency fluctuations on a company’s operations and financial performance.",
+            "Forwards/Futures Contracts: These contracts allow businesses to lock in exchange rates for future transactions, mitigating the risk of exchange rate volatility.",
+            "Currency Options Contracts: These provide the right, but not the obligation, to exchange currencies at a specified rate, offering flexibility to manage currency risk.",
+            "Contract Scenarios: Real-world examples demonstrating how different hedging contracts work in various market conditions.",
+            "Summary and Numerical Problem Illustration: A recap of the key concepts along with practical examples to help you understand how to apply these hedging strategies in real-life situations."
+        ],
+        [
+            "Homework Assignment 4: This assignment will help consolidate your understanding of hedging strategies and their application.",
+            "Quiz: The quiz will test your knowledge of the concepts discussed in this lesson.",
+            "Midterm Exam (Proctored via Honorlock): This exam will cover all the material learned so far, including currency risk management techniques."
+        ],
+        [
+            "Types of Currency Exposure: The three primary types of currency exposure—transaction, operating, and translation—each represent different risks that companies face in the global marketplace.",
+            "Transaction Exposure: The risk that a company’s cash flows will be affected by changes in exchange rates between the time a transaction is initiated and when payment is made or received.",
+            "Transaction Exposure Case Study: A real-world example illustrating how transaction exposure affects a business and how it can be managed.",
+            "Operating Exposure: The risk that a company’s future operating cash flows and market value will be affected by changes in exchange rates, even if there is no immediate transaction.",
+            "Operating Exposure Case Study: A case study that shows how operating exposure impacts a business’s strategic decisions and long-term financial health.",
+            "Case Assignment Expectations: Clear guidelines for the case assignments, emphasizing the importance of analyzing different types of currency exposures in practice."
+        ],
+        [
+            "Case Discussion: Hedging Currency Risks at AIFS: This discussion will focus on how a company can hedge its currency risks and the strategies involved in managing different types of exposure.",
+            "Quiz: The quiz will assess your understanding of transaction, operating, and translation exposures.",
+            "Homework Assignment 5: This assignment will involve analyzing cases related to currency exposure and applying hedging strategies."
+        ],
+        [
+            "Global Financial Strategy: Understanding the strategies businesses use to invest across borders and navigate the complexities of international finance.",
+            "Weighted Average Cost of Capital (WACC): A critical metric used to assess the cost of capital for a company, considering both equity and debt financing sources.",
+            "Volatility: The extent of variation in the value of an investment over time, a key factor in assessing risk in cross-border investing.",
+            "Systematic Risk: The risk inherent to the entire market or a market segment, which cannot be eliminated through diversification.",
+            "International Capital Asset Pricing Model (ICAPM): An extension of the CAPM model that incorporates international factors to price assets in a global context.",
+            "Calculating Beta: Understanding how beta, a measure of systematic risk, is calculated for investments in global markets.",
+            "Historical Market Risk Premium: The difference between the return on the market portfolio and the risk-free rate, which is used to assess the potential return on investments.",
+            "Cost of Debt: The interest rate a company pays on its debt, a key consideration in evaluating investment projects and financing costs in international markets.",
+            "Case Analysis: AES (Optional): An optional case study focusing on the international investment strategies of AES, providing practical insight into cross-border investing."
+        ],
+        [
+            "Homework Assignment 6: This assignment will focus on understanding and applying the concepts from the lesson to practical investment scenarios.",
+            "Quiz: The quiz will assess your understanding of global financial strategies and the associated risks in cross-border investing."
+        ],
+        [
+            "Optimal Financial Structure: Understanding how companies determine the best mix of debt and equity financing to maximize their value and minimize cost in global markets.",
+            "Financial Structure of Foreign Subsidiaries: How multinational companies structure their financing for foreign subsidiaries, balancing local regulations and international goals.",
+            "Foreign Equity Listing: The advantages and challenges of listing equity on foreign stock exchanges to raise capital and expand global visibility.",
+            "Case Analysis: Nestlé (Optional): An optional case study on Nestlé’s financing strategies in international markets, providing practical insights into the challenges faced by global corporations in managing financial structure."
+        ],
+        [
+            "Quiz: The quiz will test your knowledge of the financial structures and strategies used in international markets.",
+            "Homework Assignment 7: This assignment will apply the concepts learned in the lesson to real-world financial situations involving international finance.",
+            "Final Exam (Proctored via Honorlock): This exam will cover all topics learned throughout the course, including financing in international markets."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Pearson.",
+            "url": "https://www.pearson.com/en-us/subject-catalog/p/fundamentals-of-multinational-finance/P200000005881/9780136879411"
+        },
+        {
+            "text": "Barnes and Noble Connect bookstore.",
+            "url": "https://bncvirtual.com/psude"
+        },
+        {
+            "text": "Harvard Business Review (HBR) website",
+            "url": "https://hbsp.harvard.edu/import/1183946"
+        },
+        {
+            "text": "NewsBank Access World News",
+            "url": "http://www.cmegroup.com/trading/fx/g10/australian-dollar_quotes_globex_options.html?exchange=XCME&foi=OPT&venue=G&productCd=6AH2&underlyingContract=6A&floorContractCd=ADH2&expMonth=201203"
+        },
+        {
+            "text": "https://student.worldcampus.psu.edu/help-and-support/technical-support.",
+            "url": "https://student.worldcampus.psu.edu/help-and-support/technical-support"
+        },
+        {
+            "text": "techsupport@worldcampus.psu.edu",
+            "url": "mailto:techsupport@worldcampus.psu.edu?subject=World%20Campus%20Tech%20Support%20Inquiry"
+        },
+        {
+            "text": "Penn State University Library.",
+            "url": "https://libraries.psu.edu/"
+        },
+        {
+            "text": "Case Discussion Grading Rubric",
+            "url": "https://psu.instructure.com/courses/2313135/files/163927636?wrap=1"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "Cover of the book \"Fundamentals of Multinational Finance\" by Moffett, Stonehill, and Eiteman, Edition V, featuring a cityscape with modern skyscrapers and illuminated roads",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/image-3-1.png"
+        },
+        {
+            "alt": "",
+            "src": "https://psu.instructure.com/courses/2313135/files/161925887/preview"
+        },
+        {
+            "alt": "",
+            "src": "https://psu.instructure.com/courses/2313135/files/161925890/preview"
+        },
+        {
+            "alt": "",
+            "src": "https://psu.instructure.com/courses/2313135/files/161925892/preview"
+        },
+        {
+            "alt": "",
+            "src": "https://psu.instructure.com/courses/2313135/files/161925901/preview"
+        },
+        {
+            "alt": "Diagram titled \"Financial Hedging\" showing two circular sections. One represents \"Forwards/Futures\" with a hand holding a dollar icon, and the other represents \"Options\" with a handshake icon exchanging a dollar",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/image-66463410c4e30-1024x415.png"
+        },
+        {
+            "alt": "Graph showing WACC, Ke, and Kd with a minimum WACC point at optimal debt-to-asset ratio.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/wacc-min.gif"
+        },
+        {
+            "alt": "",
+            "src": "https://psu.instructure.com/courses/2313135/files/164305840/preview"
+        },
+        {
+            "alt": "",
+            "src": "https://psu.instructure.com/courses/2313135/files/164305840/preview"
+        },
+        {
+            "alt": "",
+            "src": "https://psu.instructure.com/courses/2313135/files/164305840/preview"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Grading Component",
+                "Assignment Type",
+                "Weight"
+            ],
+            [
+                "Homework Assignments (7 sets)",
+                "Individual",
+                "Ungraded"
+            ],
+            [
+                "Weekly Knowledge-check questions",
+                "Individual",
+                "10%"
+            ],
+            [
+                "Class Participation (via Case Discussion)",
+                "Individual",
+                "20%"
+            ],
+            [
+                "Midterm Exam",
+                "Individual",
+                "35%"
+            ],
+            [
+                "Final Exam",
+                "Individual",
+                "35%"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"5968\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

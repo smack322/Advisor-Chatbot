@@ -1,0 +1,695 @@
+{
+    "metadata": {
+        "title": "INSC 846: Network Predictive Analytics – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4692"
+    },
+    "headings": {
+        "h2": "Basic Topographical Metrics",
+        "h4": "Unlocking Your Potential",
+        "h5": "Netiquette: Internet Etiquette Guidelines",
+        "h3": "Final Exam"
+    },
+    "paragraphs": [
+        "INSC 846: Network Predictive Analytics is a three-credit course divided into three parts, focusing on network analysis, visualization, and predictive modeling using the R programming language. The first part introduces network representation, manipulation, and visualization, leveraging R libraries to efficiently handle large datasets. The second part delves into exploratory social network analysis, examining topological features, community detection, and the roles of key actors to understand network resilience and efficiency. The final section explores the implications of network structures, using models to predict information dissemination and behaviors. Students apply these techniques to real-world scenarios such as intelligence gathering, criminal network analysis, and security threat prediction, gaining valuable insights into how networks shape societal functions.",
+        "The course is divided into three parts:",
+        "R language and several of its libraries are used throughout the course for analyzing network models to detect and capture the dynamic patterns of group membership, understanding how these communities facilitate communication, coordination, and cooperation, and how network and predictive analytics can be used in intelligence gathering for detecting criminal behavior, understanding the evolution of criminal networks and predicting security threats.",
+        "The objective of this course is to provide a foundation in the principles of network and predictive analytics along with hands-on experience with the R language for studying the interrelatedness of cyber-social and cyber-technical aspects of our society as a whole that have transformed physical communities into virtual communities. Students who complete this course should be able to:",
+        "Please remember that ALL questions about grades, course lesson content, and assignments should be directed to your course instructor. If you have any technical difficulties using the tools within this course, please contact the Penn State Helpdesk.",
+        "All course-related e-mails should go through Canvas’s course mail function (Canvas Inbox). Using Canvas to contact your instructor ensures that your message will be read, and your instructor will respond to you in a timely manner.",
+        "Many of the University Libraries’ resources can be utilized from a distance. Through the Library website, you can access magazines, journals, and articles; borrow materials and have them delivered to your doorstep; and get research help via email chat or phone from a librarian.",
+        "For more information, view the Penn State University Library.",
+        "A grade is given on the basis of the instructor’s judgment as to the student’s scholarly attainment (see the Penn State Graduate Degree Programs Bulletin, p. 41). The following grading system applies to graduate students:",
+        "Grades will be based on the following scale:",
+        "A = 95-100, A- = 90-94, B+ = 87-89, B = 84-86, B- = 80-83, C+ = 77-79, C = 70- 6, D = 60-69, and F = Below 60.",
+        "The idea behind the course project is to apply the principles and techniques you are learning this semester to represent, manipulate, visualize, and analyze a network data set on a topic of broad interest such as covert networks, spread of disease, dissemination of information, and how markets function. Some aspects that you will be evaluated on are:",
+        "During this semester, you will be asked to work on several graded assignments. Please note that all assignments are to be finished with individual effort, only.",
+        "The midterm and final exams are administered in the middle and final week of the course respectively and are timed open-book exams that will assess your understanding of the material covered in the course. You will have to choose a period in the exam week when you can devote up to 90 minutes.",
+        "The exams are to be taken without collaboration with other students or other individuals. Late exams will not be accepted unless:",
+        "Similar to other deliverables, you will be evaluated on:",
+        "You will typically be able to review your grade and any comments made by your instructors within 3-5 days after you have submitted a deliverable to the corresponding assignment. This process is used for all assignments, discussions, and exams. Some instructors may also send you a message to your inbox informing you that the assignment has been graded. Please note that some instructors may choose to release the grades to all students at once; other instructors may release grades per student one at a time.",
+        "All the course materials are available to students in Canvas. The instructor will post information to the course announcements or send emails to remind students what is available and what they should be working on. Material is provided on a lesson-by-lesson basis and is presented to students as Web pages, Microsoft Word documents (.doc), or in Portable Document Format (PDF).",
+        "Material that students submit for the course should be uploaded to the designated assignment in Canvas.",
+        "All assignments will be accepted up to one week late with a 50% penalty if submitted to the Canvas assignment. No homework is accepted after the late period.",
+        "A few basic reminders:",
+        "*Subject to change",
+        "Humans live in a connected world. Everything from social media to institutions (such as a government), processes (such as an economy), and infrastructures (such as a global airline network) form a complex network. But humans are not unique in being part of an interconnected system. We see complex networks in an entire ecosystem, interacting genes and communicating neurons. Network-based perspective, therefore, has been found to be useful in the study of complex systems in:",
+        "There has also been a growing interest in sciences in the recent past to move away from the reductionist approach that focused on studying fundamental parts of a complex system. A system-level perspective considers a system as more than a sum of its parts and tries to understand emergent behavior that results from the interation of these parts.",
+        "For this course, our interest will be in economic, political and social interactions shaped by social networks. Social networks play an important role in trade of goods and services, how we vote, how much education we obtain, whether we become criminals or succeed professionally. The myriad of ways in which a social network affects our lives raises many important questions:",
+        "We will try to answer these questions over the next several weeks during this course.",
+        "Basic topographical measures such as size, average distance, and diameter provide information on a network as an aggregate, giving analysts an ability to gauge the overall potential of the network in terms of capacity and performance and also providing a context within which to interpret other measures that may come further down the analysis pipeline. Table 1 provides a summary of these measures.",
+        "Network size is simply a count of the number of actors in a network. Knowing a network’s size is important when interpreting measures sensitive to it, such as density or diameter. For instance, it is meaningless to compare densities of networks that are dissimilar in size.",
+        "Size can also be used to understand if a network is growing or shrinking over time. A dark network that is consistently growing is likely recruiting successfully. Analysts should be careful, however, and understand how the boundaries of a network have been defined or else they may not be looking at the true size of the network.",
+        "Average distance places more emphasis on the ties between actors within a network. It is measured as the average length of all the shortest paths or geodesics between all actors in a network. It provides an analyst with a means to determine how fast information can spread throughout a given network.",
+        "All things being equal, networks with lower average distance should be more efficient in diffusing information and resources than those with a higher average distance. This information can be used to formulate a deception campaign strategy that relies on spreading disinformation to undermine the operations of a dark network. However, care has to be taken with the timing of such campaigns since networks are dynamic and the average distance of a network is likely to change with time.",
+        "Network diameter measures a network’s longest geodesic and indicates how dispersed a network is. Networks with large diameters may be more dispersed than those with small ones. Dispersed or decentralized networks are better suited to solving complex and challenging problems while maintaining their operational security when compared to more centralized or hierarchical networks. However, since a network diameter is closely related to its size, we should be careful when comparing diameters of networks of different sizes.",
+        "The basic topographical measures highlight some tradeoffs that dark networks may face and provide evidence for the potential of these networks. These relationships, however, may not be as clear cut and, therefore, these measures should, at first blush, be used just as an evidence of potential. For instance, a network with small average distance could be vulnerable to misinformation campaigns but could equally prevent disinformation from spreading among its members.",
+        "The small-world network model was introduced by Watts and Strogatz who observed that many networks in the real world display high level of clustering with small distances between nodes. This observation cannot be explained using random network models that, despite small distances between nodes (diameter of random networks are on the order of O(log n)), show very little clustering (clustering coefficient is proportional to n-1).",
+        "In order to create a model that closely aligned with their observation, Watts and Strogatz suggested to first create a network with a lattice structure. In this structure, first a set of n vertices are arranged such that each vertex is connected to r of its neighbors. Next, for each edge, independently and with probability p, one end of the edge is moved to be incident on another vertex. This new vertex is chosen uniformly randomly with attention to avoid construction of loops and multi-edges. The intent is to:",
+        "Figure 5 shows a lattice structure with high clustering and high diameter along with the effect of rewiring a few links.",
+        "The picture is not quite what we observe in the real world but it can be used to answer questions surrounding networks where we have high clustering and low diameter.",
+        "Students who complete this course should be able to:",
+        "Through hands-on practice and theoretical exploration, students will gain the skills to analyze networks effectively, use R for advanced analytics, and apply predictive models to real-world scenarios, preparing them for impactful careers in analytics and intelligence.",
+        "In this lesson, students will explore the foundational concepts of network analysis, understanding its importance, benefits, and challenges. They will also be introduced to the R programming language and RStudio as essential tools for analyzing networks effectively.",
+        "By the end of this lesson, students will understand why studying networks is crucial, gain awareness of different types of network analyses, and feel confident in using RStudio to begin their journey into network analytics.",
+        "In this lesson, students will dive into how networks are represented and measured, learn techniques to characterize network structures, and explore the theoretical foundations of network analysis. They will also apply these concepts in an assignment focused on the small-world phenomenon.",
+        "By the end of this lesson, students will be able to represent and measure networks effectively, apply key metrics to characterize networks, and understand the theoretical underpinnings of network structures, preparing them to analyze real-world networks.",
+        "In this lesson, students will learn how to design and collect social network data, including formulating analytic questions, specifying boundaries, and selecting appropriate tools. They will also gain practical experience working with network data, including visualization, managing attributes, and creating complex network objects.",
+        "By the end of this lesson, students will be proficient in designing and collecting social network data, utilizing tools to manage and visualize networks, and analyzing complex networks, including two-mode and combined networks, with confidence.",
+        "In this lesson, students will focus on using the igraph package in R to manipulate and visualize network data. They will learn to create, decorate, and model network graphs, work with network data files, and explore different plotting techniques to improve the clarity and presentation of network graphs.",
+        "By the end of this lesson, students will be adept at manipulating network data and using igraph for creating, visualizing, and enhancing network graphs, preparing them to present complex networks clearly and effectively.",
+        "In this lesson, students will learn how to explore the topography of networks using descriptive analysis. They will examine basic topographical metrics, measures of centralization, and interconnectedness, with a focus on applying these concepts using R to analyze real-world networks.",
+        "By the end of this lesson, students will have the skills to perform descriptive analysis on network topography, applying centralization and interconnectedness metrics using R, and gain valuable insights into the structure and dynamics of complex networks.",
+        "In this lesson, students will explore the concept of network cohesion by focusing on key components such as cliques, cores, and factions. They will learn how to detect communities within networks and analyze subgroups using R, helping them to better understand how different network structures contribute to overall cohesion.",
+        "By the end of this lesson, students will have the tools to characterize network cohesion, identify subgroups, and detect communities within networks, using R to visualize and measure the structure and dynamics of network cohesion.",
+        "The midterm exam will assess students’ understanding of the key concepts covered in the course so far. It will focus on network analysis principles, data manipulation, visualization, and descriptive analysis, testing both theoretical knowledge and practical skills using R.",
+        "By the end of the midterm, students will have a comprehensive understanding of the material covered so far, demonstrating their ability to apply network analysis techniques and use R to analyze network data effectively.",
+        "In this lesson, students will learn how to identify central actors within networks by applying various centrality measures. They will explore frequency-based, distance-based, and path-based metrics, and understand the role of centrality and prestige in network dynamics. Students will also gain hands-on experience using R to calculate and interpret centrality measures.",
+        "By the end of this lesson, students will be able to identify central actors in a network, understand the various centrality measures, and use R to calculate and analyze these metrics in practical network scenarios.",
+        "In this lesson, students will explore various techniques for creating interactive and dynamic visualizations of network data. They will learn how to enhance network graphs using preattentive attributes and apply different R packages such as igraph, ImageMagick, visNetwork, threejs, and networkD3 to create engaging, interactive network visualizations.",
+        "By the end of this lesson, students will be proficient in creating interactive and dynamic network visualizations using a range of R packages, enabling them to analyze network data visually and effectively communicate their findings.",
+        "In this lesson, students will learn how to analyze brokerage within networks by identifying key players, cutpoints, bridges, and structural holes. They will explore how these concepts affect network flow and dynamics and use R to calculate and analyze brokerage positions in real-world network data.",
+        "By the end of this lesson, students will be able to analyze brokerage within networks, identify key players, and understand the implications of structural holes and network flow, using R to assess and visualize brokerage positions in network data.",
+        "In this lesson, students will explore positional approaches to analyzing networks, focusing on structural, automorphic, and regular equivalence. They will learn how to assess positions within a network based on these equivalences and apply R to calculate and analyze positional relationships in real-world network data.",
+        "By the end of this lesson, students will be able to apply positional approaches to network analysis, using structural, automorphic, and regular equivalences to assess node relationships, and leverage R to conduct positional analysis in network datasets.",
+        "In this lesson, students will explore various network models and their applications in network inference. They will examine random, small world, and preferential attachment models, learning how these models can be used to understand network structures and predict network behaviors. Students will also explore how to assess the significance of network characteristics using these models.",
+        "By the end of this lesson, students will be able to understand and apply network models to real-world data, assess the significance of network characteristics, and use these models to make inferences about network behaviors and structures.",
+        "In this week, students will focus on submitting their course projects for instructor and peer review. They will engage in the process of reviewing each other’s work, offering constructive feedback, and refining their projects based on the feedback received. This week also includes a reflection on the educational experience through the PSU Student Educational Experience Questionnaire (SEEQ).",
+        "By the end of this week, students will have received valuable feedback on their course projects, provided peer feedback, and reflected on their learning experiences, preparing for the final submission and course completion",
+        "In this final assessment, students will demonstrate their understanding of the concepts and skills learned throughout the course. The proctored final exam will test students’ knowledge of network analysis, modeling, visualization, and application of R in various network contexts.",
+        "By the end of this final exam, students will have demonstrated their comprehensive understanding of network analysis, R programming, and predictive modeling, showcasing their ability to apply these skills in real-world scenarios.",
+        "Network Predictive Analytics offers a significant career advantage for students seeking roles in data science, cybersecurity, social network analysis, and intelligence. By mastering network modeling and analysis, students can assess network behaviors, predict potential threats, and optimize communication patterns within organizations. This skill set is highly sought after in industries such as finance, healthcare, technology, and law enforcement, where understanding the structure and dynamics of networks can lead to improved decision-making, risk management, and strategic planning. Graduates equipped with expertise in network predictive analytics will be well-positioned for roles that require advanced data analysis, problem-solving, and the ability to work with large, complex datasets.",
+        "A real-world example of Network Predictive Analytics can be seen in the field of cybersecurity, specifically in the detection of cyber-attacks. Security teams use network predictive analytics to analyze the structure of network traffic and identify unusual patterns that may signal a potential breach, such as a Distributed Denial of Service (DDoS) attack. By analyzing historical data and applying predictive models, the system can forecast where and when an attack might occur, allowing for proactive measures to be taken before any damage is done. Additionally, predictive analytics can be used to identify key nodes or actors within the network who may be critical to the overall security, helping organizations prioritize their resources and prevent security threats before they escalate.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "The focus of the first part is network analysis, network representation, and manipulation, and how network data is visualized. The R language is introduced along with its libraries that are used extensively for visualizing large data sets efficiently.",
+            "The second part of the course delves into exploratory social network analysis including interactive and dynamic network visualizations. We learn how to determine the topological features of networks, detect communities, identify central actors, brokers, and bridges, and use positional approaches to analyzing social networks. Networks differ from each other in terms of their overall structure or topography, and a network’s topography determines how resilient and efficient it is, and how its members interact and behave.",
+            "The final part of the course looks at the implications of a network structure. A network structure is an important determinant of how societies function. This part examines how network models can be used to predict the dissemination of information and the behavior of people."
+        ],
+        [
+            "Describe the fundamental principles of network and predictive analytics, the importance of studying network structures, and how network structures can facilitate communication, coordination, and cooperation.",
+            "Use the R language for analyzing the structure of an organization or a society as a whole to detect and capture the dynamic patterns of group membership and structure.",
+            "Predict threats, attacks, criminal behavior, and evolution of criminal networks."
+        ],
+        [
+            "Luke, D. (2015).  A User’s Guide to Network Analysis in R  ISBN: 9783319238838",
+            "A free digital version of this textbook is available through the Penn State Library E-Book program. Students do not need to purchase a physical copy of the book."
+        ],
+        [
+            "HelpDesk Website: https://student.worldcampus.psu.edu/help-and-support/technical-support.",
+            "HelpDesk Email: techsupport@worldcampus.psu.edu",
+            "HelpDesk Phone: (800) 252-3592"
+        ],
+        [
+            "“A” (Excellent) indicates exceptional achievement.",
+            "“B” (Good) indicates substantial achievement.",
+            "“C” (Satisfactory) indicates acceptable but substandard achievement.",
+            "“D” (Poor) indicates inadequate achievement and is a failing grade for a graduate student."
+        ],
+        [
+            "Clarity of the purpose of the network visualization, and the principles and techniques used for creating it.",
+            "The analytic questions a person should be able to answer based on the created visualization."
+        ],
+        [
+            "Unless otherwise noted, there is no specific format or length expectation for the assignments. Quality of answers is valued. You will be evaluated on:",
+            "timeliness (did you deliver it by the deadline?)",
+            "completeness (did you do all that was asked?)",
+            "responsiveness (did you do what was asked or did you deviate from the assignment?)",
+            "thoroughness (did you answer thoughtfully and substantially, or just in a perfunctory manner?)",
+            "professionalism (formatting, grammar, clarity)"
+        ],
+        [
+            "timeliness (did you deliver it by the deadline?)",
+            "completeness (did you do all that was asked?)",
+            "responsiveness (did you do what was asked or did you deviate from the assignment?)",
+            "thoroughness (did you answer thoughtfully and substantially, or just in a perfunctory manner?)",
+            "professionalism (formatting, grammar, clarity)"
+        ],
+        [
+            "It is generally bad form to type your messages IN ALL CAPITAL LETTERS. In addition to proper capitalization (first words of sentences, proper nouns, names, etc.), a majority of online students have reported that complete sentences and punctuation make online text communication easier to read.",
+            "It is much better not to post inflammatory or accusational remarks than it is to “get it off of your chest.” Profanity and personal attacks will have no part of this course. If you discover such remarks, please notify me immediately, and I will personally address the source of those remarks."
+        ],
+        [
+            "Why Study Networks?",
+            "Basic Topographical Metrics",
+            "Small World Model"
+        ],
+        [
+            "computational biology (e.g., studying systems of interacting genes, protiens, chemical compunds, or organisms)",
+            "engineering (e.g., establishing how best to deploy a network of sensing devices)",
+            "finance (e.g., studying the interplay among banks as a part of a global economy)",
+            "marketing (e.g., assessing the extent to which a product adoption can be induced as a “contagion”)",
+            "neuroscience (e.g., exploring patterns of voltage dynamics in the brain associated with epileptic siezures)",
+            "political science (e.g., studying how voting preferences evolve in a group as a result of internal and external forces)",
+            "public health (e.g., study the spread of infectious disease in a population and how best to control that spread)"
+        ],
+        [
+            "Network size",
+            "Average distance",
+            "Network diameter"
+        ],
+        [
+            "first start with high clustering and high diameter,",
+            "then rewire enough links to get a low diameter,",
+            "but don’t rewire too many to keep high clustering"
+        ],
+        [
+            "Describe the fundamental principles of network and predictive analytics, the importance of studying network structures, and how network structures can facilitate communication, coordination, and cooperation.",
+            "Use the R language for analyzing the structure of an organization or a society as a whole to detect and capture the dynamic patterns of group membership and structure.",
+            "Predict threats, attacks, criminal behavior, and evolution of criminal networks."
+        ],
+        [
+            "L1,L2",
+            "L3,L4",
+            "L5,L6",
+            "L7,L8",
+            "L9,L10",
+            "L11,L12",
+            "L13,L14"
+        ],
+        [
+            "Why Study Networks? Understanding the role networks play in communication, coordination, and problem-solving.",
+            "Benefits and Challenges of Network Analysis: Exploring how networks offer insights but also present complexity in analysis.",
+            "Types of Network Analysis: Overview of social, organizational, and structural network analyses.",
+            "Why Use R for Network Analysis? Highlighting R’s capabilities in data visualization and manipulation for networks.",
+            "Introduction to R and RStudio: Basic setup and tools for beginners to start analyzing networks."
+        ],
+        [
+            "Discussion Topic: Engage with peers to discuss the importance of studying networks.",
+            "Introduction Activity: Get familiar with course tools and objectives.",
+            "Hands-On with RStudio: Practice setting up and navigating RStudio.",
+            "Lesson Assignment: Apply basic R commands to explore network structures."
+        ],
+        [
+            "Representing Networks: Learn methods for visualizing and structuring networks using nodes and edges.",
+            "Characterizing Networks: Understand metrics like clustering, centrality, and path length to describe network behavior.",
+            "Theorem of Network Structures: Explore fundamental principles that govern network connectivity and organization."
+        ],
+        [
+            "Network Representation: Practice creating and visualizing network diagrams.",
+            "Metric Calculations: Apply network metrics to evaluate structures and behavior.",
+            "Lesson Assignment: Analyze the small-world phenomenon and its implications for network efficiency and resilience."
+        ],
+        [
+            "Designing and Collecting Data: Understand the process of formulating questions, defining boundaries, and maintaining a codebook for social network studies.",
+            "Selecting Methods and Tools: Learn to choose appropriate techniques and tools for data collection and analysis.",
+            "Practice with Network Data: Gain hands-on experience using built-in datasets, importing custom data, and creating and managing network objects.",
+            "Advanced Techniques: Work with edges, vertex attributes, two-mode networks, and combined networks to deepen understanding."
+        ],
+        [
+            "Formulating Analytic Questions: Practice designing research questions tailored to social network analysis.",
+            "Data Import and Visualization: Explore built-in datasets, import custom data, and visualize network structures.",
+            "Hands-On Assignment: Analyze a two-mode network, focusing on its structure and attributes."
+        ],
+        [
+            "Creating Network Graphs: Learn how to build network graphs from data using igraph.",
+            "Decorating Network Graphs: Apply attributes and visual elements to enhance graph clarity and aesthetics.",
+            "Graph Models: Explore different types of network graph models and their applications.",
+            "Reading and Converting Data: Import network data from files and convert raw data into network graphs.",
+            "Plotting and Layouts: Understand various plotting techniques and graph layouts to improve visual representation."
+        ],
+        [
+            "Network Creation: Practice building and plotting network graphs with igraph.",
+            "Data Import and Conversion: Work with network data files and convert them into meaningful visualizations.",
+            "Hands-On Assignment: Apply techniques learned to manipulate and visualize a given network dataset."
+        ],
+        [
+            "Basic Topographical Metrics: Understand fundamental metrics such as node degree, density, and clustering to describe network structures.",
+            "Measures of Centralization: Explore network centralization and how it impacts the flow of information and resources within a network.",
+            "Measures of Interconnectedness: Learn how interconnectedness reflects network robustness and efficiency.",
+            "Interconnectedness in R: Apply interconnectedness measures in R to analyze and visualize network data."
+        ],
+        [
+            "Metric Calculation: Practice calculating and interpreting basic topographical metrics in network datasets.",
+            "R Application: Use R to apply measures of centralization and interconnectedness to real-world network data.",
+            "Assignment: Analyze the role of social networks in terrorism using the measures learned in the lesson."
+        ],
+        [
+            "Components: Learn about the foundational building blocks of networks, including nodes and edges, and their roles in cohesion.",
+            "Cliques, Cores, and Factions: Understand the significance of dense subgroups like cliques, cores, and factions in network analysis.",
+            "Community Detection: Explore techniques for detecting communities within larger networks and the importance of these communities.",
+            "Subgroup Measures in R: Apply R to calculate and visualize cohesion metrics and subgroup structures in network data."
+        ],
+        [
+            "Subgroup Identification: Practice identifying cliques, cores, and factions in network datasets.",
+            "R Analysis: Use R to perform community detection and analyze subgroup cohesion.",
+            "Assignment: Analyze a network to identify and characterize subgroups, applying learned techniques."
+        ],
+        [
+            "Network Analysis Principles: Review of the basic concepts in network representation, manipulation, and descriptive analysis.",
+            "R Application: Application of R for network data manipulation, visualization, and analysis.",
+            "Descriptive Metrics: Understanding and applying topographical, centralization, and cohesion metrics."
+        ],
+        [
+            "Midterm Examination: Complete a proctored exam testing knowledge on course content, with both theoretical and practical questions.",
+            "Mid-Course Survey: Provide feedback on the course’s progress and effectiveness, offering suggestions for improvement."
+        ],
+        [
+            "Frequency-Based Measures: Understand how to measure centrality based on the frequency of connections within a network.",
+            "Distance-Based Measures: Explore how centrality can be defined by the proximity or distance of nodes within the network.",
+            "Path-Based Measures: Learn to assess centrality using the number of paths between nodes.",
+            "Centrality and Prestige: Discuss the relationship between centrality and prestige in social and organizational networks.",
+            "Centrality Measures in R: Apply R to calculate and visualize centrality measures for real-world network data."
+        ],
+        [
+            "Centrality Calculation: Practice calculating frequency, distance, and path-based centrality measures for a given network dataset.",
+            "R Application: Use R to calculate centrality measures and interpret the results within the context of network analysis.",
+            "Assignment: Analyze a network to identify central actors based on various centrality measures."
+        ],
+        [
+            "Preattentive Attributes: Understand how color, shape, position, and size can enhance network visualizations and make key patterns stand out.",
+            "Interactive Visualizations: Learn to create interactive visualizations using tools like visNetwork, threejs, and networkD3.",
+            "Dynamic Visualizations: Explore techniques for making network visualizations dynamic using ndtv to display network changes over time.",
+            "Using R for Visualization: Apply R packages to create and manipulate interactive network graphs that allow for deeper insights into the structure of the data."
+        ],
+        [
+            "Preattentive Attributes: Use igraph to apply visual attributes such as color and size to network graphs.",
+            "Interactive Visualizations: Create interactive network graphs with visNetwork and other R packages, exploring dynamic visual capabilities.",
+            "Dynamic Visualizations: Use ndtv to create visualizations that capture the dynamic evolution of networks over time.",
+            "Course Project: Begin preparing for the course project by selecting a network dataset for visualization."
+        ],
+        [
+            "Cutpoints, Bi-Component, and Bridges: Understand how cutpoints and bridges create weak points in networks and the role they play in maintaining or disrupting connectivity.",
+            "Key Players: Identify key players who serve as brokers or connectors within a network.",
+            "Network Flow Analysis: Learn how network flow analysis can reveal important pathways and bottlenecks within networks.",
+            "Structural Holes: Explore how structural holes create opportunities for brokerage and influence the flow of information within networks.",
+            "Brokerage in R: Use R to calculate and visualize brokerage positions within network data."
+        ],
+        [
+            "Key Player Identification: Practice identifying key players and brokers in a network dataset.",
+            "Network Flow Analysis: Use R to analyze the flow of information across a network and detect bottlenecks.",
+            "Assignment: Analyze a network for brokerage opportunities and calculate the impact of key players and structural holes."
+        ],
+        [
+            "Structural Equivalence: Understand the concept of structural equivalence, where nodes share the same pattern of connections within a network.",
+            "Automorphic Equivalence: Learn about automorphic equivalence, where nodes have identical structural roles but may not have identical relationships.",
+            "Regular Equivalence: Explore regular equivalence, where nodes are grouped based on similar positions in a network structure.",
+            "Positional Approaches in R: Use R to analyze networks and assess positional equivalences between nodes."
+        ],
+        [
+            "Equivalence Identification: Practice identifying structural, automorphic, and regular equivalences in a network dataset.",
+            "R Application: Use R to apply positional approaches and analyze the relationships and positions within a network.",
+            "Assignment: Apply positional analysis methods to a network and interpret the results based on equivalences."
+        ],
+        [
+            "Random Network Graph Model: Understand the principles behind the random network model and its application to network theory.",
+            "Small World Model: Explore the small world model and its relevance to real-world networks, such as social networks.",
+            "Preferential Attachment Model: Learn about the preferential attachment model, which explains how networks grow over time by connecting to existing nodes with higher degrees.",
+            "Assessing Network Graph Characteristics: Learn methods for assessing the significance of various network characteristics within different models."
+        ],
+        [
+            "Model Exploration: Practice applying the random, small world, and preferential attachment models to network data.",
+            "Significance Assessment: Use statistical techniques to assess the significance of network graph characteristics in real-world networks.",
+            "Discussion Topic: Participate in a discussion on the structure and organization of terrorist networks, applying concepts from the models studied."
+        ],
+        [
+            "Instructor Review: Submit the course project for an in-depth review by the instructor to receive professional feedback and suggestions for improvement.",
+            "Peer Review: Participate in peer reviews, where students provide constructive feedback on each other’s projects, fostering collaboration and improvement.",
+            "SEEQ Form: Complete the PSU Student Educational Experience Questionnaire to reflect on the course content, structure, and learning outcomes."
+        ],
+        [
+            "Project Submission: Submit the course project for instructor evaluation and peer review.",
+            "Peer Review Process: Review a fellow student’s project and provide feedback, considering clarity, analysis, and effectiveness of the project.",
+            "SEEQ Completion: Reflect on the learning experience in the course and provide feedback using the PSU Student Educational Experience Questionnaire."
+        ],
+        [
+            "Comprehensive Assessment: The exam will cover key topics from the entire course, including network structures, analysis techniques, and predictive modeling.",
+            "Network Analysis with R: Test students’ ability to apply R for analyzing and visualizing network data.",
+            "Theory and Application: Questions will assess both theoretical knowledge and practical application of the concepts learned in the course."
+        ],
+        [
+            "Review: Prior to the exam, review all course material, assignments, and key concepts discussed in class.",
+            "Final Exam Preparation: Complete practice questions and engage in study sessions to prepare for the proctored exam."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "A User’s Guide to Network Analysis in R",
+            "url": "https://link.springer.com/book/10.1007/978-3-319-23883-8"
+        },
+        {
+            "text": "https://student.worldcampus.psu.edu/help-and-support/technical-support.",
+            "url": "https://student.worldcampus.psu.edu/help-and-support/technical-support"
+        },
+        {
+            "text": "techsupport@worldcampus.psu.edu",
+            "url": "mailto:techsupport@worldcampus.psu.edu?subject=World%20Campus%20Tech%20Support%20Inquiry"
+        },
+        {
+            "text": "Penn State University Library.",
+            "url": "https://libraries.psu.edu/"
+        },
+        {
+            "text": "Network size",
+            "url": "#tab-strongnetworksizestrong"
+        },
+        {
+            "text": "Average distance",
+            "url": "#tab-strongaveragedistancestrong"
+        },
+        {
+            "text": "Network diameter",
+            "url": "#tab-strongnetworkdiameterstrong"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "Two circular network graphs showing clustering, diameter, and average path length differences.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/L11_F5-1024x791.png"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Assignment Category",
+                "Quantity",
+                "Weight (% of Final Grade)"
+            ],
+            [
+                "Assignments",
+                "10",
+                "50%"
+            ],
+            [
+                "Course Project",
+                "1",
+                "25%"
+            ],
+            [
+                "Examinations",
+                "2",
+                "25%"
+            ]
+        ],
+        [
+            [
+                "Measure",
+                "Description"
+            ],
+            [
+                "Size",
+                "A count of the number of actors in a network"
+            ],
+            [
+                "Average Distance",
+                "The average length of all the shortest paths (geodesics) between all actors in a network"
+            ],
+            [
+                "Diameter",
+                "The longest of all the shortest paths (geodesics) that traverse the network"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"4692\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

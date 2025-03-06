@@ -1,0 +1,547 @@
+{
+    "metadata": {
+        "title": "BA 810: Supply Chain and Operations Management – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4548"
+    },
+    "headings": {
+        "h2": "Lesson 7: Final Exam – Demonstrating Your Expertise",
+        "h4": "Unlocking Your Potential",
+        "h3": "Quality Management"
+    },
+    "paragraphs": [
+        "BA 810: Supply Chain and Operations Management is a three-credit course in which you will discover how to design, manage, and improve business processes to achieve operational excellence in today’s competitive landscape. This course introduces you to Operations Management, focusing on the efficient transformation of inputs—such as materials, labor, and knowledge—into valuable outputs like goods and services. While rooted in manufacturing, these principles also apply to industries like healthcare, banking, hospitality, and government, making them essential in a wide range of professional fields.",
+        "Through this course, you’ll explore both internal processes and supply chain management, learning to optimize operations, improve efficiency, and align processes with business strategies. You’ll develop practical skills to tackle challenges across service and manufacturing industries while analyzing and enhancing processes using proven methodologies.",
+        "Whether you’re aspiring to become a consultant, entrepreneur, general manager, or pursuing careers in marketing, finance, or investment, a solid understanding of operations is indispensable. By mastering systematic and analytical approaches, you’ll gain the tools to solve complex business challenges and position yourself as a leader in creating value and driving innovation.",
+        "This course focuses on the design, management, and improvement of a firm’s business processes. Operations Management is concerned with the transformation of inputs (material, equipment, labor, and knowledge) into outputs (goods and/or services) in a manner that is both efficient and effective, ensuring minimum cost while achieving high customer satisfaction.",
+        "Originally focused on manufacturing systems, the field now applies to service operations like healthcare, insurance, hotel management, banking, airlines, and government operations. Firms capable of efficiently producing quality goods and services gain significant competitive advantages. The course emphasizes systematic analysis and strategic management of production processes, both within and between firms (supply chain management). It prepares students for careers as consultants, entrepreneurs, general managers, and in other business functions like marketing, finance, and investment.",
+        "The Goal: A Process of Ongoing ImprovementAuthor: GoldrattPublisher: North River Press (3rd Revised Edition)ISBN: 0-88-427178-1",
+        "Managing Business Process Flows (MBPF)Authors: Anupindi, Chopra, Deshmukh, Van Mieghem, ZemelPublisher: Prentice Hall (3rd Edition)ISBN: 0-13-603637-6",
+        "Operations Management: Processes and Value Chains (Chapters 2 & 13)Authors: Krajewski, Ritzman, MalhotraPublisher: Prentice Hall (9th Edition)ISBN: 0131697390",
+        "Designing and Managing the Supply Chain: Concepts, Strategies, and Case StudiesAuthors: Simchi-Levi, Kaminski, Simchi-LeviPublisher: McGraw-Hill (3rd Edition)ISBN: 0073341525",
+        "Operations Management: Processes and Value ChainsAuthors: Krajewski, Ritzman, MalhotraPublisher: Prentice Hall (9th Edition)ISBN: 0131697390",
+        "*subject to change",
+        "By the end of this course, you will be able to accomplish the following objectives:",
+        "During this course you will expand your knowledge of the lesson topics each week.",
+        "Welcome to the exciting world of Operations Management, where strategy meets execution! This week, you’ll explore the foundational concepts of operations and learn how they connect to other key business disciplines. Through real-world examples, you’ll see how top companies achieve success by implementing effective operational strategies, setting the stage for deeper insights throughout the course.",
+        "By the end of this lesson, you’ll have a strong foundation in Operations Management and a clearer understanding of how it drives success in various industries. This knowledge will prepare you to tackle more complex concepts and apply them to real-world challenges throughout the course.",
+        "This week, you’ll dive into the core of process analysis, a crucial skill for improving business operations. You’ll learn to create process flow charts, calculate key metrics like cycle time and throughput, and identify bottlenecks that hinder efficiency. Additionally, you’ll explore Little’s Law, a powerful tool for analyzing company performance through process data. These concepts will equip you to design efficient processes and enhance existing ones.",
+        "By the end of this lesson, you’ll have the skills to analyze and optimize processes, creating efficiencies that drive business success. These tools will prepare you to tackle real-world operational challenges with confidence and precision.",
+        "his week, you’ll uncover the intricacies of inventory management, a cornerstone of efficient operations. Through real-world examples, you’ll explore why businesses hold inventory, the associated costs, and strategies to manage it effectively. From JIT (Just-In-Time) systems to the EOQ (Economic Order Quantity) model and the newsvendor model, you’ll learn to balance inventory needs with operational risks to maximize efficiency and minimize waste.",
+        "By the end of this lesson, you’ll have a clear understanding of inventory management’s strategic role in operations and how to use key models to make informed decisions. These insights will empower you to optimize resources and improve operational outcomes in real-world scenarios.",
+        "This week, you’ll explore the power of Linear Programming (LP), a versatile technique used to solve complex business problems efficiently. You’ll learn how to model real-world scenarios with LP, solve these models using Excel Solver, and analyze results to make data-driven decisions. From optimizing resource allocation to understanding sensitivity analysis, this lesson equips you with practical tools for tackling challenges in operations and beyond.",
+        "Upon completion of this lesson, you’ll understand how to leverage LP for problem-solving and decision-making in complex scenarios. These skills will enhance your ability to optimize resources and drive efficiency in professional contexts.",
+        "This week, you’ll shift your focus to the unique world of project management, exploring how managing one-time projects differs from the recurring production of goods. You’ll learn tools like Gantt charts and network diagrams to schedule and manage projects effectively, as well as techniques like project crashing to optimize timelines. Additionally, you’ll delve into forecasting methods that help businesses make data-driven decisions by predicting future trends with accuracy.",
+        "By completing this lesson, you will gain a solid understanding of managing unique projects and utilizing forecasting tools to predict business outcomes. These skills are essential for addressing complex operational challenges and making informed decisions in your professional career.",
+        "This week focuses on two critical aspects of operations management: quality management and supply chain intricacies. You’ll learn how to ensure that process outputs meet customer expectations through quality management tools like p-charts and methodologies like Six Sigma and Total Quality Management (TQM). Additionally, you’ll explore supply chain dynamics, including the Bullwhip Effect and the importance of information sharing, to improve overall efficiency and collaboration.",
+        "By the end of this lesson, you’ll develop essential skills in quality management and gain a deeper understanding of supply chain complexities. These insights will empower you to design processes that consistently deliver value and manage supply chain operations effectively in dynamic business environments.",
+        "Overview:This week is your opportunity to showcase everything you’ve learned about Operations Management. The final exam will test your understanding of key concepts, from process analysis to quality management and supply chain dynamics. It’s your chance to apply your knowledge to real-world scenarios, demonstrating the skills and insights you’ve gained throughout the course. Completing this final step will prepare you to confidently tackle operational challenges in your professional career.",
+        "Mastering operations management can greatly enhance your career by equipping you with the skills to optimize processes and drive efficiency in complex systems. As an Engineering Management major, you’ll be able to bridge the gap between technical teams and business objectives, ensuring that projects are completed on time, within budget, and to high-quality standards. This expertise makes you a valuable leader capable of streamlining workflows, managing resources effectively, and solving operational challenges.",
+        "Additionally, proficiency in operations management can open doors to advanced roles such as Operations Manager, Supply Chain Manager, or Project Manager, offering opportunities for career growth and increased earning potential. It positions you as a strategic thinker who can transform organizational processes and deliver measurable results, making you an asset in any engineering or business environment.",
+        "Inventory Management for a Retail ChainAs a supply chain specialist for a nationwide retail chain, you tackle the challenge of balancing inventory levels across stores. Drawing on the forecasting techniques you mastered in your coursework, you use models like EOQ and the newsvendor framework to predict demand and optimize stock levels. By integrating Just-In-Time (JIT) practices, you reduce waste and improve efficiency. Your solutions ensure shelves are stocked with the right products at the right time, improving customer satisfaction and increasing profitability.",
+        "Quality Improvement in a Healthcare FacilityNow working as a process improvement consultant for a major hospital, you identify inconsistencies in patient care that impact overall service quality. Using Six Sigma principles and tools like p-charts, you monitor and control process quality, pinpointing areas for improvement. By introducing standardized procedures and reducing errors, you elevate the hospital’s performance, enhancing patient satisfaction and earning recognition for driving meaningful change in healthcare operations.",
+        "Developing a Forecasting Model for a Tech StartupIn your role as an operations strategist at a fast-growing tech startup, you’re tasked with predicting demand for a new software product. Using forecasting techniques like time-series analysis and exponential smoothing, you develop a model that accurately predicts customer needs. Your insights guide production and marketing decisions, enabling the company to meet market demand while minimizing costs. Your contribution plays a pivotal role in the startup’s success, earning you recognition as a forward-thinking leader.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Required: BUSAD 501, BUSAD 801, or equivalent."
+        ],
+        [
+            "Assignments must be submitted in the Canvas dropbox by the due date."
+        ],
+        [
+            "Active, value-added participation is required.",
+            "Preparation includes reading assigned material and cases before class."
+        ],
+        [
+            "Group contributions are presumed equal unless written complaints are received."
+        ],
+        [
+            "Participation requires substantive, original, and relevant contributions."
+        ],
+        [
+            "Group-based analyses with one team presenting and others critiquing."
+        ],
+        [
+            "Recognize operations management as essential for business success.",
+            "Gain a deeper understanding of manufacturing environments.",
+            "Analyze systems holistically using system-wide performance metrics.",
+            "View operations as a business function with common-sense approaches."
+        ],
+        [
+            "Process Fundamentals",
+            "Project Management",
+            "Quality Management"
+        ],
+        [
+            "Define Operations Management and its relationship to other disciplines.",
+            "Match appropriate production and process design strategies in manufacturing and service companies.",
+            "Make production and operations management decisions using quantitative and financial analysis, applying mathematical and heuristic algorithms.",
+            "Integrate Operations Management and Supply Management concepts to improve business processes using techniques like Total Quality Management and Statistical Process Control.",
+            "Understand the importance of information sharing in supply chains.",
+            "Apply project management techniques effectively."
+        ],
+        [
+            "L1",
+            "L2",
+            "L3",
+            "L4",
+            "L5",
+            "L6",
+            "L7"
+        ],
+        [
+            "Understanding Operations Management: Learn what Operations Management is and how it integrates with other business functions like marketing, finance, and strategy.",
+            "Process and Production Strategies: Discover how to match production and process designs to the needs of both manufacturing and service-based companies."
+        ],
+        [
+            "Readings and Case Studies: Dive into chapters 1 and 2 of the course text, explore the “Warren Buffet Takes Charge” case, and analyze operational strategies using the Starbucks and Lean case studies.",
+            "Discussion Forum: Participate in discussions to share your thoughts on key questions related to operational strategy and its impact on business success. Engage with classmates to exchange ideas and broaden your understanding."
+        ],
+        [
+            "Process Flow and Metrics: Learn how to map processes and calculate critical metrics such as capacity, cycle time, and manufacturing lead time.",
+            "Little’s Law in Action: Discover how to apply Little’s Law to evaluate company performance and gain insights into operational efficiency."
+        ],
+        [
+            "Lecture and Video Review: Engage with lecture slides and videos, including examples like the Helpful Heart Hospital and the classic Lucy and Candy case, to understand process analysis concepts.",
+            "Hands-On Application: Practice drawing process flow charts and calculating metrics using provided examples to reinforce your understanding of bottlenecks and process improvement."
+        ],
+        [
+            "The Role of Inventory: Understand the reasons for holding inventory, its importance, and the potential risks involved.",
+            "Inventory Management Models: Learn to apply the EOQ model for optimal order quantities and the newsvendor model to address inventory uncertainty."
+        ],
+        [
+            "Lecture and Spreadsheet Analysis: Review lecture materials and work with the provided EOQ spreadsheet to practice calculating optimal inventory levels.",
+            "Littlefield Simulation: Apply inventory management concepts in a simulated environment, testing your ability to manage costs and demand effectively."
+        ],
+        [
+            "Linear Programming Basics: Learn how to model business problems using LP and understand key concepts such as shadow price and reduced cost.",
+            "Excel Solver: Discover how to apply LP models in Excel, solve them with Solver, and interpret sensitivity reports for actionable insights."
+        ],
+        [
+            "Lecture and Spreadsheet Practice: Work through examples like LawnGrow and Portfolio Optimization to build your LP skills. Use provided Excel files to practice modeling and solving real-world problems.",
+            "Littlefield Simulation Continuation: Apply LP concepts to refine your strategies in the ongoing simulation, integrating new tools into your decision-making process."
+        ],
+        [
+            "Project Management Fundamentals: Understand what makes projects unique, explore reasons for project failures, and learn to represent projects using tools like work breakdown structures, Gantt charts, and network diagrams.",
+            "Forecasting Techniques: Learn how to apply methods such as moving averages, weighted moving averages, and exponential smoothing to analyze data and make informed business predictions."
+        ],
+        [
+            "Lecture and Tool Practice: Engage with lecture materials and explore project management tools using real-world cases, like St. John’s Hospital, to build skills in scheduling and managing projects.",
+            "Hands-On Forecasting: Practice forecasting techniques on provided data sets to understand their application in making reliable business predictions."
+        ],
+        [
+            "Quality Management: Understand the costs of quality, steps to improve process quality, and tools like p-charts to monitor and control processes. Learn foundational concepts like TQM, Lean, JIT, and Six Sigma.",
+            "Supply Chain Dynamics: Delve into the complexities of supply chains using the Beer Game simulation, focusing on the Bullwhip Effect and the role of information sharing."
+        ],
+        [
+            "Quality Management Exercises: Practice using p-charts with real-world examples to determine if processes are under control and explore strategies to enhance process quality.",
+            "Beer Game Simulation: Participate in this interactive activity to experience the challenges of supply chain management, gaining insights into the importance of collaboration and communication."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "Slide with \"Process Fundamentals\" title, text, and a diagram showing inputs, transformation/conversion process, and outputs.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/ba-810-process-fundamentals.png"
+        },
+        {
+            "alt": "Slide titled \"Why understanding the process is important?\" showing a step-by-step process with illustrations and timeline details.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/BA-810-Why-process.png"
+        },
+        {
+            "alt": "Slide titled \"Projects are Different...\" comparing process and project management, with a quote about IT projects.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/Screenshot-2024-12-03-153259.png"
+        },
+        {
+            "alt": "",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/Screenshot-2024-12-03-153259.png"
+        },
+        {
+            "alt": "Slide titled \"Project Success Measures\" listing Schedule Overrun, Cost Overrun, Project Performance, and Customer Satisfaction with icons.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/Screenshot-2024-12-03-153322.png"
+        },
+        {
+            "alt": "Slide titled \"Why Quality is Important?\" with a quote, cost metrics, and categorized costs.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/ba-810-why-quality.png"
+        },
+        {
+            "alt": "Diagram titled \"The Chain Reaction of Quality\" showing steps linking quality improvement to business success.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/ba-810-chain-reaciton.png"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Activity",
+                "Weight"
+            ],
+            [
+                "In-class Participation",
+                "12%"
+            ],
+            [
+                "Online Participation",
+                "8%"
+            ],
+            [
+                "Case Assignments",
+                "15%"
+            ],
+            [
+                "Goal Assignment",
+                "10%"
+            ],
+            [
+                "Littlefield Assignment",
+                "15%"
+            ],
+            [
+                "Beer Game Participation",
+                "10%"
+            ],
+            [
+                "Homework",
+                "5%"
+            ],
+            [
+                "Final Exam",
+                "25%"
+            ]
+        ],
+        [
+            [
+                "Grade",
+                "Percentage"
+            ],
+            [
+                "A",
+                "95–100%"
+            ],
+            [
+                "A-",
+                "90–94%"
+            ],
+            [
+                "B+",
+                "87–89%"
+            ],
+            [
+                "B",
+                "84–86%"
+            ],
+            [
+                "B-",
+                "80–83%"
+            ],
+            [
+                "C+",
+                "77–79%"
+            ],
+            [
+                "C",
+                "70–76%"
+            ],
+            [
+                "D",
+                "65–69%"
+            ],
+            [
+                "F",
+                "Below 65%"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"4548\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

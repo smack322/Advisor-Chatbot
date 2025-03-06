@@ -1,0 +1,528 @@
+{
+    "metadata": {
+        "title": "SYSEN 552: Creativity and Problem Solving – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4193"
+    },
+    "headings": {
+        "h2": "Lesson 7: The Management of Change – Part II",
+        "h4": "Unlocking Your Potential",
+        "h3": "A.3 A Model for Group Development"
+    },
+    "paragraphs": [
+        "SYSEN 552: Creativity and Problem-Solving II is a comprehensive exploration of group problem-solving, with a particular emphasis on the domains of science, engineering, and technical management. While the primary focus is on addressing cognitive diversity and its impact on problem-solving, the concepts and techniques introduced are fully applicable to diverse team environments and industries.",
+        "Through selected readings, case studies, and practical activities, the course guides students through the theory and application of group problem-solving strategies. Key topics include understanding cognitive gaps, managing differences in cognitive styles, and leveraging agents of change to enhance team dynamics. Students will also engage with the Paradox of Structure, a core concept that examines the balance between structure and flexibility in solving complex problems.",
+        "The course will emphasize improving group efficiency, communication, and solution quality by analyzing real-world examples and applying learned strategies to case studies. Upon completing the course, students will be equipped with practical tools to optimize group performance and effectively address challenges in technical and managerial contexts.",
+        "(3 credits) Theory and practical applications of group problem solving, including cognitive gap, coping behavior, agents of change, and managing cognitive diversity. This course builds on an understanding of the individual problem solver to address the dynamics of group problem solving, with a particular focus on the domains of science, engineering, and technical management. At the core of the course material is cognitive gap, i.e., differences in cognitive characteristics that may exist between problem solvers (both individuals and groups) and/or between problem solvers and the problems they solve. The Paradox of Structure remains a key concept in this course as well.",
+        "Students will explore the impact of different cognitive profiles on problem-solving from multiple perspectives, including group efficiency, personal communication, and the quality of group outcomes. Strategies and tactics for improving the problem-solving performance of groups of all sizes will be learned and applied using real-world examples and case studies. Strategies and techniques for improving the problem-solving performance of groups of all sizes will be introduced and applied using real-world examples.",
+        "The fundamental objective of this course is to help students become better and more insightful problem solvers in collaboration through an enhanced understanding of cognitive diversity within and between groups and the ways it can be leveraged to make problem solving more effective. Students who complete this course successfully will be able to:",
+        "There are two exams proctored via Honorlock in this course: one midterm exam (20% of course grade) and one final exam (20% of course grade).",
+        "Note: A grade is given solely on the basis of the instructor’s judgment as to the student’s scholarly attainment (see the Penn State Graduate Degree Programs Bulletin).",
+        "The following grading system applies to graduate students:",
+        "Students are reminded that simply meeting the minimal requirements of any assignment (both in terms of content and presentation) will result in a letter grade of “B” or less for that assignment.",
+        "Grades will be based on the following scale:",
+        "A = 95 – 100, A- = 90 – 94, B+ = 87 – 89, B = 84 – 86, B- = 80 – 83, C+ = 77 – 79, C = 70 – 76, D = 60 – 69, and F = Below 60.",
+        "As noted above, there will be a discussion forum associated with each lesson. You are required to log on to every discussion forum and to post at least one direct answer or original observation related to the assigned theme and/or questions. You are also required to respond to the comments of your classmates during each discussion forum (please see the forum instructions, which specify the number of required postings). You are not required to follow threads from previous lessons unless specifically asked you to do so, but you are always welcome to post comments that relate to any previous discussion if it also relates to the current theme in some way.",
+        "The instructor will monitor all discussion forums and will participate in them throughout the course and will evaluate your performance every week with feedback provided on how you are doing (as a group and/or on an individual basis). Your formal grade for discussion forum performance will be calculated based on the number of postings you make and the quality of your comments (e.g., degree of advanced thinking, quality of communication).",
+        "There will be two written assignments during the course: Reflection and Synthesis (R and S) #1-#2. These are due at the end of Lessons 3 and 6, respectively. The purpose of these assignments is to help you reflect upon, analyze, synthesize, and apply the material covered in this course. You are welcome to work together in the early stages of these assignments (e.g., discussing your ideas, pondering approaches, recommending references), but the final product must be entirely your own individual work.",
+        "In completing each assignment, you are expected to submit neat, organized, and complete written documents that demonstrate higher order thinking and good communication skills (i.e., the quality of your writing will be assessed). Typed assignments (1.5 or double-spaced) are required. Each written assignment is worth a total of 100 points and 20% of your course grade. Of these 100 points, 80 points will be used to assess the content of your response (e.g., have you completed the required task, how well have you done so), while the remaining 20 points will be used to assess the quality of your communication (e.g., your writing – grammar, spelling, punctuation, clarity of expression, etc.).",
+        "There will be two exams given in this course: one midterm exam (20% of course grade) and one final exam (20% of course grade). The purpose of these exams is to ensure your ready recall of fundamental concepts and key points covered in this course; they will not focus on minute detail (e.g., no dates). In terms of format, all exams will be primarily (if not completely) multiple choice, with the possibility of a few short answer questions.",
+        "All exams will be given as closed-book, closed-notes, online exams, offered within prescribed windows of opportunity during the appropriate week. All exams are to be completed without the collaboration or assistance of any other individuals, including other students. You will be “on your honor” to follow these requirements.",
+        "This course may require you to take exams using certain proctoring software that uses your computer’s webcam or other technology to monitor and/or record your activity during exams. The proctoring software may be listening to you, monitoring your computer screen, viewing you and your surroundings, recording and storing any and all activity (including visual and audio recordings) during the proctoring process. By enrolling in this course, you consent to the use of the proctoring software selected by your instructor, including but not limited to any audio and/or visual monitoring which may be recorded.",
+        "*subject to change",
+        "We will begin with cognitive gaps between individuals (alone and in groups), i.e., with Person-Person gaps. Once again, we will tend to focus on cognitive gap as applied to cognitive style, but the same understanding applies to level, motive, etc. – indeed, to any cognitive difference that impacts problem solving effectiveness. To help in the characterization of cognitive gap in terms of style, let’s review some data related to discernible differences in cognitive style as measured by KAI.",
+        "As you recall (see your text, p. 67, and your KAI feedback booklet, p. 5), 10 points is the just-noticeable-difference in KAI scores between two individuals (i.e., a difference noticeable to themselves and to others who know them well), or between one person and the mode style of a group. Research also shows that at a gap of about 20 points (i.e., roughly one standard deviation of the general population samples), considerable extra effort becomes necessary to ensure close agreement between those on either end of the gap [3]. When two individuals are more than 20 KAI points apart, one or both of them will need increasing amounts of coping behavior, at least from time to time, for them to continue operating smoothly as a team.",
+        "It is critical to note that it is the size of the gap that matters, not the absolute positions of the individuals (and/or groups) who are defining the gap along the relevant continuum of style or level. In Figure 1, for example, note that a style gap (say) between the lone individual on the right and the small group on the left can cause problems even when all five people are on the same side of the mid-point of the A-I continuum (i.e., all may be adaptive or all may be innovative); the same principle would apply (in terms of level) if all the individuals were “more” or “less” experienced in some particular domain. It is the cognitive distance between them that is relevant in either case.",
+        "Figure 1: Illustration of cognitive gap (person-person)",
+        "Consider the relationship between the available problem solvers in a group and the requirements of a particular problem, using the curves shown in Figure 1 below. The solid curve represents the distribution of problem solvers along the A-I style continuum, and the dashed curve represents the style requirements of the current problem shared by the team (i.e., Problem A). Note that the relative locations of the >AC2’s and >AC3’s have also been marked on the diagram [see note].",
+        "Figure 1: Availability of problem solvers (solid line) and requirements of Problem A (dashed line)",
+        "Early in this course, we reviewed briefly the 6-stage model of the change process developed by Kirton in his Management Initiative study. There are other schemas in the literature related to problem solving in groups, and it will be useful to explore one of them now – both on its own merits and in conjunction with A-I theory. In this case, the model relates to group development and was developed by Tuckman & Jensen [3]; you may be familiar with it already. Turn to p. 290 of your text for a diagram of it and follow along.",
+        "Tuckman & Jensen’s schema is specifically intended as a model for group development in a management context. As such, it has two dimensions:",
+        "These two dimensions form a “matrix” of interaction between characteristic human relations and task-oriented behaviors at the various stages of group development, just as A-I theory refers to the management of diversity in terms of both the (technical) problem and the problem solvers. Tuckman & Jensen define and characterize these stages as follows:",
+        "This course will provide you with a thorough introduction to:",
+        "During this course you will expand your knowledge of the lesson topics each week.",
+        "This lesson introduces the key assumptions and foundational concepts of Adaption-Innovation (A-I) theory. You will explore the principal elements of problem solving, including opportunity, motive, level, and style, while revisiting concepts from SYSEN 550 such as cognitive function schema, level-style distinction, and the Paradox of Structure.",
+        "By completing this lesson, you’ll establish a solid foundation for understanding collaborative problem solving through the lens of cognitive diversity, preparing for more advanced applications in later lessons.",
+        "This lesson introduces the importance of diversity in human problem solving, focusing on the wide range of problems humans face and the equally diverse individuals who must solve them. You’ll revisit Problems A & B as essential elements in collaborative problem solving and examine how cognitive gap provides a framework for understanding human diversity.",
+        "By completing this lesson, you will understand the value of managing diversity and gain strategies for effectively addressing Problem A in the context of group problem solving.",
+        "This lesson introduces the importance of diversity in human problem solving, focusing on the wide range of problems humans face and the equally diverse individuals who must solve them. You’ll revisit Problems A & B as essential elements in collaborative problem solving and examine how cognitive gap provides a framework for understanding human diversity.",
+        "By completing this lesson, you’ll develop a deeper understanding of cognitive diversity and how to manage gaps effectively for successful group problem solving.",
+        "This lesson begins with an introduction to the management of cognitive gap, focusing on the dynamics within small work groups. You’ll explore how consensus subsets form and the roles of agents of change—both insiders and outsiders—in influencing group processes. Key topics include the cognitive climate of a team, the relationship between bridging and coping behaviors, and how A-I theory can inform models for group development.",
+        "By completing this lesson, you’ll gain practical insights into managing cognitive gaps, leveraging agents of change, and addressing resistance to foster successful group problem solving and collaboration.",
+        "This lesson begins with an introduction to the concept of cognitive climate, examining its role in group problem solving. You’ll explore how the composition of a group, including the cognitive diversity of its members, shapes the climate and influences outcomes.",
+        "By completing this lesson, you’ll gain a nuanced understanding of how cognitive climate, bridging, and coping behaviors contribute to effective problem solving and stress management in diverse teams.",
+        "In this lesson, we will explore change management as a continuum, focusing on how it evolves over time. We’ll begin by reviewing the key concepts covered so far and their application to managing change in collaborative problem solving. Normal change will be at the center of our discussion, highlighting its role in organizational dynamics and the progression of change over time. By looking at the concept of change as a continuum, you’ll understand how shifts in style and approach affect both individuals and groups during periods of transition.",
+        "By completing this lesson, you will develop the tools to approach change as a dynamic, continuous process and enhance your ability to adapt to problems that are constantly shifting, ensuring a more resilient approach to problem solving.",
+        "In this lesson, we will explore change management as a continuum, focusing on how it evolves over time. We’ll begin by reviewing the key concepts covered so far and their application to managing change in collaborative problem solving. Normal change will be at the center of our discussion, highlighting its role in organizational dynamics and the progression of change over time. By looking at the concept of change as a continuum, you’ll understand how shifts in style and approach affect both individuals and groups during periods of transition.",
+        "By completing this lesson, you will develop the tools to approach change as a dynamic, continuous process and enhance your ability to adapt to problems that are constantly shifting, ensuring a more resilient approach to problem solving.",
+        "SYSEN 552 equips students with critical leadership and collaborative problem-solving skills tailored for the complexities of systems engineering. The course emphasizes managing cognitive diversity, facilitating effective team dynamics, and leading through change, preparing students to address real-world challenges in dynamic organizational settings. By mastering concepts like bridging cognitive gaps, managing change, and ethical leadership, students emerge with the tools to drive innovation, foster collaboration, and deliver successful project outcomes in systems engineering contexts.",
+        "Graduates of SYSEN 552 are well-positioned for roles such as Systems Engineer, Project Manager, Team Lead, and Systems Architect. These positions require not only technical expertise but also the ability to lead diverse teams, manage multifaceted projects, and adapt to changing requirements. Employers in industries like aerospace, defense, healthcare, and technology value the skills gained in this course, which translate directly into effective leadership and problem-solving in complex systems.",
+        "A transportation company faced a significant challenge in implementing a new autonomous vehicle system to optimize urban logistics. The project required collaboration among software developers, hardware engineers, urban planners, and legal teams. However, conflicting priorities among stakeholders—such as maximizing efficiency for the engineers, ensuring public safety for the legal team, and aligning with city planning for the urban planners—resulted in misaligned goals and frequent delays. Additionally, the project encountered resistance to change from employees concerned about job security and the public’s skepticism of autonomous technology.",
+        "To resolve these challenges, a systems engineer with strong problem-solving leadership skills was brought in to lead the effort. The engineer applied cognitive gap management to bridge the differing perspectives of the stakeholders, facilitating open communication and aligning the team’s goals with the project’s objectives. By implementing collaborative problem-solving techniques, the team successfully addressed resistance to change through transparent discussions and training sessions for affected employees. A process model was introduced to ensure that the technical, legal, and social considerations were integrated seamlessly into the project plan.",
+        "As a result, the autonomous vehicle system was successfully implemented, improving delivery efficiency, reducing costs, and addressing safety concerns. This example illustrates the critical role of problem-solving leadership in navigating complex systems projects, managing change, and achieving alignment among diverse stakeholders.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Analyze the cognitive resources of a problem solving group",
+            "Break down complex problems based on cognitive variables",
+            "Match cognitive resources appropriately with required tasks",
+            "Design strategies for facilitating change through collaborative problem-solving"
+        ],
+        [
+            "M.J. Kirton,  Adaption-Innovation in the Context of Diversity and Change, RoutledgeISBN-13: 978-0415298513 or ISBN-10: 0415298512 (paperback)\n\nE-Book Option: An online version of your text is available at no cost as a Penn State Library E-Book. You can access the E-Book through the Penn State Library System.  You may choose to use the E-Book as an alternative to purchasing a physical copy of the text. For questions or issues, you can contact the University Libraries Reserve Help (UL-RESERVESHELP@LISTS.PSU.EDU)",
+            "E-Book Option: An online version of your text is available at no cost as a Penn State Library E-Book. You can access the E-Book through the Penn State Library System.  You may choose to use the E-Book as an alternative to purchasing a physical copy of the text. For questions or issues, you can contact the University Libraries Reserve Help (UL-RESERVESHELP@LISTS.PSU.EDU)"
+        ],
+        [
+            "E-Book Option: An online version of your text is available at no cost as a Penn State Library E-Book. You can access the E-Book through the Penn State Library System.  You may choose to use the E-Book as an alternative to purchasing a physical copy of the text. For questions or issues, you can contact the University Libraries Reserve Help (UL-RESERVESHELP@LISTS.PSU.EDU)"
+        ],
+        [
+            "“A” (Excellent) indicates exceptional achievement;",
+            "“B” (Good) indicates substantial achievement;",
+            "“C” (Satisfactory) indicates acceptable but substandard achievement; and",
+            "“D” (Poor) indicates inadequate achievement and is a failing grade for a graduate student."
+        ],
+        [
+            "Case studies and examples from many domains",
+            "Characterizing Problem A",
+            "Cognitive gap: Person-Person and Person-Problem",
+            "Agents of change",
+            "Resistance to change",
+            "Cognitive climate",
+            "Bridging as a social role",
+            "Coping behavior",
+            "The progression of change",
+            "The problem as a moving target",
+            "The pendulum of change vs. the spiral of change",
+            "The management of diversity and change",
+            "Problem solving leadership"
+        ],
+        [
+            "Cognitive Gaps",
+            "People & Problems",
+            "Group Development"
+        ],
+        [
+            "Personal relations: the people concerned (vertical axis)",
+            "Task functions: aspects of the task or project (horizontal axis)"
+        ],
+        [
+            "Problem-solving leadership frameworks, with a focus on systems engineering applications.",
+            "Cognitive gap management techniques, enabling effective collaboration among diverse stakeholders.",
+            "Change management strategies, emphasizing proactive approaches to fostering innovation and growth.",
+            "Collaborative problem-solving models, integrating technical and organizational dynamics for complex systems.",
+            "Leadership roles in diverse teams, including bridging, coping, and ethical considerations in group dynamics.",
+            "Opportunity management processes, including identifying, exploiting, and optimizing opportunities within systems projects.",
+            "Practical applications of Adaption-Innovation (A-I) theory, tailored to problem-solving leadership and team performance."
+        ],
+        [
+            "L1",
+            "L2",
+            "L3",
+            "L4",
+            "L5",
+            "L6",
+            "L7"
+        ],
+        [
+            "Introduction to Adaption-Innovation theory and its key assumptions.",
+            "Connections between managing cognitive diversity and organizational change."
+        ],
+        [
+            "Conceptual Exploration: Review and discuss key concepts from SYSEN 550, focusing on the distinction between level and style in problem solving.",
+            "KAI Feedback Reflection: Reflect on your personal KAI feedback and explore its implications for your cognitive style and problem-solving approach."
+        ],
+        [
+            "Introduction to cognitive gap as a way to describe and manage human diversity.",
+            "The diversity of problems humans must solve and the individuals solving them."
+        ],
+        [
+            "Diversity Analysis Exercise: Explore examples of human diversity in problem solving and discuss the implications for team performance.",
+            "Cognitive Gap Reflection: Analyze the concept of cognitive gap and how it shapes interactions and outcomes in diverse teams."
+        ],
+        [
+            "Exploring Person-Person cognitive gaps and their implications for individual and group dynamics.",
+            "Examining the discovery of DNA’s structure as a case study in managing cognitive gaps during collaboration."
+        ],
+        [
+            "Diversity Audit Task: Explore the practical application of Kirton’s group diversity audit and how it can help mitigate challenges in diverse teams.",
+            "Reflection Activity: Reflect on the lessons learned about cognitive diversity and how they can be applied to real-world team challenges."
+        ],
+        [
+            "Managing cognitive gaps in small work groups and consensus subsets.",
+            "Understanding agents of change and their varying impacts on group dynamics."
+        ],
+        [
+            "Bridging and Coping Exercise: Reflect on personal experiences with bridging and coping behaviors and explore their application in team settings.",
+            "Agent of Change Role play: Simulate the influence of insiders (AC2s) and outsiders (AC3s) in a collaborative problem-solving scenario."
+        ],
+        [
+            "Introduction to cognitive climate and its influence on problem solving.",
+            "Understanding the cognitive gap and strategies for managing it."
+        ],
+        [
+            "Cognitive Climate Exercise: Reflect on the cognitive climate of a team or group you’ve been part of and analyze its impact on outcomes.",
+            "Bridging Role play: Simulate the role of a third-party bridge in narrowing cognitive gaps within a diverse group."
+        ],
+        [
+            "Managing change as a continuum, with an emphasis on “normal change” and its progression.",
+            "How to approach problems as moving targets, considering examples and strategies for staying adaptable."
+        ],
+        [
+            "Change Management Exercise: Reflect on an experience where you navigated a significant change in a team or organization. Discuss how change unfolded over time and its impact on problem-solving.",
+            "Moving Target Problem-Solving Activity: Analyze a case study where a problem evolved over time, and discuss strategies used to adapt and find a solution."
+        ],
+        [
+            "Managing change as a continuum, with an emphasis on “normal change” and its progression.",
+            "The balanced view of change provided by A-I theory and its application to problem-solving."
+        ],
+        [
+            "Group Discussion: Participate in a group discussion about the concept of problems as moving targets and how this idea can be used to prepare for future challenges.",
+            "Reflection and Action Plan: Develop a personal action plan for managing change in future projects, considering the dynamic nature of problems and solutions."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Adaption-Innovation in the Context of Diversity and Change",
+            "url": "https://catalog.libraries.psu.edu/catalog/21323200"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "The cover of the book 'Adaption-Innovation: In the Context of Diversity and Change' by M.J. Kirton. The design features puzzle pieces with two orange stick figures helping each other climb, symbolizing collaboration and problem-solving. The title is prominently displayed in black text on a white background, with the author's name in an orange box at the top.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/Adaption-Innovation-book.png"
+        },
+        {
+            "alt": "A simple illustration depicting cognitive diversity. On the left, a group of four figures stands together, engaged in activity with musical notes above them, symbolizing collaboration or shared focus. To the right, a single figure stands apart, waving, indicating separation or differing perspectives. Both groups are positioned along a horizontal line with arrows on either end, representing a spectrum or continuum.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/cognitive_gap.jpg"
+        },
+        {
+            "alt": "A diagram illustrating the spectrum of cognitive styles from 'More adaptive' on the left to 'More innovative' on the right. A dashed curve labeled 'Problem A' spans across the spectrum, representing the problem's distribution. Three sections are marked along the spectrum with labels 'AC3's' on the left, 'AC2's' in the center, and another 'AC3's' on the right, indicating different types of agents of change within the continuum.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/11/people_and_problems.jpg"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Assignment",
+                "Points Each",
+                "Quantity",
+                "Percentage of Final Grade"
+            ],
+            [
+                "Reflection and Synthesis",
+                "100/each (200 total)",
+                "2",
+                "40% (20%/each)"
+            ],
+            [
+                "Midterm Exam",
+                "100",
+                "1",
+                "20%"
+            ],
+            [
+                "Final Exam",
+                "100",
+                "1",
+                "30%"
+            ],
+            [
+                "Discussion Forums",
+                "25/each (175 total)",
+                "7",
+                "20%"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"4193\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

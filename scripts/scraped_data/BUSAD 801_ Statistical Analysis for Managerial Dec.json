@@ -1,0 +1,585 @@
+{
+    "metadata": {
+        "title": "BUSAD 801: Statistical Analysis for Managerial Decision Making – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=5602"
+    },
+    "headings": {
+        "h2": "Lesson 7: Regression Analysis (Part 2)",
+        "h4": "Unlocking Your Potential",
+        "h3": "Regression Analysis"
+    },
+    "paragraphs": [
+        "In today’s data-driven business landscape, the ability to analyze and interpret statistical information is critical for effective decision-making. BUSAD 801 equips MBA students with the tools and techniques necessary to navigate complex business challenges using statistical methods. This course goes beyond theory, emphasizing the practical application of statistics in real-world scenarios through a contemporary spreadsheet environment like Microsoft Excel.",
+        "Through hands-on problem-solving, data analysis, and case studies, you’ll learn how to identify the right statistical methods for various business situations, perform detailed analyses, and communicate findings in a way that supports strategic decisions. Whether you’re enhancing operational efficiency, evaluating market trends, or solving financial problems, this course provides the foundation you need to excel in managerial roles.",
+        "BUSAD 801: Statistical Analysis for Managerial Decision Making (3 credits) introduces MBA students to essential statistical concepts, methods, and techniques used in business decision-making. The course emphasizes the practical application of statistics and data analysis within a spreadsheet environment, preparing students to make data-driven decisions.",
+        "Prerequisite(s): None",
+        "Upon completing this course, students will be able to:",
+        "Textbook:",
+        "Software:",
+        "Grading Scale:",
+        "Grading point equivalents:",
+        "This course is delivered 75% online through:",
+        "Students are required to participate in in-person sessions, which will be held three times during the semester from 6:00–9:00 PM.",
+        "Active Participation: Respectfully challenge views and engage in discussions, both online and in-person.",
+        "Class Preparation: Read assigned materials, watch tutorial videos, and complete practice problems before class.",
+        "*subject to change",
+        "Two events are mutually exclusive if the occurrence of any one means that none of the other can occur at the same time.",
+        "A and B are mutually exclusive. B and C are not",
+        "Hypothesis testing involves drawing inferences about two contrasting propositions (hypotheses) relating to the value of a population parameter, one of which is assumed to be true in the absence of contradictory data.",
+        "We seek evidence to determine if the hypothesis can be rejected; if not, we can only assume it to be true but have not statistically proven it true.",
+        "whether the measure is correct",
+        "whether the measure is repeatable",
+        "conclusions• Inductive – conclusion drawn from multiple observations• Deductive – conclusion drawn from certain premises",
+        "y = mx + bMarket Value = a + b * Square Feet",
+        "Upon completing this course, students will be able to:",
+        "During this course you will expand your knowledge of the lesson topics each week.",
+        "In this lesson, you will explore the foundational concepts of data analysis and its role in making informed business decisions. You will learn how data can be used to display trends, summarize information, and provide valuable insights for various professional contexts.",
+        "By the end of this lesson, you will be able to summarize and display data effectively, laying the groundwork for advanced data analysis techniques and informed decision-making in professional settings.",
+        "In this lesson, you will delve into the fundamentals of probability and probability distributions, exploring their critical role in data analysis and decision-making. You will apply these concepts to real-world datasets to enhance your analytical skills.",
+        "By the end of this lesson, you will have a strong grasp of probability distributions and their applications, equipping you to analyze data with greater confidence and accuracy.",
+        "This lesson introduces the principles of sampling and estimation, emphasizing their importance in making accurate inferences from data. You will explore real-world examples to understand how these concepts support data-driven decision-making.",
+        "By the end of this lesson, you will understand how to design effective sampling strategies and estimate data insights, preparing you for advanced analytical techniques.",
+        "In this lesson, you will explore the foundational principles of hypothesis testing and statistical inference. These techniques are crucial for determining the validity of data-driven claims and making informed decisions based on sample data.",
+        "By the end of this lesson, you will gain the skills to test hypotheses effectively, enhancing your ability to draw meaningful conclusions from data in professional contexts.",
+        "In this lesson, you will expand on your knowledge of hypothesis testing by exploring advanced statistical techniques, including ANOVA and Chi-Squared tests. These methods are essential for comparing multiple groups and analyzing categorical data.",
+        "By the end of this lesson, you will have a thorough understanding of ANOVA and Chi-Squared tests, preparing you to tackle complex analytical challenges and draw meaningful insights from diverse datasets.",
+        "In this lesson, you will be introduced to the fundamental concepts of regression analysis. You will learn how to use regression models to explore relationships between variables and predict outcomes based on data trends.",
+        "By the end of this lesson, you will have a foundational understanding of simple regression models and their applications, preparing you for more advanced analysis techniques in subsequent lessons.",
+        "Building on the foundation of simple regression, this lesson explores multiple regression techniques and advanced diagnostics. You will learn how to refine models and evaluate their accuracy to ensure reliable predictions.",
+        "By the end of this lesson, you will have a strong grasp of multiple regression techniques and the ability to apply them to complex data analysis tasks.",
+        "A Business Administration major taking BUSAD 801: Statistical Analysis for Managerial Decision Making gains critical analytical skills that significantly enhance career prospects. This course equips students with the ability to interpret complex data, apply statistical methods to real-world problems, and make data-driven decisions, skills that are highly sought after in today’s data-driven economy. Mastering techniques like regression analysis, hypothesis testing, and probability distributions allows students to provide actionable insights, optimize business processes, and predict future trends, positioning them as valuable assets in any organization.",
+        "Whether pursuing careers in finance, marketing, operations, or consulting, students of BUSAD 801 will have a competitive edge. They’ll be prepared to tackle challenges such as market analysis, operational efficiency, and risk assessment with confidence. Moreover, the ability to communicate findings through clear data visualizations and statistical reasoning fosters leadership and collaboration in multidisciplinary teams. Ultimately, this course lays a strong foundation for students aiming to excel in management roles, data analytics, or strategic decision-making positions.",
+        "Market Demand Forecasting for a New Product LaunchUsing statistical tools such as regression analysis, a student might analyze historical sales data, consumer surveys, and market trends to predict the demand for a new product. This project would involve building predictive models, identifying key factors driving demand, and providing actionable recommendations to marketing and operations teams.",
+        "Operational Efficiency Analysis in Supply Chain ManagementA student could analyze supply chain data to identify bottlenecks, measure key performance indicators, and evaluate the impact of process improvements. By applying hypothesis testing and variance analysis (ANOVA), they might determine the effectiveness of proposed changes and support decisions aimed at reducing costs and improving delivery times.",
+        "Employee Turnover Prediction and AnalysisIn a human resources context, the student might create a model to predict employee turnover based on factors such as job satisfaction, compensation, and work-life balance. This project could involve using probability distributions and chi-squared tests to understand trends and provide recommendations for retention strategies.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Evans, James R. (2013). Statistics, Data Analysis, & Decision Modeling, 5th edition, Prentice Hall. ISBN-13: 978-0-13-274428-7"
+        ],
+        [
+            "Microsoft Excel will be used for statistical analysis. Students can download a free copy via Penn State Software Services.",
+            "Tutorials and resources, such as Excel Essential Topics for Beginners, are available for free at Lynda.psu.edu."
+        ],
+        [
+            "A: 90–100%",
+            "B: 80–89%",
+            "C: 70–79%",
+            "D: 60–69% (not passing for graduate students)",
+            "F: Below 60%"
+        ],
+        [
+            "A-: 3.67, B+: 3.33, B-: 2.67, C+: 2.33"
+        ],
+        [
+            "Recorded lectures",
+            "Discussion forums",
+            "Individual research and writing",
+            "Graded problem sets"
+        ],
+        [
+            "Students should read assigned chapters, watch lectures, review notes, and complete practice problems weekly.",
+            "Participate in discussion boards with at least one post responding to the weekly question by Thursday and one post engaging with a classmate by Sunday."
+        ],
+        [
+            "Proficiency in Microsoft Excel is expected. Tutorials and additional resources are provided to support learning."
+        ],
+        [
+            "Probability Rules",
+            "Hypothesis Testing",
+            "Simple Linear Regression"
+        ],
+        [
+            "Probability associated with any outcome must be between 0 and 1\n\n\n0 ≤ P(Oi) ≤ 1 for each outcome Oi",
+            "0 ≤ P(Oi) ≤ 1 for each outcome Oi",
+            "Sum of probabilities over all possible outcomes must be 1.0\n\n\nP(O1) + P(O2) + … + P(On) = 1",
+            "P(O1) + P(O2) + … + P(On) = 1"
+        ],
+        [
+            "0 ≤ P(Oi) ≤ 1 for each outcome Oi"
+        ],
+        [
+            "P(O1) + P(O2) + … + P(On) = 1"
+        ],
+        [
+            "Flip a coin three times\n\n\nOutcomes: HHH, HHT, HTH, THH, HTT, THT, TTH, TTT\nEach has probability of (1/2)3 = 1/8",
+            "Outcomes: HHH, HHT, HTH, THH, HTT, THT, TTH, TTT",
+            "Each has probability of (1/2)3 = 1/8"
+        ],
+        [
+            "Outcomes: HHH, HHT, HTH, THH, HTT, THT, TTH, TTT",
+            "Each has probability of (1/2)3 = 1/8"
+        ],
+        [
+            "Building models that characterize the relationships between a dependent variable and one (single) or more (multiple) independent variables, all of which are numerical.",
+            " Regression analysis can be used for:\n\n\n Cross-sectional data\n Time series data (forecasting)",
+            " Cross-sectional data",
+            " Time series data (forecasting)"
+        ],
+        [
+            " Cross-sectional data",
+            " Time series data (forecasting)"
+        ],
+        [
+            "Communicate statistical findings effectively in business contexts.",
+            "Identify business situations suitable for statistical analysis.",
+            "Match appropriate statistical methods to a variety of business scenarios.",
+            "Perform statistical analyses using tools like Microsoft Excel.",
+            "Interpret the results of statistical studies."
+        ],
+        [
+            "L1",
+            "L2",
+            "L3",
+            "L4",
+            "L5",
+            "L6",
+            "L7"
+        ],
+        [
+            "Displaying and Summarizing Data: Understand the importance of visual and numerical methods to interpret data effectively.",
+            "Applications in Business Contexts: Explore how data analysis supports decision-making across industries, particularly accounting and marketing.",
+            "Tools for Analysis: Gain insights into utilizing software like Microsoft Excel to create visualizations such as pivot charts and histograms."
+        ],
+        [
+            "Learn the Fundamentals: Delve into foundational readings and resources that explain core concepts of data analysis.",
+            "Practice Visualization: Experiment with creating charts and graphs to represent data clearly and effectively, using examples provided in the lesson materials.",
+            "Discuss and Reflect: Engage in thoughtful discussions about the role of data in modern business and share perspectives on its applications and challenges."
+        ],
+        [
+            "Introduction to Probability: Understand the basic principles of probability and how it informs data analysis.",
+            "Probability Distributions: Learn about key distributions such as normal and binomial distributions and their applications.",
+            "Practical Applications: Explore how probability concepts are used in business scenarios to predict outcomes and make informed decisions."
+        ],
+        [
+            "Build Foundational Knowledge: Study Chapter 3 of the Evans textbook to understand core probability concepts and distributions.",
+            "Apply Concepts: Work with datasets like the “Cereal Data” and “Call Center Data” to practice creating and analyzing probability distributions.",
+            "Engage in Discussion: Reflect on the use of probability in real-world scenarios, including its relevance in current events and decision-making processes."
+        ],
+        [
+            "Sampling Techniques: Learn about various sampling methods and their implications for data accuracy and reliability.",
+            "Estimation Methods: Understand how to calculate confidence intervals and make reliable predictions based on sample data.",
+            "Practical Applications: Examine case studies that highlight the use of sampling and estimation in fields such as healthcare and consumer behavior."
+        ],
+        [
+            "Explore Core Concepts: Read Chapter 4 of the Evans textbook to build foundational knowledge in sampling and estimation.",
+            "Apply What You Learn: Practice creating confidence intervals using datasets such as the “Blood Pressure” and “Consumer Transportation Survey” data.",
+            "Collaborate and Share: Participate in discussions about the challenges and best practices in sampling and estimation, drawing connections to current topics and case studies."
+        ],
+        [
+            "Introduction to Hypothesis Testing: Learn the steps involved in formulating and testing hypotheses using statistical methods.",
+            "Statistical Inference Basics: Understand the role of confidence intervals and p-values in drawing conclusions from data.",
+            "Applications in Business and Research: Discover how hypothesis testing is applied in analyzing real-world scenarios such as customer satisfaction and market trends."
+        ],
+        [
+            "Explore Core Ideas: Read Chapter 5 (Part 1) of the Evans textbook to develop a foundational understanding of hypothesis testing and statistical inference.",
+            "Engage with Data: Work with real-world datasets to identify patterns, test hypotheses, and interpret results, fostering hands-on learning.",
+            "Discuss Broader Impacts: Participate in a collaborative discussion on the significance of statistical testing in professional and research environments, connecting concepts to practical applications."
+        ],
+        [
+            "ANOVA (Analysis of Variance): Learn how to compare means across multiple groups and understand the implications of variance in datasets.",
+            "Chi-Squared Tests: Explore the use of chi-squared tests to analyze relationships between categorical variables.",
+            "Real-World Applications: Examine how these advanced techniques are applied in fields such as consumer behavior, market research, and healthcare."
+        ],
+        [
+            "Build Advanced Knowledge: Study the lecture materials and tutorials to deepen your understanding of ANOVA and Chi-Squared tests.",
+            "Hands-On Analysis: Use datasets such as “Insurance Survey” and “Energy Drink Brand Preference” to practice applying these statistical techniques.",
+            "Collaborate and Share: Reflect on the practical applications of ANOVA and Chi-Squared tests through discussions, linking the concepts to real-world challenges and scenarios."
+        ],
+        [
+            "Introduction to Regression: Understand the role of regression analysis in identifying and quantifying relationships between variables.",
+            "Simple Linear Regression: Learn how to create and interpret simple linear regression models.",
+            "Applications in Real Life: Explore practical applications of regression analysis, such as predicting home market values and analyzing demographics."
+        ],
+        [
+            "Discover Key Concepts: Engage with readings and foundational materials to grasp the core ideas of regression analysis.",
+            "Explore Data Applications: Experiment with various datasets to identify trends and apply regression techniques in practical scenarios.",
+            "Reflect and Share: Participate in collaborative discussions to explore the broader applications of regression in solving real-world challenges."
+        ],
+        [
+            "Multiple Regression Models: Understand how to include multiple independent variables in a regression model to explain complex relationships.",
+            "Diagnostics and Validation: Learn how to evaluate model performance using statistical measures such as VIF (Variance Inflation Factor).",
+            "Advanced Applications: Explore how multiple regression is used in fields like finance, education, and sports analytics."
+        ],
+        [
+            "Dive Deeper into Regression: Examine advanced readings and resources to enhance your understanding of multiple regression techniques.",
+            "Apply Knowledge Broadly: Use sample datasets to explore complex relationships and evaluate model performance in diverse contexts.",
+            "Engage in Discussion: Collaborate with peers to discuss the implications and challenges of using advanced regression tools in professional settings."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Penn State Software Services",
+            "url": "https://software.psu.edu/all-products/browse/keyword/student"
+        },
+        {
+            "text": "Lynda.psu.edu",
+            "url": "https://lynda.psu.edu"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "Two diagrams: the left shows non-overlapping sets A and B, and the right shows overlapping sets C and B with a shared region B&C.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/BUSAD-801-MUTUALLY.png"
+        },
+        {
+            "alt": "Table showing home market value data, including house age, square feet, and market value in dollars",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/image-13.png"
+        },
+        {
+            "alt": "Three scatter plots showing (a) Linear, (b) Nonlinear, and (c) No relationship between variables.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/image-14-1024x309.png"
+        },
+        {
+            "alt": "Scatter plot of Market Value versus Square Feet with two trend lines labeled A and B.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/image-15.png"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Assessment Type",
+                "Weight",
+                "Details"
+            ],
+            [
+                "Individual Paper",
+                "10%",
+                "Write a 2-page paper about how statistical analysis is applied in a current or former workplace."
+            ],
+            [
+                "Quizzes",
+                "20%",
+                "Two online timed quizzes will test understanding of concepts covered."
+            ],
+            [
+                "Class Participation",
+                "20%",
+                "Includes contributions to discussion boards and analysis of a current event using statistics."
+            ],
+            [
+                "Problem Sets",
+                "50%",
+                "Five graded problem sets to reinforce statistical concepts and applications."
+            ]
+        ],
+        [
+            [
+                "Grade",
+                "Description"
+            ],
+            [
+                "A",
+                "Exceptional achievement, including mastery of statistical theories and concepts."
+            ],
+            [
+                "B",
+                "Substantial knowledge of statistical concepts, with consistent participation."
+            ],
+            [
+                "C",
+                "Acceptable but substandard knowledge of statistical theories and concepts."
+            ],
+            [
+                "D",
+                "Poor understanding of statistical concepts (not passing for graduate students)."
+            ],
+            [
+                "F",
+                "Work unworthy of any credit."
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"5602\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

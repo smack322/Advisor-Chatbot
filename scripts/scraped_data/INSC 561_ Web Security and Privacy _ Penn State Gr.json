@@ -1,0 +1,774 @@
+{
+    "metadata": {
+        "title": "INSC 561: Web Security and Privacy – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4352"
+    },
+    "headings": {
+        "h2": "Attacking Authentication",
+        "h4": "Unlocking Your Potential",
+        "h5": "Additional Defenses",
+        "h3": "Lesson 7: Attacking the Server and Server-side Applications"
+    },
+    "paragraphs": [
+        "INSC 561: Web Security and Privacy is a three-credit course that equips students with practical skills to identify and mitigate security flaws in web applications while implementing robust defense mechanisms. The course covers vulnerability discovery, prevention strategies, and the use of free and commercial security testing tools. Delivered through step-by-step modules, it emphasizes active online discussions and hands-on projects to reinforce learning. This collaborative and incremental approach ensures students gain both theoretical knowledge and practical experience to tackle real-world web security challenges effectively.",
+        "This course focuses on:",
+        "A step-by-step approach enhanced through active and collaborative learning is the teaching/learning method adopted in this course. Online discussion and hands-on project assignments will be used to help students learn the subject incrementally and effectively. Each lesson:",
+        "A hands-on project is required.",
+        "Learning objectives for this course include:",
+        "Please remember that ALL questions about grades, course lesson content, and assignments should be directed to your course instructor. If you have any technical difficulties using the tools within this course, please contact the Penn State Helpdesk.",
+        "All course-related e-mails should go through Canvas’s course mail function (Canvas Inbox). Using Canvas to contact your instructor ensures that your message will be read, and your instructor will respond to you in a timely manner.",
+        "Many of the University Libraries’ resources can be utilized from a distance. Through the Library website, you can access magazines, journals, and articles; borrow materials and have them delivered to your doorstep; and get research help via email chat or phone from a librarian.",
+        "For more information, view the Penn State University Library.",
+        "Navigating Through this Course",
+        "All course materials (except for the textbook) will be available to you through Canvas. These materials will be provided to you on a lesson-by-lesson basis using Web pages and documents in Microsoft Word (.doc, .docx) or Portable Document Format (PDF). Ideally, you should complete each lesson’s activities in the following order:",
+        "Note: A grade is given solely on the basis of the instructor’s judgment as to the student’s scholarly attainment (see the Penn State Graduate Degree Programs Bulletin). Students are reminded that simply meeting the minimal requirements of any assignment (both in terms of content and presentation) will result in a letter grade of “B” or less for that assignment.",
+        "The following grading system applies to graduate students:",
+        "*Student work will be graded according to the following grading scheme:",
+        "A = 93-100, A- = 90-92, B+ = 87-89, B = 84-86, B- = 80-83, C+ = 77-79, C = 70-76, D = 60-69, F = Below 60",
+        "Students will be evaluated based on their timely and meaningful responses to forum questions. There are 14 graded discussion forums in this course.  At a minimum, each student is expected to post the required number of original posts for forum questions. Quality of interaction will be valued when you answer/respond to the graded online discussion assignments. In addition to the graded Discussion Forums, students are encouraged to share questions, experiences, and helpful informational resources with the rest of the class via the non-graded Discussion Forum (General Discussion Forum).",
+        "Students will complete hands-on project assignments for each of the seven lessons. The first two (2) projects are completed individually.  The remaining five (5) project assignments will be completed as group assignments.",
+        "When completing group work, your team may choose any method of collaboration or communication that is most effective.  Zoom is available to all students for multi-person video meetings.  If you need any assistance using Zoom, refer to the Conferencing and Media Management page or contact the World Campus Helpdesk for support.",
+        "Assignments are due on the date assigned. If you have a legitimate reason for not completing the assignment or project on time, please email well in advance of the due date for the assignment or project.",
+        "Within seven (7) days after you have submitted an assignment, you will be able to review your grade and any comments made by your instructor. This process is used for all homework assignments, exams, or other graded submissions. Some instructors may also send you a message informing you that the assignment has been graded. Some instructors may choose to release all the grades to all students at once; other instructors may release grades per student one at a time.",
+        "To view your grades, go to ‘Grades’ in the course navigation menu.",
+        "All course material is available to you through Canvas or in your textbook. I will be posting via Canvas Announcements to remind you what is available and what you should be working on. Material is provided on a lesson-by-lesson basis, and is presented to you as Web pages, Microsoft Word documents (.doc), or Portable Document Format (PDF) documents. Material that you submit for the course assignments must be uploaded into the appropriate assignment in Canvas and should be submitted as PDF files (or, in select cases, I will tell you when a Microsoft Word document is an appropriate submission format). I will not have the ability to read any other file formats, and I appreciate your cooperation with these details of the course.",
+        "There will be discussion forums for students to discuss among themselves different aspects of the course, and I will participate in the discussions when it is appropriate. Use the discussion forum to post your questions and to read the responses from your classmates.",
+        "The discussion/project is essential to mastering the material of this course and it is essential that students maintain the proper pace. Discussion assignments MUST be completed within the week the assignments are given. I will review the assignment submittals each week and post my comments in a timely manner.",
+        "Solutions to projects will be accepted up to one week late but with a 50% penalty. Work submitted after one week of its original due date will not be accepted or reviewed. Exceptions may be made for extraordinary circumstances, but these are on an individual basis and must be approved in advance of the due date for the project. Examples of extraordinary circumstances include illness and family emergencies. If your upcoming work or personal schedule may prevent you from submitting your assignment on time, I highly recommend that you attempt to submit the assignment earlier and not later.",
+        "A few basic reminders, harking back to your Online Orientation:",
+        "*Subject to change",
+        "Web-centric or web-based applications are everywhere. We have much richer multimedia applications than ever before, which operate within the browser and mobile apps, rather than separate applications that people have to download to their PC desktops or mobile phones. The browser or the like (e.g., mobile apps)  / server computing model will continue to be one of our mainstream programming models empowering the majority computing solutions.",
+        "A web-based application is accessible over a network through the Internet or an intranet. Technically, it refers to a computer software application that is largely coded in a browser-supported language (such as JavaScript, XML, combined with a browser-rendered markup language like HTML).",
+        "Web applications are popular due to the ubiquity of web browsers and apps. Unlike a traditional (or proprietary) client/server model, a web-centric model enables the ability to update and maintain web applications without distributing and installing software on potentially thousands of client computers, which is a key reason for their popularity. More important, from the end user’s perspective, web-centric applications essentially provide computing applications with scalability and flexibility due to the inherited open system architecture, language-independence, and platform-independence.",
+        "Due to the increasing growth of web-centric applications, the Internet has consolidated itself as a very powerful platform that has changed the way we do business, communicate, learn, and live. The Internet, as no other communication medium, has given an international (globalized) dimension to the world. The Internet has become the universal source of information for millions of people, at home, at school, and at work. As a result, the traditional barriers of time difference and geographical distance get essentially eliminated.",
+        "Common Web Applications",
+        "Common web applications include the following:",
+        "Like anything else, a web-centric application has pros and cons. Some pros and cons may switch sides under certain circumstances. This would be especially true when computing technologies evolve and security concerns become a daunting factor in organizations.",
+        "Select each tab below to read about the benefits and challenges of web-based applications.",
+        "Authentication is the front line to shield unauthorized access to a web application that holds confidential information. Legitimate users use a combination of credentials (e.g., username, password, and two-factor code) to log on. There are many different technologies available for developers to implement authentication mechanisms. Below is a list of popular authentication technologies used in web applications [2]:",
+        "Web Resources",
+        "Please read the linked web pages above to get a better understanding of the technologies. Although some of them may seem outdated, you might still find them adopted by many web sites.",
+        "Because of design flaws and weak implementations using the above technologies, some web applications become extremely vulnerable in terms of protecting authentication attacks. For example, only about 14% of passwords used by legitimate users are considered strong. In other words, the majority of legitimate users use weak authentications due to web design flaws, weak implementations, or misuses.",
+        "Pie Chart Information on Statistical Report of Passwords",
+        "As seen in Figure 4.1, bad passwords are used by many legitimate users. If a web application is designed in such a way that a user can use any password the user likes, it surely has a flaw in its authentication functionality design.",
+        "Common weak authentication designs and implementations include the following [1]:",
+        "The OWASP SQL injection prevention cheat sheet provides a set of simple techniques for preventing SQL Injection vulnerabilities. The following techniques (extracted from this cheat sheet) can be used with practically any kind of programming language with any type of database.",
+        "The following (Java) example would allow an attacker to inject code into the query, resulting in that the delivered query would be straightforwardly executed by the database. Lacking a proper input validation, the “customerName” parameter simply appended to the query allows an attacker to inject any SQL code the attacker wants. Obviously, this simple while commonly used code is extremely unsafe.",
+        "(Click the tabs to learn more)",
+        "The use of prepared statements (aka parameterized queries) is simple. Parameterized queries are easy to write, and easier to understand when compared to dynamic queries. Essentially, parameterized queries force developers to first define all the SQL code, and then pass in each parameter to the query later. As a result, the use of parameterized queries allows a database to distinguish between code and data, regardless of what user input is supplied.",
+        "The following code example uses a PreparedStatement, Java’s implementation of a parameterized query, to execute the same database query. The above unsafe example becomes safe.",
+        "Stored procedures have the same effect as the use of prepared statements. They require developers to define the SQL code first, and then pass in the parameters after. The difference between prepared statements and stored procedures is that the SQL code for a stored procedure is defined and stored in the database itself, and then called from the application.",
+        "The following code example uses a CallableStatement, Java’s implementation of the stored procedure interface, to execute the same database query. The “sp_getAccountBalance” stored procedure would have to be predefined in the database and implement the same functionality as the query defined above.",
+        "This third technique is to escape user input before putting it in a query. Each database management system (DBMS) supports one or more character escaping schemes specific to certain kinds of queries. If you then escape all user supplied input using the proper escaping scheme for the database you are using, the DBMS will not confuse that input with SQL code written by the developer, thus avoiding any possible SQL injection vulnerabilities.",
+        "For instance, every occurrence of a single quote (‘) in a parameter must be replaced by two single quotes (”) to form a valid SQL string literal. In PHP, for example, it is usual to escape parameters using the function mysql_real_escape_string() before sending the SQL query [2]:",
+        "In this lesson, students will learn the fundamentals of web security and privacy, focusing on identifying vulnerabilities, defending against threats, and using security tools. The course combines hands-on projects and discussions to build practical cybersecurity skills.",
+        "Upon completion of this course, students will:",
+        "Throughout this course offers a comprehensive journey into the world of web security and privacy. By combining theoretical knowledge with practical application, students will gain the confidence and expertise needed to safeguard digital assets and navigate the evolving landscape of cybersecurity effectively.",
+        "In this lesson, students will explore the foundational concepts of web application security, including common vulnerabilities and defense strategies.",
+        "In the end, this lesson will equip students with the essential knowledge to understand and address web application security issues. Through discussions, labs, and projects, students will build critical skills for securing web-centric applications.",
+        "In this lesson, students will learn about key security testing toolkits and methodologies used in penetration testing to assess web application vulnerabilities and strengthen security.",
+        "In the end, this lesson will provide students with hands-on experience using leading security testing tools and methodologies, preparing them to effectively identify and address security vulnerabilities in web applications.",
+        "In this lesson, students will focus on techniques for gathering information about web applications and bypassing client-side controls to uncover vulnerabilities in the system.",
+        "In the end, this lesson will equip students with practical skills to gather critical information and bypass client-side controls, advancing their ability to identify and exploit web application vulnerabilities in real-world scenarios.",
+        "In this lesson, students will focus on techniques for attacking user controls, including authentication, session management, and authorization, to understand how these critical components can be exploited.",
+        "In the end, this lesson will provide students with the practical skills needed to identify and exploit authentication, authorization, and session management vulnerabilities, enhancing their ability to perform comprehensive security assessments on web applications.",
+        "In this lesson, students will explore injection flaws, one of the most common and dangerous security vulnerabilities, and learn how to exploit and protect against SQL and other code injection attacks.",
+        "In the end, this lesson will equip students with the knowledge and practical skills needed to identify, exploit, and mitigate SQL and other code injection attacks, enhancing their ability to protect web applications from these common threats.",
+        "In this lesson, students will learn about attacks targeting other users, such as Cross-Site Scripting (XSS) and Cross-Site Request Forgery (CSRF), and how to exploit and defend against these vulnerabilities.",
+        "In the end, this lesson will provide students with the necessary skills to identify, exploit, and protect against attacks targeting other users, such as XSS and CSRF, preparing them to secure web applications from these common security threats.",
+        "In this lesson, students will focus on techniques for attacking web servers and server-side applications, understanding how to exploit application logic flaws and system vulnerabilities.",
+        "In the end, this lesson will equip students with the knowledge and practical skills needed to identify, exploit, and defend against attacks on web servers and server-side applications, providing a comprehensive understanding of server security.",
+        "A career in Web Security and Privacy offers tremendous growth potential as the demand for skilled professionals in this field continues to rise. As cyber threats become more sophisticated, organizations are increasingly relying on experts who can protect sensitive data and ensure the integrity of web applications. By mastering the skills taught in this course, prospective students can pursue a wide range of roles such as security analyst, penetration tester, cybersecurity consultant, or privacy officer. These positions are critical in safeguarding both personal and corporate information, and professionals in this field can expect high job security, competitive salaries, and the opportunity to work in various industries, including finance, healthcare, and technology.",
+        "A real-world example of the importance of Web Security and Privacy can be seen in the 2017 Equifax data breach. This breach exposed the personal information of over 147 million people, including social security numbers, birth dates, and addresses. The breach was caused by an unpatched vulnerability in the Apache Struts framework, a popular web application framework used by Equifax. Hackers exploited this flaw, gaining unauthorized access to sensitive data. This incident highlights the critical need for professionals who can identify vulnerabilities, patch security gaps, and ensure that data privacy standards are maintained. Web Security and Privacy experts play a vital role in preventing such breaches by proactively securing web applications, testing for vulnerabilities, and safeguarding sensitive personal and organizational data from malicious attacks.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Modules provide instructional content along with related activities and assignments.",
+            "Students will be asked to participate in online discussions, focusing on the topics discussed in that lesson.\n\nMinimum 2 original posts (e.g., one for each question, respectively) are required for each lesson.",
+            "Minimum 2 original posts (e.g., one for each question, respectively) are required for each lesson.",
+            "A hands-on project is required."
+        ],
+        [
+            "Minimum 2 original posts (e.g., one for each question, respectively) are required for each lesson."
+        ],
+        [
+            "The Web Application Hacker’s Handbook: Finding and Exploiting Security Flaws (2nd Edition) by Dafydd Stuttard and Marcus Pinto, Wiley Publishing, 2011\n\n ISBN: 978-1-118-02647-2\nFree E-Book Option: An online version of your text is available at no cost as a Penn State Library E-Book. You can access the E-Book through the Library Resources link on the course navigation. You may choose to use the E-Book as an alternative to purchasing a physical copy of the text. For questions or issues, contact the University Libraries Reserve Help (UL-RESERVESHELP@LISTS.PSU.EDU).",
+            "ISBN: 978-1-118-02647-2",
+            "Free E-Book Option: An online version of your text is available at no cost as a Penn State Library E-Book. You can access the E-Book through the Library Resources link on the course navigation. You may choose to use the E-Book as an alternative to purchasing a physical copy of the text. For questions or issues, contact the University Libraries Reserve Help (UL-RESERVESHELP@LISTS.PSU.EDU)."
+        ],
+        [
+            "ISBN: 978-1-118-02647-2",
+            "Free E-Book Option: An online version of your text is available at no cost as a Penn State Library E-Book. You can access the E-Book through the Library Resources link on the course navigation. You may choose to use the E-Book as an alternative to purchasing a physical copy of the text. For questions or issues, contact the University Libraries Reserve Help (UL-RESERVESHELP@LISTS.PSU.EDU)."
+        ],
+        [
+            "HelpDesk Website: https://student.worldcampus.psu.edu/help-and-support/technical-support.",
+            "HelpDesk Email: techsupport@worldcampus.psu.edu",
+            "HelpDesk Phone: (800) 252-3592"
+        ],
+        [
+            "“A” (Excellent) indicates exceptional achievement;",
+            "“B” (Good) indicates substantial achievement;",
+            "“C” (Satisfactory) indicates acceptable but substandard achievement; and",
+            "“D” (Poor) indicates inadequate achievement and is a failing grade for a graduate student."
+        ],
+        [
+            "It is generally bad form to type your messages IN ALL CAPITAL LETTERS. In addition to proper capitalization (first words of sentences, proper nouns, names, etc.), a majority of online students have reported that complete sentences and punctuation make online text communication easier to read.",
+            "It is much better not to post inflammatory or accusational remarks than it is to “get it off of your chest.” Profanity and personal attacks will have no part of this course. If you discover such remarks, please notify me immediately, and I will personally address the source of those remarks."
+        ],
+        [
+            "Web-Centric Applications",
+            "Attacking Authentication",
+            "Prevention and Protection"
+        ],
+        [
+            "retailing",
+            "online social media",
+            "banking",
+            "email",
+            "auctions",
+            "games",
+            "entertainment",
+            "learning",
+            "usiness-to-business collaborations",
+            "cloud computing, wikis and many other social and interactive functions [6]."
+        ],
+        [
+            "Benefits",
+            "Challenges"
+        ],
+        [
+            "Web applications do not require any complex “roll out” procedure to deploy in large organizations. Typically, a web browser is all that is needed on a client side.",
+            "Browser applications or apps require much less disk space on the client when compared to traditional client/server applications.",
+            "They typically require no upgrade procedure since all new features are implemented on the server and automatically delivered to the users; occasionally, certain browser extensions (plug-in or add-on) might be needed, for instance a newly released flash.",
+            "Web applications integrate easily into other server-side web functions, such as email and searching.",
+            "They also provide cross-platform compatibility in most cases (i.e., Windows, UNIX, iOS, Android, Linux, etc.) because they operate within a reconfigurable computing container.",
+            "Browsers are highly capable and functional, enabling rich and satisfying user interfaces. They are readily adapted for new services-oriented computing technologies."
+        ],
+        [
+            "Web applications absolutely require compatible web browsers. If a browser vendor decides not to implement a certain feature, or abandons a particular platform or operating system version, this may affect a huge number of users.",
+            "Standards compliance is an issue with any non-typical office document creator, which causes problems when file sharing and collaboration becomes critical.",
+            "Web applications rely on application files accessed on remote servers through the Internet. Therefore, when connection is interrupted, the application is no longer usable but if it uses HTML5 API’s such as Offline Web application caching, it can be downloaded and installed locally, for offline use.",
+            "Since many web applications are not open source, there is also a loss of flexibility, making users dependent on third-party servers, not allowing customizations on the software and preventing users from running applications offline (in most cases). However, if licensed, proprietary software can be customized and run on the preferred server of the users.",
+            "They depend entirely on the availability of the server delivering the application. If a company goes bankrupt and the server is shut down, the users have little recourse. Traditional installed software keeps functioning even after the demise of the company that produced it (though there will be no updates or customer service).",
+            "Likewise, the company has much greater control over the software and functionality. They can roll out new features whenever they wish, even if the users would like to wait until the bugs have been worked out before upgrading. The option of simply skipping a weak software version is often not available. The company can foist unwanted features on the users or cut costs by reducing bandwidth. Of course, companies will try to keep the good will of their customers, but the user of web applications has fewer options in such cases unless a competitor steps in and offers a better product and easy migration.",
+            "The company can theoretically track anything the users do. This can cause privacy problems.",
+            "The users’ information security largely relies on the service providers if the service is not hosted by users themselves."
+        ],
+        [
+            "Multi-factor Mechanism",
+            "HTML form-based authentication",
+            "HTTP basic access authentication",
+            "HTTP digest access authentication"
+        ],
+        [
+            "Other GOOD passwords 14%",
+            "Two characters 2%",
+            "Three charcters 14%",
+            "Four characters, all letters 14%",
+            "Five letters, all same case 22%",
+            "Six letters, lower case 19%",
+            "Words in dictionary or list of names 15%"
+        ],
+        [
+            "Verbose authentication failure message\n\nProviding hints for legitimate users. For instance, your password is wrong which implies the provided username is right, or vice versa; your password should be 8 digits.",
+            "Providing hints for legitimate users. For instance, your password is wrong which implies the provided username is right, or vice versa; your password should be 8 digits.",
+            "Vulnerable transmission of credentials\n\nNo or weak encryption is used for transmitting credentials.",
+            "No or weak encryption is used for transmitting credentials.",
+            "No (periodic enforced) password change function\n\nThe same password will be used forever.",
+            "The same password will be used forever.",
+            "Weak password recovery functionality\n\nUsing simple “secret” questions to recover passwords.",
+            "Using simple “secret” questions to recover passwords.",
+            "“Remember Me” support\n\nHandy but vulnerable feature for convenience.",
+            "Handy but vulnerable feature for convenience.",
+            "Predictable usernames and initial passwords\n\nMany websites simply use your email as username. Installations use defaults, for example admin/password.",
+            "Many websites simply use your email as username. Installations use defaults, for example admin/password.",
+            "Impersonation support\n\nIt might be a good administrative feature but vulnerable.",
+            "It might be a good administrative feature but vulnerable.",
+            "Insecure storage of credentials\n\nLegitimate users’ credentials are frequently stored in non-encrypted files or databases.",
+            "Legitimate users’ credentials are frequently stored in non-encrypted files or databases."
+        ],
+        [
+            "Providing hints for legitimate users. For instance, your password is wrong which implies the provided username is right, or vice versa; your password should be 8 digits."
+        ],
+        [
+            "No or weak encryption is used for transmitting credentials."
+        ],
+        [
+            "The same password will be used forever."
+        ],
+        [
+            "Using simple “secret” questions to recover passwords."
+        ],
+        [
+            "Handy but vulnerable feature for convenience."
+        ],
+        [
+            "Many websites simply use your email as username. Installations use defaults, for example admin/password."
+        ],
+        [
+            "It might be a good administrative feature but vulnerable."
+        ],
+        [
+            "Legitimate users’ credentials are frequently stored in non-encrypted files or databases."
+        ],
+        [
+            "Technique 1",
+            "Technique 2",
+            "Technique 3",
+            "Additional Defenses"
+        ],
+        [
+            "Enforce: Least Privilege – To minimize the potential damage of a successful SQL injection attack, you should minimize the privileges assigned to every database account in your environment.",
+            "Perform: White List Input Validation – White list validation involves defining exactly what is authorized, and by definition, everything else is not authorized."
+        ],
+        [
+            "Learn how to discover and exploit security flaws in web applications.",
+            "Understand state-of-the-art defending and preventing mechanisms to protect web-centric applications.",
+            "Master a list of commercial-free penetration testing packages."
+        ],
+        [
+            "L1",
+            "L2",
+            "L3",
+            "L4",
+            "L5",
+            "L6",
+            "L7"
+        ],
+        [
+            "Prerequisites & Resources: Review syllabus and course materials.",
+            "Web-centric Applications: Understand how web applications function and their security needs.",
+            "Computing Vulnerabilities: Learn about system weaknesses that can be exploited.",
+            "Vulnerabilities of Web Applications: Identify risks specific to web-based systems.",
+            "Defense Mechanisms: Study essential methods to secure web applications.",
+            "Web Technologies: Gain a basic understanding of web technologies and their security implications."
+        ],
+        [
+            "Discussion Topics: Discuss vulnerabilities in web applications and the impact of user input.",
+            "Lab 1: Hands-on penetration testing using web security tools.",
+            "Individual Project: Apply web technologies knowledge in a project."
+        ],
+        [
+            "Three Security Testing Toolkits: Explore tools like ZAP, Paros, and Burp Suite for web security testing.",
+            "ZAP: Learn how to use OWASP ZAP for automated vulnerability scanning and penetration testing.",
+            "Paros: Understand the capabilities of Paros for intercepting and manipulating web traffic.",
+            "Burp Suite: Master Burp Suite for advanced security testing, including web vulnerability scanning and attack simulations.",
+            "Security Testing Methodologies: Study best practices for conducting thorough penetration testing to identify weaknesses."
+        ],
+        [
+            "Discussion Topics: Engage in discussions on intercepted data and penetration testing techniques.",
+            "Lab 2: Use penetration testing tools like ZAP, Paros, and Burp Suite to evaluate web security.",
+            "Individual Project: Apply security testing toolkits to assess a real-world web application and document results."
+        ],
+        [
+            "Panning for Gold: Learn methods for collecting valuable data during a security assessment.",
+            "Mapping the Target Application: Understand how to map a web application’s structure and identify key areas of interest.",
+            "Analyzing the Application: Explore techniques for analyzing web applications to find potential security flaws.",
+            "Exploiting Disclosed Information: Learn how to use publicly available information to find vulnerabilities.",
+            "Bypassing Client-side Controls: Study methods for bypassing client-side controls like JavaScript validation and input filters."
+        ],
+        [
+            "Discussion Topics: Participate in discussions on mapping a web application and bypassing client-side controls.",
+            "Lab 3: Use practical tools and techniques to gather information about the target and bypass client-side controls.",
+            "Group Project 1: Work as a team to conduct security testing on a web application, focusing on information gathering and control bypassing."
+        ],
+        [
+            "Attacking Authentication: Learn how to exploit authentication flaws and vulnerabilities in user login systems.",
+            "Design/Implementation Flaws: Study common authentication design and implementation errors that lead to vulnerabilities.",
+            "Attacking Session Management: Understand how to exploit session management flaws to hijack user sessions.",
+            "Session Hijacking: Explore real-world examples of session hijacking and its implications.",
+            "Attacking Authorization: Study how to bypass authorization controls and escalate user privileges.",
+            "Horizontal Privilege Escalation: Learn about privilege escalation techniques, specifically horizontal escalation."
+        ],
+        [
+            "Discussion Topics: Engage in discussions about authentication flaws and broken session management.",
+            "Lab 4: Perform hands-on exercises on broken authentication, authorization, and session management.",
+            "Group Project 2: Collaborate with peers on security testing for authentication and session management vulnerabilities.",
+            "Quiz: Complete a mid-course survey and quiz to evaluate understanding of the material covered."
+        ],
+        [
+            "Injection Flaws are Vulnerable: Understand the risks and impact of injection flaws in web applications.",
+            "Malevolently Injecting Codes: Learn how attackers exploit injection flaws to execute harmful code.",
+            "SQL Injection: Dive into SQL injection, one of the most common and critical injection vulnerabilities.",
+            "A Variety of Attacks: Study various types of code injection attacks, including command and script injections.",
+            "Prevention and Protection: Learn strategies and best practices to prevent injection vulnerabilities in web applications."
+        ],
+        [
+            "Discussion Topics: Engage in discussions about SQL injection flaws and other code injection attacks.",
+            "Lab 5: Practice performing code injection attacks and identify vulnerabilities in web applications.",
+            "Group Project 3: Collaborate on security testing for code injection flaws and their prevention."
+        ],
+        [
+            "Cross-Site Scripting (XSS): Learn about XSS vulnerabilities and how they can be exploited to inject malicious scripts.",
+            "Reflected XSS Vulnerability: Study how reflected XSS attacks work and their potential impact.",
+            "Stored XSS Vulnerabilities: Understand stored XSS attacks, where malicious code is permanently stored on the target server.",
+            "DOM-based XSS Vulnerabilities: Explore DOM-based XSS and its unique exploitation method.",
+            "Penetration Testing Tools: Learn about tools used for testing XSS and CSRF vulnerabilities.",
+            "Prevention and Protection: Understand best practices for preventing XSS and CSRF attacks in web applications."
+        ],
+        [
+            "Discussion Topics: Participate in discussions about XSS attacks and prevention measures.",
+            "Lab 6: Practice attacking and defending against XSS and CSRF vulnerabilities using penetration testing tools.",
+            "Group Project 4: Collaborate on security testing focusing on XSS and other user-targeted attacks."
+        ],
+        [
+            "Focus of Lesson 7: Learn the critical aspects of attacking web servers and server-side applications.",
+            "Attacking the Web Server: Study the various methods used to attack and exploit vulnerabilities in web servers.",
+            "Exploiting Application Logic Flaws: Understand how to exploit flaws in the logic and design of server-side applications.",
+            "Application Logic and Design/Implementation Flaws: Learn about common design and implementation flaws that lead to security vulnerabilities."
+        ],
+        [
+            "Discussion Topics: Engage in discussions on attacking server-side systems and exploiting application logic flaws.",
+            "Lab 7: Perform practical exercises on attacking web servers and server-side applications, identifying vulnerabilities.",
+            "Group Project 5: Collaborate on security testing to identify and exploit flaws in server-side systems."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "The Web Application Hacker’s Handbook: Finding and Exploiting Security Flaws",
+            "url": "http://ezaccess.libraries.psu.edu/login?url=https://ebookcentral.proquest.com/lib/pensu/detail.action?docID=819008"
+        },
+        {
+            "text": "https://student.worldcampus.psu.edu/help-and-support/technical-support.",
+            "url": "https://student.worldcampus.psu.edu/help-and-support/technical-support"
+        },
+        {
+            "text": "techsupport@worldcampus.psu.edu",
+            "url": "mailto:techsupport@worldcampus.psu.edu?subject=World%20Campus%20Tech%20Support%20Inquiry"
+        },
+        {
+            "text": "Penn State University Library.",
+            "url": "https://libraries.psu.edu/"
+        },
+        {
+            "text": "Conferencing and Media Management",
+            "url": "https://cmm.psu.edu/"
+        },
+        {
+            "text": "World Campus Helpdesk",
+            "url": "https://student.worldcampus.psu.edu/technical-support/contact-us"
+        },
+        {
+            "text": "Internet",
+            "url": "https://en.wikipedia.org/wiki/Internet"
+        },
+        {
+            "text": "intranet",
+            "url": "https://en.wikipedia.org/wiki/Intranet"
+        },
+        {
+            "text": "Benefits",
+            "url": "#tab-strongbenefitsstrong"
+        },
+        {
+            "text": "Challenges",
+            "url": "#tab-strongchallengesstrong"
+        },
+        {
+            "text": "Offline Web application caching",
+            "url": "https://html.spec.whatwg.org/multipage/offline.html"
+        },
+        {
+            "text": "information security",
+            "url": "https://en.wikipedia.org/wiki/Information_security"
+        },
+        {
+            "text": "Multi-factor Mechanism",
+            "url": "https://en.wikipedia.org/wiki/Multi-factor_authentication"
+        },
+        {
+            "text": "HTML form-based authentication",
+            "url": "http://en.wikipedia.org/wiki/HTTP%2BHTML_form-based_authentication"
+        },
+        {
+            "text": "HTTP",
+            "url": "http://en.wikipedia.org/wiki/Basic_access_authentication"
+        },
+        {
+            "text": "basic access authentication",
+            "url": "http://en.wikipedia.org/wiki/Basic_access_authentication"
+        },
+        {
+            "text": "HTTP digest access authentication",
+            "url": "http://en.wikipedia.org/wiki/Digest_access_authentication"
+        },
+        {
+            "text": "OWASP SQL injection prevention cheat sheet",
+            "url": "https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html"
+        },
+        {
+            "text": "Technique 1",
+            "url": "#tab-strongtechnique1strong"
+        },
+        {
+            "text": "Technique 2",
+            "url": "#tab-strongtechnique2strong"
+        },
+        {
+            "text": "Technique 3",
+            "url": "#tab-strongtechnique3strong"
+        },
+        {
+            "text": "Additional Defenses",
+            "url": "#tab-strongadditionaldefensesstrong"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "Close-up of a smartphone screen displaying various social media app icons, including Facebook, Twitter, LinkedIn, Instagram, and YouTube.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/pexels-photo-267350.jpeg"
+        },
+        {
+            "alt": "A pie chart displaying the distribution of password types based on their length and complexity.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/12/pie_chart.jpg"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Lesson",
+                "Online Discussion",
+                "Hands-on Projects",
+                "Total Points"
+            ],
+            [
+                "Lesson 1",
+                "2 Discussions(3 points each)",
+                "Individual Project 1(8 points)",
+                "14"
+            ],
+            [
+                "Lesson 2",
+                "2 Discussions(3 points each)",
+                "Individual Project 2(8 points)",
+                "14"
+            ],
+            [
+                "Lesson 3",
+                "2 Discussions(3 points each)",
+                "Group Project 1(8 points)",
+                "14"
+            ],
+            [
+                "Lesson 4",
+                "2 Discussions(3 points each)",
+                "Group Project 2(8 points)",
+                "14"
+            ],
+            [
+                "Lesson 5",
+                "2 Discussions(3 points each)",
+                "Group Project 3(8 points)",
+                "14"
+            ],
+            [
+                "Lesson 6",
+                "2 Discussions(3 points each)",
+                "Group Project 4(8 points)",
+                "14"
+            ],
+            [
+                "Lesson 7",
+                "2 Discussions(3 points each)",
+                "Group Project 5(10 points)",
+                "16"
+            ],
+            [
+                "Total Possible Points",
+                "100"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"4352\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}

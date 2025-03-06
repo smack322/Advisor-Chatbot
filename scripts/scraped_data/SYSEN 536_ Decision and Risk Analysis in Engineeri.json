@@ -1,0 +1,529 @@
+{
+    "metadata": {
+        "title": "SYSEN 536: Decision and Risk Analysis in Engineering – Penn State Great Valley",
+        "description": "No description",
+        "keywords": "No keywords",
+        "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2143"
+    },
+    "headings": {
+        "h2": "Advance Your Understanding of Modeling Preferences",
+        "h4": "Unlocking Your Potential",
+        "h5": "Learn More",
+        "h3": "Synthesize Knowledge Through Practical Application and Evaluation",
+        "h6": "Decision Analysis"
+    },
+    "paragraphs": [
+        "SYSEN 536: Unlock your potential to make better, more informed decisions with our innovative course. Many people struggle with decision-making, often waiting until the last minute and hoping their challenges will resolve themselves. When the pressure is on, they rush through choices, convincing themselves they could have done better with more time. The reality is, most of us have never been formally taught how to make effective decisions—we rely solely on past experiences or external advice. Yet, the toughest decisions often arise in unfamiliar territory, leaving us to navigate without a roadmap.",
+        "In this course, you’ll discover proven methodologies to enhance your decision-making process. Rather than telling you what to decide, we focus on teaching you how to decide. Whether you’re facing personal or professional choices, you’ll gain the skills needed to approach new situations with confidence, clarity, and a structured mindset.",
+        "This course is designed to provide students with the insights into the decision making process, capabilities to examine and analyze decisions under uncertainties within the context of engineering and technology. It focuses on understanding and improving the decision-making process and developing capabilities of individuals and groups in technical organizations. Emphasis is placed on evaluation methods; identification, modeling, and problem resolution; consequences/outcomes of the action taken; risk analysis and quantification.",
+        "Even though there are no official prerequisites in the catalog, all students are expected to have taken an elementary course (or have some knowledge) in probability theory and statistics. The elements of probability theory necessary for the course will be quite basic and will be reviewed as needed. You will also be expected to use our online discussion forums, chat rooms, and electronic mail on a regular basis. The most important prerequisite of all, however, is your interest in the course, motivation and commitment to learning.",
+        "After completing the course, a student will be able to:",
+        "Making Hard Decisions with Decision Tools by Robert T. Clemen and Terence Reilly, 3rd Edition, South-Western Cengage Learning Mason, OH, 2014.",
+        "ISBN-10: 0538797576 ISBN-13: 9780538797573",
+        "For pricing and ordering information, please see the Barnes & Noble College website. The book is available as a rental or a digital version. You may also purchase the book from a vendor of your choice.",
+        "Note that each weekly lesson in Canvas does not replace the textbook content. Your textbook and the lessons in Canvas are complementary to each other.",
+        "Software: The Decision Tools and Stat Tools Suite is a collection of software programs (StatTools, @Risk, BestFit, PrecisionTree, RiskView, TopRank and RISKOptimizer from Palisade Corporation) are add-ons to Microsoft Excel. We will be using these software packages for modeling and simulation in this course. With purchase of the book, students have complimentary access to the software at www.cengagebrain.com.",
+        "Note that the DecisionSuite Tool is not compatible with the Mac machine. You can access the “Handouts” folder to look for the “PSU Great Valley-Virtual Lab” PDF file, from which you can follow the instructions to use the DecisionSuite Tool on the Virtual PC Machine via the PSU network.",
+        "The homeworks are individual effort. You can discuss the topic in the weekly discussion forum (five discussion forums available for each homework), but not the exact problem. You need to submit the homework on time to keep up with the course schedule, and do well on the exams.",
+        "At the end of week 4 you will be given a midterm exam (individual effort) containing 4 problems that cover the materials from Week 1 to Week 3. It will be available to you on Monday at 7:00 AM and should be completed by midnight on the following Sunday. Midterm exam is worth 30%. The comprehensive final exam (individual effort) contains four problems that cover the materials from Week 1 to Week 6. But the exam will focus more on the materials from Week 4 to Week 6. The exam will be given on Monday of Week 7 and will be due by midnight on the following Sunday as well. Final exam is worth 30%.",
+        "A grade is given on the basis of the instructor’s judgment as to the student’s scholarly attainment (see the Penn State Graduate Degree Programs Bulletin, p. 41).",
+        "Grades will be based on the following scale:",
+        "A = 96 – 100, A- = 90 – 95, B+ = 87 – 89, B = 84 – 86, B- = 80 – 83, C+ = 77 – 79, C = 70 – 76, D = 65 – 69, and F = 65 and below.",
+        "There will be discussion forums for students to discuss among themselves different aspects of the course, and I will participate in the discussions when it is appropriate. Use the discussion forums to post your questions and to read the responses from your classmates. Homework and Exams are on an individual basis. Questions on these should be directed to me. I will send additional information if many students are experiencing particular problems.",
+        "All assignments for each week and exams must be submitted to the appropriate assignment before 11:59 PM EST on the assigned dates (see table below for exact dates) for the submission to be considered “on-time”.  Assignments will be available in Canvas.",
+        "Modeling Preferences IIThe Foundation of Decision-Making ProcessModeling DecisionsModeling Uncertainty IModeling Uncertainty IIModeling Preferences IOptions – Financial & Real",
+        "STEP 1:",
+        "STEP 2:",
+        "STEP 3:",
+        "Risk Profile is a graph that shows probabilities (chances) for each of the possible outcomes given a particular decision strategy. You should also note that risk profile is a probability mass function for the discrete random variable Y representing the outcomes for the given decision strategy.",
+        "Cumulative Risk Profile is a graph that shows cumulative probabilities associated with a risk profile. You should note that cumulative risk profile is a cumulative distribution function for the discrete random variable Y representing the outcomes for the given decision strategy.",
+        "Click on the titles to see each strategy.",
+        "“Accept $2 billion”",
+        "“Counter $5 billion and if Texaco counter offers $3 billion refuse this counteroffer of $3 Billion”",
+        "“Counter $5 billion and if Texaco counter offers $3 billion accept this counteroffer of $3 Billion”",
+        "Decision analysis is a method used to formulate strategies when faced with multiple alternatives and uncertain outcomes. We denote decision alternatives as (d_1, d_2, d_3, \\ldots) and chance events (states of nature) as (s_1, s_2, s_3, \\ldots). It’s important to note that the decision maker cannot influence the states of nature. The table that displays the payoffs for each combination of decision alternatives and states of nature is known as the payoff table.",
+        "Click on each tab to explore the different decision-making approaches in detail.",
+        "An optimist evaluates the best possible payoff that can occur and choose the decision alternative correspond to that payoff. The decision always correspond to maximum profit or minimum cost.",
+        "Optimistic approach is also referred to as MaxMax approach. The decision alternative is d3, which is the maximum payoff in the table corresponding to state of nature s3.",
+        "This approach evaluates each decision in terms of the worst payoff and the decision is to choose the best of the worst payoffs. For the situation mentioned above:",
+        "This approach is also referred to as MaxMin approach, which takes the maximum of the minimum payoff from each decision alternative.",
+        "This is neither optimistic nor conservative, but somewhere in the middle. In this case, we create a regret table, as follows. If the state of nature is s1, the best payoff will be 10 and if the decision was d1, then there is no regret. If the decision is d2, the regret is 2 (10-8), and if the decision is d3, the regret is 4 (10-6). If the state of nature is s2, the best payoff is 18 where the regret is 0, and the regret is 3 and 2 corresponding to d1 and d3, respectively. Thus we create the regret table from the payoff table.",
+        "We calculate the maximum regret for each decision alternative and the decision is to minimize the maximum regret. In this case, we choose d3.",
+        "This course will focus on the following aspects:",
+        "During this course you will expand your knowledge of the lesson topics each week.",
+        "Every day, we make choices—some routine, others life-altering. While many struggle with indecision or hope for the best, this unit will empower you to approach every decision with clarity and confidence. Here, you’ll discover a powerful set of tools that will make your choices easier, smarter, and more impactful.",
+        "Explore the reality that every decision, big or small, involves risk. You’ll learn to evaluate probabilities and weigh impacts, arming yourself with strategies to reduce exposure to negative outcomes. Whether it’s deciding how to invest a small windfall or navigating complex risk management scenarios, you’ll build a robust framework for making informed and effective choices.",
+        "Dive into the fascinating world of decision psychology with insights from the Myers-Briggs Type Indicator (MBTI). Discover how your personality traits influence your decision-making style and learn to leverage your unique strengths—whether you’re a results-focused ESTJ or a visionary ENTJ—to become a more efficient decision maker.",
+        "By the end of this unit, you’ll be equipped with the mindset and techniques to not just minimize risks, but also maximize your chances of success. Get ready to transform uncertainty into opportunity and take control of your decision-making journey!",
+        "This lesson will equip you with the skills and knowledge to tackle the complex world of decision-making in engineering and technology. Get ready to explore how structured approaches can transform uncertainty into opportunity, setting the foundation for smart, data-driven choices.",
+        "Dive deep into the fascinating realm of decision analysis. Through hands-on experiences and interactive learning, you’ll uncover techniques to model decisions, understand outcomes, and optimize strategies. From structuring problems to evaluating risk profiles, you’ll master the tools to navigate uncertainty with confidence.",
+        "This lesson will not only enhance your decision-making prowess but also inspire you to view uncertainty as a challenge that can be tackled with the right tools and mindset.",
+        "This lesson will arm you with the skills and knowledge to navigate the unpredictable world of uncertainty in decision-making. Get ready to explore how probability and statistics can turn ambiguity into insight, laying the groundwork for data-driven, strategic decisions.",
+        "Dive deep into the fascinating realm of decision analysis. Through hands-on experiences and interactive learning, you’ll uncover techniques to model decisions, understand outcomes, and optimize strategies. From structuring problems to evaluating risk profiles, you’ll master the tools to navigate uncertainty with confidence.",
+        "This lesson will not only boost your ability to model uncertainty effectively but also encourage you to approach unpredictability as a gateway to smarter, more informed decision-making.",
+        "In this lesson, you’ll build upon your foundational knowledge of uncertainty to tackle more complex and dynamic decision-making scenarios. Discover how advanced techniques can enhance your ability to predict outcomes and optimize decisions, bringing a new level of precision and insight to your analysis.",
+        "Explore the powerful world of Monte Carlo simulation, where you’ll learn how to model and analyze uncertainty by simulating thousands of possible outcomes. Understand how to apply these techniques to various decision-making scenarios and see how different factors influence results in real time.",
+        "Gain insights into how additional information can impact decision quality. Learn to quantify the value of perfect and imperfect information, enabling you to make more informed choices by weighing the benefits of gathering further data.",
+        "You will develop advanced competencies in managing uncertainty, enhancing your confidence and expertise to address complex decision-making challenges with precision and effectiveness.",
+        "In this lesson, you’ll explore how personal preferences and risk attitudes shape decision-making processes. Learn how to quantify and incorporate these factors into decision models, allowing you to make choices that align more closely with desired outcomes and values.",
+        "Understand how different attitudes toward risk influence decision-making. From risk-averse to risk-seeking behaviors, you’ll gain insights into how individuals and organizations perceive and manage risk in various contexts.",
+        "Delve into the principles of utility theory, where you’ll learn about utility axioms, common paradoxes, and their implications for decision-making. These concepts will help you better understand the rationale behind choosing certain options over others and the trade-offs involved.",
+        "In this lesson, you will refine your ability to make decisions that effectively account for risk and align with overarching goals and values, providing a thorough and structured approach to decision modeling.",
+        "In this lesson, you’ll delve into the strategic use of options, both financial and real, to enhance decision-making in uncertain environments. Learn how to value and leverage these options to optimize outcomes and capitalize on opportunities, whether in financial markets or real-world investments.",
+        "Begin with the basics of financial options, including calls and puts, and learn how these instruments can be used to hedge risks, speculate, or enhance returns. You’ll explore the principles behind option valuation and the factors that influence their pricing.",
+        "Move beyond financial instruments to examine real options, where you’ll learn to apply option-thinking to investment decisions in projects, businesses, and physical assets. Understand how to identify and evaluate real options in scenarios such as deferring, expanding, or abandoning projects.",
+        "In this lesson, you will develop the skills to effectively incorporate options into your decision-making toolkit, empowering you to make strategic choices that adapt to changing circumstances and capitalize on potential opportunities.",
+        "In this lesson, you will deepen your exploration of how preferences influence decision-making, particularly when faced with conflicting objectives. Learn to navigate complex decision scenarios by effectively balancing multiple goals and incorporating structured value assessments.",
+        "Discover techniques for managing situations where decision criteria conflict, and understand how to prioritize and reconcile these competing objectives. You’ll learn methods for structuring trade-offs and making choices that reflect a balance of different considerations.",
+        "Gain insights into additive value functions as a powerful tool for evaluating options when multiple objectives are involved. Learn to create composite measures that aggregate various factors into a single value, facilitating a more straightforward comparison of alternatives.",
+        "In this lesson, you will enhance your capability to model preferences in multifaceted decision-making contexts, equipping you to navigate trade-offs and achieve balanced outcomes with confidence.",
+        "Taking Decision and Risk Analysis in Engineering can greatly enhance your career by equipping you with the tools and methodologies to make sound, data-driven decisions in complex environments. In industries where uncertainty is a constant factor—whether in engineering, project management, or even finance—being able to assess risks, predict potential outcomes, and make informed choices is a critical skill. This course teaches you how to break down decisions systematically, allowing you to navigate uncertainty with confidence and minimize potential negative impacts on your projects or organization.",
+        "Moreover, the decision-making frameworks and risk analysis techniques you’ll master are highly transferable across different sectors. Employers consistently seek professionals who can not only solve technical problems but also lead with strategic insight. This course will set you apart by showing your ability to make well-reasoned choices, manage risk, and ensure successful project execution, which can accelerate your career progression into leadership or specialized roles. Whether you’re looking to take on more responsibility in your current field or branch out into new industries, the knowledge gained in this course will make you a valuable asset in any professional setting.",
+        "Transportation Systems Optimization: In large urban transportation networks, systems engineers might be tasked with optimizing traffic flow, reducing congestion, or designing new transit systems. This could involve evaluating multiple transportation options, predicting future demand, and analyzing risks such as project delays, cost overruns, and environmental impact. Decision analysis would be critical in determining the most efficient and cost-effective solutions to enhance mobility and reduce risks.Healthcare Systems Design: A systems engineer working in healthcare might be responsible for designing or improving hospital systems, including patient flow, medical device integration, or electronic health record systems. In this role, they would use decision and risk analysis to evaluate the trade-offs between technology investments, system security risks, patient safety, and operational efficiency, ensuring the healthcare facility operates smoothly with minimal risk to patients and staff.",
+        "© 2025 Penn State Great Valley"
+    ],
+    "lists": [
+        [
+            "Home",
+            "EngineeringExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ],
+        [
+            "Understand the Decision making process and Identify the factors contribute to the process in the context of engineering decision sciences.",
+            "Implement the basics of probability into the decision making process.",
+            "Develop and Apply various Decision making models",
+            "Perform various statistical analyses using appropriate tools and techniques",
+            "Define and Understand risk and opportunity in the decision making process",
+            "Generate Alternatives and Select the best decision using all the available information",
+            "Implement these concepts into real-world problems and use a combination of logical, statistical and personal preferences into the decision making process."
+        ],
+        [
+            "Structuring Decisions",
+            "Risk Profiles",
+            "Decision Making Approaches"
+        ],
+        [
+            "Filter & Operationalize the Objectives",
+            "Classify objectives as means or fundamental objectives",
+            "Classify how to measure fundamental objectives"
+        ],
+        [
+            "Structure the elements in a logical framework",
+            "Structure Logic and time sequence between decisions",
+            "Structure Logic (dependence) between the uncertain events",
+            "Structure time sequence of uncertain events related to the sequence of decisions",
+            "Represent Logic by using Influence Diagrams or Decision Trees"
+        ],
+        [
+            "Decision Details – Defining elements of the decision",
+            "Give precise (unambiguous) definitions of decisions & uncertain events",
+            "Specify probability distributions for the uncertain events through a combination of data analysis & expert judgment",
+            "Specify precisely (unambiguous) how consequences are measured and formalize tradeoff between objectives"
+        ],
+        [
+            "Understand the decision-making process and Identify the factors that contribute to the process in the context of engineering decision sciences.",
+            "Implement the basics of probability into the decision-making process.",
+            "Develop and Apply various Decision-making models",
+            "Perform various statistical analyses using appropriate tools and techniques",
+            "Define and Understand risk and opportunity in the decision-making process",
+            "Generate Alternatives and Select the best decision using all the available information",
+            "Implement these concepts into real-world problems and use a combination of logical, statistical, and personal preferences in the decision-making process."
+        ],
+        [
+            "L1",
+            "L2",
+            "L3",
+            "L4",
+            "L5",
+            "L6",
+            "L7"
+        ],
+        [
+            "Learning Expedition: Begin with the essentials of structuring decisions and making choices. Explore risk profiles, dominance, and sensitivity analysis to see how theory meets real-world application.",
+            "Case Study Exploration: Step into the shoes of decision-makers at Southern Electrics and Dumond International to understand how these principles shape critical business outcomes.",
+            "Automated Sensitivity Analysis: Get hands-on with “Top Rank” to see how technology automates complex decision evaluations, taking your skills to the next level."
+        ],
+        [
+            "Exploratory Learning: Begin with a comprehensive review of basic probability and statistics, then deepen your understanding with various probability distributions, such as binomial, Poisson, and normal.",
+            "Visualization and Analytical Tools: Utilize @Risk to visualize theoretical probability models in action, exploring how different distributions perform in real scenarios.",
+            "Data Modeling Techniques: Master the art of fitting data to create probability distributions, turning raw data into insightful decision-making tools."
+        ],
+        [
+            "Monte Carlo Exploration: Start with an introduction to Monte Carlo simulation, progressing to more advanced applications that bring complex decision scenarios to life.",
+            "Value of Information Analysis: Develop skills to assess how much extra data is worth in improving decision outcomes.",
+            "Midterm Preparation: Apply your learning through the midterm exam, where you’ll demonstrate your ability to model uncertainty using the concepts and tools covered."
+        ],
+        [
+            "Risk Attitudes Analysis: Discover how risk preferences affect decision outcomes, using real-world examples to see these dynamics in action.",
+            "Dumond International Case Study: Continue with Part II of Dumond International, applying your understanding of modeling preferences to a complex business scenario.",
+            "Utility Theory Exploration: Learn to apply utility axioms to evaluate choices and resolve decision-making paradoxes."
+        ],
+        [
+            "Options Overview: Grasp the core concepts of both financial and real options, understanding their role in decision-making and value creation.",
+            "Real-World Application: Analyze real options to see how companies utilize option-based strategies to make flexible and strategic investment decisions.",
+            "Synthesis and Conclusion: Integrate your knowledge from the lesson to evaluate scenarios where financial and real options can be optimally employed."
+        ],
+        [
+            "Resolving Conflicts: Apply strategies to handle conflicting objectives in decision scenarios, ensuring all important factors are considered.",
+            "Value Function Analysis: Use additive value functions to systematically evaluate options, making complex decisions more manageable.",
+            "Drawing Conclusions: Integrate the concepts covered in the lesson to make informed and balanced decisions when faced with multiple, sometimes competing, goals."
+        ],
+        [
+            "Career Impact",
+            "Real World Example"
+        ],
+        [
+            "Home",
+            "Engineering",
+            "Management",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Home",
+            "EngineeringToggle child menuExpand\n\n\nArtificial Intelligence\nData Analytics (Base Program)\nData Analytics (Big Data Systems)\nData Analytics (Business Analytics)\nData Analytics (Marketing Analytics)\nEngineering Management\nInformation Science\nSoftware Engineering\nSystems Engineering",
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering",
+            "ManagementToggle child menuExpand\n\n\nMaster of Professional Accounting\nBusiness Administration\nFinance\nFinancial Data Analytics",
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics",
+            "Graduate Certificates",
+            "Prep Courses",
+            "Great Valley"
+        ],
+        [
+            "Artificial Intelligence",
+            "Data Analytics (Base Program)",
+            "Data Analytics (Big Data Systems)",
+            "Data Analytics (Business Analytics)",
+            "Data Analytics (Marketing Analytics)",
+            "Engineering Management",
+            "Information Science",
+            "Software Engineering",
+            "Systems Engineering"
+        ],
+        [
+            "Master of Professional Accounting",
+            "Business Administration",
+            "Finance",
+            "Financial Data Analytics"
+        ]
+    ],
+    "links": [
+        {
+            "text": "Skip to content",
+            "url": "#main"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "EngineeringExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "ManagementExpand",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Barnes & Noble College website",
+            "url": "https://bncvirtual.com/psude"
+        },
+        {
+            "text": "www.cengagebrain.com",
+            "url": "http://www.cengagebrain.com/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        },
+        {
+            "text": "Home",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/"
+        },
+        {
+            "text": "Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7223"
+        },
+        {
+            "text": "Artificial Intelligence",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1439"
+        },
+        {
+            "text": "Data Analytics (Base Program)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1431"
+        },
+        {
+            "text": "Data Analytics (Big Data Systems)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1448"
+        },
+        {
+            "text": "Data Analytics (Business Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2890"
+        },
+        {
+            "text": "Data Analytics (Marketing Analytics)",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=2893"
+        },
+        {
+            "text": "Engineering Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1445"
+        },
+        {
+            "text": "Information Science",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1675"
+        },
+        {
+            "text": "Software Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=69"
+        },
+        {
+            "text": "Systems Engineering",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=1433"
+        },
+        {
+            "text": "Management",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7227"
+        },
+        {
+            "text": "Master of Professional Accounting",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4823"
+        },
+        {
+            "text": "Business Administration",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4811"
+        },
+        {
+            "text": "Finance",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4814"
+        },
+        {
+            "text": "Financial Data Analytics",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=4816"
+        },
+        {
+            "text": "Graduate Certificates",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7231"
+        },
+        {
+            "text": "Prep Courses",
+            "url": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/?page_id=7229"
+        },
+        {
+            "text": "Great Valley",
+            "url": "https://greatvalley.psu.edu/"
+        }
+    ],
+    "images": [
+        {
+            "alt": "\"Decision analysis diagram showing the choice to accept $2 billion, with a risk profile indicating a certain outcome at $2 billion and a cumulative risk profile showing a probability of 1 at $2 billion",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/10/Screenshot-2024-10-21-134142.png"
+        },
+        {
+            "alt": "Decision tree analysis depicting Texaco's response to a $5 billion counteroffer, with branches for acceptance, refusal, or making a $3 billion counteroffer, followed by court outcomes. The image includes a table showing probabilities for outcomes of $0, $5, and $10.3 billion, along with risk and cumulative risk profile graphs illustrating the distribution and cumulative probability of these outcomes",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/10/second.png"
+        },
+        {
+            "alt": "Decision tree analysis for Texaco's response to a $5 billion counteroffer, including probability calculations for outcomes of $0, $3, $5, and $10.3 billion, with risk and cumulative risk profile graphs.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/10/third.png"
+        },
+        {
+            "alt": "Decision-making table using the optimistic criterion, comparing three decisions across three states of nature, with d3 being the optimal choice based on the highest maximum value.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/10/Screenshot-2024-10-21-132116.png"
+        },
+        {
+            "alt": "Decision-making table using the conservative criterion, evaluating three decisions across three states of nature, with d1 being the optimal choice based on the highest minimum value.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/10/Screenshot-2024-10-21-132259.png"
+        },
+        {
+            "alt": "Regret table for decision-making, comparing three alternatives across three states of nature, with d3 being the optimal choice based on the smallest maximum regret.",
+            "src": "https://dev-great-valley-ai-taskforce-chatbot.pantheonsite.io/wp-content/uploads/2024/10/Screenshot-2024-10-21-132434.png"
+        }
+    ],
+    "tables": [
+        [
+            [
+                "Assignment",
+                "Quantity",
+                "Percentage of Final Grade"
+            ],
+            [
+                "Weekly Homework",
+                "5",
+                "40%"
+            ],
+            [
+                "Mid-term Exam",
+                "1",
+                "30%"
+            ],
+            [
+                "Final Exam",
+                "1",
+                "30%"
+            ],
+            [
+                "Total",
+                "7",
+                "100%"
+            ]
+        ]
+    ],
+    "scripts": [
+        "document.documentElement.classList.remove( 'no-js' );",
+        "window._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.7\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\uddfa\\ud83c\\uddf3\",\"\\ud83c\\uddfa\\u200b\\ud83c\\uddf3\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!n(e,\"\\ud83d\\udc26\\u200d\\u2b1b\",\"\\ud83d\\udc26\\u200b\\u2b1b\")}return!1}function f(e,t,n){var r=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement(\"canvas\"),a=r.getContext(\"2d\",{willReadFrequently:!0}),o=(a.textBaseline=\"top\",a.font=\"600 32px Arial\",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement(\"script\");t.src=e,t.defer=!0,i.head.appendChild(t)}\"undefined\"!=typeof Promise&&(o=\"wpEmojiSettingsSupports\",s=[\"flag\",\"emoji\"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener(\"DOMContentLoaded\",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(s),u.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"}),a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],\"flag\"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);",
+        "var aagb_local_object = {\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"a25c01c476\",\"licensing\":\"\"};",
+        "var gb_profile = {\"date\":\"Date\",\"score\":\"Score\",\"status\":\"Status\",\"timespent\":\"Timespent\",\"quiz_report\":\"Quiz Report\",\"completed\":\"Completed\",\"attempted\":\"Attempted\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"in_progress\":\"In Progress\",\"datatables_language\":{\"sEmptyTable\":\"No data available in table\",\"sInfo\":\"Showing _START_ to _END_ of _TOTAL_ entries\",\"sInfoEmpty\":\"Showing 0 to 0 of 0 entries\",\"sInfoFiltered\":\"(filtered from _MAX_ total entries)\",\"sInfoPostFix\":\"\",\"sInfoThousands\":\",\",\"sLengthMenu\":\"Show _MENU_ entries\",\"sLoadingRecords\":\"Loading...\",\"sProcessing\":\"Processing...\",\"sSearch\":\"Search:\",\"sZeroRecords\":\"No matching records found\",\"oPaginate\":{\"sFirst\":\"First\",\"sLast\":\"Last\",\"sNext\":\"Next\",\"sPrevious\":\"Previous\"},\"oAria\":{\"sSortAscending\":\": activate to sort column ascending\",\"sSortDescending\":\": activate to sort column descending\"}},\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\"};",
+        "var gb_data = {\"plugin_dir_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-content\\/plugins\\/grassblade\\/\",\"is_admin\":\"\",\"is_guest\":\"1\",\"ajax_url\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"post_id\":\"2143\",\"lrs_exists\":\"\",\"completion_tracking_enabled\":\"\",\"post_completion\":\"\",\"lang\":{\"confirm_reset_learner_progress\":\"Are you sure you want to reset progress on this content for all learners?\",\"S.No.\":\"S.No.\",\"User\":\"User\",\"Email\":\"Email\",\"Video\":\"Video\",\"Length\":\"Length\",\"Attempts\":\"Attempts\",\"Timespent\":\"Timespent\",\"Heatmap\":\"Heatmap\",\"Completed %\":\"Completed %\",\"Not Watched\":\"Not Watched\",\"Type\":\"Type\",\"Percentage Watched\":\"Percentage Watched\",\"Select All\":\"Select All\",\"Select None\":\"Select None\",\"Loading...\":\"Loading...\",\"No data.\":\"No data.\",\"Content\":\"Content\",\"Date\":\"Date\",\"Student Score %\":\"Student Score %\",\"Group Avg\":\"Group Avg\",\"Global Avg\":\"Global Avg\",\"Time Spent\":\"Time Spent\"},\"labels\":{\"content_passed_message\":\"Congratulations! You have successfully %s the content.\",\"content_failed_message\":\"You did not pass.\",\"content_getting_result\":\"Getting your Result ...\",\"passed\":\"Passed\",\"failed\":\"Failed\",\"completed\":\"Completed\"}};",
+        "jQuery(document).ready(function( $ ){\r\n\t\r\n/*\r\n\t\r\n$(\"p.syllabus-link\").empty().addClass(\"syllabus-link-title\").clone().appendTo('h1.page_title');\r\n\r\n*/\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n    \r\n$('ul.required-courses-nav').wrap('<div class=\"dropdown-required-courses-nav\"></div>');\r\n$('div.dropdown-required-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Required Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.elective-courses-nav').wrap('<div class=\"dropdown-elective-courses-nav\"></div>');\r\n$('div.dropdown-elective-courses-nav').prepend('<button class=\"dropdown-btn\"><span>Elective Courses</span><span class=\"arrow\"></span></button>');\r\n\t\r\n$('ul.certificates-nav').wrap('<div class=\"dropdown-certificates-nav\"></div>');\r\n$('div.dropdown-certificates-nav').prepend('<button class=\"dropdown-btn\"><span>Certificates</span><span class=\"arrow\"></span></button>');\r\n\t\r\n\t\r\n$('ul.required-courses-nav,ul.elective-courses-nav,ul.certificates-nav').each(function(){\r\nvar list=$(this),\r\n    select=$(document.createElement('select')).insertBefore($(this).hide()).change(function(){\r\n   window.open($(this).val(),'_newtab')\r\n});\r\n$('>li a', this).each(function(){\r\n  var option=$(document.createElement('option'))\r\n   .appendTo(select)\r\n   .val(this.href)\r\n   .html($(this).html());\r\n  if($(this).attr('class') === 'selected'){\r\n    option.attr('selected','selected');\r\n  }\r\n});\r\nlist.remove();\r\n});\r\n\t\r\n});",
+        "jQuery(document).ready(function( $ ){\r\n\t\t\r\n$('iframe.kmsembed').addClass('make-kaltura-responsive');\r\n$('iframe.kmsembed').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe.kmsembed').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('iframe#kaltura_player').addClass('make-kaltura-responsive');\r\n$('iframe#kaltura_player').css({\"border\":\"0px\",\"max-width\":\"100%\",\"max-height\":\"100%\",\"width\":\"100%\",\"height\":\"100%\"});\r\n$('iframe#kaltura_player').wrap('<div id=\"kplayer\" class=\"kWidgetIframeContainer\" style=\"overflow: hidden;\"></div>');\r\n\t\t\r\n$('div#kplayer.kWidgetIframeContainer').wrap('<div id=\"kaltura-player\"></div>');\r\n$('div#kaltura-player').wrap('<div id=\"wrapper\" class=\"kaltura-responsive-video\"></div>');\r\n\t\r\n});",
+        "jQuery(document).ready(function($) {\n\t\t\t\t\t\t\t\tvar text_max = parseInt(\"1\"); // Parse contentCount as an integer\n\t\t\t\t\t\t\t\t$(\".expand .aagb__accordion_component p\").hide();\n\t\t\t\t\t\t\t\t$(\".expand .aagb__accordion_component p\").slice(0, text_max).show();\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t$(\".expand .aagb_button_toggle\").click(function(e) {\n\t\t\t\t\t\t\t\t\te.preventDefault();\n\t\t\t\t\t\t\t\t\t$(\".expand .aagb__accordion_component p:hidden\").slice(0, text_max).fadeIn(\"slow\");\n\t\t\t\t\t\t\t\t\tif ($(\".expand .aagb__accordion_component p:hidden\").length === 0) {\n\t\t\t\t\t\t\t\t\t\t$(\".aagb_button_toggle\").fadeOut(\"slow\");\n\t\t\t\t\t\t\t\t\t\t$(\".aagb_overlay\").fadeOut(\"slow\");\n\t\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\t});\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t});",
+        "jQuery(document).ready(function($) {\n\t\t\t\t\t\t\t\tvar text_max = parseInt(\"1\"); // Parse contentCount as an integer\n\t\t\t\t\t\t\t\t$(\".expand .aagb__accordion_component p\").hide();\n\t\t\t\t\t\t\t\t$(\".expand .aagb__accordion_component p\").slice(0, text_max).show();\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t$(\".expand .aagb_button_toggle\").click(function(e) {\n\t\t\t\t\t\t\t\t\te.preventDefault();\n\t\t\t\t\t\t\t\t\t$(\".expand .aagb__accordion_component p:hidden\").slice(0, text_max).fadeIn(\"slow\");\n\t\t\t\t\t\t\t\t\tif ($(\".expand .aagb__accordion_component p:hidden\").length === 0) {\n\t\t\t\t\t\t\t\t\t\t$(\".aagb_button_toggle\").fadeOut(\"slow\");\n\t\t\t\t\t\t\t\t\t\t$(\".aagb_overlay\").fadeOut(\"slow\");\n\t\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\t});\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t});",
+        "jQuery(document).ready(function($) {\n\t\t\t\t\t\t\t\tvar text_max = parseInt(\"1\"); // Parse contentCount as an integer\n\t\t\t\t\t\t\t\t$(\".expand .aagb__accordion_component p\").hide();\n\t\t\t\t\t\t\t\t$(\".expand .aagb__accordion_component p\").slice(0, text_max).show();\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t$(\".expand .aagb_button_toggle\").click(function(e) {\n\t\t\t\t\t\t\t\t\te.preventDefault();\n\t\t\t\t\t\t\t\t\t$(\".expand .aagb__accordion_component p:hidden\").slice(0, text_max).fadeIn(\"slow\");\n\t\t\t\t\t\t\t\t\tif ($(\".expand .aagb__accordion_component p:hidden\").length === 0) {\n\t\t\t\t\t\t\t\t\t\t$(\".aagb_button_toggle\").fadeOut(\"slow\");\n\t\t\t\t\t\t\t\t\t\t$(\".aagb_overlay\").fadeOut(\"slow\");\n\t\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\t});\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t});",
+        "let aagb_group_accordion_text_max = 100",
+        "jQuery(document).ready(function($) {\n\t\t\t\t\t\t\t\tvar text_max = parseInt(\"1\"); // Parse contentCount as an integer\n\t\t\t\t\t\t\t\t$(\".expand .aagb__accordion_component p\").hide();\n\t\t\t\t\t\t\t\t$(\".expand .aagb__accordion_component p\").slice(0, text_max).show();\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t$(\".expand .aagb_button_toggle\").click(function(e) {\n\t\t\t\t\t\t\t\t\te.preventDefault();\n\t\t\t\t\t\t\t\t\t$(\".expand .aagb__accordion_component p:hidden\").slice(0, text_max).fadeIn(\"slow\");\n\t\t\t\t\t\t\t\t\tif ($(\".expand .aagb__accordion_component p:hidden\").length === 0) {\n\t\t\t\t\t\t\t\t\t\t$(\".aagb_button_toggle\").fadeOut(\"slow\");\n\t\t\t\t\t\t\t\t\t\t$(\".aagb_overlay\").fadeOut(\"slow\");\n\t\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\t});\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t});",
+        "jQuery(document).ready(function($) {\n\t\t\t\t\t\t\t\tvar text_max = parseInt(\"1\"); // Parse contentCount as an integer\n\t\t\t\t\t\t\t\t$(\".expand .aagb__accordion_component p\").hide();\n\t\t\t\t\t\t\t\t$(\".expand .aagb__accordion_component p\").slice(0, text_max).show();\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t$(\".expand .aagb_button_toggle\").click(function(e) {\n\t\t\t\t\t\t\t\t\te.preventDefault();\n\t\t\t\t\t\t\t\t\t$(\".expand .aagb__accordion_component p:hidden\").slice(0, text_max).fadeIn(\"slow\");\n\t\t\t\t\t\t\t\t\tif ($(\".expand .aagb__accordion_component p:hidden\").length === 0) {\n\t\t\t\t\t\t\t\t\t\t$(\".aagb_button_toggle\").fadeOut(\"slow\");\n\t\t\t\t\t\t\t\t\t\t$(\".aagb_overlay\").fadeOut(\"slow\");\n\t\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\t});\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t});",
+        "jQuery(document).ready(function($) {\n\t\t\t\t\t\t\t\tvar text_max = parseInt(\"1\"); // Parse contentCount as an integer\n\t\t\t\t\t\t\t\t$(\".expand .aagb__accordion_component p\").hide();\n\t\t\t\t\t\t\t\t$(\".expand .aagb__accordion_component p\").slice(0, text_max).show();\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t$(\".expand .aagb_button_toggle\").click(function(e) {\n\t\t\t\t\t\t\t\t\te.preventDefault();\n\t\t\t\t\t\t\t\t\t$(\".expand .aagb__accordion_component p:hidden\").slice(0, text_max).fadeIn(\"slow\");\n\t\t\t\t\t\t\t\t\tif ($(\".expand .aagb__accordion_component p:hidden\").length === 0) {\n\t\t\t\t\t\t\t\t\t\t$(\".aagb_button_toggle\").fadeOut(\"slow\");\n\t\t\t\t\t\t\t\t\t\t$(\".aagb_overlay\").fadeOut(\"slow\");\n\t\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\t});\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t});",
+        "let aagb_group_accordion_text_max = 100",
+        "document.documentElement.style.setProperty('--scrollbar-offset', window.innerWidth - document.documentElement.clientWidth + 'px' );",
+        "var feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\"};\nvar feedbackAjax = {\"ajaxurl\":\"https:\\/\\/dev-great-valley-ai-taskforce-chatbot.pantheonsite.io\\/wp-admin\\/admin-ajax.php\",\"nonce\":\"ad1918cec3\",\"user_id\":\"0\"};",
+        "var kadenceConfig = {\"screenReader\":{\"expand\":\"Child menu\",\"expandOf\":\"Child menu of\",\"collapse\":\"Child menu\",\"collapseOf\":\"Child menu of\"},\"breakPoints\":{\"desktop\":\"1024\",\"tablet\":768},\"scrollOffset\":\"0\"};"
+    ]
+}
