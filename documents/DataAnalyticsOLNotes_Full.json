@@ -1,0 +1,102 @@
+[
+  {
+    "id": "1",
+    "title": "What is data analytics?",
+    "content": "Data analysis techniques that can understand, describe, and predict meaningful trends, patterns, and behaviors from Big Data. Those in Data Analytics manage high volumes of data to determine trends, create models, and support decision-making across diverse industries."
+  },
+  {
+    "id": "2",
+    "title": "What are the prerequisites to be successful in this program?",
+    "content": "Students need at least one undergraduate course in statistics. Programming familiarity (not just R, SAS, MATLAB) is required for some tracks. Python or Java is acceptable. STAT 200 or IST 140 is recommended if missing prerequisites. BAN and MAN tracks have unique requirements detailed separately."
+  },
+  {
+    "id": "3",
+    "title": "What are the differences between the base and the big data option?",
+    "content": "Base Program provides broad analytics foundation using tools like R, Python, SQL. Big Data focuses on managing large-scale databases and real-time analytics using NoSQL, Hadoop. Career paths differ: analyst vs. data engineer roles."
+  },
+  {
+    "id": "4",
+    "title": "Can I use a Mac?",
+    "content": "MacOS is not recommended due to lack of support and compatibility issues with required tools, especially with recent chip changes (Intel to M1/M2)."
+  },
+  {
+    "id": "5",
+    "title": "What is the average class size?",
+    "content": "24 students per class."
+  },
+  {
+    "id": "6",
+    "title": "What statistics software is taught in the MAN option?",
+    "content": "Required courses use Minitab and R; electives may include SPSS and SAS."
+  },
+  {
+    "id": "7",
+    "title": "Can I decide if I want the business analytics classes later?",
+    "content": "Switching is possible but not guaranteed. Different committees review applications. Only 3 credits can transfer between options."
+  },
+  {
+    "id": "8",
+    "title": "How many start dates per year?",
+    "content": "Three: fall, spring, and summer."
+  },
+  {
+    "id": "9",
+    "title": "From what perspective is the program taught?",
+    "content": "Computational and data analytical. Involves programming, statistics, machine learning, data storage, and veracity."
+  },
+  {
+    "id": "10",
+    "title": "Are exams proctored?",
+    "content": "No. Assessment is mostly project-based, group work, discussion boards, and problems."
+  },
+  {
+    "id": "11",
+    "title": "Can I take a class or two to see if I want to do the degree program?",
+    "content": "No, we do not offer non-degree enrollment in this program."
+  },
+  {
+    "id": "12",
+    "title": "What kind of job titles might I apply for with this degree?",
+    "content": "Titles include data modeler, architect, ETL developer, BI developer, analyst, financial analyst, and more."
+  },
+  {
+    "id": "13",
+    "title": "Do I need to take the classes in a particular order?",
+    "content": "No set order, but it\u2019s recommended to start with STAT 500. Some certificate courses must follow a sequence."
+  },
+  {
+    "id": "14",
+    "title": "How much time per week do I need to dedicate to this?",
+    "content": "Approximately 8\u201310 hours per course per week."
+  },
+  {
+    "id": "15",
+    "title": "Is Machine Learning covered?",
+    "content": "Yes. Covered in IE 575, SWENG 545, and DAAN 862. Includes supervised/unsupervised learning, deep learning, and NLP."
+  },
+  {
+    "id": "16",
+    "title": "What does the capstone like?",
+    "content": "Capstone includes applying data analytic tools to real-world problems. Project format varies by track (base vs. business analytics)."
+  },
+  {
+    "id": "17",
+    "title": "What tools are used?",
+    "content": "Students use R, Python, SQL, Hadoop, Hive, Spark, Kafka, MongoDB, Tableau, Weka, Gephi, and more depending on the course."
+  },
+  {
+    "id": "18",
+    "title": "What are the classes like?",
+    "content": "Asynchronous with weekly structured lessons, videos, assignments, and quizzes."
+  },
+  {
+    "id": "19",
+    "title": "What LMS do you use?",
+    "content": "Canvas is used. Features include mobile access, messaging, grading, and integration with tools like Turnitin."
+  },
+  {
+    "id": "20",
+    "title": "Is this a STEM program?",
+    "content": "Yes. Classification code 30.3001 Computational Science, including the business analytics option."
+  }
+]

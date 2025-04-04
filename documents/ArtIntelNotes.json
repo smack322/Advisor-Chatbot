@@ -1,0 +1,257 @@
+[
+  {
+    "id": "1",
+    "title": "What is the purpose of this program?",
+    "content": "The purpose of this program is to provide professionally oriented technical education that enables graduates to drive the design, development, and deployment of AI and machine learning (ML) products and services across a broad array of application domains. Those working in the field of AI are responsible for identifying and acquiring relevant datasets, developing scalable algorithms based on state-of-the-art in AI/ML including deep learning (DL), reinforcement learning, computer vision, and natural language processing (NLP), and applying them to everything from \u201csmart\u201d consumer devices to medical imaging diagnostics and autonomous vehicles and weapon systems."
+  },
+  {
+    "id": "2",
+    "title": "What are the entrance requirements?",
+    "content": "These are the prerequisites\u00a0for this program: Mathematics: Applicants must complete Calculus I (equivalent to PSU\u2019s MATH 140), linear algebra (MATH 220), and 1 semester of statistics (STAT 200).\u00a0\u00a0If you lack these, you can take Penn State's online classes. Programming: Applicants must complete two introductory-level programming courses where both courses use the same language. If an applicant believes his/her work experience satisfies the background, he/she should include a recommendation letter from a technical colleague describing the applicant\u2019s coding contributions at work. Python is the primary language used. Applicants need to show evidence of programming beyond things like R or SQL, though. There is a lot of coding in the program.\u00a0The\u00a0PSU classes would be CMPSC 131 and 132\u00a0OR\u00a0IST 140 and 242. You can take these classes as a non-degree student.\u00a0To register, contact World Campus at\u00a0\u00a0or call them at 800-252-3592.\u00a0you may complete an Undergraduate Non-Degree Enrollment Form:\u00a0. Sample syllabus: and"
+  },
+  {
+    "id": "3",
+    "title": "Can I CLEP out of the math?",
+    "content": "The College Level Examination Program (CLEP) do not satisfy the standard requirement of Mathematics for the AI program. Language (you may want to pull from the Grad School page) The Penn State University Graduate School will require either the TOEFL or IELTS as part of the application process (Duolingo is not accepted).\u00a0 Below are the minimum required scores. TOEFL:\u00a0 Total score of\u00a0at least 80, with\u00a0at least 19\u00a0on the\u00a0Speaking Section\u00a0- official score reported to Penn State University, school code 2660 IELTS:\u00a0 Total score of\u00a0at least 6.50\u00a0- official score reported to Penn State University"
+  },
+  {
+    "id": "4",
+    "title": "What is the objective of degree?",
+    "content": "The degree program aims to provide students the skills required to identify, acquire, process, and prepare relevant datasets; research, prototype, and develop artificial intelligence (AI), machine learning (ML) and deep learning (DL) algorithms to solve challenging computer vision, natural language, and multi-modal data-fusion tasks."
+  },
+  {
+    "id": "5",
+    "title": "How would you describe the program?",
+    "content": "MPS in Artificial Intelligence (MPS-AI) degree is a 33-credit online, interdisciplinary master\u2019s program that aims to prepare students to drive the design, development, and deployment of AI and machine learning (ML) products and services across a broad array of application domains to meet contemporary social and technical challenges. Graduates will work in positions that require them to identify and acquire datasets; design and prototype AI systems utilizing data mining, deep learning, neural networks, and collective intelligence using state-of-the-art toolsets and platforms. Course descriptions:"
+  },
+  {
+    "id": "6",
+    "title": "Can I take classes non-degree?",
+    "content": "No."
+  },
+  {
+    "id": "7",
+    "title": "What are the learning objectives?",
+    "content": "Graduates will be able to demonstrate appropriate breadth and depth of interdisciplinary knowledge, and comprehension of the major issues in artificial intelligence and machine learning. Graduates will be able to acquire relevant datasets and identify and develop appropriate AI/ML algorithms to solve contemporary challenges. Graduates will be able to effectively communicate the major issues of artificial intelligence and its applications including theories, approaches, findings, and implications both technical and ethical. Graduates will be able to discriminate between state-of-the-art techniques in neural network architecture, machine learning, deep learning, and collective intelligence to determine the appropriate approach for a given problem. The program is designed for professionals in mind. In these courses, group projects offer opportunity for\u00a0teams of two students to submit project proposals\u00a0based on problems related to their work. Teams are regularly advised by the instructor to develop their solutions and achieve their project goals."
+  },
+  {
+    "id": "8",
+    "title": "How fast can I go?",
+    "content": "Two years is the minimum. Core courses will be offered a minimum of once per year, during fall and spring semesters. Electives will be offered a minimum of two times every three years. The capstones will be offered once per year in the fall semester."
+  },
+  {
+    "id": "9",
+    "title": "How many start dates per year?",
+    "content": "We offer three: spring, summer, and fall."
+  },
+  {
+    "id": "10",
+    "title": "From what perspective this the program taught?",
+    "content": "It is from a technical standpoint. Students must be comfortable programming and using analytical and mathematical approaches. While topics such as NLP, machine vision, deep and reinforcement learning can be explored using drag-and-drop tools, a fundamental understanding of their implementation, advantages, and limitations requires a rigorous and hands-on approach."
+  },
+  {
+    "id": "11",
+    "title": "I have a disability.\u00a0\u00a0Can I receive extra time for online tests?",
+    "content": "This is something you would need to take up with the relevant office at World Campus once admitted. They let the program/department know what accommodations are needed."
+  },
+  {
+    "id": "12",
+    "title": "Is there a contact at PSU for those in the military?",
+    "content": "Matt Miller\u2026 How much does the total degree cost? (changes annually!) $34,518 plus textbooks (The cost is $100-$150 per class)"
+  },
+  {
+    "id": "13",
+    "title": "Are exams proctored?",
+    "content": "We use all types of assessment in the program including homework assignments, individual and group projects, engagement in discussion, and where appropriate, tests and exams. We employ a third party online proctoring service, bat no cost to the student, for those exams that require it. Students will need computers with webcam capability."
+  },
+  {
+    "id": "14",
+    "title": "What kind of time commitment is involved?",
+    "content": "Going to graduate school is like having a part-time job. Each class will vary but if you are taking 2 classes per semester, which is standard, plan on 10-15 hours of work per week. You choose when those hours are, as there are no live classes."
+  },
+  {
+    "id": "15",
+    "title": "What software will I use in the program?",
+    "content": "It depends on the course because instructors developing the courses are selecting the platforms and tools, they feel are best for their topics. Some are using\u00a0Microsoft Azure AI and TensorFlow/Keras, and we have some faculty working on partnerships with Intel and IBM to use their AI platforms."
+  },
+  {
+    "id": "16",
+    "title": "What tools are used?",
+    "content": "We use state-of-the-art AI tools and platforms including Microsoft Azure, IBM Watson, Intel\u2019s OpenVino, and open source tools including TensorFlow and Python and its related toolkits."
+  },
+  {
+    "id": "17",
+    "title": "What are the classes like?",
+    "content": "The coursework is entirely asynchronous.  Lesson pages structure the week\u2019s activities, readings, discussions, engaging multi-media, and assignments. You can expect technical problems, short videos, quizzes, and assignments due weekly."
+  },
+  {
+    "id": "18",
+    "title": "Can I take a class or two to see if I want to do the degree program?",
+    "content": "No, we do not offer non-degree enrollment in this program."
+  },
+  {
+    "id": "19",
+    "title": "Is work experience required?",
+    "content": "No."
+  },
+  {
+    "id": "20",
+    "title": "Are there opportunities for individual research with the faculty/independent studies?",
+    "content": "All of the instructors are actively involved in AI-related research and highly-motivated students may have opportunities to engage in that research once they have demonstrated their potential through excellent performance in the program."
+  },
+  {
+    "id": "21",
+    "title": "Will my diploma say \u2018online\u2019 or look different than others at PSU?",
+    "content": "No,\u00a0World Campus does not appear on the transcript. The school issuing the degree is Penn State University\u2014School of Graduate Professional Studies. Students who take classes online have the same looking\u00a0transcript and diplomas as those who are in residence."
+  },
+  {
+    "id": "22",
+    "title": "How long do I have to complete the degree?",
+    "content": "Eight years. I have financial aid questions. Please contact the World Campus Office of Student Aid at\u00a0\u00a0. You can also visit the World Campus web page for student aid at Is this s STEM program?\nYes, it is a STEM degree. Its classification code is 11.0102 Artificial Intelligence."
+  },
+  {
+    "id": "23",
+    "title": "I have transfer credits from another school, will you evaluate them?",
+    "content": "Yes. The most you can transfer in is 9 credits, they must be within the last 5 years, you must have received a grade of B or better, and the course must be substantially similar to courses in the program\u00a0(a course syllabus is usually required). This does not guarantee admission."
+  },
+  {
+    "id": "24",
+    "title": "How do I decide between stats and AI?",
+    "content": "The applied stats program is focused on statistical approaches and there are many ML/AI techniques outside of those. So it isn't a case of one or other being more technical or rigorous, they are both very technical and rigorous in how the cover their respective topics. For those who want to dive deep into statistical analysis, and that generally means descriptive and predictive analytical approaches using statistical methods, the applied stat program is the best choice. For those interested in AI/ML, that includes some statistics, but also much more in terms of things like deep learning, natural language processing, machine vision, etc., the AI program is the way to go. Both explore the techniques and algorithms in great depth and detail."
+  },
+  {
+    "id": "25",
+    "title": "Will the BAN cert transfer in?",
+    "content": "6 credits could be applied as electives in the MPS in AI program."
+  },
+  {
+    "id": "26",
+    "title": "Do I need to take the classes in a particular order?",
+    "content": "We recommend that students first 3 courses are STAT 500, AI 801, and DAAN 862."
+  },
+  {
+    "id": "27",
+    "title": "Is the curriculum math intensive, writing intensive, or more hands on projects?",
+    "content": "Not very writing intensive, but very technical, analytical, and hands-on."
+  },
+  {
+    "id": "28",
+    "title": "What is the capstone like?",
+    "content": "All students will complete their program of study with the 3-credit capstone course (AI 894) that provides students with an opportunity to apply their knowledge of the theories, methods, processes, and tools of AI, learned throughout their program, in a culminating and summative experience. The choice of project topic and exact form will be mutually determined by the instructor and each student. A written report based on the applied project is required and must contain project description, analysis, and interpretation of its findings."
+  },
+  {
+    "id": "29",
+    "title": "What kind of job titles might I apply for with this degree?",
+    "content": "Graduates can pursue jobs as: computer science and AI researcher, AI application engineer, AI data scientist, machine learning engineer, Natural Language Processing (NLP) expert, and UX specialist and designer."
+  },
+  {
+    "id": "30",
+    "title": "How does this program compare to other schools?",
+    "content": "Unlike the other schools, Penn State\u2019s program has a solid core with a strong foundation in AI and its practical applications with a lot of thought given to organizing it into stackable certificates that are aligned with career pathways and industry desired skills. These certificates (Foundations of AI, Natural Language Processing and Computer Vision) provide mastery in competencies required to become an AI Engineer with the ability to analyze, identify, architect, design, and implement AI, NLP and Computer Vision systems. The program has a culminating experience that gives students the opportunity to apply all that they learn in the program to research and create a complex fully functioning intelligent system."
+  },
+  {
+    "id": "31",
+    "title": "What\u2019s the difference between AI and a CS program?",
+    "content": "There may be some CS master\u2019s degrees with electives or options in AI/ML but this is a degree entirely focused on AI. MS in CS degrees generally have required courses in topics such as compiler design, operating systems, programming language design, compatibility, formal logic/discrete math, etc."
+  },
+  {
+    "id": "32",
+    "title": "Are GMAT/GRE scores required?",
+    "content": "No, but the GRE is recommended for students who believe their undergraduate performance is not a true reflection of their academic potential."
+  },
+  {
+    "id": "33",
+    "title": "If I fell short of a 3.0 GPA in college, but have a real-world experience, is there leeway in application consideration?",
+    "content": "Yes. If you earned your degree a long time ago, or are very close to the 3.0, I would apply. Otherwise, students with less-than-ideal undergraduate GPAs can demonstrate their academic potential with high standardized test scores."
+  },
+  {
+    "id": "34",
+    "title": "I earned my bachelor\u2019s degree in India, where the grading is by percent of marks. How will that be converted to GPA?",
+    "content": "The University admissions staff are well-accustomed to translating international degree transcripts into GPAs and the admissions committees are familiar with international education schemes. We interpret academic performance from your transcripts. If we have any issues, we will request third-party evaluations or translations."
+  },
+  {
+    "id": "35",
+    "title": "As a student, it better to use a MAC or PC?",
+    "content": "We require students use a PC. The memory and storage requirements are on the program web page."
+  },
+  {
+    "id": "36",
+    "title": "Is there any way the program can be completed under one year?",
+    "content": "Not currently."
+  },
+  {
+    "id": "37",
+    "title": "Do we need to travel to Penn State campus any time during the program?",
+    "content": "This program does not require travel to Penn State at any time, although you are encouraged to participate in the graduation ceremony and World Campus celebration."
+  },
+  {
+    "id": "38",
+    "title": "Are classes provided on demand, live or both?",
+    "content": "You can complete our degree programs at your own pace. World Campus courses are asynchronous \u2014 meaning you don't have to attend online classes at a specific time. Our students use a combination of self-study and peer-to-peer interaction over an online learning network to facilitate instruction. You'll complete weekly assignments, readings, discussions, and occasional group work, as well as exams and other activities designed to enhance learning outcomes, all at times that are most convenient to you."
+  },
+  {
+    "id": "39",
+    "title": "What LMS do you use?",
+    "content": "PSU and World Campus use Canvas, a learning management system (LMS) that offers students and faculty new ways to manage, navigate and access their courses online. The LMS offers enhanced mobile features, grading capabilities, customizable email and text message notifications, and integration with such third-party learning applications as\u00a0\u00a0and\u00a0."
+  },
+  {
+    "id": "40",
+    "title": "What are your thoughts about this career as a mid-life career change?",
+    "content": "It is ideally suited to those seeking a mid-life career change. The tools and techniques in our program could do not implemented at large scales only a few years ago, so very few professionals have them now. The advantage for those in mid-career is that they already have the contextual understanding, etc. they understand the business problem already and now can learn the science and techniques that can be leveraged."
+  },
+  {
+    "id": "41",
+    "title": "Does Penn State World Campus career resources?",
+    "content": "You have access to many resources and tools to develop your career\u2014whether you\u2019re searching for a job, salary information, or to network. PSU has the largest dues-paying alumni association in the world\u2014and you can immediately join your local chapter\u2014so that you can begin networking. We have two online job fairs per year and resume writing and interviewing workshops. The Nittany Network is an online job board just for Penn Staters to find jobs and internships."
+  },
+  {
+    "id": "42",
+    "title": "In traditional brick and mortar schools there are resources for tutoring, faculty office hours, open lab help, etc. In this format, how do students get help if they need assistance?",
+    "content": "Faculty are very accessible through phone and email and respond to students in a very timely manner. To help you complete your work when it is most convenient for you, our technical support and academic advising staff are available through extended work hours."
+  },
+  {
+    "id": "43",
+    "title": "Will an advisor/mentor be assigned?",
+    "content": "We use an advising helpline that students can reach by email or phone to answer any questions or concerns they have or to set up specific counselling appointments."
+  },
+  {
+    "id": "44",
+    "title": "What makes Penn State's AI program unique?",
+    "content": "Hard to say that any AI program is unique \u2013 the major topics are always pretty similar, but it is comprehensive, tailorable, and delivered by faculty and units that have the highest reputation and ranking in their respective fields using state-of-the-art platforms and evidence- and research-based learning design. You receive feedback from your professor weekly."
+  },
+  {
+    "id": "45",
+    "title": "Do you have \"analytics\" on how is this program is ranked?",
+    "content": "World Campus programs are consistently ranked among the best online programs in the United States. The AI program is delivered by the same unit and faculty that deliver our highly ranked graduate engineering and data analytics programs. Please visit: \u00a0https://www.usnews.com/education/online-education/engineering/rankings"
+  },
+  {
+    "id": "46",
+    "title": "Is this program accredited? If so, who is the organization that provides the accreditation?",
+    "content": "The program is not separately accredited. The MPS in AI is designed for professional workers with different background. It is a blend of project-based learning, case-studies and theoretical foundations. Mathematics in Deep learning can be intimidating. However, the deep learning course in our program provides several case studies and tutorials in each lesson to build your confidence in training various machine learning tasks and mastering Keras Tensorflow libraries. Some courses also include refreshers (i.e., mathematics, python and calculus) before introducing theoretical concepts and illustrate their implementations in Python. The MPS in AI is also academic degree in which instructors cover more than O'Reilly and Packt books while guiding students to apply AI techniques to solve real world problems. What do I need to submit to apply? (you probably want to pull this from each\u2019s admissions How to Apply pg ) Admission to the MPS in Artificial Intelligence program will be based on baccalaureate academic records, applicable work experience, and two letters of recommendation from a previous professor or supervisor who can attest to the applicant\u2019s academic potential. Applicants with undergraduate degree in a computer science, engineering or mathematics may apply. Students from other disciplines will be considered based on prior coursework and standardized test scores. An applicant must hold either (1) a bachelor's degree from a U.S. regionally accredited institution or (2) a postsecondary degree that is equivalent to a U.S. baccalaureate degree earned from an officially recognized degree-granting international institution. This degree must be from an officially recognized degree-granting institution in the country in which it operates. Applications must include a statement of professional goals, a curriculum vita or resume, and two letters of recommendation. An undergraduate cumulative grade-point average of 3.0 or better on a 4.0 scale in the final two years of undergraduate studies is required. English proficiency test scores (TOEFL/IELTS) may be required for international applicants. (The Penn State University Graduate School requires an overall/total IELTS score of at least 6.5.\u00a0 There is no minimum score for each component. If you take the TOEFL, the requirement is a total score of at least 80, with at least 19 on the Speaking Section.)"
+  },
+  {
+    "id": "47",
+    "title": "How will students be exposed to the field of study?",
+    "content": "Students will have the opportunity to engage in the discipline and practice of artificial intelligence through several mechanisms. First, they may choose to participate in the research projects of the Big Data Lab \u2013 IoT, Analytics, AI, a research lab involving six faculty housed at the School of Graduate Professional Studies. Second, they can join the FLAI (For the Love of AI) Student Group. This is a faculty-led student group founded in 2018 which meets to discuss contemporary issues in AI as well as coordinate student teams to compete in AI/ML focused competitions such as DataFest, Code4PA, and Kaggle. Student teams from the MPS in Data Analytics have competed in similar competitions over the last few years and have won or placed highly in many of those. Finally, Penn State Great Valley recently joined the Linux AI Foundation (LF AI) as an Associate Member. Working in tandem with services available through the Nittany AI Alliance, this membership will allow students to expand their experiences with AI technologies with opportunities to learn from, contribute to, and interact with companies pursuing AI projects."
+  },
+  {
+    "id": "48",
+    "title": "What kind of hardware/software will I need?",
+    "content": "The MPS-AI program will require students to possess suitably configured personal computers and Internet connections consistent with the technical requirements specified for using Penn State\u2019s course management system, Canvas, and Penn State Penn State\u2019s web conferencing system, Zoom. The program and its courses do not require a specific operating system. Courses which include Python programming require Anaconda/Conda to create virtual environments.\u00a0Anaconda/Conda are both available for MacOS Windows and Linux. The Foundations of AI course and the deep learning course use Deepnote, a cloud-based platform for Python (zero installation). Students are also encouraged to download code and run them on their machines. Our website is under review and will be updated shortly."
+  },
+  {
+    "id": "49",
+    "title": "Does this program have robotics or bioinformatics?",
+    "content": "We currently do not offer courses specifically focused on Robotics and Bioinformatics. However, we are actively engaged in developing new elective courses and certificates to broaden the array of available options. In courses such as\u00a0Deep Learning, Natural Language Processing (NLP), or Reinforcement Learning, students are encouraged to explore group projects with their peers, affording them the flexibility to delve into various subjects, including but not limited to bioinformatics and robotics. Additionally, an Individual Studies course (A-I 596) is provided as an exceptional opportunity for students to advance their expertise in any of these fields independently. This course offers a platform to hone one's skills and knowledge on a chosen topic (i.e., bioinformatics, robotics, or related disciplines)."
+  },
+  {
+    "id": "50",
+    "title": "Does this degree primarily emphasize theory and the use of existing libraries / apis, or does it ask students to create the various systems from the ground up?",
+    "content": "Our curriculum offers a balanced blend of theory and programming, ensuring a comprehensive learning experience. Our courses provide a tradeoff between theoretical concepts and practical programming skills, allowing you to gain a deep understanding of the subject matter.\n\nIn our lessons, we introduce foundational concepts that form the basis of the field. We believe it is crucial to grasp the underlying principles and mathematical formulas to truly comprehend the subject. Alongside these theoretical aspects, we provide code snippets that demonstrate the implementation of these formulas. This hands-on approach enables you to bridge the gap between theory and practice, empowering you to apply what you have learned in real-world scenarios.\n\nMoreover, our courses go beyond theory and offer case studies and tutorials that focus on industry-grade APIs and libraries. You will have the opportunity to work with popular tools such as TensorFlow, PyTorch, NLTK, OpenGym, and more."
+  },
+  {
+    "id": "51",
+    "title": "Why PSU?",
+    "content": "Unlike the other schools, Penn State\u2019s program has a solid core with a strong foundation in AI and its practical applications with a lot of thought given to organizing it into stackable certificates that are aligned with career pathways and industry desired skills. These certificates (Foundations of AI, Natural Language Processing and Computer Vision) provide mastery in competencies required to become an AI Engineer with the ability to analyze, identify, architect, design, and implement AI, NLP and Computer Vision systems. The program has a culminating experience that gives students the opportunity to apply all that they learn in the program to research and create a complex fully functioning intelligent system."
+  }
+]
